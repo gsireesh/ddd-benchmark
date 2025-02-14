@@ -1,0 +1,5 @@
+fire
+pandas
+pdfplumber
+pypdf
+tqdm
