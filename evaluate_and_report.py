@@ -327,9 +327,19 @@ def evaluate_predictions(gt_df, pred_df):
 
 
 def evaluate_predictions_wrapper(
-    predictions_path: str = "predictions/gpt4o_visual_jeremiah.test.csv",
+    predictions_path: str,
     ground_truth_path="data/zeolite_data_location_annotated.csv",
-):
+) -> None:
+    """Evaluate predictions against annotations, and provide precision, recall and f1.
+
+    This script calculates and reports both overall metrics and metrics per-location of the data.
+
+    :param predictions_path: Path to CSV containining predictions. Script will error if there are
+    expected columns missing. Expected columns are all columns found in NUMERIC_COLUMNS and
+    TEXT_COLUMNS in this file.
+    :param ground_truth_path: The path to the ground truth CSV. Should not need to be updated.
+    :return:
+    """
     gt_df = pd.read_csv(ground_truth_path)
     pred_df = pd.read_csv(predictions_path)
 
