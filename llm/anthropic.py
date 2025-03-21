@@ -1,9 +1,10 @@
+import json
 from json import JSONDecodeError
 import os
 from typing import Iterable
 
 import anthropic
-import json
+import pandas as pd
 
 from llm import DDDPredictorABC
 from llm.utils import base64_encode_file
@@ -18,6 +19,10 @@ class AnthropicPredictor(DDDPredictorABC):
     def __init__(self, model_name: str, api_key: str):
         self.model_name = model_name
         self.client = anthropic.Anthropic(api_key=api_key)
+
+    @property
+    def accepts_pdf(self) -> bool:
+        return True
 
     def predict_from_xml(self, prompt: str):
         response = self.client.messages.create(

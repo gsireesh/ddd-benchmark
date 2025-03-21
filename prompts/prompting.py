@@ -87,4 +87,4 @@ def infer_prompt_variables(model_name, dataset):
 
     dataset_specific_variables = variables_by_dataset[dataset]
 
-    return {"model_maker": model_maker, **dataset_specific_variables}
+    return {"model_makers": model_maker, **dataset_specific_variables}
