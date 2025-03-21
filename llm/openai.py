@@ -89,6 +89,10 @@ class OpenAIPredictor(DDDPredictorABC):
         )
         self.stream = stream
 
+    @property
+    def accepts_pdf(self) -> bool:
+        return True
+
     def predict_from_xml(self, prompt):
         response = self.client.chat.completions.create(
             model=self.model_name,

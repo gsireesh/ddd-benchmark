@@ -47,9 +47,9 @@ def generate_page_images(
 
 def generate_page_images_wrapper(
     meta_df_path: str = "data/zeolite_data_location_annotated.csv",
-    input_directory: str = "data/zeolite_papers",
+    input_directory: str = "data/pdf",
     output_pdf_directory: str = "data/zeolite_page_pdfs",
-    output_image_directory: str = "data/zeolite_page_images",
+    output_image_directory: str = "data/page_images",
 ) -> None:
     """Generate page images and standalone page PDFs from the original PDF documents.
 

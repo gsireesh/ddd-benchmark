@@ -6,7 +6,7 @@ from fire import Fire
 import pandas as pd
 
 from data.dataset_metadata import metadata_by_dataset
-from llm import Anthropic, DDDPredictorABC, OpenAI
+from llm import AnthropicPredictor, DDDPredictorABC, OpenAIPredictor
 from prompts import get_prompt_builders, infer_prompt_variables
 
 
@@ -15,13 +15,13 @@ RESULTS_DIRECTORY = "results"
 
 def get_llm(model_name, secrets) -> DDDPredictorABC:
     if "gpt" in model_name:
-        llm = OpenAI(
-            model_name="model_name",
-            org_key=secrets["openai_org"],
-            project_key=secrets["openai_project"],
+        llm = OpenAIPredictor(
+            model_name=model_name,
+            org_id=secrets["openai_org"],
+            api_key=secrets["openai_project"],
         )
     elif "claude" in model_name:
-        llm = Anthropic(model_name=model_name, api_key=secrets["anthropic_api_key"])
+        llm = AnthropicPredictor(model_name=model_name, api_key=secrets["anthropic_api_key"])
     else:
         raise AssertionError(f"Model name {model_name} does not map onto known provider.")
     return llm
@@ -40,6 +40,7 @@ def generate_predictions(
     llm = get_llm(model_name, secrets)
     dataset_metadata = metadata_by_dataset[dataset]
     data_directory = dataset_metadata["data_directory"]
+    meta_df = pd.read_csv(dataset_metadata["metadata_csv"])
 
     prompt_builders = get_prompt_builders(
         model_name=model_name,
@@ -51,7 +52,7 @@ def generate_predictions(
 
     for prompt_builder in prompt_builders:
         prompt_dfs = []
-        for doi in dataset:
+        for doi in meta_df["doi"]:
             if modality == "xml":
                 filename = doi.replace("/", "_") + ".xml"
                 with open(os.path.join(data_directory, "xml", filename)) as f:

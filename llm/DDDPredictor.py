@@ -5,8 +5,8 @@ from typing import Iterable
 
 class DDDPredictorABC(ABC):
 
-    @abstractmethod
     @property
+    @abstractmethod
     def accepts_pdf(self) -> bool:
         pass
 
