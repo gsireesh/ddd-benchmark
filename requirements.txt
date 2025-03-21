@@ -1,6 +1,8 @@
+anthropic
 fire
 lxml
 openpyxl
+openai
 pandas
 pdfplumber
 pypdf
