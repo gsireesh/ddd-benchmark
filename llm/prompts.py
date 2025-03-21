@@ -153,4 +153,5 @@ prompt_db = {
     ("gpt4o", "visual", "hungyi"): gpt4o_visual_hungyi,
     ("gpt4o", "xml", "jeremiah"): gpt4o_xml_jeremiah,
     ("gpt4o", "xml", "hungyi"): gpt4o_xml_hungyi,
+    ("claude-3-5-haiku-20241022", "xml", "hungyi"): gpt4o_xml_hungyi,
 }
