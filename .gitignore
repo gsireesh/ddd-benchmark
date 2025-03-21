@@ -1,6 +1,8 @@
 # Custom
 secrets.json
 data/**/*.png
+data/**/*.pdf
+data/**/*.xml
 
 
 # Byte-compiled / optimized / DLL files
