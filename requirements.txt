@@ -1,4 +1,6 @@
+anthropic
 fire
+openai
 pandas
 pdfplumber
 pypdf
