@@ -1,5 +1,29 @@
-# todo: revise prompts with D/H/M as specified time units and C/K/F as specified temp units.
+from dataclasses import dataclass
+import string
 
+
+@dataclass
+class PromptBuilder:
+    id: str
+    model_prefix_filters: list[str]
+    intended_datasets: list[str]
+    intended_modalities: list[str]
+    template: str
+
+    @property
+    def fields(self):
+        formatter = string.Formatter()
+        field_names = [
+            field_name
+            for (literal_text, field_name, format_spec, conversion) in formatter.parse(
+                self.template
+            )
+            if field_name is not None
+        ]
+        return field_names
+
+
+# todo: revise prompts with D/H/M as specified time units and C/K/F as specified temp units.
 gpt4o_visual_jeremiah = """\
 You are a materials science research assistant agent. Your task is to visually analyze papers from the materials science field and extract information about {recipe_type} recipes.
 Each image will contain a table describing the synthesis recipe. This table will contain information about the recipe including:
@@ -35,6 +59,7 @@ The JSON response should be in this format:
         ...,
         ]
 }}"""
+
 
 gpt4o_xml_jeremiah = """\
 XML Document:
@@ -148,10 +173,33 @@ Your final response should be a JSON object of the following form:
         ]
 }}"""
 
-prompt_db = {
-    ("gpt4o", "visual", "jeremiah"): gpt4o_visual_jeremiah,
-    ("gpt4o", "visual", "hungyi"): gpt4o_visual_hungyi,
-    ("gpt4o", "xml", "jeremiah"): gpt4o_xml_jeremiah,
-    ("gpt4o", "xml", "hungyi"): gpt4o_xml_hungyi,
-    ("claude-3-5-haiku-20241022", "xml", "hungyi"): gpt4o_xml_hungyi,
-}
+prompt_builders = [
+    PromptBuilder(
+        id="gpt4o_visual_jeremiah",
+        model_prefix_filters=["gpt"],
+        intended_datasets=["zeolite"],
+        intended_modalities=["pdf"],
+        template=gpt4o_visual_jeremiah,
+    ),
+    PromptBuilder(
+        id="gpt4o_xml_jeremiah",
+        model_prefix_filters=["gpt"],
+        intended_datasets=["zeolite"],
+        intended_modalities=["xml"],
+        template=gpt4o_xml_jeremiah,
+    ),
+    PromptBuilder(
+        id="gpt4o_visual_hungyi",
+        model_prefix_filters=["gpt"],
+        intended_datasets=["zeolite"],
+        intended_modalities=["pdf"],
+        template=gpt4o_visual_hungyi,
+    ),
+    PromptBuilder(
+        id="gpt4o_xml_hungyi",
+        model_prefix_filters=["gpt"],
+        intended_datasets=["zeolite"],
+        intended_modalities=["xml"],
+        template=gpt4o_xml_hungyi,
+    ),
+]
