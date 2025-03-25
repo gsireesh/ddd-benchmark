@@ -2,17 +2,18 @@
 from llm import DDDPredictorABC
 from typing import Iterable
 import pandas as pd
-from transformers import AutoModelForCausalLM, AutoProcessor, GenerationConfig
+from transformers import MllamaForConditionalGeneration, AutoProcessor, GenerationConfig
 from PIL import Image
+import torch
 
 def postprocess_response(response_content: str) -> pd.DataFrame:
     return response_content
 
-class MolmoPredictor(DDDPredictorABC):
+class LlamaVisionPredictor(DDDPredictorABC):
     def __init__(self, model_name: str, blank_page_path: str):
         self.model_name = model_name
         self.blank_page_path = blank_page_path
-        self.model = Molmo()
+        self.model = LlamaVision()
 
     @property
     def accepts_pdf(self) -> bool:
@@ -38,41 +39,50 @@ class MolmoPredictor(DDDPredictorABC):
         else:
             return {}
 
-class Molmo(object):
+class LlamaVision(object):
     def __init__(self):
         self.processor = AutoProcessor.from_pretrained(
-            'allenai/Molmo-7B-O-0924',
-            trust_remote_code=True,
-            torch_dtype='auto',
+            "meta-llama/Llama-3.2-11B-Vision-Instruct",
             device_map='auto'
         )
-        self.model = AutoModelForCausalLM.from_pretrained(
-            'allenai/Molmo-7B-O-0924',
-            trust_remote_code=True,
-            torch_dtype='auto',
+        self.model = MllamaForConditionalGeneration.from_pretrained(
+            "meta-llama/Llama-3.2-11B-Vision-Instruct",
+            torch_dtype=torch.bfloat16,
             device_map='auto'
         )
 
     def build_inputs(self, prompt, image_paths):
-        inputs = self.processor.process(
-            images=[Image.open(ip) for ip in image_paths],
-            text=prompt
-        )
-        inputs = {k: v.to(self.model.device).unsqueeze(0) for k, v in inputs.items()}
+        messages = [
+            {"role": "user", "content": [
+                {"type": "image"},
+                {"type": "text", "text": prompt}
+            ]}
+        ]
+        input_text = self.processor.apply_chat_template(messages, add_generation_prompt=True)
+
+        images = [Image.open(ip) for ip in image_paths]
+
+        inputs = self.processor(
+            images=images,
+            text=input_text,
+            add_special_tokens=False,
+            return_tensors='pt'
+        ).to(self.model.device)
+
         return inputs
     
     def __call__(self, prompt, image_paths=None, use_json=True, pbar=None):
         if image_paths is None:
             image_paths = []
+
         inputs = self.build_inputs(prompt, image_paths)
-        output = self.model.generate_from_batch(
-            inputs,
-            GenerationConfig(max_new_tokens=200, stop_strings="<|endoftext|>"),
-            tokenizer=self.processor.tokenizer
+
+        output = self.model.generate(
+            **inputs,
+            max_new_tokens=8192,
         )
 
-        # only get generated tokens; decode them to text
         generated_tokens = output[0,inputs['input_ids'].size(1):]
-        generated_text = self.processor.tokenizer.decode(generated_tokens, skip_special_tokens=True)
 
-        return generated_text
+        # only get generated tokens; decode them to text
+        return self.processor.decode(generated_tokens, skip_special_tokens=True)

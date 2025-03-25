@@ -5,13 +5,16 @@ from pathlib import Path
 from fire import Fire
 import pandas as pd
 
-from data.dataset_metadata import metadata_by_dataset
-from llm import AnthropicPredictor, DDDPredictorABC, OpenAIPredictor, MolmoPredictor
+from data.dataset_metadata import metadata_by_dataset, blank_page_path
+from llm import AnthropicPredictor, DDDPredictorABC, OpenAIPredictor, MolmoPredictor, LlamaVisionPredictor
 from prompts import get_prompt_builders, infer_prompt_variables
 
 
 RESULTS_DIRECTORY = "results"
 
+MODEL_NAME_HELP="""Model name {model_name} does not map to known provider.
+Please choose from:
+    [ gpt* claude molmo llamavision ]"""
 
 def get_llm(model_name, secrets) -> DDDPredictorABC:
     if "gpt" in model_name:
@@ -23,9 +26,11 @@ def get_llm(model_name, secrets) -> DDDPredictorABC:
     elif "claude" in model_name:
         llm = AnthropicPredictor(model_name=model_name, api_key=secrets["anthropic_api_key"])
     elif model_name == "molmo":
-        llm = MolmoPredictor(model_name=model_name)
+        llm = MolmoPredictor(model_name=model_name, blank_page_path=blank_page_path)
+    elif model_name == "llamavision":
+        llm = LlamaVisionPredictor(model_name=model_name, blank_page_path=blank_page_path)
     else:
-        raise AssertionError(f"Model name {model_name} does not map onto known provider.")
+        raise AssertionError(MODEL_NAME_HELP.format(model_name=model_name))
     return llm
 
 

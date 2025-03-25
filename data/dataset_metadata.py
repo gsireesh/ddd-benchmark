@@ -4,3 +4,5 @@ metadata_by_dataset = {
         "metadata_csv": "data/zeolite/publisher_metadata.csv",
     }
 }
+
+blank_page_path = "data/tabula_rasa.png"
