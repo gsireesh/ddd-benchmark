@@ -3,6 +3,7 @@ secrets.json
 data/**/*.png
 data/**/*.pdf
 data/**/*.xml
+development/
 
 
 # Byte-compiled / optimized / DLL files

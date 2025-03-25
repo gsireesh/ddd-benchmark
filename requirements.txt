@@ -8,3 +8,5 @@ pdfplumber
 pypdf
 requests-ratelimiter
 tqdm
+pillow
+transformers
