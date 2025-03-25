@@ -1,4 +1,3 @@
-
 from llm import DDDPredictorABC
 from typing import Iterable
 import pandas as pd
@@ -9,8 +8,7 @@ def postprocess_response(response_content: str) -> pd.DataFrame:
     return response_content
 
 class MolmoPredictor(DDDPredictorABC):
-    def __init__(self, model_name: str, blank_page_path: str):
-        self.model_name = model_name
+    def __init__(self, blank_page_path: str):
         self.blank_page_path = blank_page_path
         self.model = Molmo()
 
@@ -67,7 +65,7 @@ class Molmo(object):
         inputs = self.build_inputs(prompt, image_paths)
         output = self.model.generate_from_batch(
             inputs,
-            GenerationConfig(max_new_tokens=200, stop_strings="<|endoftext|>"),
+            GenerationConfig(max_new_tokens=8192, stop_strings="<|endoftext|>"),
             tokenizer=self.processor.tokenizer
         )
 

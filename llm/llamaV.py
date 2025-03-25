@@ -10,8 +10,7 @@ def postprocess_response(response_content: str) -> pd.DataFrame:
     return response_content
 
 class LlamaVisionPredictor(DDDPredictorABC):
-    def __init__(self, model_name: str, blank_page_path: str):
-        self.model_name = model_name
+    def __init__(self, blank_page_path: str):
         self.blank_page_path = blank_page_path
         self.model = LlamaVision()
 

@@ -3,3 +3,5 @@ from llm.anthropic import AnthropicPredictor
 from llm.openai import OpenAIPredictor
 from llm.molmo import MolmoPredictor
 from llm.llamaV import LlamaVisionPredictor
+from llm.olmo import OlmoPredictor
+from llm.llama import LlamaPredictor
