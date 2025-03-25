@@ -55,6 +55,8 @@ def generate_predictions(
         for doi in meta_df["doi"]:
             if modality == "xml":
                 filename = doi.replace("/", "_") + ".xml"
+                if not os.path.exists(filename):
+                    continue
                 with open(os.path.join(data_directory, "xml", filename)) as f:
                     xml_content = f.read()
                 prompt = prompt_builder.template.format(**prompt_variables, context=xml_content)
@@ -64,12 +66,15 @@ def generate_predictions(
                     pdf_filename = os.path.join(
                         data_directory, "pdf", doi.replace("/", "_") + ".pdf"
                     )
-
+                    if not os.path.exists(pdf_filename):
+                        continue
                     prompt = prompt_builder.template.format(**prompt_variables)
                     doi_df = llm.predict_from_pdf(prompt, pdf_filename)
                 else:
                     filename_glob = doi.replace("/", "_") + "_*.png"
-                    image_files = Path(data_directory, "page_images").glob(filename_glob)
+                    image_files = list(Path(data_directory, "page_images").glob(filename_glob))
+                    if not os.path.exists(image_files[0]):
+                        continue
                     prompt = prompt_builder.template.format(**prompt_variables)
                     doi_df = llm.predict_from_page_images(prompt, image_files)
             else:
