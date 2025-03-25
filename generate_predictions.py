@@ -6,7 +6,7 @@ from fire import Fire
 import pandas as pd
 
 from data.dataset_metadata import metadata_by_dataset
-from llm import AnthropicPredictor, DDDPredictorABC, OpenAIPredictor
+from llm import AnthropicPredictor, DDDPredictorABC, OpenAIPredictor, MolmoPredictor
 from prompts import get_prompt_builders, infer_prompt_variables
 
 
@@ -22,6 +22,8 @@ def get_llm(model_name, secrets) -> DDDPredictorABC:
         )
     elif "claude" in model_name:
         llm = AnthropicPredictor(model_name=model_name, api_key=secrets["anthropic_api_key"])
+    elif model_name == "molmo":
+        llm = MolmoPredictor(model_name=model_name)
     else:
         raise AssertionError(f"Model name {model_name} does not map onto known provider.")
     return llm

@@ -5,3 +5,5 @@ pandas
 pdfplumber
 pypdf
 tqdm
+pillow
+transformers
