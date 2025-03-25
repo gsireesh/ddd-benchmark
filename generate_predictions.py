@@ -6,7 +6,7 @@ from fire import Fire
 import pandas as pd
 
 from data.dataset_metadata import metadata_by_dataset, blank_page_path
-from llm import AnthropicPredictor, DDDPredictorABC, OpenAIPredictor, MolmoPredictor, LlamaVisionPredictor
+from llm import AnthropicPredictor, DDDPredictorABC, OpenAIPredictor, MolmoPredictor, LlamaVisionPredictor, LlamaPredictor, OlmoPredictor
 from prompts import get_prompt_builders, infer_prompt_variables
 
 
@@ -29,6 +29,10 @@ def get_llm(model_name, secrets) -> DDDPredictorABC:
         llm = MolmoPredictor(model_name=model_name, blank_page_path=blank_page_path)
     elif model_name == "llamavision":
         llm = LlamaVisionPredictor(model_name=model_name, blank_page_path=blank_page_path)
+    elif model_name == "llama":
+        llm = LlamaPredictor()
+    elif model_name == "olmo":
+        llm = OlmoPredictor()
     else:
         raise AssertionError(MODEL_NAME_HELP.format(model_name=model_name))
     return llm
