@@ -1,5 +1,9 @@
+anthropic
 fire
+openai
 pandas
 pdfplumber
 pypdf
 tqdm
+pillow
+transformers
