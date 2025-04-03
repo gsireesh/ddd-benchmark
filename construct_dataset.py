@@ -13,26 +13,39 @@ import requests
 from requests_ratelimiter import LimiterSession
 from tqdm import tqdm
 
-METADATA_KEYS = ["doi", "publisher", "journal", "included_in_dataset"]
+METADATA_KEYS = ["doi", "publisher", "journal", "included_in_dataset", "xml", "pdf"]    # not used in code
 API_TIMEOUT = 10
 
+INCLUDED_PUBLISHERS = [
+    "Elsevier BV",
+    "Springer Science and Business Media LLC",
+    "Wiley"
+]
+
+INCLUDED_PUBLISHERS_SHORT_NAMES = [
+    "elsevier",  # for Elsevier BV
+    "springer",  # for Springer Science and Business Media LLC
+    "wiley",     # for Wiley
+]
+
+DATASET_TO_PATH = {
+    "zeolite": "data/zeolite",
+    "aluminum": "data/aluminum",
+}
+
 def download_elsevier_papers(
-    doi_list: list[str],
-    api_key: str,
-    out_folder: str,
-    timeout: float = API_TIMEOUT,
-) -> tuple[list[str], list[str]]:
+    doi_list: list[str], api_key: str, out_folder: str, timeout: float = API_TIMEOUT
+) -> dict[str, str]:
     
     session = LimiterSession(per_second=10)
-    succeeded_dois = []
-    failed_dois = []
+    doi_format = {}
     os.makedirs(os.path.join(out_folder, "xml"), exist_ok=True)
 
     for doi in tqdm(doi_list, "Downloading Elsevier Papers."):
         file_path = os.path.join(out_folder, "xml", clean_doi(doi) + ".xml")
         if os.path.exists(file_path):
             logging.info(f"Elsevier: DOI {doi} file already exists, skipping.")
-            succeeded_dois.append(doi)
+            doi_format[doi] = "xml"
             continue
         try:
             response = session.get(
@@ -43,33 +56,35 @@ def download_elsevier_papers(
 
         except requests.exceptions.Timeout:
             logging.error(f"Elsevier: DOI {doi} timed out.")
-            failed_dois.append(doi)
+            doi_format[doi] = "failed"
             continue
 
         if response.status_code == 200:
-            with open(file_path, "w") as f:
+            with open(file_path, "w", encoding="utf-8") as f:
                 f.write(response.text)
             logging.info(f"Elsevier: DOI {doi} saved to file.")
-            succeeded_dois.append(doi)
+            doi_format[doi] = "xml"
         else:
             logging.error(f"Elsevier: DOI {doi} failed with status code {response.status_code}.")
-            failed_dois.append(doi)
+            doi_format[doi] = "failed"
 
-    logging.info(f"Elsevier: {len(succeeded_dois)} succeeded, {len(failed_dois)} failed.")
-    return succeeded_dois, failed_dois
+    succeeded_count = sum(1 for status in doi_format.values() if status != "failed")
+    failed_count = len(doi_list) - succeeded_count
+    logging.info(f"Elsevier: {succeeded_count} succeeded, {failed_count} failed.")
+    return doi_format
 
 def download_springer_papers(
     doi_list: list[str], api_key: str, out_folder: str, timeout: float = API_TIMEOUT
-) -> tuple[list[str], list[str]]:
+) -> dict[str, str]:
+    
     session = LimiterSession(per_minute=100, per_day=500)
-    succeeded_dois = []
-    failed_dois = []
+    doi_format = {}
     os.makedirs(os.path.join(out_folder, "xml"), exist_ok=True)
     for doi in tqdm(doi_list, "Downloading Springer Papers."):
         file_path = os.path.join(out_folder, "xml", clean_doi(doi) + ".xml")
         if os.path.exists(file_path):
             logging.info(f"Springer: DOI {doi} file already exists, skipping.")
-            succeeded_dois.append(doi)
+            doi_format[doi] = "xml"
             continue
         try:
             response = session.get(
@@ -78,31 +93,33 @@ def download_springer_papers(
             )
         except requests.exceptions.Timeout:
             logging.error(f"Springer: DOI {doi} timed out.")
-            failed_dois.append(doi)
+            doi_format[doi] = "failed"
             continue
         if response.status_code == 200:
             logging.info(f"Springer: DOI {doi} saved to file.")
             with open(file_path, "w", encoding="utf-8") as f:
                 f.write(response.text)
-            succeeded_dois.append(doi)
+            doi_format[doi] = "xml"
         else:
             logging.error(f"Springer: DOI {doi} failed with status code {response.status_code}.")
-            failed_dois.append(doi)
-    logging.info(f"Springer: {len(succeeded_dois)} succeeded, {len(failed_dois)} failed.")
-    return succeeded_dois, failed_dois
+            doi_format[doi] = "failed"
+    
+    succeeded_count = sum(1 for status in doi_format.values() if status != "failed")
+    failed_count = len(doi_list) - succeeded_count
+    logging.info(f"Springer: {succeeded_count} succeeded, {failed_count} failed.")
+    return doi_format
 
 def download_wiley_papers(
     doi_list: list[str], api_key: str, out_folder: str, timeout=API_TIMEOUT
-) -> tuple[list[str], list[str]]:
+) -> dict[str, str]:
     session = LimiterSession(per_second=3, per_minute=6)
-    succeeded_dois = []
-    failed_dois = []
+    doi_format = {}
     os.makedirs(os.path.join(out_folder, "pdf"), exist_ok=True)
     for doi in tqdm(doi_list, "Downloading Wiley Papers."):
         file_path = os.path.join(out_folder, "pdf", clean_doi(doi) + ".pdf")
         if os.path.exists(file_path):
             logging.info(f"Wiley: DOI {doi} file already exists, skipping.")
-            succeeded_dois.append(doi)
+            doi_format[doi] = "pdf"
             continue
         try:
             response = session.get(
@@ -112,30 +129,21 @@ def download_wiley_papers(
             )
         except requests.exceptions.Timeout:
             logging.error(f"Wiley: DOI {doi} timed out.")
-            failed_dois.append(doi)
+            doi_format[doi] = "failed"
             continue
         if response.status_code == 200:
             logging.info(f"Wiley: DOI {doi} saved to file.")
             with open(file_path, "wb") as f:
                 f.write(response.content)
-            succeeded_dois.append(doi)
+            doi_format[doi] = "pdf"
         else:
             logging.error(f"Wiley: DOI {doi} failed with status code {response.status_code}.")
-            failed_dois.append(doi)
-    logging.info(f"Wiley: {len(succeeded_dois)} succeeded, {len(failed_dois)} failed.")
-    return succeeded_dois, failed_dois
+            doi_format[doi] = "failed"
 
-PUBLISHER_DOWNLOADERS:dict[str, Callable[[list[str], str, str], tuple[list[str], list[str]]]] = {
-    "Elsevier BV":                              download_elsevier_papers,
-    "Springer Science and Business Media LLC":  download_springer_papers,
-    "Wiley":                                    download_wiley_papers
-}
-PUBLISHER_SHORT_NAMES = [name.lower().split()[0] for name in PUBLISHER_DOWNLOADERS.keys()]
-
-DATASET_TO_PATH = {
-    "zeolite": "data/zeolite",
-    "aluminum": "data/aluminum",
-}
+    succeeded_count = sum(1 for status in doi_format.values() if status != "failed")
+    failed_count = len(doi_list) - succeeded_count
+    logging.info(f"Wiley: {succeeded_count} succeeded, {failed_count} failed.")
+    return doi_format
 
 def clean_doi(doi: str):
     """Clean a DOI so it can be used as a filename"""
@@ -217,7 +225,7 @@ def get_publisher_metadata(doi_list: list[str]) -> pd.DataFrame:
         else:
             doi_meta["publisher"] = None
 
-        doi_meta["included_in_dataset"] = doi_meta["publisher"] in PUBLISHER_DOWNLOADERS.keys()
+        doi_meta["included_in_dataset"] = doi_meta["publisher"] in INCLUDED_PUBLISHERS
         doi_meta["pdf"] = False
         doi_meta["xml"] = False
 
@@ -225,7 +233,7 @@ def get_publisher_metadata(doi_list: list[str]) -> pd.DataFrame:
 
     return pd.DataFrame(meta_dicts)
 
-def construct_dataset(dataset: str, from_scratch: bool, secrets: dict[str, str|list[str]]) -> None:
+def construct_dataset(dataset: str, from_scratch: bool, secrets: dict[str, str], excluded_publishers:list[str]) -> None:
 
     # Check if the user requested dataset is in the recognized options
     if dataset not in DATASET_TO_PATH:
@@ -258,62 +266,66 @@ def construct_dataset(dataset: str, from_scratch: bool, secrets: dict[str, str|l
         "publisher"
     )
 
-    excluded_publishers_input = secrets.get("EXCLUDED_PUBLISHERS", [])
-        
-    # Handle single string case, convert to list
-    if isinstance(excluded_publishers_input, str):
-        excluded_publishers_input = [excluded_publishers_input]
-
-    excluded_publisher_input_short = set(
-        name.lower().strip().split()[0] for name in excluded_publishers_input if name.strip()
-    )
-
-    EXCLUDED_PUBLISHERS_SHORT_NAMES = excluded_publisher_input_short & set(PUBLISHER_SHORT_NAMES)
+    excluded_publishers_short_names = []
+    for publisher in excluded_publishers:
+        short_name = publisher.lower().split(" ")[0]
+        if short_name in INCLUDED_PUBLISHERS_SHORT_NAMES:
+            excluded_publishers_short_names.append(short_name)
     
     for publisher, group_index in grouped_by_publisher.groups.items():
 
-        if publisher not in PUBLISHER_DOWNLOADERS.keys(): 
+        if publisher not in INCLUDED_PUBLISHERS: 
             logging.info(f"Publisher '{publisher}' not in recognized options, skipping.")
             continue
 
-        publisher_short:str = publisher.lower().split()[0]
+        short_name:str = publisher.lower().split(" ")[0]
 
-        if publisher_short in EXCLUDED_PUBLISHERS_SHORT_NAMES:
-            logging.info(f"Excluding publisher '{publisher_short.capitalize()}' from download process.")
+        if short_name in excluded_publishers_short_names:
+            logging.info(f"Excluding publisher '{publisher}' from download process.")
             continue
 
-        downloader = PUBLISHER_DOWNLOADERS[publisher]
-        secrets_key = f"{publisher_short.upper()}_API_KEY"
+        secrets_key = f"{short_name.upper()}_API_KEY"
 
         assert secrets_key in secrets, f"{secrets_key} not found in secrets.json"
 
         group = publisher_metadata.loc[group_index]
 
-        succeeded_dois, failed_dois = downloader(
-            group["doi"].tolist(),
-            api_key=secrets[secrets_key],
-            out_folder=dataset_path,
-        )
-        
         match publisher:
             case "Elsevier BV":
-                download_format = "xml"
+                doi_format = download_elsevier_papers(
+                    group["doi"].tolist(),
+                    api_key=secrets[secrets_key],
+                    out_folder=dataset_path,
+                )
             case "Springer Science and Business Media LLC":
-                download_format = "xml"
+                doi_format = download_springer_papers(
+                    group["doi"].tolist(),
+                    api_key=secrets[secrets_key],
+                    out_folder=dataset_path,
+                )
             case "Wiley":
-                download_format = "pdf"
-            case _:
-                logging.warning(f"Unknown publisher '{publisher}', defaulting to 'xml' format.")
-                download_format = "xml"
-        
-        for doi in succeeded_dois:
-            publisher_metadata.loc[publisher_metadata["doi"] == doi, download_format] = True
+                doi_format = download_wiley_papers(
+                    group["doi"].tolist(),
+                    api_key=secrets[secrets_key],
+                    out_folder=dataset_path,
+                )
+
+        for doi, download_format in doi_format.items():
+            match download_format:
+                case "xml":
+                    publisher_metadata.loc[publisher_metadata["doi"] == doi, "xml"] = True
+                case "pdf":
+                    publisher_metadata.loc[publisher_metadata["doi"] == doi, "pdf"] = True
+                case "both":
+                    publisher_metadata.loc[publisher_metadata["doi"] == doi, "xml"] = True
+                    publisher_metadata.loc[publisher_metadata["doi"] == doi, "pdf"] = True
+                case "failed":
+                    pass
+                case _:
+                    logging.error(f"Unknown format '{download_format}' for DOI: {doi}")
 
         publisher_metadata.to_csv(publisher_metadata_path)
-        logging.info(
-            f"Updated publisher metadata for {publisher}: "
-            f"{len(succeeded_dois)} succeeded, {len(failed_dois)} failed."
-        )
+        logging.info(f"Updated publisher metadata for {publisher}")
 
     pdf_amount = publisher_metadata["pdf"].sum()
     xml_amount = publisher_metadata["xml"].sum()
@@ -325,12 +337,11 @@ def construct_dataset(dataset: str, from_scratch: bool, secrets: dict[str, str|l
 
 
 def construct_dataset_wrapper(
-    dataset: str, from_scratch: bool = False, secrets_file: str = "secrets.json"
+    dataset: str, from_scratch: bool = False, secrets_file: str = "secrets.json", excluded_publishers: list[str] = []
 ):
     with open(secrets_file) as f:
         secrets = json.load(f)
-    construct_dataset(dataset, from_scratch, secrets)
-
+    construct_dataset(dataset, from_scratch, secrets, excluded_publishers)
 
 if __name__ == "__main__":
     logging.basicConfig(
