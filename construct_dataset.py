@@ -276,7 +276,7 @@ def construct_dataset(dataset: str, from_scratch: bool, secrets: dict[str, str|l
             logging.info(f"Publisher '{publisher}' not in recognized options, skipping.")
             continue
 
-        publisher_short = publisher.lower().split()[0]
+        publisher_short:str = publisher.lower().split()[0]
 
         if publisher_short in EXCLUDED_PUBLISHERS_SHORT_NAMES:
             logging.info(f"Excluding publisher '{publisher_short.capitalize()}' from download process.")
@@ -308,6 +308,12 @@ def construct_dataset(dataset: str, from_scratch: bool, secrets: dict[str, str|l
         
         for doi in succeeded_dois:
             publisher_metadata.loc[publisher_metadata["doi"] == doi, download_format] = True
+
+        publisher_metadata.to_csv(publisher_metadata_path)
+        logging.info(
+            f"Updated publisher metadata for {publisher}: "
+            f"{len(succeeded_dois)} succeeded, {len(failed_dois)} failed."
+        )
 
     pdf_amount = publisher_metadata["pdf"].sum()
     xml_amount = publisher_metadata["xml"].sum()
