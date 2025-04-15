@@ -1,6 +1,7 @@
 import ast
 import json
 import logging
+from multiprocessing import Pool
 import os
 import re
 import time
@@ -13,19 +14,14 @@ import requests
 from requests_ratelimiter import LimiterSession
 from tqdm import tqdm
 
-METADATA_KEYS = ["doi", "publisher", "journal", "included_in_dataset", "xml", "pdf"]    # not used in code
 API_TIMEOUT = 10
 
-INCLUDED_PUBLISHERS = [
-    "Elsevier BV",
-    "Springer Science and Business Media LLC",
-    "Wiley"
-]
+INCLUDED_PUBLISHERS = ["Elsevier BV", "Springer Science and Business Media LLC", "Wiley"]
 
 INCLUDED_PUBLISHERS_SHORT_NAMES = [
     "elsevier",  # for Elsevier BV
     "springer",  # for Springer Science and Business Media LLC
-    "wiley",     # for Wiley
+    "wiley",  # for Wiley
 ]
 
 DATASET_TO_PATH = {
@@ -33,10 +29,11 @@ DATASET_TO_PATH = {
     "aluminum": "data/aluminum",
 }
 
+
 def download_elsevier_papers(
     doi_list: list[str], api_key: str, out_folder: str, timeout: float = API_TIMEOUT
 ) -> dict[str, str]:
-    
+
     session = LimiterSession(per_second=10)
     doi_format = {}
     os.makedirs(os.path.join(out_folder, "xml"), exist_ok=True)
@@ -73,41 +70,97 @@ def download_elsevier_papers(
     logging.info(f"Elsevier: {succeeded_count} succeeded, {failed_count} failed.")
     return doi_format
 
+
+def get_springer_file_links_from_crossref(
+    session,
+    doi,
+    mailto_email,
+    timeout,
+):
+    crossref_response = session.get(
+        f"http://dx.doi.org/{doi}?mailto={mailto_email}",
+        headers={
+            "Accept": "application/vnd.crossref.unixsd+xml",
+            "User-Agent": "CMU Materials Metadata Getter",
+        },
+        timeout=timeout,
+    )
+
+    crossref_soup = BeautifulSoup(crossref_response.text)
+    text_mining_header = crossref_soup.find("collection", {"property": "text-mining"})
+    if text_mining_header is None:
+        return {}
+
+    type_to_link = {
+        res["mime_type"].split("/")[1]: res.text for res in text_mining_header.find_all("resource")
+    }
+    return type_to_link
+
+
 def download_springer_papers(
-    doi_list: list[str], api_key: str, out_folder: str, timeout: float = API_TIMEOUT
+    doi_list: list[str],
+    api_key: str,
+    mailto_email: str,
+    out_folder: str,
+    timeout: float = API_TIMEOUT,
 ) -> dict[str, str]:
-    
-    session = LimiterSession(per_minute=100, per_day=500)
+
+    springer_session = LimiterSession(per_minute=100, per_day=500)
+    crossref_session = LimiterSession(per_second=50)
     doi_format = {}
     os.makedirs(os.path.join(out_folder, "xml"), exist_ok=True)
     for doi in tqdm(doi_list, "Downloading Springer Papers."):
-        file_path = os.path.join(out_folder, "xml", clean_doi(doi) + ".xml")
-        if os.path.exists(file_path):
-            logging.info(f"Springer: DOI {doi} file already exists, skipping.")
-            doi_format[doi] = "xml"
+        xml_file_path = os.path.join(out_folder, "xml", clean_doi(doi) + ".xml")
+        pdf_file_path = os.path.join(out_folder, "pdf", clean_doi(doi) + ".pdf")
+
+        if os.path.exists(xml_file_path) and os.path.exists(xml_file_path.replace(".xml", ".pdf")):
+            logging.info(f"Springer: DOI {doi} file already exists in both formats, skipping.")
+            doi_format[doi] = "both"
             continue
         try:
-            response = session.get(
-                f"https://api.springer.com/openaccess/jats?q=doi:{doi}&api_key={api_key}",
-                timeout=timeout,
+            type_to_file_url = get_springer_file_links_from_crossref(
+                crossref_session, doi, mailto_email, timeout
             )
+
+            downloaded_pdf = False
+            downloaded_xml = False
+
+            for type, file_url in type_to_file_url.items:
+                response = springer_session.get(file_url)
+                if response.status_code != 200:
+                    logging.error(
+                        f"Springer: DOI {doi} in format {type} failed with status code"
+                        f" {response.status_code}."
+                    )
+
+                if type == "pdf":
+                    downloaded_pdf = response.status_code == 200
+                    with open(pdf_file_path, "wb") as f:
+                        f.write(response.content)
+                elif type == "html":
+                    downloaded_html = response.status_code == 200
+                    with open(xml_file_path, "w", encoding="utf-8") as f:
+                        f.write(response.content)
+
+                if downloaded_xml and downloaded_pdf:
+                    doi_format[doi] = "both"
+                elif downloaded_xml:
+                    doi_format[doi] = "xml"
+                elif downloaded_pdf:
+                    doi_format[doi] = "pdf"
+                else:
+                    doi_format[doi] = "failed"
+
         except requests.exceptions.Timeout:
             logging.error(f"Springer: DOI {doi} timed out.")
             doi_format[doi] = "failed"
             continue
-        if response.status_code == 200:
-            logging.info(f"Springer: DOI {doi} saved to file.")
-            with open(file_path, "w", encoding="utf-8") as f:
-                f.write(response.text)
-            doi_format[doi] = "xml"
-        else:
-            logging.error(f"Springer: DOI {doi} failed with status code {response.status_code}.")
-            doi_format[doi] = "failed"
-    
+
     succeeded_count = sum(1 for status in doi_format.values() if status != "failed")
     failed_count = len(doi_list) - succeeded_count
     logging.info(f"Springer: {succeeded_count} succeeded, {failed_count} failed.")
     return doi_format
+
 
 def download_wiley_papers(
     doi_list: list[str], api_key: str, out_folder: str, timeout=API_TIMEOUT
@@ -145,9 +198,11 @@ def download_wiley_papers(
     logging.info(f"Wiley: {succeeded_count} succeeded, {failed_count} failed.")
     return doi_format
 
+
 def clean_doi(doi: str):
     """Clean a DOI so it can be used as a filename"""
     return re.sub(r'[<>:"/\\|?*]', "_", doi)
+
 
 def get_zeolite_dois(dataset_directory) -> list[str]:
     """
@@ -157,83 +212,110 @@ def get_zeolite_dois(dataset_directory) -> list[str]:
         List[str]: A list of DOIs of papers in the Zeolite dataset.
     """
     ZEOLITE_DATASET_PATH = os.path.join(dataset_directory, "ZEOSYN.xlsx")
-    assert os.path.exists(ZEOLITE_DATASET_PATH), f"Zeolite dataset excel file not found at {ZEOLITE_DATASET_PATH}"
+    assert os.path.exists(
+        ZEOLITE_DATASET_PATH
+    ), f"Zeolite dataset excel file not found at {ZEOLITE_DATASET_PATH}"
     zeolite_dataset_df = pd.read_excel(ZEOLITE_DATASET_PATH)
     zeolite_dataset_df = zeolite_dataset_df.dropna(axis=0, thresh=20)
     zeolite_dataset_DOIs = zeolite_dataset_df["doi"].dropna().unique().tolist()
     return zeolite_dataset_DOIs
 
+
 def get_aluminum_dois(dataset_directory) -> list[str]:
     """
     Extract DOIs of papers in the Al-alloy dataset from the provided CSV file.
-    
+
     Returns:
         List[str]: A list of DOIs of papers in the Al-alloy dataset.
     """
     AL_ALLOY_COMPOSITION_PATH = os.path.join(dataset_directory, "composition.csv")
     AL_ALLOY_PROPERTIES_PATH = os.path.join(dataset_directory, "property.csv")
-    assert os.path.exists(AL_ALLOY_COMPOSITION_PATH), f"Al-alloy composition CSV file not found at {AL_ALLOY_COMPOSITION_PATH}"
-    assert os.path.exists(AL_ALLOY_PROPERTIES_PATH), f"Al-alloy properties CSV file not found at {AL_ALLOY_PROPERTIES_PATH}"
+    assert os.path.exists(
+        AL_ALLOY_COMPOSITION_PATH
+    ), f"Al-alloy composition CSV file not found at {AL_ALLOY_COMPOSITION_PATH}"
+    assert os.path.exists(
+        AL_ALLOY_PROPERTIES_PATH
+    ), f"Al-alloy properties CSV file not found at {AL_ALLOY_PROPERTIES_PATH}"
     Al_alloy_composition_df = pd.read_csv(AL_ALLOY_COMPOSITION_PATH, dtype={"ft_doi_list": str})
     Al_alloy_composition_dois = (
         Al_alloy_composition_df["ft_doi_list"]
-        .dropna()                  # drop NaN values
-        .apply(ast.literal_eval)   # convert the string of list to an actual list
-        .explode()                 # flatten the list of lists
-        .unique()                  # get unique DOIs
-        .tolist()                  # convert to a list
+        .dropna()  # drop NaN values
+        .apply(ast.literal_eval)  # convert the string of list to an actual list
+        .explode()  # flatten the list of lists
+        .unique()  # get unique DOIs
+        .tolist()  # convert to a list
     )
     Al_alloy_properties_df = pd.read_csv(AL_ALLOY_PROPERTIES_PATH)
-    Al_alloy_properties_dois = (
-        Al_alloy_properties_df["doi"]
-        .dropna()
-        .unique()
-        .tolist()
-    )
+    Al_alloy_properties_dois = Al_alloy_properties_df["doi"].dropna().unique().tolist()
     Al_alloy_dataset_DOIs = sorted(list(set(Al_alloy_composition_dois + Al_alloy_properties_dois)))
     return Al_alloy_dataset_DOIs
 
-def get_publisher_metadata(doi_list: list[str]) -> pd.DataFrame:
-    meta_dicts = []
-    for doi in tqdm(doi_list, "Getting Publisher Metadata"):
 
-        doi_meta = {"doi": doi}
-        response = requests.get(
-            f"http://dx.doi.org/{doi}",
-            headers={"Accept": "application/vnd.crossref.unixsd+xml"},
-            timeout=10,
-        )
-        if response is None:
-            meta_dicts.append(doi_meta)
-            continue
-        soup = BeautifulSoup(response.text, features="xml")
+def get_doi_metadata(doi: str, session=None) -> dict[str, str]:
+    if session is None:
+        session = requests
+    doi_meta = {"doi": doi}
+    response = session.get(
+        f"http://dx.doi.org/{doi}",
+        headers={"Accept": "application/vnd.crossref.unixsd+xml"},
+        timeout=10,
+    )
+    if response is None:
+        return doi_meta
+    soup = BeautifulSoup(response.text, features="xml")
 
-        # Get journal information
-        if journal_meta := soup.find("journal_metadata"):
-            if full_title := journal_meta.find("full_title"):
-                doi_meta["journal"] = full_title.text.strip()
+    doi_meta["article_type"] = soup.find("doi")["type"]
+    # Get journal information
+    if journal_meta := soup.find("journal_metadata"):
+        if full_title := journal_meta.find("full_title"):
+            doi_meta["journal"] = full_title.text.strip()
 
-        # Try series metadata if journal metadata not found
-        if not doi_meta.get("journal"):
-            if series_meta := soup.find("series_metadata"):
-                if title := series_meta.find("title"):
-                    doi_meta["journal"] = title.text.strip()
+    # Try series metadata if journal metadata not found
+    if not doi_meta.get("journal"):
+        if series_meta := soup.find("series_metadata"):
+            if title := series_meta.find("title"):
+                doi_meta["journal"] = title.text.strip()
 
-        # Get publisher information
-        if publisher_tag := soup.find("crm-item", attrs={"name": "publisher-name"}):
-            doi_meta["publisher"] = publisher_tag.text.strip()
-        else:
-            doi_meta["publisher"] = None
+    # Get publisher information
+    if publisher_tag := soup.find("crm-item", attrs={"name": "publisher-name"}):
+        doi_meta["publisher"] = publisher_tag.text.strip()
+    else:
+        doi_meta["publisher"] = None
 
         doi_meta["included_in_dataset"] = doi_meta["publisher"] in INCLUDED_PUBLISHERS
         doi_meta["pdf"] = False
         doi_meta["xml"] = False
 
-        meta_dicts.append(doi_meta)
+    return doi_meta
 
+
+def get_publisher_metadata_parallel(doi_list: list[str]) -> pd.DataFrame:
+    # no more than 50 per second, so 10/sec with 5 pools. I know this isn't exact, so discounting
+    # to 8/sec
+    session = LimiterSession(per_second=8)
+
+    with Pool(processes=5) as pool:
+        meta_dicts = list(
+            tqdm(
+                pool.starmap(get_doi_metadata, [(doi, session) for doi in doi_list]),
+                total=len(doi_list),
+            )
+        )
     return pd.DataFrame(meta_dicts)
 
-def construct_dataset(dataset: str, from_scratch: bool, secrets: dict[str, str], excluded_publishers:list[str]) -> None:
+
+def get_publisher_metadata(doi_list: list[str]) -> pd.DataFrame:
+    meta_dicts = []
+    session = LimiterSession(per_second=50)
+    for doi in tqdm(doi_list, "Getting Publisher Metadata"):
+        doi_meta = get_doi_metadata(doi, session)
+        meta_dicts.append(doi_meta)
+    return pd.DataFrame(meta_dicts)
+
+
+def construct_dataset(
+    dataset: str, from_scratch: bool, secrets: dict[str, str], excluded_publishers: list[str]
+) -> None:
 
     # Check if the user requested dataset is in the recognized options
     if dataset not in DATASET_TO_PATH:
@@ -256,7 +338,7 @@ def construct_dataset(dataset: str, from_scratch: bool, secrets: dict[str, str],
             raise AssertionError("Unrecognized_dataset")
 
         logging.info("Getting publisher metadata...")
-        publisher_metadata = get_publisher_metadata(doi_list)
+        publisher_metadata = get_publisher_metadata_parallel(doi_list)
         publisher_metadata.to_csv(publisher_metadata_path)
     else:
         logging.info("Loading publisher metadata...")
@@ -271,22 +353,18 @@ def construct_dataset(dataset: str, from_scratch: bool, secrets: dict[str, str],
         short_name = publisher.lower().split(" ")[0]
         if short_name in INCLUDED_PUBLISHERS_SHORT_NAMES:
             excluded_publishers_short_names.append(short_name)
-    
+
     for publisher, group_index in grouped_by_publisher.groups.items():
 
-        if publisher not in INCLUDED_PUBLISHERS: 
+        if publisher not in INCLUDED_PUBLISHERS:
             logging.info(f"Publisher '{publisher}' not in recognized options, skipping.")
             continue
 
-        short_name:str = publisher.lower().split(" ")[0]
+        short_name: str = publisher.lower().split(" ")[0]
 
         if short_name in excluded_publishers_short_names:
             logging.info(f"Excluding publisher '{publisher}' from download process.")
             continue
-
-        secrets_key = f"{short_name.upper()}_API_KEY"
-
-        assert secrets_key in secrets, f"{secrets_key} not found in secrets.json"
 
         group = publisher_metadata.loc[group_index]
 
@@ -294,21 +372,23 @@ def construct_dataset(dataset: str, from_scratch: bool, secrets: dict[str, str],
             case "Elsevier BV":
                 doi_format = download_elsevier_papers(
                     group["doi"].tolist(),
-                    api_key=secrets[secrets_key],
+                    api_key=secrets["ELSEVIER_API_KEY"],
                     out_folder=dataset_path,
                 )
             case "Springer Science and Business Media LLC":
                 doi_format = download_springer_papers(
                     group["doi"].tolist(),
-                    api_key=secrets[secrets_key],
+                    mailto_email=secrets["SPRINGER_MAILTO"],
                     out_folder=dataset_path,
                 )
             case "Wiley":
                 doi_format = download_wiley_papers(
                     group["doi"].tolist(),
-                    api_key=secrets[secrets_key],
+                    api_key=secrets["WILEY_API_KEY"],
                     out_folder=dataset_path,
                 )
+            case _:
+                doi_format = {}
 
         for doi, download_format in doi_format.items():
             match download_format:
@@ -337,11 +417,15 @@ def construct_dataset(dataset: str, from_scratch: bool, secrets: dict[str, str],
 
 
 def construct_dataset_wrapper(
-    dataset: str, from_scratch: bool = False, secrets_file: str = "secrets.json", excluded_publishers: list[str] = []
+    dataset: str,
+    from_scratch: bool = False,
+    secrets_file: str = "secrets.json",
+    excluded_publishers: list[str] = [],
 ):
     with open(secrets_file) as f:
         secrets = json.load(f)
     construct_dataset(dataset, from_scratch, secrets, excluded_publishers)
+
 
 if __name__ == "__main__":
     logging.basicConfig(
