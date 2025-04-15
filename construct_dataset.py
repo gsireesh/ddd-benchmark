@@ -4,8 +4,6 @@ import logging
 from multiprocessing import Pool
 import os
 import re
-import time
-from typing import Callable
 
 from bs4 import BeautifulSoup
 import fire
@@ -13,6 +11,7 @@ import pandas as pd
 import requests
 from requests_ratelimiter import LimiterSession
 from tqdm import tqdm
+
 
 API_TIMEOUT = 10
 
@@ -99,7 +98,6 @@ def get_springer_file_links_from_crossref(
 
 def download_springer_papers(
     doi_list: list[str],
-    api_key: str,
     mailto_email: str,
     out_folder: str,
     timeout: float = API_TIMEOUT,
@@ -125,7 +123,7 @@ def download_springer_papers(
             downloaded_pdf = False
             downloaded_xml = False
 
-            for type, file_url in type_to_file_url.items:
+            for type, file_url in type_to_file_url.items():
                 response = springer_session.get(file_url)
                 if response.status_code != 200:
                     logging.error(
@@ -138,7 +136,7 @@ def download_springer_papers(
                     with open(pdf_file_path, "wb") as f:
                         f.write(response.content)
                 elif type == "html":
-                    downloaded_html = response.status_code == 200
+                    downloaded_xml = response.status_code == 200
                     with open(xml_file_path, "w", encoding="utf-8") as f:
                         f.write(response.content)
 
@@ -211,14 +209,14 @@ def get_zeolite_dois(dataset_directory) -> list[str]:
     Returns:
         List[str]: A list of DOIs of papers in the Zeolite dataset.
     """
-    ZEOLITE_DATASET_PATH = os.path.join(dataset_directory, "ZEOSYN.xlsx")
+    zeolite_dataset_path = os.path.join(dataset_directory, "ZEOSYN.xlsx")
     assert os.path.exists(
-        ZEOLITE_DATASET_PATH
-    ), f"Zeolite dataset excel file not found at {ZEOLITE_DATASET_PATH}"
-    zeolite_dataset_df = pd.read_excel(ZEOLITE_DATASET_PATH)
+        zeolite_dataset_path
+    ), f"Zeolite dataset excel file not found at {zeolite_dataset_path}"
+    zeolite_dataset_df = pd.read_excel(zeolite_dataset_path)
     zeolite_dataset_df = zeolite_dataset_df.dropna(axis=0, thresh=20)
-    zeolite_dataset_DOIs = zeolite_dataset_df["doi"].dropna().unique().tolist()
-    return zeolite_dataset_DOIs
+    zeolite_dataset_dois = zeolite_dataset_df["doi"].dropna().unique().tolist()
+    return zeolite_dataset_dois
 
 
 def get_aluminum_dois(dataset_directory) -> list[str]:
@@ -314,7 +312,7 @@ def get_publisher_metadata(doi_list: list[str]) -> pd.DataFrame:
 
 
 def construct_dataset(
-    dataset: str, from_scratch: bool, secrets: dict[str, str], excluded_publishers: list[str]
+    dataset: str, from_scratch: bool, secrets: dict[str, str], excluded_publishers: list[str] | None
 ) -> None:
 
     # Check if the user requested dataset is in the recognized options
@@ -349,6 +347,8 @@ def construct_dataset(
     )
 
     excluded_publishers_short_names = []
+    if excluded_publishers is None:
+        excluded_publishers = []
     for publisher in excluded_publishers:
         short_name = publisher.lower().split(" ")[0]
         if short_name in INCLUDED_PUBLISHERS_SHORT_NAMES:
@@ -420,7 +420,7 @@ def construct_dataset_wrapper(
     dataset: str,
     from_scratch: bool = False,
     secrets_file: str = "secrets.json",
-    excluded_publishers: list[str] = [],
+    excluded_publishers: list[str] | None = None,
 ):
     with open(secrets_file) as f:
         secrets = json.load(f)
