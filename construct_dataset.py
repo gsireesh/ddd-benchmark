@@ -85,7 +85,7 @@ def get_springer_file_links_from_crossref(
         timeout=timeout,
     )
 
-    crossref_soup = BeautifulSoup(crossref_response.text)
+    crossref_soup = BeautifulSoup(crossref_response.text, "xml")
     text_mining_header = crossref_soup.find("collection", {"property": "text-mining"})
     if text_mining_header is None:
         return {}
@@ -107,44 +107,56 @@ def download_springer_papers(
     crossref_session = LimiterSession(per_second=50)
     doi_format = {}
     os.makedirs(os.path.join(out_folder, "xml"), exist_ok=True)
+    os.makedirs(os.path.join(out_folder, "pdf"), exist_ok=True)
     for doi in tqdm(doi_list, "Downloading Springer Papers."):
         xml_file_path = os.path.join(out_folder, "xml", clean_doi(doi) + ".xml")
         pdf_file_path = os.path.join(out_folder, "pdf", clean_doi(doi) + ".pdf")
 
-        if os.path.exists(xml_file_path) and os.path.exists(xml_file_path.replace(".xml", ".pdf")):
-            logging.info(f"Springer: DOI {doi} file already exists in both formats, skipping.")
-            doi_format[doi] = "both"
-            continue
         try:
             type_to_file_url = get_springer_file_links_from_crossref(
                 crossref_session, doi, mailto_email, timeout
             )
 
-            downloaded_pdf = False
-            downloaded_xml = False
+            download_format = {"pdf": False, "xml": False}
 
-            for type, file_url in type_to_file_url.items():
+            if not type_to_file_url:
+                logging.error(f"Springer: no file URLs found for doi {doi}. Skipping.")
+                continue
+
+            for format, file_url in type_to_file_url.items():
+
+                if format == "pdf":
+                    file_path = pdf_file_path
+                elif format == "html":
+                    file_path = xml_file_path
+                else:
+                    logging.info(
+                        f"Springer: Found URL for file in unrecognized file type {format}, "
+                        f"for DOI {doi}, skipping."
+                    )
+                    continue
+
+                if os.path.exists(file_path):
+                    logging.info(f"Springer: DOI {doi} {format} file already exists, skipping.")
+                    download_format[format] = True
+                    continue
+
                 response = springer_session.get(file_url)
                 if response.status_code != 200:
                     logging.error(
-                        f"Springer: DOI {doi} in format {type} failed with status code"
+                        f"Springer: DOI {doi} in format {format} failed with status code"
                         f" {response.status_code}."
                     )
 
-                if type == "pdf":
-                    downloaded_pdf = response.status_code == 200
-                    with open(pdf_file_path, "wb") as f:
-                        f.write(response.content)
-                elif type == "html":
-                    downloaded_xml = response.status_code == 200
-                    with open(xml_file_path, "w", encoding="utf-8") as f:
-                        f.write(response.content)
+                download_format[format] = True
+                with open(file_path, "wb") as f:
+                    f.write(response.content)
 
-                if downloaded_xml and downloaded_pdf:
+                if download_format["xml"] and download_format["pdf"]:
                     doi_format[doi] = "both"
-                elif downloaded_xml:
+                elif download_format["xml"]:
                     doi_format[doi] = "xml"
-                elif downloaded_pdf:
+                elif download_format["pdf"]:
                     doi_format[doi] = "pdf"
                 else:
                     doi_format[doi] = "failed"
@@ -204,19 +216,15 @@ def clean_doi(doi: str):
 
 def get_zeolite_dois(dataset_directory) -> list[str]:
     """
-    Extract DOIs of papers in the Zeolite dataset from the provided xlsx.
+    Get the DOIs of concern for the zeolite dataset. We are using a subset of the DOIs; The method
+    for making this choice is detailed in eda_zeolite.ipynb.
 
     Returns:
         List[str]: A list of DOIs of papers in the Zeolite dataset.
     """
-    zeolite_dataset_path = os.path.join(dataset_directory, "ZEOSYN.xlsx")
-    assert os.path.exists(
-        zeolite_dataset_path
-    ), f"Zeolite dataset excel file not found at {zeolite_dataset_path}"
-    zeolite_dataset_df = pd.read_excel(zeolite_dataset_path)
-    zeolite_dataset_df = zeolite_dataset_df.dropna(axis=0, thresh=20)
-    zeolite_dataset_dois = zeolite_dataset_df["doi"].dropna().unique().tolist()
-    return zeolite_dataset_dois
+    from data.zeolite.constraints import sampled_dois
+
+    return sampled_dois
 
 
 def get_aluminum_dois(dataset_directory) -> list[str]:
@@ -280,9 +288,9 @@ def get_doi_metadata(doi: str, session=None) -> dict[str, str]:
     else:
         doi_meta["publisher"] = None
 
-        doi_meta["included_in_dataset"] = doi_meta["publisher"] in INCLUDED_PUBLISHERS
-        doi_meta["pdf"] = False
-        doi_meta["xml"] = False
+    doi_meta["included_in_dataset"] = doi_meta["publisher"] in INCLUDED_PUBLISHERS
+    doi_meta["pdf"] = False
+    doi_meta["xml"] = False
 
     return doi_meta
 
@@ -326,7 +334,7 @@ def construct_dataset(
 
     # Collect publisher metadata
     if from_scratch:
-        logging.info("  Loading dataset...")
+        logging.info("Loading dataset...")
         os.makedirs(dataset_path, exist_ok=True)
         if dataset == "zeolite":
             doi_list = get_zeolite_dois(dataset_path)
@@ -409,11 +417,19 @@ def construct_dataset(
 
     pdf_amount = publisher_metadata["pdf"].sum()
     xml_amount = publisher_metadata["xml"].sum()
-    total_amount = len(publisher_metadata)
-    pdf_percentage = pdf_amount / total_amount * 100
-    xml_percentage = xml_amount / total_amount * 100
-    logging.info(f"PDFs: {pdf_amount}/{total_amount} ({pdf_percentage:.2f}%)")
-    logging.info(f"XMLs: {xml_amount}/{total_amount} ({xml_percentage:.2f}%)")
+    total_pdfs = (
+        publisher_metadata["publisher"]
+        .isin(["Wiley", "Springer Science and Business " "Media LLC"])
+        .sum()
+    )
+
+    total_xml = (
+        publisher_metadata["publisher"]
+        .isin(["Elsevier BV", "Springer Science and Business " "Media LLC"])
+        .sum()
+    )
+    logging.info(f"PDFs: {pdf_amount}/{total_pdfs}")
+    logging.info(f"XMLs: {xml_amount}/{total_xml}")
 
 
 def construct_dataset_wrapper(
@@ -429,8 +445,6 @@ def construct_dataset_wrapper(
 
 if __name__ == "__main__":
     logging.basicConfig(
-        filename="DDD_benchmark_dataset_builder.log",
-        filemode="w",
         level=logging.INFO,
         format="%(asctime)s %(levelname)-8s:[%(filename)-25s:%(lineno)-4d] %(message)s",
     )
