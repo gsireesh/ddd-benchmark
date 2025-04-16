@@ -5,6 +5,9 @@ import numpy as np
 import pandas as pd
 from tqdm.auto import tqdm
 
+
+# This is a comment
+
 NUMERICAL_COLUMNS = ["Si", "Ge", "Al", "OH", "H2O", "HF", "SDA", "B", "Time", "Temp"]
 TEXT_COLUMNS = ["SDA Type", "Extracted"]
 ANNOTATED_LOCATIONS = [
