@@ -204,9 +204,12 @@ def download_springer_papers(
             doi_format[doi] = "failed"
             continue
 
-    succeeded_count = sum(1 for status in doi_format.values() if status != "failed")
-    failed_count = len(doi_list) - succeeded_count
-    logging.info(f"Springer: {succeeded_count} succeeded, {failed_count} failed.")
+    pdf_succeeded_count = sum(1 for status in doi_format.values() if status in ["pdf", "both"])
+    xml_succeeded_count = sum(1 for status in doi_format.values() if status in ["xml", "both"])
+    logging.info(
+        f"Springer: {pdf_succeeded_count}/{len(doi_list)} PDFs succeeded, "
+        f"{xml_succeeded_count}/{len(doi_list)} XMLs succeeded."
+    )
     return doi_format
 
 
