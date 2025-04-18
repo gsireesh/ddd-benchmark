@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 import fire
 import pandas as pd
 import requests
+from requests import Session
 from requests.adapters import HTTPAdapter
 from requests_ratelimiter import LimiterSession
 from tqdm import tqdm
@@ -98,6 +99,27 @@ def get_springer_file_links_from_crossref(
     return type_to_link
 
 
+def add_springer_tables(file_content: bytes, session: Session) -> bytes:
+    file_text = file_content.decode("utf-8")
+    soup = BeautifulSoup(file_text)
+    table_links = [
+        "https://link.springer.com/article" + link["href"]
+        for link in soup.find_all("a", {"data-track-action": "view table"})
+    ]
+
+    top_level_elements = [soup]
+    for table_link in table_links:
+        table_page_response = session.get(table_link)
+        table_soup = BeautifulSoup(table_page_response.text)
+        top_level_elements.append(table_soup)
+
+    top_level_soup = BeautifulSoup("", "xml")
+    for element in top_level_elements:
+        top_level_soup.append(element)
+
+    return str(top_level_soup).encode("utf-8")
+
+
 def download_springer_papers(
     doi_list: list[str],
     mailto_email: str,
@@ -110,6 +132,7 @@ def download_springer_papers(
     doi_format = {}
     os.makedirs(os.path.join(out_folder, "xml"), exist_ok=True)
     os.makedirs(os.path.join(out_folder, "pdf"), exist_ok=True)
+
     for doi in tqdm(doi_list, "Downloading Springer Papers."):
         xml_file_path = os.path.join(out_folder, "xml", clean_doi(doi) + ".xml")
         pdf_file_path = os.path.join(out_folder, "pdf", clean_doi(doi) + ".pdf")
@@ -150,9 +173,14 @@ def download_springer_papers(
                         f" {response.status_code}."
                     )
 
+                file_content = response.content
+                if format == "html":
+                    logging.info(f"Downloading tables for paper {doi}")
+                    file_content = add_springer_tables(file_content, springer_session)
+
                 download_format[format] = True
                 with open(file_path, "wb") as f:
-                    f.write(response.content)
+                    f.write(file_content)
 
                 if download_format["html"] and download_format["pdf"]:
                     doi_format[doi] = "both"
