@@ -9,8 +9,10 @@ from bs4 import BeautifulSoup
 import fire
 import pandas as pd
 import requests
+from requests.adapters import HTTPAdapter
 from requests_ratelimiter import LimiterSession
 from tqdm import tqdm
+from urllib3.util import Retry
 
 
 API_TIMEOUT = 10
@@ -117,7 +119,7 @@ def download_springer_papers(
                 crossref_session, doi, mailto_email, timeout
             )
 
-            download_format = {"pdf": False, "xml": False}
+            download_format = {"pdf": False, "html": False}
 
             if not type_to_file_url:
                 logging.error(f"Springer: no file URLs found for doi {doi}. Skipping.")
@@ -152,9 +154,9 @@ def download_springer_papers(
                 with open(file_path, "wb") as f:
                     f.write(response.content)
 
-                if download_format["xml"] and download_format["pdf"]:
+                if download_format["html"] and download_format["pdf"]:
                     doi_format[doi] = "both"
-                elif download_format["xml"]:
+                elif download_format["html"]:
                     doi_format[doi] = "xml"
                 elif download_format["pdf"]:
                     doi_format[doi] = "pdf"
@@ -259,15 +261,23 @@ def get_aluminum_dois(dataset_directory) -> list[str]:
 
 def get_doi_metadata(doi: str, session=None) -> dict[str, str]:
     if session is None:
-        session = requests
+        session = requests.Session()
+
+    retry = Retry(total=5, backoff_factor=2)
+    adapter = HTTPAdapter(max_retries=retry)
+    session.mount("https://", adapter)
+
     doi_meta = {"doi": doi}
     response = session.get(
         f"http://dx.doi.org/{doi}",
         headers={"Accept": "application/vnd.crossref.unixsd+xml"},
         timeout=10,
     )
-    if response is None:
+
+    if response is None or response.status_code != 200:
+        doi_meta["meta_fetch_error"] = True
         return doi_meta
+
     soup = BeautifulSoup(response.text, features="xml")
 
     doi_meta["article_type"] = soup.find("doi")["type"]
