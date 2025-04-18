@@ -99,18 +99,18 @@ def get_springer_file_links_from_crossref(
     return type_to_link
 
 
-def add_springer_tables(file_content: bytes, session: Session) -> bytes:
-    file_text = file_content.decode("utf-8")
-    soup = BeautifulSoup(file_text)
+def add_springer_tables(file_soup: BeautifulSoup, session: Session) -> bytes:
+
     table_links = [
-        "https://link.springer.com/article" + link["href"]
-        for link in soup.find_all("a", {"data-track-action": "view table"})
+        "https://link.springer.com" + link["href"]
+        for link in file_soup.find_all("a", {"data-track-action": "view table"})
     ]
 
-    top_level_elements = [soup]
+    top_level_elements = [file_soup]
     for table_link in table_links:
+        logging.info(f"Getting table from {table_link}")
         table_page_response = session.get(table_link)
-        table_soup = BeautifulSoup(table_page_response.text)
+        table_soup = BeautifulSoup(table_page_response.text, "lxml")
         top_level_elements.append(table_soup)
 
     top_level_soup = BeautifulSoup("", "xml")
@@ -172,24 +172,32 @@ def download_springer_papers(
                         f"Springer: DOI {doi} in format {format} failed with status code"
                         f" {response.status_code}."
                     )
+                download_format[format] = True
 
                 file_content = response.content
                 if format == "html":
-                    logging.info(f"Downloading tables for paper {doi}")
-                    file_content = add_springer_tables(file_content, springer_session)
+                    content_soup = BeautifulSoup(file_content.decode("utf-8"))
+                    if content_soup.find_all("iframe", {"title": "Article PDF"}):
+                        logging.info(
+                            f"Springer: paper {doi} HTML is just an embedded PDF. Skipping."
+                        )
+                        download_format[format] = False
+                        continue
 
-                download_format[format] = True
+                    logging.info(f"Downloading tables for paper {doi}")
+                    file_content = add_springer_tables(content_soup, springer_session)
+
                 with open(file_path, "wb") as f:
                     f.write(file_content)
 
-                if download_format["html"] and download_format["pdf"]:
-                    doi_format[doi] = "both"
-                elif download_format["html"]:
-                    doi_format[doi] = "xml"
-                elif download_format["pdf"]:
-                    doi_format[doi] = "pdf"
-                else:
-                    doi_format[doi] = "failed"
+            if download_format["html"] and download_format["pdf"]:
+                doi_format[doi] = "both"
+            elif download_format["html"]:
+                doi_format[doi] = "xml"
+            elif download_format["pdf"]:
+                doi_format[doi] = "pdf"
+            else:
+                doi_format[doi] = "failed"
 
         except requests.exceptions.Timeout:
             logging.error(f"Springer: DOI {doi} timed out.")
