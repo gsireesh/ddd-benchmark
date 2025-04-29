@@ -1,9 +1,12 @@
 anthropic
 fire
+lxml
+openpyxl
 openai
 pandas
 pdfplumber
 pypdf
+requests-ratelimiter
 tqdm
 pillow
 transformers
