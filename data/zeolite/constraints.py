@@ -1,5 +1,31 @@
 meta_columns = ["doi", "normed", "Notes", "title", "abstract_keywords", "recipe_keywords", "year"]
 
+evaluation_column_config = {
+    "numerical": [
+        "Si",
+        "Ge",
+        "F",
+        "Na",
+        "Al",
+        "H2O",
+        "OH",
+        "acid",
+        "cryst_temp",
+        "cryst_time",
+    ],
+    "textual": [
+        "precursors",
+    ],
+    "aligned_lists": [
+        {"columns": ["product1", "product2", "product3"], "type": "textual"},
+        {
+            "columns": [("osda1", "sda1"), ("osda2", "sda2"), ("osda3", "sda3")],
+            "type": ("numerical", "textual"),
+        },
+    ],
+}
+
+
 columns_to_predict = [
     "Si",
     "Ge",
