@@ -170,11 +170,13 @@ def compute_aligned_df_f1(gt_df, aligned_rows, unaligned_rows, present_columns, 
             else "generic"
         )
 
+        nonnull_filter = gt_df[column].notnull()
+
         num_divergence_pos = np.abs(
-            gt_df[column].values - aligned_rows[column].values
+            gt_df[column][nonnull_filter].values - aligned_rows[column][nonnull_filter].values
         )  # / only_numeric(gt_df[present_columns]).values
 
-        new_tp = (num_divergence_pos < NUMERICAL_THRESHOLD).sum()
+        new_tp = (num_divergence_pos <= NUMERICAL_THRESHOLD).sum()
         tp_numeric += new_tp
         source_metrics[("tp", location)] += new_tp
 
@@ -182,7 +184,11 @@ def compute_aligned_df_f1(gt_df, aligned_rows, unaligned_rows, present_columns, 
         fn_numeric += new_fn
         source_metrics[("fn", location)] += new_fn
 
-        fp_numeric += num_divergence_pos.shape[0] - (new_tp + new_fn)
+        should_be_null_fp = (aligned_rows[column][~nonnull_filter].notnull()).sum()
+        wrong_value_fp = (num_divergence_pos > NUMERICAL_THRESHOLD).sum()
+
+        tn_numeric += aligned_rows[~nonnull_filter].isnull().sum()
+        fp_numeric += should_be_null_fp + wrong_value_fp
         source_metrics[("fp", location)] += num_divergence_pos.shape[0] - (new_tp + new_fn)
 
     # for absent data, compute true and false negatives, as well as false positives.
@@ -214,16 +220,24 @@ def compute_aligned_df_f1(gt_df, aligned_rows, unaligned_rows, present_columns, 
             else "generic"
         )
 
-        new_tp = (gt_df[column].values == aligned_rows[column].values).sum(axis=None)
+        nonnull_filter = gt_df[column].notnull()
+
+        new_tp = (
+            gt_df[column][nonnull_filter].values == aligned_rows[column][nonnull_filter].values
+        ).sum(axis=None)
         tp_text += new_tp
         source_metrics[("tp", location)] += new_tp
 
-        new_fn = aligned_rows[column].isnull().sum().sum()
+        new_fn = aligned_rows[column][nonnull_filter].isnull().sum().sum()
         fn_text += new_fn
         source_metrics[("fn", location)] += new_fn
 
-        fp_text += gt_df[column].shape[0] - (new_tp + new_fn)
-        source_metrics[("fp", location)] += gt_df[column].shape[0] - (new_tp + new_fn)
+        should_be_null_fp = (aligned_rows[column][~nonnull_filter].notnull()).sum()
+        wrong_value_fp = (
+            gt_df[column][nonnull_filter].values != aligned_rows[column][nonnull_filter].values
+        ).sum(axis=None)
+        fp_text += should_be_null_fp + wrong_value_fp
+        source_metrics[("fp", location)] += should_be_null_fp + wrong_value_fp
 
     # for absent data, compute true and false negatives, as well as false positives.
     for column in set(textual_columns).intersection(set(absent_columns)):
