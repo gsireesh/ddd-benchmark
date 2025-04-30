@@ -1,4 +1,3 @@
-import itertools
 import json
 
 import fire
@@ -7,6 +6,15 @@ import pandas as pd
 from tqdm.auto import tqdm
 
 from data.dataset_metadata import metadata_by_dataset
+from evaluation import (
+    align_predictions,
+    evaluate_numerical_columns,
+    evaluate_textual_columns,
+    get_alignment_scores,
+    only_textual,
+    only_numeric,
+)
+
 
 ANNOTATED_LOCATIONS = [
     "Table Column",
@@ -19,8 +27,6 @@ ANNOTATED_LOCATIONS = [
     "Not Present",
     "generic",  # fallback case
 ]
-
-NUMERICAL_THRESHOLD = 5
 
 
 def get_columns_to_predict(column_config: dict) -> list[str]:
@@ -40,101 +46,6 @@ def get_columns_to_predict(column_config: dict) -> list[str]:
 #     return comparison_columns
 
 
-def only_numeric(data, column_config):
-    """Get only numeric "columns" from either a row or series"""
-    return data[
-        [
-            column
-            for column in (data.index if isinstance(data, pd.Series) else data)
-            if column in column_config["numerical"]
-        ]
-    ]
-
-
-def only_textual(data, column_config):
-    """Get only textual "columns" from  either a row or series, and normalize the text."""
-    textual_columns = column_config["textual"]
-    if data.empty:
-        return data
-    if isinstance(data, pd.Series):
-        filtered = data[[column for column in data.index if column in textual_columns]]
-        normalized = filtered.str.lower().str.replace("\W+", "_", regex=True)
-    else:
-        filtered = data[[column for column in data if column in textual_columns]]
-        normalized = filtered.apply(
-            lambda x: (
-                x.str.lower().str.replace("\W+", "_", regex=True) if not x.isnull().any() else x
-            )
-        )
-    return normalized
-
-
-def get_row_match_score(gt_row, pred_row, numerical_threshold, column_config):
-    """Compute a match score between a ground truth row and prediction row"""
-    data_numerical: np.ndarray = np.abs(
-        (only_numeric(gt_row, column_config).values - only_numeric(pred_row, column_config).values)
-    )  # / only_numeric(data_row).values
-    numerical_score = (data_numerical < numerical_threshold).sum()
-
-    text_score = (
-        only_textual(gt_row, column_config) == only_textual(pred_row, column_config)
-    ).sum()
-
-    total_score = numerical_score + text_score
-
-    return total_score
-
-
-def get_alignment_scores(gt_df, pred_df, comparison_columns, column_config):
-    """Get a matrix of alignment scores between ground truth and predicted rows."""
-    alignment_matrix = np.zeros((len(gt_df), len(pred_df)))
-    for i, (_, data_row) in enumerate(gt_df[comparison_columns].iterrows()):
-        for j, (_, pred_row) in enumerate(pred_df[comparison_columns].iterrows()):
-            alignment_matrix[i, j] = get_row_match_score(
-                data_row, pred_row, NUMERICAL_THRESHOLD, column_config
-            )
-
-    return alignment_matrix
-
-
-def align_predictions(pred_df, alignment_matrix):
-    """Compute a heuristic alignment between ground truth and predicted rows.
-
-    This function computes a heuristic match score between a predicted row and all ground truth rows
-    and greedily assigns each prediction to a ground truth row based on highest score. In case of
-    ties, it defaults to sequential alignment.
-    """
-    candidate_columns = list(range(len(pred_df)))
-    assigned_order = []
-    for row in alignment_matrix:
-        if len(candidate_columns) == 0:
-            break
-
-        # sorting trick taken from https://stackoverflow.com/questions/64238462/numpy-descending-stable-arg-sort-of-arrays-of-any-dtype
-        # this produces a descending sort that's still stable; otherwise, the initial element order is reversed. This makes the
-        # default heuristic for assigning data alignment in the case of a tie the next data.
-        ranked_columns = len(row) - 1 - np.argsort(row[::-1], kind="stable")[::-1]
-
-        i = 0
-        top_candidate_column = ranked_columns[0]
-
-        while top_candidate_column not in candidate_columns:
-            i += 1
-            top_candidate_column = ranked_columns[i]
-        assigned_order.append(top_candidate_column)
-
-        candidate_columns.remove(top_candidate_column)
-
-    unaligned_rows = pred_df.iloc[candidate_columns] if len(candidate_columns) != 0 else None
-    aligned_df = pred_df.iloc[assigned_order]
-
-    if (rows_to_add := (alignment_matrix.shape[0] - len(aligned_df))) > 0:
-        none_df = pd.DataFrame({col: [None] * rows_to_add for col in aligned_df})
-        aligned_df = pd.concat((aligned_df, none_df))
-
-    return aligned_df, unaligned_rows
-
-
 def compute_aligned_df_f1(gt_df, aligned_rows, unaligned_rows, present_columns, column_config):
     """Compute F1 score for a single paper.
 
@@ -152,8 +63,7 @@ def compute_aligned_df_f1(gt_df, aligned_rows, unaligned_rows, present_columns, 
         # for column in gt_df
         # if column not in present_columns and column in numerical_columns + textual_columns
     ]
-    tp_numeric, fp_numeric, tn_numeric, fn_numeric = 0, 0, 0, 0
-    tp_text, fp_text, tn_text, fn_text = 0, 0, 0, 0
+
     fp_extra_rows = 0
 
     source_metrics = {
@@ -161,111 +71,19 @@ def compute_aligned_df_f1(gt_df, aligned_rows, unaligned_rows, present_columns, 
     }
 
     ## METRICS FOR NUMERIC DATA
-
-    # For all present data, compute true and false positives, and false negatives
-    for column in set(numerical_columns).intersection(set(present_columns)):
-        location = (
-            gt_df[column + "_location"].values[0]
-            if (column + "_location" in gt_df.columns)
-            else "generic"
-        )
-
-        nonnull_filter = gt_df[column].notnull()
-
-        num_divergence_pos = np.abs(
-            gt_df[column][nonnull_filter].values - aligned_rows[column][nonnull_filter].values
-        )  # / only_numeric(gt_df[present_columns]).values
-
-        new_tp = (num_divergence_pos <= NUMERICAL_THRESHOLD).sum()
-        tp_numeric += new_tp
-        source_metrics[("tp", location)] += new_tp
-
-        new_fn = np.isnan(num_divergence_pos).sum()
-        fn_numeric += new_fn
-        source_metrics[("fn", location)] += new_fn
-
-        should_be_null_fp = (aligned_rows[column][~nonnull_filter].notnull()).sum()
-        wrong_value_fp = (num_divergence_pos > NUMERICAL_THRESHOLD).sum()
-
-        tn_numeric += aligned_rows[~nonnull_filter].isnull().sum()
-        fp_numeric += should_be_null_fp + wrong_value_fp
-        source_metrics[("fp", location)] += num_divergence_pos.shape[0] - (new_tp + new_fn)
-
-    # for absent data, compute true and false negatives, as well as false positives.
-    for column in set(numerical_columns).intersection(set(absent_columns)):
-        location = (
-            gt_df[column + "_location"].values[0]
-            if (column + "_location" in gt_df.columns)
-            else "generic"
-        )  # all absent values should be calculated against a value of 0.
-        absent_value = np.zeros_like(gt_df[column].values) - 1
-        num_divergence_neg = np.abs(
-            absent_value - aligned_rows[column].fillna(-1).fillna(-2)
-        ).values
-
-        new_tn = (num_divergence_neg == 0).sum(axis=None)
-        tn_numeric += new_tn
-        source_metrics[("tn", location)] += new_tn
-
-        fp_numeric += num_divergence_neg.shape[0] - new_tn
-        source_metrics[("fp", location)] += num_divergence_neg.shape[0] - new_tn
-
+    tp_numeric, fp_numeric, tn_numeric, fn_numeric = evaluate_numerical_columns(
+        gt_df, aligned_rows, numerical_columns, present_columns, absent_columns, source_metrics
+    )
     ## METRICS FOR TEXT DATA
-
-    # For all present data, compute true and false positives, and false negatives
-    for column in set(textual_columns).intersection(set(present_columns)):
-        location = (
-            gt_df[column + "_location"].values[0]
-            if (column + "_location" in gt_df.columns)
-            else "generic"
-        )
-
-        nonnull_filter = gt_df[column].notnull()
-
-        new_tp = (
-            gt_df[column][nonnull_filter].values == aligned_rows[column][nonnull_filter].values
-        ).sum(axis=None)
-        tp_text += new_tp
-        source_metrics[("tp", location)] += new_tp
-
-        new_fn = aligned_rows[column][nonnull_filter].isnull().sum().sum()
-        fn_text += new_fn
-        source_metrics[("fn", location)] += new_fn
-
-        should_be_null_fp = (aligned_rows[column][~nonnull_filter].notnull()).sum()
-        wrong_value_fp = (
-            gt_df[column][nonnull_filter].values != aligned_rows[column][nonnull_filter].values
-        ).sum(axis=None)
-        fp_text += should_be_null_fp + wrong_value_fp
-        source_metrics[("fp", location)] += should_be_null_fp + wrong_value_fp
-
-    # for absent data, compute true and false negatives, as well as false positives.
-    for column in set(textual_columns).intersection(set(absent_columns)):
-        location = (
-            gt_df[column + "_location"].values[0]
-            if (column + "_location" in gt_df.columns)
-            else "generic"
-        )
-        # all absent textual values should be empty string
-        absent_text = np.empty_like(only_textual(gt_df[column], column_config).values, dtype=object)
-        absent_text[:] = "-1"
-
-        new_tn = (
-            absent_text == only_textual(aligned_rows[column], column_config).fillna("-1").values
-        ).sum(axis=None)
-        tn_text += new_tn
-        source_metrics[("tn", location)] += new_tn
-
-        fp_text += only_textual(gt_df[column], column_config).shape[0] - new_tn
-        source_metrics[("fp", location)] += (
-            np.prod(only_textual(gt_df[column], column_config).shape) - new_tn
-        )
+    tp_text, fp_text, tn_text, fn_text = evaluate_textual_columns(
+        gt_df, aligned_rows, textual_columns, present_columns, absent_columns, source_metrics
+    )
 
     ## ADJUSTMENTS FOR EXTRA DATA
 
     if unaligned_rows is not None:
         fp_extra_rows = unaligned_rows[numerical_columns + textual_columns].notnull().sum().sum()
-        for col in numerical_columns + textual_columns:
+        for column in numerical_columns + textual_columns:
             location = (
                 gt_df[column + "_location"].values[0]
                 if (column + "_location" in gt_df.columns)
