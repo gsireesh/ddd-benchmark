@@ -1,5 +1,8 @@
 import numpy as np
-from evaluation.utils import only_textual
+
+
+def string_equals(string_a, string_b):
+    return string_a == string_b
 
 
 def evaluate_textual_columns(

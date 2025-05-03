@@ -1,4 +1,36 @@
+from dataclasses import dataclass
 import pandas as pd
+
+
+@dataclass
+class StatsContainer:
+    tp: int = 0
+    fp: int = 0
+    tn: int = 0
+    fn: int = 0
+
+    def __add__(self, other):
+        return StatsContainer(
+            tp=self.tp + other.tp,
+            fp=self.fp + other.fp,
+            tn=self.tn + other.tn,
+            fn=self.fn + other.fn,
+        )
+
+
+def get_all_list_columns(column_config):
+    list_columns = []
+    for config in column_config["aligned_lists"]:
+        if isinstance(config["columns"][0], str):
+            list_columns.extend(config["columns"])
+        elif isinstance(config["columns"][0], tuple):
+            for tup in config["columns"]:
+                list_columns.extend(tup)
+        else:
+            raise AssertionError(
+                f"Unsupported type found for column definition: {type(config['columns'][0])}. Expected either str or tuple."
+            )
+    return list_columns
 
 
 def only_numeric(data, column_config):

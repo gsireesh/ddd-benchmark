@@ -40,6 +40,8 @@ def align_predictions(pred_df, alignment_matrix):
     and greedily assigns each prediction to a ground truth row based on highest score. In case of
     ties, it defaults to sequential alignment.
     """
+
+    # candidate columns from the alignment matrix
     candidate_columns = list(range(len(pred_df)))
     assigned_order = []
     for row in alignment_matrix:

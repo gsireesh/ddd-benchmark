@@ -20,7 +20,7 @@ evaluation_column_config = {
         {"columns": ["product1", "product2", "product3"], "type": "textual"},
         {
             "columns": [("osda1", "sda1"), ("osda2", "sda2"), ("osda3", "sda3")],
-            "type": ("numerical", "textual"),
+            "type": ("textual", "numerical"),
         },
     ],
 }

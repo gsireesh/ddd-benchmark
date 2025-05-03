@@ -1,18 +1,17 @@
 import json
 
 import fire
-import numpy as np
 import pandas as pd
 from tqdm.auto import tqdm
 
 from data.dataset_metadata import metadata_by_dataset
 from evaluation import (
     align_predictions,
+    evaluate_list_columns,
     evaluate_numerical_columns,
     evaluate_textual_columns,
     get_alignment_scores,
-    only_textual,
-    only_numeric,
+    get_all_list_columns,
 )
 
 
@@ -31,9 +30,7 @@ ANNOTATED_LOCATIONS = [
 
 def get_columns_to_predict(column_config: dict) -> list[str]:
     return (
-        column_config["numerical"]
-        + column_config["textual"]
-        # + list(itertools.chain(*[group["columns"] for group in column_config["aligned_lists"]]))
+        column_config["numerical"] + column_config["textual"] + get_all_list_columns(column_config)
     )
 
 
@@ -77,6 +74,11 @@ def compute_aligned_df_f1(gt_df, aligned_rows, unaligned_rows, present_columns, 
     ## METRICS FOR TEXT DATA
     tp_text, fp_text, tn_text, fn_text = evaluate_textual_columns(
         gt_df, aligned_rows, textual_columns, present_columns, absent_columns, source_metrics
+    )
+
+    ## METRICS FOR LIST FIELDS
+    tp_list, fp_list, tn_list, fn_list = evaluate_list_columns(
+        gt_df, aligned_rows, column_config, present_columns, absent_columns, source_metrics
     )
 
     ## ADJUSTMENTS FOR EXTRA DATA
@@ -152,14 +154,14 @@ def evaluate_predictions(gt_df, pred_df, column_config):
     if "doi" not in pred_df.columns:
         pred_df["doi"] = pred_df["source"].str.replace(".png|.xml|.html", "").str.replace("_", "/")
 
-    missing_columns = [
-        column for column in get_columns_to_predict(column_config) if column not in pred_df.columns
-    ]
+    columns_to_predict = get_columns_to_predict(column_config)
+    missing_columns = [column for column in columns_to_predict if column not in pred_df.columns]
     if missing_columns:
         raise AssertionError(f"Predictions dataframe missing required columns: {missing_columns}")
 
     numerical_columns = column_config["numerical"]
     textual_columns = column_config["textual"]
+    list_columns = get_all_list_columns(column_config)
 
     for column in numerical_columns:
         pred_df[column] = pd.to_numeric(pred_df[column], errors="coerce")
@@ -171,20 +173,25 @@ def evaluate_predictions(gt_df, pred_df, column_config):
     for doi in tqdm(gt_df["doi"].unique()):
         try:
             ddf = gt_df[gt_df["doi"] == doi]
-            pdf = pred_df[pred_df["doi"] == doi][numerical_columns + textual_columns]
+            pdf = pred_df[pred_df["doi"] == doi][columns_to_predict]
 
             if pdf.empty:
                 raise AssertionError(f"DOI {doi} not found in predictions. Skipping.")
 
-            comparison_columns = numerical_columns + textual_columns  # get_comparison_columns(ddf)
-            alignment_matrix = get_alignment_scores(ddf, pdf, comparison_columns, column_config)
+            comparison_columns = numerical_columns + textual_columns
+            # get_comparison_columns(
+            # ddf)
+            alignment_matrix = get_alignment_scores(
+                ddf, pdf, numerical_columns + textual_columns, column_config
+            )
             aligned_df, unaligned_df = align_predictions(pdf, alignment_matrix)
             result = compute_aligned_df_f1(
-                ddf, aligned_df, unaligned_df, comparison_columns, column_config
+                ddf, aligned_df, unaligned_df, columns_to_predict, column_config
             )
             results_dict[doi] = result
         except Exception as e:
             print(doi, e)
+            raise e
             continue
 
     results_df = pd.DataFrame(results_dict).T
