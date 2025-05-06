@@ -18,7 +18,7 @@ def evaluate_textual_columns(
             else "generic"
         )
 
-        nonnull_filter = gt_df[column].notnull()
+        nonnull_filter = gt_df[column].notnull().values
 
         new_tp = (
             gt_df[column][nonnull_filter].values == aligned_rows[column][nonnull_filter].values

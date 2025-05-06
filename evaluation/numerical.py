@@ -16,7 +16,7 @@ def evaluate_numerical_columns(
             else "generic"
         )
 
-        nonnull_filter = gt_df[column].notnull()
+        nonnull_filter = gt_df[column].notnull().values
 
         num_divergence_pos = np.abs(
             gt_df[column][nonnull_filter].values - aligned_rows[column][nonnull_filter].values
