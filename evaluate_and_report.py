@@ -166,8 +166,6 @@ def evaluate_predictions(gt_df, pred_df, column_config):
     for column in numerical_columns:
         pred_df[column] = pd.to_numeric(pred_df[column], errors="coerce")
 
-    print(f"Predicted papers: {len(pred_df['doi'].unique())}")
-
     results_dict = {}
 
     for doi in tqdm(gt_df["doi"].unique()):
@@ -191,7 +189,6 @@ def evaluate_predictions(gt_df, pred_df, column_config):
             results_dict[doi] = result
         except Exception as e:
             print(doi, e)
-            raise e
             continue
 
     results_df = pd.DataFrame(results_dict).T
@@ -215,6 +212,7 @@ def evaluate_predictions(gt_df, pred_df, column_config):
 
 def evaluate_predictions_wrapper(
     dataset: str,
+    modality: str,
     predictions_path: str,
 ) -> None:
     """Evaluate predictions against annotations, and provide precision, recall and f1.
@@ -222,6 +220,7 @@ def evaluate_predictions_wrapper(
     This script calculates and reports both overall metrics and metrics per-location of the data.
 
     :param dataset: the name of the dataset to evaluate.
+    :param modality: The modality in which to evaluate predictions (XML or PDF)
     :param predictions_path: Path to CSV containing predictions. Script will error if there are
     expected columns missing. Expected columns are all columns found in NUMERIC_COLUMNS and
     TEXT_COLUMNS in this file.
@@ -233,12 +232,30 @@ def evaluate_predictions_wrapper(
             f"{metadata_by_dataset.keys()}"
         )
 
-    gt_df = pd.read_csv(metadata_by_dataset[dataset]["ground_truth_csv"])
-    pred_df = pd.read_csv(predictions_path)
+    metadata = metadata_by_dataset[dataset]
 
-    results = evaluate_predictions(
-        gt_df, pred_df, metadata_by_dataset[dataset]["evaluation_config"]
+    if modality.lower() not in {"xml", "pdf"}:
+        raise AssertionError("Unrecognized modality {modality}. Expected one of xml, pdf")
+
+    publisher_meta = pd.read_csv(metadata["metadata_csv"])
+
+    relevant_dois = set(
+        publisher_meta[publisher_meta["included_in_dataset"] & publisher_meta[modality.lower()]][
+            "doi"
+        ].tolist()
     )
+
+    print(f"Evaluating against {len(relevant_dois)} papers.")
+
+    gt_df = pd.read_csv(metadata["ground_truth_csv"])
+    gt_df = gt_df[gt_df["doi"].isin(relevant_dois)]
+
+    pred_df = pd.read_csv(predictions_path)
+    all_pred_dois = pred_df["doi"].unique()
+    predicted_relevant_dois = pred_df[pred_df["doi"].isin(relevant_dois)]["doi"].unique()
+    print(f"Predictions from {len(all_pred_dois)} papers; ")
+
+    results = evaluate_predictions(gt_df, pred_df, metadata["evaluation_config"])
 
     json_results = json.dumps(results, indent=4)
 
