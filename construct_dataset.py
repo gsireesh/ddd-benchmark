@@ -391,7 +391,7 @@ def construct_dataset(
 
         logging.info("Getting publisher metadata...")
         publisher_metadata = get_publisher_metadata_parallel(doi_list)
-        publisher_metadata.to_csv(publisher_metadata_path)
+        publisher_metadata.to_csv(publisher_metadata_path, index=False)
     else:
         logging.info("Loading publisher metadata...")
         publisher_metadata = pd.read_csv(publisher_metadata_path)
@@ -458,7 +458,7 @@ def construct_dataset(
                 case _:
                     logging.error(f"Unknown format '{download_format}' for DOI: {doi}")
 
-        publisher_metadata.to_csv(publisher_metadata_path)
+        publisher_metadata.to_csv(publisher_metadata_path, index=False)
         logging.info(f"Updated publisher metadata for {publisher}")
 
     pdf_amount = publisher_metadata["pdf"].sum()

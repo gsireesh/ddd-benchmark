@@ -89,7 +89,7 @@ def generate_predictions(
         outfile = os.path.join(
             RESULTS_DIRECTORY, f"{model_name}_{modality}_" f"{prompt_builder.id}.test.csv"
         )
-        prompt_df.to_csv(outfile)
+        prompt_df.to_csv(outfile, index=False)
 
 
 if __name__ == "__main__":
