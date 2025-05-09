@@ -99,7 +99,7 @@ doi,article_type,journal,publisher,included_in_dataset,pdf,xml
 10.1016/j.materresbull.2013.01.021,journal_article,Materials Research Bulletin,Elsevier BV,True,False,True
 10.1016/s1387-1811(02)00485-7,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
 10.1016/j.powtec.2014.09.036,journal_article,Powder Technology,Elsevier BV,True,False,True
-10.1007/s40242-017-7050-9,journal_article,Chemical Research in Chinese Universities,Springer Science and Business Media LLC,True,True,False
+10.1007/s40242-017-7050-9,journal_article,Chemical Research in Chinese Universities,Springer Science and Business Media LLC,True,True,True
 10.1007/s11164-016-2550-7,journal_article,Research on Chemical Intermediates,Springer Science and Business Media LLC,True,True,True
 10.1007/s10562-010-0421-1,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
 10.1007/s10934-017-0510-2,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
@@ -107,7 +107,7 @@ doi,article_type,journal,publisher,included_in_dataset,pdf,xml
 10.1007/s10450-018-9980-z,journal_article,Adsorption,Springer Science and Business Media LLC,True,True,True
 10.1007/978-3-662-47395-5_5,book_content,Green Chemistry and Sustainable Technology,Springer Science and Business Media LLC,True,True,False
 10.1007/s10934-020-00898-w,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/bf01042779,journal_article,Journal of Inclusion Phenomena and Molecular Recognition in Chemistry,Springer Science and Business Media LLC,True,True,False
+10.1007/bf01042779,journal_article,Journal of Inclusion Phenomena and Molecular Recognition in Chemistry,Springer Science and Business Media LLC,True,True,True
 10.1007/s10562-012-0797-1,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
 10.1007/s11164-016-2584-x,journal_article,Research on Chemical Intermediates,Springer Science and Business Media LLC,True,True,True
 10.1007/s10934-010-9380-6,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
@@ -125,7 +125,7 @@ doi,article_type,journal,publisher,included_in_dataset,pdf,xml
 10.1007/s10934-008-9214-y,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
 10.1007/s10934-010-9417-x,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
 10.1007/s10562-020-03473-9,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1038/353417a0,journal_article,Nature,Springer Science and Business Media LLC,True,True,False
+10.1038/353417a0,journal_article,Nature,Springer Science and Business Media LLC,True,True,True
 10.1007/s11164-018-3601-z,journal_article,Research on Chemical Intermediates,Springer Science and Business Media LLC,True,True,True
 10.1007/s10562-009-0053-5,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
 10.1007/s11051-009-9688-9,journal_article,Journal of Nanoparticle Research,Springer Science and Business Media LLC,True,True,True
@@ -134,11 +134,11 @@ doi,article_type,journal,publisher,included_in_dataset,pdf,xml
 10.1007/s00706-011-0597-0,journal_article,Monatshefte für Chemie - Chemical Monthly,Springer Science and Business Media LLC,True,True,True
 10.1038/nature08493,journal_article,Nature,Springer Science and Business Media LLC,True,True,True
 10.1007/s11244-010-9474-z,journal_article,Topics in Catalysis,Springer Science and Business Media LLC,True,True,True
-10.1038/280664a0,journal_article,Nature,Springer Science and Business Media LLC,True,True,False
+10.1038/280664a0,journal_article,Nature,Springer Science and Business Media LLC,True,True,True
 10.1007/s10971-020-05342-8,journal_article,Journal of Sol-Gel Science and Technology,Springer Science and Business Media LLC,True,True,True
 10.1007/s10562-020-03211-1,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
 10.1007/s10562-007-9324-1,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s11172-012-0260-x,journal_article,Russian Chemical Bulletin,Springer Science and Business Media LLC,True,True,False
+10.1007/s11172-012-0260-x,journal_article,Russian Chemical Bulletin,Springer Science and Business Media LLC,True,True,True
 10.1007/s11164-015-1981-x,journal_article,Research on Chemical Intermediates,Springer Science and Business Media LLC,True,True,True
 10.1007/s11244-010-9590-9,journal_article,Topics in Catalysis,Springer Science and Business Media LLC,True,True,True
 10.1007/s11244-009-9273-6,journal_article,Topics in Catalysis,Springer Science and Business Media LLC,True,True,True
@@ -154,7 +154,7 @@ doi,article_type,journal,publisher,included_in_dataset,pdf,xml
 10.1007/s10934-014-9885-5,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
 10.1007/s10562-020-03402-w,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
 10.1007/s40995-016-0078-8,journal_article,"Iranian Journal of Science and Technology, Transactions A: Science",Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-005-2128-2,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,False
+10.1007/s10562-005-2128-2,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
 10.1007/s11237-015-9419-5,journal_article,Theoretical and Experimental Chemistry,Springer Science and Business Media LLC,True,True,True
 10.1007/s10562-020-03524-1,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
 10.1007/s11144-019-01566-0,journal_article,"Reaction Kinetics, Mechanisms and Catalysis",Springer Science and Business Media LLC,True,True,True
@@ -165,7 +165,7 @@ doi,article_type,journal,publisher,included_in_dataset,pdf,xml
 10.1007/s10562-018-2307-6,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
 10.1007/s10562-019-02901-9,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
 10.1007/s11244-017-0844-7,journal_article,Topics in Catalysis,Springer Science and Business Media LLC,True,True,True
-10.1007/bf00655926,journal_article,Journal of Inclusion Phenomena,Springer Science and Business Media LLC,True,True,False
+10.1007/bf00655926,journal_article,Journal of Inclusion Phenomena,Springer Science and Business Media LLC,True,True,True
 10.1007/s11144-014-0794-z,journal_article,"Reaction Kinetics, Mechanisms and Catalysis",Springer Science and Business Media LLC,True,True,True
 10.1007/s10853-014-8130-6,journal_article,Journal of Materials Science,Springer Science and Business Media LLC,True,True,True
 10.1007/s10934-020-00905-0,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
@@ -194,7 +194,7 @@ doi,article_type,journal,publisher,included_in_dataset,pdf,xml
 10.1007/s10450-019-00113-6,journal_article,Adsorption,Springer Science and Business Media LLC,True,True,True
 10.1007/s11244-015-0422-9,journal_article,Topics in Catalysis,Springer Science and Business Media LLC,True,True,True
 10.1007/s11144-017-1292-x,journal_article,"Reaction Kinetics, Mechanisms and Catalysis",Springer Science and Business Media LLC,True,True,True
-10.1007/s10934-006-9069-z,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,False
+10.1007/s10934-006-9069-z,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
 10.1007/s12209-017-0065-y,journal_article,Transactions of Tianjin University,Springer Science and Business Media LLC,True,True,True
 10.1007/s10450-016-9836-3,journal_article,Adsorption,Springer Science and Business Media LLC,True,True,True
 10.1007/s10934-012-9625-7,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True

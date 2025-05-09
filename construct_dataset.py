@@ -15,6 +15,8 @@ from requests_ratelimiter import LimiterSession
 from tqdm import tqdm
 from urllib3.util import Retry
 
+from data.dataset_metadata import metadata_by_dataset
+
 
 API_TIMEOUT = 10
 
@@ -25,11 +27,6 @@ INCLUDED_PUBLISHERS_SHORT_NAMES = [
     "springer",  # for Springer Science and Business Media LLC
     "wiley",  # for Wiley
 ]
-
-DATASET_TO_PATH = {
-    "zeolite": "data/zeolite",
-    "aluminum": "data/aluminum",
-}
 
 
 def download_elsevier_papers(
@@ -373,13 +370,13 @@ def construct_dataset(
 ) -> None:
 
     # Check if the user requested dataset is in the recognized options
-    if dataset not in DATASET_TO_PATH:
+    if dataset not in metadata_by_dataset:
         raise AssertionError(
-            f"Specified dataset '{dataset}' not in recognized options '{' '.join(DATASET_TO_PATH.keys())}'"
+            f"Specified dataset '{dataset}' not in recognized options '{' '.join(metadata_by_dataset.keys())}'"
         )
 
-    dataset_path = DATASET_TO_PATH[dataset]
-    publisher_metadata_path = os.path.join(dataset_path, "publisher_metadata.csv")
+    dataset_path = metadata_by_dataset[dataset]["data_directory"]
+    publisher_metadata_path = metadata_by_dataset[dataset]["metadata_csv"]
 
     # Collect publisher metadata
     if from_scratch:
@@ -394,7 +391,7 @@ def construct_dataset(
 
         logging.info("Getting publisher metadata...")
         publisher_metadata = get_publisher_metadata_parallel(doi_list)
-        publisher_metadata.to_csv(publisher_metadata_path)
+        publisher_metadata.to_csv(publisher_metadata_path, index=False)
     else:
         logging.info("Loading publisher metadata...")
         publisher_metadata = pd.read_csv(publisher_metadata_path)
@@ -461,7 +458,7 @@ def construct_dataset(
                 case _:
                     logging.error(f"Unknown format '{download_format}' for DOI: {doi}")
 
-        publisher_metadata.to_csv(publisher_metadata_path)
+        publisher_metadata.to_csv(publisher_metadata_path, index=False)
         logging.info(f"Updated publisher metadata for {publisher}")
 
     pdf_amount = publisher_metadata["pdf"].sum()
