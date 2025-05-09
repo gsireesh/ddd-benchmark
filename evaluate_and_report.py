@@ -6,6 +6,7 @@ from tqdm.auto import tqdm
 
 from data.dataset_metadata import metadata_by_dataset
 from evaluation import (
+    StatsContainer,
     align_predictions,
     evaluate_list_columns,
     evaluate_numerical_columns,
@@ -63,23 +64,25 @@ def compute_aligned_df_f1(gt_df, aligned_rows, unaligned_rows, present_columns, 
 
     fp_extra_rows = 0
 
-    source_metrics = {
-        (mtype, loc): 0 for mtype in ["tp", "fp", "tn", "fn"] for loc in ANNOTATED_LOCATIONS
-    }
+    paper_stats = StatsContainer()
 
     ## METRICS FOR NUMERIC DATA
-    tp_numeric, fp_numeric, tn_numeric, fn_numeric = evaluate_numerical_columns(
-        gt_df, aligned_rows, numerical_columns, present_columns, absent_columns, source_metrics
+    numerical_stats = evaluate_numerical_columns(
+        gt_df, aligned_rows, numerical_columns, present_columns, absent_columns
     )
     ## METRICS FOR TEXT DATA
-    tp_text, fp_text, tn_text, fn_text = evaluate_textual_columns(
-        gt_df, aligned_rows, textual_columns, present_columns, absent_columns, source_metrics
+    textual_stats = evaluate_textual_columns(
+        gt_df, aligned_rows, textual_columns, present_columns, absent_columns
     )
 
     ## METRICS FOR LIST FIELDS
-    tp_list, fp_list, tn_list, fn_list = evaluate_list_columns(
-        gt_df, aligned_rows, column_config, present_columns, absent_columns, source_metrics
-    )
+    # list_stats = evaluate_list_columns(
+    #     gt_df,
+    #     aligned_rows,
+    #     column_config,
+    #     present_columns,
+    #     absent_columns,
+    # )
 
     ## ADJUSTMENTS FOR EXTRA DATA
 
@@ -91,62 +94,37 @@ def compute_aligned_df_f1(gt_df, aligned_rows, unaligned_rows, present_columns, 
                 if (column + "_location" in gt_df.columns)
                 else "generic"
             )
-            source_metrics[("fp", location)] += len(unaligned_rows)
+            paper_stats.record("fp", fp_extra_rows, location)
 
     ## CALCULATING P, R, F1
 
-    tp = tp_numeric + tp_text
-    fn = fn_numeric + fn_text
-    fp = fp_numeric + fp_text + fp_extra_rows
-    tn = tn_numeric + tn_text
+    paper_stats += numerical_stats + textual_stats  # + list_stats
 
-    precision = tp / (tp + fp)
-    recall = tp / (tp + fn)
-    f1 = 2 * (precision * recall) / (precision + recall)
+    return paper_stats
+
+
+def get_results_by_location(dataset_stats: StatsContainer) -> dict[str, dict[str, float]]:
+    """Given data per-paper computed per-location, aggregate per-location metrics across papers."""
+    scores_by_location = {}
+    result_df = dataset_stats.to_dataframe()
+    by_location = result_df.groupby("location")
+    for location, index in by_location.groups.items():
+        location_df = result_df.loc[index]
+        scores_by_location[location] = calculate_prf_from_df(location_df)
+    return scores_by_location
+
+
+def calculate_prf_from_df(df: pd.DataFrame) -> dict[str, float]:
+    totals = df.groupby("stat_type")["number"].sum()
+    precision = totals.loc["tp"] / (totals.loc["tp"] + totals.loc["fp"])
+    recall = totals.loc["tp"] / (totals.loc["tp"] + totals.loc["fn"])
+    f1 = (2 * precision * recall) / (precision + recall)
 
     return {
-        "tp_numeric": tp_numeric,
-        "tp_text": tp_text,
-        "tp": tp,
-        "fp_numeric": fp_numeric,
-        "fp_text": fp_text,
-        "fp": fp,
-        "fn_numeric": fn_numeric,
-        "fn_text": fn_text,
-        "fn": fn,
-        "tn_numeric": tn_numeric,
-        "tn_text": tn_text,
-        "tn": tn,
         "precision": precision,
         "recall": recall,
         "f1": f1,
-        "location_metrics": source_metrics,
     }
-
-
-def get_results_by_location(location_totals: dict) -> dict[str, dict[str, float]]:
-    """Given data per-paper computed per-location, aggregate per-location metrics across papers."""
-    location_results = {}
-    for location in ANNOTATED_LOCATIONS:
-        if location in ["Not on page", "Not Present"]:
-            continue
-        location_precision = location_totals["tp"][location] / (
-            location_totals["tp"][location] + location_totals["fp"][location]
-        )
-
-        location_recall = location_totals["tp"][location] / (
-            location_totals["tp"][location] + location_totals["fn"][location]
-        )
-
-        location_f1 = (2 * location_precision * location_recall) / (
-            location_precision + location_recall
-        )
-        location_results[location] = {
-            "precision": location_precision,
-            "recall": location_recall,
-            "f1": location_f1,
-        }
-    return location_results
 
 
 def evaluate_predictions(gt_df, pred_df, column_config):
@@ -166,7 +144,7 @@ def evaluate_predictions(gt_df, pred_df, column_config):
     for column in numerical_columns:
         pred_df[column] = pd.to_numeric(pred_df[column], errors="coerce")
 
-    results_dict = {}
+    dataset_stats = StatsContainer()
 
     for doi in tqdm(gt_df["doi"].unique()):
         try:
@@ -183,31 +161,21 @@ def evaluate_predictions(gt_df, pred_df, column_config):
                 ddf, pdf, numerical_columns + textual_columns, column_config
             )
             aligned_df, unaligned_df = align_predictions(pdf, alignment_matrix)
-            result = compute_aligned_df_f1(
+            paper_stats = compute_aligned_df_f1(
                 ddf, aligned_df, unaligned_df, columns_to_predict, column_config
             )
-            results_dict[doi] = result
+            paper_stats.broadcast_doi(doi)
+            dataset_stats += paper_stats
         except Exception as e:
             print(doi, e)
+            raise e
             continue
 
-    results_df = pd.DataFrame(results_dict).T
-    totals = results_df[["tp", "fp", "tn", "fn"]].sum()
-    precision = totals["tp"] / (totals["tp"] + totals["fp"])
-    recall = totals["tp"] / (totals["tp"] + totals["fn"])
-    f1 = (2 * precision * recall) / (precision + recall)
+    results_df = dataset_stats.to_dataframe()
+    global_results = calculate_prf_from_df(results_df)
+    location_metrics = get_results_by_location(dataset_stats)
 
-    location_metrics = {k: v["location_metrics"] for k, v in results_dict.items()}
-
-    location_totals = pd.DataFrame.from_dict(location_metrics, orient="index").sum()
-    location_results = get_results_by_location(location_totals)
-
-    return {
-        "precision": precision,
-        "recall": recall,
-        "f1": f1,
-        "location_results": location_results,
-    }
+    return {**global_results, "scores_by_location": location_metrics}
 
 
 def evaluate_predictions_wrapper(

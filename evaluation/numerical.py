@@ -1,13 +1,15 @@
 import numpy as np
 
+from evaluation.utils import StatsContainer
+
 NUMERICAL_THRESHOLD = 0.1
 
 
 def evaluate_numerical_columns(
-    gt_df, aligned_rows, numerical_columns, present_columns, absent_columns, source_metrics
-):
+    gt_df, aligned_rows, numerical_columns, present_columns, absent_columns
+) -> StatsContainer:
     # For all present data, compute true and false positives, and false negatives
-    tp_numeric, fp_numeric, tn_numeric, fn_numeric = 0, 0, 0, 0
+    stats = StatsContainer()
 
     for column in set(numerical_columns).intersection(set(present_columns)):
         location = (
@@ -23,19 +25,16 @@ def evaluate_numerical_columns(
         )  # / only_numeric(gt_df[present_columns]).values
 
         new_tp = (num_divergence_pos <= NUMERICAL_THRESHOLD).sum()
-        tp_numeric += new_tp
-        source_metrics[("tp", location)] += new_tp
+        stats.record("tp", new_tp, location)
 
         new_fn = np.isnan(num_divergence_pos).sum()
-        fn_numeric += new_fn
-        source_metrics[("fn", location)] += new_fn
+        stats.record("fn", new_fn, location)
 
         should_be_null_fp = (aligned_rows[column][~nonnull_filter].notnull()).sum()
         wrong_value_fp = (num_divergence_pos > NUMERICAL_THRESHOLD).sum()
 
-        tn_numeric += aligned_rows[~nonnull_filter].isnull().sum()
-        fp_numeric += should_be_null_fp + wrong_value_fp
-        source_metrics[("fp", location)] += num_divergence_pos.shape[0] - (new_tp + new_fn)
+        stats.record("tn", aligned_rows[column][~nonnull_filter].isnull().sum(), location)
+        stats.record("fp", should_be_null_fp + wrong_value_fp, location)
 
     # for absent data, compute true and false negatives, as well as false positives.
     for column in set(numerical_columns).intersection(set(absent_columns)):
@@ -50,10 +49,8 @@ def evaluate_numerical_columns(
         ).values
 
         new_tn = (num_divergence_neg == 0).sum(axis=None)
-        tn_numeric += new_tn
-        source_metrics[("tn", location)] += new_tn
+        stats.record("tn", new_tn, location)
 
-        fp_numeric += num_divergence_neg.shape[0] - new_tn
-        source_metrics[("fp", location)] += num_divergence_neg.shape[0] - new_tn
+        stats.record("fp", num_divergence_neg.shape[0] - new_tn)
 
-    return tp_numeric, fp_numeric, tn_numeric, fn_numeric
+    return stats

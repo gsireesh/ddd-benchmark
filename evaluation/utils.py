@@ -1,21 +1,32 @@
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass, field
 import pandas as pd
 
 
 @dataclass
+class StatInstance:
+    stat_type: str
+    number: int
+    location: str
+    doi: str | None
+
+
+@dataclass
 class StatsContainer:
-    tp: int = 0
-    fp: int = 0
-    tn: int = 0
-    fn: int = 0
+    instances: list[StatInstance] = field(default_factory=list)
+
+    def record(self, stat_type: str, number: int, location: str, doi: str = None):
+        self.instances.append(StatInstance(stat_type, number, location, doi))
+
+    def broadcast_doi(self, doi):
+        self.instances = [
+            StatInstance(inst.stat_type, inst.number, inst.location, doi) for inst in self.instances
+        ]
+
+    def to_dataframe(self):
+        return pd.DataFrame([asdict(inst) for inst in self.instances])
 
     def __add__(self, other):
-        return StatsContainer(
-            tp=self.tp + other.tp,
-            fp=self.fp + other.fp,
-            tn=self.tn + other.tn,
-            fn=self.fn + other.fn,
-        )
+        return StatsContainer(self.instances + other.instances)
 
 
 def get_all_list_columns(column_config):

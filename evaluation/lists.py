@@ -50,13 +50,13 @@ def compute_row_alignment(gt_row, aligned_row, row_type):
     return alignment
 
 
-def compute_row_score(gt_row, aligned_row, alignment, row_type) -> StatsContainer:
+def compute_row_score(gt_row, aligned_row, alignment, row_type, location) -> StatsContainer:
     stats = StatsContainer()
 
     for i, j in enumerate(alignment):
         # if we don't have an alignment, it's a false negative.
         if j is None:
-            stats.fn += 1
+            stats.record("fn", 1, location)
             continue
 
         label = gt_row.iloc[i]
@@ -65,36 +65,34 @@ def compute_row_score(gt_row, aligned_row, alignment, row_type) -> StatsContaine
         # if the label is null
         if pd.isnull(label):
             if pd.isnull(pred):
-                stats.tn += 1
+                stats.record("tn", 1, location)
             else:
-                stats.fp += 1
+                stats.record("fp", 1, location)
             continue
 
         # label not null
         if pd.isnull(pred):
-            stats.fn += 1
+            stats.record("fn", 1, location)
             continue
 
         assert not pd.isnull(label) and not pd.isnull(pred)
 
         if row_type == "textual":
             if string_equals(label, pred):
-                stats.tp += 1
+                stats.record("tp", 1, location)
             else:
-                stats.fp += 1
+                stats.record("fp", 1, location)
 
         elif row_type == "numerical":
             if label - pred <= NUMERICAL_THRESHOLD:
-                stats.tp += 1
+                stats.record("tp", 1, location)
             else:
-                stats.fp += 1
+                stats.record("fp", 1, location)
 
     return stats
 
 
-def evaluate_list_columns(
-    gt_df, aligned_rows, column_config, present_columns, absent_columns, source_metrics
-):
+def evaluate_list_columns(gt_df, aligned_rows, column_config, present_columns, absent_columns):
     stats = StatsContainer()
 
     for list_config in column_config["aligned_lists"]:
@@ -104,17 +102,22 @@ def evaluate_list_columns(
         if isinstance(list_columns[0], str):
             focus_columns = list_columns
             focus_type = list_type
+            focus_location = "generic"
         elif isinstance(list_columns[0], tuple):
             focus_columns = [tup[0] for tup in list_columns]
             focus_type = list_type[0]
+            focus_location = "generic"
         else:
             raise AssertionError(f"Disallowed type of columns type: {type(list_columns[0])}")
 
         for (gt_row_index, gt_row), (aligned_row_index, aligned_row) in zip(
             gt_df[focus_columns].iterrows(), aligned_rows[focus_columns].iterrows()
         ):
+
             row_alignment = compute_row_alignment(gt_row, aligned_row, focus_type)
-            focus_row_stats = compute_row_score(gt_row, aligned_row, row_alignment, focus_type)
+            focus_row_stats = compute_row_score(
+                gt_row, aligned_row, row_alignment, focus_type, location=focus_location
+            )
             stats += focus_row_stats
 
             # compute stats for parallel columns (e.g. OSDA quantity being parallel aligned to
@@ -125,8 +128,12 @@ def evaluate_list_columns(
                     parallel_gt_row = gt_df[parallel_columns].loc[gt_row_index]
                     parallel_pred_row = aligned_rows[parallel_columns].loc[aligned_row_index]
                     aligned_row_stats = compute_row_score(
-                        parallel_gt_row, parallel_pred_row, row_alignment, list_type[i]
+                        parallel_gt_row,
+                        parallel_pred_row,
+                        row_alignment,
+                        list_type[i],
+                        focus_location,
                     )
                     stats += aligned_row_stats
 
-    return stats.tp, stats.fp, stats.tn, stats.fn
+    return stats
