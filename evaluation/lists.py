@@ -1,3 +1,6 @@
+import difflib
+
+import numpy as np
 import pandas as pd
 
 from evaluation.numerical import NUMERICAL_THRESHOLD
@@ -5,13 +8,45 @@ from evaluation.textual import string_equals
 from evaluation.utils import StatsContainer
 
 
-def compute_row_alignment(gt_row, aligned_row):
+def string_similarity(a, b):
+    if pd.isnull(a) or pd.isnull(b):
+        return -1
+    return difflib.SequenceMatcher(None, a, b).ratio()
+
+
+def numeric_similarity(a, b):
+    if pd.isnull(a) or pd.isnull(b):
+        return -1
+    return a - b
+
+
+def compute_row_alignment(gt_row, aligned_row, row_type):
+    alignment_matrix = np.zeros((len(gt_row), len(gt_row)))
+    sim_fn = string_similarity if row_type == "textual" else numeric_similarity
+    for i, gt in enumerate(gt_row):
+        for j, aligned in enumerate(aligned_row):
+            alignment_matrix[i][j] = sim_fn(gt, aligned)
+
     alignment = []
-    for element in gt_row:
-        try:
-            alignment.append(aligned_row.tolist().index(element))
-        except ValueError:
+    for i, element in enumerate(gt_row):
+        sim_scores = alignment_matrix[i]
+        top_assigned_columns = (
+            len(sim_scores) - 1 - np.argsort(sim_scores[::-1], kind="stable")[::-1]
+        )
+        for potential_alignment, value in zip(
+            top_assigned_columns, sim_scores[top_assigned_columns]
+        ):
+            if value == -1:
+                alignment.append(None)
+                break
+            elif potential_alignment in alignment:
+                continue
+            else:
+                alignment.append(potential_alignment)
+                break
+        else:
             alignment.append(None)
+
     return alignment
 
 
@@ -78,7 +113,7 @@ def evaluate_list_columns(
         for (gt_row_index, gt_row), (aligned_row_index, aligned_row) in zip(
             gt_df[focus_columns].iterrows(), aligned_rows[focus_columns].iterrows()
         ):
-            row_alignment = compute_row_alignment(gt_row, aligned_row)
+            row_alignment = compute_row_alignment(gt_row, aligned_row, focus_type)
             focus_row_stats = compute_row_score(gt_row, aligned_row, row_alignment, focus_type)
             stats += focus_row_stats
 
