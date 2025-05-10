@@ -1,301 +1,105 @@
 doi,article_type,journal,publisher,included_in_dataset,pdf,xml
-10.1016/j.micromeso.2008.04.010,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.micromeso.2015.11.014,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.matlet.2012.07.079,journal_article,Materials Letters,Elsevier BV,True,False,True
-10.1016/j.jhazmat.2017.07.019,journal_article,Journal of Hazardous Materials,Elsevier BV,True,False,True
-10.1016/0927-6513(95)00084-4,journal_article,Microporous Materials,Elsevier BV,True,False,True
-10.1016/j.apcatb.2016.10.039,journal_article,Applied Catalysis B: Environmental,Elsevier BV,True,False,True
-10.1016/j.memsci.2018.07.024,journal_article,Journal of Membrane Science,Elsevier BV,True,False,True
-10.1016/0926-860x(92)80258-e,journal_article,Applied Catalysis A: General,Elsevier BV,True,False,True
-10.1016/j.cattod.2019.03.038,journal_article,Catalysis Today,Elsevier BV,True,False,True
-10.1016/j.jcis.2013.11.065,journal_article,Journal of Colloid and Interface Science,Elsevier BV,True,False,True
-10.1016/s0166-9834(00)83137-1,journal_article,Applied Catalysis,Elsevier BV,True,False,True
-10.1016/j.micromeso.2009.05.013,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.cherd.2015.11.014,journal_article,Chemical Engineering Research and Design,Elsevier BV,True,False,True
-10.1016/j.carbon.2005.08.010,journal_article,Carbon,Elsevier BV,True,False,True
-10.1016/j.ces.2012.01.024,journal_article,Chemical Engineering Science,Elsevier BV,True,False,True
-10.1016/j.jcat.2009.06.016,journal_article,Journal of Catalysis,Elsevier BV,True,False,True
-10.1016/j.fuel.2019.04.079,journal_article,Fuel,Elsevier BV,True,False,True
-10.1016/j.micromeso.2006.04.001,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.cattod.2018.04.026,journal_article,Catalysis Today,Elsevier BV,True,False,True
-10.1016/s0167-2738(02)00723-3,journal_article,Solid State Ionics,Elsevier BV,True,False,True
-10.1016/s0927-6513(97)00024-2,journal_article,Microporous Materials,Elsevier BV,True,False,True
-10.1016/j.catcom.2009.07.008,journal_article,Catalysis Communications,Elsevier BV,True,False,True
-10.1016/s1387-1811(97)00027-9,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.micromeso.2018.04.033,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.jcat.2015.09.006,journal_article,Journal of Catalysis,Elsevier BV,True,False,True
-10.1016/j.jallcom.2018.03.232,journal_article,Journal of Alloys and Compounds,Elsevier BV,True,False,True
-10.1016/j.catcom.2017.08.010,journal_article,Catalysis Communications,Elsevier BV,True,False,True
-10.1016/j.micromeso.2012.06.035,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.micromeso.2011.02.019,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.cattod.2014.06.041,journal_article,Catalysis Today,Elsevier BV,True,False,True
-10.1016/j.memsci.2019.03.061,journal_article,Journal of Membrane Science,Elsevier BV,True,False,True
-10.1016/j.micromeso.2007.09.022,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.micromeso.2004.07.019,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.micromeso.2011.06.030,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.applthermaleng.2013.04.053,journal_article,Applied Thermal Engineering,Elsevier BV,True,False,True
-10.1016/j.jcrysgro.2010.10.163,journal_article,Journal of Crystal Growth,Elsevier BV,True,False,True
-10.1016/j.micromeso.2017.01.040,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.cej.2016.02.088,journal_article,Chemical Engineering Journal,Elsevier BV,True,False,True
-10.1016/j.micromeso.2014.03.030,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.jhazmat.2019.01.014,journal_article,Journal of Hazardous Materials,Elsevier BV,True,False,True
-10.1016/j.fuproc.2014.01.021,journal_article,Fuel Processing Technology,Elsevier BV,True,False,True
-10.1016/j.micromeso.2013.10.030,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.micromeso.2007.10.012,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/0927-6513(94)00050-6,journal_article,Microporous Materials,Elsevier BV,True,False,True
-10.1016/j.micromeso.2019.05.017,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.cattod.2018.04.028,journal_article,Catalysis Today,Elsevier BV,True,False,True
-10.1016/s1387-1811(99)00075-x,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.carbon.2014.04.094,journal_article,Carbon,Elsevier BV,True,False,True
-10.1016/j.micromeso.2011.04.031,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.memsci.2013.03.065,journal_article,Journal of Membrane Science,Elsevier BV,True,False,True
-10.1016/j.fuel.2012.09.046,journal_article,Fuel,Elsevier BV,True,False,True
-10.1016/j.cej.2010.11.071,journal_article,Chemical Engineering Journal,Elsevier BV,True,False,True
-10.1016/j.micromeso.2006.09.034,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.apcatb.2013.02.001,journal_article,Applied Catalysis B: Environmental,Elsevier BV,True,False,True
-10.1016/j.cattod.2012.04.008,journal_article,Catalysis Today,Elsevier BV,True,False,True
-10.1016/j.apcata.2012.12.043,journal_article,Applied Catalysis A: General,Elsevier BV,True,False,True
-10.1016/j.matlet.2013.01.002,journal_article,Materials Letters,Elsevier BV,True,False,True
-10.1016/j.matlet.2014.03.075,journal_article,Materials Letters,Elsevier BV,True,False,True
-10.1016/j.cplett.2016.10.052,journal_article,Chemical Physics Letters,Elsevier BV,True,False,True
-10.1016/j.cattod.2017.07.022,journal_article,Catalysis Today,Elsevier BV,True,False,True
-10.1016/j.jcis.2016.04.049,journal_article,Journal of Colloid and Interface Science,Elsevier BV,True,False,True
-10.1016/j.jcat.2008.02.018,journal_article,Journal of Catalysis,Elsevier BV,True,False,True
-10.1016/j.jssc.2004.12.036,journal_article,Journal of Solid State Chemistry,Elsevier BV,True,False,True
-10.1016/j.jcat.2014.02.007,journal_article,Journal of Catalysis,Elsevier BV,True,False,True
-10.1016/j.micromeso.2004.03.032,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.jcat.2005.11.021,journal_article,Journal of Catalysis,Elsevier BV,True,False,True
-10.1016/s1387-1811(01)00272-4,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.apcatb.2016.09.025,journal_article,Applied Catalysis B: Environmental,Elsevier BV,True,False,True
-10.1016/j.cherd.2013.10.008,journal_article,Chemical Engineering Research and Design,Elsevier BV,True,False,True
-10.1016/j.apcatb.2017.05.082,journal_article,Applied Catalysis B: Environmental,Elsevier BV,True,False,True
-10.1016/j.micromeso.2006.04.003,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/0144-2449(91)80359-8,journal_article,Zeolites,Elsevier BV,True,False,True
-10.1016/0144-2449(89)90101-2,journal_article,Zeolites,Elsevier BV,True,False,True
-10.1016/j.ces.2019.02.031,journal_article,Chemical Engineering Science,Elsevier BV,True,False,True
-10.1016/0144-2449(89)90093-6,journal_article,Zeolites,Elsevier BV,True,False,True
-10.1016/j.micromeso.2013.01.004,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.micromeso.2006.09.035,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.micromeso.2017.03.014,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.micromeso.2012.02.013,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.apcatb.2006.05.014,journal_article,Applied Catalysis B: Environmental,Elsevier BV,True,False,True
-10.1016/j.jmrt.2020.08.067,journal_article,Journal of Materials Research and Technology,Elsevier BV,True,False,True
-10.1016/j.jcat.2011.12.023,journal_article,Journal of Catalysis,Elsevier BV,True,False,True
-10.1016/0144-2449(95)00035-5,journal_article,Zeolites,Elsevier BV,True,False,True
-10.1016/j.micromeso.2017.10.045,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.apcata.2013.07.008,journal_article,Applied Catalysis A: General,Elsevier BV,True,False,True
-10.1016/j.memsci.2005.09.010,journal_article,Journal of Membrane Science,Elsevier BV,True,False,True
-10.1016/0144-2449(83)90078-7,journal_article,Zeolites,Elsevier BV,True,False,True
-10.1016/j.matlet.2015.08.058,journal_article,Materials Letters,Elsevier BV,True,False,True
-10.1016/s0926-860x(98)00265-8,journal_article,Applied Catalysis A: General,Elsevier BV,True,False,True
-10.1016/j.micromeso.2007.02.038,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.cattod.2014.05.030,journal_article,Catalysis Today,Elsevier BV,True,False,True
-10.1016/j.micromeso.2005.04.025,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/s0021-9517(02)00170-7,journal_article,Journal of Catalysis,Elsevier BV,True,False,True
-10.1016/j.memsci.2017.11.068,journal_article,Journal of Membrane Science,Elsevier BV,True,False,True
-10.1016/j.memsci.2015.08.048,journal_article,Journal of Membrane Science,Elsevier BV,True,False,True
-10.1016/s0144-2449(97)00099-7,journal_article,Zeolites,Elsevier BV,True,False,True
-10.1016/j.micromeso.2016.09.002,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.materresbull.2013.01.021,journal_article,Materials Research Bulletin,Elsevier BV,True,False,True
-10.1016/s1387-1811(02)00485-7,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
-10.1016/j.powtec.2014.09.036,journal_article,Powder Technology,Elsevier BV,True,False,True
-10.1007/s40242-017-7050-9,journal_article,Chemical Research in Chinese Universities,Springer Science and Business Media LLC,True,True,True
-10.1007/s11164-016-2550-7,journal_article,Research on Chemical Intermediates,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-010-0421-1,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s10934-017-0510-2,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/s10450-016-9828-3,journal_article,Adsorption,Springer Science and Business Media LLC,True,True,True
-10.1007/s10450-018-9980-z,journal_article,Adsorption,Springer Science and Business Media LLC,True,True,True
-10.1007/978-3-662-47395-5_5,book_content,Green Chemistry and Sustainable Technology,Springer Science and Business Media LLC,True,True,False
-10.1007/s10934-020-00898-w,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/bf01042779,journal_article,Journal of Inclusion Phenomena and Molecular Recognition in Chemistry,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-012-0797-1,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s11164-016-2584-x,journal_article,Research on Chemical Intermediates,Springer Science and Business Media LLC,True,True,True
-10.1007/s10934-010-9380-6,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/s10971-014-3531-1,journal_article,Journal of Sol-Gel Science and Technology,Springer Science and Business Media LLC,True,True,True
-10.1007/s11244-008-9146-4,journal_article,Topics in Catalysis,Springer Science and Business Media LLC,True,True,True
-10.1007/s11051-010-0216-8,journal_article,Journal of Nanoparticle Research,Springer Science and Business Media LLC,True,True,True
-10.1007/s13762-013-0334-9,journal_article,International Journal of Environmental Science and Technology,Springer Science and Business Media LLC,True,True,True
-10.1007%2Fs10934-010-9421-1,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/s42452-020-2930-x,journal_article,SN Applied Sciences,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-011-0598-y,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s10973-017-6551-6,journal_article,Journal of Thermal Analysis and Calorimetry,Springer Science and Business Media LLC,True,True,True
-10.1038/nature04097,journal_article,Nature,Springer Science and Business Media LLC,True,True,True
-10.1007/s11144-014-0748-5,journal_article,"Reaction Kinetics, Mechanisms and Catalysis",Springer Science and Business Media LLC,True,True,True
-10.1007/s11144-019-01534-8,journal_article,"Reaction Kinetics, Mechanisms and Catalysis",Springer Science and Business Media LLC,True,True,True
-10.1007/s10934-008-9214-y,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/s10934-010-9417-x,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-020-03473-9,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1038/353417a0,journal_article,Nature,Springer Science and Business Media LLC,True,True,True
-10.1007/s11164-018-3601-z,journal_article,Research on Chemical Intermediates,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-009-0053-5,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s11051-009-9688-9,journal_article,Journal of Nanoparticle Research,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-017-2136-z,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s10934-017-0457-3,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/s00706-011-0597-0,journal_article,Monatshefte für Chemie - Chemical Monthly,Springer Science and Business Media LLC,True,True,True
-10.1038/nature08493,journal_article,Nature,Springer Science and Business Media LLC,True,True,True
-10.1007/s11244-010-9474-z,journal_article,Topics in Catalysis,Springer Science and Business Media LLC,True,True,True
-10.1038/280664a0,journal_article,Nature,Springer Science and Business Media LLC,True,True,True
-10.1007/s10971-020-05342-8,journal_article,Journal of Sol-Gel Science and Technology,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-020-03211-1,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-007-9324-1,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s11172-012-0260-x,journal_article,Russian Chemical Bulletin,Springer Science and Business Media LLC,True,True,True
-10.1007/s11164-015-1981-x,journal_article,Research on Chemical Intermediates,Springer Science and Business Media LLC,True,True,True
-10.1007/s11244-010-9590-9,journal_article,Topics in Catalysis,Springer Science and Business Media LLC,True,True,True
-10.1007/s11244-009-9273-6,journal_article,Topics in Catalysis,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-015-1683-4,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-020-03333-6,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-007-9348-6,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-019-03026-9,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s11144-017-1162-6,journal_article,"Reaction Kinetics, Mechanisms and Catalysis",Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-016-1841-3,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s10934-017-0437-7,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/s11144-018-1465-2,journal_article,"Reaction Kinetics, Mechanisms and Catalysis",Springer Science and Business Media LLC,True,True,True
-10.1007/s11244-010-9587-4,journal_article,Topics in Catalysis,Springer Science and Business Media LLC,True,True,True
-10.1007/s10934-014-9885-5,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-020-03402-w,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s40995-016-0078-8,journal_article,"Iranian Journal of Science and Technology, Transactions A: Science",Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-005-2128-2,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s11237-015-9419-5,journal_article,Theoretical and Experimental Chemistry,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-020-03524-1,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s11144-019-01566-0,journal_article,"Reaction Kinetics, Mechanisms and Catalysis",Springer Science and Business Media LLC,True,True,True
-10.1007/s10934-016-0292-y,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/s13399-020-00907-7,journal_article,Biomass Conversion and Biorefinery,Springer Science and Business Media LLC,True,True,True
-10.1007/s10934-011-9527-0,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/s10934-018-0598-z,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-018-2307-6,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-019-02901-9,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s11244-017-0844-7,journal_article,Topics in Catalysis,Springer Science and Business Media LLC,True,True,True
-10.1007/bf00655926,journal_article,Journal of Inclusion Phenomena,Springer Science and Business Media LLC,True,True,True
-10.1007/s11144-014-0794-z,journal_article,"Reaction Kinetics, Mechanisms and Catalysis",Springer Science and Business Media LLC,True,True,True
-10.1007/s10853-014-8130-6,journal_article,Journal of Materials Science,Springer Science and Business Media LLC,True,True,True
-10.1007/s10934-020-00905-0,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/s10934-008-9223-x,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/s10853-019-03433-8,journal_article,Journal of Materials Science,Springer Science and Business Media LLC,True,True,True
-10.1007/s11244-013-0170-7,journal_article,Topics in Catalysis,Springer Science and Business Media LLC,True,True,True
-10.1007/s10853-006-0172-y,journal_article,Journal of Materials Science,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-007-9387-z,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s11144-012-0520-7,journal_article,"Reaction Kinetics, Mechanisms and Catalysis",Springer Science and Business Media LLC,True,True,True
-10.1007/s10853-009-3508-6,journal_article,Journal of Materials Science,Springer Science and Business Media LLC,True,True,True
-10.1007/s10934-010-9385-1,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-019-02687-w,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s11051-017-3772-3,journal_article,Journal of Nanoparticle Research,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-010-0292-5,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-008-9454-0,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1038/nmat921,journal_article,Nature Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-014-1458-3,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s10934-012-9627-5,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/s10934-012-9666-y,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/s10853-015-9201-z,journal_article,Journal of Materials Science,Springer Science and Business Media LLC,True,True,True
-10.1007/s10934-018-0606-3,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/s10973-015-5148-1,journal_article,Journal of Thermal Analysis and Calorimetry,Springer Science and Business Media LLC,True,True,True
-10.1007/s11244-008-9150-8,journal_article,Topics in Catalysis,Springer Science and Business Media LLC,True,True,True
-10.1007/s11244-009-9272-7,journal_article,Topics in Catalysis,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-008-9564-8,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1007/s10450-019-00113-6,journal_article,Adsorption,Springer Science and Business Media LLC,True,True,True
-10.1007/s11244-015-0422-9,journal_article,Topics in Catalysis,Springer Science and Business Media LLC,True,True,True
-10.1007/s11144-017-1292-x,journal_article,"Reaction Kinetics, Mechanisms and Catalysis",Springer Science and Business Media LLC,True,True,True
-10.1007/s10934-006-9069-z,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/s12209-017-0065-y,journal_article,Transactions of Tianjin University,Springer Science and Business Media LLC,True,True,True
-10.1007/s10450-016-9836-3,journal_article,Adsorption,Springer Science and Business Media LLC,True,True,True
-10.1007/s10934-012-9625-7,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
-10.1007/s10562-019-03064-3,journal_article,Catalysis Letters,Springer Science and Business Media LLC,True,True,True
-10.1002/jctb.2291,journal_article,Journal of Chemical Technology & Biotechnology,Wiley,True,True,False
-10.1002/hlca.201600234,journal_article,Helvetica Chimica Acta,Wiley,True,True,False
-10.1002/app.24041,journal_article,Journal of Applied Polymer Science,Wiley,True,True,False
-10.1002/ep.13570,journal_article,Environmental Progress & Sustainable Energy,Wiley,True,True,False
-10.1002/anie.201510726,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
-10.1002/anie.201713308,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
-10.1002/cssc.201801486,journal_article,ChemSusChem,Wiley,True,True,False
-10.1002/chem.200801383,journal_article,Chemistry – A European Journal,Wiley,True,True,False
-10.1002/cjce.22247,journal_article,The Canadian Journal of Chemical Engineering,Wiley,True,True,False
-10.1002/cctc.201601159,journal_article,ChemCatChem,Wiley,True,True,False
-10.1002/anie.199726751,journal_article,Angewandte Chemie International Edition in English,Wiley,True,True,False
-10.1002/cssc.201801504,journal_article,ChemSusChem,Wiley,True,True,False
-10.1002/cssc.201800864,journal_article,ChemSusChem,Wiley,True,True,False
-10.1002/cctc.201901819,journal_article,ChemCatChem,Wiley,True,True,False
-10.1002/ejic.201701002,journal_article,European Journal of Inorganic Chemistry,Wiley,True,True,False
-10.1002/1521-3765(20021018)8:20<4708::aid-chem4708>3.0.co;2-u,journal_article,Chemistry - A European Journal,Wiley,True,False,False
-10.1002/cctc.201700916,journal_article,ChemCatChem,Wiley,True,True,False
-10.1002/chem.201704668,journal_article,Chemistry – A European Journal,Wiley,True,True,False
-10.1002/anie.199406391,journal_article,Angewandte Chemie International Edition in English,Wiley,True,True,False
-10.1002/(sici)1521-3773(19990712)38:13/14<1997::aid-anie1997>3.0.co;2-u,journal_article,Angewandte Chemie International Edition,Wiley,True,False,False
-10.1002/chem.200400343,journal_article,Chemistry – A European Journal,Wiley,True,True,False
-10.1002/cctc.201700062,journal_article,ChemCatChem,Wiley,True,True,False
-10.1002/anie.201411791,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
-10.1002/1521-3765(20021115)8:22<5153::aid-chem5153>3.0.co;2-e,journal_article,Chemistry - A European Journal,Wiley,True,False,False
-10.1002/chem.201201319,journal_article,Chemistry – A European Journal,Wiley,True,True,False
-10.1002/cssc.201500443,journal_article,ChemSusChem,Wiley,True,True,False
-10.1002/ep.11940,journal_article,Environmental Progress & Sustainable Energy,Wiley,True,True,False
-10.1002/1521-4125(200203)25:3<273::aid-ceat273>3.0.co;2-4,journal_article,Chemical Engineering & Technology,Wiley,True,False,False
-10.1002/anie.201504416,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
-10.1002/ejic.201800729,journal_article,European Journal of Inorganic Chemistry,Wiley,True,True,False
+10.1021/acs.cgd.8b00078,journal_article,Crystal Growth & Design,American Chemical Society (ACS),False,False,False
+10.1039/c7dt03751a,journal_article,Dalton Transactions,Royal Society of Chemistry (RSC),False,False,False
+10.1021/acs.cgd.7b01000,journal_article,Crystal Growth & Design,American Chemical Society (ACS),False,False,False
+10.1016/j.micromeso.2017.03.033,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
+10.1021/acs.chemmater.6b02468,journal_article,Chemistry of Materials,American Chemical Society (ACS),False,False,False
+10.1016/j.jcat.2016.09.007,journal_article,Journal of Catalysis,Elsevier BV,True,False,True
 10.1002/chem.201602419,journal_article,Chemistry – A European Journal,Wiley,True,True,False
-10.1002/chem.200305238,journal_article,Chemistry – A European Journal,Wiley,True,True,False
-10.1002/aoc.4711,journal_article,Applied Organometallic Chemistry,Wiley,True,True,False
-10.1002/chem.201705784,journal_article,Chemistry – A European Journal,Wiley,True,True,False
-10.1002/cssc.201300408,journal_article,ChemSusChem,Wiley,True,True,False
-10.1002/ep.12325,journal_article,Environmental Progress & Sustainable Energy,Wiley,True,True,False
-10.1002/ep.12322,journal_article,Environmental Progress & Sustainable Energy,Wiley,True,True,False
-10.1002/asia.201800930,journal_article,Chemistry – An Asian Journal,Wiley,True,True,False
-10.1002/chem.201503136,journal_article,Chemistry – A European Journal,Wiley,True,True,False
-10.1002/cctc.202000024,journal_article,ChemCatChem,Wiley,True,True,False
-10.1002/chem.201402887,journal_article,Chemistry – A European Journal,Wiley,True,True,False
-10.1002/anie.201000304,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
-10.1002/chem.200801916,journal_article,Chemistry – A European Journal,Wiley,True,True,False
-10.1002/anie.199500631,journal_article,Angewandte Chemie International Edition in English,Wiley,True,True,False
-10.1002/chem.201102505,journal_article,Chemistry – A European Journal,Wiley,True,True,False
-10.1002/anie.200904876,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
-10.1111/j.1551-2916.2011.05006.x,journal_article,Journal of the American Ceramic Society,Wiley,True,True,False
-10.1002/chem.201705277,journal_article,Chemistry – A European Journal,Wiley,True,True,False
-10.1002/mrc.4748,journal_article,Magnetic Resonance in Chemistry,Wiley,True,True,False
-10.1002/jctb.4134,journal_article,Journal of Chemical Technology & Biotechnology,Wiley,True,True,False
-10.1002/ceat.202000066,journal_article,Chemical Engineering & Technology,Wiley,True,True,False
-10.1002/asia.201700303,journal_article,Chemistry – An Asian Journal,Wiley,True,True,False
-10.1002/cctc.201900054,journal_article,ChemCatChem,Wiley,True,True,False
-10.1002/chem.201202592,journal_article,Chemistry – A European Journal,Wiley,True,True,False
-10.1002/chem.200902101,journal_article,Chemistry – A European Journal,Wiley,True,True,False
-10.1002/ajoc.201700120,journal_article,Asian Journal of Organic Chemistry,Wiley,True,True,False
-10.1002/admi.202001288,journal_article,Advanced Materials Interfaces,Wiley,True,True,False
-10.1002/anie.201107725,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
-10.1002/anie.201412482,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
-10.1002/anie.201108753,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
-10.1002/chem.200390095,journal_article,Chemistry – A European Journal,Wiley,True,True,False
-10.1002/asia.201801904,journal_article,Chemistry – An Asian Journal,Wiley,True,True,False
-10.1002/cphc.201700968,journal_article,ChemPhysChem,Wiley,True,True,False
-10.1002/ejic.201700023,journal_article,European Journal of Inorganic Chemistry,Wiley,True,True,False
-10.1002/chem.201100098,journal_article,Chemistry – A European Journal,Wiley,True,True,False
-10.1002/chem.201803136,journal_article,Chemistry – A European Journal,Wiley,True,True,False
-10.1002/crat.201300434,journal_article,Crystal Research and Technology,Wiley,True,True,False
-10.1002/cite.201800189,journal_article,Chemie Ingenieur Technik,Wiley,True,True,False
-10.1002/cssc.201200907,journal_article,ChemSusChem,Wiley,True,True,False
-10.1002/(sici)1521-3773(19980817)37:15<2122::aid-anie2122>3.0.co;2-6,journal_article,Angewandte Chemie International Edition,Wiley,True,False,False
-10.1002/anie.201912488,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
-10.1002/aic.13851,journal_article,AIChE Journal,Wiley,True,True,False
-10.1002/qsar.200620064,journal_article,QSAR & Combinatorial Science,Wiley,True,True,False
-10.1002/chem.202003183,journal_article,Chemistry – A European Journal,Wiley,True,True,False
-10.1002/anie.200250076,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
-10.1002/anie.200602996,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
-10.1002/hlca.19690520712,journal_article,Helvetica Chimica Acta,Wiley,True,True,False
-10.1002/kin.21359,journal_article,International Journal of Chemical Kinetics,Wiley,True,True,False
-10.1002/cctc.201801234,journal_article,ChemCatChem,Wiley,True,True,False
-10.1002/anie.201404608,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
-10.1002/anie.200602999,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
-10.1002/cctc.201900298,journal_article,ChemCatChem,Wiley,True,True,False
-10.1002/anie.201404076,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
-10.1002/cctc.201701848,journal_article,ChemCatChem,Wiley,True,True,False
-10.1002/aoc.4594,journal_article,Applied Organometallic Chemistry,Wiley,True,True,False
-10.1002/chem.201705038,journal_article,Chemistry – A European Journal,Wiley,True,True,False
-10.1002/jctb.1938,journal_article,Journal of Chemical Technology & Biotechnology,Wiley,True,True,False
-10.1002/cssc.201802577,journal_article,ChemSusChem,Wiley,True,True,False
-10.1002/smll.201100959,journal_article,Small,Wiley,True,True,False
-10.1002/ejic.201501223,journal_article,European Journal of Inorganic Chemistry,Wiley,True,True,False
-10.1002/anie.198900811,journal_article,Angewandte Chemie International Edition in English,Wiley,True,True,False
-10.1002/cctc.201000372,journal_article,ChemCatChem,Wiley,True,True,False
-10.1002/zaac.200900415,journal_article,Zeitschrift für anorganische und allgemeine Chemie,Wiley,True,True,False
-10.1002/cplu.201200236,journal_article,ChemPlusChem,Wiley,True,True,False
-10.1002/chem.200700485,journal_article,Chemistry – A European Journal,Wiley,True,True,False
-10.1002/ceat.202000087,journal_article,Chemical Engineering & Technology,Wiley,True,True,False
-10.1002/anie.201300846,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
-10.1002/cctc.201800650,journal_article,ChemCatChem,Wiley,True,True,False
+10.1039/c5ce02312b,journal_article,CrystEngComm,Royal Society of Chemistry (RSC),False,False,False
+10.1007/s10853-016-9799-5,journal_article,Journal of Materials Science,Springer Science and Business Media LLC,True,True,True
+10.1007/s10934-015-0119-2,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
+10.1039/c5ce00731c,journal_article,CrystEngComm,Royal Society of Chemistry (RSC),False,False,False
+10.1039/c5ra09942k,journal_article,RSC Advances,Royal Society of Chemistry (RSC),False,False,False
+10.1016/j.jssc.2014.12.031,journal_article,Journal of Solid State Chemistry,Elsevier BV,True,False,True
+10.1021/cm502525w,journal_article,Chemistry of Materials,American Chemical Society (ACS),False,False,False
+10.1039/c4ra01383b,journal_article,RSC Advances,Royal Society of Chemistry (RSC),False,False,False
+10.1016/j.micromeso.2012.10.004,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
+10.1021/ic301449y,journal_article,Inorganic Chemistry,American Chemical Society (ACS),False,False,False
+10.1016/j.micromeso.2012.06.036,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
+10.1021/cm1006108,journal_article,Chemistry of Materials,American Chemical Society (ACS),False,False,False
+10.1016/j.jcrysgro.2009.08.031,journal_article,Journal of Crystal Growth,Elsevier BV,True,False,True
+10.1016/j.micromeso.2009.05.004,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
+10.1016/j.jssc.2008.12.002,journal_article,Journal of Solid State Chemistry,Elsevier BV,True,False,True
+10.1002/chem.200800416,journal_article,Chemistry – A European Journal,Wiley,True,True,False
+10.1021/cm071790f,journal_article,Chemistry of Materials,American Chemical Society (ACS),False,False,False
+10.1016/j.micromeso.2006.10.023,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
+10.1021/cm049912g,journal_article,Chemistry of Materials,American Chemical Society (ACS),False,False,False
+10.1021/jp0378438,journal_article,The Journal of Physical Chemistry B,American Chemical Society (ACS),False,False,False
+10.1016/s1387-1811(02)00612-1,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
+10.1016/j.jcat.2006.04.036,journal_article,Journal of Catalysis,Elsevier BV,True,False,True
+10.1002/anie.201801386,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
+10.1002/anie.201001506,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
+10.1038/nature07957,journal_article,Nature,Springer Science and Business Media LLC,True,True,True
+10.1002/(sici)1521-3773(19990301)38:5<653::aid-anie653>3.0.co;2-c,journal_article,Angewandte Chemie International Edition,Wiley,True,False,False
+10.1002/1521-3773(20000703)39:13<2346::aid-anie2346>3.0.co;2-b,journal_article,Angewandte Chemie International Edition,Wiley,True,False,False
+10.1002/1521-3773(20010601)40:11<2166::aid-anie2166>3.0.co;2-c,journal_article,Angewandte Chemie International Edition,Wiley,True,False,False
 10.1002/1521-3773(20010618)40:12<2277::aid-anie2277>3.0.co;2-o,journal_article,Angewandte Chemie International Edition,Wiley,True,False,False
-10.1002/cctc.201300141,journal_article,ChemCatChem,Wiley,True,True,False
+10.1002/anie.200461911,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
+10.1002/anie.200801375,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
+10.1002/anie.201006500,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
+10.1002/anie.201300846,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
+10.1002/anie.201501718,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
+10.1002/anie.201506678,journal_article,Angewandte Chemie International Edition,Wiley,True,True,False
+10.1002/chem.201603434,journal_article,Chemistry – A European Journal,Wiley,True,True,False
+10.1002/chem.201703361,journal_article,Chemistry – A European Journal,Wiley,True,True,False
+10.1007/s10934-015-0051-5,journal_article,Journal of Porous Materials,Springer Science and Business Media LLC,True,True,True
+10.1007/s11144-009-0129-7,journal_article,"Reaction Kinetics, Mechanisms and Catalysis",Springer Science and Business Media LLC,True,True,True
+10.1007/s11244-013-0170-7,journal_article,Topics in Catalysis,Springer Science and Business Media LLC,True,True,True
+10.1016/j.cattod.2012.10.002,journal_article,Catalysis Today,Elsevier BV,True,False,True
+10.1016/j.cattod.2013.10.051,journal_article,Catalysis Today,Elsevier BV,True,False,True
+10.1016/j.cattod.2014.06.041,journal_article,Catalysis Today,Elsevier BV,True,False,True
+10.1016/j.inoche.2013.11.010,journal_article,Inorganic Chemistry Communications,Elsevier BV,True,False,True
+10.1016/j.jcat.2007.12.003,journal_article,Journal of Catalysis,Elsevier BV,True,False,True
+10.1016/j.jcat.2009.08.012,journal_article,Journal of Catalysis,Elsevier BV,True,False,True
+10.1016/j.micromeso.2006.11.005,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
+10.1016/j.micromeso.2008.06.036,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
+10.1016/j.micromeso.2010.10.050,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
+10.1016/j.micromeso.2014.02.010,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
+10.1016/j.micromeso.2016.11.023,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
+10.1016/j.solidstatesciences.2007.08.002,journal_article,Solid State Sciences,Elsevier BV,True,False,True
+10.1016/s1387-1811(00)00221-3,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
+10.1016/s1387-1811(02)00270-6,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
+10.1016/s1387-1811(98)00294-7,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
+10.1016/s1387-1811(99)00070-0,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
+10.1016/s1387-1811(99)00177-8,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
+10.1016/s1387-1811(99)00263-2,journal_article,Microporous and Mesoporous Materials,Elsevier BV,True,False,True
+10.1021/acs.cgd.6b01150,journal_article,Crystal Growth & Design,American Chemical Society (ACS),False,False,False
+10.1021/acs.chemmater.7b01181,journal_article,Chemistry of Materials,American Chemical Society (ACS),False,False,False
+10.1021/cg300647s,journal_article,Crystal Growth & Design,American Chemical Society (ACS),False,False,False
+10.1021/cg500681k,journal_article,Crystal Growth & Design,American Chemical Society (ACS),False,False,False
+10.1021/cm049373f,journal_article,Chemistry of Materials,American Chemical Society (ACS),False,False,False
+10.1021/cm2025735,journal_article,Chemistry of Materials,American Chemical Society (ACS),False,False,False
+10.1021/cm301511y,journal_article,Chemistry of Materials,American Chemical Society (ACS),False,False,False
+10.1021/cm502953s,journal_article,Chemistry of Materials,American Chemical Society (ACS),False,False,False
+10.1021/cm801126t,journal_article,Chemistry of Materials,American Chemical Society (ACS),False,False,False
+10.1021/cm901051u,journal_article,Chemistry of Materials,American Chemical Society (ACS),False,False,False
+10.1021/cm9804766,journal_article,Chemistry of Materials,American Chemical Society (ACS),False,False,False
+10.1021/ic051039d,journal_article,Inorganic Chemistry,American Chemical Society (ACS),False,False,False
+10.1021/ic1017505,journal_article,Inorganic Chemistry,American Chemical Society (ACS),False,False,False
+10.1021/ic9911217,journal_article,Inorganic Chemistry,American Chemical Society (ACS),False,False,False
+10.1021/ja016996a,journal_article,Journal of the American Chemical Society,American Chemical Society (ACS),False,False,False
+10.1021/ja047990z,journal_article,Journal of the American Chemical Society,American Chemical Society (ACS),False,False,False
+10.1021/ja103648k,journal_article,Journal of the American Chemical Society,American Chemical Society (ACS),False,False,False
+10.1021/ja410844f,journal_article,Journal of the American Chemical Society,American Chemical Society (ACS),False,False,False
+10.1021/ja904458y,journal_article,Journal of the American Chemical Society,American Chemical Society (ACS),False,False,False
+10.1021/jp063852f,journal_article,The Journal of Physical Chemistry B,American Chemical Society (ACS),False,False,False
+10.1038/nature00924,journal_article,Nature,Springer Science and Business Media LLC,True,True,True
+10.1038/nature04097,journal_article,Nature,Springer Science and Business Media LLC,True,True,True
+10.1038/nchem.2761,journal_article,Nature Chemistry,Springer Science and Business Media LLC,True,True,True
+10.1038/nmat921,journal_article,Nature Materials,Springer Science and Business Media LLC,True,True,True
+10.1039/b007054h,journal_article,Chemical Communications,Royal Society of Chemistry (RSC),False,False,False
+10.1039/b104114m,journal_article,Chemical Communications,Royal Society of Chemistry (RSC),False,False,False
+10.1039/b314942k,journal_article,Dalton Transactions,Royal Society of Chemistry (RSC),False,False,False
+10.1039/c2ce25665g,journal_article,CrystEngComm,Royal Society of Chemistry (RSC),False,False,False
+10.1039/c2dt31185b,journal_article,Dalton Transactions,Royal Society of Chemistry (RSC),False,False,False
+10.1039/c2jm34351g,journal_article,Journal of Materials Chemistry,Royal Society of Chemistry (RSC),False,False,False
+10.1039/c3qi00088e,journal_article,Inorg. Chem. Front.,Royal Society of Chemistry (RSC),False,False,False
+10.1039/c3sc51892b,journal_article,Chem. Sci.,Royal Society of Chemistry (RSC),False,False,False
+10.1039/c4cc10317c,journal_article,Chemical Communications,Royal Society of Chemistry (RSC),False,False,False
+10.1039/c4dt00165f,journal_article,Dalton Transactions,Royal Society of Chemistry (RSC),False,False,False
+10.1039/c4sc02577f,journal_article,Chemical Science,Royal Society of Chemistry (RSC),False,False,False
+10.1039/c5nj03094c,journal_article,New Journal of Chemistry,Royal Society of Chemistry (RSC),False,False,False
+10.1039/c6cp01950a,journal_article,Physical Chemistry Chemical Physics,Royal Society of Chemistry (RSC),False,False,False
+10.1039/c6dt04688f,journal_article,Dalton Transactions,Royal Society of Chemistry (RSC),False,False,False
+10.1039/c7ta02344h,journal_article,Journal of Materials Chemistry A,Royal Society of Chemistry (RSC),False,False,False
