@@ -173,7 +173,7 @@ def download_springer_papers(
 
                 file_content = response.content
                 if format == "html":
-                    content_soup = BeautifulSoup(file_content.decode("utf-8"))
+                    content_soup = BeautifulSoup(file_content.decode("utf-8"), features="lxml")
                     if content_soup.find_all("iframe", {"title": "Article PDF"}):
                         logging.info(
                             f"Springer: paper {doi} HTML is just an embedded PDF. Skipping."
@@ -260,9 +260,9 @@ def get_zeolite_dois(dataset_directory) -> list[str]:
     Returns:
         List[str]: A list of DOIs of papers in the Zeolite dataset.
     """
-    from data.zeolite.constraints import sampled_dois
-
-    return sampled_dois
+    zeolite_data = pd.read_csv(os.path.join(dataset_directory, "zeolite_data.csv"))
+    doi_list = zeolite_data["doi"].unique().tolist()
+    return doi_list
 
 
 def get_aluminum_dois(dataset_directory) -> list[str]:
@@ -272,27 +272,9 @@ def get_aluminum_dois(dataset_directory) -> list[str]:
     Returns:
         List[str]: A list of DOIs of papers in the Al-alloy dataset.
     """
-    AL_ALLOY_COMPOSITION_PATH = os.path.join(dataset_directory, "composition.csv")
-    AL_ALLOY_PROPERTIES_PATH = os.path.join(dataset_directory, "property.csv")
-    assert os.path.exists(
-        AL_ALLOY_COMPOSITION_PATH
-    ), f"Al-alloy composition CSV file not found at {AL_ALLOY_COMPOSITION_PATH}"
-    assert os.path.exists(
-        AL_ALLOY_PROPERTIES_PATH
-    ), f"Al-alloy properties CSV file not found at {AL_ALLOY_PROPERTIES_PATH}"
-    Al_alloy_composition_df = pd.read_csv(AL_ALLOY_COMPOSITION_PATH, dtype={"ft_doi_list": str})
-    Al_alloy_composition_dois = (
-        Al_alloy_composition_df["ft_doi_list"]
-        .dropna()  # drop NaN values
-        .apply(ast.literal_eval)  # convert the string of list to an actual list
-        .explode()  # flatten the list of lists
-        .unique()  # get unique DOIs
-        .tolist()  # convert to a list
-    )
-    Al_alloy_properties_df = pd.read_csv(AL_ALLOY_PROPERTIES_PATH)
-    Al_alloy_properties_dois = Al_alloy_properties_df["doi"].dropna().unique().tolist()
-    Al_alloy_dataset_DOIs = sorted(list(set(Al_alloy_composition_dois + Al_alloy_properties_dois)))
-    return Al_alloy_dataset_DOIs
+    al_data = pd.read_csv(os.path.join(dataset_directory, "al_data.csv"))
+    doi_list = al_data["doi"].unique().tolist()
+    return doi_list
 
 
 def get_doi_metadata(doi: str, session=None) -> dict[str, str]:
