@@ -21,4 +21,10 @@ columns_to_predict = [
     "Extracted",
 ]
 
-train_set_dois = ["10.1039/c7dt03751a", "10.1039/c5ce02312b", "10.1016/j.micromeso.2006.10.023"]
+train_set_dois = [
+    "10.1016/j.micromeso.2006.10.023",
+    "10.1016/j.solidstatesciences.2007.08.002",
+    "10.1007/s10934-015-0051-5",
+    "10.1002/anie.200461911",
+    "10.1007/s11244-013-0170-7",
+]
