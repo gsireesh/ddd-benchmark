@@ -1,4 +1,7 @@
+import re
+
 import numpy as np
+import pandas as pd
 
 from evaluation.utils import StatsContainer
 
@@ -7,10 +10,26 @@ def string_equals(string_a, string_b):
     return string_a == string_b
 
 
+def normalize(string: str) -> str | None:
+    if pd.isnull(string):
+        return None
+    mod = string
+    mod = mod.strip()
+    mod = mod.lower()
+    mod = re.sub(r"\W+", "-", mod)
+    return mod
+
+
+def split_and_normalize(string: str) -> set[str]:
+    if pd.isnull(string):
+        return set()
+    split_and_normed = {normalize(s) for s in re.split(",", string)}
+    return split_and_normed
+
+
 def evaluate_textual_columns(gt_df, aligned_rows, textual_columns, present_columns, absent_columns):
     stats = StatsContainer()
 
-    # For all present data, compute true and false positives, and false negatives
     for column in set(textual_columns).intersection(set(present_columns)):
         location = (
             gt_df[column + "_location"].values[0]
@@ -18,21 +37,15 @@ def evaluate_textual_columns(gt_df, aligned_rows, textual_columns, present_colum
             else "generic"
         )
 
-        nonnull_filter = gt_df[column].notnull().values
+        # # For all present data, compute true and false positives, and false negatives
+        for gt_value, pred_value in zip(gt_df[column].values, aligned_rows[column].values):
+            gt_normed_set = split_and_normalize(gt_value)
+            pred_normed_set = split_and_normalize(pred_value)
 
-        new_tp = (
-            gt_df[column][nonnull_filter].values == aligned_rows[column][nonnull_filter].values
-        ).sum(axis=None)
-        stats.record("tp", new_tp, location)
-
-        new_fn = aligned_rows[column][nonnull_filter].isnull().sum().sum()
-        stats.record("fn", new_fn, location)
-
-        should_be_null_fp = (aligned_rows[column][~nonnull_filter].notnull()).sum()
-        wrong_value_fp = (
-            gt_df[column][nonnull_filter].values != aligned_rows[column][nonnull_filter].values
-        ).sum(axis=None)
-        stats.record("fp", should_be_null_fp + wrong_value_fp, location)
+            stats.record("tp", len(gt_normed_set.intersection(pred_normed_set)), location)
+            stats.record("fp", len(pred_normed_set - gt_normed_set), location)
+            stats.record("fn", len(gt_normed_set - pred_normed_set), location)
+            stats.record("tn", len(gt_normed_set) + len(pred_normed_set) == 0, location)
 
     # for absent data, compute true and false negatives, as well as false positives.
     for column in set(textual_columns).intersection(set(absent_columns)):
