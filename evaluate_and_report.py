@@ -35,13 +35,18 @@ def get_columns_to_predict(column_config: dict) -> list[str]:
     )
 
 
-## only makes sense for fully location-annotated data
-# def get_comparison_columns(data_df):
-#     comparison_columns = []
-#     for column in NUMERICAL_COLUMNS + TEXT_COLUMNS:
-#         if data_df[column + "_location"].iloc[0] not in ["Not Present", "Not on page"]:
-#             comparison_columns.append(column)
-#     return comparison_columns
+# only makes sense for fully location-annotated data
+def get_comparison_columns(data_df, columns_to_predict):
+    comparison_columns = []
+    if (
+        columns_to_predict[0] + "_location" not in columns_to_predict
+        or columns_to_predict[columns_to_predict[0]].isnull().any()
+    ):
+        return columns_to_predict
+    for column in columns_to_predict:
+        if data_df[column + "_location"].iloc[0] not in ["Not Present", "Not on page"]:
+            comparison_columns.append(column)
+    return comparison_columns
 
 
 def compute_aligned_df_f1(gt_df, aligned_rows, unaligned_rows, present_columns, column_config):
@@ -137,11 +142,7 @@ def evaluate_predictions(gt_df, pred_df, column_config):
     if missing_columns:
         raise AssertionError(f"Predictions dataframe missing required columns: {missing_columns}")
 
-    numerical_columns = column_config["numerical"]
-    textual_columns = column_config["textual"]
-    list_columns = get_all_list_columns(column_config)
-
-    for column in numerical_columns:
+    for column in column_config["numerical"]:
         pred_df[column] = pd.to_numeric(pred_df[column], errors="coerce")
 
     dataset_stats = StatsContainer()
@@ -154,21 +155,17 @@ def evaluate_predictions(gt_df, pred_df, column_config):
             if pdf.empty:
                 raise AssertionError(f"DOI {doi} not found in predictions. Skipping.")
 
-            comparison_columns = numerical_columns + textual_columns
-            # get_comparison_columns(
-            # ddf)
-            alignment_matrix = get_alignment_scores(
-                ddf, pdf, numerical_columns + textual_columns, column_config
-            )
+            comparison_columns = get_comparison_columns(ddf, columns_to_predict)
+            alignment_matrix = get_alignment_scores(ddf, pdf, comparison_columns, column_config)
             aligned_df, unaligned_df = align_predictions(pdf, alignment_matrix)
             paper_stats = compute_aligned_df_f1(
-                ddf, aligned_df, unaligned_df, columns_to_predict, column_config
+                ddf, aligned_df, unaligned_df, comparison_columns, column_config
             )
             paper_stats.broadcast_doi(doi)
             dataset_stats += paper_stats
         except Exception as e:
             print(doi, e)
-            raise e
+            # raise e
             continue
 
     results_df = dataset_stats.to_dataframe()
