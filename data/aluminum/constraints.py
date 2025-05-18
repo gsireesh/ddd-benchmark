@@ -81,7 +81,7 @@ evaluation_column_config = {
         "V",
         "Yb",
     ],
-    "textual": [],
+    "textual": ["AA", "temper", "Hardness UNIT", "Has comp [True / False / nominal]"],
 }
 
 train_set_dois = [
