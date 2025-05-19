@@ -1,4 +1,5 @@
 import json
+import os
 
 import fire
 import pandas as pd
@@ -35,16 +36,18 @@ def get_columns_to_predict(column_config: dict) -> list[str]:
     )
 
 
-# only makes sense for fully location-annotated data
 def get_comparison_columns(data_df, columns_to_predict):
     comparison_columns = []
     if (
-        columns_to_predict[0] + "_location" not in columns_to_predict
-        or columns_to_predict[columns_to_predict[0]].isnull().any()
+        columns_to_predict[0] + "_location" not in data_df.columns
+        or data_df[columns_to_predict[0]].isnull().all()
     ):
         return columns_to_predict
     for column in columns_to_predict:
-        if data_df[column + "_location"].iloc[0] not in ["Not Present", "Not on page"]:
+        if (
+            data_df[column + "_location"].iloc[0] not in ["Not Present", "Not on page"]
+            and data_df[column].notnull().any()
+        ):
             comparison_columns.append(column)
     return comparison_columns
 
@@ -62,9 +65,9 @@ def compute_aligned_df_f1(gt_df, aligned_rows, unaligned_rows, present_columns, 
     # temporarily commenting out absent columns - it really only makes sense with fully
     # location-annotated data.
     absent_columns = [
-        # column
-        # for column in gt_df
-        # if column not in present_columns and column in numerical_columns + textual_columns
+        column
+        for column in gt_df
+        if column not in present_columns and column in numerical_columns + textual_columns
     ]
 
     fp_extra_rows = 0
@@ -224,7 +227,10 @@ def evaluate_predictions_wrapper(
 
     json_results = json.dumps(results, indent=4)
 
-    with open(predictions_path.replace(".csv", "_results.json"), "w") as f:
+    output_filename = os.path.join(
+        "results", os.path.basename(predictions_path).replace(".csv", "_results.json")
+    )
+    with open(output_filename, "w") as f:
         f.write(json_results)
 
     print(json_results)

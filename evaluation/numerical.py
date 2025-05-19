@@ -51,6 +51,6 @@ def evaluate_numerical_columns(
         new_tn = (num_divergence_neg == 0).sum(axis=None)
         stats.record("tn", new_tn, location)
 
-        stats.record("fp", num_divergence_neg.shape[0] - new_tn)
+        stats.record("fp", num_divergence_neg.shape[0] - new_tn, location)
 
     return stats

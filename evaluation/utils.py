@@ -31,6 +31,8 @@ class StatsContainer:
 
 def get_all_list_columns(column_config):
     list_columns = []
+    if "aligned_lists" not in column_config:
+        return list_columns
     for config in column_config["aligned_lists"]:
         if isinstance(config["columns"][0], str):
             list_columns.extend(config["columns"])

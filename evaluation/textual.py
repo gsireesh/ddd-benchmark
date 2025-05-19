@@ -44,7 +44,7 @@ def evaluate_textual_columns(gt_df, aligned_rows, textual_columns, present_colum
 
             stats.record("tp", len(gt_normed_set.intersection(pred_normed_set)), location)
             stats.record("fp", len(pred_normed_set - gt_normed_set), location)
-            stats.record("fn", len(gt_normed_set - pred_normed_set), location)
+            stats.record("fn", len(gt_normed_set) if not pred_normed_set else 0, location)
             stats.record("tn", len(gt_normed_set) + len(pred_normed_set) == 0, location)
 
     # for absent data, compute true and false negatives, as well as false positives.
@@ -62,6 +62,6 @@ def evaluate_textual_columns(gt_df, aligned_rows, textual_columns, present_colum
         new_tn = (absent_text == aligned_rows[column].fillna("-1").values).sum(axis=None)
         stats.record("tn", new_tn, location)
 
-        stats.record("fp", "gt_df[column].shape[0] - new_tn")
+        stats.record("fp", gt_df[column].shape[0] - new_tn, location)
 
     return stats
