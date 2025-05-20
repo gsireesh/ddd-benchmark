@@ -64,7 +64,10 @@ def only_textual(data, column_config):
         return data
     if isinstance(data, pd.Series):
         filtered = data[[column for column in data.index if column in textual_columns]]
-        normalized = filtered.str.lower().str.replace("\W+", "_", regex=True)
+        normalized = filtered.mask(
+            filtered.notnull(),
+            filtered.str.lower().str.replace("\W+", "_", regex=True),
+        )
     else:
         filtered = data[[column for column in data if column in textual_columns]]
         normalized = filtered.apply(

@@ -44,9 +44,7 @@ def evaluate_numerical_columns(
             else "generic"
         )  # all absent values should be calculated against a value of 0.
         absent_value = np.zeros_like(gt_df[column].values) - 1
-        num_divergence_neg = np.abs(
-            absent_value - aligned_rows[column].fillna(-1).fillna(-2)
-        ).values
+        num_divergence_neg = np.abs(absent_value - aligned_rows[column].fillna(-1.0)).values
 
         new_tn = (num_divergence_neg == 0).sum(axis=None)
         stats.record("tn", new_tn, location)

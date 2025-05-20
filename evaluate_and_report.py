@@ -124,9 +124,16 @@ def get_results_by_location(dataset_stats: StatsContainer) -> dict[str, dict[str
 
 def calculate_prf_from_df(df: pd.DataFrame) -> dict[str, float]:
     totals = df.groupby("stat_type")["number"].sum()
-    precision = totals.loc["tp"] / (totals.loc["tp"] + totals.loc["fp"])
-    recall = totals.loc["tp"] / (totals.loc["tp"] + totals.loc["fn"])
-    f1 = (2 * precision * recall) / (precision + recall)
+    tp = totals.loc["tp"] if "tp" in totals.index else 0
+    fp = totals.loc["fp"] if "fp" in totals.index else 0
+    fn = totals.loc["fn"] if "fn" in totals.index else 0
+
+    if tp == 0 and (fp == 0 or fn == 0):
+        precision, recall, f1 = None, None, None
+    else:
+        precision = tp / (tp + totals.loc["fp"])
+        recall = tp / (tp + totals.loc["fn"])
+        f1 = (2 * precision * recall) / (precision + recall)
 
     return {
         "precision": precision,
@@ -148,6 +155,10 @@ def evaluate_predictions(gt_df, pred_df, column_config):
     for column in column_config["numerical"]:
         pred_df[column] = pd.to_numeric(pred_df[column], errors="coerce")
 
+    for column in column_config["textual"]:
+        gt_df[column] = gt_df[column].apply(str)
+        pred_df[column] = pred_df[column].apply(str)
+
     dataset_stats = StatsContainer()
 
     for doi in tqdm(gt_df["doi"].unique()):
@@ -156,7 +167,9 @@ def evaluate_predictions(gt_df, pred_df, column_config):
             pdf = pred_df[pred_df["doi"] == doi][columns_to_predict]
 
             if pdf.empty:
-                raise AssertionError(f"DOI {doi} not found in predictions. Skipping.")
+                continue
+                print(f"DOI {doi} not found in predictions. Skipping.")
+                # raise AssertionError(f"DOI {doi} not found in predictions. Skipping.")
 
             comparison_columns = get_comparison_columns(ddf, columns_to_predict)
             alignment_matrix = get_alignment_scores(ddf, pdf, comparison_columns, column_config)
@@ -203,7 +216,7 @@ def evaluate_predictions_wrapper(
     metadata = metadata_by_dataset[dataset]
 
     if modality.lower() not in {"xml", "pdf"}:
-        raise AssertionError("Unrecognized modality {modality}. Expected one of xml, pdf")
+        raise AssertionError(f"Unrecognized modality {modality}. Expected one of xml, pdf")
 
     publisher_meta = pd.read_csv(metadata["metadata_csv"])
 

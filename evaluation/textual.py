@@ -39,8 +39,8 @@ def evaluate_textual_columns(gt_df, aligned_rows, textual_columns, present_colum
 
         # # For all present data, compute true and false positives, and false negatives
         for gt_value, pred_value in zip(gt_df[column].values, aligned_rows[column].values):
-            gt_normed_set = split_and_normalize(gt_value)
-            pred_normed_set = split_and_normalize(pred_value)
+            gt_normed_set = split_and_normalize(str(gt_value))
+            pred_normed_set = split_and_normalize(str(pred_value))
 
             stats.record("tp", len(gt_normed_set.intersection(pred_normed_set)), location)
             stats.record("fp", len(pred_normed_set - gt_normed_set), location)
