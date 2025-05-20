@@ -1,0 +1,42 @@
+{
+    "precision": 0.20406210123351765,
+    "recall": 0.9379276637341154,
+    "f1": 0.3351965065502184,
+    "scores_by_location": {
+        "Footnote": {
+            "precision": 0.17131474103585656,
+            "recall": 1.0,
+            "f1": 0.292517006802721
+        },
+        "Not Present": {
+            "precision": null,
+            "recall": null,
+            "f1": null
+        },
+        "Page Text": {
+            "precision": 0.1865561148948771,
+            "recall": 0.9117221418234442,
+            "f1": 0.3097345132743363
+        },
+        "Table Caption": {
+            "precision": 0.5266666666666666,
+            "recall": 1.0,
+            "f1": 0.6899563318777292
+        },
+        "Table Cell": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+        },
+        "Table Column": {
+            "precision": 0.36480293308890926,
+            "recall": 0.9234338747099768,
+            "f1": 0.5229960578186597
+        },
+        "Table Header": {
+            "precision": 0.2571976967370441,
+            "recall": 1.0,
+            "f1": 0.4091603053435114
+        }
+    }
+}

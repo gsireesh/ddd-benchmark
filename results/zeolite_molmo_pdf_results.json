@@ -1,0 +1,32 @@
+{
+    "precision": 0.005186431174656574,
+    "recall": 0.3162393162393162,
+    "f1": 0.010205488898083023,
+    "scores_by_location": {
+        "Footnote": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": NaN
+        },
+        "Not Present": {
+            "precision": null,
+            "recall": null,
+            "f1": null
+        },
+        "Page Text": {
+            "precision": 0.007901668129938543,
+            "recall": 0.3103448275862069,
+            "f1": 0.015410958904109592
+        },
+        "Table Column": {
+            "precision": 0.008925383791503035,
+            "recall": 0.5319148936170213,
+            "f1": 0.0175561797752809
+        },
+        "Table Header": {
+            "precision": 0.0049586776859504135,
+            "recall": 1.0,
+            "f1": 0.009868421052631578
+        }
+    }
+}

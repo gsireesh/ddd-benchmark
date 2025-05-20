@@ -1,0 +1,82 @@
+{
+    "precision": 0.00020528224958117817,
+    "recall": 0.9111505997334518,
+    "f1": 0.0004104720198075265,
+    "scores_by_location": {
+        "Not Present": {
+            "precision": null,
+            "recall": null,
+            "f1": null
+        },
+        "Page Text": {
+            "precision": 9.995557529986672e-05,
+            "recall": 0.6923076923076923,
+            "f1": 0.00019988229153942676
+        },
+        "Page Text, Table Caption": {
+            "precision": 0.00019528580076942607,
+            "recall": 1.0,
+            "f1": 0.00039049534334303064
+        },
+        "Page Text, Table Caption, Table Column": {
+            "precision": 0.0006030756859985928,
+            "recall": 1.0,
+            "f1": 0.0012054244098442994
+        },
+        "Page Text, Table Caption, Table Header": {
+            "precision": 0.0005323646384617793,
+            "recall": 1.0,
+            "f1": 0.0010641627543035992
+        },
+        "Page Text, Table Column": {
+            "precision": 0.00027739251040221914,
+            "recall": 0.5,
+            "f1": 0.0005544774050457443
+        },
+        "Page Text, Table Column, Table Caption": {
+            "precision": 0.0006954102920723226,
+            "recall": 1.0,
+            "f1": 0.0013898540653231408
+        },
+        "Page Text, Table Header": {
+            "precision": 0.002112676056338028,
+            "recall": 1.0,
+            "f1": 0.004216444132115248
+        },
+        "Page Text, Table Header, Table Cell": {
+            "precision": 0.0001623640201331385,
+            "recall": 1.0,
+            "f1": 0.0003246753246753247
+        },
+        "Table Column": {
+            "precision": 0.00026956387115575507,
+            "recall": 0.7914438502673797,
+            "f1": 0.0005389441792207887
+        },
+        "Table Column, Page Text": {
+            "precision": 0.00016894032183131308,
+            "recall": 1.0,
+            "f1": 0.00033782357163971116
+        },
+        "Table Header": {
+            "precision": 0.00013850415512465375,
+            "recall": 1.0,
+            "f1": 0.0002769699487605595
+        },
+        "plot": {
+            "precision": 0.0005873140172278779,
+            "recall": 1.0,
+            "f1": 0.0011739385638818236
+        },
+        "table": {
+            "precision": 0.0009246417013407304,
+            "recall": 1.0,
+            "f1": 0.0018475750577367205
+        },
+        "text": {
+            "precision": 0.00010756157900397978,
+            "recall": 1.0,
+            "f1": 0.00021510002151000214
+        }
+    }
+}

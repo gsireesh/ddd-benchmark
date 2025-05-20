@@ -1,0 +1,1160 @@
+doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
+10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,images,1,2,,,,,,,,199.85,144.0,
+10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,images,1,2,,,,,,,,199.85,144.0,
+10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,images,1,2,,,,,,,,199.85,144.0,
+10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,images,1,9,,,,,,,,,,IM-15
+10.1021/cm1006108,gpt4o,zeolite,images,1,0.5,,,,,,SDA11,0.882,175.0,,
+10.1002/chem.201602419,gpt4o,zeolite,images,1,2.5,,3.0,30,40 wt%,,SDAOH,,149.85000000000002,360.0,NUD-2
+10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,images,,2,,,,,,,,,,
+10.1021/cm1006108,gpt4o,zeolite,images,1,0.475,,,39.375,,,SDA hydroxide,,175.0,204.0,
+10.1002/chem.201602419,gpt4o,zeolite,images,1,0.05,,,,0.1,,C12H33N2F,1.20,169.85000000000002,24.0,
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,1,0.2,,,,fluoride,,,,480.0,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.05,2.0,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.077,1.5,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.028,7.6,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.048,7.1,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.026,5.7,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.01,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.01,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.04,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.04,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.2,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.2,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.01,,1.438,50,,,TPAOH,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.01,,1.438,50,,,TPAOH,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.04,,1.438,75,,,TPAOH,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.04,,1.438,75,,,TPAOH,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.04,,1.438,75,,,TPAOH,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.2,,1.438,150,,,TPAOH,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.2,,1.438,150,,,TPAOH,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.2,,1.438,150,,,TPAOH,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.133,,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.2,,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.2,,,,,,,,,,
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,1,1,,,,,,,,,,
+10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,images,1,0,,0.25,10,0.5,50,TPT,,199.85,144.0,MTN
+10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,images,1,0,,0.25,10,0,50,TPT,,199.85,144.0,"MTN, amorphous"
+10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,images,1,0,,0.25,60,0.5,0,TPT,,199.85,144.0,"MTN, amorphous"
+10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,images,1,0,,0.25,10,0.5,0,TPT,,199.85,144.0,MTN
+10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,images,0.85,0.15,,0.25,10,0.5,50,TPT,,199.85,144.0,MTN
+10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,images,0.67,0.33,,0.25,10,0.5,50,TPT,,199.85,144.0,"MTN, AST"
+10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,images,0.5,0.5,,0.25,10,0.5,50,TPT,,199.85,144.0,"MTN, AST"
+10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,images,,10,,2,2,,,ethylenediamine,,,,IM-14
+10.1021/cm071790f,gpt4o,zeolite,images,,1.276,1,,,,,,,,,
+10.1021/cm071790f,gpt4o,zeolite,images,,0.855,1,,,,,,,,,
+10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,,,,,,,,BD+,,,,
+10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,,,,,,,,HM2+,,,,
+10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,,,,,,,,TEA+,,,,
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,,,,,,,,,,400.0,2.0,
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,,,,,,,,,,400.0,4.0,
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,,,,,,,,,,400.0,8.0,
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,,,,,,,,,,400.0,9.0,
+10.1039/c4ra01383b,gpt4o,zeolite,images,,,,,,,,decamethonium,,,,IM-17
+10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,images,,1,,,,,,,,,,
+10.1007/s10934-015-0119-2,gpt4o,zeolite,images,1,0.135,,,,,0.079,"N,N,N',N'-Tetra-methylethylenediamine (TMEDA)",7.38,,,
+10.1002/anie.201801386,gpt4o,zeolite,images,1,1,,,6,1,,"N,N'-dimethylsophoridinium cation (Me2SOP)",0.05,160.0,48.0,SYSU-3
+10.1039/c5ce00731c,gpt4o,zeolite,images,1,0.2,,,,,,"2,2′-(methylazanediyl)bis(N,N,N-trimethylethanammonium)",,,,
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,0.195,0.024,,,,,0.780,G-azonia-spiro-[5.5]-undecane hydroxide,,,,
+10.1021/cm502525w,gpt4o,zeolite,images,1,0.167,,,,,,,,120.0,,
+10.1021/cm502525w,gpt4o,zeolite,images,1,0.118,,,,,,,,120.0,,
+10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,images,,,,,,,,,,200.0,4.0,
+10.1021/ic301449y,gpt4o,zeolite,images,,10,,4,2,,,2-methylpiperazine,,,,SU-67
+10.1038/nchem.2761,gpt4o,zeolite,images,1,0.19,,,99.999,0.5,,,0.60,175.0,312.0,
+10.1007/s10934-015-0119-2,gpt4o,zeolite,images,,,,,,,,"N,N,N',N'-Tetra-methylethylenediamine",,800.0,,
+10.1002/anie.201006500,gpt4o,zeolite,images,,1,,,47.04,1.85,,0.37,,180.0,192.0,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,0,,20,0.6,1.5,,Ethylene Glycol,,,336.0,silica-sodalite
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,0.5,,20,0.6,1.5,,Ethylene Glycol,,,168.0,germanosilicate-sodalite
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.4925,,,7,0.3731,,"tetrahydro-1H,5H-pyrido[3,2-i] quinolinium hydroxide",,149.85000000000002,168.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.4925,,,30,0.3731,,"tetrahydro-1H,5H-pyrido[3,2-i] quinolinium hydroxide",,149.85000000000002,168.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.4925,,,40,0.3731,,"tetrahydro-1H,5H-pyrido[3,2-i] quinolinium hydroxide",,149.85000000000002,168.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.4925,,,80,0.3731,,"tetrahydro-1H,5H-pyrido[3,2-i] quinolinium hydroxide",,149.85000000000002,168.0,
+10.1007/s11144-009-0129-7,gpt4o,zeolite,images,1,0.2,5,11.2,1000,100,,hexamethonium dihydroxide,,134.85000000000002,360.0,
+10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,,,,,,,,MFI,,200.0,10.0,selectivity to p-cymene
+10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,,,,,,,,BEA,,200.0,10.0,selectivity to p-cymene
+10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,,,,,,,,(Fe)UTL,,200.0,10.0,selectivity to p-cymene
+10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,,,,,,,,(Ga)UTL,,200.0,10.0,selectivity to p-cymene
+10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,,,,,,,,(Al)UTL,,200.0,10.0,selectivity to p-cymene
+10.1002/anie.201801386,gpt4o,zeolite,images,,,,,,,,sophoridine derivatives,,,,
+10.1021/cm502525w,gpt4o,zeolite,images,1,0.91875,,,,0.1,,,11,,,
+10.1021/cm502525w,gpt4o,zeolite,images,1,0.60625,,,,1,,,8.5,,,
+10.1021/cm502525w,gpt4o,zeolite,images,1,0.43125,,,,3,,,6.5,,,
+10.1021/cm502525w,gpt4o,zeolite,images,1,0.4,,,,6,,,5.8,,,
+10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,images,,1,,,,,,,,,,CCUT-9
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,1,,,,,,,1,,336.0,
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,0.2,,,,,,,1,,336.0,
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,0.2,,,,,,,1.3,,336.0,
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,0.2,,,,,,,1.3,,336.0,
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,0.2,,,,,,,1.3,,336.0,
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,0.5,,,,,,,0.5,,336.0,
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,2,,,,,,,0.5,,336.0,
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,2,,,,,,,0.5,,336.0,
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,2,,,,,,,0.5,,336.0,
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,2,,,,,,,0.5,,336.0,
+10.1039/c5ce00731c,gpt4o,zeolite,images,1,0.2,,,,,,,,500.0,4.0,
+10.1039/c5ce00731c,gpt4o,zeolite,images,1,0.23,,,,,,,,500.0,4.0,
+10.1039/c5ce00731c,gpt4o,zeolite,images,1,0.41,,,,,,,,500.0,4.0,
+10.1038/nature04097,gpt4o,zeolite,images,,,,,,,,,,,2.0,
+10.1021/cm1006108,gpt4o,zeolite,images,,,,,,,,"SDA14, SDA16, SDA17, SDA19, SDA21, SDA23",C/N ratio <10 or >16,,,
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,0.05,,,90,3,,OSDA,37.4,170.0,168.0,
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,0.10,,,90,3,,OSDA,37.4,170.0,168.0,
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,0.15,,,90,3,,OSDA,37.4,170.0,168.0,
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,0.20,,,90,3,,OSDA,37.4,170.0,168.0,
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,0.05,,,90,3,,OSDA,37.4,170.0,168.0,
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,0.10,,,90,3,,OSDA,37.4,170.0,168.0,
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,0.15,,,90,3,,OSDA,37.4,170.0,168.0,
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,0.20,,,90,3,,OSDA,37.4,170.0,168.0,
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,0.29,,,90,3,,OSDA,37.4,170.0,168.0,
+10.1038/nature00924,gpt4o,zeolite,images,,,,,,15.5,,22-24 N-methylsparteinium cations,,,,
+10.1021/cm071790f,gpt4o,zeolite,images,,,,,,,,diethylenetriamine (DETA),,,,
+10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,images,,3,3,,1,,,,,24.850000000000023,,
+10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,images,1,,1,,0.1667,,,,,,,
+10.1039/c5ce02312b,gpt4o,zeolite,images,,high,,,,,,tmbi,high,150.0,,ITQ-37
+10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,images,1,1,0.01,0.25,5,0.20,,OSDAOH,0.25,170.0,24.0,
+10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,images,1,1.064,0.03,0.25,5,0.20,,OSDAOH,0.25,170.0,24.0,
+10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,images,1,1,0.05,0.25,5,0.20,,OSDAOH,0.25,170.0,24.0,
+10.1021/cm049912g,gpt4o,zeolite,images,1,0.2,,,,,,"2,3,3a,4,7a,7b-Hexahydro-2-dimethyl-4,7-ethano-1H-isoindolium iodide",,150.0,480.0,ITQ-7
+10.1021/cm049912g,gpt4o,zeolite,images,1,0.2,,,,,,"2,3,3a,4,7a,7b-Hexahydro-2-dimethyl-4,7-ethano-1H-isoindolium iodide",,150.0,48.0,ITQ-7
+10.1021/cm049912g,gpt4o,zeolite,images,1,0.2,,,,,,"2,3,3a,4,7a,7b-Hexahydro-2-dimethyl-4,7-ethano-1H-isoindolium iodide",,150.0,432.0,ITQ-7
+10.1021/cm049912g,gpt4o,zeolite,images,1,0.05,,,,,,"2,3,3a,4,7a,7b-Hexahydro-2-dimethyl-4,7-ethano-1H-isoindolium iodide",,150.0,96.0,ITQ-7 + amorphous
+10.1021/cm049912g,gpt4o,zeolite,images,1,0.05,,,,,,"2,3,3a,4,7a,7b-Hexahydro-2-dimethyl-4,7-ethano-1H-isoindolium iodide",,150.0,456.0,ITQ-7
+10.1021/cm049912g,gpt4o,zeolite,images,1,0.02,,,,,,"2,3,3a,4,7a,7b-Hexahydro-2-dimethyl-4,7-ethano-1H-isoindolium iodide",,150.0,336.0,ITQ-7 + amorphous
+10.1021/cm049912g,gpt4o,zeolite,images,1,0.02,,,,,,"2,3,3a,4,7a,7b-Hexahydro-2-dimethyl-4,7-ethano-1H-isoindolium iodide",,150.0,720.0,ITQ-7 + amorphous
+10.1021/cm049912g,gpt4o,zeolite,images,1,0.02,,,,,,"2,3,3a,4,7a,7b-Hexahydro-2-dimethyl-4,7-ethano-1H-isoindolium iodide",,150.0,840.0,amorphous
+10.1021/cm049912g,gpt4o,zeolite,images,1,0.2,,,,,,"2,3,3a,4,7a,7b-Hexahydro-2-dimethyl-4,7-ethano-1H-isoindolium iodide",,150.0,48.0,ITQ-17
+10.1021/cm049912g,gpt4o,zeolite,images,1,0.2,,,,,,"2,3,3a,4,7a,7b-Hexahydro-2-dimethyl-4,7-ethano-1H-isoindolium iodide",,150.0,504.0,ITQ-17
+10.1021/cm049912g,gpt4o,zeolite,images,1,0.2,,,,,,"2,3,3a,4,7a,7b-Hexahydro-2-dimethyl-4,7-ethano-1H-isoindolium iodide",,150.0,408.0,ITQ-17
+10.1021/cm049912g,gpt4o,zeolite,images,1,0.05,,,,,,"2,3,3a,4,7a,7b-Hexahydro-2-dimethyl-4,7-ethano-1H-isoindolium iodide",,150.0,72.0,ITQ-17
+10.1021/cm049912g,gpt4o,zeolite,images,1,0.05,,,,,,"2,3,3a,4,7a,7b-Hexahydro-2-dimethyl-4,7-ethano-1H-isoindolium iodide",,150.0,432.0,ITQ-17
+10.1021/cm049912g,gpt4o,zeolite,images,1,0.02,,,,,,"2,3,3a,4,7a,7b-Hexahydro-2-dimethyl-4,7-ethano-1H-isoindolium iodide",,150.0,120.0,ITQ-17 + β
+10.1021/cm049912g,gpt4o,zeolite,images,1,0.02,,,,,,"2,3,3a,4,7a,7b-Hexahydro-2-dimethyl-4,7-ethano-1H-isoindolium iodide",,150.0,144.0,ITQ-17 + β
+10.1021/cm049912g,gpt4o,zeolite,images,1,0.02,,,,,,"2,3,3a,4,7a,7b-Hexahydro-2-dimethyl-4,7-ethano-1H-isoindolium iodide",,150.0,408.0,β
+10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,images,,,,,,,,,,,,
+10.1021/cm049912g,gpt4o,zeolite,images,,,,,,,,C14H28N2OH,,,,
+10.1021/cm049912g,gpt4o,zeolite,images,,,,,,,,C14H28NI,,,,
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,,0.04,,,,,,,299.85,47.0,
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,,0.0056,,,,,,,299.85,47.0,
+10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,1,0.5,,0.75,11.25,,,TEA,,140.0,96.0,
+10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,1,0.2,,0.3,2.4,,,HM,,175.0,,
+10.1007/s10934-015-0051-5,gpt4o,zeolite,images,1,0.2,,0.30,5.0,,,TMAOH,,170.0,72.0,
+10.1021/cm049912g,gpt4o,zeolite,images,1,,,,7,3,,C4H12NOH,,601.85,,
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.8,6,,100,100,,Hexamethonium dihydroxide,51.2,,,
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0,0,,100,100,,Hexamethonium dihydroxide,4,,,
+10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,,,,1,,0.01,,,,,,
+10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,images,1,,0.5,,24.61,,,,,225.0,120.0,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.00476,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.02439,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.11236,,,,,,,,,,
+10.1002/chem.201602419,gpt4o,zeolite,images,1,2.0,,0.875,10,0.875,,1-methyl-3-(2′-methylbenzyl)imidazolium or 1-methyl-3-(3′-methylbenzyl)imidazolium,,150.0,360.0,
+10.1021/cm1006108,gpt4o,zeolite,images,1,,,,,,,,,,156.0,
+10.1002/anie.201300846,gpt4o,zeolite,images,1,1,,,5.22,,,"1,2-diaminopropane",2.72,180.0,192.0,GaGeO-JU64
+10.1007/s10934-015-0051-5,gpt4o,zeolite,images,1,0.0089,,,,,,tetramethylammonium hydroxide,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.01,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.01,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.04,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.04,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.2,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.2,,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.1,,,5.56,,,HM,0.28,175.0,336.0,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,1,,,8,2.8,,TMHDA,1.4,175.0,144.0,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.49,,,14.93,,,MPP,0.37,175.0,168.0,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.25,,,15.56,,,MPP,0.31,175.0,168.0,
+10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,images,,3,3,,1,,,,,,,
+10.1021/ic301449y,gpt4o,zeolite,images,,1,,,117.33,,,1.67,,160.0,168.0,
+10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,images,1,1,1,,1,,,,,24.850000000000023,,
+10.1002/anie.201001506,gpt4o,zeolite,images,1,0.492,0.075,0.037,2.985,0.03,,"(Z)-((R)-6-(S))-2',6'-dimethylspiro[isoindoline-2',1'-piperidin-1'-ium) hydroxide",0.037,175.0,24.0,
+10.1007/s10934-015-0119-2,gpt4o,zeolite,images,1,0.5,,,72,0.5,,TMEDA,35,170.0,48.0,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,0.333,,,1,,,,,,,
+10.1021/cm502525w,gpt4o,zeolite,images,,,,,,,,"6R,10S,6,10-dimethyl-5-azoniaspiro[4.5]decane (DMAD)",,,,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,,,,,,,,,,179.85000000000002,,
+10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,images,1,0.25,,1.51,,0.15,,TEAOH,,140.0,96.0,BEC-Zr-H2O
+10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,images,1,0.25,,1.51,,0.15,,DMSO,,140.0,96.0,BEC-Zr-DMSO
+10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,images,1,0.25,,1.51,,0.15,,iPrOH,,140.0,96.0,BEC-Si
+10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,images,1,0.25,,1.51,,0.15,,ZrOCl2,,140.0,96.0,BEC-Si-Zr
+10.1038/nmat921,gpt4o,zeolite,images,1,0.3125,,,,,,,,,,
+10.1002/chem.201703361,gpt4o,zeolite,images,1,0.333,,0.5,,,,C12N3H25F,,,,
+10.1016/j.inoche.2013.11.010,gpt4o,zeolite,images,,1,,,,,,organic amines,,,,CCUT-9
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,1,0.3075,0.1925,,0.1,,,,,,,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.02,,5,,,MSPT & FY,0.25,,,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.04,,5,,,MSPT & FY,0.25,,,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.067,,5,,,MSPT & FY,0.25,,,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.02,,10,,,MSPT & FY,0.25,,,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.04,,10,,,MSPT & FY,0.25,,,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.067,,10,,,MSPT & FY,0.25,,,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.02,,5,,,MSPT & FY,0.5,,,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.04,,5,,,MSPT & FY,0.5,,,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.067,,5,,,MSPT & FY,0.5,,,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.02,,10,,,MSPT & FY,0.5,,,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.04,,10,,,MSPT & FY,0.5,,,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.067,,10,,,MSPT & FY,0.5,,,
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,,,,,,NH4HF2,,,,,,CIT-13
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,1,1,1,,0.67,,,,,,,Na-AlGe-JBW
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,1,0.95,1,,0.65,,,,,,,K-AlGe-MON
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,1,1,1,,,,,,,,,Cs-AlGe-ANA
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,1,2,1,,,,,,,,,Rb-AlGe-Para
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,1,0.514,,,37.838,,,"(6R,10S)-6,10-Dimethyl-5-azaisospiro[4.5]decane hydroxide",,85.0,16.0,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.1,0.02,,,,,,,,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.15,0.02,,,,,,,,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.2,0.02,,,,,,,,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.3,0.02,,,,,,,,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.4,0.02,,,,,,,,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.1,0.033,,,,,,,,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.3,0.01,,,,,,,,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.3,0.005,,,,,,,,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.3,0.0033,,,,,,,,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.3,0.002,,,,,,,,,
+10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,images,,3.6,,,,,,,,,,
+10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,images,,1.6,,,,,,,,,,
+10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,images,,3,,,,,,,,,,
+10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,images,,3.8,,,,,,,,,,
+10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,images,,1.6,,,,,,,,,,
+10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,images,,3,,,,,,,,,,
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,1,,,1,,,,,,540.0,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,,,,,,,,,,450.0,,
+10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,images,1,0.256,,,,,,,,,,
+10.1021/cm502525w,gpt4o,zeolite,images,,1.8,,,,NH4HF2,,,,150.0,,
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,0.0417,,,,,,,,,,
+10.1039/c7dt03751a,gpt4o,zeolite,images,,,,,,,,,,40.0,,IPC-12
+10.1021/jp0378438,gpt4o,zeolite,images,1,1,,,3,,0.12,hexamethonium dihydroxide,,175.0,360.0,
+10.1021/jp0378438,gpt4o,zeolite,images,1,1,,,3,,,hexamethonium dihydroxide,,175.0,360.0,
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,1,,,5,0.5,,DMAP,,125.0,,
+10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,images,,1,,,,,,,1,,,
+10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,images,,,,,,,,,,,,
+10.1016/j.jcat.2009.08.012,gpt4o,zeolite,images,,,,,,,,"1,5-bis-(methylpyrrolidinium)-pentane (MP2)",,,24.0,ITQ-22
+10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,1,0.67,,,,0.2,,,,150.0,24.0,
+10.1007/s11144-009-0129-7,gpt4o,zeolite,images,1,,0.025,,,,,,,,,
+10.1007/s11144-009-0129-7,gpt4o,zeolite,images,1,,0.0233,,,,,,,,,
+10.1038/nmat921,gpt4o,zeolite,images,,,,,,,,"1,5-bis-(methylpyrrolidinium)-pentane",,,,
+10.1002/chem.201703361,gpt4o,zeolite,images,1,,,,,,,4-pyrrolidinopyridine,,,,
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,,,,,,,,TMAOH,,,,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,,,,,,,,N-methyl-spartienium (MSPT),,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.0244,,,,,,,,49.85000000000002,,
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,1,1,0.512,4.01,,,,1.12,,175.0,120.0,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,,41,,,,,,,,29.850000000000023,,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,ITQ-29
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,"ITQ-29, AST"
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,"ITQ-29, amorphous"
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,ITQ-29
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,ITQ-29
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,"ITQ-29, AST"
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,ITQ-29 nuclei
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,ITQ-29
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,AST
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,"ITQ-29, AST"
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,ITQ-29
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,ITQ-29
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,"ITQ-29, amorphous"
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,"ITQ-29, amorphous"
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,"ITQ-29, AST"
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.19,0.37,0.75,10.45,,ROH,7.46,,,ITQ-29
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,ITQ-29
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,"ITQ-29, non-identified phase"
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,ITQ-29
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.37,10.45,,ROH,7.46,,,ITQ-29
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,ITQ-29
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,ITQ-29
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,1.49,10.45,,ROH,7.46,,,ITQ-29
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,1.87,10.45,,ROH,7.46,,,ITQ-29
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.22,0.37,0.37,0.75,10.45,,ROH,7.46,,,Amorphous
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.22,0.37,0.37,0.75,10.45,,ROH,7.46,,,"ITQ-29, Amorphous"
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,ITQ-29
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,"ITQ-29, AST"
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,1.12,0.37,0.37,0.75,10.45,,ROH,7.46,,,"ITQ-29, AST"
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.0,0.37,0.37,0.75,10.45,,ROH,7.46,,,"AST, non-identified phase"
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.75,0.37,0.37,0.75,10.45,,ROH,7.46,,,Amorphous
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.22,0.37,0.37,0.75,10.45,,ROH,7.46,,,"ITQ-29, Amorphous"
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,ITQ-29
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.49,0.37,0.37,0.75,10.45,,ROH,7.46,,,ITQ-29
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,1.12,0.37,0.37,0.75,10.45,,ROH,7.46,,,"ITQ-29, AST"
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.0,0.37,0.37,0.75,10.45,,ROH,7.46,,,"AST, non-identified phase"
+10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,images,1,0,0.0097,,,,,,,,,H-ITQ-7
+10.1021/cm502525w,gpt4o,zeolite,images,4,0,,,,3,,,3,95.0,,
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,0.5,,,90,3,,TMHDA,37.4,170.0,168.0,
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,1,3,1,,,,,,,,,
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.25,,,15,,,1,0.5,160.0,672.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.25,,,15,,,1,0.5,160.0,840.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.5,,,10,,,1,0.5,160.0,336.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.333,,,10,,,1,0.5,160.0,336.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.25,,,10,,,1,0.5,160.0,168.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.25,,,10,,,1,0.5,160.0,504.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.125,,,10,,,1,0.5,160.0,504.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.0625,,,10,,,1,0.5,160.0,840.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.25,,,7.5,,,1,0.5,160.0,336.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.25,,,7.5,,,1,0.5,160.0,336.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.25,,,5,,,1,0.5,160.0,504.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.25,,,10,,,1,0.5,140.0,672.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.25,,,10,,,1,0.5,150.0,672.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.25,,,10,,,1,0.5,175.0,168.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.25,,,10,,,1,0.625,160.0,336.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.25,,,10,,,1,0.625,160.0,336.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.25,,,10,,,1,0.75,160.0,336.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.25,,,10,,,1,0.75,160.0,336.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.5,,,10,,,2,0.5,160.0,336.0,CIT-13*/MFI
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.25,,,10,,,2,0.5,160.0,336.0,CIT-13*/MFI
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.125,,,10,,,2,0.5,160.0,336.0,MFI
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.0625,,,10,,,2,0.5,160.0,672.0,MFI
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.02,,,10,,,2,0.5,160.0,672.0,MFI
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.5,,,10,,,3,0.5,160.0,504.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.25,,,10,,,3,0.5,160.0,504.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.125,,,10,,,3,0.5,160.0,504.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.0625,,,10,,,3,0.5,160.0,1344.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.02,,,10,,,3,0.5,160.0,1176.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.25,,,10,,,4,0.5,160.0,168.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.125,,,10,,,4,0.5,160.0,336.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.0625,,,10,,,4,0.5,160.0,504.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.03125,,,10,,,4,0.5,160.0,504.0,CIT-13*
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.02,,,10,,,4,0.5,160.0,1176.0,amorphous
+10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,,,Al,,,,,,,,,UTL
+10.1038/nature07957,gpt4o,zeolite,images,0.5,0.5,,0.25,,1,,SDA2,,,,
+10.1021/acs.cgd.7b01000,gpt4o,zeolite,images,,,,,,fluoride,,tetraethylammonium (TEA+),,,,PKU-22
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,1,0.8,,,24,3,,OSDA,4.3,170.0,10.0,
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,1,0.8,,,24,3,,OSDA,4.3,170.0,15.0,
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,1,0.8,,,24,3,,OSDA,4.3,170.0,20.0,
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,1,0.8,,,24,3,,OSDA,4.3,170.0,,
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,0.256,,,90,3,0.1,AOSDA,,,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.67,,,0.83,,,BEC,0.42,170.0,336.0,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,1.25,,,1.25,,,AST,1.25,170.0,336.0,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.31,,,0.63,,,*,0.31,170.0,336.0,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,4,,,1,,,IM-17 + MFI + 122B,1.25,170.0,336.0,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,1.5,,,0.5,,,IM-17 + MFI + 122B,0.5,170.0,336.0,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,1,,,0.4,,,IM-17 + 122B + eMFI,0.5,170.0,336.0,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.67,,,0.33,,,IM-17 + 122B + eMFI,0.42,170.0,336.0,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.33,,,0.27,,,122B,0.33,170.0,336.0,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.11,,,0.22,,,122B,0.28,170.0,336.0,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0,,,0.2,,,122B,0.25,170.0,336.0,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.67,,,0.33,,,IM-17 + MFI,0.83,170.0,336.0,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.67,,,0.67,,,IM-17 + 122B,0.83,170.0,336.0,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.67,,,0.17,,,IM-17 + 122B + MFI-17,0.21,170.0,336.0,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.67,,,0.17,,,IM-17,0.42,170.0,336.0,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.67,,,0.83,,,IM-17,0.42,170.0,336.0,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.67,,,0.83,,,IM-17,0.21,170.0,336.0,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.25,,,0.38,,,IM-17,0.31,170.0,336.0,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.67,,,1.67,,,IM-17,0.42,170.0,336.0,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.67,,,0.17,,,IM-17,0.42,170.0,336.0,
+10.1021/ic301449y,gpt4o,zeolite,images,,10,,,,1,,,,,,SU-67
+10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,images,1,1,1,,1,,,,,,,
+10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,images,,GeO2,,,,,,,,,,
+10.1002/anie.201001506,gpt4o,zeolite,images,1,0.37,,,,,,"(2-(R,S)-6,6′′-2,6-dimethylspiro[isoindole-2,1′-piperidin-1′-um]",,,,
+10.1007/s10934-015-0119-2,gpt4o,zeolite,images,1,0.226,,,144,0.54,,TMEDA,4.42,170.0,48.0,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,1,,7.5,10,,,,,,,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,1,,4.545,6.061,,,,,,,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,1,,3,4,,,,,,,
+10.1002/anie.201506678,gpt4o,zeolite,images,,,,,,,,triphenylsulfonium,,,,ISV
+10.1002/anie.201506678,gpt4o,zeolite,images,,,,,,,,triphenylsulfonium,,,,unknown (GeZA)
+10.1002/anie.201506678,gpt4o,zeolite,images,,,,,,,,tri(para-tolyl)sulfonium,,,,ITT
+10.1002/anie.201506678,gpt4o,zeolite,images,,,,,,,,tributylsulfonium,,,,MEL
+10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,images,,1,,,57.14,,,en,,170.0,,
+10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,images,,1,,,41.67,,,en,,190.0,,
+10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,images,,1,,,1.111,,,DABCO,,170.0,,
+10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,images,,1,,,9.167,,,EG,,170.0,,
+10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,images,,1,,,100,,,DABCO,,170.0,,
+10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,images,,1,,,0.556,2.222,,en,,170.0,,
+10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,images,,1,,,7.778,2.222,,en,,170.0,,
+10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,images,,1,,,14.444,,,Zn(NO3)2,,180.0,,
+10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,images,,1,,,8.333,0.222,,pip,,180.0,,
+10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,images,,1,,,16.667,,,CdCl2,,170.0,,
+10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,images,,1,,,21.111,,,NiCl2,,170.0,,
+10.1021/cm1006108,gpt4o,zeolite,images,1,0.5,,,,,,,,,144.0,UTL zeolite
+10.1002/chem.201602419,gpt4o,zeolite,images,1,,,,,,,simple aromatic organic cations,,550.0,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.2,,,,,,,,479.85,8.0,
+10.1007/s10934-015-0051-5,gpt4o,zeolite,images,1,x,,,5,,,TMAOH,0.3,170.0,72.0,[Ge]PLS-1
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,1,1,0.0476,,,,,,42,350.0,,
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,1,1,0.01,,,,,,100,350.0,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.077-0.5,,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.143-0.333,,,,,,,,,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.014,,0.067,0.034,,,Decamethonium,,,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,2,10,,,,,,,450.0,6.0,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,2,10,,,,,,,450.0,4.0,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,2,10,,,,,,,450.0,2.0,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,3,10,,,,,,,450.0,6.0,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,3,10,,,,,,,450.0,4.0,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,3,10,,,,,,,450.0,2.0,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.0048,,,,,,,,199.85,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.0244,,,,,,,,199.85,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.1124,,,,,,,,199.85,,
+10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,1,0.6,,,,,,,,,,
+10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,1,0.33,,,,,,,,,,
+10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,1,0.14,,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.161,,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.196,,,,,,,,,,
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,1,0.615,0.011,,5.495,0.275,,HM(OH)2,,160.0,336.0,
+10.1007/s10934-015-0051-5,gpt4o,zeolite,images,1,0.04,,,,,,TMAOH,,,,
+10.1007/s10934-015-0051-5,gpt4o,zeolite,images,1,0.02,,,,,,TMAOH,,,,
+10.1007/s10934-015-0051-5,gpt4o,zeolite,images,1,0.01,,,,,,TMAOH,,,,
+10.1007/s10934-015-0051-5,gpt4o,zeolite,images,1,0.005,,,,,,TMAOH,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.04,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.2,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.024,,,,,,,,59.85000000000002,,
+10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,images,1,0,,0.5,10,1,,TPT,50,199.85,144.0,
+10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,images,1,0.176,,0.588,11.764,1.176,,TPT,50,199.85,144.0,
+10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,images,1,0.493,,0.746,14.925,1.493,,TPT,50,199.85,144.0,
+10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,images,1,1,,1,20,2,,TPT,50,199.85,144.0,
+10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,images,,1,,,,,,ethylenediammonium cations,,,,
+10.1002/chem.201602419,gpt4o,zeolite,images,,,,,,,,1-Methyl-3-(2-methylbenzyl)imidazolium chloride,,69.85000000000002,48.0,
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,144.0,UTL
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,144.0,UTL
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,144.0,UTL
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,144.0,UTL
+10.1021/cm1006108,gpt4o,zeolite,images,1.00,0.20,,,30,,,,,,144.0,UTL
+10.1021/cm1006108,gpt4o,zeolite,images,0.60,0.60,,,30,,,,,,144.0,UTL
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,144.0,UTL
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,144.0,UTL
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,96.0,UTL
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,144.0,UTL
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,144.0,UTL
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,144.0,UTL
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,96.0,UTL
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.50,,,30,,,,,,144.0,UTL
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,168.0,UTL
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,96.0,UTL
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,144.0,UTL
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,144.0,UTL
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,216.0,MEL
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,144.0,MTW
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,144.0,UTL
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,144.0,MTW
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,168.0,MTW
+10.1021/cm1006108,gpt4o,zeolite,images,0.80,0.40,,,30,,,,,,144.0,amorph
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.0833,,,,,,,150.0,1.0,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.0833,,,,,,,150.0,2.0,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.0833,,,,,,,150.0,5.0,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.0667,,,,,,,150.0,1.0,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.0667,,,,,,,150.0,2.0,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.0667,,,,,,,150.0,5.0,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.0833,,,,,,,150.0,1.0,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.0833,,,,,,,150.0,2.0,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,,0.0833,,,,,,,150.0,5.0,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.00476,,,,,,,,199.85,,n-C4H10/i-C4H10 ideal selectivity
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.11236,,,,,,,,199.85,,n-C4H10/i-C4H10 ideal selectivity
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,,,,,,,,ROH,,149.85000000000002,72.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,,,,,,,,ROH,,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,,,,,,,,ROH,,149.85000000000002,168.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,,,,,,,,ROH,,149.85000000000002,240.0,
+10.1038/nmat921,gpt4o,zeolite,images,1,0.25,,,,,,,,,,
+10.1039/c5ra09942k,gpt4o,zeolite,images,,,,,,,,benzyldiethylammonium bromide,,,,ITQ-44
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,(x + 1)/x,,z,7.75,,,,y,160.0,,
+10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,,,,,,,,,,450.0,5.0,
+10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,images,1,1,1,,,,,,,,,
+10.1002/anie.201501718,gpt4o,zeolite,images,,3.5,,,6,,,MIPA,,150.0,120.0,
+10.1016/j.jcat.2007.12.003,gpt4o,zeolite,images,1,2,,0.1,5,,,,,169.85000000000002,120.0,
+10.1016/j.jcat.2007.12.003,gpt4o,zeolite,images,1,1,,0.1,5,,,,,169.85000000000002,120.0,
+10.1016/j.jcat.2007.12.003,gpt4o,zeolite,images,1,0.67,,0.1,5,,,,,169.85000000000002,120.0,
+10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,images,1.25,,1.0,,,,,,,,,
+10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,images,2.25,,1.0,,,,,,,,,
+10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,images,1.0,,1.0,,,,,,,,,
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.0526,,,,,,"C/N1.5H2.5, F",,,,
+10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,images,1,2.4,0.3,,94,,,,,170.0,24.0,
+10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,images,1,3.0,,,60,,,,,110.0,120.0,
+10.1039/c7dt03751a,gpt4o,zeolite,images,1,2,,,,,,,,,,IPC-12
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,,,,,,,,,,400.0,,
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,,,,,,,,,,350.0,,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0,,,,,,TMAOH,,,120.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,0.85,0.15,,,,,,TMAOH,,,120.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,0.67,0.33,,,,,,TMAOH,,,120.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,0.5,0.5,,,,,,TMAOH,,,120.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,0.25,0.75,,,,,,TMAOH,,,120.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,0,1,,,,,,TMAOH,,,120.0,
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,1,0.8,,,,,,"N,N-diethyl ethylenediamine",,800.0,,"Co2+, Cu2+"
+10.1002/chem.200800416,gpt4o,zeolite,images,1,0.5,,,37.5,,,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",4.17,,,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,0.5,,,37.5,,,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",4.18,,,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,0.5,,,37.5,,,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",4.17,,,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,0.5,,,37.5,,,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",4.19,,,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,0.2,,,30,,,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",9.44,,,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,1,,,50,,,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",4.17,,,
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0.4925,2.9851,,x/0.67,y/0.67,,0.3731,,170.0,132.0,
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.25,,,9.375,0.5,,0.5,,160.0,,
+10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.44,,0.33,40,2.67,,0.33,,149.85000000000002,120.0,
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,,,,,,,OSDA,,600.0,5.0,CoO
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,,,,,,,OSDA,,600.0,5.0,CoO
+10.1038/nature04097,gpt4o,zeolite,images,,1,,3,,,,,,,,
+10.1021/cm1006108,gpt4o,zeolite,images,1,0.6,,,,,,,0.0794,,,
+10.1038/nature00924,gpt4o,zeolite,images,1,0.5,0.02,,1.33,,0.0015,MSPOTI,0.0083,174.85000000000002,120.0,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.0701,0.0085,0.25,5,0.5,,,,142.5,11.0,
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,,,,,,,,,,550.0,,
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,,,,,,,,Octylamine,,550.0,,
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,,,,,,,,Hexamethonium bromide,,550.0,,
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,,,,,,,,Tetramethylammonium chloride,,550.0,,
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,,,,,,,,Tetraethylammonium bromide,,550.0,,
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,,,,,,,,Tetrapropylammonium bromide,,550.0,,
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,,,,,,,,Trimethylphenylammonium bromide,,550.0,,
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,,,,,,,,Hexamethylenetetramine,,550.0,,
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,,,,,,,,Trimethyladamantylammonium hydroxide,,550.0,,
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,,,,,,,,Trimethyloctylammonium bromide,,550.0,,
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,,,,,,,,Dodecyltrimethylammonium chloride,,550.0,,
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,,,,,,,,Cetyltrimethylammonium hydroxide,,550.0,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.1,,,,,,,,,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.05,,,,,,,,,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.033,,,,,,,,,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.025,,,,,,,,,,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1.0,,,6.0,0.0,,,Ethylene Glycol,,453.0,672.0,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1.0,,,6.0,0.2,,,Ethylene Glycol,,453.0,504.0,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1.0,,,6.0,0.5,,,Ethylene Glycol,,453.0,504.0,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1.0,,,6.0,1.0,,,Ethylene Glycol,,453.0,504.0,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1.0,,,6.0,2.0,,,Ethylene Glycol,,453.0,504.0,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1.0,,,6.0,3.5,,,Ethylene Glycol,,453.0,504.0,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.0795,,0.0966,0.1023,,,,,19.850000000000023,,
+10.1038/nchem.2761,gpt4o,zeolite,images,1,,,,,,,,,,,
+10.1007/s10934-015-0119-2,gpt4o,zeolite,images,1,0.226,,,,,,,,19.850000000000023,,
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,1,1,0.051,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.085,,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.167,,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.097,,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.263,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,,1,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,,0.8,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,,0.44,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,,0.2,,,,,,,,,
+10.1007/s10934-015-0051-5,gpt4o,zeolite,images,1,0.04,,,,,,,,500.0,6.0,
+10.1021/cm1006108,gpt4o,zeolite,images,1,<0.2,,,,,,SDA1,,,120.0,
+10.1021/cm1006108,gpt4o,zeolite,images,1,<0.2,,,,,,SDA3,,,204.0,
+10.1021/cm1006108,gpt4o,zeolite,images,1,<0.2,,,,,,SDA7,,,204.0,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,,,,,,,,,,479.85,8.0,
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,,,,,,,,,,400.0,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.143,,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.435,,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.139,,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.345,,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.167,,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,1,0.263,,,,,,,,,,
+10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,images,1,0.18,,,,,,"2,4,6-tris-(4-pyridyl) triazine",,199.85,,
+10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,images,,1,,,40,,,ethylenediamine,0.5,170.0,336.0,
+10.1021/cm1006108,gpt4o,zeolite,images,1,1,,0.5,,,,SDA10,0.5,,108.0,
+10.1021/cm1006108,gpt4o,zeolite,images,1,1,,0.5,,,,SDA11,0.5,,108.0,
+10.1021/cm1006108,gpt4o,zeolite,images,1,1,,0.5,,,,SDA9,0.5,,228.0,
+10.1021/cm1006108,gpt4o,zeolite,images,1,1,,0.5,,,,SDA14,0.5,,240.0,
+10.1021/cm1006108,gpt4o,zeolite,images,1,1,,0.5,,,,SDA17,0.5,,240.0,
+10.1021/cm1006108,gpt4o,zeolite,images,1,1,,0.5,,,,SDA16,0.5,,168.0,
+10.1021/cm1006108,gpt4o,zeolite,images,1,1,,,,,,SDA1,,175.0,,
+10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,images,1,,1,,0.5,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.0244,,,,,,,,29.850000000000023,,
+10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,images,1,0,,,,0,,,,,,
+10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,images,1,0.15,,,,0.2,,,,,,
+10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,images,1,0.33,,,,0.3,,,,,,
+10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,images,1,0.5,,,,0.3,,,,,,
+10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,images,1,1,,0.33,0.36,,,ethylenediamine,0.31,,,
+10.1002/chem.201602419,gpt4o,zeolite,images,1,0.1,,,,,,SDA2,1.5,,12.0,
+10.1002/chem.201602419,gpt4o,zeolite,images,1,0.1,,,,,,SDA2,0.75,,12.0,
+10.1002/chem.201602419,gpt4o,zeolite,images,1,0.2,,,,,,SDA2,1.0,,12.0,
+10.1002/chem.201602419,gpt4o,zeolite,images,1,0.2,,,,,,SDA2,1.0,,12.0,
+10.1002/chem.201602419,gpt4o,zeolite,images,1,0.5,,,,,,SDA2,1.0,,12.0,
+10.1021/cm1006108,gpt4o,zeolite,images,,,,,140,,,1,2+1,100.0,24.0,
+10.1021/cm1006108,gpt4o,zeolite,images,,,,,140,,,12,2+1,100.0,24.0,
+10.1021/cm1006108,gpt4o,zeolite,images,,,,,140,,,15,6+3,100.0,24.0,
+10.1021/cm1006108,gpt4o,zeolite,images,,,,,140,,,12,3+0,100.0,24.0,
+10.1021/cm1006108,gpt4o,zeolite,images,,,,,140,,,11,2+1,100.0,24.0,
+10.1021/cm1006108,gpt4o,zeolite,images,,,,,140,,,12,2+1,100.0,24.0,
+10.1021/cm1006108,gpt4o,zeolite,images,,,,,140,,,15,6+3,100.0,24.0,
+10.1021/cm1006108,gpt4o,zeolite,images,,,,,140,,,12,3+1,100.0,24.0,
+10.1021/cm1006108,gpt4o,zeolite,images,,,,,140,,,14,2+1,100.0,24.0,
+10.1021/cm1006108,gpt4o,zeolite,images,,,,,140,,,17,6+3,100.0,24.0,
+10.1021/cm1006108,gpt4o,zeolite,images,,,,,140,,,14,2+1,100.0,24.0,
+10.1021/cm1006108,gpt4o,zeolite,images,,,,,140,,,12,1+0,100.0,24.0,
+10.1021/cm1006108,gpt4o,zeolite,images,,,,,140,,,15,2+1,100.0,24.0,
+10.1002/anie.201300846,gpt4o,zeolite,images,1,1,,,6.33,,,"1,2-DPA",,180.0,192.0,
+10.1002/chem.201603434,gpt4o,zeolite,images,,2.3,,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,,9.7,,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,,19.0,,,,,,,,,,
+10.1002/chem.201603434,gpt4o,zeolite,images,,21.4,,,,,,,,,,
+10.1007/s10934-015-0051-5,gpt4o,zeolite,images,1,0.04,,,5.0,,,TMAOH,0.30,170.0,,PLS-1
+10.1007/s10934-015-0051-5,gpt4o,zeolite,images,1,0.04,,,5.0,,,TMAOH,0.30,170.0,,PLS-1
+10.1007/s10934-015-0051-5,gpt4o,zeolite,images,1,0.04,,,5.0,,,TMAOH,0.30,170.0,,PLS-1
+10.1007/s10934-015-0051-5,gpt4o,zeolite,images,1,0.04,,,5.0,,,TMAOH,0.30,170.0,,PLS-1
+10.1007/s10934-015-0051-5,gpt4o,zeolite,images,1,0.01,,,5.0,,,TMAOH,0.30,170.0,,[Ge]PLS-1
+10.1038/nature07957,gpt4o,zeolite,images,1,0.714,0.024,,,,,,,539.85,17.0,
+10.1021/acs.cgd.7b01000,gpt4o,zeolite,images,0.3,0.7,,,5,0.5,,,0.5,175.0,504.0,PKU-22-U+BEC
+10.1021/acs.cgd.7b01000,gpt4o,zeolite,images,0.2,0.8,,,5,4,,,0.5,175.0,504.0,BEC+R-GeO2
+10.1021/acs.cgd.7b01000,gpt4o,zeolite,images,0.2,0.8,,,5,3,,,0.5,175.0,504.0,PKU-22-U+BEC+R-GeO2
+10.1021/acs.cgd.7b01000,gpt4o,zeolite,images,0.2,0.8,,,5,5,,,0.5,175.0,504.0,PKU-22-U
+10.1021/acs.cgd.7b01000,gpt4o,zeolite,images,0.2,0.8,,,5,0.6,,,0.5,175.0,504.0,PKU-22-U+R-GeO2
+10.1021/acs.cgd.7b01000,gpt4o,zeolite,images,0.2,0.8,,,7,0.5,,,0.5,175.0,504.0,BEC+R-GeO2
+10.1021/acs.cgd.7b01000,gpt4o,zeolite,images,0.2,0.8,,,5,0.5,,,0.5,175.0,168.0,PKU-22-U+BEC
+10.1021/acs.cgd.7b01000,gpt4o,zeolite,images,0.2,0.8,,,5,5,,,0.5,175.0,336.0,PKU-22-U+BEC
+10.1021/acs.cgd.7b01000,gpt4o,zeolite,images,0.1,0.9,,,5,5,,,0.5,175.0,672.0,U-R-GeO2
+10.1021/acs.cgd.7b01000,gpt4o,zeolite,images,0.1,0.9,,,5,2.5,,,0.5,175.0,504.0,R-GeO2
+10.1021/acs.cgd.7b01000,gpt4o,zeolite,images,0.9,0.1,,,5,0.5,,,0.5,175.0,504.0,PKU-22-U+R-GeO2
+10.1021/acs.cgd.7b01000,gpt4o,zeolite,images,1,0,,,5,2.5,,,0.5,175.0,504.0,R-GeO2
+10.1021/acs.cgd.7b01000,gpt4o,zeolite,images,1,0,,,5,0.5,,,0.5,175.0,504.0,R-GeO2
+10.1021/acs.cgd.7b01000,gpt4o,zeolite,images,0.2,0.8,,,6,5,,,0.5,175.0,504.0,PKU-22
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,,,,,,,,"N,N'-diethylethylenediamine",,800.0,,GeSi-STW
+10.1002/chem.200800416,gpt4o,zeolite,images,1,1,,,,,,,a,,,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,0.5,,,,,,,b,,,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,0.2,,,,,,,c,,,
+10.1002/anie.200461911,gpt4o,zeolite,images,,,,,,,,DETA,,,,SU-16
+10.1021/acs.cgd.7b01000,gpt4o,zeolite,images,1,1,,,,,,TEA (C6H15N),,195.0,,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,1,,,,,,,4,90.0,360.0,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,0.5,,,,,,,4,175.0,,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,0.5,,,,,,,1.7,,,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,0.2,,,,,,,4,,,
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0.49,0.037,0.373,2.24,0.373,,SDAOH,,170.0,24.0,ITQ-44
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0.49,0.075,0.373,2.99,0.373,,SDAOH,,170.0,24.0,ITQ-44
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,,2,1,,,,,,,,,CsAlGe2O6
+10.1016/j.jcat.2007.12.003,gpt4o,zeolite,images,1,0.5,0.05,,,,,,,249.85,,
+10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,images,0,1,1,,43.2,,,,,,,
+10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,images,1,0,1,,26,,,,,,,
+10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,images,1,0,1,,26,,,,,,,
+10.1002/anie.200801375,gpt4o,zeolite,images,,1,,1,1,,,2-methylpiperazine,,,,JLG-5
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,images,,,,,,,,,,24.850000000000023,,AlGeO-rho
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,0.67,,0.5,20,0,,3-ethyl-1-methyl-3H-imidazol-1-ium,,170.0,336.0,TON-MFI+Arg
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,0.67,,1,20,0,,3-ethyl-1-methyl-3H-imidazol-1-ium,,170.0,336.0,MFI+Zr
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,0,,0.5,8,0.5,,3-ethyl-1-methyl-3H-imidazol-1-ium,,170.0,336.0,Amorphous
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,0.25,,0.5,8,0.5,,3-ethyl-1-methyl-3H-imidazol-1-ium,,170.0,336.0,IM-16+Zr
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,0.67,,0.5,8,0.5,,3-ethyl-1-methyl-3H-imidazol-1-ium,,170.0,336.0,IM-16+Zr
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,1.5,,0.5,8,0.5,,3-ethyl-1-methyl-3H-imidazol-1-ium,,170.0,336.0,Q* of IM-16
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,4,,0.5,8,0.5,,3-ethyl-1-methyl-3H-imidazol-1-ium,,170.0,336.0,Q* of IM-16
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,0.25,,0.6,8,0.4,,3-ethyl-1-methyl-3H-imidazol-1-ium,,170.0,336.0,IM-16+Zr
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,0.67,,1,20,0.5,,3-ethyl-1-methyl-3H-imidazol-1-ium,,170.0,336.0,IM-16+Zr
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,0.25,,0.3,3,0.3,,3-ethyl-1-methyl-3H-imidazol-1-ium,,170.0,336.0,IM-16+Zr
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,0.25,,1,20,1,,3-ethyl-1-methyl-3H-imidazol-1-ium,,170.0,336.0,IM-16+Zr
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,0.25,,1,20,1,,3-ethyl-1-methyl-3H-imidazol-1-ium,,170.0,336.0,IM-16+Zr
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,1,,1,20,1,,3-ethyl-1-methyl-3H-imidazol-1-ium,,170.0,336.0,IM-16+Q
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,0.25,,1,20,1,,3-ethyl-1-methyl-3H-imidazol-1-ium,,170.0,336.0,IM-16+MFI
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,1.5,,1,20,1,,3-ethyl-1-methyl-3H-imidazol-1-ium,,170.0,336.0,IM-16+Zr
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,1,,1,20,1,,3-ethyl-1-methyl-3H-imidazol-1-ium,,170.0,336.0,IM-16
+10.1002/chem.201603434,gpt4o,zeolite,images,,,,,,,,,,25.0,,
+10.1039/c5ce02312b,gpt4o,zeolite,images,,,,1x10^-4 M,,,,tmbi,8.8,,,ITQ-37
+10.1021/cm071790f,gpt4o,zeolite,images,,1,0.67,,,,,,,,,
+10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,1,0.15,,,,,,,,,,Fluoride content in D4R units
+10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,1,0.25,,,,,,,,,,Fluoride content in D4R units
+10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,images,1,,1,,,,,,,24.850000000000023,,
+10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,images,1,1,1,,0.33,,,,,,,
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,1,1,0.0476,,,,,,,400.0,2.0,
+10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,images,1,0.909,,0.045,,0.036,,OSDAOH,,130.0,6.0,
+10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,images,1,0.909,,0.045,,0.036,,OSDAOH,,130.0,12.0,
+10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,images,1,0.909,,0.045,,0.036,,OSDAOH,,130.0,24.0,
+10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,images,1,0.909,,0.045,,0.036,,OSDAOH,,150.0,3.0,
+10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,images,1,0.909,,0.045,,0.036,,OSDAOH,,150.0,6.0,
+10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,images,1,0.909,,0.045,,0.036,,OSDAOH,,150.0,12.0,
+10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,images,1,0.909,,0.045,,0.036,,OSDAOH,,150.0,24.0,
+10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,images,1,0.909,,0.045,,0.036,,OSDAOH,,170.0,3.0,
+10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,images,1,0.909,,0.045,,0.036,,OSDAOH,,170.0,6.0,
+10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,images,1,0.909,,0.045,,0.036,,OSDAOH,,170.0,12.0,
+10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,images,1,0.909,,0.045,,0.036,,OSDAOH,,170.0,24.0,
+10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,images,1,0.909,,0.045,,0.036,,OSDAOH,,170.0,24.0,
+10.1039/c5ce02312b,gpt4o,zeolite,images,1,1,,,,,,,4.2,,,[Ge96Si96O384H32][C22N6H34F3]8.81
+10.1039/c5ce02312b,gpt4o,zeolite,images,1,1,,,,,,,4.3,,,[Ge96Si96O384H32][C22N6H34F3]8.81
+10.1021/cm049912g,gpt4o,zeolite,images,,,,,,,,"3a,4,7,7a-Tetrahydro-2-methyl-7-(1-methylethyl)-4,7-ethano-1H-isoindole-1,3(2H)-dione",,0.0,4.0,60% yield
+10.1021/cm049912g,gpt4o,zeolite,images,,,,,,,,"3a,4,7,7a-Tetrahydro-2,4-trimethyl-7-(1-methylethyl)-4,7-ethano-1H-isoindole",,,,91% yield
+10.1021/cm049912g,gpt4o,zeolite,images,,,,,,,,"3a,3a,4,7,7a-Hexahydro-2,4-trimethyl-7-(1-methylethyl)-4,7-ethano-1H-isoindole",,,,83% yield
+10.1021/cm049912g,gpt4o,zeolite,images,,,,,,,,"3a,3a,4,7,7a-Hexahydro-2,4-trimethyl-7-(1-methylethyl)-4,7-ethano-1H-isoindole",,,,85% yield
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,,0.0213,,,,,,47,,,
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,,0.0056,,,,,,179,,,
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,1,,0.0208,,,,,,,,,
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,1,,0.0217,,,,,,,,,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,1,,,4,,,,diethoxydimethylsilane,,540.0,,
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,0.0581,,,16,,,3-ethyl-1-methyl-3H-imidazol-1-ium,,,,
+10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,images,,1,0.5,,35,,,"Cs2O, Na2O",,800.0,24.0,
+10.1002/anie.201501718,gpt4o,zeolite,images,,,,,,,,2-propanolamine (MIPA),,,,
+10.1016/j.jcat.2007.12.003,gpt4o,zeolite,images,,,,,,,,OSDA,,,,ITQ-33
+10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,images,,1,1,,w,,,,,,,
+10.1016/j.jcat.2007.12.003,gpt4o,zeolite,images,,,,,,,,,,124.85000000000002,1.0,
+10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,images,,,,,127,,,,,,,
+10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,images,,,,,344,,,,,,,
+10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,images,,,,,424,,,,,,,
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,0.73,,0.24,0.06,,,C6N2H11,0.54,,,
+10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,images,,,,,,,,,,,,
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,1,,,,,,,,540.0,,
+10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,images,,,,,1,,,,,60.0,6.0,final product
+10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,images,,,,,1,,,,,400.0,16.0,product yield
+10.1002/anie.201501718,gpt4o,zeolite,images,,1,,,,,,MIPA,,-0.1499999999999772,,PKU-17
+10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,images,,1,1,,,,,,,,,NaLSX
+10.1016/j.jcat.2007.12.003,gpt4o,zeolite,images,1,1,0.01,0.1,5,0.1,0.01,,0.25,174.85000000000002,336.0,
+10.1016/j.jcat.2007.12.003,gpt4o,zeolite,images,1,0.5,0.01,0.1,2,0.1,0.01,,0.25,174.85000000000002,336.0,
+10.1016/j.jcat.2007.12.003,gpt4o,zeolite,images,1,0.5,0.01,0.1,5,0.1,0.01,,0.25,174.85000000000002,336.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.481,,0.741,44.444,0.741,,,,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.481,,0.741,44.444,0.741,,,,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.481,,0.741,44.444,0.741,,,,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.481,,0.741,44.444,0.741,,,,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.481,,0.741,44.444,0.741,,,,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.481,,0.741,44.444,0.741,,,,149.85000000000002,120.0,
+10.1038/nmat921,gpt4o,zeolite,images,1,0.193,,,0.026,,,1.0,,175.0,288.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.488,,,44.444,0.741,,"ROH, TMAOH",,149.85000000000002,120.0,
+10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,images,,,,,,,,,,,,
+10.1038/nmat921,gpt4o,zeolite,images,1,0.51,,0.38,8.15,,,MPP(OH)2,,,,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,0.25,0.02,,2,0.5,,MSPT,1,,120.0,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,0.25,0.04,,2,0.5,,MSPT,1,,336.0,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,0.25,0.1,,2,0.5,,MSPT,1,,720.0,
+10.1016/j.inoche.2013.11.010,gpt4o,zeolite,images,1,1,,4,,,,"DETA, Pyridine",8,180.0,192.0,
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,,,,,,,,,,,,
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,,,,,,,benzyltriethylammonium bromide,,500.0,,
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.178,,1.26,,,,OSDA,3.26,,,
+10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,,,,,,,,"MFI, BEA, [Fe]UTL, [Ga]UTL, [Al]UTL",,250.0,,selectivity to p-cymene
+10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,,,,,,,,"MFI, BEA, [Ga]UTL, [Al]UTL",,450.0,,selectivity to xylenes
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.25,,,200,1.25,,OSDA 1,,160.0,,
+10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,1,0.897,,,7.69,,,,38.46,175.0,480.0,
+10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,1,0.897,,,7.69,,,,38.46,175.0,240.0,
+10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,1,0.897,,,7.69,,,,38.46,175.0,312.0,
+10.1038/nature07957,gpt4o,zeolite,images,1,1,,0.5,,,,,,,,ITQ-37
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,1,0.31,,,,,,[(CH3)2Gh]2N(C2H12)2OH,,,,Hexagonal
+10.1021/acs.cgd.7b01000,gpt4o,zeolite,images,1,1,,,,,,Tetraethylammonium hydroxide,,165.0,288.0,
+10.1016/j.jcat.2009.08.012,gpt4o,zeolite,images,1,,,,,,,,0.13,279.85,,
+10.1039/c7dt03751a,gpt4o,zeolite,images,1,2,,1,,"0.1 M HCl, 0.1 M HNO3, 0.146 M CCl3COOH, 1.4 M H3PO4, 0.09 M H2SO4",,,,25.0,16.0,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,,,,,,,,"TPA, HMTA, TMA, OTA, DTA, CTA",,,,
+10.1021/jp0378438,gpt4o,zeolite,images,1,0.077,,,,,,,,,,
+10.1021/cm049912g,gpt4o,zeolite,images,,,,,,,,"1-isopropyl-4,4,7,7-trimethyl-4-azoniaspiro-[5.2.2.0] undecane-8-one iodide (C16H32N+I−)",,,,
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,,2,,,,,,0.50,,,
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,,1,,,,,,1.00,,,
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,,0.67,,,,,,1.50,,,
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,,0.5,,,,,,2.00,,,
+10.1021/cm071790f,gpt4o,zeolite,images,,1,1.5,,,,,,,,,
+10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,1,0.4386,,,,,,,,,,
+10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,1,0.2703,,,,,,,,,,
+10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,images,1,3,3,,1,,,,,,,
+10.1002/anie.200801375,gpt4o,zeolite,images,1,0.78,,,33,,,(N(n-C4H9)4)2H,,,,
+10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,images,,1,,,3,,,,,550.0,5.0,GaGe-NHI
+10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,images,,,24,,,,,,,,,
+10.1002/anie.201506678,gpt4o,zeolite,images,1,0.9,,0.4,4.0,0.4,,,0.4,,,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,,,1.5,3.5,,,Ethylene Glycol,,,,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,,,1.5,2.0,,,Ethylene Glycol,,,,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,,,1.5,1.0,,,Ethylene Glycol,,,,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,,,1.5,0.5,,,Ethylene Glycol,,,,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,,,1.5,0.2,,,Ethylene Glycol,,,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.286,,0.060,0.121,,,(C14H34N2)1.5,,,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.357,,0.060,0.121,,,(C14H34N2)1.5,,,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.189,,0.060,0.121,,,(C14H34N2)1.5,,,,
+10.1038/nchem.2761,gpt4o,zeolite,images,,,,,,,,,,,,IPC-6
+10.1039/c7dt03751a,gpt4o,zeolite,images,1,0.308,,,5,,,,,550.0,6.0,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,1,,,20,,,,IPC-1P (organic),,95.0,16.0,
+10.1021/jp0378438,gpt4o,zeolite,images,1,0.4,,,,n.a.,,,0.25,,720.0,ITQ-22 + EU-1
+10.1021/jp0378438,gpt4o,zeolite,images,1,0.2,,,,b,,,0.25,,456.0,ITQ-13
+10.1021/jp0378438,gpt4o,zeolite,images,1,0.2,,,,b,,,0.25,,456.0,ITQ-22 + EU-1
+10.1021/jp0378438,gpt4o,zeolite,images,1,0.143,,,,0.71,,,0.25,,240.0,ITQ-13
+10.1021/jp0378438,gpt4o,zeolite,images,1,0.1,,,,0.071,,,0.25,,360.0,ITQ-13
+10.1021/jp0378438,gpt4o,zeolite,images,1,0.1,,,,b,,,0.25,,144.0,EU-1
+10.1021/jp0378438,gpt4o,zeolite,images,1,0.2,,,,2.0,,,0.25,,408.0,ITQ-24 + EU-1
+10.1021/jp0378438,gpt4o,zeolite,images,1,0.4,,,,n.a.,,,0.25,,240.0,ITQ-22
+10.1021/jp0378438,gpt4o,zeolite,images,1,0.2,,,,b,,,0.25,,240.0,ITQ-22
+10.1021/jp0378438,gpt4o,zeolite,images,1,0.143,,,,0.56,,,0.25,,168.0,ITQ-13
+10.1021/jp0378438,gpt4o,zeolite,images,1,0.1,,,,b,,,0.25,,456.0,EU-1
+10.1021/jp0378438,gpt4o,zeolite,images,1,0.2,,,,b,,,0.25,,240.0,ITQ-22 + ITQ-24
+10.1021/jp0378438,gpt4o,zeolite,images,1,0.2,,,,b,,,0.25,,240.0,ITQ-24
+10.1021/jp0378438,gpt4o,zeolite,images,1,0.2,,,,0,,,0.25,,240.0,ITQ-24
+10.1021/jp0378438,gpt4o,zeolite,images,1,0.2,,,,b,,,0.25,,552.0,amorphous
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,,,,,,,,4-dimethylaminopyridine,,,,IM-18
+10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,images,,0.5,,0.5,,,,,,,,
+10.1016/j.jcat.2009.08.012,gpt4o,zeolite,images,1,0.208,0.027,,,,,,,,,
+10.1016/j.jcat.2007.12.003,gpt4o,zeolite,images,,,,,,,,,,149.85000000000002,,
+10.1002/anie.200801375,gpt4o,zeolite,images,,1,,,58.6,1.6,,pyridine/2-methylpiperazine,43.2,160.0,132.0,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,0.5,,,,,,"(6R,10S)-6,10-dimethyl-5-azonia-spiro[4.5]decane hydroxide",0.882,550.0,144.0,
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,1,0.23,,,0.28,0,,"N,N-Diethylethylenediamine",1,170.0,744.0,STW and GeO2
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,1,0.23,,,0.55,0,,"N,N-Diethylethylenediamine",0.8,170.0,744.0,GeO2
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,1,0.23,,,0.83,0,,"N,N-Diethylethylenediamine",0.8,170.0,744.0,STW and amorphous
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,1,0.23,,,0.05,0.3,,"N,N-Diethylethylenediamine",0.8,170.0,48.0,No crystallization
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,1,0.23,,,0.35,3,,"N,N-Diethylethylenediamine",0.8,170.0,48.0,STW
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,1,0.23,,,0.91,3,,"N,N-Diethylethylenediamine",0.8,170.0,48.0,No crystallization
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,1,0.23,,,2.07,3,,"N,N-Diethylethylenediamine",0.8,170.0,48.0,MFI and amorphous
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,1,0.23,,,0.28,0.7,,"N,N-Diethylethylenediamine",0.6,170.0,48.0,STW and GeO2
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,1,0.23,,,0.28,3,,"N,N-Diethylethylenediamine",0.9,170.0,48.0,STW and amorphous
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,1,0.23,,,0.28,0,,"N,N-Diethylethylenediamine",5.0,170.0,48.0,amorphous
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,1,0.23,,,0.17,0,,"N,N-Diethylethylenediamine",1.5,170.0,48.0,STW and GeO2
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,1,0.23,,,0.28,0.3,,"N,N-Diethylethylenediamine",0.8,170.0,48.0,STW and amorphous
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,1,0.23,,,0.03,3,,"N,N-Diethylethylenediamine",0.8,170.0,48.0,No crystallization
+10.1021/acs.cgd.7b01000,gpt4o,zeolite,images,1,0.32,,,30,2,,,2,165.0,504.0,
+10.1002/anie.200461911,gpt4o,zeolite,images,,GeO2,,,H2O,,H3BO3,"DETA, pyridine",,,,SU-16
+10.1002/chem.201703361,gpt4o,zeolite,images,1,0.4,,,20,0.6,,4-pyrrolidinopyridine,0.6,109.85000000000002,24.0,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,,,,,,,,SDA,8.0,,,
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,1,2.38,0.98,0.85,,,,TMAOH,,140.0,144.0,Na-AlGe-JBW
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,1,11.47,5.88,8.55,,,,TMAOH,,175.0,120.0,K-AlGe-MON
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.0048,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.0032,0.0095,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.112,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.015,,,,,,,,,,
+10.1002/anie.200461911,gpt4o,zeolite,images,,1,,,20,,1,"DETA, pyridine",,165.0,192.0,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,96.43,3.57,1,,,,,,,,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,192.86,7.14,1,,,,,,,,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,289.29,10.71,1,,,,,,,,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,482.14,17.86,1,,,,,,,,,
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,,,,,,,,TPA,,,,
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,,,,,,,,HMTA,,,,
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,,,,,,,,TMA,,,,
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,,,,,,,,OTA,,,,
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,,,,,,,,DTA,,,,
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,,,,,,,,CTA,,,,
+10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,images,1,0.2,0.04,,8.7,0.65,,SDAOH,,175.0,144.0,
+10.1021/cm502525w,gpt4o,zeolite,images,,,,,,,,,,20.0,24.0,
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,1.11,,,,,,"N,N,N',N'-tetramethyl-1,6-hexanediamine",,,,
+10.1002/anie.201801386,gpt4o,zeolite,images,,,,,,,,OSDA,,,,SYSU-3
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,0.5,,0.1,,,0.067,,0.5,170.0,168.0,Chabazite + GeO2
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,0.2,,0.1,,,0.067,,0.5,170.0,168.0,Chabazite + GeO2
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,0.2,,0.1,,,0.2,,1.1,170.0,168.0,Amorphous + GeO2 + chabazite
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,0.2,,0.1,,,0.2,,1.3,170.0,168.0,Chabazite + GeO2
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,0.2,,0.2,,,0.2,,1.4,170.0,168.0,Chabazite + amorphous + GeO2 + beta
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,0.2,,0.1,,,0.2,,1.3,170.0,336.0,Amorphous + GeO2
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,0.5,,0.1,,,0.1,,0.5,170.0,168.0,Chabazite + amorphous
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,0,,0.5,,,0,,0.5,170.0,168.0,Na2HGe2O7·0.4H2O + GeO2 + chabazite
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,0,,0.1,,,0.067,,0.5,170.0,168.0,Amorphous
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,0.5,,0.5,,,0,,0.5,170.0,168.0,Amorphous + chabazite
+10.1039/c5ce00731c,gpt4o,zeolite,images,1,0,,,5,0.5,,HM-dq,0.25,140.0,168.0,
+10.1039/c5ce00731c,gpt4o,zeolite,images,1,0,,,7,0.5,,HM-dq,0.25,140.0,168.0,
+10.1039/c5ce00731c,gpt4o,zeolite,images,0.833,0.167,,,7,0.5,,HM-dq,0.25,140.0,168.0,
+10.1039/c5ce00731c,gpt4o,zeolite,images,0.833,0.167,,,15,0.5,,HM-dq,0.25,140.0,168.0,
+10.1039/c5ce00731c,gpt4o,zeolite,images,0.833,0.167,,,7,0.5,,HM-dq,0.25,140.0,168.0,
+10.1039/c5ce00731c,gpt4o,zeolite,images,0.882,0.118,,,7,0.5,,HM-dq,0.25,140.0,168.0,
+10.1007/s10934-015-0119-2,gpt4o,zeolite,images,1,0.24,,,,,,C6N2H12,,,,Ge2.95O32 Si13.05F
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,2,,,10,,,OSDA,40,550.0,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,1,,,10,,,OSDA,40,550.0,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.33,,,10,,,OSDA,40,550.0,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.2,,,10,,,OSDA,40,550.0,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.125,,,10,,,OSDA,40,550.0,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.67,,,10,,,OSDA,40,550.0,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.67,,,10,,,OSDA,40,550.0,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.33,,,10,,,OSDA,40,550.0,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.125,,,10,,,OSDA,40,550.0,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.1,,,10,,,OSDA,40,550.0,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.067,,,10,,,OSDA,40,550.0,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.05,,,10,,,OSDA,40,550.0,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.04,,,10,,,OSDA,40,550.0,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.033,,,10,,,OSDA,40,550.0,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,1,,,10,,,OSDA,40,550.0,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,1,,,10,,,OSDA,40,550.0,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,1,,,10,,,OSDA,40,550.0,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,1,,,10,,,OSDA,40,550.0,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,1,,,10,,,OSDA,40,550.0,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,1,,,10,,,OSDA,40,550.0,,
+10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,images,1,2,1,,100,,,,,110.0,120.0,Translucent rectangular crystals
+10.1021/ic301449y,gpt4o,zeolite,images,,1.0,,,23.45,,,7.9,,170.0,168.0,pure SU-67
+10.1021/ic301449y,gpt4o,zeolite,images,,1.0,,,43.9,,,7.9,,170.0,168.0,SU-67 and ASU-14
+10.1021/ic301449y,gpt4o,zeolite,images,,1.0,,,58.5,,,5.3,,170.0,168.0,GeO2 c
+10.1021/ic301449y,gpt4o,zeolite,images,,1.0,,,,,,2.1,,170.0,168.0,GeO2 c
+10.1021/ic301449y,gpt4o,zeolite,images,,1.0,,,58.5,,,10.5,,170.0,168.0,SU-67 and GeO2 c
+10.1021/ic301449y,gpt4o,zeolite,images,,1.0,,,17.6,2.1,,7.9,,170.0,168.0,JLS-6/JLS-5 and amorphous
+10.1021/ic301449y,gpt4o,zeolite,images,,1.0,,,5.85,3.0,,3.15,,170.0,168.0,ASU-7
+10.1021/ic301449y,gpt4o,zeolite,images,,1.0,,,43.9,2.75,,7.9,,170.0,168.0,ASU-7 and ASU-12
+10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,images,,1,,4,,,,"DETA, Pyridine",,180.0,204.0,
+10.1002/anie.201001506,gpt4o,zeolite,images,1,0.0556,0.0556,,0.0556,,,,,,,
+10.1007/s10934-015-0119-2,gpt4o,zeolite,images,1.0,0.625,,,45,0.54,,TMEDA,,170.0,48.0,BEC
+10.1007/s10934-015-0119-2,gpt4o,zeolite,images,1.0,0.625,,,72,0,,TMEDA,,170.0,48.0,No crystallization
+10.1007/s10934-015-0119-2,gpt4o,zeolite,images,1.0,2.0,,,13.5,0.54,,TMEDA,,170.0,48.0,AST
+10.1007/s10934-015-0119-2,gpt4o,zeolite,images,1.0,2.0,,,108,0.54,,TMEDA,,170.0,48.0,BEC and AST
+10.1007/s10934-015-0119-2,gpt4o,zeolite,images,1.0,0,,,45,1.77,,TMEDA,,170.0,48.0,No crystallization
+10.1002/anie.201006500,gpt4o,zeolite,images,1,1,,,12.82,0.769,,Ethanolamine + [Ni(en)3]Cl2 + Ethylenediamine,,180.0,192.0,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,0.25,,1.5,20,,,EGy,0.2,179.85000000000002,33.599999999999994,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,0.49,,1.5,20,,,EGy,0.5,179.85000000000002,168.0,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,1.0,,1.5,20,,,EGy,1.0,179.85000000000002,168.0,
+10.1039/c7dt03751a,gpt4o,zeolite,images,1,2,,,10,,,,,,,
+10.1039/c7dt03751a,gpt4o,zeolite,images,1,2,,,5,,,,,,,
+10.1039/c7dt03751a,gpt4o,zeolite,images,1,1.33,,,10,,,,,,,
+10.1039/c7dt03751a,gpt4o,zeolite,images,1,1,,,10,,,,,,,
+10.1039/c7dt03751a,gpt4o,zeolite,images,1,1,,,5,,,,,,,
+10.1039/c7dt03751a,gpt4o,zeolite,images,1,0.67,,,10,,,,,,,
+10.1039/c7dt03751a,gpt4o,zeolite,images,1,0.5,,,10,,,,,,,
+10.1039/c7dt03751a,gpt4o,zeolite,images,1,0.5,,,5,,,,,,,
+10.1039/c7dt03751a,gpt4o,zeolite,images,1,0.33,,,10,,,,,,,
+10.1039/c7dt03751a,gpt4o,zeolite,images,1,0.33,,,5,,,,,,,
+10.1039/c7dt03751a,gpt4o,zeolite,images,1,0.17,,,6,,,,,,,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,,,,,,,,,,550.0,,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,,,,,,,,Octylamine,,550.0,,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,,,,,,,,Hexamethonium bromide,,550.0,,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,,,,,,,,Tetramethylammonium chloride,,550.0,,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,,,,,,,,Tetraethylammonium bromide,,550.0,,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,,,,,,,,Tetrapropylammonium bromide,,550.0,,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,,,,,,,,Trimethylphenylammonium bromide,,550.0,,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,,,,,,,,Hexamethylenetetramine,,550.0,,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,,,,,,,,Trimethyladamantylammonium hydroxide,,550.0,,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,,,,,,,,Trimethyloctylammonium bromide,,550.0,,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,,,,,,,,Dodecyltrimethylammonium chloride,,550.0,,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,,,,,,,,Cetyltrimethylammonium hydroxide,,550.0,,
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,,,,,,,,,,400.0,,
+10.1021/jp0378438,gpt4o,zeolite,images,1,,0.106,,,,,SDA,,,,
+10.1021/jp0378438,gpt4o,zeolite,images,1,,0.078,,,,,SDA,,,,
+10.1021/jp0378438,gpt4o,zeolite,images,1,,0.078,,,,,SDA,,,,
+10.1021/jp0378438,gpt4o,zeolite,images,1,,0.078,,,,,SDA,,,,
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,1.5,,,0.5,0.5,,DMAP,0.5,170.0,336.0,Q + A
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.67,,,0.5,0.5,,DMAP,0.5,170.0,336.0,A + Q + IM-18
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.43,,,0.5,0.5,,DMAP,0.5,170.0,336.0,IM-18 + A + Q
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.25,,,0.5,0.5,,DMAP,0.5,170.0,336.0,IM-18
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.11,,,0.5,0.5,,DMAP,0.5,170.0,336.0,ZSM-48 + A
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.05,,,0.5,0.5,,DMAP,0.5,170.0,336.0,ZSM-48 + A
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0,,,0.5,0.5,,DMAP,0.5,170.0,336.0,SSZ-45
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.67,,,0.5,0.5,,DMAP,0.25,170.0,336.0,Q + A
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.67,,,0.5,0.5,,DMAP,0.1,170.0,336.0,IM-18 + A + Q
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.67,,,0.5,0.5,,DMAP,0.05,170.0,336.0,IM-18 + A
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.67,,,0.5,0.5,,DMAP,1,170.0,336.0,A + IM-18
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.25,,,0.5,0.5,,DMAP,0.5,170.0,336.0,IM-18
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.25,,,0.5,0.5,,DMAP,0.75,170.0,336.0,IM-18
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.25,,,0.5,0.5,,DMAP,0.5,170.0,336.0,IM-18 + A
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.25,,,0.5,0.5,,DMAP,0.75,170.0,336.0,IM-18
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.25,,,0.5,0.5,,DMAP,0.5,170.0,336.0,IM-18 + A
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.25,,,0.5,0.5,,DMAP,0.5,170.0,336.0,IM-18
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.25,,,0.5,0.5,,DMAP,0.75,170.0,336.0,IM-18
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.25,,,0.5,0.5,,DMAP,0.5,170.0,336.0,IM-18 + A
+10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,images,,,,,,,,,,,,
+10.1016/j.jcat.2009.08.012,gpt4o,zeolite,images,1,0.5,0.015,0.379,22.73,,,MPP(OH)2,,174.85000000000002,288.0,ITQ-22
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.56,,,,,,,,,,
+10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,images,1,1,1,1,,,,,,19.850000000000023,,
+10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,images,1,1,0,1,,,,,,-173.14999999999998,,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0,,0.25,30,0.5,,R,,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.176,,0.25,30,0.5,,R,,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.492,,0.25,30,0.5,,R,,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,1,,0.25,30,0.5,,R,,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,3,,0.25,30,0.5,,R,,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,∞,,0.25,30,0.5,,R,,149.85000000000002,120.0,
+10.1038/nmat921,gpt4o,zeolite,images,1,0.3125,,,,,,,,,,
+10.1002/chem.201703361,gpt4o,zeolite,images,1,0.4,,,1,2,,4-pyrrolidinopyridine,,109.85000000000002,24.0,
+10.1002/chem.201703361,gpt4o,zeolite,images,1,0.4,,,1,2,,4-pyrrolidinopyridine,,169.85000000000002,120.0,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,0.25,0.02,,2,0.25,,N(16)-methyl-sparteinium hydroxide,0.25,,48.0,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,0.067,0.04,,5,0.25,,N(16)-methyl-sparteinium hydroxide,0.25,,24.0,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,0.05,0.067,,10,0.5,,N(16)-methyl-sparteinium hydroxide,0.5,,120.0,
+10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,0.04,0.067,,10,0.5,,N(16)-methyl-sparteinium hydroxide,0.5,,240.0,
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,,1,1,,0.67,,,Na,,,,
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,1,0,1,,0.67,,,Na,,,,
+10.1016/j.inoche.2013.11.010,gpt4o,zeolite,images,,1,,,,,,,,,,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,2,,,,,,"(6R,10S)-6,10-Dimethyl-5-azoniaspiro[4.5]decane hydroxide",2,,144.0,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,1.43,,,,,,"(6R,10S)-6,10-Dimethyl-5-azoniaspiro[4.5]decane hydroxide",1.7,,144.0,
+10.1016/j.jssc.2014.12.031,gpt4o,zeolite,images,1,0.08,,,,,,,,,,
+10.1021/acs.cgd.7b01000,gpt4o,zeolite,images,,,,,,,,TEA+,,,,"PKU-22, PKU-22a"
+10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,images,1,8.24,4.12,9,202.8,,,,,225.0,336.0,
+10.1039/c5ce02312b,gpt4o,zeolite,images,,,,,,,,imidazolium tmbi,,,,ITQ-37
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.222,,,,,,,,,,
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,,,,,,,,,,,
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.333,,,,,,,,,,
+10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,images,1,0.5,,1,,,,,,,,
+10.1016/j.jcat.2009.08.012,gpt4o,zeolite,images,,,,,,,,,,279.85,,
+10.1039/c7dt03751a,gpt4o,zeolite,images,,,,,,,,,,25.0,,IPC-12
+10.1039/c7dt03751a,gpt4o,zeolite,images,,,,,,,,,,25.0,,IPC-12
+10.1039/c7dt03751a,gpt4o,zeolite,images,,,,,,,,,,25.0,1.0,IPC-12
+10.1039/c7dt03751a,gpt4o,zeolite,images,,,,,,,,,,25.0,3.0,IPC-12
+10.1039/c7dt03751a,gpt4o,zeolite,images,,,,,,,,,,25.0,24.0,IPC-12
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,,,,,,,,TPA,,,,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,,,,,,,,HMTA,,,,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,,,,,,,,TMA,,,,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,,,,,,,,OTA,,,,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,,,,,,,,DTA,,,,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,,,,,,,,CTA,,,,
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,1,,0.024,-327,,,,,,,,
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,1,,<0.01,~(-327),,,,,,,,
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,1,,0.02,-316,,,,,,,,
+10.1007/s11244-013-0170-7,gpt4o,zeolite,images,1,,0.0204,-303,,,,,,,,
+10.1021/jp0378438,gpt4o,zeolite,images,1,2,,,,,,,,,,zeolite
+10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,1,0.213,,,,,,,,,,
+10.1021/cm071790f,gpt4o,zeolite,images,1.0,1.0,1.6,,4.2,2.5,,"DETA, pyridine",,170.0,168.0,SU-46 crystals
+10.1021/cm071790f,gpt4o,zeolite,images,1.0,1.0,1.12,,4.2,2.5,,"DETA, pyridine",,170.0,168.0,large SU-46 crystals
+10.1021/cm071790f,gpt4o,zeolite,images,1.0,1.0,1.12,,10.2,2.5,,"DETA, pyridine",,170.0,168.0,UCSB-7A1Ge
+10.1021/cm071790f,gpt4o,zeolite,images,1.0,1.0,<0.60,,4.2,2.5,,"DETA, pyridine",,170.0,168.0,germanate
+10.1021/cm071790f,gpt4o,zeolite,images,1.0,1.0,>2.60,,4.2,2.5,,"DETA, pyridine",,170.0,168.0,amorphous
+10.1021/cm071790f,gpt4o,zeolite,images,1.0,1.0,1.12,,4.2,2.5,,"DETA, pyridine",,170.0,168.0,SU-46 and UCSB-7A1Ge
+10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,images,,,,,,,,,,,,
+10.1039/c5ce02312b,gpt4o,zeolite,images,1,0.599,,0.978,2.935,0.122,,,0.122,150.0,360.0,
+10.1039/c5ce02312b,gpt4o,zeolite,images,1,0.599,,0.978,2.935,0.122,,,0.122,175.0,360.0,
+10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,images,1,0.1,0.008,,2,0.2,,[C17H38N2O],1,350.0,5.0,
+10.1021/cm049912g,gpt4o,zeolite,images,m,,n,,,,,SDA^+,n1,,,
+10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,images,1,0.769,0.769,,,,,,,,,
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,,1,,,,2.40,,,299.85,,
+10.1039/c7dt03751a,gpt4o,zeolite,images,1,2.03,,,5,,,DMDH,0.25,175.0,252.0,
+10.1039/c7dt03751a,gpt4o,zeolite,images,1,0.52,,,10,,,DMDH,0.25,175.0,252.0,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,1,0.514,,,37.838,,,"(6R,10S)-6,10-Dimethyl-5-azaspiro[4.5]decane hydroxide",0.730,85.0,16.0,
+10.1016/j.cattod.2014.06.041,gpt4o,zeolite,images,1,,,,,,,TEOS,,99.0,16.0,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,0.5,,,,,,hydroxide form,0.25,175.0,24.0,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,0.5,,,,,,hydroxide form,0.25,175.0,48.0,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,0.5,,,,,,hydroxide form,0.25,175.0,72.0,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,0.5,,,,,,hydroxide form,0.25,175.0,96.0,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,0.5,,,,,,hydroxide form,0.25,175.0,144.0,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,0.5,,,,,,hydroxide form,0.25,175.0,240.0,
+10.1002/chem.200800416,gpt4o,zeolite,images,1,0.5,,,,,,hydroxide form,0.25,175.0,336.0,
+10.1021/acs.cgd.7b01000,gpt4o,zeolite,images,,,,,,,,SDA molecules,,260.0,5.0,
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0,0,,1,,0,,,170.0,24.0,ITQ-44 + ITQ-17
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0,0,,3,,0,,,170.0,24.0,ITQ-17
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0,0,,5,,0,,,170.0,24.0,ITQ-17
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0,0,,1,,0.05,,,170.0,24.0,ITQ-44
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0,0,,3,,0.05,,,170.0,24.0,ITQ-44 + ITQ-17
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0,0,,5,,0.05,,,170.0,24.0,ITQ-17
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0,0.01,,1,,0,,,170.0,24.0,ITQ-44
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0,0.01,,3,,0,,,170.0,24.0,ITQ-44 + ITQ-17
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0,0.01,,5,,0,,,170.0,24.0,ITQ-17
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0,0.05,,1,,0,,,170.0,24.0,ITQ-44
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0,0.05,,3,,0,,,170.0,24.0,ITQ-44 + ITQ-17
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0,0.05,,5,,0,,,170.0,24.0,ITQ-17
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0.01,0,,1,,0,,,170.0,24.0,ITQ-44
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0.01,0,,3,,0,,,170.0,24.0,ITQ-44 + ITQ-17
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0.01,0,,5,,0,,,170.0,24.0,ITQ-17
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0.05,0,,1,,0,,,170.0,24.0,ITQ-44
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0.05,0,,3,,0,,,170.0,24.0,ITQ-44 + ITQ-17
+10.1039/c5ra09942k,gpt4o,zeolite,images,1,0.05,0,,5,,0,,,170.0,24.0,ITQ-17
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,1,,1,,0.3125,,,TMAOH,,,,
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,1,,1,,n/16,,,TMAOH,,,,
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.263,,,5.75,,,"1-methyl-3-(3,5-dimethylbenzyl)imidazolium or 1,2-dimethyl-3-(3-methylbenzyl)imidazolium",0.5,137.5,,
+10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,,,,,,,,"MFI, BEA, (Ga)UTL, (Al)UTL",,450.0,,
+10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,,,,,,,,"MFI, BEA, (Ga)UTL, (Al)UTL",,500.0,,
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,,,,,,,,TMAOH,,,,
+10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,,,,,,,benzyl-imidazolium organic structure-directing agents,,,,CIT-13
+10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,1,39.37,12.26,,,,,,,450.0,20.0,
+10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,1,34.67,11.95,,,,,,,450.0,20.0,
+10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,1,24.93,7.4,,,,,,,450.0,20.0,
+10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,1,11.82,1.51,,,,,,,450.0,20.0,
+10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,1,37.46,14.65,,,,,,,450.0,20.0,
+10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,images,,7.37,,2,,,,,,,,
+10.1021/cm502525w,gpt4o,zeolite,images,,6,,,,,,"UTL, OKO",,,,zeolites
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,0.256,,,,,,TMHDA,,,,
+10.1021/cm1006108,gpt4o,zeolite,images,1,0.5,,10.75,,,,,0.5,,,
+10.1038/nature04097,gpt4o,zeolite,images,,1,,1.25,4.17,,,,0.42,180.0,48.0,
+10.1038/nature00924,gpt4o,zeolite,images,,,,,,,,,0.35,499.85,,
+10.1016/j.cattod.2013.10.051,gpt4o,zeolite,images,1,,,10,,,,IPC-1P (organic),,550.0,8.0,
+10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,images,1,,0.0097,,,,,,,400.0,7.0,
+10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,images,1,,0.0083,,,,,,,400.0,50.0,
+10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,images,1,,0.0083,,,,,,,400.0,50.0,
+10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,images,1,,0.0071,,,,,,,390.0,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.101,21.7,,,,,,,,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.045,20.6,,,,,,,,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.032,23.9,,,,,,,,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.026,20.4,,,,,,,,,
+10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,images,,,,,,,,,,,,ITQ-7
+10.1021/cm502525w,gpt4o,zeolite,images,,1.25,,,,,,HCl,,120.0,,
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,,,,,,,,,,,
+10.1039/c5ce00731c,gpt4o,zeolite,images,1,0.2,,,,,,flexible,,,,
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,1,,,52.5,4,0,63.2,,170.0,168.0,Amorphous
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,1,,,112.5,4,0,63.2,,170.0,168.0,ITH and amorphous
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,1.25,,,67.5,4,0,101.1,,170.0,168.0,Amorphous
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,1.25,,,37.5,3,0,37.4,,170.0,168.0,Amorphous
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,1.25,,,97.5,3,0,37.4,,170.0,168.0,ITH
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,0,,,90,3,0,37.4,,170.0,168.0,Amorphous
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,1.82,,,90,3,0,37.4,,170.0,168.0,ITH
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,2.5,,,105,3,0,32.7,,170.0,168.0,ITH
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,2,,,90,3,0.05,37.4,,170.0,168.0,Cu-ITH and amorphous
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,2,,,90,3,0.10,37.4,,170.0,168.0,Cu-ITH
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,2,,,90,3,0.15,37.4,,170.0,168.0,Cu-ITH and amorphous
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,2,,,90,3,0.20,37.4,,170.0,168.0,Cu-ITH and amorphous
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,2,,,90,3,0.05,37.4,,170.0,168.0,Co-ITH and amorphous
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,2,,,90,3,0.10,37.4,,170.0,168.0,Co-ITH and amorphous
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,2,,,90,3,0.15,37.4,,170.0,168.0,Co-ITH
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,2,,,90,3,0.20,37.4,,170.0,168.0,Co-ITH
+10.1002/anie.201801386,gpt4o,zeolite,images,1,0.079,,0.090,,0.009,,C7H12N2,1.5,,,
+10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,images,,1,,4,,,,"DETA, Pyridine",,180.0,204.0,
+10.1021/cm502525w,gpt4o,zeolite,images,1,0.22,,,5,0.75,,DMAD,,175.0,,
+10.1021/cm502525w,gpt4o,zeolite,images,1,0.17,,,10,0.25,,MPP2+,,175.0,,
+10.1039/c5ce00731c,gpt4o,zeolite,images,1,0.254,,0.078,,0.0016,,[C10H21N2]3,,,,
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.046,,,192,0.0073,,C9N2H21,,,,
+10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,0.4545,,,0.85,2,,OSDA,0.09,,,IM-16
+10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,images,,1,0.97,,,,,,,,,
+10.1002/anie.201501718,gpt4o,zeolite,images,,1,,,2.5,,,MIPA,2.19,,,
+10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,images,1,2,1,,25,,,,,90.0,4.0,
+10.1016/j.jcat.2007.12.003,gpt4o,zeolite,images,1,0.5,,0.1,30,,,,0.25,174.85000000000002,336.0,
+10.1016/j.jcat.2007.12.003,gpt4o,zeolite,images,1,0.25,,0.1,30,,,,0.25,174.85000000000002,336.0,
+10.1016/j.jcat.2007.12.003,gpt4o,zeolite,images,1,0.0667,,0.1,30,,,,0.25,174.85000000000002,336.0,
+10.1016/j.jcat.2007.12.003,gpt4o,zeolite,images,1,0.0333,,0.1,30,,,,0.25,174.85000000000002,336.0,
+10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,images,,1,1,,w,,,,,,,
+10.1016/j.jcat.2007.12.003,gpt4o,zeolite,images,1,0.5,,,,,,DTBPy,20,149.85000000000002,,
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,1,1,1,0,2,,,,,,,
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,1,0.95,1,0,4,,,,,,,
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,1,3,1,0,0,,,,,,,
+10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,1,3,1,0,0,,,,,,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.00476,,,,,,,,49.85000000000002,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.02439,,,,,,,,49.85000000000002,,
+10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,images,1,0.11236,,,,,,,,49.85000000000002,,
+10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,images,,,,,,,,,,,,"γ-valerolactone, γ-butyrolactone"
+10.1007/s11144-009-0129-7,gpt4o,zeolite,images,,,,,,,0,,,,,
+10.1007/s11144-009-0129-7,gpt4o,zeolite,images,,,,,,,3.8,,,,,
+10.1007/s11144-009-0129-7,gpt4o,zeolite,images,,,,,,,0,,,,,
+10.1007/s11144-009-0129-7,gpt4o,zeolite,images,,,,,,,3.6,,,,,
+10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,1,,,80,0.5,,"ROH, TMAOH",,149.85000000000002,120.0,ITQ-29
+10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,images,1,0.42,,,,,,,,,,
+10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,images,1,0.87,,,,,,,,,,
+10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,images,1,0.20,,,,,,,,,,
+10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,images,1,0.29,,,,,,,,,,
+10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,images,1,0.22,,,,,,,,,,
+10.1007/s11144-009-0129-7,gpt4o,zeolite,images,,,,,,,,,,699.85,0.75,
+10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,images,1,0,0.0083,,,,,OSDA-1,,500.0,,ITQ-37
+10.1039/c5ce02312b,gpt4o,zeolite,images,1,0.5,,0.333,3,,,U1,,150.0,96.0,ITQ-37
+10.1039/c5ce02312b,gpt4o,zeolite,images,1,0.5,,0.2,5,,,,,150.0,96.0,U1
+10.1039/c5ce02312b,gpt4o,zeolite,images,1,0.5,,0.1,10,,,,,150.0,96.0,
+10.1039/c5ce02312b,gpt4o,zeolite,images,1,0.5,,0.333,3,,,,,175.0,96.0,ITQ-37
+10.1039/c5ce02312b,gpt4o,zeolite,images,1,0.5,,0.2,5,,,,,175.0,96.0,ITQ-37
+10.1039/c5ce02312b,gpt4o,zeolite,images,1,0.5,,0.1,10,,,,,175.0,96.0,
+10.1039/c5ce02312b,gpt4o,zeolite,images,1,0.2,,0.333,3,,,U1,,150.0,96.0,ITQ-37
+10.1039/c5ce02312b,gpt4o,zeolite,images,1,0.2,,0.2,5,,,,,150.0,96.0,ITQ-37
+10.1039/c5ce02312b,gpt4o,zeolite,images,1,0.2,,0.1,10,,,,,150.0,96.0,U1
+10.1039/c5ce02312b,gpt4o,zeolite,images,1,0.2,,0.333,3,,,,,175.0,96.0,ITQ-37
+10.1039/c5ce02312b,gpt4o,zeolite,images,1,0.2,,0.2,5,,,,,175.0,96.0,ITQ-37
+10.1039/c5ce02312b,gpt4o,zeolite,images,1,0.2,,0.1,10,,,,,175.0,96.0,
+10.1021/cm049912g,gpt4o,zeolite,images,,,,,,,,New SDA,,,,ISV
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.046,,,,,,,,,,
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.046,,,,,,,,,,
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.047,,,,,,,,,,
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.047,,,,,,,,,,
+10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,images,1,1,1,,,,,,,,,
+10.1021/cm1006108,gpt4o,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.005,0.018,,,,,0.06,179.85000000000002,72.0,Amorphous
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.005,0.0032,,,,,0.06,179.85000000000002,72.0,ITHQ-13-EU-1-amorphous
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.005,0.0064,,,,,0.06,179.85000000000002,72.0,ITHQ-13-EU-1
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.005,0.0112,,,,,0.06,179.85000000000002,72.0,ITHQ-13
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.005,0.0256,,,,,0.06,179.85000000000002,72.0,Amorphous
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.005,0.0512,,,,,0.06,179.85000000000002,72.0,ITHQ-13
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.0,0.0112,,,,,0.24,179.85000000000002,288.0,Amorphous
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.001,0.0112,,,,,0.1,179.85000000000002,120.0,ITHQ-13 - amorphous
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.002,0.0112,,,,,0.1,179.85000000000002,120.0,ITHQ-13 - amorphous
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.004,0.0112,,,,,0.06,179.85000000000002,72.0,ITHQ-13 - amorphous
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.005,0.0112,,,,,0.06,179.85000000000002,72.0,ITHQ-13
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.006,0.0112,,,,,0.06,179.85000000000002,72.0,ITHQ-13
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.0192,0.0431,,,,,1.0769,179.85000000000002,336.0,Amorphous
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.0167,0.0373,,,,,0.9333,179.85000000000002,336.0,Amorphous
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.01,0.0224,,,,,0.16,179.85000000000002,96.0,ITHQ-13
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.005,0.0112,,,,,0.06,179.85000000000002,72.0,ITHQ-13
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.0025,0.0056,,,,,0.03,179.85000000000002,72.0,ITHQ-13
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.0017,0.0037,,,,,0.02,179.85000000000002,72.0,ITHQ-13
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.00125,0.0028,,,,,0.015,179.85000000000002,72.0,ITHQ-13
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.001,0.00224,,,,,0.012,179.85000000000002,72.0,ITHQ-13
+10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0,0,,,,,0,179.85000000000002,72.0,ITHQ-13
+10.1021/cm071790f,gpt4o,zeolite,images,,1,1,,,,,DETA,,,,SU-46
+10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,1,27.3,,,,,,,,,,
+10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,1,22.2,,,,,,,,,,
+10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,1,19.1,,,,,,,,,,
+10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,1,16.9,,,,,,,,,,
+10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,1,15.9,,,,,,,,,,
+10.1021/jp0378438,gpt4o,zeolite,images,1,0.0503,,0.0164,5.5,,,hexamethonium dihydroxide,,175.0,600.0,
+10.1021/jp0378438,gpt4o,zeolite,images,1,0.0503,,0.0164,11,,,hexamethonium dihydroxide,,175.0,600.0,
+10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,images,1,1,,6,,,,,,,,
+10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,images,1,,0.33,,,,,,,,,
+10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,images,1,0.77,,,,,,,,,,
+10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,images,,1,1,,,,,,,,,
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.3125,,,,,,,,,,
+10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.3185,,,,,,,,,,
+10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,images,,6,6,6,,,,,,,,AlGe-CAN
+10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,images,,6,,6,,,,,,,,GaGe-CAN
+10.1016/j.jcat.2009.08.012,gpt4o,zeolite,images,,,,,,,,,,124.85000000000002,12.0,
+10.1039/c7dt03751a,gpt4o,zeolite,images,,,,,,,,,,,3.0,
+10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,0.0417,,,,,0.0833,,,,,
+10.1021/cm1006108,gpt4o,zeolite,images,,,,,,,,,,,,
+10.1038/nature04097,gpt4o,zeolite,images,1,0.75,,,,1.0,,MPD,18.0,165.0,72.0,
+10.1038/nature04097,gpt4o,zeolite,images,1,0.75,,,,1.0,,MPD,18.0,165.0,264.0,
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,0.033,,,,,,C10N2H24,,370.0,,
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,0.025,,,,,,C10N2H24,,390.0,,
+10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,0.021,,,,,,C10N2H24,,390.0,,
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.1,0.02,,,,,,,,,ITQ-13
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.067,0.02,,,,,,,,,ITQ-13
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.05,0.02,,,,,,,,,ITQ-13
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.033,0.02,,,,,,,,,ITQ-13
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.025,0.02,,,,,,,,,ITQ-13
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.02,0.02,,,,,,,,,Amorphous
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0,0.02,,,,,,,,,EU-1
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.1,0.033,,,,,,,,,ITQ-13
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.033,0.033,,,,,,,,,Amorphous
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.033,0.025,,,,,,,,,ITQ-13
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.033,0.01,,,,,,,,,ITQ-13
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.033,0.005,,,,,,,,,ITQ-13
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.033,0.0033,,,,,,,,,ITQ-13
+10.1016/j.jcat.2016.09.007,gpt4o,zeolite,images,1,0.033,0.002,,,,,,,,,ITQ-13
+10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,images,,1,,,,,,,,,,
+10.1038/nature07957,gpt4o,zeolite,images,1,1,0,0.5,0.5,,,,0.25,175.0,,
+10.1038/nature07957,gpt4o,zeolite,images,1,1,0.1,0.5,0.5,,,,0.25,175.0,,
+10.1038/nature07957,gpt4o,zeolite,images,1,1,0.2,0.5,0.5,,,,0.25,175.0,,
+10.1038/nature07957,gpt4o,zeolite,images,1,1,0.3,0.5,0.5,,,,0.25,175.0,,
+10.1038/nature07957,gpt4o,zeolite,images,1,1,0.4,0.5,0.5,,,,0.25,175.0,,
+10.1038/nature07957,gpt4o,zeolite,images,1,1,0.5,0.5,0.5,,,,0.25,175.0,,
+10.1002/anie.201506678,gpt4o,zeolite,images,1,,0.02,,,,,Tetraethylammonium,,170.0,6.0,
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,0,,1.5,0,0,,EG,,,672.0,SOD
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,0,,1.5,0.2,0,,EG,,,504.0,SOD
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,0,,1.5,0.5,0,,EG,,,504.0,SOD
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,0,,1.5,1.0,0,,EG,,,504.0,SOD
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,0,,1.5,2.0,0,,EG,,,24.0,Quartz
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,0,,1.5,3.5,0,,EG,,,24.0,Quartz
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,0.80,0.20,,1.5,0,0,,EG,,,336.0,SOD
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,0.67,0.33,,1.5,0,0,,EG,,,168.0,SOD
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,0.50,0.50,,1.5,0,0,,EG,,,168.0,SOD
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,0.67,0.33,,1.5,3.5,0,,EG,,,24.0,Quartz
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,1,0,,1.5,3.5,0.6,,EG,,,336.0,SOD
+10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,images,0.67,0.33,,1.5,3.5,0.6,,EG,,,168.0,SOD
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.278,,,,,,,,,,
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.286,,,,,,,,,,
+10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,images,,17,10,,,,14,,,24.850000000000023,,
+10.1038/nchem.2761,gpt4o,zeolite,images,,,,,,,,,,70.0,,"IPC-1P, IPC-2P, IPC-4, IPC-6P"
+10.1039/c4ra01383b,gpt4o,zeolite,images,1,0.1538,,0.25,1.0,,,Decamethonium dihydroxide,,170.0,336.0,
+10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,images,,1,,,,,,,,19.850000000000023,,

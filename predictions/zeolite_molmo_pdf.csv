@@ -1,0 +1,1079 @@
+doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
+10.1021/ic301449y,molmo,zeolite,images,1,2,1.2,1.5,2,0.8,0.3,Si-Al,0.5,,,γ-Al2O3 zeolite
+10.1021/ic301449y,molmo,zeolite,images,2.5,5,2.5,4,4,1.2,1.2,Al-B,0.75,,,δ-ZrAl2O7(BCl4)6 zeolite
+10.1021/ic301449y,molmo,zeolite,images,3,6,3,6,6,1.8,2,Al-Zn,1,,,ɛ-AlYzAl2O7 xH2O zeolite
+10.1016/j.micromeso.2009.05.004,molmo,zeolite,images,1.0,2.0,10.0,3.0,4.0,,,,,,,
+10.1016/j.micromeso.2009.05.004,molmo,zeolite,images,1.1,2.2,10.2,3.2,4.2,,,,,,,
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,1.0,1.5,0.5,0.5,5,0.5,U= NaCl,NaAlGeO4 ⋅ 2H2O,1,,,NaAlGeO4 ⋅ 2H2O
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,1.5,2.25,0.75,0.75,7.5,1.0,U= NaCl,NaAlGeO4 ⋅ 3H2O,1.5,,,NaAlGeO4 ⋅ 3H2O
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,2.0,4.0,1.0,1.0,10.0,1.5,U= NaCl,NaAlGeO4 ⋅ 4H2O,2,,,NaAlGeO4 ⋅ 4H2O
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,2.5,5.0,1.25,1.25,12.5,2.0,U= NaCl,NaAlGeO4 ⋅ 5H2O,2.5,,,NaAlGeO4 ⋅ 5H2O
+10.1016/j.solidstatesciences.2007.08.002,molmo,zeolite,images,1,2,3,4,5,,,,,,,
+10.1016/j.solidstatesciences.2007.08.002,molmo,zeolite,images,1,3,4,2,5,,,,,,,
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,1,1.9,0.0,0.0,0.0,0.0,0.1,thematic-O,1,200.0,, Jurassic SiGe-Al SDAs
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,1,2,0.1,0.0,0.0,0.0,0.2,thematic-O,1,200.0,,Jurassic SiGe-Al SDAs
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,1.5,1.5,0.0,0.0,0.0,0.0,0.3,thematic-O,1,200.0,,Jurassic SiGe-Al SDAs
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,1.4,1.5,0.1,0.0,0.0,0.0,0.2,thematic-O,1,200.0,,Jurassic SiGe-Al SDAs
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,1.3,1.5,0.0,0.0,0.0,0.0,0.2,thematic-O,1,200.0,,Jurassic SDAs
+10.1016/j.jssc.2014.12.031,molmo,zeolite,images,0.3,0.5,1.2,8,2,1.7,0,Me江山提花实验室,0.5,,,NaCl
+10.1016/j.jssc.2014.12.031,molmo,zeolite,images,0.4,1.0,1.5,9,3,2,0.2,,0.7,,,Me江山提花实验室 zeolite
+10.1016/j.jssc.2014.12.031,molmo,zeolite,images,0.6,1.8,2.2,11,4,3,0.4,,0.9,,,Me江山提花实验室 zeolite
+10.1016/j.micromeso.2009.05.004,molmo,zeolite,images,1.00,0.05,4.50,0.50,9.00,0.10,,Sodium TripRubinawithGr manic cases,1:0.05,,,Zeolite
+10.1016/j.micromeso.2009.05.004,molmo,zeolite,images,1.00,0.15,2.25,0.75,11.25,0.15,,Sodium TripRubinawithGr manic cases,1:0.15,,,Zeolite
+10.1016/j.micromeso.2009.05.004,molmo,zeolite,images,1.50,0.25,4.75,0.875,14.00,0.30,,Sodium TripRubinawithGr manic cases,1:0.25,,,Zeolite
+10.1016/j.micromeso.2009.05.004,molmo,zeolite,images,1.20,0.30,5.35,1.00,16.00,0.35,,Sodium TripRubinawithGr manic cases,1:0.30,,,Zeolite
+10.1016/j.micromeso.2009.05.004,molmo,zeolite,images,2.00,0.50,6.75,1.25,19.00,0.50,,Sodium TripRubinawithGr manic cases,1:0.50,,,Zeolite
+10.1016/j.micromeso.2009.05.004,molmo,zeolite,images,3.00,1.00,9.00,1.50,21.875,0.65,,Sodium TripRubinawithGr manic cases,1:1.00,,,Zeolite
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,1,0.5,3,4,5,6,,,0.5,,,
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,2,1,6,8,10,12,,六元,0.75,,,杂合相
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,3,1.5,9,12,14,16,,七元,1,,,杂合相
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,4,2,12,16,18,20,,八-九元,1.25,,,杂合相
+10.1016/j.solidstatesciences.2007.08.002,molmo,zeolite,images,1.0,2.0,3.0,4.0,5.0,6.0,8.0,AlCl3 and GeCl4,7.0,110.0,,Al2Si6Ge3O14
+10.1021/ic301449y,molmo,zeolite,images,1,0.35,0.35,0.25,99.21,,, healthy shirt,7,,,Si-Ge-Zn
+10.1021/ic301449y,molmo,zeolite,images,1,0.35,0.35,0.25,99.21,,, healthy shirt,7,,,Si-Ge-Zn
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,37.5,100,25,10,100,0,0, Originally LiAl2Si3O10[a-LiAl2Si3O10](3/2)[Al2Si3O8](1/2).2H2O,1.25,,,GeO2[a-LiAl2Si3O10](3/2)[Al2Si3O8](1/2).2H2O
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,62.5,200,37.5,15,200,5,0,LiAl2Si3O10[a-LiAl2Si3O10](3/2)[Al2Si3O8](1/2).2H2O,2,,,GeO2[a-LiAl2Si3O10](3/2)[Al2Si3O8](1/2).2H2O
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,75.0,250,43.75,20,300,10,0,LiAl2Si3O10[a-LiAl2Si3O10](3/2 )[Al2Si3O8](1/2 ).2H2O,2.5,,,GeO2[a-LiAl2Si3O10](3/2 )[Al2Si3O8](1/2 ).2H2O
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,87.5,312.5,51.25,25,400,15,0,LiAl2Si3O10[a-LiAl2Si3O10](3/2 )[Al2Si3O8](1/2 ).2H2O,3,,,GeO2[a-LiAl2Si3O10](3/2 )[Al2Si3O8](1/2 ).2H2O
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,100.0,375.0,62.5,30,500,20,0,LiAl2Si3O10[a-LiAl2Si3O10](3/2 )[Al2Si3O8](1/2 ).2H2O,3.75,,,GeO2[a-LiAl2Si3O10](3/2 )[Al2Si3O8](1/2 ).2H2O
+10.1002/chem.200800416,molmo,zeolite,images,,,,,,,,,,,,
+10.1002/chem.200800416,molmo,zeolite,images,,,,,,,,,,,,
+10.1002/chem.200800416,molmo,zeolite,images,,,,,,,,,,,,
+10.1039/c7dt03751a,molmo,zeolite,images,7.10,1.06,4.99,6.57,125,20,0,"no SDA
+",2,,,IPIC-12
+10.1039/c7dt03751a,molmo,zeolite,images,0.8,0.3,48.1,9.9,20.1,3.5,0,"F8-SDA
+",2,,,IPIC-12
+10.1039/c7dt03751a,molmo,zeolite,images,0.03,0.03,1.3,1.4,10,1,0,"F8-SDA
+",2,,,IPIC-12
+10.1039/c7dt03751a,molmo,zeolite,images,0.44,0.14,6.67,45.2,5.97,3.0,0,"no SDA
+",2,,,IPIC-12
+10.1002/chem.200800416,molmo,zeolite,images,1,2,3,0.667,4,,,,,,,
+10.1016/j.jcat.2006.04.036,molmo,zeolite,images,1,0.5,0.06,1,0.15,1,1/5,TbGe,1/5,,,anomorphous ITO-30 with ITQ-21
+10.1016/j.jcat.2006.04.036,molmo,zeolite,images,1,2,0.15,1,0.2,1,,,,,,zeolite
+10.1016/j.jcat.2006.04.036,molmo,zeolite,images,1,3,0.3,1,0.1,1,,,,,,zeolite
+10.1016/j.jcat.2006.04.036,molmo,zeolite,images,2,1,0.2,1,0.15,1,,,,,,zeolite
+10.1016/j.jcat.2006.04.036,molmo,zeolite,images,3,2,0.3,1,0.15,1,,,,,,zeolite
+10.1016/j.jcat.2006.04.036,molmo,zeolite,images,4,3,0.3,1,0.1,1,,,,,,zeolite
+10.1039/c7dt03751a,molmo,zeolite,images,0.1,0.2,0.3,0.4,0.5,0.6,0.8,NATURAL mothods,7,,,UOV zeolite
+10.1039/c7dt03751a,molmo,zeolite,images,0.2,0.4,0.5,0.6,0.7,0.8,0.7,NATURAL mothods,7,,,UOV zeolite
+10.1039/c7dt03751a,molmo,zeolite,images,0.3,0.6,0.7,0.8,0.9,1.0,0.8,NATURAL mothods,7,,,UOV zeolite
+10.1039/c7dt03751a,molmo,zeolite,images,0.4,0.7,0.8,1.0,1.1,1.2,0.9,NATURAL mothods,7,,,UOV zeolite
+10.1039/c7dt03751a,molmo,zeolite,images,0.5,0.8,1.0,1.2,1.3,1.4,1.0,NATURAL mothods,7,,,UOV zeolite
+10.1039/c7dt03751a,molmo,zeolite,images,0.6,1.0,1.1,1.3,1.4,1.5,1.1,NATURAL mothods,7,,,UOV zeolite
+10.1039/c7dt03751a,molmo,zeolite,images,0.5,1.1,1.2,1.3,1.4,1.5,1.1,NATURAL mothods,7,,,UOV zeolite
+10.1021/cm502525w,molmo,zeolite,images,1.00,0.50,0.10,0.01,99.99,0.01,,正庚烷超晶格,1,,,纳米晶沸石
+10.1021/cm502525w,molmo,zeolite,images,0.80,0.30,0.05,0.01,99.85,0.10,,四氯化钛超晶格,1.5,,,常规沸石
+10.1021/cm502525w,molmo,zeolite,images,0.95,0.10,0.05,0.02,99.85,0.01,,偏硅酸钠超晶格,1.2,,,
+10.1016/s1387-1811(99)00177-8,molmo,zeolite,images,1.564,2.887,0.888,0.368,0.076,0,0,Non framework ligands the inserted into walkers wirar's unit the Framework,0.67,110.0,, AWB the extruded Awb can be
+10.1016/s1387-1811(99)00177-8,molmo,zeolite,images,1.564,2.887,0.888,0.368,0.076,0,0,Non framework ligands the inserted into walkers wirar's unit the Framework,0.67,110.0,, AWB the extruded Awb can be
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,1.0,0.5,0.1,3.0,80,0.1,0.5,Ammonium’tetrakismethylthiophenolate ammonium,3,,,Layered silico-germanate PKU-22
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,1,0.625,2.5e-03,4e-04,5,2.3e-03,,,,,,
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,1,0.64,2.3e-03,4e-04,5,2.4e-03,,,,,,
+10.1007/s10853-016-9799-5,molmo,zeolite,images,1.2,0.7,2.5,0.6,1.8,5.0,,SIzeolite Skeleton conditional,5,,,Gloves-Miller Al2O3 (Si6O2 Al2O3)
+10.1007/s10853-016-9799-5,molmo,zeolite,images,1.5,0.7,2.5,0.6,1.8,5.0,,SIzeolite Skeleton conditional,5,,,Gloves-Miller Al2O3 (Si6O2 Al2O3)
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,2.7275,4.9,1.2959,0.6,9,0.1,,Cancel,0.1,,,U = Na + Cl
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,not mentioned,not mentioned,not mentioned,not mentioned,not mentioned,not mentioned,not mentioned,Cancel,not mentioned,,,doctor = NaCl
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,not mentioned,not mentioned,not mentioned,not mentioned,not mentioned,not mentioned,not mentioned,Cancel,not mentioned,,,not mentioned
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1,0.5,0.5,1,4,X,Y,正丁基过氧化氢,X,,,杂链多环硅氧烷
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1,0.2,0.3,1,4,X,Y,正辛基过氧化氢,X,,,杂环硅氧烷
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1,0.1,0.1,1,4,X,Y,丁烯基锂,X,,,杂环硅氧烷
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,2.6666,1.3333,1,0.15,0.75,0.01,unidentified,Ti(IV)Cl4·(EtOH)6,unidentified,,,Na2O·Al2O3
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,3.0667,1.5333,1,0.15,0.75,0.01,unidentified,TiCl4·(EtOH)6,unidentified,,,Na2O·Al2O3
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,3.25,1.75,1,0.15,0.75,0.01,unidentified,TiCl4·(EtOH)6,unidentified,,,Na2O·Al2O3
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,3.4167,2,1,0.15,0.75,0.01,unidentified,TiCl4·(EtOH)6,unidentified,,,Na2O·Al2O3
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,3.75,2.25,1,0.15,0.75,0.01,unidentified,TiCl4·(EtOH)6,unidentified,,,Na2O·Al2O3
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,3.9167,2.50,1,0.15,0.75,0.01,unidentified,TiCl4·(EtOH)6,unidentified,,,Na2O·Al2O3
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,4.1667,3,1,0.15,0.75,0.01,unidentified,TiCl4·(EtOH)6,unidentified,,,Na2O·Al2O3
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,4.75,3.25,1,0.15,0.75,0.01,unidentified,TiCl4·(EtOH)6,unidentified,,,Na2O·Al2O3
+10.1016/j.micromeso.2012.10.004,molmo,zeolite,images,5.5,1,3,0.1,99.9,,,,,,,
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,3.0,2.0,1.0,1e-2,1e2,1e-9,2e-5,Normal,1.1,,,Zeolite
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,2.5,2.5,1.0,1e-2,2e2,1e-9,6e-5,Chiral,1.1,,,Zeolite
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,2.0,2.0,1.0,1e-2,2e2,1e-9,5e-5,Chiral,1.1,,,Zeolite
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1.5,1.5,1.0,1e-2,3e2,1e-9,3e-5,Chiral,1.1,,,Zeolite
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1.0,0.5,1.0,1e-2,3e2,1e-9,1.5e-5,ZIf-8,1.1,,,Zeolite
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,0.5,1.0,1.0,1e-2,4e2,1e-9,5e-6,ZIf-8,1.1,,,Zeolite
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,0.5,0.5,1.0,1e-2,4e2,1e-9,5e-6, frameworks,1.1,,,Zeolite
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,0.25,0.5,1.0,1e-2,4e2,1e-9,1e-7,frameworks,1.1,,,Zeolite
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,0.125,0.125,1.0,1e-2,5e2,1e-9,5e-8,frameworks,1.1,,,Zeolite
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,0,0,1.0,1e-2,6e3,1e-9,5e-9,frameworks,1.1,,,Zeolite
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,0,0,1.0,1e-2,6e3,1e-9,5e-9,frameworks,1.1,,,Zeolite
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,1,1.75,0.17,0.55,0.92,0.02,3e-4,NaAlO2,2.333,215.0,,Zeolite
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,1,0.75,0.07,1,0.4,2e-3,5e-4,NaAlO2,1,215.0,,Zeolite
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,0.25,0.125,0,0.3,0.1,1e-5,7,NaN3Al(PO4)3(),4,215.0,,Zeolite
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,1,1.5,0.05,1.25,1.5,0.1,1e-3,MgAl2(PO4)4(OH)2,1,215.0,,Zeolite
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,2,3,0.27,1.75,2,0.2,3e-4,NaAlO2,1,215.0,,Zeolite
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,2,5,0.59,4,4,0.5,5e-4,NaN3Al(PO4)3(),2,215.0,,Zeolite
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,3,7,1.17,5,5,1,1.5,NaN3Al(PO4)3(),1,215.0,,Zeolite
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,5,10,2.33,8,8,2,2.7e-3,NaN3Al(PO4)3(,1,215.0,,Zeolite
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,10,15,5,12,12,4,1e-2,NaN3Al(PO4)3(,1,215.0,,Zeolite
+10.1007/s10853-016-9799-5,molmo,zeolite,images,1,2,1,0.5,5,0.2,0.05,Commercial,2:1,,,NaCl
+10.1007/s10853-016-9799-5,molmo,zeolite,images,1.5,4,0.5,0.3,4,0.1,0.5,Sodium Aluminate,3:1,,,Na3Al(PO4)2·6H2O
+10.1007/s10853-016-9799-5,molmo,zeolite,images,2,8,1,1,4,0.5,1.5,Magnesium Aluminate,4:1,,,Mg2SiO4(OH)2·3H2O
+10.1007/s10853-016-9799-5,molmo,zeolite,images,2.5,10,2,1.5,3,0.7,2.5, Magnesium Aluminate,5:1,,,Al/MgBO4 (Al13Mg8〔PO4〕3〔AlO2〕6)⋅6H2O
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,1,2,1.5,1.5,4,0.2,0.6,,0.4,,,Zeolite product
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,1,2,1.5,1.5,4,0.2,0.6,,0.4,,,Zeolite product
+10.1016/j.cattod.2014.06.041,molmo,zeolite,images,1,1,0,0.5,99.5,0,0,Aldrich-Router,,,,IPC-1-P
+10.1007/s10934-015-0119-2,molmo,zeolite,images,1,1.6,,,,,,,,,,
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1.000,3.000,0.100,11.5,0.050,1.0e-1,,,5,,,
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1.000,3.000,0.100,14.0,0.060,1.0e-1,,,5,,,
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1.000,3.000,0.100,14.5,0.050,1.0e-1,,,5,,,
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1.000,3.000,0.100,14.0,0.060,1.0e-1,,,5,,,
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1.000,3.000,0.100,14.5,0.050,1.0e-1,,,5,,,
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1.000,3.000,0.100,14.0,0.060,1.0e-1,,,5,,,
+10.1016/j.micromeso.2006.10.023,molmo,zeolite,images,1,2,0,0,0,0,0,sda1,1/1,,,4Al2Si3O8
+10.1016/j.micromeso.2006.10.023,molmo,zeolite,images,1,1,0,5,5,5,0,sda2,1/1,,,Al2Si3Ge3O13
+10.1016/j.micromeso.2006.10.023,molmo,zeolite,images,2,0,0,5,5,5,0,sda3,1/1,,,Al2Ge3O7
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,1.0,2.0,3.0,4.0,5.0,0,0,L impossibis,,,,SDA
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,0.8,1.6,2.4,3.2,4.8,0,0,B POSSIBIS,,,,SDA
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,0.5,1,1.5,2,3,0,0,K POSSIBIS,,,,SDA
+10.1007/s10853-016-9799-5,molmo,zeolite,images,1.5,1,1,0.05,0.999999,0.1,1000,1,1000000,1000.0,,well-defined zeolite
+10.1007/s10853-016-9799-5,molmo,zeolite,images,0.95,0.5,1,0.05,0.999999,0.1,1000,1,1000000,1000.0,,well-defined zeolite
+10.1007/s10853-016-9799-5,molmo,zeolite,images,0.5,0.25,1,0.05,0.999999,0.1,1000,1,1000000,1000.0,,well-defined zeolite
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,100,32,2,60,80,18,0.5,Al2Ge13,1:1,,,Al2Ge13-2H6Si14Ge3Al0.5SO44NaCl
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,90,18,2,50,70,15,0.25,Al2Ge4,1:1.2,,,Al13Ge11Si14让你像混蛋一样思考
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,80,24,3,45,60,12,0.1,Al2Ge6,1:1.4,,,Al17Ge33SI19Ge0.7Al2SO44NaCl
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,65,30,4,40,50,9,0.05,Al2Ge11,1:1.6,,,Al19Ge41Si22Ge1Al2SO44NaCl
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,55,35,5,35,40,7,0.01,Al2Ge21,1:1.8,,,Al23Ge50Si29Ge2Al2SO44NaCl
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,70,28,6,30,35,5,0.025,Al2Ge33,1:2.0,,,Al25Ge64Si36Ge3Al3SO44NaCl
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,55,32,9,25,20,3,0.01,Al2Ge41,1:2.4,,,Al26Ge70Si41Ge4Al2SO44NaCl
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,40,28,12,20,15,2,0.0025,Al2Ge53,1:3.0,,,Al28Ge80Si48Ge5Al3SO44NaCl
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,20,20,26,15,10,1,0.0005,Al2Ge65,1:3.6,,,Al32Ge94Si100Ge6Al4SO44NaCl
+10.1007/s10934-015-0119-2,molmo,zeolite,images,17,8.5,0,5,10,1.5,0.02,四甲基二烷胺,0.22,800.0,,纯二氧化硅
+10.1007/s10934-015-0119-2,molmo,zeolite,images,16,7.6,0,4,11,1.6,0.03,四甲基二烷胺,0.23,800.0,,纯二氧化硅
+10.1007/s10934-015-0119-2,molmo,zeolite,images,15,7.0,0,4,11,1.6,0.04,四甲基二烷胺,0.24,800.0,,纯二氧化硅
+10.1016/j.micromeso.2006.10.023,molmo,zeolite,images,1.0,2.5,0.2,5.0,25.0,0.5,0.1,Zeolite Framework Method,,,,Zeolite
+10.1016/j.micromeso.2006.10.023,molmo,zeolite,images,2.0,1.8,0.5,7.0,30.0,1.0,0.2,Zeolite Framework Method,,,,Zeolite
+10.1016/j.cattod.2012.10.002,molmo,zeolite,images,1.0,1.0,1.0,1.0,1.0,1.0,5.4,,21.0,,,Synthesized zeolite
+10.1016/j.cattod.2012.10.002,molmo,zeolite,images,10/9,10/9,10/9,10/9,10/9,10/9,4.6,NaCl,20.18,,,Cal decentized z0
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,2.0,30.0,83.0,7.0,60.0,2.0,3.0,, timid,,,杂化氢氧化铝-Ala aluminum hydrate seem to be标题
+10.1002/chem.201602419,molmo,zeolite,images,1.0,2.0,0.625,1.0,0.625,1.0,0.5,SDA2,2,1245.0,,"Large pore zeolites, crystallinity about 96% by XRD"
+10.1002/chem.201602419,molmo,zeolite,images,1.5,3.75,0.125,0.5,0.5,1.5,1.0,SDA3,2.5,1300.0,,"Large pore zeolites, crystallinity about 95% by XRD"
+10.1002/chem.201602419,molmo,zeolite,images,2.0,5,0.25,1,1,2,1.5,SDA4,3,1350.0,,"Large pore zeolites, crystallinity about 94% by XRD"
+10.1002/chem.201602419,molmo,zeolite,images,2.5,6.25,0.375,1.5,2,2.5,2.0,SDA5,3.625,1400.0,,"Large pore zeolites, crystallinity about 93% by XRD"
+10.1002/chem.201602419,molmo,zeolite,images,3.0,7.5,0.5,2,2.5,3,2.5,SDA6,4.25,1500.0,,"Large pore zeolites, crystallinity about 90% by XRD"
+10.1002/chem.201602419,molmo,zeolite,images,3.5,9.375,0.625,3,3,3.5,3.0,SDA7,5,1600.0,,"Large pore zeolites, crystallinity about 88% by XRD"
+10.1002/chem.201602419,molmo,zeolite,images,4.0,11.25,0.75,3.5,4,4,3.5,SDA8,5.625,1700.0,,"Large pore zeolites, crystallinity about 83% by XRD"
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1,1,1,1,1,1,,ѵ型前驱体,1,,,IM-18
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1,1,1,1,1,1,,ertiary amines(template),1,,,IM-18
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1,0.5,1,1,1,1,,ter概念模板,1,,,IM-18
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1,0.5,1,1,1,1,0.4,honeycomb模板,1,,,IM-18
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1,0.9,1,1,1,1,,杂化前驱体模板,1,,,IM-19
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1,0.5,1,1,1,1,1.1,杂化的模板合成新型沸石型框架,1,,,杂化的前驱体模板合成新型沸石型框架
+10.1039/c4ra01383b,molmo,zeolite,images,1,0.57,0.57,1,0.51,not specified,not specified,not specified,not specified,,,IM-17
+10.1039/c4ra01383b,molmo,zeolite,images,1,0.57,0.57,1,0.51,not specified,not specified,not specified,not specified,,,IM-17
+10.1039/c4ra01383b,molmo,zeolite,images,1,0.57,0.57,1,0.51,not specified,not specified,not specified,not specified,,,IM-17
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,2.00,0.19,0.1875,1,900,48,,,,,,
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1.50,0.75,0.1875,0.75,900,48,,,,,,
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1.00,0.50,0.1875,0.50,900,48,,,,,,
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,0.50,0.25,0.1875,0.25,900,48,,,,,,
+10.1002/chem.201602419,molmo,zeolite,images,3.0,4.0,2.0,0.8,15.0,0.5,0.1,AlOwner Rheosil,2.87,,,Si Alley
+10.1002/chem.201602419,molmo,zeolite,images,3.5,4.5,2.5,0.9,16.5,0.7,0.2,AlOwner Rheosil,3.07,,,Si Alley
+10.1002/chem.201602419,molmo,zeolite,images,4.0,5.0,3.0,1.0,18.0,0.8,0.3,AlOwner Rheosil,3.27,,,Si Alley
+10.1002/chem.201602419,molmo,zeolite,images,5.0,5.5,3.5,1.1,20.0,0.9,0.4,AlOwner Rheosil,3.47,,,Si Alley
+10.1002/chem.201602419,molmo,zeolite,images,6.0,6.5,4.0,1.2,21.5,1.0,0.5,AlOwner Rheosil,3.67,,,Si Alley
+10.1002/chem.201602419,molmo,zeolite,images,7.0,7.0,4.5,1.3,23.0,1.1,0.6,AlOwner Rheosil,3.87,,,Si Alley
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,6.0,6.0,0,0,0,0,0,T,1,,,Nore
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,6.0,6.0,0,0,0,0,0,T,1,,,Nore
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,6.0,6.0,0,0,0,0,0,T,1,,,Nore
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,6.0,6.0,0,0,0,0,0,T,1,,,Nore
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,6.0,6.0,0,0,0,0,0,T,1,,,Nore
+10.1039/c4ra01383b,molmo,zeolite,images,0.49,2.86,90.3,90.3,0,0,,BEC,1,,,IM-17
+10.1039/c4ra01383b,molmo,zeolite,images,0.49,2.86,90.3,90.3,0,0,,BEC,1,,,IM-17
+10.1039/c4ra01383b,molmo,zeolite,images,0.49,2.86,90.3,90.3,0,0,,BEC,1,,,IM-17
+10.1039/c4ra01383b,molmo,zeolite,images,0.49,2.86,90.3,90.3,0,0,,BEC,1,,,IM-17
+10.1039/c4ra01383b,molmo,zeolite,images,0.49,2.86,90.3,90.3,0,0,,BEC,1,,,IM-17
+10.1039/c4ra01383b,molmo,zeolite,images,0.49,2.86,90.3,90.3,0,0,,BEC,1,,,IM-17
+10.1039/c4ra01383b,molmo,zeolite,images,0.49,2.86,90.3,90.3,0,0,,BEC,1,,,IM-17
+10.1039/c4ra01383b,molmo,zeolite,images,0.49,2.86,90.3,90.3,0,0,,BEC,1,,,IM-17
+10.1039/c4ra01383b,molmo,zeolite,images,0.49,2.86,90.3,90.3,0,0,,BEC,1,,,IM-17
+10.1016/s1387-1811(99)00070-0,molmo,zeolite,images,1.5,0.5,0.1,0.5,0.2,0.01,0.02,A TS Mapping System,0,,,zeolyte
+10.1016/s1387-1811(99)00070-0,molmo,zeolite,images,1.2,0.6,0.05,0.3,0.15,0.005,0.015,A TS Mapping System,0,,,zeolyte
+10.1016/s1387-1811(99)00070-0,molmo,zeolite,images,0.9,0.4,0.02,0.2,0.1,0.001,0.005,A TS Mapping System,0,,,zeolyte
+10.1016/s1387-1811(99)00070-0,molmo,zeolite,images,0.7,0.3,0,0.15,0.05,0.0002,0.001,A TS Mapping System,0,,,zeolyte
+10.1016/j.cattod.2012.10.002,molmo,zeolite,images,4,0.8,0.4,0.8,6,6,0,摸索型凝胶 (英文ajorate compromising tendency),6,,,Huawei T10 Jetsam接枝硅铝凝胶
+10.1016/j.cattod.2012.10.002,molmo,zeolite,images,5,1.2,0.6,1.0,7,7,0,合成凝胶 (英文grown gel),7,,,HE MOS来源插层硅铝凝胶
+10.1016/j.cattod.2012.10.002,molmo,zeolite,images,6,1.8,1.0,1.2,8,8,0,合成凝胶 (英文grown gel),8,,,华为海思来源插层硅铝凝胶
+10.1016/j.cattod.2012.10.002,molmo,zeolite,images,7,2.4,1.2,1.4,9,9,0,合成凝胶 (英文rown gel),9,,,华为麒麟来源插层硅铝凝胶
+10.1016/j.cattod.2012.10.002,molmo,zeolite,images,8,3.0,1.4,1.6,10,10,0,合成凝胶 (英文rown gel),10,,,华为海思来源插层硅铝凝胶
+10.1016/j.cattod.2012.10.002,molmo,zeolite,images,9,3.6,1.6,1.8,11,11,0,合成凝胶 (英文rown gel),11,,,华为麒麟来源插层硅铝凝胶
+10.1016/j.cattod.2012.10.002,molmo,zeolite,images,10,4.2,1.8,2.0,12,12,0,合成凝胶 (英文rown gel),12,,,海思麒麟来源插层硅铝凝胶
+10.1016/j.cattod.2012.10.002,molmo,zeolite,images,11,4.8,2.0,2.2,13,13,0,合成凝胶 (英文rown gel),13,,,海思麒麟来源插层硅铝凝胶
+10.1016/j.cattod.2012.10.002,molmo,zeolite,images,12,5.4,2.0,2.4,14,14,0,合成凝胶 (英文rown gel),14,,,海思麒麟来源插层硅铝凝胶
+10.1016/j.cattod.2012.10.002,molmo,zeolite,images,13,6.0,2.2,2.6,15,15,0,合成凝胶 (英文rown gel),15,,,海思麒麟来源插层硅铝凝胶
+10.1016/j.micromeso.2012.06.036,molmo,zeolite,images,1,2,3,4,5,6,1.5,ĥ Syntax-biogenic,7,,, plethora of research burning the midnight oil
+10.1016/j.micromeso.2012.06.036,molmo,zeolite,images,0.5,1,1,1,1,1,0.5,ĕ RegenerativeOops,0.6,,,awakened state
+10.1016/j.micromeso.2012.06.036,molmo,zeolite,images,2,5,1,4,1,1,0.5,ĥ At-home cures,0.8,,,awaken eye
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,1.0,2.0,0.5,0.1,5.0,1.0,AlCl3,AlCl3,1,,,"Zeolite G,"
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,0.9,1.8,0.4,0.05,4.5,0.75,AlCl3,AlCl3,0.9,,,"Zeolite H,"
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,0.7,1.4,0.3,0.05,3.8,0.5,AlCl3,AlCl3,0.8,,,"Zeolite I,"
+10.1021/jp0378438,molmo,zeolite,images,1,1.5,0.008,0.1,99.9,,,,,,,
+10.1021/jp0378438,molmo,zeolite,images,2,3,0.016,0.2,99.8,,,,,,,
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,Germany: Ge,Ge,Al,OH,H2O,,,,,,,
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,0.406805556,0.57305556,0,0,0,0,0,TypeA,0.828451739,,,IM-18
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1.213756114,2.027768964,0,0,0,0,0,TypeA,0.852272727,,,IM-18
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1.956808511,3.913617627,0,0,0,0,0,TypeA,1,,,IM-18
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,2.959785550,5.820097316,0,0,0,0,0,TypeA,1.543306667,,,IM-18
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,4.568869571,8.295188298,0,0,0,0,0,TypeA,2.329791667,,,IM-18
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,7.273697601,14.545460035,0,0,0,0,0,TypeA,4.057769231,,,IM-18
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,16.678572325,31.660676239,0,0,0,0,0,TypeA,9.708333333,,,IM-18
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,29.917546161,79.220967972,0,0,0,0,0,TypeA,19.827823139,,,IM-18
+10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,1,2,0.5,0.1,0.2,0.05,0.01,NaAlSi12O40,3,500.0,,Zeolite
+10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,0.8,1.6,0.4,0.2,0.3,0.1,0.005,NaAlGe2O4,2.5,600.0,,Zeolite
+10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,0.6,1.8,0.3,0.2,0.3,0.1,0.003,NaAlMg2O6,2,700.0,,Zeolite
+10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,0.5,2.0,0.2,0.3,0.4,0.15,0.002,NaAlTi2O4,1.5,800.0,,Zeolite
+10.1016/j.inoche.2013.11.010,molmo,zeolite,images,5,2,1,1,2,0,,,5:3,,,FrameworkTypography for Inorganic Chemistry
+10.1016/j.inoche.2013.11.010,molmo,zeolite,images,4,3,0,1,5,0.2,,(iv),5.2:3,,,Garnet-Type frameworks
+10.1016/j.inoche.2013.11.010,molmo,zeolite,images,7,4,1,2,1,0.5,,Iv(iv),7:3,,, Zeolite-Type Framework with 3DInterstitial Channels
+10.1016/j.inoche.2013.11.010,molmo,zeolite,images,6,3,0,1,4,0.3,,II,6:3,,,Ferromɜgement-Type Frameworks
+10.1016/j.inoche.2013.11.010,molmo,zeolite,images,3,2,0,2,3,0.1,,V(iv),3:3,,,ellipsis type zeolites
+10.1016/j.inoche.2013.11.010,molmo,zeolite,images,5,2,0,1,2,0,,VI(iv),5:3,,,Promtate-Type Framework
+10.1039/c5ce00731c,molmo,zeolite,images,1,0.5,1,0.1,2,0.2,,,G/S,,,
+10.1039/c5ce00731c,molmo,zeolite,images,1,0.5,1,0.1,2,0.2,,,G/S,,,
+10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,Germanium,Aluminum,OH,H2O,HF,SDA ratio,Time,,Boron,,,SDA Type
+10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,Germanium,Aluminum,OH,H2O,HF,SDA ratio,Time,,Boron,,,SDA Type
+10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,Germanium,Aluminum,OH,H2O,HF,SDA ratio,Time,,Boron,,,SDA Type
+10.1016/s1387-1811(99)00070-0,molmo,zeolite,images,1,2,3,4,5,6,8,beta,7,,,faujasite
+10.1016/s1387-1811(99)00070-0,molmo,zeolite,images,3,6,9,16,25,30,0.5,type I Transitions,4,,, zeolite piste
+10.1016/s1387-1811(99)00070-0,molmo,zeolite,images,2,4,6,10,15,20,1,type II Transitions,5,,,zeolite faujasite clench
+10.1016/s1387-1811(99)00070-0,molmo,zeolite,images,1.5,3,4.5,9,18,23,0.2,type III Transitions,6,,,zeolite aNa zeolite bNa
+10.1016/s1387-1811(99)00070-0,molmo,zeolite,images,3.5,7,10,18,25,30,1.5,type 4 SilicoTEGRAL,4,,,zeolite faujasite lip
+10.1039/c5ce00731c,molmo,zeolite,images,9.09,9.09,0.91,200,110,2,Boron,Rietveld refinement,100/100,,,Zeolite
+10.1039/c5ce00731c,molmo,zeolite,images,9.09,9.09,0.91,200,110,2,Boron,Rietveld refinement,100/100,,,Zeolite
+10.1039/c5ce00731c,molmo,zeolite,images,9.09,9.09,0.91,200,110,2,Boron,Rietveld refinement,100/100,,,Zeolite
+10.1039/c5ce00731c,molmo,zeolite,images,9.09,9.09,0.91,200,110,2,Boron,Rietveld refinement,100/100,,,Zeolite
+10.1039/c5ce00731c,molmo,zeolite,images,9.09,9.09,0.91,200,110,2,Boron,Rietveld refinement,100/100,,,Zeolite
+10.1039/c5ce00731c,molmo,zeolite,images,9.09,9.09,0.91,200,110,2,Boron,Rietveld refinement,100/100,,,Zeolite
+10.1016/j.jcrysgro.2009.08.031,molmo,zeolite,images,1,2,1,1,1,1,,,0.5,,,MTN-type zeolite
+10.1016/j.jcrysgro.2009.08.031,molmo,zeolite,images,2,1,1,1,1,1,,,0.01,,,MTN-type zeolite
+10.1016/j.jcrysgro.2009.08.031,molmo,zeolite,images,1,1,1,1,1,1,,,0.01,,,MTN-type zeolite
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1.2,0.8,0.7,1.0,98.8,3.5,,Silicon-dihydro genan,Silicon-dihydro genan,,,IM-18
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1.5,0.8,0.7,1.0,98.8,3.5,,Silicon-dihydro genan,Silicon-dihydro genan,,,IM-18
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1.2,0.7,0.7,1.0,98.8,3.5,,Silicon-dihydro genan,Silicon-dihydro genan,,,IM-18
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1.0,0.7,0.7,1.0,98.8,3.5,,Silicon-dihydro genan,Silicon-dihydro genan,,,IM-18
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,0.8,0.7,0.7,1.0,98.8,3.5,,Silicon-dihydro genan,Silicon-dihydro genan,,,IM-18
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,1.00,1.50,2.25,0.50,5.00,0.50,0.03,TEA,10:1,,,NaAlSi3O8
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,2.00,2.50,4.50,1.00,10.00,2.00,4.5e-2,TEALF,20:1,,,NaAlSi5O12
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,3.00,36.29,27.21,3.00,15.00,6.00,5.8e-2,TEA,40:1,,,NaAlSi6O14
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,1.0,1.75,0.2,3.0,10.0,1.2,,,0.5,,,
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,1.5,8,0.5,5,10,5,,氢氧化钠铝硅酸钠,2.5,,,氢氧化钠铝硅酸钠
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,1.8,10,0.4,5.5,11,6,,氢氧化钠铝硅酸钠,2.75,,,氢氧化钠铝硅酸钠
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,2.1,12,0.3,6,12,6.5,,氢氧化钠铝硅酸钠,3.5,,,氢氧化钠铝硅酸钠
+10.1021/cm071790f,molmo,zeolite,images,0.8,1.5,1.0,1.0,0.5,0.01,0.005,WAX,0.5,,, Rentals?!
+10.1021/cm071790f,molmo,zeolite,images,0.75,1.125,1.0,0.75,0.25,0.005,0.0025,WAX,0.5,,,zeolite
+10.1021/cm071790f,molmo,zeolite,images,0.6,0.9,0.5,0.5,0.3,0.002,0.001,H versatile,0.5,,,Nannorock
+10.1039/c5ra09942k,molmo,zeolite,images,1.0,0.5,12,5,0,0,0, SD-type,1.0,,,TTO-44
+10.1039/c5ra09942k,molmo,zeolite,images,1.0,0.5,12,5,0,0,0, SDA-type,1.0,,,TTO-17
+10.1039/c5ra09942k,molmo,zeolite,images,0.8,0.2,11,4.5,0,0,0, Other-type,1.0,,,TTO-14
+10.1039/c5ra09942k,molmo,zeolite,images,0.92,0.46,9.8,3.5,0,0,0, Other-type,1.0,,,TTO-13
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,1.0,0.5,1.0,1,0.1,30,3,高温硅铝胶插层,2.4,,,杂合沸石
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,0.9,0.3,1.5,1.2,0.2,35,4,高温硅铝胶插层,2.8,,,杂合沸石
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,0.8,0.2,1.8,1.5,0.3,40,5,高温硅铝胶插层,3.2,,,杂合沸石
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,0.7,0.1,2.0,1.8,0.4,45,6,高温硅铝胶插层,3.6,,,杂合沸石
+10.1039/c5ra09942k,molmo,zeolite,images,1,2,3,0.5,150,300,0.28,,30:1,,,H glazed zeolite
+10.1039/c5ra09942k,molmo,zeolite,images,1,1.5,3.5,0.3,300,1500,1,,45:1,,,H mesoporous material
+10.1021/cm049912g,molmo,zeolite,images,Ge,    ,    ,    ,    ,    ,    ,    ,    ,,,    
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,1.00,2.00,0.50,0.10,0.80,0.00,0.30,Inorganic,41.8,,,ZSM-5 zeolite membranes
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,0.75,1.50,0.25,0.05,0.60,0.10,0.20,Inorganic,39.5,,,ZSM-5 zeolite membranes
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,0.50,1.00,0,0,0.30,0.05,0.05,Inorganic,37.2,,,ZSM-5 zeolite membranes
+10.1016/j.jssc.2008.12.002,molmo,zeolite,images,1.5,3,0.2,5 Minecraft blocks,10 liters,0.1 liters,0.001 moles,Organic,10:1,,,New zeolite IM-16
+10.1016/j.jssc.2008.12.002,molmo,zeolite,images,2.0,4,0.5,6 Minecraft blocks,12 liters,0.15 liters,0.002 moles,Organic,12:1,,,New zeolite IM-16
+10.1016/j.jssc.2008.12.002,molmo,zeolite,images,1.8,3.5,0.4,6.5 Minecraft blocks,11 liters,0.12 liters,0.002 moles,Organic,11:1,,,New zeolite IM-16
+10.1016/j.jssc.2008.12.002,molmo,zeolite,images,2.1,4.1,0.6,8 Minecraft blocks,13 liters,0.18 liters,0.003 moles,Organic,13:1,,,New zeolite IM-16
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,1,8,11,5,5,,,,,,,benzene
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,1,8,11,5,5,,,,,,,benzene
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,1,8,11,5,5,,,,,,,benzene
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,1,2,4,8,16,1,5,NaCl,7,100.0,,Zeolite DHA
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,3,4,6,12,24,1,10,NaAl ס皂,15,-153.14999999999998,,Zeolite improve
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,2,4,8,16,32,1,6,NaMg למיקOutOfRange,9,65.55555555555556,,Zeolite workersite
+10.1021/cm1006108,molmo,zeolite,images,1,0.2,0.1,2.4,200,2.6,,NaAlAlSi四四六六十一,5,,,SiO2lightbox
+10.1021/cm1006108,molmo,zeolite,images,0.8,0.4,0.05,2.2,180,2.1,,NaAlAl四六六十一,4,,,SiO2
+10.1021/cm1006108,molmo,zeolite,images,0.5,0.7,0.05,2.0,150,1.7,,NaAl四六六十一,3,,,SiO2
+10.1021/cm1006108,molmo,zeolite,images,0.3,0.1,0.05,1.8,120,1.3,,NaAl四六六十一,2,,,SiO2
+10.1021/cm1006108,molmo,zeolite,images,0.08,0.04,0.01,0.8,60,0.6,,NaAl四六六十一,0.1,,,SiO2
+10.1021/cm1006108,molmo,zeolite,images,0.1,0.15,0.005,0.2,40,0.3,,NaAl四六六十一,0,,,SiO2
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,1,1,1,9,9,1,,,1,,,SDA
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,1,1,1,9,9,1,,,1,,,SDA
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,0.3,1.5,5,2,4,4,54.54,NaCl,66.67,,,NaCl
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,0.5,1.25,6.25,3,6,6,45.45,NaCl,53.33,,,NaCl
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,0.67,1.83,10.42,4,8,8,37.5,NaCl,47.06,,,NaCl
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,0.83,2.16,14.71,5,10,10,30.77,NaCl,43.06,,,NaCl
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,1.23,0.45,0.07,7.89e-4,0.1234,2.34e-4,0.5),NaAlSi12O28(Al2O3)2(OH)4·16H2O,4:3,,,NaAlSi12O28(Al2O3)2(OH)4·16H2O
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,1.5,0.75,0.2,5.67e-4,0.18,3.45e-4,0.6),NaAlSi8Ge4O28,3:2,,,NaAlSi8Ge4O28·5H2O
+10.1021/cm1006108,molmo,zeolite,images,0.1,0.2,0,0.4,1,0.5,0,MgAlSi3O10AlCl3, battling,,,NaAlSi12O25(OH)24
+10.1021/cm1006108,molmo,zeolite,images,0.2,0.4,0,0.6,1,0.6,0,NaAlSi6O16·3Al2O3,aveling,,,NaAl2Si10O24·2H2O
+10.1021/cm1006108,molmo,zeolite,images,0.1,0.2,0,0.3,1,0.4,0,MgAlSi3O10AlCl3,backing,,,NaAlSi12O25(OH)24
+10.1021/cm1006108,molmo,zeolite,images,0.2,0.4,0,0.6,1,0.6,0,NaAlSi6O16·3Al2O3,aveling,,,NaAl2Si10O24·2H2O
+10.1021/cm1006108,molmo,zeolite,images,0.3,0.6,0,0.7,1,0.5,0,MgAlSi3O10AlCl3,backing,,,NaAlSi12O25(OH)24
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,0.6,2,2.33,0.7,4.1,1.3,,,4.5,,,
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,1.2,3.6,3.0,1.1,5.5,1.8,,,5.8,,,
+10.1016/j.micromeso.2006.11.005,molmo,zeolite,images,1,0.5,1.5,0.025,98.5,1,0,Sda,2,,,CoreNa
+10.1016/j.micromeso.2006.11.005,molmo,zeolite,images,1,0.2,1.2,0.025,96.5,1,0.1,Sda,4,,,
+10.1016/j.micromeso.2006.11.005,molmo,zeolite,images,1,0.3,1.2,0.25,95.25,1,0.2,Sda,4,,,
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,1.8,8.2,1.2,30,30,0.1,0.01,PBEIndex,2.0,,,Al Al Ge OH
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,2.2,10.0,1.5,30,25,0.2,0.01,PBEIndex,2.0,,,Al Al Ge OH
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,2.5,11.5,1.8,25,20,0.3,0.01,PBEIndex,2.0,,,Al Al Ge OH
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,3.0,13.0,2.0,20,15,0.5,0.01,PBEIndex,2.0,,,Al Al Ge OH
+10.1016/j.cattod.2014.06.041,molmo,zeolite,images,27,18,22,0.5,0.7,0.07,,Na-Al source approach,Si/G = 2.5,,, mesoporous zeolite structures with
+10.1016/j.cattod.2014.06.041,molmo,zeolite,images,18,22,20,0.3,0.8,0.1,,Na-Al source approach,Si/G = 2,,,well-defined zeolite-like structures with
+10.1016/j.cattod.2014.06.041,molmo,zeolite,images,20,30,15,0.2,0.9,0.08,,Na-Al source approach,Si/G = 3.3,,,next-generation functional materials with
+10.1016/j.cattod.2014.06.041,molmo,zeolite,images,35,40,15,0.7,0.9,0.05,,Na-Al source approach,Si/G = 4,,,high-surface-area zeolite-like-structures
+10.1016/j.cattod.2014.06.041,molmo,zeolite,images,25,25,25,1,0.6,0.1,,Na-Al source approach,Si/G = 1,,,intermediate structural
+10.1016/j.cattod.2014.06.041,molmo,zeolite,images,25,30,15,1,0.7,0.05,,Na-Al source approach,Si/G = 1.25,,,intermediate structural
+10.1016/j.cattod.2014.06.041,molmo,zeolite,images,27,25,22,0.7,0.8,0.1,,Na-Al source approach,Si/G = 1.16,,,intermediate structural
+10.1016/j.cattod.2014.06.041,molmo,zeolite,images,35,32,15,0.7,0.9,0.1,,Na-Al source approach,Si/G = 1.75,,,emerging functional materials in 
+10.1016/j.cattod.2014.06.041,molmo,zeolite,images,30,35,15,0.6,0.9,0.05,,Na-Al source approach,Si/G = 2,,, advanced functional materials with 
+10.1016/j.cattod.2014.06.041,molmo,zeolite,images,28,30,15,0.7,0.8,0.05,,Na-Al source approach,Si/G = 1.16,,,advanced functional materials with 
+10.1007/s10934-015-0119-2,molmo,zeolite,images,1,0.2,1.2,0.4,2,,,BEC-Zeotype,,,,SiO2
+10.1007/s10934-015-0119-2,molmo,zeolite,images,1.5,0.3,1.8,0.3,1,,,BEC-Zeotype,,,,SiO2
+10.1007/s10934-015-0119-2,molmo,zeolite,images,1.5,0.3,1.8,0.3,1,,,BEC-Zeotype,,,,NaAlSi2O5
+10.1007/s10934-015-0119-2,molmo,zeolite,images,1,0.5,1.8,0.4,2,,,BEC-Zeotype,,,,Al2O3
+10.1007/s10934-015-0119-2,molmo,zeolite,images,1.5,0.3,1.8,0.3,1,,,BEC-Zeotype,,,,Al2O3
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1,2,0.02,0,0,0,0,OSDA,1,,,CTT-18
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1,2,0.02,0,0,0,0,OSDA,1,,,CTT-18
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1,2,0.02,0,0,0,0,OSDA,1,,,CTT-18
+10.1007/s10934-015-0119-2,molmo,zeolite,images,2,3,1,5,7,0,0,Type One,3.5,,,Zeolite
+10.1007/s10934-015-0119-2,molmo,zeolite,images,3,2,1,6,8,0,0,Type Two,2.8,,,Zeolite
+10.1007/s10934-015-0119-2,molmo,zeolite,images,2.5,2.5,1.5,5.5,6.5,0,0,Type Three,3,,,Zeolite
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,"1,","2,","3,","4,","5,","6,",U = Na + Cl,,"7,",,,Cs-Al-Li zeolite
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,"1,","2,","3,","4,","5,","6,",U = Na + Cl,,"7,",,,Cs-Al-Li zeolite
+10.1016/j.micromeso.2006.10.023,molmo,zeolite,images,1.0,2.0,1.0,2.0,3.0,1.5,,NaCl,2.0,,,Quartz
+10.1016/j.micromeso.2006.10.023,molmo,zeolite,images,0.7,1.5,0.5,1.0,2.0,0.5,,AlCl3 ,1.5,,, Dolomite
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1,0.5,1,0,1,按照合成方法而异,由合成方法确定,,0.5,,,低硅钠铝辉石
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,2.18,3.12,1.1,16,168,2,,MgAl,1 ahead Rapid,850.0,,Refractory zeolite gel
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,1.56,2.04,0.64,9,90,1.5,, shutdown,0.7,600.0,,Zeolite gel
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,1.0,0.8,0.5,2.0,1.0,0.50,,,4,,,
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,1.5,1.0,0.2,3.0,1.5,0.75,,,5,,,
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,1.0,34.3,34.3,0.005,0.0006,0.05,0,Full,34.3,,,SiAl
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,0.25,16.875,16.875,0.004,0.0005,0.02,0,Full,16.875,,,SiAl
+10.1007/s10853-016-9799-5,molmo,zeolite,images,1,1,1,1,1,,,,,,,
+10.1007/s10853-016-9799-5,molmo,zeolite,images,1.5,2,1.5,1.5,1.5,,,,,,,
+10.1007/s10853-016-9799-5,molmo,zeolite,images,2,4,2,2,2,,,,,,,
+10.1016/j.micromeso.2008.06.036,molmo,zeolite,images,1.000,0.356,0.356,0.071,1.856,0.010,0.0, quarter),0.356,,,New zeolite type
+10.1016/j.micromeso.2008.06.036,molmo,zeolite,images,1.000,0.250,0.250,0.035,1.625,0.004,0.0, G NotImplemented),0.250,,,New zeolite type
+10.1016/j.micromeso.2008.06.036,molmo,zeolite,images,1.000,0.1875,0.1875,0.0225,1.375,0.001,0.0, quarter),0.1875,,,Side产物
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,1,2,1,1,1,1,1,蒙脱石,1,,,蒙脱石相关物质
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,2,1,0.5,0.1,0.05,0.01,0.2,Type A,4,526.85,,UDנת
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,2.5,1.2,1,0.3,0.15,0.02,0.4,Type B,6,626.85,,UDнатколонная
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,3,1.6,2,0.5,0.25,0.05,0.6,Type C,9,726.85,,UDнатколонная
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,4,2.4,3,1,0.5,0.1,1,Type D,12,826.85,,UDнатколонная
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,5,3,4,1.8,0.85,0.2,1.5,Type E,16,926.85,,UDнатколонная
+10.1016/j.micromeso.2012.10.004,molmo,zeolite,images,1.0,2.0,1.5,2.0,9.0,0.1,0.5,Na,2.0,170.0,,Chabazite
+10.1016/j.micromeso.2012.10.004,molmo,zeolite,images,1.0,2.0,1.5,2.0,9.0,0.1,0.5,Na,2.0,180.0,,Chabazite
+10.1039/c5ce02312b,molmo,zeolite,images,1.0,2,1,0.5,9.5,0.0,0.01,,2,,,H4SiO4·3H2O
+10.1039/c5ce02312b,molmo,zeolite,images,4,10,1,0.5,19.5,0.0,0.01,,2.5,,,H4GeO4·4H2O
+10.1039/c5ce02312b,molmo,zeolite,images,7,30,2,1.5,39.5,0.0,0.02,,3,,,H6GeO6
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,1.0,2.5,0.5,5,7,0.1,0.2,Al+Cl,0.8,,,2
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,1.2,3.2,0.8,6,9,0.2,0.5,Na+Cl,0.9,,,3
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,1.5,3.8,1.2,7,10,0.4,1.0,K+Br,1.0,,,4
+10.1007/s10853-016-9799-5,molmo,zeolite,images,1,2,1.25,0.1,0.6,,,,,,,
+10.1007/s10853-016-9799-5,molmo,zeolite,images,1,1.5,0.75,0.05,0.4,,,,,,,
+10.1039/c5ce02312b,molmo,zeolite,images,1.0,2.0,0.5,5.0,50.0,0.5,0.1,bulk,0.5,,,ite
+10.1039/c5ce02312b,molmo,zeolite,images,1.2,2.4,0.6,6.0,55.0,1.0,0.2,bulk,0.6,,,ite
+10.1039/c5ce02312b,molmo,zeolite,images,1.5,3.0,0.7,7.0,60.0,1.5,0.3,bulk,0.7,,,ite
+10.1039/c5ce02312b,molmo,zeolite,images,2.0,4.0,0.9,9.0,70.0,2.0,0.4,bulk,0.8,,,ite
+10.1039/c5ce02312b,molmo,zeolite,images,2.5,4.8,1.2,12.0,80.0,2.5,0.6,bulk,1.0,,,ite
+10.1039/c5ce02312b,molmo,zeolite,images,3.0,5.6,1.5,15.0,100.0,3.0,0.8,bulk,1.2,,,ite
+10.1039/c5ce02312b,molmo,zeolite,images,4.0,7.2,2.0,20.0,120.0,4.0,1.0,bulk,1.5,,,ite
+10.1039/c5ce02312b,molmo,zeolite,images,5.0,9.6,2.5,24.0,150.0,5.0,1.5,bulk,1.8,,,ite
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,0.6026315789,1.390243902,0,0,0,0,0,NaCl,9/13,,,SiO2.reshape
+10.1007/s10853-016-9799-5,molmo,zeolite,images,100,100,100,100,100,,,ITH zeotype,1,,,Pure product by powder X-ray diffraction analysis
+10.1007/s10853-016-9799-5,molmo,zeolite,images,100,100,100,100,100,,,ITH zeotype,2,,,Pure product by powder X-ray diffraction analysis
+10.1007/s10853-016-9799-5,molmo,zeolite,images,100,100,100,100,100,,,ITH zeotype,1.5,,,Pure product by powder X-ray diffraction analysis
+10.1007/s10853-016-9799-5,molmo,zeolite,images,100,100,100,100,100,,,ITH zeotype,0.5,,,Pure product by powder X-ray diffraction analysis
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,1,1.5,1,2,90,,,,,,,
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,1,1,1,2,90,,,,,,,
+10.1016/j.micromeso.2012.10.004,molmo,zeolite,images,1,2,0.8,5,100,5,0,untitled,1,500.0,,high-resolution crystal of zeolite
+10.1016/j.micromeso.2012.10.004,molmo,zeolite,images,1,2,0.8,5,100,5,0,untitled,1,500.0,,high-resolution crystal of zeolite LaAl12Si60O12Cl
+10.1016/j.micromeso.2012.10.004,molmo,zeolite,images,1,2,0.8,5,100,5,0,untitled,1,500.0,,high-resolution crystal of zeolite LaAl12Si60O12Cl
+10.1016/j.micromeso.2012.10.004,molmo,zeolite,images,1,2,0.8,5,100,5,0,untitled,1,500.0,,high-resolution crystal of zeolite LaAl12Si60O12Cl
+10.1016/j.micromeso.2012.10.004,molmo,zeolite,images,1,2,0.8,5,100,5,0,untitled,1,500.0,,high-resolution crystal of zeolite LaAl12Si60O12Cl
+10.1016/j.micromeso.2012.10.004,molmo,zeolite,images,1,2,0.8,5,100,5,0,untitled,1,500.0,,high-resolution crystal of zeolite LaAl12Si60O12Cl
+10.1016/j.micromeso.2012.10.004,molmo,zeolite,images,1,2,0.8,5,100,5,0,untitled,1,500.0,,high-resolution crystal of zeolite LaAl12Si60O12Cl
+10.1016/j.micromeso.2012.10.004,molmo,zeolite,images,1,2,0.8,5,100,5,0,untitled,1,500.0,,high-resolution crystal of zeolite LaAl12Si60O12Cl
+10.1002/chem.200800416,molmo,zeolite,images,1.0,2.3,0.5,8.0,47.0,13.2,,,4.7,,, zeolite
+10.1039/c7dt03751a,molmo,zeolite,images,1.5,3,0.05,0.25,98.5,0.25,0,ANALPURE,4,250.0,,IPCP-12
+10.1039/c7dt03751a,molmo,zeolite,images,2.0,6,0.1,0.5,98,0.5,0,ANALPURE,8,250.0,,IPCP-12
+10.1039/c7dt03751a,molmo,zeolite,images,2.5,9,0.2,0.75,97.25,0.75,0,ANALPURE,10,250.0,,IPCP-12
+10.1039/c7dt03751a,molmo,zeolite,images,3.0,12,0.3,0.9,96.75,1,0,ANALPURE,12,250.0,,IPCP-12
+10.1039/c7dt03751a,molmo,zeolite,images,3.5,15,0.4,1.25,95.75,1.25,0,ANALPURE,14,250.0,,IPCP-12
+10.1039/c7dt03751a,molmo,zeolite,images,4.0,17.5,0.5,1.5,94.25,1.5,0,ANALPURE,16,250.0,,IPCP-12
+10.1021/cm502525w,molmo,zeolite,images,1,2,4.66,0.6,90,1.132/4,0,Type A,1,500.0,, stillbite
+10.1021/cm502525w,molmo,zeolite,images,1,2,5.56,1.2,90,1.132/4,0,Type A,1,600.0,, stillbite
+10.1021/cm502525w,molmo,zeolite,images,1,3,6,2,90,1.132/4,0,Type O,1,700.0,, type I zeolite
+10.1021/cm502525w,molmo,zeolite,images,1,4,7.56,3,90,1.132/4,0,Type O,1,800.0,, type II zeolite
+10.1021/cm502525w,molmo,zeolite,images,2,4,9.56,4,90,1.132/4,0,Type F,1,900.0,, off type zeolite
+10.1021/cm502525w,molmo,zeolite,images,3,6,11.56,5,90,1.132/4,0,Type F,1,1000.0,,free dislike zeolite
+10.1016/s1387-1811(99)00177-8,molmo,zeolite,images,1.0,1.0,1.0,0.3,75.0,,,,,,,
+10.1016/s1387-1811(99)00177-8,molmo,zeolite,images,1.0,2.0,1.0,0.3,75.0,,,,,,,
+10.1021/cm502525w,molmo,zeolite,images,30,13.8,20.2,30,1030,67200,5.7, SDP,2,,, за 6 месяцев
+10.1021/cm502525w,molmo,zeolite,images,24,7.9,18.5,35,50975,71100,7.3, Czeslaw,3,,,за 15 недель
+10.1002/chem.200800416,molmo,zeolite,images,<< Silicon value >>,<< Germanium value >>,<< Aluminum value >>,<< OH value >>,<< H2O value >>,<< HF value >>,<< Boron value >>,<< SDA type >>,<< SDA ratio value >>,,,<< Extracted product value >>
+10.1002/chem.200800416,molmo,zeolite,images,<< Silicon value >>,<< Germanium value >>,<< Aluminum value >>,<< OH value >>,<< H2O value >>,<< HF value >>,<< Boron value >>,<< SDA type value >>,<< SDA ratio value >>,,,<< Extracted product value in scientific notation >>
+10.1002/chem.200800416,molmo,zeolite,images,<< Silicon value >>,<< Germanium value >>,<< Aluminum value >>,<< OH value >>,<< H2O value >>,<< HF value >>,<< Boron value >>,<< SDA type value >>,<< SDA ratio value >>,,,<< Extracted product value in scientific notation >>
+10.1039/c7dt03751a,molmo,zeolite,images,1,2,1,1,1,0,4,Si(8)3Al2,1,,,1.13C2Al2Si12O40南通院 Realty
+10.1016/j.micromeso.2009.05.004,molmo,zeolite,images,Germanium,Aluminum,OH,H2O,HF,SDA ratio,0,杂相,U,,,纳米四方二氧化硅相
+10.1016/j.solidstatesciences.2007.08.002,molmo,zeolite,images,1,2,0.5,0.5,0,0,0,,0,,,杂链硅胶
+10.1021/ic301449y,molmo,zeolite,images,1.8,0.9,1.3,6.5,85.5,0.5,0.005,"硅比铝比碌比氢比氧比氢氟硅比硅比钠比氯化物比氟化锂常量比氢氧化钠比氢氧化钾比氢氧化钠比氢氧化钠
+",2.3,,,"钠铝硅氧硅铝钠氯化物
+"
+10.1021/ic301449y,molmo,zeolite,images,2.0,1.1,1.5,7.2,88.0,0.7,0.001,"硅比铝比碌比氢比氧比氢氟硅比硅比钠比氯化物比氟化锂常量比氢氧化钠比氢氧化钾比氢氧化钠比氢氧化钠
+",2.6,,,"钠铝硅氧硅铝钠氯化物
+"
+10.1021/ic301449y,molmo,zeolite,images,2.5,1.3,1.8,8.5,90.5,0.8,0.006,"硅比铝比碌比氢比氧比氢氟硅比硅比钠比氯化物比氟化锂常量比氢氧化钠比氢氧化钾比氢氧化钠比氢氧化钠
+",2.9,,,"钠铝硅氧硅铝钠氯化物
+"
+10.1039/c7dt03751a,molmo,zeolite,images,0.5093,5.2116,18.4899,1.1827,95.5040,0.7299,Boronocation,,SDA,,,
+10.1016/j.jssc.2014.12.031,molmo,zeolite,images,1,2,0.3,0.5,98,Not mentioned,Not mentioned,水热法合成水热合成法 模板导向合成,Not mentioned,,, rugby型沸石
+10.1016/j.jssc.2014.12.031,molmo,zeolite,images,2,3,0.5,1,98,Not mentioned,Not mentioned,水热法合成水热合成法 模板导向合成,Not mentioned,,,r砂型沸石
+10.1016/j.jssc.2014.12.031,molmo,zeolite,images,2.5,3.5,1,1.5,96,Not mentioned,Not mentioned,水热法合成水热合成法 模板导向合成,Not mentioned,,,微孔沸石
+10.1016/j.jssc.2014.12.031,molmo,zeolite,images,3,4,1.5,2,94,Not mentioned,Not mentioned,水热法合成水热合成法 模板导向合成,Not mentioned,,,超微孔沸石
+10.1016/j.micromeso.2009.05.004,molmo,zeolite,images,1.5,1.5,0.5,10,100,0.5,0,slept,2.5,,, uniformly shaped product
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,1,4,0.05,1,2,1,0.005,H2SO4,1,,,Zro2/SiO2 zeolite
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,1,2,0.05,1,2,1,0.005,H2SO4,1,,,Zro2/SiO2 zeolite
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,1,1.5,0.025,1,2,1,0.005,H2SO4,1,,,Zro2/SiO2 zeolite
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,1,0.25,0.0125,1,2,1,0.0025,H2SO4,1,,,Zro2/SiO2 zeolite
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,0.9,4.5,0.0125,1,2,1,0.005,H2SO4,1,,,Zro2/SiO2 zeolite
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,0.65,4,0.00625,1,2,1,0.00375,H2SO4,1,,,Zro2/SiO2 zeolite
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,1,3,0.03125,1,2,1,0.00625,H2SO4,1,,,Zro2/SiO2 zeolite
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,0.75,2.5,0.01875,1,2,1,0.00375,H2SO4,1,,,Zro2/SiO2 zeolite
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,1,2,0.00625,1,2,1,0.00375,H2SO4,1,,,Zro2/SiO2 zeolite
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,,,,,,,,,,,,
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,1.0,0.5,1.5,1.2,97,95,0.05,"SiO2 Alumina
+",100,,,Product ID
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,1,1,1,1,1,1,1,"Artificial
+",1,700.0,,"PCP (Expanded Porous), SDA Type: Natural
+"
+10.1021/cm1006108,molmo,zeolite,images,1,187,0.8,50,142,2,0,邻联苯基三甲基铵,2,,,骨架择育锗硅胶
+10.1021/cm1006108,molmo,zeolite,images,0.93,0.0917,0.463,4.42,0.032,very small,0,邻联苯基吡啶铵,1,,,骨架择育锗硅胶
+10.1021/cm1006108,molmo,zeolite,images,0.875,0.3125,0.15625,2.2083333333,0.0833333333,very small,0,邻联苯基吡啶铵,1,,,骨架择育锗硅胶
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,1,2,3,4,5,6,8,14,7,,,13
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,1,2,3,4,5,6,8,14,7,,,13
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,1,2,3,4,5,6,8,14,7,,,13
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,1,2,3,4,5,6,8,14,7,,,13
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,1,2,3,4,5,6,8,14,7,,,13
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,0.5,0.5,0.1,0.3,1.0,0.2,0.2,Clothag 2x2quine,0.3,,,zeolite IPCP-1[Ta]
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,0.75,0.25,0.2,0.4,0.9,0.3,0.15,Clothag 2x2quine,0.4,,,zeolite IPCP-1[MPA]
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,0.5,0.5,0.1,0.3,1.0,0.2,0.2,Clothag 2x2quine,0.3,,,zeolite IPCP-1[PTA]
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,0.75,0.25,0.2,0.4,0.9,0.3,0.15,Clothag 2x2quine,0.4,,,zeolite IPCP-1[MPA]
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,0.5,0.5,0.1,0.3,1.0,0.2,0.2,Clothag 2x2quine,0.3,,,zeolite IPCP-1[TMA]
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,0.75,0.25,0.2,0.4,0.9,0.3,0.15,Clothag 2x2quine,0.4,,,zeolite IPCP-1[MMH]
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,0.5,0.5,0.1,0.3,1.0,0.2,0.2,Clothag 2x2quine,0.3,,,zeolite IPCP-1[MPH]
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,0.75,0.25,0.2,0.4,0.9,0.3,0.15,Clothag 2x2quine,0.4,,,zeolite IPCP-1[ITCA]
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,0.75,0.25,0.2,0.4,0.9,0.3,0.15,Clothag 2x2quine,0.4,,,zeolite IPCP-1[CTA]
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,1.5,3,1,1,2,1,,,0.75,,,White Zeolite None
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,1,2,0.5,1,1,1,,,1,,,White Zeolite None
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,2,3,1,1,1,1,,,0.5,,,White Zeolite None
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,1.0,0.3,2.0,14.2,8.7,,,,,,,
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,1.5,0.5,3.0,18.5,11.0,,,,,,,
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,2.0,1.0,4.0,25.0,15.0,,,,,,,
+10.1039/c5ra09942k,molmo,zeolite,images,1,2,3,4,5,,,,,,,
+10.1039/c5ra09942k,molmo,zeolite,images,1,3,4,5,6,,,,,,,
+10.1021/cm049912g,molmo,zeolite,images,1.0,2.5,0.5,1.0,3.5,0.1,0.1,not specified,1,,,zeolites
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,1,0.95,0.2,30,180,0.1,痕量,,1: 0.95,,,杂合沸石A
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,1,0.95,0.2,30,180,0.1,痕量,,1: 0.95,,,杂合沸石B
+10.1021/cm049912g,molmo,zeolite,images,1.03,1.09,1.04,1.04,0.80,0.31,0.58,LiClO4,1.06,,,rpc
+10.1021/cm049912g,molmo,zeolite,images,0.94,1.09,1.04,0.68,1.05,1.10,0.40,LiClO4,1.10,,,rpc
+10.1021/cm049912g,molmo,zeolite,images,0.75,0.75,0.75,0.14,0.14,0.04,0.50,LiClO4,0.05,,,rpc
+10.1016/j.jssc.2008.12.002,molmo,zeolite,images,1.0,2.0,3.0,0.5,14.5,,0,SBA,1,,,aa1-1-1
+10.1016/j.jssc.2008.12.002,molmo,zeolite,images,1.2,2.4,3.6,0.7,15.5,,0,SBA,1.1,,,ab1-1
+10.1016/j.jssc.2008.12.002,molmo,zeolite,images,1.5,3.0,4.2,0.9,17.0,,0,SBA,1.2,,,ac1-1
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,34.8,8.65,35.7,14.89,2208,93.5,2.74,NaAlSi3Al2O9,34.8/8.65 = 4.06,,,K Bangla zeolite
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,33.2,6.965,31.825,11.975,2155,89,2.06,NaAlGe3Al2O9,33.2/6.965 = 4.77,,,KSqlsbe zeolite
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,31.4,5.45,29.613,10.463,1980,79,1.88,NaAlGe4Al2O10,31.4/5.45 = 5.79,,,KSmbe zeolite
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,29.7,4.46,27.902,9.037,1800,72,1.36,NaAlGe5Al2O11,29.7/4.46 = 6.63,,,KSmbe zeolite
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,28.5,3.738,25.233,8.269,1655,65,1.07,NaAlGe6Al2O12,28.5/3.738 = 7.63,,,KSmbe zeolite
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,27.9,3.229,23.224,7.782,1555,59,0.87,NaAlGe6Al2O13,27.9/3.229 = 8.68,,,KSmbe zeolite
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,26.7,2.819,21.095,6.758,1450,55,0.66,NaAlGe6Al2O14,26.7/2.819 = 9.49,,,KSmbe zeolite
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,25.9,2.423,19.510,5.868,1350,51,0.54,NaAlGe7Al2O15,25.9/2.423 = 10.71,,,KSmbe zeolite
+10.1039/c5ra09942k,molmo,zeolite,images,1,2,0.5,,,,,,0.45,,,ITQ-44
+10.1039/c5ra09942k,molmo,zeolite,images,1,0.5,0.25,,,,,SDA Milo本赛季1,0.345,,,IT Milo
+10.1039/c5ra09942k,molmo,zeolite,images,1,0.375,0.25,,,,, Momenta本赛季1,0.35,,, Momenta
+10.1039/c5ra09942k,molmo,zeolite,images,1,0,0,,,,, unknown本周特价盎司,0,,, unknown
+10.1021/cm1006108,molmo,zeolite,images,,,,,,,,,,,,
+10.1021/cm1006108,molmo,zeolite,images,,,,,,,,,,,,
+10.1021/cm1006108,molmo,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,1.0,2.0,1.8,0.4,99.4,0,0,Si13,1,,,Al-Si13-SiO4-Mg2
+10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,1.0,2.0,1.8,0.4,99.4,0,0,Al,2,,,Al-Si13-SiO4-Mg2
+10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,1.0,2.0,1.8,0.4,99.4,0,0,Ge,4,,,Al-Si13-SiO4-Mg2
+10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,1.0,2.0,1.8,0.4,99.4,0,0,GeO2,8,,,Al-Si13-SiO4-Mg2
+10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,1.0,2.0,1.8,0.4,99.4,0,0,GeO2Cl3,16,,,Al-Si13-SiO4-Mg2
+10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,1.0,2.0,1.8,0.4,99.4,0,0,Ge 이게 좀 억 //=,32,,,Al-Si13-SiO4-Mg2
+10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,1.0,2.0,1.8,0.4,99.4,0,0,Boric Acid,64,,,Al-Si13-SiO4-Mg2
+10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,1.0,2.0,1.8,0.4,99.4,0,0,Boric Acid,128,,,Al-Si13-SiO4-Mg2
+10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,1.0,2.0,1.8,0.4,99.4,0,0,Boric Acid,256,,,Al-Si13-SiO4-Mg2
+10.1039/c5ce00731c,molmo,zeolite,images,0.62,0.37,0.37,2.5,18.4,na,na,na,1:1,,,na
+10.1039/c5ce00731c,molmo,zeolite,images,0.59,0.41,0.09,3.3,20.9,na,na,na,1:1,,,na
+10.1039/c5ce00731c,molmo,zeolite,images,0.64,0.36,0.04,2.9,22.5,na,na,na,1:1,,,na
+10.1039/c5ce00731c,molmo,zeolite,images,0.70,0.35,0.36,2.4,19.8,na,na,na,1:1,,,na
+10.1039/c5ce00731c,molmo,zeolite,images,0.75,0.38,0.17,2.5,23.9,na,na,na,1:1,,,na
+10.1039/c5ce00731c,molmo,zeolite,images,0.65,0.40,0.12,2.6,20.7,na,na,na,1:1,,,na
+10.1039/c5ce00731c,molmo,zeolite,images,0.45,0.62,0.35,2.1,20.0,na,na,na,1:1,,,na
+10.1039/c5ce00731c,molmo,zeolite,images,0.50,0.48,0.25,2.3,22.1,na,na,na,1:1,,,na
+10.1039/c5ce00731c,molmo,zeolite,images,0.55,0.55,0.25,2.2,23.1,na,na,na,1:1,,,na
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,2.3,0.7,1.1,4.8,2.2,0.5,5.5,Thermal_Alumina_F handcuffs,2:1,,,Zeolite_Beta
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1.8,0.9,0.8,4.1,2.5,0.6,4.2,Resultant delights said,1:1,,,Zeolite_Alpha
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1.5,0.6,1.3,6.2,3.0,1.0,5.5, totalpi distance,2:3,,,Boiling_Bed_Catalyst_Beta
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1,2,.16,1,3,0.05,0.1,ITMount,1:2,,,Zeolite with predominantly 12-ring and 8-ring channels
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1.5,3,0.25,0.5,2,0.07,0.15,IM86,1:3,,,Zeolite with a mix of 10-and 12-ring channels
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,2,5,0.25,1.5,3,0.1,0.3,IM10,1:5,,,Zeolite with predominantly 12-ring channels
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,2.5,6.5,0.05,2,4,0.2,0.35,IM12,1:6,,,Zeolite with a mix of 12-and 13-ring channels
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,3,9,0.4,2.5,5,0.3,0.45,IM14,1:7,,,Zeolite with predominantly 13-ring channels
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,1.5,2.1,3.0,2.0,0.5,0.4,0.2,unknown,0,80.0,,unknown
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,2.0,3.5,4.8,2.8,1.5,1.1,0.3,unknown,0,85.0,,unknown
+10.1016/j.micromeso.2012.06.036,molmo,zeolite,images,2,1,3,3,5,,,,,,,
+10.1016/j.micromeso.2012.06.036,molmo,zeolite,images,1.9,1.9,2.8,4.2,5.5,,,,,,,
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,2,2,1,3,9,0,,,1,,,"Aluminosilicate
+"
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,3,1,2,5,15,0,,,1,,,"Aluminosilicate
+"
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,1,2,0,2,8,1,,,0.5,,,"Aluminosilicate
+"
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1,0.5,0.1,0.2,1.0,,,,Samuel Wilson,,,
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1,1.5,0.3,0.3,1.5,,,,Samuel Wilson,,,
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,2,2,0.6,0.6,2,,,,Samuel Wilson,,,
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,3,3,1.8,1.8,3,,,,Samuel Wilson,,,
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,4,4,2.4,2.4,4,,,,Samuel Wilson,,,
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,5,5,3,3,5,,,,Samuel Wilson,,,
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,6,6,3.6,4.2,6,,,,Samuel Wilson,,,
+10.1021/jp0378438,molmo,zeolite,images,1,2,3,4,5,6,8,13,7,,,12
+10.1021/jp0378438,molmo,zeolite,images,2,3,4,5,6,7,9,7,8,,,6
+10.1021/jp0378438,molmo,zeolite,images,3,4,5,6,7,8,10,8,9,,,7
+10.1021/jp0378438,molmo,zeolite,images,1.2,1.8,2.2,2.8,3.2,4.0,5,alkali,4,,,zeolite
+10.1021/jp0378438,molmo,zeolite,images,1.5,2.1,2.5,3.0,3.6,4.2,4,alkali,3,,,priosilicate
+10.1021/jp0378438,molmo,zeolite,images,1.8,2.4,2.9,3.4,4.0,4.5,3,alkali,2,,,priosilicate
+10.1021/jp0378438,molmo,zeolite,images,2.0,2.8,3.2,3.8,4.3,4.7,2,alkali,1,,,priosilicate
+10.1021/jp0378438,molmo,zeolite,images,2.3,3.1,3.5,4.2,4.8,5.0,1,alkali,0.5,,,priosilicate
+10.1021/jp0378438,molmo,zeolite,images,2.5,3.3,3.8,4.4,5.0,5.3,0.8,alkali,0.4,,,priosilicate
+10.1021/jp0378438,molmo,zeolite,images,2.8,3.5,4.1,4.8,5.3,5.7,0.5,alkali,0.1,,,priosilicate
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,1.0,0.5,1.1,0.1,7,0.03,0.01,TEA,1,70.0,,Zeolite
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,1.0,0.5,1.2,0.1,7,0.03,0.01,TEA,1,70.0,,Zeolite
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,1.0,0.5,1.3,0.1,7,0.03,0.01,TEA,1,70.0,,Zeolite
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,1.0,0.6,1.4,0.1,7,0.03,0.01,TEA,1,70.0,,Zeolite
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,1.0,0.7,1.5,0.1,7,0.03,0.01,TEA,1,70.0,,Zeolite
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,1.0,0.8,1.6,0.1,7,0.03,0.01,TEA,1,70.0,,Zeolite
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,1.0,0.9,1.7,0.1,7,0.03,0.01,TEA,1,70.0,,Zeolite
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,1.1,0.75,1.8,0.1,7,0.03,0.01,TEA,1,70.0,,Zeolite
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,1.1,0.75,1.8,0.1,7,0.03,0.01,TEA,1,70.0,,Zeolite
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,1.1,0.75,1.8,0.1,7,0.03,0.01,TEA,1,70.0,,Zeolite
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,1.1,0.75,1.8,0.1,7,0.03,0.01,TEA,1,70.0,,Zeolite
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,1.1,0.75,1.8,0.1,7,0.03,0.01,TEA,1,70.0,,Zeolite
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,3,6,1,1,40,0,0.01,asks about,1:2,26.850000000000023,,Zeolite
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,3,6,1,1,40,0,0.01,Lindweber's reagent,1:2,26.850000000000023,,Zeolite
+10.1039/c5ce00731c,molmo,zeolite,images,1.0,2.0,0.5,8,10,0.0,0.0,不敢相信中德外企合做这玩意,4:1,,, alpha-Pta-GeV Germans factcee
+10.1039/c5ce00731c,molmo,zeolite,images,1.5,3.0,0.75,12,15,0.1,0.1,中外联营工厂合做,5:1,,,百万大工程似的东西
+10.1002/chem.201602419,molmo,zeolite,images,2.0,0.5,2.6,3,0,0,,,2,,,
+10.1002/chem.201602419,molmo,zeolite,images,1.5,0.25,2,2.5,0.1,0.05,0.1,ALACenter,1.5,,,H occasion black zeolites
+10.1002/chem.201602419,molmo,zeolite,images,0.75,0.125,1.5,1.75,0.05,0.025,0.05,ALACenter,0.5,,,H occasion zeolites
+10.1002/chem.201602419,molmo,zeolite,images,0.5,0.0625,1,1.25,0.01,0.01,0.01,ALACenter,0.25,,,H occasion zeolites
+10.1002/chem.201602419,molmo,zeolite,images,0.25,0.03125,0.75,0.75,0.005,0.0025,0.005,ALACenter,0.125,,,H occasion zeolites
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,1,2,0,0,0,0,0,Sn,"Sn, 1",,,f DTO-MCM-41
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,1,2,0,0,0,0,0,Pd,"Pd, 2",,,mongolite
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,1,2,0,0,0,0,0,Sn,"Sn, 3",,,peripheral宣传的产权
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,1,2,0,0,0,0,0,Sn,"Sn, 4",,,γ-Al2O3
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,1,2,0,0,0,0,0,Sn,"Sn, 5",,,磁性材料
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,1,2,0,0,0,0,0,Sn,"Sn, 6",,,有序孔单宁胶体晶体
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,1,2,0,0,0,0,0,Sn,"Sn, 7",,,有序孔氧化锗单宁胶体晶体
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1,2,3,4,5,6,7,Microporous and Mesoporous,1:1,,,Zeolite A
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,2,1,4,5,6,7,8,MCM-41,2:1,,,Zeolite B
+10.1039/c4ra01383b,molmo,zeolite,images,0.25,2,0.125,0.1,0.2,,,,0.25,,,Rowan rich
+10.1039/c4ra01383b,molmo,zeolite,images,0.38,4,0.0625,0.2,0.4,,,,0.38,,,
+10.1039/c4ra01383b,molmo,zeolite,images,0.56,8,0.25,0.625,1.3,,,,0.56,,,
+10.1039/c4ra01383b,molmo,zeolite,images,0.78,16,0.416667,0.8,0.4,,,,0.78,,,
+10.1039/c4ra01383b,molmo,zeolite,images,0.89,32,0.5,1.3,1.3,,,,0.89,,,
+10.1016/s1387-1811(99)00070-0,molmo,zeolite,images,1,2,1,1,5,0,,NaAlSi3O8,1:0,,,Porous zeolite
+10.1016/s1387-1811(99)00070-0,molmo,zeolite,images,2,4,1,1,5,0,,Alumina,1:0,,,Structured zeolite
+10.1016/j.cattod.2012.10.002,molmo,zeolite,images,1,2,0.5,3,2,,,,,,,
+10.1016/j.cattod.2012.10.002,molmo,zeolite,images,2,4,1,6,3,,,,,,,
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,1,1,,12,,,,,,,,w growing in the canoe-like microporous sections of the structure
+10.1039/c4ra01383b,molmo,zeolite,images,3.0000,0.5000,1.0000,2.0000,14.0000,0.5000,2.0000, orthocentered L Sutton group = 25.A (0 0 1) 222LM with extinction symbol - C =+2 in [0 5 -4],1:2,,,C22H14Br2[Al6Si10O22](SO4)2·12H2O
+10.1039/c4ra01383b,molmo,zeolite,images,4.0000,1.5000,3.0000,3.0000,20.0000,1.5000,3.0000, pollucite modified 2Cl system 25.A (0 0 1) 222LM with extinction symbol: C =+3 in [0 5 -4] and rows 2-17.*,1:3,,,C22H18Br2[Al6Ge10O22](SO4)2·15H2O
+10.1039/c4ra01383b,molmo,zeolite,images,5.0000,2.5000,4.5000,5.0000,28.0000,2.0000,4.0000,thick布拉班凯尔尔群簇系统 25.A (0 0 1) 222LM with extinction symbol: C =+4 in [0 5 -4] and rows 3-18**,1:4,,,C22H20Br2[Al6Ge6O22](SO4)2·20H2O
+10.1039/c4ra01383b,molmo,zeolite,images,6.0000,3.5000,5.5000,6.0000,35.0000,2.5000,6.0000,布拉班凯尔布拉班凯尔布拉班凯尔布拉班凯尔布拉班凯尔布拉班凯尔布拉班凯尔布拉班凯尔布拉班凯尔布拉班凯尔布拉班凯尔布拉幫 große HWND群簇 system 25.A (0 0 1) 222LM with extinction symbol: C =+5 in [0 5 -4],1:5,,,C22H22Br2[Al6Ge7O22](SO4)2·30H2O
+10.1039/c4ra01383b,molmo,zeolite,images,7.0000,4.5000,7.0000,9.0000,45.0000,3.0000,7.5000,布拉班凯尔布拉班凯尔布拉班凯尔布拉班凯尔布拉班凯尔布拉班凯尔布拉班凯尔布拉 beach布拉班凯尔布拉be布拉班凯尔布拉be布拉班凯尔布拉be布拉班凯尔布拉be布拉班凯尔布拉3个大的 cl胸群簇 system 25.A (0 0 1) 222LM with extinction symbol: C =+6 in [0 5 -4],1:6,,,C22H24Br2[Al6Ge8O22](SO4)2·42H2O
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1,0.5,0,0.02,0.98,0.02,1,,2;1,,, SiO2 from zeolite
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,1,2,0.5,0.2,50,0.01,0.001,alkaline,0.1,,,Alkali earth aluminosilicate zeolites
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,0.9,1.8,0.3,0.1,40,0.005,0.0005,ammonium,0.05,,,Highly Crystalline Alumino-Silicate Zeolites
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,0.10,0.30,0.15,0.25,0.50,0.05,0.5, Waters et al. edition,0.1,,,"Table- fusionzeolite Characterization.Table- 24h crystallization studies.Table-ICP-MS analysis.Table- Main peaks assignments.Table- crystallinity indicators.Table- Organic functional groups.Table- FT-IR peaks assignment.Table- XRD diffraction patterns.Table- elemental analysis.Table-SAE appearance.Table- Density measurements.Table-FT-IR studies.Table- Scanning electron microscopy(TablewhyTableFinal).Table- XPS analysis.Table- captivating,"
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,1.086,0.433,0.002,0.005,99.993,0.002,0.5,NaCl法,1,,,Al2O3
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,1,0.378,0.0017,0.005,99.995,0.001,0.4,NaCl法,1,,,Al2O3
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,1,0.308,0.0007,0.003,99.994,0.0005,0.3,NaCl法,1,,,Al2O3
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,1.0,2.0,0.0,athwart,50.0,粉碎,控制,反 emploi虎头蛇尾,1:1,,,Ge001-Rh
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,5.0,10.0,2.0,03,60.0,添加,添加,反 emploi虎头蛇尾,1:2,,,Ge001-Al
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,12,24,3.0,15,70.0,添加,添加,反 emploi虎头蛇尾,2:1,,,Ge001-Al
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,20,48,4.0,20,80.0,添加,添加,反 emploi虎头蛇尾,3:1,,,Ge001-Al
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,30,72,6.0,25,90.0,添加,添加,反 emploi虎头蛇尾,4:1,,,Ge001-Al
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,45,168,8.0,30,100.0,添加,添加,反 emploi虎头蛇尾,5:1,,,Ge001-Al
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,60,288,10.0,35,110.0,添加,添加,反 emplei,6:1,,,Ge001-Al
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,1.00,1.75,2.75,0.875,2.083,0.125,?,PC2 Al,0.6125,,,"Nahaisite (Botanic Mexico garbage再造客户程序收到后使用C Without anywhere to go and nothing toBodipyeho Topotheological mahogany miniature "" elected'A老化快速倒叙 ""4 bursts of white light the paperwork behind We master but are mastered）， coolest jazz "" Texas橄榄 oil McDonald's💡 lassie Fried chicken galore中的一个“H那边曾经是底座 SDA Type: PC2 Al tweets you化进程] Your new Twitter exists”ocene Prehistoric tightly sealed cabinet containing Peekaboo andordinarily very bad定位’t should “ "" replicated KF compatible”，RC60 “ "".Nahaisite (Botanic Mexico)[美国垃圾填埋场玩跳绳] biodegradable "" "" eaten Amy安妮""l jazz "" Texasand folder"" cinco"" reclining "" "" sociedad "" "" ""Anloading "" "" ' ""Bodipyeho” adherence “ ""Raven"" ' "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ' 9 West Virginia University C笑声"" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" � ""*, Nalcoolite[""Eating you"" jumps off the screen to Forward position]GLHAI "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ' 9 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" \Nahaisite基本性质即合成技术密切相关webdriver find element= sendo x1="
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,1,2,3,4,5,6,8,SDA型号,7,,,提取产品
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,10,20,30,40,50,60,80,SDA型号,70,,,提取产品
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,100,200,300,400,500,600,800,SDA型号,700,,,提取产品
+10.1021/cm1006108,molmo,zeolite,images,2,2,1,1,1,1,,,,,,
+10.1021/cm049912g,molmo,zeolite,images,1,1.0625,6,1,9.5,,,,,,,
+10.1021/cm049912g,molmo,zeolite,images,1,1.625,30,6,19.5,,,,,,,
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,1,2,0.5,4,8,2,,Barnes,1,,,"SDA, Ge,Ann"
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,0.5,1,0.3,3,6,1.5,,Barnes,0.7,,,"SDA, Ge,Ann"
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,2,4,0.5,7,10,3,,Barnes,2,,,"SDA, Ge,Ann"
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,1.5,3,0.25,5,8,2.5,,Barnes,1.25,,,"SDA, Ge,Ann"
+10.1016/j.jssc.2008.12.002,molmo,zeolite,images,13.6,7,8.75,20,5,2,, thyroid,2.0625,,,Quaternary zeolite layer
+10.1016/j.jssc.2008.12.002,molmo,zeolite,images,20,9.75,20,35,9,5,,,3.125,,,Quaternary zeolite layer
+10.1016/j.jssc.2008.12.002,molmo,zeolite,images,23.5,13.4,30.5,42,10,8,,,3.90625,,,Quaternary zeolite layer
+10.1021/cm071790f,molmo,zeolite,images,4,1,0,0,9,0,,,1,,,
+10.1021/cm071790f,molmo,zeolite,images,3,0,0,3,6,0,,,1,,,
+10.1021/cm071790f,molmo,zeolite,images,2,0,0,2,3,0,,,1,,,
+10.1039/c5ra09942k,molmo,zeolite,images,1.0,1.5,0.2,4.0,55.8,0.01,0.05,SDA-3 ,2.0,500.0,,germosilicate zeolite Belmont Et4-4
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,1.492,2.408,0.9503,0.0488,120.75,0,1.596875,NaAlSi23O48 ( liquid),4.46875,,,Amorphous Z dt
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,3.881818182,30.644444444,4.064444444,13.604444444,136.31666667,0,6.66785714285714,NaAlSi23O48 liquid,0.473684210526316,,,Amorphous Z dt
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,16.942857143,183.38571429,17.238571429,17.367142857,817.707142857,0,35.442857143,NaAlSi23O48,0.745454545454546,,,Amorphous Z dt
+10.1021/cm071790f,molmo,zeolite,images,1,2,3,4,5,,,,4:1,,,Tools
+10.1021/cm071790f,molmo,zeolite,images,1,2,3,4,5,,,,4:1,,,Tools
+10.1021/cm071790f,molmo,zeolite,images,1,2,3,4,5,,,,4:1,,,Tools
+10.1021/cm049912g,molmo,zeolite,images,1.0,2.0,0.5,1.5,99.999,2.0,4.0D-04,Stable,1.0,,,Dcname
+10.1021/cm049912g,molmo,zeolite,images,1.2,2.5,0.8,1.8,99.999,1.8,5.0D-05,Instable,1.5,,,M ibane
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,1.0,0.5,3.0,4.0,4.0,,,,,,,
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,1.3,0.6,0.1,0.6,0.2,0.345,,,1,,,
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,0.1,2,1,0.1,0.05,0.45,,,2,,,
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,2,3,1.5,0.5,0.2,0.6,,,1.5,,,
+10.1016/j.jssc.2008.12.002,molmo,zeolite,images,1.3,0.3,,,,,,,,,,
+10.1021/jp0378438,molmo,zeolite,images,1,1,0.666,1.667,5,1,4,,1.33,,,ZnO-based/S dismissive region
+10.1021/jp0378438,molmo,zeolite,images,1.5,2,0.5,0.5,2.5,1.5,6,pH控制,1.5,,,Modified zeolite crystal
+10.1021/jp0378438,molmo,zeolite,images,2,4,1,2,10,3,8,氢氧化铝控制,2,,,SiAl有序杂交物
+10.1021/jp0378438,molmo,zeolite,images,3,6,2,6,15,5,12,氢氧化铝控制,0.5,,,超大孔有序杂化物
+10.1021/jp0378438,molmo,zeolite,images,4,8,3,9,20,7,16,氢氧化铝控制,1,,,超粒子有序杂化物
+10.1021/jp0378438,molmo,zeolite,images,6,12,4,12,28,9,20,氢氧化铝控制,1.5,,,超微粒有序杂化物
+10.1021/jp0378438,molmo,zeolite,images,8,16,6,18,35,11,24,氢氧化铝控制,2,,,超微粒有序杂化物
+10.1021/jp0378438,molmo,zeolite,images,10,20,8,24,40,13,28,氢氧化铝控制,2.5,,,超微粒有序杂化物
+10.1021/jp0378438,molmo,zeolite,images,12,24,10,30,45,15,32,氢氧化铝控制,3,,,超微粒有序杂化物
+10.1021/jp0378438,molmo,zeolite,images,14,28,12,36,50,17,36,氢氧化铝控制,3.5,,,超微粒有序杂化物
+10.1021/jp0378438,molmo,zeolite,images,16,32,14,42,55,19,40,氢氧化铝控制,4,,,超微粒有序杂化物
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,2.0,1.0,3.0,0.8,2.5,5,,,5,,,
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,2.5,1.2,3.5,1.0,3.0,6,,,6,,,
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,3.0,1.5,4.0,1.2,3.5,7,,,7,,,
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,1,0.75,2,0.5,1,0.8,0.5,NH4,1 / 0.5,,,Zeo
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,2,1,0.5,1.5,2,1,1,Citric Acid,1 / 0.5,,,Zeo
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,3,1.5,1.5,2,3,2,2,HCl,1 / 0.5,,,Zeo
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,4,2,2,2.5,4,3,3,AVG,1 / 0.5,,,Zeo
+10.1016/s1387-1811(99)00070-0,molmo,zeolite,images,1,2,0,1,1,1,3,T=0 framework,0,,,Alumino-germanate zeolite
+10.1016/j.inoche.2013.11.010,molmo,zeolite,images,1,1.5,0,5,20,5,0,Alkaline+Organic,2,,,Zeolite
+10.1016/j.inoche.2013.11.010,molmo,zeolite,images,1,1.8,0,5,25,5,0,Alkaline+Organic,2,,,Zeolite
+10.1016/j.inoche.2013.11.010,molmo,zeolite,images,1,2.1,0,5,30,5,0,Alkaline+Organic,2,,,Zeolite
+10.1016/j.inoche.2013.11.010,molmo,zeolite,images,1,2.4,0,5,35,5,0,Alkaline+Organic,2,,,Zeolite
+10.1016/j.inoche.2013.11.010,molmo,zeolite,images,1,2.7,0,5,40,5,0,Alkaline+Organic,2,,,Zeolite
+10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,1.00,2.00,1.00,1.00,1.00,1.00,,,,,,硅铝氧合氢氧化物
+10.1021/cm1006108,molmo,zeolite,images,1,2,5,0,0,perchlorate plaques,,Si[Ge]O secretly,,,,
+10.1021/cm1006108,molmo,zeolite,images,2,4,10,0,0,,,Si[ Ge]O2,,,,
+10.1021/cm1006108,molmo,zeolite,images,3,6,15,0,0,,,Si[ Ge]Third,,,,
+10.1021/cm1006108,molmo,zeolite,images,4,8,20,0,0,,,Si[ Ge]Fourth,,,,
+10.1021/cm1006108,molmo,zeolite,images,5,10,25,0,0,,,Si[ Ge]Fifth,,,,
+10.1021/cm1006108,molmo,zeolite,images,6,12,30,0,0,,,Si[ Ge]Sixth,,,,
+10.1021/cm1006108,molmo,zeolite,images,7,14,35,0,0,,,Si[ Ge]Seventh,,,,
+10.1021/cm1006108,molmo,zeolite,images,8,16,40,0,0,,,Si[ Ge]Eighth,,,,
+10.1021/cm1006108,molmo,zeolite,images,10,20,45,0,0,,,Si[ Ge]Ninth,,,,
+10.1021/cm1006108,molmo,zeolite,images,12,24,50,0,0,,,Si[ Ge]Tenth,,,,
+10.1021/cm1006108,molmo,zeolite,images,15,30,55,0,0,,,Si[ Ge]Eleventh,,,,
+10.1021/cm1006108,molmo,zeolite,images,20,36,60,0,0,,,Si[ Ge]Twelfth,,,,
+10.1016/s1387-1811(99)00070-0,molmo,zeolite,images,2,2.4,0,7.2,5.6,0.4,0.6,single,2.0,426.85,, NaAl(name of harvested zeolite type)
+10.1016/s1387-1811(99)00070-0,molmo,zeolite,images,3.1,2.2,0.4,4.8,4.2,0.7,1.1,double,1.8,526.85,,Name of harvested zeolite type
+10.1016/j.micromeso.2012.06.036,molmo,zeolite,images,1.03,2,0,12,0,1,,,1,,,"skalite façon,他人が疑っている Corpora PBS Moderate"
+10.1016/j.micromeso.2012.06.036,molmo,zeolite,images,0.53,1,5,12,0,1,,,1,,,"skalite façon,他人が疑っている Corpora PBS Moderate"
+10.1016/j.micromeso.2012.06.036,molmo,zeolite,images,0.32,2.2,3,12,0,1,,,1,,,"skalite façon,他人が疑っている Corpora PBS Moderate"
+10.1016/j.jcrysgro.2009.08.031,molmo,zeolite,images,2.5,1.5,2,3,1.5,6,3,Aluminosilicate,4,,,MTN Zeolite
+10.1016/j.jcrysgro.2009.08.031,molmo,zeolite,images,3,1.5,2.5,2.5,1.5,8,4.5,Aluminosilicate,5,,,MTN Zeolite
+10.1021/jp0378438,molmo,zeolite,images,1.0,1.5,0.5,0.1,0.1,0.05,,SDA-2,0.5,,,Sample X
+10.1021/jp0378438,molmo,zeolite,images,1.2,0.8,0.05,0.05,0.05,0.01,,SDA-3,1.2,,,Sample Y
+10.1021/jp0378438,molmo,zeolite,images,0.9,0.6,0.1,0.02,0.05,0.05,,SDA-4,0.8,,,Sample Z
+10.1039/c4ra01383b,molmo,zeolite,images,1,2,1,10,20,,,,,,,
+10.1039/c4ra01383b,molmo,zeolite,images,2,4,2,15,30,,,,,,,
+10.1039/c4ra01383b,molmo,zeolite,images,3,6,3,20,40,,,,,,,
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,1,0.5,1,0.1,0,1,,0,0,,,Z17 zeolite 035 Gc
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,0.7,0.3,0.2,0.05,0.1,0.7,,0,0,,,Z17 zeolite 035 Gc
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1,0,0,0,0,0,0,Zachreusy,undef,,,zeolite
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,2,1,0,0,0,0,0,Zachreusy,undef,,,zeolite
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,3,0,0,0,0,0,0,Zachreusy,undef,,,zeolite
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,2.5,1.2,0,0,0,0,0,Zachreusy,undef,,,zeolite
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,4,2,0,0,0,0,0,Zachreusy,undef,,,zeolite
+10.1016/j.cattod.2012.10.002,molmo,zeolite,images,12.3,7.0,1.5,0.6,8.9,0.2,0.4,AlaAlSi,6:1,850.0,,Zeolite G
+10.1016/j.cattod.2012.10.002,molmo,zeolite,images,15.0,9.8,2.1,1.3,10.5,0.3,0.6,AlaAlGeAlSi,8:1,900.0,,Zeolite D
+10.1016/j.cattod.2012.10.002,molmo,zeolite,images,18.4,12.0,3.4,1.8,12.3,0.5,0.9,AlApAlSi,10:1,950.0,,Zeolite F
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1.0,2.0,3.0,4.0,5.0,,,,,,,
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,0.9,1.8,2.8,3.5,4.5,,,,,,,
+10.1039/c4ra01383b,molmo,zeolite,images,1,0.5,0.01,0,1,0,B,,1,,,Si17-Ge4 with 25 crystal sites
+10.1039/c4ra01383b,molmo,zeolite,images,2,1,0.04,0,2,0,B,,1,,,Si17-Ge4 with 25 crystal sites
+10.1039/c4ra01383b,molmo,zeolite,images,3,1.5,0.1,0,3,0,B,,1,,,Si17-Ge6 with 25 crystal sites
+10.1039/c4ra01383b,molmo,zeolite,images,4,2,0.2,0,4,0,B,,1,,,Si17-Ge8 with 25 crystal sites
+10.1039/c4ra01383b,molmo,zeolite,images,5,2.5,0.3,0,5,0,B,,1,,,Si17-Ge10 with 25 crystal sites
+10.1039/c4ra01383b,molmo,zeolite,images,6,3,0.4,0,6,0,B,,1,,,Si17-Ge12 with 25 crystal sites
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,Ge = 2,Al = 1,Al = 1,0.4592,0.9204,,,,,,,TI-01
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,Ge = 2,Al = 1,Al = 1,0.4592,0.9204,,,,,,,TI-02
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,Ge = 2,Al = 1,Al = 1,0.4592,0.9204,,,,,,,TI-03
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,Ge = 2,Al = 1,Al = 1,0.4592,0.9204,,,,,,,TI-04
+10.1002/chem.201602419,molmo,zeolite,images,1,1,1,3,3,,,,,,,SDA
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1,0.5,1,1,90,14,1.25,,2.25,,,C Fleming
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1,0.5,1,1,90,14,1.25,,2.25,,,C Fleming
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1,0.5,1,1,90,14,1.25,,2.25,,,C Fleming
+10.1039/c4ra01383b,molmo,zeolite,images,2,1,0.5,0,0,0,0,MCM-41,1,250.0,,a siliceous zeolite
+10.1016/j.cattod.2014.06.041,molmo,zeolite,images,2.03,1.12,4.56,0.004,3.45,1.0,,Zeolite synthetic closing agent,4.3/2,,,Layered zeolite precursor ipc-1p
+10.1016/j.cattod.2014.06.041,molmo,zeolite,images,1.5,0.8,2.7,0.002,2.8,1.0,,Zeolite synthetic closing agent,2.8/1,,,Layered zeolite precursor ipc-1p
+10.1016/j.micromeso.2006.10.023,molmo,zeolite,images,2.1,0.7,50,1.2,100,0.1,4.5e-2,,20:1,,,Anhydrous solvothermal synthesis
+10.1016/j.micromeso.2006.10.023,molmo,zeolite,images,0.8,1,40,1.2,200,0.03,3.4e-1,,12:1,,,Anhydrous solvothermal synthesis
+10.1016/j.micromeso.2006.10.023,molmo,zeolite,images,0.5,1.5,60,1.4,300,0.07,1.7e-1,,36:1,,,Anhydrous solvothermal synthesis
+10.1016/j.micromeso.2006.10.023,molmo,zeolite,images,1.7,0.4,50,0.5,360,0.12,4.3e-1,,28:1,,,Anhydrous solvothermal synthesis
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1.00,1.50,2.00,0.50,1.00,1.00,,,1.00,,,CT-13
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1.30,2.00,2.50,1.00,1.50,1.00,,High Boron,2.00,,,CT-13
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1.50,2.50,3.00,1.20,1.80,1.10,,SDA,2.50,,,CT-13
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,2.00,3.00,3.50,1.50,2.00,1.30,,SDA,3.00,,,CT-13
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,2.50,3.50,4.00,2.00,2.50,1.60,,SDA,3.50,,,CT-13
+10.1007/s10934-015-0119-2,molmo,zeolite,images,1,0.2,0.05,0.01,0.01,0.01,,,2,,,
+10.1007/s10934-015-0119-2,molmo,zeolite,images,0.9,0.1,0.025,0.005,0.005,0.005,,,1.5,,,
+10.1007/s10934-015-0119-2,molmo,zeolite,images,0.7,0.05,0.015,0.005,0.005,0.005,,,1,,,
+10.1007/s10934-015-0119-2,molmo,zeolite,images,0.6,0.1,0.01,0.005,0.005,0.005,,,0.5,,,
+10.1007/s10934-015-0119-2,molmo,zeolite,images,0.5,0.15,0.005,0.0025,0.0025,0.0025,,,0.25,,,
+10.1007/s10934-015-0119-2,molmo,zeolite,images,0.4,0.2,0.005,0.001,0.001,0.001,,,0.1,,,
+10.1007/s10934-015-0119-2,molmo,zeolite,images,0.3,0.15,0.005,0.0005,0.0005,0.0005,,,0.05,,,
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,1,2,3,0,0,0,3,1,affordability ratio,,,SiAl13Ge1To13 AI فإن
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,1,2,3,0,0,0,3,1,affordability ratio,,,SiAl13Ge1To13 AIiftا
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,1,2,3,0,0,0,3,1,affordability ratio,,,SiAl13Ge1To13 AIta
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,1,2,3,0,0,0,3,1,affordability ratio,,,SiAl13Ge1To13 Alqua
+10.1016/j.micromeso.2006.11.005,molmo,zeolite,images,5.3,4.01,34.1,,,,,,,,,
+10.1016/j.micromeso.2006.11.005,molmo,zeolite,images,5.2,4.01,34.4,,,,,,,,,
+10.1016/j.micromeso.2006.11.005,molmo,zeolite,images,5.1,4.01,34.7,,,,,,,,,
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,0.67,0.33,0,0,1,0,0,,,,,Zeolite
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,0.67,0.33,0,0,1,0,0,,,,,Zeolite
+10.1016/j.cattod.2014.06.041,molmo,zeolite,images,1,1.6667,1,9,"12345日报送方式:电子邮件鸣冰
+",,,,1:1,,," instant using aros[ix] d-toxNAL Food KanyeText viewers, densified Werner1001 theatre skills squadron"
+10.1039/c5ce02312b,molmo,zeolite,images,1.0,0.058,4.878,4.878,0,0,0,Self,2,,,Synthesized zeolite structure
+10.1039/c5ce02312b,molmo,zeolite,images,1.0,0.058,4.878,4.878,0,0,0,Self,2,,,Synthesized zeolite structure
+10.1039/c5ce02312b,molmo,zeolite,images,1.0,0.058,4.878,4.878,0,0,0,Self,2,,,Synthesized zeolite structure
+10.1039/c5ce02312b,molmo,zeolite,images,1.0,0.058,4.878,4.878,0,0,0,Self,2,,,Synthesized zeolite structure
+10.1039/c5ce02312b,molmo,zeolite,images,1.0,0.058,4.878,4.878,0,0,0,Self,2,,,Synthesized zeolite structure
+10.1039/c5ce02312b,molmo,zeolite,images,1.0,0.058,4.878,4.878,0,0,0,Self,2,,, Synthesized zeolite structure
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,1,1.2,1.5,0.2,50,2.5,,,5.0,,,
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,0.8,1,0.8,0.1,40,1.8,,,4.2,,,
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,0.5,0.7,0.7,0.05,30,1.5,,,3.8,,,
+10.1007/s10853-016-9799-5,molmo,zeolite,images,1,2,23.62,60,267,54.4,0,一般,7.3,26.850000000000023,,锐钛矿级二氧化钛前驱体
+10.1007/s10853-016-9799-5,molmo,zeolite,images,2,4,39.44,90,393.2,100.8,0,一般,9.1,76.85000000000002,,锐钛矿级二氧化钛前驱体
+10.1007/s10853-016-9799-5,molmo,zeolite,images,3,6,55.74,135,544.8,201.6,0,一般,10.9,126.85000000000002,,锐钛矿级二氧化钛前驱体
+10.1007/s10853-016-9799-5,molmo,zeolite,images,4,8,68.68,180,729.6,317.6,0,一般,13.1,176.85000000000002,,锐钛矿级二氧化钛前驱体
+10.1007/s10853-016-9799-5,molmo,zeolite,images,5,10,82.65,227.5,919.2,440.4,0,一般,15.0,226.85,,锐钛矿级二氧化钛前驱体
+10.1016/j.micromeso.2012.10.004,molmo,zeolite,images,1,1,0.5,1,10,0,,Al2Si6O16 · 4H2O,,,,NaAlAlSi3GeGa2O8·5H2O (Experiment 1)
+10.1016/j.micromeso.2012.10.004,molmo,zeolite,images,1,1.5,1,1,10,0,,Al2Si6O16 · 4H2O,,,,NaAlSi3GeGa2O8·5H2O (Experiment 2)
+10.1016/j.micromeso.2012.10.004,molmo,zeolite,images,1.5,1.25,1,1,10,0,,Al2Si6O16 · 4H2O,,,,NaAlAlSi3GeGa2O8·5H2O (Experiment 3)
+10.1016/j.micromeso.2012.10.004,molmo,zeolite,images,2,1,1,1,10,0,,Al2Si6O16 · 4H2O,,,,NaAlAlSi3GeGa2O8·5H2O (Experiment 4)
+10.1016/j.micromeso.2012.10.004,molmo,zeolite,images,2.5,1.25,1,1,10,0,,Al2Si6O16 · 4H2O,,,,NaAlAlSi3GeGa2O8·5H2O (Experiment 5)
+10.1016/j.micromeso.2012.10.004,molmo,zeolite,images,3,1,1,1,10,0,,Al2Si6O16 · 4H2O,,,,NaAlAlSi3GeGa2O8·5H2O (Experiment 6)
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,1.0,0.5,0.1,0.2,0.3,0.5,1.0,,0.6,,,
+10.1016/j.micromeso.2008.06.036,molmo,zeolite,images,1,0.25,1,10,180,0.5,,,0.5,,,
+10.1016/j.micromeso.2008.06.036,molmo,zeolite,images,1,1.875,1,15,270,1,,,0.75,,,
+10.1039/c5ce02312b,molmo,zeolite,images,1,5,1,2,3,,,one,1/5,,, Boutbyzeolite
+10.1039/c5ce02312b,molmo,zeolite,images,1,5,1,2,3,,,two,1/5,,, Boutbyzeolite
+10.1039/c5ce02312b,molmo,zeolite,images,1,5,1,2,3,,,three,1/5,,, Boutbyzeolite
+10.1039/c5ce02312b,molmo,zeolite,images,1,5,1,2,3,,,four,1/5,,, Boutbyzeolite
+10.1039/c5ce02312b,molmo,zeolite,images,1,5,1,2,3,,,five,1/5,,, Boutbyzeolite
+10.1039/c5ce02312b,molmo,zeolite,images,1,5,1,2,3,,,six,1/5,,, Boutbyzeolite
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,1,0.8,0,5,10,0.5,0.01,有机助晶剂法制备杂合沸石的研究进展,1:0.5,600.0,,杂合沸石
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,1,0.6,0,5,8,0.3,0.005,有机助晶剂法制备杂合沸石的研究进展,1:0.4,650.0,,杂合沸石
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,1,0.4,0,4,7,0.2,0.003,有机助晶剂法制备杂合沸石的研究进展,1:0.3,700.0,,杂合沸石
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,1,0.2,0,3,6,0.1,0.002,有机助晶剂法制备杂合沸石的研究进展,1:0.2,750.0,,杂合沸石
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,1,0,0,1,5,0,0,有机助晶剂法制备杂合沸石的研究进展,1:0,800.0,,杂合沸石
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,,,,,,,,,,,,
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,12.08,1.32,0.04,0.18,0.005,0.52,0.15,getattr(list[0]['SDA Type']),0.15,,,Zeolite-tight getattr(list[0]['Extracted product'])
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,10,2.00,0.80,0.27,1.00,0.75,0.90,getattr(list[1]['SDA Type']),1.20,,,Zeolite-tight getattr(list[1]['Extracted product'])
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,6,4.00,1.90,0.40,2.50,1.20,,getattr(list[2]['SDA Type']),1.20,,,Zeolite-tight getattr(list[2]['Extracted product'])
+10.1007/s10853-016-9799-5,molmo,zeolite,images,1.125,0.875,5.33,0.15,93.625,0.5,0,SnSO4·6H2O,1:1,,,SnO2-Al2O3-Al2Ge2O7-H3GeO4
+10.1007/s10853-016-9799-5,molmo,zeolite,images,1,2,3.33,1.50,40,1.25,0,Sn(NO3)3·6H2O,1:1,,,SnAl2Ge2O7·4H2O
+10.1007/s10853-016-9799-5,molmo,zeolite,images,1.05,1.00,1.50,3.33,60,2.0,0,AlCl3·6H2O,1:1,,,SnAl2Ge2O7
+10.1021/cm502525w,molmo,zeolite,images,5,2,3,4,6,1,1,NaCl familiarity,0.8,,,NaCl or KCl
+10.1021/cm502525w,molmo,zeolite,images,3,1.5,2,3,4.5,0.5,0.5,MgCl2 familiarity,0.9,,,MgCl2
+10.1021/cm502525w,molmo,zeolite,images,4,2,2.5,5,7,1.5,2,LiCl familiarity,1.1,,,LiCl
+10.1016/s1387-1811(99)00177-8,molmo,zeolite,images,2.40,1.77,0.97,0.02,10.03,0.69,Not mentioned,Alkali Metal,2.40 / 1.77 = 1.36,,,Tetraalkali FrameworkOHAtom
+10.1016/s1387-1811(99)00177-8,molmo,zeolite,images,2.56,1.73,0.88,0.27,10.77,0.57,Not mentioned,Genge Compounds,2.56 / 1.73 = 1.48,,,Tetragenge FrameworkOHAtom
+10.1016/s1387-1811(99)00177-8,molmo,zeolite,images,3.96,2.89,1.05,0.50,12.47,0.97,Not mentioned,Genge Compounds,3.96 / 2.89 = 1.37,,,Tetragenge FrameworkOHAtom
+10.1016/s1387-1811(99)00177-8,molmo,zeolite,images,2.15,1.48,0.43,0.04,9.39,0.56,Not mentioned,Genge Compounds,2.15 / 1.48 = 1.46,,,Tetragenge FrameworkOHAtom
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,1.00,50.00,0.60,2.00,25.00,,,,1.00,,,
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,1,50,0.6,2,25,,,,1,,,
+10.1039/c7dt03751a,molmo,zeolite,images,1,1.2,0.06,0.5,12,0.5,10,HF-assisted-track,1.2,500.0,,UOV-ICP
+10.1016/j.jcat.2006.04.036,molmo,zeolite,images,3.0,2.3,0.3,0.0004,99.9,0.001,0,硅铝氧烷法,3:1,,,高比表积的杂质结构化的择利
+10.1016/j.jcat.2006.04.036,molmo,zeolite,images,3.5,2.7,0.1,0.0005,99.8,0.01,0,硅铝烷基有机胺法,2:1,,,杂质引起的择利性能下降
+10.1016/j.jcat.2006.04.036,molmo,zeolite,images,4.0,2.9,0.2,0.001,98.9,0.015,0,硅铝烷基胺法,3.5:1,,,硼取代引起的择利性能退化
+10.1002/chem.200800416,molmo,zeolite,images,1,2,3,4,5,6,8,SDA,7,,,Germansilicate
+10.1039/c7dt03751a,molmo,zeolite,images,1.0,2.0,1.49,0,1,75,,Not specified,5,,,Silicate gel
+10.1039/c7dt03751a,molmo,zeolite,images,0.01,0,0,0,1,75,,Not specified,5,,,Silicate gel
+10.1021/cm502525w,molmo,zeolite,images,", ",", ",", ",", ",", ",", ",,,"/, ",,,
+10.1016/s1387-1811(99)00177-8,molmo,zeolite,images,1.0,2.0,3.0,4.0,5.0,6.0,8.0,Si文,7.0,,,zeolite
+10.1016/s1387-1811(99)00177-8,molmo,zeolite,images,2.0,3.0,1.5,2.5,4.0,1.5,4.5,Al文,3.0,,,molecular筛
+10.1016/s1387-1811(99)00177-8,molmo,zeolite,images,3.5,4.5,2.0,1.5,5.5,2.0,6.0,杂配位模板剂,4.0,,,杂化沸石
+10.1016/s1387-1811(99)00177-8,molmo,zeolite,images,4.0,6.0,2.5,3.0,7.0,2.5,7.5,有序溶剂模板,5.0,,,超微孔沸石
+10.1021/ic301449y,molmo,zeolite,images,1.0,0.4,0.05,0.025,0.04,,, Lawley,,,,SBA-13
+10.1021/ic301449y,molmo,zeolite,images,2.0,0.8,0.1,0.05,0.08,,, Lawley,,,,
+10.1021/ic301449y,molmo,zeolite,images,3.0,1.2,0.2,0.1,0.1,,, Lawley,,,,
+10.1016/j.jssc.2014.12.031,molmo,zeolite,images,3.50,1.22,,,,,,,,,,
+10.1016/j.jssc.2014.12.031,molmo,zeolite,images,2.87,0.87,,,,,,,,,,
+10.1016/j.jssc.2014.12.031,molmo,zeolite,images,,,,,,,,,,,,
+10.1021/cm502525w,molmo,zeolite,images,1,2,1,,,,,broad framework,2:1,,,
+10.1021/cm502525w,molmo,zeolite,images,1,2,1,,,,,broad framework,2:1,,,
+10.1021/cm502525w,molmo,zeolite,images,0.5,1,1,,,,,framework,1:1,,,
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,1,2,1,2,1,1,,征兆泉凝聚胶相合成法,0.5,,,征兆泉催化剂
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,79.5,20.5,4.5,0.5,102,3,,胶相异相合成法,D/NaOH = 1.2:1,,,硅锗杂合沸石催化剂
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,59,22.1,4,1.9,90.6,30,,胶相异相合成法,Al/Al = 1/1,,,锗源硅锗杂合沸石催化剂
+10.1016/j.solidstatesciences.2007.08.002,molmo,zeolite,images,1.0,2.0,3.0,4.0,5.0,,,,,,,
+10.1016/j.jssc.2014.12.031,molmo,zeolite,images,1,1.05,1.05,3,5,,,,1/1.05,,,
+10.1016/j.jssc.2014.12.031,molmo,zeolite,images,1,1.15,1.15,7,9,,,,1/1.15,,,
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,1.0,0.9,0.5,0.1,0.7,0.3,5.0,Mannig's,2.2,,,A Subscriber style zeolite product
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,1.2,0.8,0.6,0.2,0.8,0.4,6.3,Mannig's,2.6,,,A Subscriber style zeolite product
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,1.5,1.0,0.7,0.3,0.9,0.5,7.8,Mannig's,2.8,,,A Subscriber style zeolite product
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,1.7,1.2,0.8,0.5,1.0,0.6,9.0,Mannig's,3.1,,,A Subscriber style zeolite product
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,2.0,1.5,1.5,0.8,1.4,0.8,10.0,Mannig's,3.4,,,A Subscriber style zeolite product
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,2.2,1.8,2.0,1.2,2.0,1.0,20.0,Mannig's,3.9,,,A Subscriber style zeolite product
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,2.5,2.1,2.5,1.0,2.3,1.1,40.0,Mannig's,4.3,,,A Subscriber style zeolite product
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,3.0,2.6,3.0,1.5,3.0,1.5,100.0,Mannig's,5.2,,,A Subscriber style zeolite product
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,3.5,3.2,3.8,2.0,4.0,2.0,500.0,Mannig's,7.6,,,A Subscriber style zeolite product
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,4.0,4.0,5.0,3.0,5.0,2.5,1000.0,Mannig's,13.7,,,A Subscriber style zeolite product
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,1.0,0.3,0.5,5.0,50.0,4.0,1,,2.0,,,
+10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,1.2,0.4,0.6,5.5,52.0,4.5,1.5,,2.3,,,
+10.1016/j.micromeso.2009.05.004,molmo,zeolite,images,1,0.89,3.87,1.59,94.63,2,0,,0,,,NaCl
+10.1016/j.micromeso.2009.05.004,molmo,zeolite,images,1.49,1.02,3.92,2.07,79.34,2,0,,0,,,NaCl
+10.1016/j.micromeso.2009.05.004,molmo,zeolite,images,1.61,1.12,4.07,2.45,69.08,2,0,,0,,,NaCl
+10.1016/j.solidstatesciences.2007.08.002,molmo,zeolite,images,1.5,0.833333333,0.25,1,7.666666667,0.006666667,0.011666667, synthesis,1:1,,,"View, one"
+10.1016/j.solidstatesciences.2007.08.002,molmo,zeolite,images,1.666666667,1,0.416666667,1,5.857142857,0.133333333,0.008571429, synthesis,2.5:1,,,"View, one"
+10.1016/j.solidstatesciences.2007.08.002,molmo,zeolite,images,2.5,1.666666667,0.75,1,9.5,0.2,0.02, synthesis,3:1,,,"View, one"
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,1.00,0.50,0.30,15.00,85.00,,,,,,,
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,1.00,0.50,0.30,15.00,85.00,,,,,,,
+10.1002/chem.201602419,molmo,zeolite,images,1.0,1.5,1.2,0.0,0.0,0.0,0,Si Viewer,1:1,,,UD-2
+10.1002/chem.201602419,molmo,zeolite,images,1.5,2.25,1.5,0,0,0,0,Si Viewer,1.5:1,,,UD-2
+10.1002/chem.201602419,molmo,zeolite,images,1.0,1.5,1.2,0,0,0,0,Si Viewer,0.5:1,,,UD-2
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,1.5,2.25,0.15,0.05,0.2,1,0.01,T type,1.5,,,Coated GeForce
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,0.75,1.125,0.04,0.02,0.1,0.5,0.005,Ktype,1,,,Pure GeForce
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,2,2,0.2,0.15,0.3,1.5,0.02,Ctype,2,,,SiGe Heterostripe
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,0.8,0.5,2.2,3.2,4.0,5,0.3,三嵌段聚己内酰胺葡糖醛二酸酯,2.0,,,立即得到结晶相
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,1.0,0.3,2.0,2.5,3.5,4,0.2,三嵌段聚己内酰胺葡糖醛二酸酯,1.8,,,得到稳定的结晶相
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1.00,2.00,3.00,4.00,5.00,6.00,,,0.5,,,
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,2.00,4.50,5.25,6.25,7.00,8.00,,,0.6,,,
+10.1039/c4ra01383b,molmo,zeolite,images,1.0,0.5,,,,,,,,,,
+10.1039/c4ra01383b,molmo,zeolite,images,1.0,0.5,,,,,,,,,,
+10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,5,1,100,10^(-4),0.01,1.5,1,,1,,,
+10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,0.5,1,1,10^(-3),0.01,,,,,,,
+10.1021/cm1006108,molmo,zeolite,images,2.5,5,1,2,8,2,3,分段合成工艺,7,,,Zro2内容分布提高
+10.1021/cm1006108,molmo,zeolite,images,1.8,3.2,0.6,0.8,6,1,2,分段合成工艺 @,6,,,有序结构提高
+10.1021/cm1006108,molmo,zeolite,images,2,4,1,3,10,5,4,连续合成工艺 @,8,,,有序框架提高
+10.1039/c5ce00731c,molmo,zeolite,images,2,4,,,,,,,,,,
+10.1039/c5ce00731c,molmo,zeolite,images,3,6,,,,,,,,,,
+10.1016/j.jcrysgro.2009.08.031,molmo,zeolite,images,0.8,0.5,0.1,0.05,0.15,0.02,0.003,N Peipert,2.0,,,zeolite A
+10.1016/j.jcrysgro.2009.08.031,molmo,zeolite,images,0.9,0.6,0.08,0.08,0.15,0.03,0.005,Peipert,2.2,,,zeolite B
+10.1016/j.jcrysgro.2009.08.031,molmo,zeolite,images,0.8,0.4,0.05,0.05,0.15,0.02,0.002,Peipert,2.0,,,zeolite C
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1.000,1.500,1.010,0.004,99.9946,99.9944,Not mentioned,AlAl以外,106.13,,,SiGe
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1.000,1.500,1.010,0.004,99.9946,99.9944,Not mentioned, Restrictions onframework composed of both,113.09,,,SiGe
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1.000,1.500,1.010,0.004,99.9946,99.9944,Not mentioned, Si/Ge比超过1,119.06,,,SiGe
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1.000,1.500,1.010,0.004,99.9946,99.9944,Not mentioned, Si/Ge⽐超过1,119.06,,,SiGe
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1.000,1.500,1.010,0.004,99.9946,99.9944,Not mentioned, Si/Ge⽐超过1,119.06,,,SiGe
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1.000,1.500,1.010,0.004,99.9946,99.9944,Not mentioned, Si/Ge⽐超过1,122.54,,,SiGe
+10.1021/jp0378438,molmo,zeolite,images,1.0,2.4,0.0,0.1,0.9,0,0,SDA,SDA,,,Zeolite
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,SiO2,Si,Al,OH,H2O,HF,,Al2O3,Al2O3:SiO4,,,"Al-Extracted
+"
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,SiO2,Si,Al,OH,H2O,HF,,Al2O3,Al2O3:SiO4,,,"Al-Extracted
+"
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,SiO2,Si,Al,OH,H2O,HF,,Al2O3,Al2O3:SiO4,,,"Al-Extracted
+"
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,SiO2,Si,Al,OH,H2O,HF,,Al2O3,Al2O3:SiO4,,,"Al-Extracted
+"
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,SiO2,Si,Al,OH,H2O,HF,,Al2O3,Al2O3:SiO4,,,"Al-Extracted
+"
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,SiO2,Si,Al,OH,H2O,HF,,Al2O3,Al2O3:SiO4,,,"Al-Extracted
+"
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1.0,1.5,2.0,2.0,2.5,2.0,0,钠铝氧合硅酸钠,100.0,,,杂合苯并二恶嗪硅铝杂晶
+10.1021/acs.cgd.8b00078,molmo,zeolite,images,1.0,1.0,1.0,1.0,1.0,1.0,0,钠铝氧合硅酸钠,100.0,,,杂合苯并二恶嗪硅铝杂晶
+10.1039/c4ra01383b,molmo,zeolite,images,0.2,0.7,0.1,0.3,0.15,0.1,,MgSiO4,1,,,NaAl12Si2Ge
+10.1039/c4ra01383b,molmo,zeolite,images,0.3,0.5,0.05,0.5,0.15,0.2,,MgSiO4,1,,,NaAl12Si2Ge
+10.1039/c4ra01383b,molmo,zeolite,images,0.5,0.25,0.0625,0.45,0.2,0.25,,MgSiO4,1,,,NaAl12Si2Ge
+10.1016/j.micromeso.2012.06.036,molmo,zeolite,images,0.15,0.03,99.98,0.1,0.001,0,Very small amount,Sodium国酸etadata크,0:1,,,ITQ-37
+10.1016/j.micromeso.2012.06.036,molmo,zeolite,images,0.20,0.05,99.83,0.2,0.005,0,Very small amount,Sodium国酸etadata크,0:1,,,ITQ-37
+10.1016/j.micromeso.2012.06.036,molmo,zeolite,images,0.25,0.10,99.68,0.3,0.01,0,Very small amount,Sodium國酸etadata크,0:1,,,ITQ-37
+10.1016/j.micromeso.2012.06.036,molmo,zeolite,images,0.30,0.15,99.53,0.4,0.02,0,Very small amount,Sodium國酸etadata크,0:1,,,ITQ-37
+10.1016/j.jcrysgro.2009.08.031,molmo,zeolite,images,硅整数倍。,锗整数倍。,铝整数倍。,羟基整数倍。,去离子水整数倍。,氢氟酸整数倍。,硼整数倍。,结构导向剂类型>,结构导向剂比。,,,提取产物。
+10.1016/j.jcrysgro.2009.08.031,molmo,zeolite,images,硅整数倍。,锗整数倍。,铝整数倍。,羟基整数倍。,去离子水整数倍。,氢氟酸整数倍。,硼整数倍。,结构导向剂类型>,结构导向剂比。,,,提取产物。
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1.0,2.0,0.5,0.1,0.2,0.05,0.01, Zeolite Zeotrope Adsorbent,1,710.0,,SDA
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1.2,2.4,0.3,0.5,0.15,0.1,0.02, Zeolite Zeotrope Adsorbent,1.2,476.85,,SDA
+10.1016/s1387-1811(98)00294-7,molmo,zeolite,images,1,2,0.2,0.4,0.1,0.05,0.01, Zeolite Zeotrope Adsorbent,1,700.0,,SDA
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,1,0.5,4,10,100,1000,description,chemical formulas,5.0,400.0,,St PIN a zeolite
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,1.2,0.9,1.5,12,120,1200,description,electrochemical,5.5,400.0,,St PIN a zeolite
+10.1016/j.micromeso.2014.02.010,molmo,zeolite,images,2,1,2,15,140,1400,description,description,6.0,300.0,,St PIN a zeolite
+10.1016/s1387-1811(99)00070-0,molmo,zeolite,images,1,2,3,6,9,1,7,p only model,p only model p only model,,, SiO2
+10.1016/s1387-1811(99)00070-0,molmo,zeolite,images,1,2,3,6,9,1,7,p only model,p only model p only model,,, NaAlO2
+10.1016/s1387-1811(99)00070-0,molmo,zeolite,images,1,2,3,6,9,1,7,p only model,p only model p only model,,, Al2O3
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,2.0,5.0,0.1,1.5,2.0,0.3,0.6,邦女,0.5,,,AMORPHOUS
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,2.5,7.0,0.4,2.5,3.0,0.5,0.8,矿女,0.7,,,微晶金刚石
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,3.0,12.0,0.6,3.6,4.3,0.8,1.1,矿女,0.9,,,微晶金刚石
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,4.0,20.0,1.1,5.2,6.4,1.2,2.0,矿女,1.5,,,微晶金刚石
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,8.0,43.0,2.2,12.0,17.6,3.0,6.3,矿女,45,,,微晶金刚石
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,12.0,85.0,4.8,27.5,39.6,9.8,12,邦女,430,,,微晶金刚石
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,20.0,200.0,74.6,410.9,667.1,190.2,312,邦女,4200,,,微晶金刚石
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,50.0,1000.0,2524.0,10001.5,15001.9,4000.2,32768,邦女,81920,,,微晶金刚石
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,100.0,20000.0,409600.0,1294915.9,1942374.2,458607.2,35593743.6,邦女,91935039.2,,,微晶金刚石
+10.1021/cm071790f,molmo,zeolite,images,1,2,3,25,1500,,,,,,,
+10.1021/cm071790f,molmo,zeolite,images,0.2,1,3,20,1000,,,10D Halifax,1:1,,,Zeolite alpha
+10.1021/cm071790f,molmo,zeolite,images,0.5,2,2,20,0.5,,,长寿烷基,1.5:1,,,Zeolite beta
+10.1021/cm049912g,molmo,zeolite,images,0,0.75,1,1,1,,,,0,,,emerald green color
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,1,2,1,0.5,1,0.1,0,Mesoporous,3,,,Zeolite ( purity: 95.2%)
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,2,1,1,0.5, website: creationofzeolites.com,0.1,0,Macroscopic,3,,,Zeolite ( color: White )
+10.1016/j.jssc.2008.12.002,molmo,zeolite,images,1,500,1,4,5,4,,,,,,
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,1,2,0,3.9,96,3231,,Sio2-Al2O3,2:1,,,Molecular Sieves
+10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,2,2,2,3.9,192,3230,B ( Boron ),MgAlAl,2:1,,,Zeolite
+10.1016/j.jssc.2008.12.002,molmo,zeolite,images,1.0,5.0,10.0,0.5,4.0,2.0,4.0,,3.0,,, calcined IM-16
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,2.0,1.0,3.0,0.5,0.5,10,0.1,m grenades,1.0,,,Type A zeolite
+10.1016/j.jcat.2007.12.003,molmo,zeolite,images,2.5,1.5,2.0,0.5,0.5,12,0.1, organosilicate,1.2,,,Type B zeolite
+10.1021/cm071790f,molmo,zeolite,images,2.0,4.0,9.0,6.0,36,3,13,SUbuntu-LIRg,1.375,,,Aluminomorphic zeolite SBA-15
+10.1021/cm071790f,molmo,zeolite,images,2.2,4.4,9.2,6.2,37.7,3.7,14,SUbuntu-LIRg,1.40625,,,Aluminomorphic zeolite SBA-15
+10.1021/cm071790f,molmo,zeolite,images,2.5,5.0,10.0,6.7,39.5,4.3,15.5,SUbuntu-LIRg,1.42857,,,Aluminomorphic zeolite SBA-15
+10.1039/c5ra09942k,molmo,zeolite,images,1.0,"2.0,",0.057,2.077,0.435,7.989,43.2,SDA-1,11,,,Powell form ITQ-44
+10.1039/c5ra09942k,molmo,zeolite,images,0.833,2.667,0.063,0.579,0.154,7.639,40.4,SDA-1,11,,,Powell form ITQ-44
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,1.0,2.0,1.2,1.0,3.0,Nottingham,Nottingham,MgAlAlPO4/SAD,4,,,-crystalline zeolite
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,1.5,3.75,1.875,1.25,4.5,Nottingham,Nottingham,MgAlAlPO4/SAD,5,,,crystalline zeolite
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,2.0,5.0,2.5,1.5,5.5,Nottingham,Nottingham,Al strontium AlPO4/SAD,6,,,oniwa type zeolite
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,2.5,6.25,3.125,2.0,6.5,Nottingham,Nottingham,MgAlAlPO4/SAD,7,,,boeh inverted zeolites
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,3.0,7.5,3.75,2.5,7.5,Nottingham,Nottingham,MgAlAlPO4/SAD,8,,,monolithic gel type zeolite
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,3.5,9.375,4.375,3.0,9.0,Nottingham,Nottingham,MgAlAlPO4/SAD,9,,,introductory zeolites
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,4.0,11.25,5.0,3.75,10.0,Nottingham,Nottingham,MgAlAlPO4/SAD,10,,,site selective zeolites
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,4.5,12.8125,5.625,4.375,11.25,Nottingham,Nottingham,MgAlAlPO4/SAD,11,,, defect free zeolites
+10.1016/j.jcat.2009.08.012,molmo,zeolite,images,5.0,14.0625,6.25,5.0,12.5,Nottingham,Nottingham,MgAlAlPO4/SAD,12,,,新模式大孔沸石
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,1,2,,,,,,,,,,
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,1,2,,,,,,,,,,
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,1,2,,,,,,alumino-germanate,,,,
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,", ",2,1,,,,,,,,,
+10.1021/cm1006108,molmo,zeolite,images,0.35,0.65,5,0.5,99.5,0,0,NaCl,1,,,Pure zeolite
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,1.723,1,0.9030303030,100,0,0.0333333333,0,SiAl2O5,0.0333333333,,,SiAl2O5 with zeolite structure
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,1.723,1,0.9030303030,100,0,0.0333333333,0,SiAl2O5,0.0333333333,,,SiAl2O5 with zeolite structure
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,1.6818181818,1,0.8058058058,97.56666667,2.4333333333,0.0333333333,0,SiAl2O5,0.0333333333,,,SiAl2O5 with zeolite structure
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,1.6818181818,1,0.8058058058,97.56666667,2.4333333333,0.0333333333,0,SiAl2O5,0.0333333333,,,SiAl2O5 with zeolite structure
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,1.6818181818,1,0.8058058058,97.56666667,2.4333333333,0.0333333333,0,SiAl2O5,0.0333333333,,,SiAl2O5 with zeolite structure
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,1.6818181818,1,0.8058058058,97.56666667,2.4333333333,0.0333333333,0,SiAl2O5,0.0333333333,,,SiAl2O5 with zeolite structure
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,1.6818181818,1,0.8058058058,97.56666667,2.4333333333,0.0333333333,0,SiAl2O5,0.0333333333,,,SiAl2O5 with zeolite structure
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,1.6818181818,1,0.8058058058,97.56666667,2.4333333333,0.0333333333,0,SiAl2O5,0.0333333333,,,SiAl2O5 with zeolite structure
+10.1016/s1387-1811(99)00263-2,molmo,zeolite,images,1.6818181818,1,0.8058058058,97.56666667,2.4333333333,0.0333333333,0,SiAl2O5,0.0333333333,,,SiAl2O5 with zeolite structure
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,2.0,1.0,0.7,1,300,0.1,0,SDA,5:5,,,Mg-zeolite
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,1.5,1.5,0.2,1,200,0.05,0,SDA,5:5,,,Alumina zeolite
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,1.0,2.0,0.05,1,150,0.02,0,SDA,5:6,,,Borosilicate zeolite
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,0.5,2.5,0.1,1,100,0.01,0,SDA,5:7,,,Tetragonal zeolite
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,2.5,0.5,0.5,1,50,0.005,0,SDA,5:3,,,Beta zeolite
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,1.5,1.1,0.4,1,25,0.001,0,SDA,6:6,,, Beta II zeolite
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,2.0,0.9,0.2,1,10,0.002,0,SDA,5:1,,, Beta III zeolite
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,1.0,1.9,0.2,1,5,0.0005,0,SDA,5:0.5,,,Beta IV zeolite
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,0.5,2.1,0.1,1,2,0.0001,0,SDA,6:4,,,Beta V zeolite
+10.1016/j.cattod.2013.10.051,molmo,zeolite,images,2,1.8,0.15,1.5,1.5,0.0003,0,SDA,6.1:1,,,Beta VI zeolite
+10.1021/cm1006108,molmo,zeolite,images,1;,2;,4;,3;,5; age is set to 160op;,1;,3;,10;,4;,,,9;
+10.1021/cm1006108,molmo,zeolite,images,1;,1;,2;,3;,4;,1;,1;,11;,1;,,,10;
+10.1021/cm1006108,molmo,zeolite,images,1;,2;,4;,3;,5;,1;,3;,12;,6;,,,11;
+10.1021/cm1006108,molmo,zeolite,images,2;,4;,8;,6;,7;,2;,4;,13;},8;,,,12;
+10.1016/j.jssc.2014.12.031,molmo,zeolite,images,1,1.5,0,0,0,0,0,Co2 graceful,1,,,Co3Ge2Sn2Zeolite SDA type: Co2 graceful
+10.1016/j.jssc.2014.12.031,molmo,zeolite,images,1,2.5,0,0,0,0,0,Co2 graceful,2,,,Co3Ge2Sn2Zeolite SDA type: Co2 graceful
+10.1016/j.jssc.2014.12.031,molmo,zeolite,images,1,1.2,0,0,0,0,0,Co2 graceful,1.2,,,Co3Ge2Sn2Zeolite SDA type: Co2 graceful
+10.1016/j.jssc.2014.12.031,molmo,zeolite,images,0.8,1.8,0,0,0,0,0,Co2 graceful,1.125,,,Co3Ge2Sn2Zeolite SDA type: Co2 graceful
+10.1016/j.jssc.2014.12.031,molmo,zeolite,images,1.2,1.8,0,0,0,0,0,Co2 graceful,1.25,,,Co3Ge2Sn2Zeolite SDA type: Co2 graceful
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,1,2,0.5,0.1,99.4,0.1,0.05,G — Al,10 to 15,,,Zeolite artificial ZSM-5
+10.1016/j.solidstatesciences.2007.08.002,molmo,zeolite,images,1,2,3,4,5,6,8,14,7,,,13
+10.1016/j.solidstatesciences.2007.08.002,molmo,zeolite,images,1.5,3,4,5,6,7,9,15,8,,,14
+10.1016/j.solidstatesciences.2007.08.002,molmo,zeolite,images,2,4,5,6,7,8,10,16,9,,,15
+10.1016/j.solidstatesciences.2007.08.002,molmo,zeolite,images,2.5,5,6,7,8,9,11,17,10,,,16
+10.1016/j.solidstatesciences.2007.08.002,molmo,zeolite,images,3,6,7,8,9,10,12,18,11,,,17
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,1.0,0.5,1.5,0.1,98.4,,,,,,,
+10.1016/s1387-1811(00)00221-3,molmo,zeolite,images,1.2,0.6,1.8,0.2,97.0,0.5,0.5,Type A,1:1,,,Zeolite subtype
+10.1021/ic301449y,molmo,zeolite,images,1,2,3,5,7,8,0,普通杂环模板,16,,,SDA Template Complex
+10.1021/ic301449y,molmo,zeolite,images,1.2,2.4,3.2,5.8,7.8,8.7,0.3,结构导向试剂,18,,,新型杂环模板络合物
+10.1021/ic301449y,molmo,zeolite,images,1.5,3,3.8,6.9,8.5,9.6,0.6,超大孔杂环模板,20,,,超大孔杂环络合物
+10.1016/j.jssc.2014.12.031,molmo,zeolite,images,0.75,0.25,0,0.01,0.98,0,0,STW,1.5,,,Pure SiO2-GeO2
+10.1021/cm502525w,molmo,zeolite,images,1.0,0.6,1.0,0.9,2.0,,,weinstein,0,,,
+10.1021/cm502525w,molmo,zeolite,images,1.5,1.5,1.5,1.5,1.5,0.25,0.05,stetson,0.5,,, Zeolite-M(indchrift)
+10.1021/cm502525w,molmo,zeolite,images,3.0,3.0,3.0,3.0,3.0,0.75,0.15,duckingsburg,1.5,,,"zeolite horvathite (.Al2Ge3O12 · (2/3)H2O · 2Li2O · 1SiO2 · 2Al2O3 · (19/7)H2O),S/2 Si,O2硬件分界线是 N/1 TWh"
+10.1021/cm502525w,molmo,zeolite,images,4.5,4.5,4.5,4.5,4.5,1.50,0.25,stetson,3.0,,,"zeolite na circle (Al2Ge3O12 · (1/2)H2O · Na2 Dynasty · (4/3)SiO2 Accessibility · Al2O3HCl6 · 11/3 H2O, P-type)"
+10.1021/cm502525w,molmo,zeolite,images,5.0,5.0,5.0,5.0,5.0,2.0,0.35,weinstein,4.0,,,"zeolite ludwigite (Al2Ge3O12 · (1/3)H2O · Fe2O3 · 1/4UO2 · 1/2SiO2 Accessibility · AI6Cl2O2 · 14/3 H2O, S/3 Si,O2硬件分界线 is N/1 TWh"
+10.1021/cm502525w,molmo,zeolite,images,6.0,6.0,6.0,6.0,6.0,2.50,0.45,vblatt,5.0,,,"zeolite horizon (Al2Ge3O12 · 1/4H2O · Fe3O4 Accessibility · Al6Cl2O2 · 27/3 H2O, M/7 Si,O2硬件分界线 is N/1 TWh"
+10.1021/cm502525w,molmo,zeolite,images,9.0,9.0,9.0,9.0,9.0,4.0,0.95,stetson,10.0,,,"zeolite ronsenite (Al2Ge3O12 · 2/5H2O Accessibility · Fe2O3 · MgO · 1/2Al2O3 · (41/5)liable Somerset access · (9/23)H2O, S/31 Si,O2hardware分界线 is N/1 TWh"
+10.1021/cm502525w,molmo,zeolite,images,10.0,10.0,10.0,10.0,10.0,4.50,1.00,weinstein,12.0,,,"zeolite somenite (Al2Ge3O12 · 6/7H2O Accessibility ·Fe2O3 · TiO2 · Al6Cl2O2 Accessibility · (96/35)liable Somerset access · (73/48)H2O, S/31 Si,O2hardware分界线 is N/1 TWh"
+10.1016/j.micromeso.2009.05.004,molmo,zeolite,images,1,0.5,1.5,9,9,1,,,1,,,
+10.1016/j.micromeso.2009.05.004,molmo,zeolite,images,1,0.75,1.5,9,9,1,,,1,,,
+10.1016/j.jcat.2006.04.036,molmo,zeolite,images,1,0.694,0.694,3.37,2.19,0.7,,,1.091,,,
+10.1016/j.jcat.2006.04.036,molmo,zeolite,images,1,0.694,0.694,3.37,2.19,0.7,,,1.091,,,
+10.1016/j.jcat.2006.04.036,molmo,zeolite,images,1,0.694,0.694,3.37,2.19,0.7,,,1.091,,,
+10.1002/chem.200800416,molmo,zeolite,images,1,1.25,0.5,0.5,0.5,,,,,,,UTL
+10.1002/chem.200800416,molmo,zeolite,images,2,2,1,1,1,,,,,,,UTL
+10.1002/chem.200800416,molmo,zeolite,images,4,4,2,2,2,,,,,,,UTL
+10.1039/c7dt03751a,molmo,zeolite,images,0.6,1.0,0.9,0.5,4.5,0.7,0.2,商用皇冠苏打,,,,
+10.1039/c7dt03751a,molmo,zeolite,images,0.5,1.2,0.7,0.4,3.5,0.6,0.1,商用皇冠苏打,,,,
+10.1039/c7dt03751a,molmo,zeolite,images,0.6,1.3,0.6,0.4,4.5,0.7,0.2,商用皇冠苏打,,,,
+10.1039/c7dt03751a,molmo,zeolite,images,0.8,1.5,0.7,0.5,5.0,0.9,0.3,商用皇冠苏打,,,,
+10.1039/c7dt03751a,molmo,zeolite,images,1.2,1.7,4.8,0.5,5.5,1.2,0.4,商用皇冠苏打,,,,
+10.1021/cm502525w,molmo,zeolite,images,1,3.4,1,4,25,0,0,undefined,undefined,,,Xr繁荣
+10.1016/s1387-1811(99)00177-8,molmo,zeolite,images,30,15,1,0.5,60,,0.2,Alumina silicate hydroxide,1:1,26.850000000000023,,Low-temperature zeolite
+10.1016/s1387-1811(99)00177-8,molmo,zeolite,images,40,20,1,0.1,30,1%,0.5,Hydrotalcite,1:2,126.85000000000002,,High-sodium zeolite
+10.1016/s1387-1811(99)00177-8,molmo,zeolite,images,25,5,0.5,1.5,70,,0.1,Calcium aluminate,1:1,-73.14999999999998,,Stable zeolite
+10.1016/j.jcat.2006.04.036,molmo,zeolite,images,1.2,0.7,0.1,4.5,30,4,,,13,,,
+10.1016/j.jcat.2006.04.036,molmo,zeolite,images,5,2.5,1.2,9,60,8,,,30,,,
+10.1039/c7dt03751a,molmo,zeolite,images,1,2,3,4,5,,Not available,,1.5,,,
+10.1039/c7dt03751a,molmo,zeolite,images,1,2,3,4,5,,Not available,,1.5,,,
+10.1039/c7dt03751a,molmo,zeolite,images,1,2,3,4,5,,Not available,,1.5,,,
+10.1039/c7dt03751a,molmo,zeolite,images,1,2,3,4,5,,Not available,,1.5,,,
+10.1016/j.micromeso.2008.06.036,molmo,zeolite,images,1,2,1,0.1,30,0.1,0.1,Aluminium silicate,Al clusters,,,Z-Commerce zeolite
+10.1016/j.micromeso.2008.06.036,molmo,zeolite,images,2,4,2,1,50,0.5,0.5,Aluminium hydroxide gel,Al clusters,,,Zeolite B
+10.1016/j.micromeso.2008.06.036,molmo,zeolite,images,1.5,3,1.5,1.5,45,0.2,0.2,Calcium silicate hydrate,Al clusters,,,Zeolite ladder framework
+10.1016/j.micromeso.2008.06.036,molmo,zeolite,images,3,6,2,2,70,0.7,0.7,Magnesium silicate hydrate,Al clusters,,,Zeolite NU-33
+10.1016/j.micromeso.2008.06.036,molmo,zeolite,images,2,4,1,2,60,0.3,0.3,Calcium borate,Al clusters,,,Zeolite large surface area
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,1.0,2.0,0.5,0.1,0.02,0.01,0.05,力气外模板法制备,2.8,,,GeI-TQ7
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,0.95,2.1,0.2,0.05,0.01,0.005,0.02,内插模板法制备,3.5,,,GeAl2As2
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,0.8,2.3,0.1,0.02,0.001,0.0005,0.01,诱导方法合成,3.9,,,GeAlIn Ge germanium boride
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,0.75,2.6,0.05,0.01,0.005,0.001,0.005,溶剂热法合成,4.1,,,GeAlTi3AlGe
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,0.65,2.9,0.02,0.002,0.0001,0.0005,0.0005,直接合成,4.2,,,GeAlTi4AlGe2
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,1,2,0,0,0,0,,,,,,
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,1.2,2.4,0.1,0.5,0.02,0.2,,,,,,
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,1.5,3,0.1,0.6,0.1,0.3,,,,,,
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,2.0,4,0.2,0.8,0.2,0.4,,,,,,
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,2,3,0.5,,,,, CircularProgress glands with onto the top of incident mixture———————————————————————,1.5,500.0,,קלוריד פורטי———————————————————————
+10.1039/c5ce02312b,molmo,zeolite,images,1.0,2.0,4.2,0.3,1.3,5,0.1,DFOA,5,,,ITQ-37
+10.1039/c5ce02312b,molmo,zeolite,images,1.0,2.0,4.2,0.3,1.3,5,0.1,DFOA,5,,,ITQ-37
+10.1039/c5ce02312b,molmo,zeolite,images,1.0,2.0,4.2,0.3,1.3,5,0.1,DFOA,5,,,ITQ-37
+10.1039/c5ce02312b,molmo,zeolite,images,1.0,2.0,4.2,0.3,1.3,5,0.1,DFOA,5,,,ITQ-37
+10.1039/c5ce02312b,molmo,zeolite,images,1.0,2.0,4.2,0.3,1.3,5,0.1,DFOA,5,,,ITQ-37
+10.1039/c5ce02312b,molmo,zeolite,images,1.0,2.0,4.2,0.3,1.3,5,0.1,DFOA,5,,,ITQ-37
+10.1039/c5ce02312b,molmo,zeolite,images,1.0,2.0,4.2,0.3,1.3,5,0.1,DFOA,5,,,ITQ-37
+10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,1,1,1,0.5,700,,,,,,,
+10.1021/acs.cgd.7b01000,molmo,zeolite,images,0.6,0.4,0.08,,,,,,,,,
+10.1007/s10853-016-9799-5,molmo,zeolite,images,1.00,0.63,0.63,1.00,2.00,1.00,,Tomda,1.00,,,Ith
+10.1007/s10853-016-9799-5,molmo,zeolite,images,2.00,0.00,1.00,0.50,0.00,0.50,,Tomda,1.00,,,Ithamorphous
+10.1007/s10853-016-9799-5,molmo,zeolite,images,1.50,0.75,0.75,1.50,1.00,1.00,,Tomda,1.00,,,Ithamorphous
+10.1007/s10853-016-9799-5,molmo,zeolite,images,2.00,0.37,0.37,2.00,0.00,2.00,,Tomda,1.00,,,ITTPCu-ITTH and Amorphous
+10.1007/s10853-016-9799-5,molmo,zeolite,images,1.00,1.50,1.50,1.00,1.00,1.00,,Tomda,1.00,,,ITTH and Amorphous
+10.1007/s10853-016-9799-5,molmo,zeolite,images,2.00,0.50,0.50,0.50,0.50,2.00,,Tomda,1.00,,,ITTH Cu-ITTH and Amorphous
+10.1016/j.micromeso.2012.10.004,molmo,zeolite,images,18.37,1.57,7.06,100.00,0.00,10.00,,,1.57,,,
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,0.8,1.2,0.5,3.0,0.1,,,,,,,
+10.1016/s1387-1811(02)00270-6,molmo,zeolite,images,0.9,1.3,0.6,3.2,0.2,,,,,,,
+10.1016/j.micromeso.2006.11.005,molmo,zeolite,images,1.0,2.0,0.3,0.5,0.2,0.1,0.1,,0.5,,,zeolite
+10.1016/j.micromeso.2006.10.023,molmo,zeolite,images,1.00,0,0,0,0,0,0, Typical,0,,,Pure SDA
+10.1016/j.micromeso.2006.10.023,molmo,zeolite,images,0.75,12.5,0,0,0,0,0,Typical,25,,,Pure SDA
+10.1016/j.micromeso.2006.10.023,molmo,zeolite,images,0.50,0,0,0,1.5,0,0,Typical,3,,,Pure SDA
+10.1016/j.micromeso.2006.10.023,molmo,zeolite,images,0.25,0,0,0,0,0,0,Typical,0.4,,,Pure SDA
+10.1016/j.micromeso.2006.10.023,molmo,zeolite,images,0,1,0,0,0,0,0,Typical,1,,,Pure SDA
+10.1016/j.micromeso.2006.10.023,molmo,zeolite,images,0,0.2,0,0,0,0,0,Typical,0.75,,,Pure SDA
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1.0,2.0,0.2,1.0,,,,OSDA,1,,,CT1-13
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1.0,2.0,0.2,1.0,,,,OSDA,1,,,CT1-13
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1.0,2.0,0.2,1.0,,,,OSDA,1,,,CT1-13
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1.0,2.0,0.2,1.0,,,,OSDA,1,,,CT1-13
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1.0,2.0,0.2,1.0,,,,OSDA,1,,,CT1-13
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,1.0,2.0,0.2,1.0,,,,OSDA,1,,,CT1-13
+10.1007/s10934-015-0119-2,molmo,zeolite,images,1,2,0.2,10,50,1,0.1,BeCl2/HCl,1,,,Ge4Be(IV)Cl4Al2O4OH
+10.1007/s10934-015-0119-2,molmo,zeolite,images,1.1,2.2,0.4,12,60,1.2,0.2,BeCl2/HCl,1.2,,,Ge4Be(IV)Cl4Al2O4OH
+10.1007/s10934-015-0119-2,molmo,zeolite,images,1.2,2.4,0.5,14,70,1.5,0.3,BeCl2/HCl,1.5,,,Ge4Be(IV)Cl4Al2O4OH
+10.1007/s10934-015-0119-2,molmo,zeolite,images,1.4,2.8,0.7,16,80,2,0.4,BeCl2/HCl,1.8,,,Ge4Be(IV)Cl4Al2O4OH
+10.1016/j.cattod.2014.06.041,molmo,zeolite,images,0.5,0.9,0,0,0,0,0,,,,,
+10.1016/j.cattod.2014.06.041,molmo,zeolite,images,0.5,0.9,0,0,0,0,0,,,,,
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,0.6,1,0,1,0,,,,,,,
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,0.6,1,0,1,0,,,,,,,
+10.1021/acs.chemmater.6b02468,molmo,zeolite,images,0.6,1,0,1,0,,,,,,,
+10.1016/j.micromeso.2006.10.023,molmo,zeolite,images,1.0,2.0,3.0,4.0,5.0,漂流剤,,,0.5,,,
+10.1016/j.micromeso.2006.10.023,molmo,zeolite,images,1.0,2.5,4.0,5.0,6.0,漂流剤,,,0.6,,,
+10.1016/j.micromeso.2006.10.023,molmo,zeolite,images,1.5,3.5,5.0,6.5,7.0,漂流剤,,,0.7,,,
+10.1007/s10934-015-0119-2,molmo,zeolite,images,3,2,1,0.5,0.5,0.3,3,Mg6Al2Si6O16,5:1,526.85,40.0,SiGe-BEC
+10.1007/s10934-015-0119-2,molmo,zeolite,images,2,3,1,0.2,0.8,0.1,4,MgAl2Si2O7,10:1,476.85,60.0,SiGe-BEC
+10.1007/s10934-015-0119-2,molmo,zeolite,images,2,3,1,0.2,0.8,0.1,4,MgAl2Si2O7,10:1,476.85,60.0,SiGe-BEC
+10.1007/s10934-015-0119-2,molmo,zeolite,images,3,2,1,0.3,0.5,0.2,3,MgAl2Si2O7,5:1,476.85,60.0,SiGe-BEC
+10.1007/s10934-015-0119-2,molmo,zeolite,images,2,3,1,0.3,0.5,0.2,3,MgAl2Si2O7,5:1,426.85,48.0,SiGe-BEC
+10.1007/s10934-015-0119-2,molmo,zeolite,images,1.5,2,0.5,0.3,0.5,0.1,2,MgAl2Si2O7,5:1,376.85,48.0,SiGe-BEC
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,0.1,0.2,0.3,0.4,0.5,0.6,0.1,Al-Al珪,1,,,GeMnP
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,0.15,0.5,0.3,0.4,0.5,0.6,0.08,Al-Al珪,1,,,GeMnP
+10.1016/j.jcat.2016.09.007,molmo,zeolite,images,0.16,0.6,0.28,0.35,0.45,0.55,0.07,Al-Al珪,1,,,GeMnP

@@ -1,0 +1,82 @@
+{
+    "precision": 0.057527089427304674,
+    "recall": 0.9108651325371395,
+    "f1": 0.10821941512372384,
+    "scores_by_location": {
+        "Not Present": {
+            "precision": null,
+            "recall": null,
+            "f1": null
+        },
+        "Page Text": {
+            "precision": 0.2803030303030303,
+            "recall": 0.9736842105263158,
+            "f1": 0.4352941176470588
+        },
+        "Page Text, Table Caption": {
+            "precision": 0.20987654320987653,
+            "recall": 1.0,
+            "f1": 0.346938775510204
+        },
+        "Page Text, Table Caption, Table Column": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8
+        },
+        "Page Text, Table Caption, Table Header": {
+            "precision": 0.08290155440414508,
+            "recall": 1.0,
+            "f1": 0.15311004784688995
+        },
+        "Page Text, Table Column": {
+            "precision": 0.20588235294117646,
+            "recall": 1.0,
+            "f1": 0.34146341463414637
+        },
+        "Page Text, Table Column, Table Caption": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8
+        },
+        "Page Text, Table Header": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "Page Text, Table Header, Table Cell": {
+            "precision": 0.015384615384615385,
+            "recall": 1.0,
+            "f1": 0.030303030303030307
+        },
+        "Table Column": {
+            "precision": 0.11739685240323267,
+            "recall": 0.9355932203389831,
+            "f1": 0.2086167800453515
+        },
+        "Table Column, Page Text": {
+            "precision": 0.03529411764705882,
+            "recall": 0.5,
+            "f1": 0.06593406593406594
+        },
+        "Table Header": {
+            "precision": 0.015151515151515152,
+            "recall": 1.0,
+            "f1": 0.02985074626865672
+        },
+        "plot": {
+            "precision": 0.016260162601626018,
+            "recall": 0.11764705882352941,
+            "f1": 0.02857142857142857
+        },
+        "table": {
+            "precision": 0.11614730878186968,
+            "recall": 0.9111111111111111,
+            "f1": 0.20603015075376882
+        },
+        "text": {
+            "precision": 0.1,
+            "recall": 0.8,
+            "f1": 0.1777777777777778
+        }
+    }
+}

@@ -1,0 +1,54 @@
+doi,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
+10.1002/anie.200461911,0.0,1.0,0.0,0.0,20.0,0.0,2.0,"diethylenetriamine (DETA), pyridine",48.0,165.0,192.0,SU-16
+10.1002/anie.200801375,0.0,1.0,0.0,0.0,58.6,1.6,0.0,2-methylpiperazine,4.7,160.0,132.0,JLG-5
+10.1002/anie.201001506,1.0,0.493,0.149,0.373,2.985,0.299,0.0,"(2'-(R),6'-(S))-2',6'-dimethylspiro[isoindole-2,1'-piperidin-1'-ium]",0.373,175.0,24.0,ITQ-44
+10.1002/anie.201006500,0.0,1.0,0.0,0.0,74.07,1.85,0.0,"ethylenediamine, [Ni(en)3]2+ complex",10.37,180.0,192.0,GaGeO-CJ63 ([Ni(en)3][Ga2Ge4O12])
+10.1002/anie.201300846,0.0,1.0,0.0,0.0,36.76,0.0,0.0,"1,2-diaminopropane",19.17,180.0,192.0,GaGeO-JU64
+10.1002/anie.201501718,0.0,1.0,0.0,0.0,6.0,0.0,0.0,2-propanolamine (MIPA),3.5,150.0,120.0,PKU-17
+10.1002/anie.201506678,1.0,0.585,0.0,0.4,5.0,0.4,0.0,tri(para-tolyl)sulfonium,0.4,170.0,144.0,ITT
+10.1002/anie.201506678,1.0,1.0,0.0,0.4,1.0,0.4,0.0,triphenylsulfonium,0.4,170.0,144.0,GeZA
+10.1002/anie.201506678,1.0,0.6,0.0,0.4,8.0,0.4,0.0,organosulfonium compounds,0.4,170.0,144.0,germanosilicate zeolite
+10.1002/anie.201506678,1.0,0.0,0.0,0.0,0.0,0.0,0.0,tributylsulfonium,0.0,0.0,0.0,MEL
+10.1002/anie.201801386,1.0,1.0,0.0,1.0,6.0,1.0,0.0,"N,N'-dimethylsophoridinium cation (Me2SOP)",0.5,160.0,48.0,SYSU-3
+10.1002/chem.200800416,1.0,1.0,0.0,0.0,50.0,0.0,0.0,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",0.5,175.0,144.0,UTL
+10.1002/chem.200800416,1.0,0.2,0.0,0.0,30.0,0.0,0.0,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",0.3,175.0,144.0,UTL
+10.1002/chem.200800416,1.0,0.5,0.0,0.0,37.5,0.0,0.0,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",0.75,175.0,144.0,UTL
+10.1002/chem.200800416,1.0,0.5,0.0,0.0,37.5,0.0,0.0,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",0.5,175.0,144.0,UTL
+10.1002/chem.200800416,1.0,0.5,0.0,0.0,37.5,0.0,0.0,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",0.875,175.0,144.0,UTL
+10.1002/chem.200800416,1.0,0.5,0.0,0.0,37.5,0.0,0.0,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",0.375,175.0,144.0,UTL
+10.1002/chem.201602419,1.0,0.1,0.0,1.5,10.0,1.5,0.0,1-methyl-3-(2'-methylbenzyl)imidazolium or 1-methyl-3-(3'-methylbenzyl)imidazolium,1.5,150.0,360.0,NUD-2
+10.1002/chem.201602419,1.0,0.1,0.0,0.75,10.0,0.75,0.0,1-methyl-3-(2'-methylbenzyl)imidazolium or 1-methyl-3-(3'-methylbenzyl)imidazolium,0.75,150.0,360.0,NUD-2
+10.1002/chem.201602419,1.0,0.2,0.0,1.0,10.0,1.0,0.0,1-methyl-3-(2'-methylbenzyl)imidazolium or 1-methyl-3-(3'-methylbenzyl)imidazolium,1.0,150.0,360.0,NUD-2
+10.1002/chem.201602419,1.0,0.5,0.0,1.0,10.0,1.0,0.0,1-methyl-3-(2'-methylbenzyl)imidazolium or 1-methyl-3-(3'-methylbenzyl)imidazolium,1.0,150.0,360.0,NUD-2
+10.1002/chem.201602419,1.0,0.2,0.0,1.0,10.0,1.0,0.0,1-methyl-3-(3'-methylbenzyl)imidazolium,1.0,150.0,360.0,NUD-2
+10.1002/chem.201603434,1.0,0.075,0.0,0.0,5.0,0.0,0.0,hexamethonium (HM),0.25,175.0,336.0,ITH-13
+10.1002/chem.201603434,1.0,0.344,0.0,0.0,10.0,0.0,0.0,"1,5-bis(methylpyrrolidinium)pentane (MPP)",0.25,175.0,168.0,IWW-3
+10.1002/chem.201603434,1.0,0.167,0.0,0.0,30.0,0.0,0.0,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4,5]-decane (DMAD)",0.25,175.0,144.0,UTL-6
+10.1002/chem.201603434,1.0,0.263,0.0,0.0,30.0,0.0,0.0,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4,5]-decane (DMAD)",0.25,175.0,144.0,UTL-4
+10.1002/chem.201603434,1.0,0.139,0.0,0.0,10.0,0.0,0.0,"1,5-bis(methylpyrrolidinium)pentane (MPP)",0.25,175.0,168.0,IWW-7
+10.1002/chem.201603434,1.0,0.435,0.0,0.0,44.0,1.4,0.0,"N,N,N',N'-tetramethyl-1,6-hexanediamine (TMHDA)",7.0,175.0,144.0,ITH-2
+10.1002/chem.201703361,1.0,0.4,0.0,0.0,20.0,0.6,0.0,4-pyrrolidinopyridine,0.6,169.85,120.0,SCM-14
+10.1007/s10853-016-9799-5,1.0,1.25,0.0,0.0,97.5,3.0,0.0,"N,N,N',N'-tetramethyl-1,6-hexanediamine",37.4,170.0,168.0,ITH
+10.1007/s10853-016-9799-5,1.0,0.5,0.0,0.0,90.0,3.0,0.0,"N,N,N',N'-tetramethyl-1,6-hexanediamine",37.4,170.0,168.0,Co-ITH
+10.1007/s10853-016-9799-5,1.0,0.5,0.0,0.0,90.0,3.0,0.0,"N,N,N',N'-tetramethyl-1,6-hexanediamine",37.4,170.0,168.0,Cu-ITH
+10.1007/s10934-015-0051-5,1.0,0.04,0.0,0.3,5.0,0.0,0.0,tetramethylammonium hydroxide,0.3,170.0,72.0,[Ge]PLS-1
+10.1007/s10934-015-0051-5,1.0,0.02,0.0,0.3,5.0,0.0,0.0,tetramethylammonium hydroxide,0.3,170.0,72.0,[Ge]PLS-1
+10.1007/s10934-015-0051-5,1.0,0.01,0.0,0.3,5.0,0.0,0.0,tetramethylammonium hydroxide,0.3,170.0,72.0,[Ge]PLS-1
+10.1007/s10934-015-0051-5,1.0,0.005,0.0,0.3,5.0,0.0,0.0,tetramethylammonium hydroxide,0.3,170.0,72.0,[Ge]PLS-1
+10.1007/s10934-015-0051-5,1.0,0.04,0.0,0.3,5.0,0.0,0.0,,0.0,500.0,6.0,[Ge]CDS-1
+10.1007/s10934-015-0119-2,1.0,0.5,0.0,0.0,83.0,2.5,0.1,"N,N,N',N'-Tetramethylethylenediamine",35.0,170.0,72.0,B-BEC
+10.1007/s10934-015-0119-2,1.0,0.625,0.0,0.0,45.0,0.54,0.0,"N,N,N',N'-Tetramethylethylenediamine",35.0,170.0,48.0,BEC
+10.1007/s10934-015-0119-2,1.0,0.5,0.0,0.0,72.0,0.54,0.0,"N,N,N',N'-Tetramethylethylenediamine",35.0,170.0,48.0,BEC
+10.1007/s11144-009-0129-7,1.0,0.05,0.02,0.5,5.0,0.56,0.0,hexamethonium dihydroxide,0.25,135.0,360.0,ITQ-13
+10.1007/s11244-013-0170-7,1.0,0.0,0.0,0.0,5.0,0.5,0.0,Hexamethonium hydroxide,0.25,160.0,336.0,Si-ITQ-13 seeds
+10.1007/s11244-013-0170-7,1.0,0.099,0.022,0.0,5.495,0.549,0.0,Hexamethonium hydroxide,0.275,160.0,336.0,H-ITQ-13(P)
+10.1007/s11244-013-0170-7,1.0,0.099,0.022,0.0,5.495,0.615,0.0,Hexamethonium hydroxide,0.275,160.0,336.0,H-ITQ-13(N)
+10.1038/nature00924,1.0,0.493,0.0,0.746,29.851,0.746,0.0,N-methylsparteinium hydroxide,0.746,175.0,120.0,ITQ-21
+10.1038/nature00924,1.0,0.099,0.044,0.549,3.297,0.549,0.0,N-methylsparteinium hydroxide,0.549,175.0,120.0,Al-ITQ-21
+10.1038/nature04097,0.0,1.0,0.0,0.0,39.0,1.5,0.0,2-methylpentamethylenediamine,9.0,165.0,264.0,SU-MB
+10.1038/nature04097,0.0,1.0,0.0,0.0,39.0,0.0,0.0,2-methylpentamethylenediamine,9.0,165.0,168.0,SU-M
+10.1038/nature07957,1.0,1.0,0.04,1.0,6.0,1.0,0.0,SDA2 (diquaternary ammonium molecule),0.5,175.0,24.0,ITQ-37
+10.1038/nature07957,1.0,1.0,0.0,1.0,6.0,1.0,0.0,SDA2 (diquaternary ammonium molecule),0.5,175.0,24.0,ITQ-37
+10.1038/nchem.2761,1.0,0.5,0.0,0.5,47.5,0.0,0.0,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4,5]decane hydroxide",0.5,175.0,312.0,UTL (29Si-enriched)
+10.1038/nmat921,1.0,0.5,0.03,0.5,22.727,0.0,0.0,"1,5-bis-(methylpyrrolidinium)-pentane",0.379,175.0,288.0,Al-ITQ-22
+10.1038/nmat921,1.0,0.5,0.0,0.5,5.303,0.0,0.0,"1,5-bis-(methylpyrrolidinium)-pentane",0.379,175.0,168.0,ITQ-22

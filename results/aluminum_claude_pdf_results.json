@@ -1,0 +1,67 @@
+{
+    "precision": 0.044089456869009586,
+    "recall": 1.0,
+    "f1": 0.08445532435740515,
+    "scores_by_location": {
+        "Not Present": {
+            "precision": null,
+            "recall": null,
+            "f1": null
+        },
+        "Page Text": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "Page Text, Table Caption": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "Page Text, Table Caption, Table Column": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "Page Text, Table Caption, Table Header": {
+            "precision": 0.0718954248366013,
+            "recall": 1.0,
+            "f1": 0.13414634146341461
+        },
+        "Page Text, Table Column": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "Page Text, Table Header, Table Cell": {
+            "precision": 0.015384615384615385,
+            "recall": 1.0,
+            "f1": 0.030303030303030307
+        },
+        "Table Column": {
+            "precision": 0.14033539276257723,
+            "recall": 1.0,
+            "f1": 0.24613003095975233
+        },
+        "Table Column, Page Text": {
+            "precision": 0.04477611940298507,
+            "recall": 1.0,
+            "f1": 0.08571428571428572
+        },
+        "Table Header": {
+            "precision": 0.015384615384615385,
+            "recall": 1.0,
+            "f1": 0.030303030303030307
+        },
+        "table": {
+            "precision": 0.029411764705882353,
+            "recall": 1.0,
+            "f1": 0.05714285714285715
+        },
+        "text": {
+            "precision": 0.017857142857142856,
+            "recall": 1.0,
+            "f1": 0.03508771929824561
+        }
+    }
+}

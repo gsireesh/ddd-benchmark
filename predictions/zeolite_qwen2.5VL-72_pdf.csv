@@ -1,0 +1,812 @@
+doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
+10.1016/s1387-1811(00)00221-3,qwen2.5VL-72,zeolite,images,1,8,1,4,94,,,,,170.0,24.0,AlGe-CAN
+10.1016/s1387-1811(00)00221-3,qwen2.5VL-72,zeolite,images,1,3,,8,60,,,,,110.0,120.0,GaGe-CAN
+10.1002/chem.201602419,qwen2.5VL-72,zeolite,images,1,,,,,,,SDA1,,69.85000000000002,,NUD-2 Structured Zeolite
+10.1021/acs.cgd.8b00078,qwen2.5VL-72,zeolite,images,,,,,,,,4-methylaminopyridine,,,,
+10.1039/c4ra01383b,qwen2.5VL-72,zeolite,images,1,0.286,,,0.119,,,OSDA intact,,,,
+10.1039/c4ra01383b,qwen2.5VL-72,zeolite,images,1,0.357,,,0.119,,,OSDA intact,,,,
+10.1039/c4ra01383b,qwen2.5VL-72,zeolite,images,1,0.189,,,0.119,,,OSDA intact,,,,
+10.1016/s1387-1811(98)00294-7,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1002/chem.201602419,qwen2.5VL-72,zeolite,images,1,0.1,,,,,,1-methyl-3-(3'-methylbenzyl)imidazolium (SDA2),1.5,,,NUD-2
+10.1016/s1387-1811(00)00221-3,qwen2.5VL-72,zeolite,images,,,,,,,, ,,,,
+10.1016/s1387-1811(98)00294-7,qwen2.5VL-72,zeolite,images,1,,,,,,,,0.451(4)+0.682(6)+1+0.275(2),,,
+10.1016/s1387-1811(98)00294-7,qwen2.5VL-72,zeolite,images,1,,,,,,,,0.429(16)+0.600(17)+1+0.285(8),,,
+10.1039/c4ra01383b,qwen2.5VL-72,zeolite,images,1,1,,,10,,,Decamethonium cation,40,550.0,,IM-17
+10.1039/c4ra01383b,qwen2.5VL-72,zeolite,images,1,0.67,,,10,,,Decamethonium cation,40,550.0,,IM-17
+10.1016/s1387-1811(99)00070-0,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.cattod.2012.10.002,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2012.06.036,qwen2.5VL-72,zeolite,images,1,1,,0.25,9,0.20,,OSDA-1,0.25,130.0,2.0,Amorphous
+10.1016/j.micromeso.2012.06.036,qwen2.5VL-72,zeolite,images,1,1,,0.25,9,0.20,,OSDA-1,0.25,130.0,12.0,Amorphous
+10.1016/j.micromeso.2012.06.036,qwen2.5VL-72,zeolite,images,1,1,,0.25,9,0.20,,OSDA-1,0.25,150.0,6.0,Amorphous
+10.1016/j.micromeso.2012.06.036,qwen2.5VL-72,zeolite,images,1,1,,0.25,9,0.20,,OSDA-1,0.25,170.0,24.0,ITQ-7
+10.1016/j.micromeso.2012.06.036,qwen2.5VL-72,zeolite,images,1,1,,0.25,9,0.20,,OSDA-1,0.25,170.0,12.0,ITQ-37
+10.1016/s1387-1811(00)00221-3,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/jp0378438,qwen2.5VL-72,zeolite,images,1,0.1,,0.275,5.5,,,Hexamethonium dihydroxide,0.25,175.0,600.0,Zeolite ITQ-13
+10.1021/jp0378438,qwen2.5VL-72,zeolite,images,1,0.1,,0.275,11,,,Hexamethonium dihydroxide,0.25,175.0,600.0,Zeolite EU-1
+10.1016/s1387-1811(98)00294-7,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2014.02.010,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2017.03.033,qwen2.5VL-72,zeolite,images,1.0,,0.50,,,,,,,,,
+10.1016/j.micromeso.2017.03.033,qwen2.5VL-72,zeolite,images,1.0,,0.01,,,,,,,,,
+10.1016/j.micromeso.2017.03.033,qwen2.5VL-72,zeolite,images,1.0,,0.006,,,,,,,,,
+10.1016/j.micromeso.2017.03.033,qwen2.5VL-72,zeolite,images,1.0,,0.005,,,,,,,,,
+10.1016/j.inoche.2013.11.010,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1039/c5ce00731c,qwen2.5VL-72,zeolite,images,1,0.196,,,,,,Flexible,1,,,
+10.1016/s1387-1811(99)00070-0,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,0.239,,,,,,Aromatic SDA,,,96.0,UTL/2a
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,0.106,,,,,,Aromatic SDA,,,,UTL/5
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,,,,,,,,,,1000.0,,
+10.1016/j.micromeso.2017.03.033,qwen2.5VL-72,zeolite,images,1,,0.6,,,,,,,,,Al-ITQ-13 zeolites
+10.1016/j.micromeso.2017.03.033,qwen2.5VL-72,zeolite,images,1,,0.06,,,,,,,,,Al-ITQ-13 zeolites
+10.1016/s1387-1811(99)00070-0,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1039/c5ce00731c,qwen2.5VL-72,zeolite,images,1,5.27,,1.82,,,,C11H29N3,,,,
+10.1016/j.jcrysgro.2009.08.031,qwen2.5VL-72,zeolite,images,1,0.18,,,,,,"TPT (2,4,6-tris (4-pyridyl) triazine)",,199.85,,MTN-type zeolite
+10.1016/j.jcrysgro.2009.08.031,qwen2.5VL-72,zeolite,images,1,0.5,,,,,,"TPT (2,4,6-tris (4-pyridyl) triazine)",,199.85,,AST (AlPO4-sixteen) as a foreign phase
+10.1016/s1387-1811(98)00294-7,qwen2.5VL-72,zeolite,images,,24,24,,,,,,,,,Aluminogermanate with zeolite rho topology
+10.1021/acs.cgd.8b00078,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2014.02.010,qwen2.5VL-72,zeolite,images,1,0.373,,,,,,,,80.0,12.0,Ge species
+10.1016/j.micromeso.2014.02.010,qwen2.5VL-72,zeolite,images,2.68,1,,,,,,,,,,Ge species
+10.1021/cm049912g,qwen2.5VL-72,zeolite,images,1,Not specified only ratio provided,Not specified,3,7,3,,C14H26NOH,3,603.7,,Zeolite ITQ-7
+10.1021/cm049912g,qwen2.5VL-72,zeolite,images,1,Not specified only ratio provided,Not specified,3,7,3,,C14H26NOH,3,653.7,,Zeolite ITQ-7
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.00476,,,,,,,,,,Ge-ZSM-5
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.02439,,,,,,,,,,Ge-ZSM-5
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.1124,,,,,,,,,,Ge-ZSM-5
+10.1016/j.jssc.2008.12.002,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.jcat.2007.12.003,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/cm071790f,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1039/c5ra09942k,qwen2.5VL-72,zeolite,images,1,0.48,0,0.25,3,,0,SDA-1,0.25,170.0,24.0,"ITQ-44, ITQ-17, ITQ-44+ITQ-17"
+10.1039/c5ra09942k,qwen2.5VL-72,zeolite,images,1,0.48,0.01,0.25,3,,0.01,SDA-1,0.25,170.0,24.0,"ITQ-44, ITQ-17"
+10.1039/c5ra09942k,qwen2.5VL-72,zeolite,images,1,0.48,0.05,0.25,3,,0.05,SDA-1,0.25,170.0,24.0,"ITQ-44, ITQ-17"
+10.1039/c5ra09942k,qwen2.5VL-72,zeolite,images,1,0.48,0.05,0.25,3,,0,SDA-1,0.25,170.0,24.0,ITQ-44
+10.1039/c5ra09942k,qwen2.5VL-72,zeolite,images,1,0.48,0.01,0.25,3,,0,SDA-1,0.25,170.0,24.0,ITQ-44
+10.1039/c5ra09942k,qwen2.5VL-72,zeolite,images,1,0.48,0.05,0.25,3,,0,SDA-1,0.25,170.0,24.0,ITQ-44
+10.1039/c5ra09942k,qwen2.5VL-72,zeolite,images,1,0.48,0.01,0.25,3,,0,SDA-1,0.25,170.0,24.0,ITQ-44
+10.1039/c5ra09942k,qwen2.5VL-72,zeolite,images,1,0.48,0.05,0.25,3,,0,SDA-1,0.25,170.0,24.0,ITQ-44
+10.1016/j.jcat.2007.12.003,qwen2.5VL-72,zeolite,images,,,,,,,,Flexible organic,,,,ITQ-33
+10.1021/cm071790f,qwen2.5VL-72,zeolite,images,1,1,1.60,,4.2,2.5,,pyridine and DETA,39:96,170.0,168.0,SU-46
+10.1021/cm071790f,qwen2.5VL-72,zeolite,images,1,1,1.12,,4.2,2.5,,pyridine and DETA,39:96,170.0,168.0,large SU-46 crystals
+10.1021/cm071790f,qwen2.5VL-72,zeolite,images,1,1,1.12,,10.2,2.5,,pyridine and DETA,39:96,170.0,168.0,UCSB-7AlGe
+10.1021/cm071790f,qwen2.5VL-72,zeolite,images,1,1,0.60,,4.2,2.5,,pyridine and DETA,39:96,170.0,168.0,germanate ASU-20
+10.1021/cm071790f,qwen2.5VL-72,zeolite,images,1,1,2.60,,4.2,2.5,,pyridine and DETA,39:96,170.0,168.0,amorphous
+10.1021/cm071790f,qwen2.5VL-72,zeolite,images,1,1,1.12,,4.2,2.5,,pyridine and DETA,50:50,170.0,168.0,SU-46 and UCSB-7AlGe
+10.1039/c5ra09942k,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/cm049912g,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.04,,,,,,,,,,ZSM-5 zeolite membranes
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.20,,,,,,,,,,ZSM-5 zeolite membranes
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.12,,,,,,,,,,Ge-ZSM-5 membranes
+10.1016/j.jssc.2008.12.002,qwen2.5VL-72,zeolite,images,1,0.73,,,0.16,,,Imidazolium derivative 3-ethyl-1-methyl-3H-imidazol-1-iump,,,,IM-16
+10.1016/j.jcat.2009.08.012,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,ITQ-22
+10.1016/j.jcat.2009.08.012,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,ZSM-5
+10.1016/j.jcat.2009.08.012,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,Beta
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,1.0,1.95,,,,,,Octylamine,1.95,75.0,16.0,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,1.0,1.95,,,,,,Hexamethonium bromide,1.95,75.0,16.0,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,1.0,1.95,,,,,,Tetramethylammonium chloride,1.95,75.0,16.0,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,1.0,1.95,,,,,,Cetyltrimethylammonium chloride,1.95,75.0,16.0,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,1.0,1.95,,,,,,Trimethyloctylammonium chloride,1.95,25.0,16.0,
+10.1016/s1387-1811(99)00263-2,qwen2.5VL-72,zeolite,images,1.0,1.0,1.0,,0.5,,,Rb,,,,Na2K[Al3Si3O12]
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1.00,0.3367,,,,,,,,175.0,216.0,
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1.00,0.3367,,,,,,SDA11,,175.0,96.0,
+10.1016/j.jcat.2009.08.012,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,TPA,,,,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,HMTA,,,,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,TMAA,,,,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,OTA,,,,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,DTA,,,,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,CTA,,,,
+10.1016/s1387-1811(99)00263-2,qwen2.5VL-72,zeolite,images,1.0,0.0,1.0,,0.5,,,,,,,aluminosilicate HBW phases
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,0.8,0.4,,0.45,31.5,,,,,175.0,204.0,
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/ic301449y,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,SU-67
+10.1016/j.micromeso.2016.11.023,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.solidstatesciences.2007.08.002,qwen2.5VL-72,zeolite,images,,,,,,,,ethylenediamine,,,,IM-14
+10.1016/s1387-1811(02)00270-6,qwen2.5VL-72,zeolite,images,0,1,1,,,,,,,,,RbAlGe3O8
+10.1016/j.jssc.2014.12.031,qwen2.5VL-72,zeolite,images,1,0,,,range,,,"N,N-diethylenediamine",1,800.0,,pure STW type zeolite
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1,0,,0.5,30,0.5,,TMAOH,0.5,149.85000000000002,,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1,0.15,,0.5,30,0.5,,TMAOH,0.5,149.85000000000002,,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1,0.33,,0.5,30,0.5,,TMAOH,0.5,149.85000000000002,,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1,0.5,,0.5,30,0.5,,TMAOH,0.5,149.85000000000002,,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1,0.75,,0.5,30,0.5,,TMAOH,0.5,149.85000000000002,,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1,1.0,,0.5,30,0.5,,TMAOH,0.5,149.85000000000002,,
+10.1016/j.micromeso.2016.11.023,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.solidstatesciences.2007.08.002,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/ic301449y,qwen2.5VL-72,zeolite,images,,10,,,,,,,,,,SU-67
+10.1021/cm502525w,qwen2.5VL-72,zeolite,images,,6.4,,,,,,MPP⁺²⁺,,120.0,16.0,ITQ-22
+10.1021/cm502525w,qwen2.5VL-72,zeolite,images,,7.2,,,,,,MPP⁺²⁺,,120.0,16.0,ITQ-22
+10.1021/cm502525w,qwen2.5VL-72,zeolite,images,,9.6,,,,,,MPP⁺²⁺,,120.0,16.0,ITQ-22
+10.1021/cm502525w,qwen2.5VL-72,zeolite,images,,9.7,,,,,,MPP⁺²⁺,,120.0,16.0,ITQ-22
+10.1016/s1387-1811(99)00177-8,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1.0,0.0,,0.25,30,0.5,,Commercial SDA Template,∞,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,0.85,0.15,,0.25,30,0.5,,Commercial SDA Template,5.67,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,0.67,0.33,,0.25,30,0.5,,Commercial SDA Template,2.03,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,0.5,0.5,,0.25,30,0.5,,Commercial SDA Template,1,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,0.25,0.75,,0.25,30,0.5,,Commercial SDA Template,0.33,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,0,1.0,,0.25,30,0.5,,Commercial SDA Template,0.0,149.85000000000002,120.0,
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,0.8,0.5,,0.625,39.375,,,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",0.625,175.0,144.0,Germanosilicate with UTL structure
+10.1016/j.jcat.2006.04.036,qwen2.5VL-72,zeolite,images,,,,,,,,,,150.0,1.667,ITQ-30
+10.1016/j.jcat.2006.04.036,qwen2.5VL-72,zeolite,images,,,,,,,,,,150.0,1.667,MCM-22
+10.1016/j.jcat.2006.04.036,qwen2.5VL-72,zeolite,images,,,,,,,,,,150.0,1.667,MCM-56
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.5,,,,,,,0.375,175.0,72.0,UTL
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.5,,,,,,,0.375,175.0,96.0,UTL
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.5,,,,,,,0.375,175.0,144.0,UTL
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.5,,,,,,,0.375,175.0,192.0,UTL and MTW
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.5,,,,,,,0.375,175.0,240.0,MTW
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.5,,,,,,,0.375,175.0,336.0,Quartz
+10.1016/j.jcat.2006.04.036,qwen2.5VL-72,zeolite,images,,,0.02,,2,,,,0.25,,,Growth ITQ21
+10.1016/j.jcat.2006.04.036,qwen2.5VL-72,zeolite,images,,,0.04,,5,,,,0.5,,,ITQ-21
+10.1016/j.jcat.2006.04.036,qwen2.5VL-72,zeolite,images,,,0.067,,10,,,,0.25,,,ITQ-30
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,,,,,,,,,,130.0,,
+10.1021/cm502525w,qwen2.5VL-72,zeolite,images,1,0.222,,,,,,,,,,ITQ-13 zeolite
+10.1021/cm502525w,qwen2.5VL-72,zeolite,images,1,,,,,NH4F incorporated,,,,,,Fluoride-modified ITQ-13 zeolite
+10.1016/s1387-1811(99)00177-8,qwen2.5VL-72,zeolite,images,1.0,2.0,0.5,,50.0,,,,,110.0,120.0,LiAlGeO4·H2O
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1.0,0.0243,,,,,,,,,,Ge-ZSM-5 (M3)
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1.0,0.0243,,,,,,,,,,Ge-ZSM-5 (M3)
+10.1039/c5ce02312b,qwen2.5VL-72,zeolite,images,,Not specified,,,,,,tmbi,,150.0,,ITQ-37
+10.1021/acs.cgd.7b01000,qwen2.5VL-72,zeolite,images,,,,,,,,tetraethylammonium cation,,,,PKU-22
+10.1016/j.micromeso.2010.10.050,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1,0.5,,,90,3,,TMHDA,37.4,170.0,,
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1,0.5,0.15,,90,3,,TMHDA,37.4,170.0,,
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1,0.5,0.10,,90,3,,TMHDA,37.4,170.0,,
+10.1016/s1387-1811(02)00270-6,qwen2.5VL-72,zeolite,images,2,4.86,1,1.73,,,,TMAOH,,140.0,144.0,Na-AlGe-JBW
+10.1016/s1387-1811(02)00270-6,qwen2.5VL-72,zeolite,images,2,3.90,1,2.91,,,,TMAOH,,175.0,120.0,K-AlGe-MON
+10.1021/acs.cgd.8b00078,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2012.10.004,qwen2.5VL-72,zeolite,images,1,0.48,,,,,0.48,"6-azonia-spiro-[5,5]-undecane",,,,[B-Si-Ge-O]-CHA
+10.1021/acs.chemmater.6b02468,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/acs.cgd.7b01000,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2010.10.050,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1,,,,,,,,,600.0,5.0,Cu-ITH
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1,,,,,,,,,600.0,5.0,Co-ITH
+10.1016/j.micromeso.2010.10.050,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,1.0,1.95,,,,,,various organic compounds including amines and quaternary ammonium compounds,,175.0,16.0,IPC-1P
+10.1016/s1387-1811(02)00270-6,qwen2.5VL-72,zeolite,images,,,,,,,,TMAOH (Tetramethylammonium hydroxide),TMAOH used as Structure-Directing Agent,,,
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,1,0.14,,,,,,"N,N,N',N'-Tetramethylethylenediamine",7.38,,,
+10.1021/acs.chemmater.6b02468,qwen2.5VL-72,zeolite,images,1,0.375,,,6.25,,,"1-methyl-3-(3,5-dimethylbenzyl)imidazolium or 1,2-dimethyl-3-(3-methylbenzyl)imidazolium",0.5,,,
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,1,,,,Small amounts,,,,,,,Silica-sodalite
+10.1016/j.micromeso.2010.10.050,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,,,,,,,,,450.0,,
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,0.1,,,,,,,,,,
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,0.07,,,,,,,,,,
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,0.05,,,,,,,,,,
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,0.03,,,,,,,,,,
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,0.025,,,,,,,,,,
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,1,0.5,,,83,2.5,0.1,"N,N,N',N'-Tetramethyl ethylenediamine",35,170.0,48.0,BEC-zeotype germanosilicates
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,1,0.33,,,,,,fluoride anions,,,,germanosilicate-sodalite
+10.1021/acs.chemmater.6b02468,qwen2.5VL-72,zeolite,images,,,,,,,,Benzyl-imidazolium OSDAs,,,,
+10.1016/j.cattod.2012.10.002,qwen2.5VL-72,zeolite,images,1,0.051,0.023,0.357,38.38,,,7-ethyl-6-azoniaspiro[5.5]undecane hydroxide,,175.0,480.0,Al-containing UTL zeolites
+10.1016/j.cattod.2012.10.002,qwen2.5VL-72,zeolite,images,1,0.051,0.017,0.357,38.38,,,7-ethyl-6-azoniaspiro[5.5]undecane hydroxide,,175.0,240.0,Fe-containing UTL zeolites
+10.1016/j.cattod.2012.10.002,qwen2.5VL-72,zeolite,images,1,0.051,0.023,0.357,38.38,,,7-ethyl-6-azoniaspiro[5.5]undecane hydroxide,,175.0,312.0,Ga-containing UTL zeolites
+10.1016/j.micromeso.2016.11.023,qwen2.5VL-72,zeolite,images,1,,,,,,,TEOS,,,,BEC-Si-Zr
+10.1016/j.micromeso.2016.11.023,qwen2.5VL-72,zeolite,images,1,,,,,,,,,,,Zr-BEA
+10.1016/j.solidstatesciences.2007.08.002,qwen2.5VL-72,zeolite,images,,1,,,40,,,ethylenediamine,0.5,170.0,336.0,IM-14
+10.1016/j.jcat.2009.08.012,qwen2.5VL-72,zeolite,images,,,,,,,,"1,5-bis-(methylpyrrolidinium)-pentane (MPP)",,,24.0,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,"PCA, Octylamine, OTA, HMTA",,,,"Zeolites IPC-1[original], IPC-2, IPC-4"
+10.1016/s1387-1811(99)00263-2,qwen2.5VL-72,zeolite,images,1,2.12,4.12,12,202.8,,,Ammonia solution (~33% NH₃),,225.0,120.0,"MAlGeO₄ where M = Na, K"
+10.1016/s1387-1811(99)00263-2,qwen2.5VL-72,zeolite,images,1,2.12,4.12,12,202.8,,,Ammonia solution (~33% NH₃),,225.0,120.0,Na₂RbAl₃Ge₃O₁₂
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,0.5,,,140,,,Spiroazaalkanes (primarily spiro(cmpounds tested as SDA),,,0.5,
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.00476,,,,,,,,,,Ge-ZSM-5
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.0244,,,,,,,,,,Ge-ZSM-5
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.11236,,,,,,,,,,Ge-ZSM-5
+10.1016/j.jcat.2007.12.003,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.jcat.2009.08.012,qwen2.5VL-72,zeolite,images,,,,,,,,,,279.85,,
+10.1016/j.jcat.2009.08.012,qwen2.5VL-72,zeolite,images,,,,,,,,,,124.85000000000002,,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,,1.04,,,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,Octylamine,1.05,,,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,Hexamethonium bromide,1.12,,,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,Tetramethylammonium chloride,1.13,,,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,Tetraethylammonium bromide,1.24,,,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,Tetrapropylammonium bromide,1.35,,,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,Trimethylphenylammonium bromide,1.41,,,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,Hexamethylenetetramine,1.48,,,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,Trimethyladamantylammonium hydroxide,1.95,,,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,Trimethyloctylammonium bromide,2.67,,,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,Dodecyltrimethylammonium chloride,3.15,,,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,Cetyltrimethylammonium hydroxide,3.63,,,
+10.1016/s1387-1811(99)00263-2,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.jcat.2007.12.003,qwen2.5VL-72,zeolite,images,1,0.493,0.075,0.224,2.239,0.448,,Hex(OH) and Hex(Br),0.20 and 0.30,169.85000000000002,5.0,ITQ-33
+10.1021/cm071790f,qwen2.5VL-72,zeolite,images,1,,,,,,,DETA,1,300.0,,aluminogermanate
+10.1039/c5ra09942k,qwen2.5VL-72,zeolite,images,1,Not specified,Not specified,,,,Not specified,Benzyltriethylammonium bromide,,,,ITQ-44 (zeolites)
+10.1039/c5ra09942k,qwen2.5VL-72,zeolite,images,1,Not specified,Doped,,,,,Benzyltriethylammonium bromide,,,,ITQ-44 (zeolites)
+10.1039/c5ra09942k,qwen2.5VL-72,zeolite,images,1,Doped,,,,,,Benzyltriethylammonium bromide,,,,ITQ-44 (zeolites)
+10.1039/c5ra09942k,qwen2.5VL-72,zeolite,images,1,,,,,,Doped,Benzyltriethylammonium bromide,,,,ITQ-44 (zeolites)
+10.1016/j.jcat.2009.08.012,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/cm049912g,qwen2.5VL-72,zeolite,images,,,,,,,,"1,3,3-trimethyl-6-azonium-tricyclo[3.2.1.46.6] dodecane hydroxyde (C14H26NOH)",,,,ITQ-7
+10.1021/cm049912g,qwen2.5VL-72,zeolite,images,,,,,,,,"1-isopropyl-4,4,7-trimethyl-4-azonia-tricyclo[5.2.2.0] undecane-8-ene iodide (C16H28NI)",,,,ITQ-7
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.01,,,,,,,2.1,199.85,0.5833333333333334,Ge-ZSM-5
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.01,,,,,,,3.1,199.85,0.5833333333333334,Ge-ZSM-5
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.25,,,,,,,0.41,199.85,0.5,Ge-ZSM-5
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.25,,,,,,,3.28,199.85,0.5,Ge-ZSM-5
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.2,,,,,,,1.78,199.85,0.3333333333333333,Ge-ZSM-5
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.2,,,,,,,3.2,199.85,,Ge-ZSM-5
+10.1016/j.jssc.2008.12.002,qwen2.5VL-72,zeolite,images,,,,,,,,3-ethyl-1-methyl-3H-imidazol-1-ium,,,,
+10.1016/j.jcat.2007.12.003,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1039/c5ra09942k,qwen2.5VL-72,zeolite,images,1,0.49,0.028,0.373,2.61,,,SDA-1,0.25,170.0,24.0,ITQ-44
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,,,,,,,,13,,,
+10.1016/s1387-1811(99)00070-0,qwen2.5VL-72,zeolite,images,0,96,96,,,,,,,,,aluminogermanate analog of zeolite X
+10.1039/c5ce00731c,qwen2.5VL-72,zeolite,images,1,5.1,,,,,,,,200.0,3.0,
+10.1039/c5ce00731c,qwen2.5VL-72,zeolite,images,1,5.1,,,,,,,,500.0,4.0,
+10.1016/j.jcrysgro.2009.08.031,qwen2.5VL-72,zeolite,images,1,0,,0.25,1,0.5,,,0.1,199.85,,MTN
+10.1016/j.jcrysgro.2009.08.031,qwen2.5VL-72,zeolite,images,1,0,,0.25,1,0,,amorphous,0.1,199.85,,MTN
+10.1016/j.jcrysgro.2009.08.031,qwen2.5VL-72,zeolite,images,1,0,,0.25,1,0.5,,amorphous,0.1,199.85,,MTN
+10.1016/j.jcrysgro.2009.08.031,qwen2.5VL-72,zeolite,images,1,0,,0.25,1,0.5,,,0.1,199.85,,MTN
+10.1016/j.jcrysgro.2009.08.031,qwen2.5VL-72,zeolite,images,1,0.18,,0.25,1,0.5,,,0.1,199.85,,MTN
+10.1016/j.jcrysgro.2009.08.031,qwen2.5VL-72,zeolite,images,1,0.5,,0.25,1,0.5,,,0.1,199.85,,AST
+10.1016/j.jcrysgro.2009.08.031,qwen2.5VL-72,zeolite,images,1,1,,0.25,1,0.5,,,0.1,199.85,,AST
+10.1016/s1387-1811(98)00294-7,qwen2.5VL-72,zeolite,images,0,2,1,,70,,,Na,0.7,800.0,24.0,Sodium metagermanate
+10.1016/s1387-1811(98)00294-7,qwen2.5VL-72,zeolite,images,0,2,1,,70,,,Cs,2.3,600.0,16.0,cesium germanate precursor
+10.1021/acs.cgd.8b00078,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2014.02.010,qwen2.5VL-72,zeolite,images,1.0,1.0,,0.01,,,,,,80.0,12.0,
+10.1016/j.micromeso.2014.02.010,qwen2.5VL-72,zeolite,images,1.0,0.81,,0.01,,,,,,80.0,12.0,
+10.1016/j.micromeso.2014.02.010,qwen2.5VL-72,zeolite,images,1.0,0.70,,0.01,,,,,,80.0,12.0,
+10.1016/j.micromeso.2014.02.010,qwen2.5VL-72,zeolite,images,1.0,0.62,,1,,,,,,80.0,12.0,
+10.1016/j.micromeso.2014.02.010,qwen2.5VL-72,zeolite,images,1.0,0.58,,1,,,,,,80.0,12.0,
+10.1016/j.micromeso.2012.06.036,qwen2.5VL-72,zeolite,images,1,0.990625,0.5027,,,,,"3',4'-dihydro-1'H-spiro[isoindoline-2,2'-isoquinolin]-2-ium",,,,ITQ-37
+10.1016/s1387-1811(00)00221-3,qwen2.5VL-72,zeolite,images,,,,1,1,,,,,,5.0,GaGe-NHI
+10.1016/s1387-1811(98)00294-7,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/jp0378438,qwen2.5VL-72,zeolite,images,5,1,,1.5,30,,0.12,Hexamethonium dihydroxide,,175.0,360.0,EU-1
+10.1021/jp0378438,qwen2.5VL-72,zeolite,images,5,1,,1.5,30,,,Hexamethonium dihydroxide,,175.0,360.0,ITQ-22
+10.1016/j.micromeso.2014.02.010,qwen2.5VL-72,zeolite,images,,,,,,,,BD⁺ or HM²⁺ cations,,,,
+10.1021/acs.cgd.8b00078,qwen2.5VL-72,zeolite,images,1,,,,,,,4-dimethylaminopyridine,,,,
+10.1016/j.micromeso.2017.03.033,qwen2.5VL-72,zeolite,images,1,,0.02,,,,,,,,72.0,
+10.1016/j.micromeso.2017.03.033,qwen2.5VL-72,zeolite,images,1,,0.01,,,,,,,,72.0,
+10.1016/j.micromeso.2017.03.033,qwen2.5VL-72,zeolite,images,1,,0.0067,,,,,,,,72.0,
+10.1016/j.micromeso.2017.03.033,qwen2.5VL-72,zeolite,images,1,,0.005,,,,,,,,72.0,
+10.1039/c5ce00731c,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(99)00070-0,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1002/chem.201602419,qwen2.5VL-72,zeolite,images,1,High,,,,,,SDA2,,169.85000000000002,24.0,
+10.1016/s1387-1811(00)00221-3,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(98)00294-7,qwen2.5VL-72,zeolite,images,1,0.769,0.343,,,,,,,,,
+10.1016/s1387-1811(99)00070-0,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.cattod.2012.10.002,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.cattod.2012.10.002,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(00)00221-3,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,"AlGe-CAN, GaGe-CAN"
+10.1002/chem.201602419,qwen2.5VL-72,zeolite,images,1,0.98,,0.75,16.5,,,SDAOH,,149.85000000000002,360.0,NUD-2
+10.1002/chem.201602419,qwen2.5VL-72,zeolite,images,1.0,0.1,,,,,,1-methyl-3-(3′-methylbenzyl)imidazolium,1.5,,12.0,NUD-2S
+10.1002/chem.201602419,qwen2.5VL-72,zeolite,images,1.0,0.1,,,,,,1-methyl-3-(3′-methylbenzyl)imidazolium,0.75,,12.0,NUD-2S
+10.1002/chem.201602419,qwen2.5VL-72,zeolite,images,1.0,0.2,,,,,,1-methyl-3-(3′-methylbenzyl)imidazolium,1.0,,12.0,NUD-2S
+10.1002/chem.201602419,qwen2.5VL-72,zeolite,images,1.0,0.2,,,,,,1-methyl-3-(3′-methylbenzyl)imidazolium,1.0,,12.0,NUD-2S
+10.1002/chem.201602419,qwen2.5VL-72,zeolite,images,1.0,0.5,,,,,,1-methyl-3-(3′-methylbenzyl)imidazolium,1.0,,12.0,NUD-2S
+10.1002/anie.201300846,qwen2.5VL-72,zeolite,images,0,1,1,,,,,"1,2-PDA",,180.0,192.0,GaGeO-JU64
+10.1002/chem.201603434,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1007/s11244-013-0170-7,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1007/s10934-015-0051-5,qwen2.5VL-72,zeolite,images,1.0,0.04,,0.30,5.0,,,TMAOH,0.45,170.0,24.0,[Ge]PLS-1
+10.1007/s10934-015-0051-5,qwen2.5VL-72,zeolite,images,1.0,0.01,,0.30,5.0,,,H-kanemite,0.15,170.0,72.0,[Ge]PLS-1
+10.1002/chem.201603434,qwen2.5VL-72,zeolite,images,,,,,,,,,,25.0,24.0,As-synthesized zeolite
+10.1002/chem.201603434,qwen2.5VL-72,zeolite,images,,,,,,,,,,80.0,24.0,Calcined zeolites
+10.1007/s11244-013-0170-7,qwen2.5VL-72,zeolite,images,1,0.0989,0.010989,0.27473,5.4945,0.6154,,HM(OH)2,0.2747,160.0,336.0,H-ITQ-13
+10.1007/s10934-015-0051-5,qwen2.5VL-72,zeolite,images,1,0.04,,,,,,TMAOH,,,,GePLS-1
+10.1007/s10934-015-0051-5,qwen2.5VL-72,zeolite,images,1,0.02,,,,,,TMAOH,,,,GeCDS-1
+10.1007/s10934-015-0051-5,qwen2.5VL-72,zeolite,images,1,0.01,,,,,,TMAOH,,,,GePLS-1
+10.1007/s10934-015-0051-5,qwen2.5VL-72,zeolite,images,1,0.005,,,,,,TMAOH,,,,GeCDS-1
+10.1002/chem.201602419,qwen2.5VL-72,zeolite,images,,,,,,,,1-Methyl-3-(2′-methylbenzyl)imidazolium chloride (SDA1 Cl),,69.85000000000002,48.0,viscous oil
+10.1016/j.micromeso.2006.11.005,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,,,,,,,,CTA,,,,
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,,,,,,,,DTA,,,,
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,,,,,,,,OTA,,,,
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,,,,,,,,TMAA,,,,
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,,,,,,,,HMTA,,,,
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,,,,,,,,TPA,,,,
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,,,,,,,,"N,N,N',N'-Tetramethylethylenediamine",,800.0,,BEC-type germanosilicates and B-containing BEC-zeotype
+10.1021/acs.chemmater.6b02468,qwen2.5VL-72,zeolite,images,1,0.2,,0.25,10,0.5,,,0.5,160.0,840.0,CIT-13
+10.1021/acs.chemmater.6b02468,qwen2.5VL-72,zeolite,images,1,0.2,,0.375,10,0.75,,,0.75,160.0,840.0,CIT-13
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,1.0,0.0,,1.5,3.5,0.6,,ethylene glycol,,,336.0,silica-sodalite
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,0.67,0.33,,1.5,3.5,0.6,,ethylene glycol,,,168.0,germanosilicate-sodalite
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,,,,,,,,Octylamine,,,,
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,,,,,,,,Hexamethonium bromide,,,,
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,,,,,,,,Tetramethylammonium chloride,,,,
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,,,,,,,,Tetraethylammonium bromide,,,,
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,,,,,,,,Tetrapropylammonium bromide,,,,
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,,,,,,,,Trimethylphenylammonium bromide,,,,
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,,,,,,,,Hexamethylenetetramine,,,,
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,,,,,,,,Trimethyladamantylammonium hydroxide,,,,
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,,,,,,,,Trimethylcetylammnonium bromide,,,,
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,,,,,,,,Dodecyldimethylammonium chloride,,,,
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,,,,,,,,Cetyltrimethylammonium hydroxide,,,,
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(02)00270-6,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,CsAlGe2O6
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,1,0,,1.5,0,,,,0,179.85000000000002,672.0,SOD
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,1,0,,1.5,0.2,,,,0,179.85000000000002,504.0,SOD
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,1,0,,1.5,0.5,,,,0,179.85000000000002,504.0,SOD
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,1,0,,1.5,1.0,,,,0,179.85000000000002,504.0,SOD
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,1,0,,1.5,2.0,,,,0,179.85000000000002,24.0,Quartz
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,1,0,,1.5,3.5,,,,0,179.85000000000002,24.0,Quartz
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,0.8,0.2,,1.5,0,,,,0,179.85000000000002,336.0,SOD
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,0.7,0.3,,1.5,0,,,,0,179.85000000000002,168.0,SOD
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,0.5,0.5,,1.5,0,,,,0,179.85000000000002,168.0,SOD
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,0.7,0.3,,1.5,3.5,,,,0,179.85000000000002,24.0,Quartz
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,1,0,,1.5,3.5,,,,0.6,179.85000000000002,336.0,SOD
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,0.7,0.3,,1.5,3.5,,,,0.6,179.85000000000002,168.0,SOD
+10.1021/acs.chemmater.6b02468,qwen2.5VL-72,zeolite,images,,,,,,,,Imidazole-based organic structure-directing agent,0.8,,,
+10.1021/acs.cgd.7b01000,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2010.10.050,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,0.1,,,,,,,,,,Ge-ITQ-13
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,0.05,,,,,,,,,,Al-Ge-ITQ-13
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,0.033,,,,,,,,,,Al-Ge-ITQ-13
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,0.025,,,,,,,,,,Al-Ge-ITQ-13
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2008.06.036,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(02)00270-6,qwen2.5VL-72,zeolite,images,1,1.59,1,,3.2,,,,6.16,,,
+10.1021/acs.chemmater.6b02468,qwen2.5VL-72,zeolite,images,,,,,,replaced with NH₄F,,Unknown,,,,CIT-13 solids
+10.1039/c5ce02312b,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2010.10.050,qwen2.5VL-72,zeolite,images,1,,0.009709,,,,,,,,,
+10.1016/j.micromeso.2010.10.050,qwen2.5VL-72,zeolite,images,1,,0.008333,,,,,,,,,
+10.1016/j.micromeso.2010.10.050,qwen2.5VL-72,zeolite,images,1,,0.007143,,,,,,,,,
+10.1021/acs.cgd.7b01000,qwen2.5VL-72,zeolite,images,,,,,,,,TEA⁺,,,,PKU-22
+10.1021/acs.cgd.7b01000,qwen2.5VL-72,zeolite,images,,,,,,,,TEA⁺,,,,PKU-22a
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1,0.257,,,,,,tetramethylheptanediamine,,,,ITH-type framework
+10.1039/c5ce02312b,qwen2.5VL-72,zeolite,images,1,1,,0.333,3,1,,tmbiOH₃,0.333,162.5,360.0,
+10.1016/j.micromeso.2010.10.050,qwen2.5VL-72,zeolite,images,1,0.2,0.02,0.65,8.7,0.65,,SDAOH,,175.0,144.0,H-ITQ-7
+10.1021/acs.cgd.7b01000,qwen2.5VL-72,zeolite,images,1.0,4.0,,5.0,30.0,2.5,,Tetraethylammonium,2.5,165.0,504.0,PKU-22
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1,0.8,,,,,,"N,N,N’,N’-tetramethyl-1,6-hexanediamine","Not provided in a quantifiable form, only described as MeO/SiO2",,,ITH-type germanosilicate
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1,0.1,,,,,,"N,N,N’,N’-tetramethyl-1,6-hexanediamine","Not provided in a quantifiable form, only described as MeO/SiO2",,,ITH-type germanosilicate
+10.1016/s1387-1811(02)00270-6,qwen2.5VL-72,zeolite,images,,1,1,Empirical,Defined per compound,,,TMAOH,Provided by TMAOH,,,Na-AlGe-JBW
+10.1016/s1387-1811(02)00270-6,qwen2.5VL-72,zeolite,images,,1.64,1,Empirical,Defined per compound,,,TMAOH,Provided by TMAOH,,,K-AlGe-MON
+10.1016/s1387-1811(02)00270-6,qwen2.5VL-72,zeolite,images,,2,1,Empirical,Defined per compound,,,TMAOH,Provided by TMAOH,,,Cs-AlGe-ANA
+10.1016/s1387-1811(02)00270-6,qwen2.5VL-72,zeolite,images,,3,1,Empirical,Defined per compound,,,TMAOH,Provided by TMAOH,,,Rb-AlGe-Para
+10.1016/j.micromeso.2012.10.004,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,2,,,,,,,4,175.0,96.0,UTL
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.4,,,,,,,4,175.0,96.0,UTL
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,2,,,,,,,1.7,175.0,96.0,UTL
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,2,,,,,,,1.7,175.0,96.0,UTL
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,0.2,1,,,,,,,4,175.0,96.0,UTL
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,4,,,,,,,4,175.0,96.0,UTL
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.5,,,,,,,2.4,175.0,96.0,UTL
+10.1016/j.jcat.2006.04.036,qwen2.5VL-72,zeolite,images,1,0.5,0,,1,0.5,,MSTP,0.5,,72.0,ITQ-30
+10.1016/j.jcat.2006.04.036,qwen2.5VL-72,zeolite,images,1,∞,0.02,,1,0.5,,MSTP,0.5,,120.0,ITQ-30
+10.1016/j.jcat.2006.04.036,qwen2.5VL-72,zeolite,images,1,∞,0.04,,2,0.5,,MSTP,,,336.0,ITQ-30
+10.1016/j.jcat.2006.04.036,qwen2.5VL-72,zeolite,images,1,∞,0.1,,2,0.5,,MSTP,,,720.0,ITQ-30
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,1,3.00,,,7.5,,,Decamethonium dihydroxide,0.25,175.0,,UOV samples
+10.1021/cm502525w,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(99)00177-8,qwen2.5VL-72,zeolite,images,,1.0,1.0,,1.0,,,,,,,LiAlGeO₄·H₂O
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/cm502525w,qwen2.5VL-72,zeolite,images,0.66,0.331,,,5,0.5,,HM²⁺,0.25,175.0,336.0,ITQ-13
+10.1021/cm502525w,qwen2.5VL-72,zeolite,images,0.75,0.25,,,5,,,HM²⁺,0.25,175.0,336.0,ITQ-13 (no HF)
+10.1021/cm502525w,qwen2.5VL-72,zeolite,images,0.75,0.25,,,10,,,MPP²⁺,0.25,175.0,168.0,ITQ-22
+10.1021/cm502525w,qwen2.5VL-72,zeolite,images,1,0.5,,,75,,,DMAD⁺,0.75,175.0,144.0,IM-12
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.00476,,,,,,,,,,Ge-ZSM-5
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.02439,,,,,,,,,,Ge-ZSM-5
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.11236,,,,,,,,,,Ge-ZSM-5
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,1,,,,,,,,,,UTL topology zeolite
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.5,,,,,,,,,,UTL topology zeolite
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.2,,,,,,,,,,UTL topology zeolite
+10.1016/j.jcat.2006.04.036,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,,,,,,,,,,25.0,3.0,UOV-0.5
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,,,,,,,,,,105.0,3.0,UOV-0.5
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,,,,,,,,,,145.0,3.0,UOV-0.5
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,,,,,,,,,,25.0,3.0,IPC-12
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,,,,,,,,,,105.0,3.0,IPC-12
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,,,,,,,,,,145.0,3.0,IPC-12
+10.1016/s1387-1811(02)00270-6,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1.0,0.0,,0.25,30,0.5,,TMAOH,0.25,,,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1.0,0.15,,0.25,30,0.5,,TMAOH,0.25,149.85000000000002,120.0,ITQ-29 crystals
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1.0,0.33,,0.25,30,0.5,,TMAOH,0.25,149.85000000000002,120.0,ITQ-29 crystals
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1.0,0.5,,0.25,30,0.5,,TMAOH,0.25,149.85000000000002,120.0,ITQ-29 crystals
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1.0,0.75,,0.25,30,0.5,,TMAOH,0.25,149.85000000000002,120.0,ITQ-29 crystals
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1.0,3.0,,0.25,30,0.5,,TMAOH,0.25,,,ITQ-29 crystals
+10.1021/ic301449y,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/ic301449y,qwen2.5VL-72,zeolite,images,1.0,1.0,,,23.45,0,,MPP,7.9,,,pure SU-67
+10.1021/ic301449y,qwen2.5VL-72,zeolite,images,1.0,1.0,,,43.85,0,,MPP,7.9,,,SU-67 and ASU-14
+10.1021/ic301449y,qwen2.5VL-72,zeolite,images,1.0,1.0,,,58.5,0,,MPP,5.3,,,GeO2
+10.1021/ic301449y,qwen2.5VL-72,zeolite,images,1.0,1.0,,,0,0,,MPP,2.1,,,GeO2
+10.1021/ic301449y,qwen2.5VL-72,zeolite,images,1.0,1.0,,,58.5,0,,MPP,10.5,,,SU-67 and GeO2
+10.1021/ic301449y,qwen2.5VL-72,zeolite,images,1.0,1.0,,,17.6,0,,MPP,7.9,,,JLG-5/JLG-5 and amorphous
+10.1021/ic301449y,qwen2.5VL-72,zeolite,images,1.0,1.0,,,5.9,0,,MPP,3.15,,,ASU-7
+10.1021/ic301449y,qwen2.5VL-72,zeolite,images,1.0,1.0,,,43.85,0,,MPP,7.9,,,ASU-7 and ASU-12
+10.1016/j.jssc.2014.12.031,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1,0,,0.5,43.5,,,TMAOH,,149.85000000000002,120.0,ITQ-29 crystals
+10.1016/j.micromeso.2014.02.010,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1039/c4ra01383b,qwen2.5VL-72,zeolite,images,1,0.6667,,0.4167,16.6667,,,Decamethonium dihydroxide (from bromide form),Decamethonium cation / 0.6,170.0,336.0,IM-17 zeolite
+10.1016/j.cattod.2012.10.002,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,1,,,1.5,,,,EG,,179.85000000000002,600.0,
+10.1021/acs.chemmater.6b02468,qwen2.5VL-72,zeolite,images,1,5.63,,,,,,OSDA,0.103,,,
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,1.000,0.226,,1.226,,,,,,,,
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,0.1,,,,,,,,,,
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,0.05,,,,,,,,,,
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,0.033,,,,,,,,,,
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,0.025,,,,,,,,,,
+10.1016/j.micromeso.2006.11.005,qwen2.5VL-72,zeolite,images,,,,,,,,Organic amines,,,,CCUT-9
+10.1016/j.micromeso.2006.11.005,qwen2.5VL-72,zeolite,images,,,,,,,,"Na⁺, K⁺, Cs⁺",,,,CCUT-9
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,0.062,0.008,0.5,5,0.5,,hexamethonium,0.25,142.5,264.0,Al-Ge-ITQ-13
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/acs.chemmater.6b02468,qwen2.5VL-72,zeolite,images,1,0.5,,45,4.48,,,Spiro-quaternary ammonium,0.37,175.0,336.0,Germanosilicate CIT-13
+10.1021/acs.chemmater.6b02468,qwen2.5VL-72,zeolite,images,1,0.5,,45,4.48,,,HF-protocol,0.37,160.0,,Germanosilicate CIT-13
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,0.80,0.20,,1.5,,,,Ethylene glycol,20,,,germanosilicate-sodalite
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,0.67,0.33,,1.5,,,,Ethylene glycol,20,,,germanosilicate-sodalite
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,0.50,0.50,,1.5,,,,Ethylene glycol,20,,,germanosilicate-sodalite
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,1,0.23,,,144,0.54,,TMEDA,35,170.0,10.0,SiGe-BEC
+10.1039/c5ce02312b,qwen2.5VL-72,zeolite,images,1,1,,0.5,3,,,,0.33,150.0,1080.0,ITQ-37
+10.1039/c5ce02312b,qwen2.5VL-72,zeolite,images,1,0.5,,0.5,5,,,,0.33,150.0,1080.0,U1
+10.1039/c5ce02312b,qwen2.5VL-72,zeolite,images,1,0.2,,0.5,10,,,,0.33,175.0,1080.0,ITQ-37
+10.1016/j.micromeso.2010.10.050,qwen2.5VL-72,zeolite,images,1,0.2564,0.009975,,,,,,,,,
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1,0.5,,,90,3,,"OSDA (Cu-ITH, Co-ITH)",37.4,,,GeSi-ITH (single crystals)
+10.1016/j.micromeso.2012.10.004,qwen2.5VL-72,zeolite,images,1.0,0.042,,,,,,"6-azonia-spiro-[5,5]-undecane hydroxide",24.0,,,B–Si–Ge–O]-CHA
+10.1016/s1387-1811(02)00270-6,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2012.10.004,qwen2.5VL-72,zeolite,images,1,0.5,,,0.7,,1.4,SDA3.0,1.0,350.0,336.0,[B–Si–Ge–O]-CHA
+10.1016/j.micromeso.2012.10.004,qwen2.5VL-72,zeolite,images,1,0.2,,,0.7,,1.4,SDA3.0,1.0,350.0,336.0,[B–Si–Ge–O]-CHA
+10.1016/j.micromeso.2012.10.004,qwen2.5VL-72,zeolite,images,1,0.1,,,0.7,,1.4,SDA3.0,1.0,350.0,336.0,[B–Si–Ge–O]-CHA
+10.1016/s1387-1811(02)00270-6,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2008.06.036,qwen2.5VL-72,zeolite,images,,1,,,,,,co-templated with alkali metal cation and organic amines,,,,CCUT-9
+10.1039/c5ce02312b,qwen2.5VL-72,zeolite,images,1,,,1,,,,imidazolium tmbi,,,,ITQ-37
+10.1021/acs.cgd.7b01000,qwen2.5VL-72,zeolite,images,1,,,,,,,TEA⁺ TEA-SDA cation,1,,,PKU-22 -> PKU-22a transformation
+10.1016/j.micromeso.2010.10.050,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,,0.0198,,,,,,,,440.0,
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,,0.0192,,,,,,,,440.0,
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1,0.5,,,90,3,,,37.4,170.0,,
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1,0.5,,,90,3,,,37.4,170.0,,
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1,0.5,,,90,3,,,37.4,170.0,,
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1,0.5,,,90,3,,,37.4,170.0,,
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1,0.5,,,90,3,,,37.4,170.0,,
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1,0.5,,,90,3,,,37.4,170.0,,
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1,0.5,,,90,3,,,37.4,170.0,,
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1,0.5,,,90,3,,,37.4,170.0,,
+10.1021/cm502525w,qwen2.5VL-72,zeolite,images,6,1,,,,,,HM or MPP,,,,ITQ-22
+10.1021/cm502525w,qwen2.5VL-72,zeolite,images,6,1,,,,,,HM or MPP,,,,ITQ-13
+10.1021/cm502525w,qwen2.5VL-72,zeolite,images,8.5,1,,,,,,HM or MPP,,,,IM-12 or ITQ-15
+10.1021/cm502525w,qwen2.5VL-72,zeolite,images,1,0.5,0,,,,,HM,,,,"Generic recipe, assuming normalization"
+10.1016/s1387-1811(99)00177-8,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.1124,,,,,,,,,,
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,IPC-12 or IPC-12P
+10.1016/j.jcat.2006.04.036,qwen2.5VL-72,zeolite,images,1,,0.1,,,,,N-methyl-sparteinium (MSPT),,,,ITQ-30
+10.1016/j.jcat.2006.04.036,qwen2.5VL-72,zeolite,images,1,,,,,,,N-methyl-sparteinium (MSPT),,,,ITQ-30
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.5,,,,,,"(6R,10S)-6,10-Dimethyl-5-azonia-spiro[4.5]decanehydroxide",0.75,,144.0,
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.5,,,,,,"(6R,10S)-6,10-Dimethyl-5-azonia-spiro[4.5]decanehydroxide",0.88,,144.0,
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,1.0,2.0,,,10,,,,,550.0,6.0,UOV-n zeolites
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,1.0,0.166,,,5,,,,,550.0,6.0,UOV-n-c zeolites
+10.1021/cm502525w,qwen2.5VL-72,zeolite,images,1,0.22,,,,,,,,95.0,,
+10.1016/s1387-1811(99)00177-8,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/ic301449y,qwen2.5VL-72,zeolite,images,,1,,,17.6,,,MPP,5.25,160.0,168.0,SU-67
+10.1016/j.jssc.2014.12.031,qwen2.5VL-72,zeolite,images,1,0.8,,,,,,"N,N-diethyl ethylenediamine","N,N-diethyl ethylenediamine",,,
+10.1021/cm502525w,qwen2.5VL-72,zeolite,images,,,,,,,,DMAD+,,,,ITQ-13 or ITQ-22
+10.1016/j.micromeso.2016.11.023,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1,0,,,,,,ROH,,149.85000000000002,120.0,
+10.1016/j.solidstatesciences.2007.08.002,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.jssc.2014.12.031,qwen2.5VL-72,zeolite,images,1,0.8,,,30,3.75,,OSDA,54.25,170.0,,STW germanosilicate
+10.1016/j.jssc.2014.12.031,qwen2.5VL-72,zeolite,images,1,0.8,,,30,3.75,,OSDA,54.25,170.0,,STW germanosilicate
+10.1016/j.jssc.2014.12.031,qwen2.5VL-72,zeolite,images,1,0.8,,,30,3.75,,OSDA,54.25,170.0,,STW germanosilicate
+10.1016/j.jssc.2014.12.031,qwen2.5VL-72,zeolite,images,1,0.8,,,30,3.75,,OSDA,54.25,170.0,,STW germanosilicate
+10.1016/s1387-1811(02)00270-6,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2016.11.023,qwen2.5VL-72,zeolite,images,1,0,,0.54,5.6,0.42,,TEAOH,,139.85000000000002,360.0,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1,0.49,,0.75,10.45,0.75,,ROH,0.37,149.85000000000002,168.0,ITQ-29 crystals
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1,0.49,,0.75,44.78,0.75,,ROH,0.37,149.85000000000002,168.0,ITQ-29 crystals
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1,0.49,,0.75,59.7,0.75,,ROH,0.37,149.85000000000002,168.0,ITQ-29 crystals
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1,0.49,,0.75,119.4,0.75,,ROH,0.37,149.85000000000002,168.0,ITQ-29 crystals
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1,0.49,,0.75,59.7,0.75,,ROH,0.37,149.85000000000002,120.0,ITQ-29 crystals
+10.1016/j.solidstatesciences.2007.08.002,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(00)00221-3,qwen2.5VL-72,zeolite,images,,24,6,6,,,,Na,,,,
+10.1002/anie.200461911,qwen2.5VL-72,zeolite,images,,,,,,,,DETA,,,,SU-16
+10.1002/chem.201703361,qwen2.5VL-72,zeolite,images,1,0.4,,,20,0.6,,4-pyrrolidinopyridine,0.6,,,
+10.1038/nmat921,qwen2.5VL-72,zeolite,images,1,0.50,0.02,1.89,47.09,,,MPP(OH)2,0.38,175.0,168.0,ITQ-22
+10.1038/nmat921,qwen2.5VL-72,zeolite,images,1,0.50,0.03,1.89,47.09,,,MPP(OH)2,0.38,175.0,288.0,Al-containing ITQ-22
+10.1007/s11144-009-0129-7,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,ITQ-13
+10.1038/nmat921,qwen2.5VL-72,zeolite,images,1,0.5,,,5.3,,,N-methylpyrrolidinium cation,,,,ITQ-22
+10.1002/chem.201703361,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1002/anie.200801375,qwen2.5VL-72,zeolite,images,,36,,,16,,,2-methylpiperazine,,,,JLG-5
+10.1002/anie.201501718,qwen2.5VL-72,zeolite,images,0,1,0,0,6,,,2-propanolamine,3.5,150.0,120.0,
+10.1007/s11244-013-0170-7,qwen2.5VL-72,zeolite,images,,,,,,,,,,400.0,2.0,
+10.1007/s11244-013-0170-7,qwen2.5VL-72,zeolite,images,,,,,,,,,,400.0,2.0,
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1.0,10.0,,,90.0,3.0,,,37.4,170.0,168.0,Cu-ITH
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1.0,5.0,,,90.0,3.0,,,37.4,170.0,168.0,Cu-ITH
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1.0,3.3,,,90.0,3.0,,,37.4,170.0,168.0,Cu-ITH
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1.0,2.5,,,90.0,3.0,,,37.4,170.0,168.0,Cu-ITH
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1.0,10.0,,,90.0,3.0,,,37.4,170.0,168.0,Co-ITH
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1.0,5.0,,,90.0,3.0,,,37.4,170.0,168.0,Co-ITH
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1.0,3.3,,,90.0,3.0,,,37.4,170.0,168.0,Co-ITH
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1.0,2.5,,,90.0,3.0,,,37.4,170.0,168.0,Co-ITH
+10.1038/nature00924,qwen2.5VL-72,zeolite,images,1,0.524,,,,,,N(16)-methylsparteinium cation,1.91,,,ITQ-21
+10.1002/anie.201801386,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1,0.257,,,90,3,,OSDA,37.4,,,GeSi-ITH
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1,0.257,,,90,3,,OSDA,37.4,,,Cu-ITH
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,1,0.257,,,90,3,,OSDA,37.4,,,Co-ITH
+10.1002/anie.201001506,qwen2.5VL-72,zeolite,images,,,,,,,,"(2'-(R),6'-(S))-2',6'-dimethylspiro[isoindole-2,1'-piperidin-1'-ium]",,,,ITQ-44
+10.1038/nchem.2761,qwen2.5VL-72,zeolite,images,,deducible_from_starting_material,,,provided_in_volume_but_not_as_numeric_ratio,,,,,95.0,29.5,Ge-UTL
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,1,4.42,,,144,0.54,,TMEDA,1.0,170.0,10.0,SiGe-BEC
+10.1002/anie.201506678,qwen2.5VL-72,zeolite,images,1,,,,,,,triphenylsulfonium,,,,ISV
+10.1002/anie.201506678,qwen2.5VL-72,zeolite,images,1,,,,,,,triphenylsulfonium,,,,unknown (GeZA)
+10.1002/anie.201506678,qwen2.5VL-72,zeolite,images,1,,,,,,,tri(para-tolyl)sulfonium,,,,ITT
+10.1002/anie.201506678,qwen2.5VL-72,zeolite,images,1,,,,,,,tributylsulfonium,,,,MEL
+10.1038/nchem.2761,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,"IPC-1P, IPC-2P"
+10.1039/c4ra01383b,qwen2.5VL-72,zeolite,images,1,0.289,,,1.8,,,,,,,
+10.1021/acs.cgd.8b00078,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(98)00294-7,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.jcat.2009.08.012,qwen2.5VL-72,zeolite,images,,,,,,,,,,279.85,,
+10.1016/s1387-1811(99)00263-2,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,,,,,,,SDA10,,175.0,120.0,zeolite
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,,,,,,,SDA14,,,336.0,zeolite
+10.1016/j.jcat.2009.08.012,qwen2.5VL-72,zeolite,images,1,0.5,0.0303,15.5,22.727,,,MPP cation,,174.85000000000002,288.0,ITQ-22
+10.1016/s1387-1811(99)00263-2,qwen2.5VL-72,zeolite,images,1,8.24,4.12,4.5,202.8,,,,,225.0,,
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,0.235,,,,,,Organic amine hydroxide,0.538,,,UTL
+10.1021/cm049912g,qwen2.5VL-72,zeolite,images,1,1,,,,,,SDA 3,Referenced structurally in SDA's,,840.0,Pure ITQ-7
+10.1021/cm049912g,qwen2.5VL-72,zeolite,images,1,1,,,,,,SDA 4,Referenced structurally in SDA's,,840.0,"Pure β-C, β-C + β"
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.01,,,,,,,,,,Ge-ZSM-5
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.01,,,,,,,,,,Ge-ZSM-5
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.04,,,,,,,,,,Ge-ZSM-5
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.04,,,,,,,,,,Ge-ZSM-5
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.2,,,,,,,,,,Ge-ZSM-5
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.2,,,,,,,,,,Ge-ZSM-5
+10.1016/j.jssc.2008.12.002,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.jcat.2007.12.003,qwen2.5VL-72,zeolite,images,1,0.5,,,,,,,,,,
+10.1021/cm071790f,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1039/c5ra09942k,qwen2.5VL-72,zeolite,images,1,1,,,,,,commercial benzyltriethylammonium bromide (SDA-1),,,,Germanosilicate zeolite ITQ-44 with extra-large 18-rings
+10.1016/j.jcat.2007.12.003,qwen2.5VL-72,zeolite,images,2.0,4.0,,0.1,5.0,,,hexamethonium,0.25,174.85000000000002,336.0,Amorphous
+10.1016/j.jcat.2007.12.003,qwen2.5VL-72,zeolite,images,2.0,4.0,,0.1,13.3,,,hexamethonium,0.25,174.85000000000002,336.0,ITQ-24
+10.1016/j.jcat.2007.12.003,qwen2.5VL-72,zeolite,images,2.0,1.0,,0.1,21.67,,,hexamethonium,0.25,174.85000000000002,336.0,ITQ-24
+10.1016/j.jcat.2007.12.003,qwen2.5VL-72,zeolite,images,2.0,6.67,,0.5,30,,,hexamethonium,0.25,174.85000000000002,336.0,ITQ-24
+10.1016/j.jcat.2007.12.003,qwen2.5VL-72,zeolite,images,15,2.0,,0.3,21.67,,,hexamethonium,,174.85000000000002,336.0,ITQ-24
+10.1021/cm071790f,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/cm049912g,qwen2.5VL-72,zeolite,images,,,,,,,,SDA-3; SDA-4,,,,
+10.1016/s1387-1811(99)00263-2,qwen2.5VL-72,zeolite,images,1,3,3,,1,,,,,,,Na2RbAl3Ge3O12⋅H2O
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.01,0.0,19.5,438,0.0,0.0,TPAOH,50.6,26.850000000000023,24.0,membrane
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.01,0.0,19.5,438,0.0,0.0,TPAOH,50.6,26.850000000000023,24.0,membrane
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.25,0.0,19.5,438,0.0,0.0,TPAOH,75,26.850000000000023,24.0,membrane
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.25,0.0,19.5,438,0.0,0.0,TPAOH,75,26.850000000000023,24.0,membrane
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.25,0.0,19.5,438,0.0,0.0,TPAOH,75,26.850000000000023,24.0,membrane
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.2,0.0,19.5,438,0.0,0.0,TPAOH,150,26.850000000000023,24.0,membrane
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.2,0.0,19.5,438,0.0,0.0,TPAOH,150,26.850000000000023,24.0,membrane
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.2,0.0,19.5,438,0.0,0.0,TPAOH,150,26.850000000000023,24.0,membrane
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,0.2,,,,,,SDA1,,,120.0,UTL
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,0.2,,,,,,SDA5,,,120.0,UTL
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,0.2,,,,,,SDA7,,,120.0,UTL
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,0.2,,,,,,SDA9,,,120.0,UTL
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,0.2,,,,,,SDA11,,,120.0,UTL
+10.1016/j.jssc.2008.12.002,qwen2.5VL-72,zeolite,images,1,0.73,,,0.3536,,,,,1100.0,,
+10.1016/j.micromeso.2012.06.036,qwen2.5VL-72,zeolite,images,96,96,1.4,,,,,"3′,4′-dihydro-1′H-spiro[isoindoline-2,2′-isoquinolin]-2-ium",20,500.0,,ITQ-37
+10.1021/jp0378438,qwen2.5VL-72,zeolite,images,1.0,,0.072,,,,,Hexamethonium,0.072,,,ITQ-22
+10.1021/jp0378438,qwen2.5VL-72,zeolite,images,1.0,,0.072,,,,,Hexamethonium,0.072,,,ITQ-13
+10.1021/jp0378438,qwen2.5VL-72,zeolite,images,1.0,,0.096,,,,,Hexamethonium,0.096,,,ITQ-24
+10.1021/jp0378438,qwen2.5VL-72,zeolite,images,1.0,,0.072,,,,,Hexamethonium,0.072,,,EU-1
+10.1016/s1387-1811(98)00294-7,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/acs.cgd.8b00078,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2014.02.010,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2017.03.033,qwen2.5VL-72,zeolite,images,,,,,,,,Hexamethonium dihydroxide (R(OH)_2),,,,Al-ITQ-13 samples
+10.1016/s1387-1811(99)00070-0,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.inoche.2013.11.010,qwen2.5VL-72,zeolite,images,1,2,,4,,,,DETA + Pyridine,,180.0,180.0,CCUT-9
+10.1016/j.micromeso.2017.03.033,qwen2.5VL-72,zeolite,images,1,0.05,0.12,0.3,5,0.05,,hexamethonium dihydroxide,,,4.0,Al-ITQ-13
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,0.5,,,,,,,0.5,,,
+10.1039/c5ce00731c,qwen2.5VL-72,zeolite,images,1,,,,5,0.5,,HM-dq,0.25,140.0,168.0,Ge-BEC
+10.1039/c5ce00731c,qwen2.5VL-72,zeolite,images,1,,,,7,0.5,,HM-dq,0.25,140.0,168.0,Ge-BEC
+10.1039/c5ce00731c,qwen2.5VL-72,zeolite,images,0.833,0.199,,,7,0.5,,HM-dq,0.25,140.0,168.0,Ge-BEC
+10.1039/c5ce00731c,qwen2.5VL-72,zeolite,images,0.833,0.199,,,7,0.5,,HM-dq,0.25,140.0,168.0,Ge-BEC
+10.1039/c5ce00731c,qwen2.5VL-72,zeolite,images,0.833,0.199,,,7,,,HM-dq,0.25,140.0,168.0,Ge-BEC
+10.1039/c5ce00731c,qwen2.5VL-72,zeolite,images,0.882,0.134,,,7,0.5,,HM-dq,0.25,140.0,168.0,Ge-BEC
+10.1016/s1387-1811(99)00070-0,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2012.06.036,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.jcrysgro.2009.08.031,qwen2.5VL-72,zeolite,images,1.00,19.92,,,4.5357,,, ,,199.85,144.0,MTN template - Ratios
+10.1016/j.jcrysgro.2009.08.031,qwen2.5VL-72,zeolite,images,1.00,15.82,,,4.6988,,, ,,109.85000000000002,168.0,MTN extracted sample product
+10.1021/jp0378438,qwen2.5VL-72,zeolite,images,1,0.077,,,,,,hexamethonium dihydroxide,,,,ITQ-13
+10.1021/jp0378438,qwen2.5VL-72,zeolite,images,1,0.077,,,,,,hexamethonium dihydroxide,,,,ITQ-22
+10.1021/jp0378438,qwen2.5VL-72,zeolite,images,1,0.077,,,,,,hexamethonium dihydroxide,,,,ITQ-24
+10.1016/s1387-1811(98)00294-7,qwen2.5VL-72,zeolite,images,1,,,,,,,,,60.0,6.0,
+10.1039/c4ra01383b,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2014.02.010,qwen2.5VL-72,zeolite,images,,,,NH4OH,,,,Organic molecules,,,,ITQ-17 degermanated zeolites
+10.1021/acs.cgd.8b00078,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.cattod.2012.10.002,qwen2.5VL-72,zeolite,images,0.748,0.312,,,,,51.6,,,450.0,,(Ga)UTL
+10.1016/j.cattod.2012.10.002,qwen2.5VL-72,zeolite,images,0.728,0.344,,,,,46.6,,,,,(Al)UTL
+10.1016/j.cattod.2012.10.002,qwen2.5VL-72,zeolite,images,0.748,0.297,,,,,32.3,,,,,(Fe)UTL
+10.1016/s1387-1811(00)00221-3,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(98)00294-7,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,aluminogermanate rho zeolites
+10.1039/c4ra01383b,qwen2.5VL-72,zeolite,images,1,0.289,,,0.1055,,,,,,,
+10.1016/s1387-1811(00)00221-3,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1002/chem.201602419,qwen2.5VL-72,zeolite,images,1,0.2,,0.75,10,0.75,,SDA1,,150.0,360.0,NUD-2
+10.1002/chem.201602419,qwen2.5VL-72,zeolite,images,1,0.2,,0.75,10,0.75,,SDA2,,150.0,360.0,NUD-2
+10.1016/s1387-1811(98)00294-7,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1002/anie.201801386,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1038/nature04097,qwen2.5VL-72,zeolite,images,0,1,,9.0,39.0,1.5,,2-methylpentamethylene-diamine (MPMD),9.0,165.0,,SU-M
+10.1038/nature04097,qwen2.5VL-72,zeolite,images,0,1,,9.0,39.0,1.5,,2-methylpentamethylene-diamine (MPMD),9.0,165.0,,SU-MB
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,22.3,5.7,,,9.1,,,F(C_10N_2H_24),11.65,,,GeSi-ITH
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,22.2,5.8,,,8.8,,,F(C_10N_2H_24),,,5.0,Cu-ITH
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,23.16,4.84,,,9.0,,,F(C_10N_2H_24),,,5.0,Co-ITH
+10.1038/nature00924,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1038/nature07957,qwen2.5VL-72,zeolite,images,1.0,1.0,0,0.5,6,1,,SDA2,0.5,175.0,24.0,ITQ-37
+10.1038/nature07957,qwen2.5VL-72,zeolite,images,1.0,1.0,0.02,0.5,6,1,,SDA2,0.5,175.0,24.0,ITQ-37
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.5,,,,,,Hydroxide,4,175.0,72.0,UTL
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.5,,,,,,Hydroxide,4,175.0,240.0,MTW
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.202,,,,,,Hydroxide,4,175.0,72.0,High Si/Ge UTL
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.2,,,,,,Hydroxide,4,175.0,336.0,UTL with Quartz
+10.1038/nature07957,qwen2.5VL-72,zeolite,images,1,1.40,,,,,,SDA2,,,,
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.85,,,31.5,,,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",17,175.0,144.0,
+10.1002/chem.201703361,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1007/s11144-009-0129-7,qwen2.5VL-72,zeolite,images,,,,,,,,,,699.85,,
+10.1038/nature07957,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,1,,,,,,SDA not specified,,,,UTL zeolite
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.5,,,,,,SDA not specified,,,,UTL zeolite
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.2,,,,,,SDA not specified,,,,UTL zeolite
+10.1002/anie.200461911,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.5,,,,,,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",2,175.0,96.0,
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.5,,,,,,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",2,175.0,360.0,
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,1.1764,,,,,,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",0.8824,175.0,96.0,
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.6,,,,,,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",2,175.0,96.0,
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,5,,,,,,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",0.8,175.0,96.0,
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,0.25,,,,,,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",0.8,175.0,96.0,
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1,1.2,,,,,,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",1.2,175.0,96.0,
+10.1002/anie.201801386,qwen2.5VL-72,zeolite,images,,,,,,,,Sophoridine derivative,,,,Germanosilicate zeolite
+10.1038/nature04097,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2016.11.023,qwen2.5VL-72,zeolite,images,,,,,,,,TEOS,TEOS is used,,,Zr-containing germanosilicates with BEC structure
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1,0.4925,,0.3731,44.77,0,,TMAOH,0.3731,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1,0.4925,,0.3731,44.77,0.3731,,TMAOH,0.3731,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1,0.4925,,0.3731,44.77,0.7462,,TMAOH,0.3731,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1,0.4925,,0.3731,44.77,1.1193,,TMAOH,0.3731,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1,0.4925,,0.3731,44.77,1.5054,,TMAOH,0.3731,149.85000000000002,120.0,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1,0.4925,,0.3731,44.77,1.8715,,TMAOH,0.3731,149.85000000000002,120.0,
+10.1016/j.solidstatesciences.2007.08.002,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(00)00221-3,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/ic301449y,qwen2.5VL-72,zeolite,images,,12.5,,2,2.5,,,2-methylpiperazine (MPP),,,,|(C5H14N2)2(C5H12N2)0.5(H2O)2.5|[Ge12.5O26(OH)2]
+10.1016/j.jssc.2014.12.031,qwen2.5VL-72,zeolite,images,1,0.80,,,,,,DEEDA,,,,STW-type Germanosilicate
+10.1021/cm502525w,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2009.05.004,qwen2.5VL-72,zeolite,images,1,0.33,,0.25,30,0.5,,ROH,0.25,149.85000000000002,,ITQ-29
+10.1016/j.solidstatesciences.2007.08.002,qwen2.5VL-72,zeolite,images,1,9,,0.25,,,,ethylenediamine,9,,,IM-14
+10.1016/j.jcat.2006.04.036,qwen2.5VL-72,zeolite,images,1.0,0.67,0.2495,0.25 / AlRatio,2.0,0.25,,"MSPTOH, F-",0.25,175.0,24.0,"ITQ-21, ITQ-30"
+10.1016/j.jcat.2006.04.036,qwen2.5VL-72,zeolite,images,1.0,1.0,0.3406667,0.5 / AlRatio,5.0,0.5,,"MSPTOH, F-",0.5,175.0,24.0,"ITQ-21, ITQ-30"
+10.1016/j.jcat.2006.04.036,qwen2.5VL-72,zeolite,images,1.0,2.0,0.3243,,10.0,0.5,,"MSPTOH, F-",0.5,175.0,120.0,"ITQ-21, ITQ-30"
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1.00,0.50,,,37.5,,,"(6R,10S)-6,10-dimethyl-5-azonia[s]piro[4.5]decane hydroxide",4.17,175.0,,
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1.00,0.50,,,37.5,,,"(6R,10S)-6,10-dimethyl-5-azonia[s]piro[4.5]decane hydroxide",4.18,175.0,,
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1.00,0.5,,,37.5,,,"(6R,10S)-6,10-dimethyl-5-azonia[s]piro[4.5]decane hydroxide",4.17,175.0,,
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1.00,0.50,,,37.5,,,"(6R,10S)-6,10-dimethyl-5-azonia[s]piro[4.5]decane hydroxide",4.19,175.0,,
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1.00,0.20,,,30.00,,,"(6R,10S)-6,10-dimethyl-5-azonia[s]piro[4.5]decane hydroxide",9.44,175.0,,
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,1.00,1.00,,,50.00,,,"(6R,10S)-6,10-dimethyl-5-azonia[s]piro[4.5]decane hydroxide",4.17,175.0,,
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,1,0.32,,,6.66,,,,3.1,,,
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,1,0.38,,,3.33,,,,1.3,,,
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,1,0.3,,,6.66,,,,3,,,
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,1,0.3,,,6.66,,,,3.3,,,
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,1,0.71,,,2.67,,,,1.4,,,
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,1,0.67,,,6.66,,,,3.1,,,
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,1,0.62,,,5,,,,3.3,,,
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,1,0.62,,,2.5,,,,3.2,,,
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,1,0.25,,,3.33,,,,4.2,,,
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,1,0.17,,,1.67,,,,2.07,,,
+10.1021/cm502525w,qwen2.5VL-72,zeolite,images,1,Unknown,,,,,,,,20.0,24.0,
+10.1016/s1387-1811(99)00177-8,qwen2.5VL-72,zeolite,images,,1,1,,,,,,,24.850000000000023,,
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/cm502525w,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(99)00177-8,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.0048,0.0244,,,,,,,184.85,48.0,Ge-ZSM-5 membranes
+10.1016/j.jcat.2006.04.036,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1002/chem.200800416,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1039/c7dt03751a,qwen2.5VL-72,zeolite,images,1,2,,,,,,,1,25.0,16.0,IPC-12
+10.1016/j.micromeso.2012.10.004,qwen2.5VL-72,zeolite,images,1.0,9.0,,,,,Not specified,,Not specified,,,
+10.1016/s1387-1811(02)00270-6,qwen2.5VL-72,zeolite,images,,,,,,,,TMAOH,,,,Phase pure Na-AlGe-JBW
+10.1016/j.micromeso.2008.06.036,qwen2.5VL-72,zeolite,images,0,1,,4,0,,,DETA and Pyridine,8,180.0,192.0,CCUT-9
+10.1039/c5ce02312b,qwen2.5VL-72,zeolite,images,1.0,Not specified,Not specified,0.3,,,,tmnb,0.44,,,ITQ-37
+10.1016/j.micromeso.2010.10.050,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/acs.cgd.7b01000,qwen2.5VL-72,zeolite,images,,,,,,,,N-methylformamide (NMF),,260.0,5.0,PKU-22a
+10.1007/s10853-016-9799-5,qwen2.5VL-72,zeolite,images,0.4927,0.2525,,0.1067,,,,F(C₁₀N₂H₂₄),0.1123,,5.0,
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1039/c5ce02312b,qwen2.5VL-72,zeolite,images,1,1,,,,,,tmbi,,,,ITQ-37
+10.1016/j.micromeso.2010.10.050,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/acs.cgd.7b01000,qwen2.5VL-72,zeolite,images,0.2,0.8,,,6,0.5,,SDA,0.5,165.0,504.0,
+10.1016/j.micromeso.2012.10.004,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(02)00270-6,qwen2.5VL-72,zeolite,images,1,11.47,3.92,58.8,,,,Tetramethylammonium hydroxide,,175.0,,Cs-AlGe-ANA
+10.1016/s1387-1811(02)00270-6,qwen2.5VL-72,zeolite,images,1,11.47,3.92,31.9,,,,Tetramethylammonium hydroxide,,175.0,,Rb-AlGe-Para
+10.1016/j.micromeso.2006.11.005,qwen2.5VL-72,zeolite,images,0,1,,4,0,,,DETA,8,180.0,180.0,CCUT-9
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,Al-Ge-ITQ-13 zeolites
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,1,,,,,,,"Various (TPA, TEA, CTA, OA)",,540.0,,IPC-2
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,1,0.25,,,45,0.54,,TMEDA,35,170.0,48.0,BEC
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,1,0.25,,,72,0,,TMEDA,35,170.0,48.0,No crystallization
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,1,1,,,13.5,0.54,,TMEDA,35,170.0,48.0,AST
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,1,1,,,108,0.54,,TMEDA,35,170.0,48.0,BEC and AST
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,,,,,45,1.76,,TMEDA,61,170.0,48.0,No crystallization
+10.1016/j.cattod.2014.06.041,qwen2.5VL-72,zeolite,images,1.0,0.51,,,37.83,,,"(6R,10S)-6,10-Dimethyl-5-anizosporo[4.5]decane hydroxide",0.73,175.0,1.0,homogenous fluid gel
+10.1021/acs.chemmater.6b02468,qwen2.5VL-72,zeolite,images,1.0,0.25,,0.5,5.0,0.5,,OSDA 1,1,160.0,,CIT-13
+10.1021/acs.chemmater.6b02468,qwen2.5VL-72,zeolite,images,1.0,0.25,,0.5,5,0.5,,OSDA 4,4,160.0,,CIT-13
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,1,,,1.5,0.2,,,EG,20,179.85000000000002,504.0,sodalite
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,1,,,1.5,0.5,,,EG,20,179.85000000000002,504.0,sodalite
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,1,,,1.5,1.0,,,EG,20,179.85000000000002,504.0,sodalite
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,1,,,1.5,2.0,,,EG,20,179.85000000000002,504.0,sodalite
+10.1016/j.micromeso.2006.10.023,qwen2.5VL-72,zeolite,images,1,,,1.5,3.5,,,EG,20,179.85000000000002,504.0,sodalite
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,13.05,2.95,,,,,,C6N2H12,0.5,350.0,10.0,SiGe-BEC
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,,0.01,,,,,,,,,
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,,0.0055,,,,,,,,,
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,,0.00459,,,,,,,,,
+10.1016/j.jcat.2016.09.007,qwen2.5VL-72,zeolite,images,1,,0.00251,,,,,,,,,
+10.1007/s11244-013-0170-7,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1002/anie.201501718,qwen2.5VL-72,zeolite,images,,,,,,,,MIPA,,,,
+10.1002/anie.200801375,qwen2.5VL-72,zeolite,images,,,,,,,,2-methylpiperazine molecules,,,,
+10.1002/anie.201506678,qwen2.5VL-72,zeolite,images,1,1,,0.4,14,0.4,,triphenylsilrefonium,18,400.0,4.0,GeZA
+10.1038/nchem.2761,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,1.0,0.096,,,,,,C6N2H12,0.5,800.0,6.0,SiGe-BEC
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,1.0,0.096,,,,,1.0,C6N2H12,0.5,350.0,10.0,B-BEC
+10.1002/anie.201001506,qwen2.5VL-72,zeolite,images,1,0.34,0.66,,,,,,,549.85,,
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,1,0.625,,,45,0.54,,TMEDA,35,170.0,,BEC
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,1,0.625,,,72,0,,TMEDA,35,170.0,,No crystallization
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,1,1,,,13.5,0.54,,TMEDA,35,170.0,,AST
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,1,1,,,108,0.54,,TMEDA,35,170.0,,BEC and AST
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,,,,,45,1.77,,,61,170.0,,No crystallization
+10.1002/anie.201006500,qwen2.5VL-72,zeolite,images,0,1.0,0,From ethanolamine and water,From water used in synthesis,From amount used,,Ni(en)₃,Based on [Ni(en)₃],180.0,192.0,GaGeO-CJ63
+10.1002/chem.201602419,qwen2.5VL-72,zeolite,images,1,,,,,,,simple aromatic organic cations,,550.0,,
+10.1016/s1387-1811(98)00294-7,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1039/c4ra01383b,qwen2.5VL-72,zeolite,images,1,0.29,,,14.4,,,Decamethonium,,,,IM-17
+10.1016/j.micromeso.2014.02.010,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.cattod.2012.10.002,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.cattod.2012.10.002,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.cattod.2012.10.002,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.cattod.2012.10.002,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(00)00221-3,qwen2.5VL-72,zeolite,images,,6,6,6.8,,,,"Na, Cs",,,,GaGe-CAN
+10.1016/s1387-1811(00)00221-3,qwen2.5VL-72,zeolite,images,,6,6,6.8,,,,"Na, Cs",,,,AlGe-CAN
+10.1016/s1387-1811(98)00294-7,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1039/c4ra01383b,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2017.03.033,qwen2.5VL-72,zeolite,images,1,,0.00885,,,,,Seeds,,,,
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,2,,,,,,13 different structure-directing agents,3.85,1000.0,120.0,
+10.1039/c5ce00731c,qwen2.5VL-72,zeolite,images,1,0.196,,,,,,"pentamethyldiethylenetriamine (2,2'-(methylazanediyl)bis(N,N,N-trimethylethanammonium))",,,,BEC-type germanosilicate zeolite
+10.1016/s1387-1811(99)00070-0,qwen2.5VL-72,zeolite,images,,2.0,1.0,,50.0,,,,,90.0,4.0,Germanium X-type zeolite
+10.1016/j.jcrysgro.2009.08.031,qwen2.5VL-72,zeolite,images,1,0,,0.25,1.0,0.5,,TPT,0.1,199.85,,MTN-type zeolite
+10.1016/j.jcrysgro.2009.08.031,qwen2.5VL-72,zeolite,images,0.85,0.15,,0.29,1.0,0.5,,TPT,0.1,199.85,,MTN-type zeolite
+10.1016/j.jcrysgro.2009.08.031,qwen2.5VL-72,zeolite,images,0.67,0.33,,0.37,1.0,0.5,,TPT,0.1,199.85,,MTN-type zeolite
+10.1016/j.jcrysgro.2009.08.031,qwen2.5VL-72,zeolite,images,0.5,0.5,,0.5,1.0,0.5,,TPT,0.1,199.85,,MTN-type zeolite
+10.1016/s1387-1811(98)00294-7,qwen2.5VL-72,zeolite,images,2.7,0.38,1.0,,,,,,1.93,,,Al14.71Cs7.63Al23.65Ge24.35
+10.1021/jp0378438,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.micromeso.2014.02.010,qwen2.5VL-72,zeolite,images,1.0,0.5,,0.75,11.25,0.75,,TEA,0.75,140.0,96.0,
+10.1016/j.micromeso.2014.02.010,qwen2.5VL-72,zeolite,images,1.0,0.5,,0.75,11.25,0.75,,BD,0.75,150.0,24.0,
+10.1016/j.micromeso.2014.02.010,qwen2.5VL-72,zeolite,images,1.0,0.2,,0.3,2.4,,,HM,0.3,175.0,336.0,
+10.1021/acs.cgd.8b00078,qwen2.5VL-72,zeolite,images,1,0.3125,,,,,,DMAP,2.96/36.57=0.081,,,
+10.1039/c4ra01383b,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.jcrysgro.2009.08.031,qwen2.5VL-72,zeolite,images,1,0,,0.025,10,0,,TPT,0.01,,,MTN-type zeolite
+10.1016/j.jcrysgro.2009.08.031,qwen2.5VL-72,zeolite,images,1,0.18,,0.025,10,0.5/(1+0.18),,TPT,0.01,,,MTN-type zeolite
+10.1016/j.jcrysgro.2009.08.031,qwen2.5VL-72,zeolite,images,1,0.5,,0.025,10,0.5/(1+0.5),,TPT,0.01,,,MTN-type zeolite
+10.1016/j.jcrysgro.2009.08.031,qwen2.5VL-72,zeolite,images,1,1,,0.025,10,0.5/(1+1),,TPT,0.01,,,AST-type zeolite
+10.1016/s1387-1811(98)00294-7,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/acs.cgd.8b00078,qwen2.5VL-72,zeolite,images,1.0,0.67,,,5.0,0.5,,DMAP,0.5,125.0,,
+10.1021/acs.cgd.8b00078,qwen2.5VL-72,zeolite,images,1.0,0.25,,,5.0,0.5,,DMAP,0.5,170.0,,
+10.1016/j.micromeso.2014.02.010,qwen2.5VL-72,zeolite,images,1,0.208,,present in NH₄OH,,0.2 in terms of NH₄F per g zeolite,,,,150.0,24.0,[8Si]D4R zeolite cages formed
+10.1016/s1387-1811(99)00070-0,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.inoche.2013.11.010,qwen2.5VL-72,zeolite,images,,1,,,,,,Strong base with cationic ion or organic amines,,,,CCUT-9
+10.1016/j.jcat.2007.12.003,qwen2.5VL-72,zeolite,images,1,2,0.15,0.3,15,,0.15,,0.75,174.85000000000002,336.0,ITQ-33
+10.1016/j.jcat.2007.12.003,qwen2.5VL-72,zeolite,images,1,2,0.15,0.3,15,0.9,0.15,,0.75,174.85000000000002,336.0,"ITQ-13, ITQ-17, ITQ-24, IM-10, EU-1"
+10.1021/cm071790f,qwen2.5VL-72,zeolite,images,,1.5,1,,,,,DETA cations,Overall Al/Ge 0.5,,,
+10.1021/cm049912g,qwen2.5VL-72,zeolite,images,,,,,,,,new SDA,,,,ISV
+10.1016/s1387-1811(99)00263-2,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,,,,,,,,,184.85,24.0,
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,,,,,,,SDA,,,,
+10.1016/j.jssc.2008.12.002,qwen2.5VL-72,zeolite,images,1,1,,,,,,imidazolium derivatives,,540.0,,IM-16 Compound
+10.1021/cm049912g,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.2,,,,,,,,479.85,8.0,Ge-ZSM-5 membranes
+10.1016/s1387-1811(02)00612-1,qwen2.5VL-72,zeolite,images,1,0.01,,,,,,,,479.85,8.0,Ge-ZSM-5 membranes
+10.1016/j.jssc.2008.12.002,qwen2.5VL-72,zeolite,images,1.0,0.73,,,,,,,,,,
+10.1016/j.jcat.2007.12.003,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.jcat.2007.12.003,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.jcat.2007.12.003,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/j.jcat.2007.12.003,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1021/cm071790f,qwen2.5VL-72,zeolite,images,,,,,,,,DETA,,,,SU-46
+10.1039/c5ra09942k,qwen2.5VL-72,zeolite,images,1,0.49,0.082,,3,,,SDA-1,,170.0,132.0,ITQ-44
+10.1039/c5ra09942k,qwen2.5VL-72,zeolite,images,1,0.49,0.082,,3,,,SDA-1,,170.0,24.0,Al-ITQ-44
+10.1016/j.jcat.2009.08.012,qwen2.5VL-72,zeolite,images,1,0.208,0.025,,,,,,,,,ITQ-22
+10.1016/j.jcat.2009.08.012,qwen2.5VL-72,zeolite,images,1,0.063,0.02,,,,,,,,,Beta/Ge
+10.1016/j.jcat.2009.08.012,qwen2.5VL-72,zeolite,images,1,0.02,0.02,,,,,,,,,SSZ-33
+10.1016/j.jcat.2009.08.012,qwen2.5VL-72,zeolite,images,1,,0.025,,,,,,,,,ZSM-5
+10.1016/s1387-1811(99)00263-2,qwen2.5VL-72,zeolite,images,,1,1,,,,,,,,,Na₂Rb[Al₃Ge₃O₁₂]⋅H₂O
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,1,,,,,,,TPA,,540.0,540.0,IPC-2 zeolite
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,1,,,,,,,TEA,,540.0,540.0,IPC-2 zeolite
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,1,,,,,,,CTA,,540.0,540.0,IPC-2 zeolite
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,,,,,,,spiroazocompounds,,,156.0,extra-large-pore germanosilicates with UTL topology
+10.1016/j.jcat.2009.08.012,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1016/s1387-1811(99)00263-2,qwen2.5VL-72,zeolite,images,1,0,1,,,,,,,,,Na2K[Al3Si3O12]
+10.1016/s1387-1811(99)00263-2,qwen2.5VL-72,zeolite,images,1,1,1,,,,,,,,,Na2Rb[Al3Ge3O12]·H2O
+10.1016/j.cattod.2013.10.051,qwen2.5VL-72,zeolite,images,0.37,0.19,,,14,,,,0.27,175.0,144.0,Zeolite UTL
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,,,,,,,SDA1,,175.0,120.0,UTL
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,,,,,,,SDA2,,175.0,120.0,UTL
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,,,,,,,SDA7,,175.0,120.0,UTL
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,,,,,,,SDA9,,175.0,120.0,UTL
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,,,,,,,SDA10,,175.0,120.0,UTL
+10.1021/cm1006108,qwen2.5VL-72,zeolite,images,1,,,,,,,SDA14,,175.0,120.0,UTL
+10.1016/j.jssc.2014.12.031,qwen2.5VL-72,zeolite,images,1,0.8,,,,0.48,,DEEDA,,-93.14999999999998,,STW zeolites
+10.1016/s1387-1811(02)00270-6,qwen2.5VL-72,zeolite,images,,,,,,,,TMAOH,,,,Zeolite-like AlGes
+10.1007/s10934-015-0119-2,qwen2.5VL-72,zeolite,images,1,0.226,,,,,,,,,,
+10.1007/s11244-013-0170-7,qwen2.5VL-72,zeolite,images,1,5.65,0.02,,,,,,,550.0,1.0,zeolites H-ITQ-13
+10.1002/chem.201603434,qwen2.5VL-72,zeolite,images,1,0.097,,,,,,,,,,
+10.1002/chem.201603434,qwen2.5VL-72,zeolite,images,1,0.085,,,,,,,,,,
+10.1007/s10934-015-0051-5,qwen2.5VL-72,zeolite,images,1.0,0.005,,,,,,,,500.0,6.0,[Ge]CDS-1
+10.1007/s10934-015-0051-5,qwen2.5VL-72,zeolite,images,1.0,0.01,,,,,,,,500.0,6.0,[Ge]CDS-1
+10.1007/s10934-015-0051-5,qwen2.5VL-72,zeolite,images,1.0,0.02,,,,,,,,500.0,6.0,[Ge]CDS-1
+10.1007/s10934-015-0051-5,qwen2.5VL-72,zeolite,images,1.0,0.04,,,,,,,,500.0,6.0,[Ge]CDS-1
+10.1007/s10934-015-0051-5,qwen2.5VL-72,zeolite,images,1.0,0.1,,,,,,,,500.0,6.0,[Ge]CDS-1
+10.1007/s10934-015-0051-5,qwen2.5VL-72,zeolite,images,1.0,0.2,,,,,,,,500.0,6.0,[Ge]CDS-1
+10.1002/chem.201602419,qwen2.5VL-72,zeolite,images,1,0.52,,0.75,16.5,40 wt%,,,,149.85000000000002,360.0,Zeolite NUD-2
+10.1002/chem.201602419,qwen2.5VL-72,zeolite,images,1,0.143,,,,,,C₁₂H₁₅N₂F,1.2,169.85000000000002,24.0,
+10.1007/s11244-013-0170-7,qwen2.5VL-72,zeolite,images,1,,,,,,,F⁻,,480.0,,
+10.1002/chem.201603434,qwen2.5VL-72,zeolite,images,,,,,,,,,,,,
+10.1007/s10934-015-0051-5,qwen2.5VL-72,zeolite,images,1,0.005,,0.30,5.0,,,TMAOH,0.30,170.0,72.0,[Ge]PLS-1
