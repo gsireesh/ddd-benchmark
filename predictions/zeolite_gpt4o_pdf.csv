@@ -128,7 +128,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1021/cm049912g,gpt4o,zeolite,images,1,0.02,,,,,,"2,3,3a,4,7a,7b-Hexahydro-2-dimethyl-4,7-ethano-1H-isoindolium iodide",,150.0,120.0,ITQ-17 + β
 10.1021/cm049912g,gpt4o,zeolite,images,1,0.02,,,,,,"2,3,3a,4,7a,7b-Hexahydro-2-dimethyl-4,7-ethano-1H-isoindolium iodide",,150.0,144.0,ITQ-17 + β
 10.1021/cm049912g,gpt4o,zeolite,images,1,0.02,,,,,,"2,3,3a,4,7a,7b-Hexahydro-2-dimethyl-4,7-ethano-1H-isoindolium iodide",,150.0,408.0,β
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,images,,,,,,,,,,,,
 10.1021/cm049912g,gpt4o,zeolite,images,,,,,,,,C14H28N2OH,,,,
 10.1021/cm049912g,gpt4o,zeolite,images,,,,,,,,C14H28NI,,,,
 10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,,0.04,,,,,,,299.85,47.0,
@@ -218,7 +217,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1021/jp0378438,gpt4o,zeolite,images,1,1,,,3,,,hexamethonium dihydroxide,,175.0,360.0,
 10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,1,,,5,0.5,,DMAP,,125.0,,
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,images,,1,,,,,,,1,,,
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,images,,,,,,,,,,,,
 10.1016/j.jcat.2009.08.012,gpt4o,zeolite,images,,,,,,,,"1,5-bis-(methylpyrrolidinium)-pentane (MP2)",,,24.0,ITQ-22
 10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,images,1,0.67,,,,0.2,,,,150.0,24.0,
 10.1007/s11144-009-0129-7,gpt4o,zeolite,images,1,,0.025,,,,,,,,,
@@ -462,7 +460,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1002/chem.200800416,gpt4o,zeolite,images,1,1,,,50,,,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",4.17,,,
 10.1039/c5ra09942k,gpt4o,zeolite,images,1,0.4925,2.9851,,x/0.67,y/0.67,,0.3731,,170.0,132.0,
 10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.25,,,9.375,0.5,,0.5,,160.0,,
-10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,,,,,,,,,,,,
 10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.44,,0.33,40,2.67,,0.33,,149.85000000000002,120.0,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,,,,,,,OSDA,,600.0,5.0,CoO
 10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,,,,,,,OSDA,,600.0,5.0,CoO
@@ -593,7 +590,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,images,1,0,1,,26,,,,,,,
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,images,1,0,1,,26,,,,,,,
 10.1002/anie.200801375,gpt4o,zeolite,images,,1,,1,1,,,2-methylpiperazine,,,,JLG-5
-10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,,,,,,,,,,,,
 10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,images,,,,,,,,,,24.850000000000023,,AlGeO-rho
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,0.67,,0.5,20,0,,3-ethyl-1-methyl-3H-imidazol-1-ium,,170.0,336.0,TON-MFI+Arg
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,0.67,,1,20,0,,3-ethyl-1-methyl-3H-imidazol-1-ium,,170.0,336.0,MFI+Zr
@@ -652,7 +648,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,images,,,,,344,,,,,,,
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,images,,,,,424,,,,,,,
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,0.73,,0.24,0.06,,,C6N2H11,0.54,,,
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,images,,,,,,,,,,,,
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,images,1,1,,,,,,,,540.0,,
 10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,images,,,,,1,,,,,60.0,6.0,final product
 10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,images,,,,,1,,,,,400.0,16.0,product yield
@@ -669,13 +664,11 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.481,,0.741,44.444,0.741,,,,149.85000000000002,120.0,
 10.1038/nmat921,gpt4o,zeolite,images,1,0.193,,,0.026,,,1.0,,175.0,288.0,
 10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,images,1,0.488,,,44.444,0.741,,"ROH, TMAOH",,149.85000000000002,120.0,
-10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,images,,,,,,,,,,,,
 10.1038/nmat921,gpt4o,zeolite,images,1,0.51,,0.38,8.15,,,MPP(OH)2,,,,
 10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,0.25,0.02,,2,0.5,,MSPT,1,,120.0,
 10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,0.25,0.04,,2,0.5,,MSPT,1,,336.0,
 10.1016/j.jcat.2006.04.036,gpt4o,zeolite,images,1,0.25,0.1,,2,0.5,,MSPT,1,,720.0,
 10.1016/j.inoche.2013.11.010,gpt4o,zeolite,images,1,1,,4,,,,"DETA, Pyridine",8,180.0,192.0,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,images,,,,,,,,,,,,
 10.1039/c5ra09942k,gpt4o,zeolite,images,1,,,,,,,benzyltriethylammonium bromide,,500.0,,
 10.1021/acs.chemmater.6b02468,gpt4o,zeolite,images,1,0.178,,1.26,,,,OSDA,3.26,,,
 10.1016/j.cattod.2012.10.002,gpt4o,zeolite,images,,,,,,,,"MFI, BEA, [Fe]UTL, [Ga]UTL, [Al]UTL",,250.0,,selectivity to p-cymene
@@ -878,7 +871,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.25,,,0.5,0.5,,DMAP,0.5,170.0,336.0,IM-18
 10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.25,,,0.5,0.5,,DMAP,0.75,170.0,336.0,IM-18
 10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.25,,,0.5,0.5,,DMAP,0.5,170.0,336.0,IM-18 + A
-10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,images,,,,,,,,,,,,
 10.1016/j.jcat.2009.08.012,gpt4o,zeolite,images,1,0.5,0.015,0.379,22.73,,,MPP(OH)2,,174.85000000000002,288.0,ITQ-22
 10.1021/acs.cgd.8b00078,gpt4o,zeolite,images,1,0.56,,,,,,,,,,
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,images,1,1,1,1,,,,,,19.850000000000023,,
@@ -933,7 +925,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1021/cm071790f,gpt4o,zeolite,images,1.0,1.0,<0.60,,4.2,2.5,,"DETA, pyridine",,170.0,168.0,germanate
 10.1021/cm071790f,gpt4o,zeolite,images,1.0,1.0,>2.60,,4.2,2.5,,"DETA, pyridine",,170.0,168.0,amorphous
 10.1021/cm071790f,gpt4o,zeolite,images,1.0,1.0,1.12,,4.2,2.5,,"DETA, pyridine",,170.0,168.0,SU-46 and UCSB-7A1Ge
-10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,images,,,,,,,,,,,,
 10.1039/c5ce02312b,gpt4o,zeolite,images,1,0.599,,0.978,2.935,0.122,,,0.122,150.0,360.0,
 10.1039/c5ce02312b,gpt4o,zeolite,images,1,0.599,,0.978,2.935,0.122,,,0.122,175.0,360.0,
 10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,images,1,0.1,0.008,,2,0.2,,[C17H38N2O],1,350.0,5.0,
@@ -1071,7 +1062,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.047,,,,,,,,,,
 10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.047,,,,,,,,,,
 10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,images,1,1,1,,,,,,,,,
-10.1021/cm1006108,gpt4o,zeolite,images,,,,,,,,,,,,
 10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.005,0.018,,,,,0.06,179.85000000000002,72.0,Amorphous
 10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.005,0.0032,,,,,0.06,179.85000000000002,72.0,ITHQ-13-EU-1-amorphous
 10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,images,1,0.05,0.005,0.0064,,,,,0.06,179.85000000000002,72.0,ITHQ-13-EU-1
@@ -1112,7 +1102,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.jcat.2009.08.012,gpt4o,zeolite,images,,,,,,,,,,124.85000000000002,12.0,
 10.1039/c7dt03751a,gpt4o,zeolite,images,,,,,,,,,,,3.0,
 10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,images,1,0.0417,,,,,0.0833,,,,,
-10.1021/cm1006108,gpt4o,zeolite,images,,,,,,,,,,,,
 10.1038/nature04097,gpt4o,zeolite,images,1,0.75,,,,1.0,,MPD,18.0,165.0,72.0,
 10.1038/nature04097,gpt4o,zeolite,images,1,0.75,,,,1.0,,MPD,18.0,165.0,264.0,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,images,1,0.033,,,,,,C10N2H24,,370.0,,

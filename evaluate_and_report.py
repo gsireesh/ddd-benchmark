@@ -5,6 +5,7 @@ import fire
 import pandas as pd
 from tqdm.auto import tqdm
 
+from construct_dataset import clean_doi
 from data.dataset_metadata import metadata_by_dataset
 from evaluation import (
     StatsContainer,
@@ -142,7 +143,7 @@ def calculate_prf_from_df(df: pd.DataFrame) -> dict[str, float]:
     }
 
 
-def evaluate_predictions(gt_df, pred_df, column_config):
+def evaluate_predictions(gt_df, pred_df, column_config, relevant_dois):
 
     if "doi" not in pred_df.columns:
         pred_df["doi"] = pred_df["source"].str.replace(".png|.xml|.html", "").str.replace("_", "/")
@@ -161,7 +162,7 @@ def evaluate_predictions(gt_df, pred_df, column_config):
 
     dataset_stats = StatsContainer()
 
-    for doi in tqdm(gt_df["doi"].unique()):
+    for doi in tqdm(relevant_dois):
         try:
             ddf = gt_df[gt_df["doi"] == doi]
             pdf = pred_df[pred_df["doi"] == doi][columns_to_predict]
@@ -192,9 +193,7 @@ def evaluate_predictions(gt_df, pred_df, column_config):
 
 
 def evaluate_predictions_wrapper(
-    dataset: str,
-    modality: str,
-    predictions_path: str,
+    dataset: str, modality: str, predictions_path: str, mode: str = "downloadable"
 ) -> None:
     """Evaluate predictions against annotations, and provide precision, recall and f1.
 
@@ -205,6 +204,8 @@ def evaluate_predictions_wrapper(
     :param predictions_path: Path to CSV containing predictions. Script will error if there are
     expected columns missing. Expected columns are all columns found in NUMERIC_COLUMNS and
     TEXT_COLUMNS in this file.
+    :param mode whether to evaluate against only PDFs that are automatically downloadable, or all
+    available PDFs in the dataset folder.
     :return:
     """
     if dataset not in metadata_by_dataset:
@@ -220,11 +221,26 @@ def evaluate_predictions_wrapper(
 
     publisher_meta = pd.read_csv(metadata["metadata_csv"])
 
-    relevant_dois = set(
-        publisher_meta[publisher_meta["included_in_dataset"] & publisher_meta[modality.lower()]][
-            "doi"
-        ].tolist()
-    )
+    if mode == "downloadable":
+        relevant_dois = set(
+            publisher_meta[
+                publisher_meta["included_in_dataset"] & publisher_meta[modality.lower()]
+            ]["doi"].tolist()
+        )
+    elif mode == "all_available":
+        potential_dois = set(publisher_meta["doi"])
+        relevant_dois = [
+            doi
+            for doi in potential_dois
+            if f"{clean_doi(doi)}.{modality}"
+            in os.listdir(os.path.join(metadata["data_directory"], modality))
+        ]
+    else:
+        raise AssertionError(
+            f"Unrecognized mode {mode}. Expected one of {{downloadable, all_available}}"
+        )
+
+    print(f"Evaluating file {predictions_path}.")
 
     print(f"Evaluating against {len(relevant_dois)} papers.")
 
@@ -236,7 +252,7 @@ def evaluate_predictions_wrapper(
     predicted_relevant_dois = pred_df[pred_df["doi"].isin(relevant_dois)]["doi"].unique()
     print(f"Predictions from {len(all_pred_dois)} papers; ")
 
-    results = evaluate_predictions(gt_df, pred_df, metadata["evaluation_config"])
+    results = evaluate_predictions(gt_df, pred_df, metadata["evaluation_config"], relevant_dois)
 
     json_results = json.dumps(results, indent=4)
 

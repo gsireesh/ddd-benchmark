@@ -1,19 +1,4 @@
 doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
-10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,1,2,0.1,,,,,,,450.0,,
 10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,1,0.1,0.02,,,,,,,450.0,,ITQ-13
 10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,1,0.0667,0.02,,,,,,,450.0,,ITQ-13
@@ -78,7 +63,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,1,,0.0055,,,,,,,,,
 10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,1,,0.0046,,,,,,,,,
 10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,1,,0.0025,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,Al-Ge-ITQ-13
 10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,1,0.024/(1-0.024),0/(1-0.024),0.25/(1-0.024),5/(1-0.024),0.5/(1-0.024),,hexamethonium dihydroxide,,142.5,264.0,
 10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,1,0.091/(1-0.091),0.017/(1-0.091),0.25/(1-0.091),5/(1-0.091),0.5/(1-0.091),,hexamethonium dihydroxide,,142.5,264.0,
@@ -109,10 +93,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,1,,,0.9,,,ethylenediamine,,,,ICMM-8
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,0.125,,,1,,,ethylenediamine,,,,En-ASU-7
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,8,,2,2.3,,,(enH<sub>2</sub>)<sub>2</sub>,,,,GeO<sub>2</sub>
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,1,1,,2,,,TMAOH,,,,Na-AlGe-JBW
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,1.63,1,,4,,,TMAOH,,,,K-AlGe-MON
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,2,1,,,,,TMAOH,,,,Cs-AlGe-ANA
@@ -124,11 +104,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,1,1.6,1,,0.52,,,K,,,,K-AlGe-MON
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,1,2,1,,,,,Cs,,,,Cs-AlGe-ANA
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,1,3,1,,,,,Rb,,,,Rb-AlGe-Para
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,3,3,,2,,,,,,,
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,9.84,6.16,,4,,,,,,,
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,2,1,,,,,,,,,
@@ -137,9 +112,7 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,9.84,6.16,,4,,,,,,,K-AlGe-MON
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,2,1,,,,,,,,,Cs-AlGe-ANA
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,3,1,,,,,,,,,Rb-AlGe-Para
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,Ge1,,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,0.526,,,,,,4f,,,,
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,7.194,,,,,2f,,,,
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,3.023,,,,,4f,,,,
@@ -149,22 +122,9 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,8.273,,,,4f,,,,
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,4.907,,,,2f,,,,
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,3.717,,,,4f,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,1.59,1,,,,,,,,,Cs-AlGe-ANA
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.cattod.2013.10.051,gpt4o,zeolite,xml,1,1,,,,,,N-adamantyltrimethylammonium cations,,,,IPC-2
 10.1016/j.cattod.2013.10.051,gpt4o,zeolite,xml,1,1,,,,,,N-alkyl-trimethylammonium cations,,,,IPC-4
-10.1016/j.cattod.2013.10.051,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2013.10.051,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2013.10.051,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2013.10.051,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2013.10.051,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.cattod.2013.10.051,gpt4o,zeolite,xml,,,,,,,,Octylamine,,,,
 10.1016/j.cattod.2013.10.051,gpt4o,zeolite,xml,,,,,,,,"2,6-Dimethylpiperidine",,,,
 10.1016/j.cattod.2013.10.051,gpt4o,zeolite,xml,,,,,,,,"Various organic agents (e.g., OA, DMP, TET, etc.)",,550.0,,
@@ -210,29 +170,17 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.cattod.2013.10.051,gpt4o,zeolite,xml,,,,,,,,"Octylamine, Cetyltrimethylammonium, Tetraethyl orthosilicate",,500.0,,"IPC-4, IPC-2"
 10.1016/j.cattod.2013.10.051,gpt4o,zeolite,xml,,,,,,,,"N-alkyl-trimethylammonium cations, TPA, HMTA, TMAA",,,,"IPC-2, IPC-1P"
 10.1016/j.cattod.2013.10.051,gpt4o,zeolite,xml,,,,,,,,Diethoxydimethylsilane,,540.0,,IPC-2
-10.1016/j.cattod.2013.10.051,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2013.10.051,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2013.10.051,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,1,0,0.0097,,,,,,,400.0,,H-ITQ-7
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1038/nature07957,gpt4o,zeolite,xml,1,0.5,,1,10,,,bulky organic molecular template,0.1,150.0,48.0,ITQ-37
 10.1038/nature07957,gpt4o,zeolite,xml,1,1,,,,,,,,,,ITQ-37
 10.1038/nature07957,gpt4o,zeolite,xml,1,1,,,,,,,,,,ITQ-37
 10.1038/nature07957,gpt4o,zeolite,xml,1,1,,,,,,,,,,ITQ-37
 10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,Bulky organic molecular template,,,,ITQ-37
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,ITQ-37
 10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,ITQ-37
 10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,SDA2,,,,ITQ-37
 10.1038/nature07957,gpt4o,zeolite,xml,1,0.714,,,x,0.179,,SDA2,,,,ITQ-37
 10.1038/nature07957,gpt4o,zeolite,xml,1,0.714,,,x/112,0.179,,SDA2,,,,ITQ-37
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1038/nature07957,gpt4o,zeolite,xml,0.8,0.2,,1,,,,,,,,Three-dimensional framework
 10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,ITQ-37
 10.1038/nature07957,gpt4o,zeolite,xml,1,0,0.0143,,,,,,,539.85,,ITQ-37
@@ -245,20 +193,8 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1038/nature07957,gpt4o,zeolite,xml,1,1,0.01,0.25,3,0.50,,SDA2(OH)2,,175.0,24.0,
 10.1038/nature07957,gpt4o,zeolite,xml,1,1,,0.25,3,0.50,,SDA2(OH)<sub>2</sub>,,175.0,24.0,
 10.1038/nature07957,gpt4o,zeolite,xml,1,1,0.01,0.25,3,0.50,,SDA2(OH)<sub>2</sub>,,175.0,24.0,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1038/nature07957,gpt4o,zeolite,xml,1,0.5,,,,,,,,,,ITQ-37
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,1,,,,,,,,,,,
-10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,1,1,1,,w/96,,,,,,,
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,1,1,,w,,,,,,,
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,1,0.5,1,25,,,,,90.0,24.0,Germanium X-type zeolite
@@ -268,72 +204,25 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,96,96,,w,,,,,,,
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,,,,43.2,,,,,,,NaGeX
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,Present,,,,,,,,,,Germanium substituted zeolite X
-10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1038/nmat921,gpt4o,zeolite,xml,1,0.5,0.1,0.2,1.5,0.05,,"1,5-bis-(methylpyrrolidinium)-pentane",0.1,100.0,24.0,Zeolite
 10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,"1,5-bis-(methylpyrrolidinium)-pentane",,,,"Zeolite with interconnected 8-, 10-, and 12-ring pores"
 10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,"1,5-bis-(methylpyrrolidinium)-pentane",,,,
 10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,"1,5-bis-(methylpyrrolidinium)-pentane",,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1038/nmat921,gpt4o,zeolite,xml,1,0.5,0.1,0.2,1.5,,,"1,5-bis-(methylpyrrolidinium)-pentane",0.1,150.0,48.0,Zeolite
 10.1038/nmat921,gpt4o,zeolite,xml,1,1,,,,,,"1,5-bis-(methylpyrrolidinium)-pentane",,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,H-ITQ-13
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,0,0.0238,,,,,,,,,"C5+ alkenes, propene, butene, aromatics"
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,0,<0.01,,,,,,,400.0,2.0,"C5+ alkenes, propene, butene, aromatics"
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,400.0,2.0,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,400.0,2.0,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,2,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,41,1,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,99,1,,,,,,,400.0,2.0,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,0,0.0238,,,,,,,400.0,5.0,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,0,<0.01,,,,,,,400.0,2.0,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,0,0.0238,,,,,,,,,"C5+ alkenes, Aromatics"
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,0,<0.01,,,,,,,400.0,2.0,"C5+ alkenes, Aromatics"
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,0.5,0.5,,,,,,,400.0,5.0,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,1,0.025,,,,,,,,,,ITQ-13
 10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,1,0.033,,,,,,,,,,ITQ-13
 10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,1,0.05,,,,,,,,,,ITQ-13
@@ -351,57 +240,22 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,1,0.098,0.02,,,,,,,,,
 10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,1,0.098,,,,,,,,,,
 10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,1,0.037,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,1,5,0.5,,,,,,,,,Al-Ge-ITQ-13-30-50
 10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,1,2,1,,,,,,,,,Al-Ge-ITQ-13-10-50
 10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,1,2,0.5,,,,,,,,,Al-Ge-ITQ-13-30-100
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2016.09.007,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,8,,2,2.3,,,Ethylenediamine,,,,IM-14
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,Ethylenediamine,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,IM-14
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,8,,2,2.3,,,,,,,IM-14
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,8,,2,2.3,,,Ethylenediamine dihydrochloride,2,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,"Ge7, Ge8",,"O1, O2, O3, O4, O5, O6, O7, O8, O9, O10, O11",,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,1,,,0.744,,,,,,,
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,2.3,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,1,,,,,,,,,,
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,Ge2,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,6,,,,,,,,,,
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,3,,,,,,,,,,
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,4,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,0.5,,,40,,,en,,170.0,,IM-14
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,4.7,,,37.5,,,en,,190.0,,Compound I
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,1,,,40,,,en,0.5,170.0,336.0,IM-14
@@ -420,13 +274,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,GeO2,,,55,3,,pipz,1,180.0,,[Ge9O18(OH)4]Co2(en)3
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,GeO2,,,25,,,en,0.25,170.0,,[Ge9O18(OH)4]Cd2(en)3
 10.1016/j.solidstatesciences.2007.08.002,gpt4o,zeolite,xml,,GeO2,,,16,,,en,0.7,170.0,,[Ni@Ge14O24(OH)3](Ni(en)3)2
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,1,0,0.025,,,,,,,279.85,,
 10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,4.8,1,0.027,,,,,,,279.85,,
 10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,1,0,0.02,,,,,,,279.85,,
@@ -435,63 +282,15 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,1,0.208,0.027,,,,,,,279.85,,
 10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,1,0,0.02,,,,,,,279.85,,
 10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,1,0.0625,0.02,,,,,,,279.85,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,4,279.85,,
 10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,4,279.85,,
 10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,"1,5-bis-(methylpyrrolidinium)-pentane (MPP)",,,24.0,
 10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,1,0.5,0.015,,22.727,,,MPP(OH)2,,174.85000000000002,288.0,
 10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,1,0.5,0.015,,22.727,,,MPP(OH)2,0.379,174.85000000000002,288.0,ITQ-22
 10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,449.85,1.0,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,150.0,,"Ethylbenzene, Diethylbenzene, Cumene, Diisopropylbenzene"
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1038/nature07957,gpt4o,zeolite,xml,1,0.5,0.1,0.2,10,0.05,,TPAOH,0.1,150.0,48.0,
-10.1038/nature07957,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,0.55,1.25,,,,,,60.0,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,1,,,,,,,80.0,24.0,
 10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,0.1,,,,,,,80.0,24.0,
 10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,0.5,,,,,,,80.0,24.0,
@@ -523,7 +322,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,1,0,1.0,,,,,,,80.0,6.0,
 10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,1,0.3,0,,,,,,,80.0,24.0,
 10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,1,,0.55,1.25,,,,,,60.0,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1038/nmat921,gpt4o,zeolite,xml,1,,,,,,,MPP,,,,ITQ-22
 10.1038/nmat921,gpt4o,zeolite,xml,1,0.3125,,,,,,"1,5-bis-(methylpyrrolidinium)-pentane",,,,
 10.1038/nmat921,gpt4o,zeolite,xml,1,0.5,,,,,,"1,5-bis-(methylpyrrolidinium)-pentane",,,,
@@ -540,29 +338,9 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1038/nmat921,gpt4o,zeolite,xml,1,0.5,0.015,0.379,22.727,,,MPP(OH)2,,175.0,168.0,ITQ-22
 10.1038/nmat921,gpt4o,zeolite,xml,1,0.5,0.015,0.379,22.727,,,MPP(OH)2,,175.0,288.0,Al-containing ITQ-22
 10.1038/nmat921,gpt4o,zeolite,xml,1,0.247,,,,,,,0.25,350.0,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1038/nmat921,gpt4o,zeolite,xml,1,0.25,,,,,,,,,,
 10.1038/nmat921,gpt4o,zeolite,xml,1,0.25,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nmat921,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,1.25,,,0.1,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,2,400.0,62.0,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,2,400.0,0.0833,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,350.0,,
@@ -573,45 +351,14 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,400.0,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,400.0,,"Aromatic products, alkenes"
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,400.0,70.0,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,,0.0083,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,,0.0071,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,2,,,,,,,,400.0,5.0,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,0,0.0238,,,,,,,400.0,5.0,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,0,<0.01,,,,,,,400.0,2.0,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,xml,1-x,x,,(0.5-y),w,z,,ROH/TMAOH,,149.85000000000002,120.0,ITQ-29
 10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,xml,,,,,,,,ROH,,,,ITQ-29 zeolite crystals
 10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,xml,,,,,,,,ROH,,,,ITQ-29
-10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,xml,1,0.4925,,0.7463,44.7761,0.7463,,six independent SDAs,,149.85000000000002,120.0,ITQ-29
 10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,xml,1,0.4925,,0.3731,44.7761,0.7463,,TMAOH,,149.85000000000002,120.0,
 10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,xml,1,0.4925,,0.3731,10.4478,0.7463,,TMAOH,,149.85000000000002,168.0,
@@ -738,33 +485,9 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,xml,1,0.18,,,,,,"ROH, TMAOH",,149.85000000000002,120.0,ITQ-29
 10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,xml,1,0.5,,,,,,"ROH, TMAOH",,149.85000000000002,120.0,ITQ-29
 10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,xml,,,,,,,,,,,120.0,ITQ-29
-10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2009.05.004,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2009.08.012,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.0089,,,,,,Tetramethylammonium hydroxide,,,,[Ge]CDS-1 zeolite
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.0089,,,,,,Tetramethylammonium hydroxide,,,,[Ge]CDS-1 zeolite
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.5,0.2,1.5,2.0,0.1,0.05,TPAOH,0.3,100.0,24.0,Zeolite A
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.88,,,,,,,,,,[Ge]PLS-1
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.12,,,,,,,,,,[Ge]CDS-1
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.04,,,,,,,,,,[Ge]PLS-1
@@ -774,15 +497,10 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.82,,0.00224,,,,,,,,
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,1.36,,0.00096,,,,,,,,
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.96,,0.000425,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,xml,1,0.18,,,,,,"2,4,6-tris (4-pyridyl) triazine",,199.85,,MTN-type zeolite
 10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,xml,1,0.5,,,,,,"2,4,6-tris (4-pyridyl) triazine",,199.85,,AST (AlPO4-sixteen)
 10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,xml,,,,,,,,,,,,MTN-type zeolite
 10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,xml,,,,,,,,,,,,MTN-type zeolite
-10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,xml,1,0,,0.25,50,0.5,,TPT,0.1,149.85000000000002,168.0,MTN
 10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,xml,0.85,0.15,,0.25,50,0.5,,TPT,0.1,149.85000000000002,168.0,MTN
 10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,xml,0.67,0.33,,0.25,50,0.5,,TPT,0.1,149.85000000000002,168.0,MTN
@@ -816,46 +534,20 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,xml,0.85,0.15,,0.25,10,0.5,,TPT,0.1,199.85,144.0,MTN-type zeolite
 10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,xml,0.67,0.33,,0.25,10,0.5,,TPT,0.1,199.85,144.0,AST-type zeolite
 10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,xml,0.5,0.5,,0.25,10,0.5,,TPT,0.1,199.85,144.0,AST-type zeolite
-10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcrysgro.2009.08.031,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,2,0.1,0.2,1.5,0.05,,TPAOH,0.3,400.0,24.0,H-ITQ-13
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,0,0.0238,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,0,<0.01,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,0,0,0,0,0,0,,0,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,1,0.0476,,,,,,,400.0,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,1,0.01,,,,,,,400.0,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,,0.0238,,,,,,,400.0,5.0,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,,0.01,,,,,,,400.0,5.0,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,2,,,,,,,,480.0,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,0.2,0.1,,,,,,,480.0,,H-ITQ-13
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,0.099,0.011,0.275,5.495,0.615,,Hexamethonium hydroxide,,160.0,336.0,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,0.099,0.011,0.275,5.495,0.615,,Hexamethonium hydroxide,,160.0,336.0,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,,,0.25,5,0.5,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,"ITQ-13(N), ITQ-13(P)"
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,400.0,,Methanol conversion products
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,42,400.0,95.0,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,0,,,,,,,,400.0,95.0,
@@ -874,36 +566,13 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,B-IWR
 10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,Al-IWR
 10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,Ga-IWR
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2014.06.041,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,xml,,3,3,,1,,,,,,,Na2Rb[Al3Ge3O12]·H2O
 10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,xml,,3,3,,1,,,,,,,Na2RbAl3Ge3O12H2O
-10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,xml,,,,,,,,,,,,Zeolite RbAlGe JBW
 10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,xml,1,3,3,,1,,,,,24.850000000000023,,
 10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,xml,,,,,,,,,,24.850000000000023,,Na2Rb[Al3Ge3O12]·H2O
-10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,1,0.04,,,,,,,,49.85000000000002,,acetone/water selectivity of 330
 10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,1,0.024,,,,,,,,59.85000000000002,,total flux of 0.95 kg/m2 h
-10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,1,0.01,,,,,,,,199.85,,
 10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,1,0.04,,,,,,,,29.850000000000023,,
 10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,1,0.2,,,,,,,,49.85000000000002,,
@@ -962,7 +631,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,1,0.112,0.083,,,,,,,184.85,48.0,
 10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,1,0.00476,,,,,,,,199.85,,
 10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,1,0.11236,,,,,,,,199.85,,
-10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,1,0.0244,,,,,,,,,,
 10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,1,0.024,,,,,,,,29.850000000000023,,Ge-ZSM-5 membrane
 10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,1,0.2,,,,,,,,29.850000000000023,,amorphous Ge compound
@@ -971,32 +639,11 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,1,0.0091,,,,,,,,,,non-zeolite pores
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.1-1.25,,,,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.286,,,,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,1.25,,,0.1,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.32,,,0.1,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.26,,,0.1,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,1.25,,,0.322,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,ITH-type zeolite
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.1,,,0.256,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,ITH-type zeolite
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,1.25,,,0.32,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.1,,,0.26,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,1.25,,,,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
@@ -1025,20 +672,12 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,,,,,,,,,550.0,,Co-ITH
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,,,,,,,,,600.0,5.0,CuO
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,,,,,,,,,600.0,5.0,CoO
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,ITQ-21
 10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,ITQ-21
 10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,ITQ-21
 10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,ITQ-21
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1038/nature00924,gpt4o,zeolite,xml,1,,,,,,,,,,,ITQ-21
 10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,ITQ-21
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1038/nature00924,gpt4o,zeolite,xml,1,0.524,,,,,,N(16)-methylsparteinium cation,,,,ITQ-21
 10.1038/nature00924,gpt4o,zeolite,xml,1,0.524,,,,15.5,,N(16)-methylsparteinium cation (MSPT),,,,ITQ-21
 10.1038/nature00924,gpt4o,zeolite,xml,1,0.585,0.066,,,15.5,,N-methylsparteinium,23,549.85,,
@@ -1047,29 +686,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1038/nature00924,gpt4o,zeolite,xml,1,0.0989,0.0220,,3.2967,0.5495,,MSPTOH,,174.85000000000002,120.0,
 10.1038/nature00924,gpt4o,zeolite,xml,1,0.49,,,29.85,0.75,,0.75,,174.85000000000002,120.0,
 10.1038/nature00924,gpt4o,zeolite,xml,1,0.10,0.022,,3.30,0.55,,0.55,,174.85000000000002,120.0,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature00924,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.5,,1,10,,,CDO topology,0.1,150.0,48.0,CDS-1 zeolite
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.0089,,,,,,Tetramethylammonium hydroxide,,,,[Ge]CDS-1
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.0089,,,,,,Tetramethylammonium hydroxide,,,,[Ge]CDS-1 zeolite
@@ -1102,33 +718,14 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.02,,,,,,,,500.0,6.0,[Ge]CDS-1 zeolite
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.01,,,,,,,,500.0,6.0,[Ge]CDS-1 zeolite
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.04,,,,,,TMAOH,,,,[Ge]CDS-1
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.5,,1,10,,,CDO,0.1,100.0,24.0,CDS-1
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.5,,,,,,tetramethylammonium hydroxide,,,,[Ge]CDS-1
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.1,,0.2,1.5,,,Tetramethylammonium hydroxide,0.05,100.0,48.0,[Ge]CDS-1
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.0089,,,,,,Tetramethylammonium hydroxide,,,,[Ge]CDS-1
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.0089,,,,,,Tetramethylammonium hydroxide,,,,[Ge]CDS-1
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,2,1,,,,,,,,,
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,2,1,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,3,1,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,3,3,,2,,,TMAOH,,,,Na-AlGe-JBW
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,9.84,6.16,,4,,,TMAOH,,,,K-AlGe-MON
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,2,1,,,,,TMAOH,,,,Cs-AlGe-ANA
@@ -1159,19 +756,11 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,40,,,,,,,,,,Rb-ZnGe-ANA
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,TMAOH,,,,
 10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,TMAOH,,,,paracelsian
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00270-6,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,0.5,,,,,,,,400.0,5.0,C5+ alkenes
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,0.024,,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,<0.01,,,,,,,,400.0,2.0,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,0,0.024,,,,,,,400.0,5.0,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,0,<0.01,,,,,,,400.0,2.0,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,xml,,1.708,1.740,,,,,,,,,
 10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,xml,,3,3,,1,,,,,,,Na2Rb[Al3Ge3O12]·H2O
 10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,xml,1,3,3,,1,,,"Na, Rb",,,,Na2RbAl3Ge3O12·H2O
@@ -1182,17 +771,9 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,xml,,,,,,,,Na/Rb,,,,Na/Rb AlGe JBW
 10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,xml,1,1,3,,1,,,,,,,Na2RbAl3Ge3O12·H2O
 10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,xml,,3,3,,1,,,,,,,Na2Rb[Al3Ge3O12]·H2O
-10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00263-2,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,1,0.0417,,,,,0.0417,"6-azonia-spiro-[5,5]-undecane hydroxide",,,,
 10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,,Incorporated in zeolite,,,,,Incorporated in zeolite,,,,,Zeolite chabazite
 10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,,Incorporated in zeolite chabazite,,,,,Incorporated in zeolite chabazite,,,,,
-10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,1,0.5,,0.1,,,0.0667,,0.5,,168.0,Chabazite + GeO2
 10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,1,0.2,,0.1,,,0.0667,,0.5,,168.0,Amorphous + GeO2
 10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,1,0.5,,0.1,,,0.0667,,0.5,,168.0,Chabazite + GeO2
@@ -1216,7 +797,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,1,∞,1.67,0.011,0.056,,,,,170.0,,Amorphous
 10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,1,0.2,∞,0.05,0.05,,,,,170.0,,Amorphous + ITQ-7 + GeO2
 10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,1,,,,30,,,,,170.0,,
-10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,1,0.0417,,,,,0.0417,"6-azonia-spiro-[5,5]-undecane hydroxide",,,,
 10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,1,0.25,,0.95,,,,"6-azoniaspiro-[5,5]-undecane hydroxide",,80.0,,
 10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,1,0.25,,0.95,30,,0.1,"6-azoniaspiro-[5,5]-undecane",,170.0,252.0,[B–Si–Ge–O]-CHA
@@ -1237,15 +817,7 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,1,0.0417,,,,,0.0417,,,,,
 10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,1,0.0417,,,,,0.0417,"6-azonia-spiro-[5,5]-undecane hydroxide",,,,[B–Si–Ge–O]-CHA
 10.1016/j.micromeso.2012.10.004,gpt4o,zeolite,xml,1,0.0417,,,,,0.0417,"6-azonia-spiro-[5,5]-undecane hydroxide",,,,[B–Si–Ge–O]-CHA
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,,,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,,0.0238,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,,<0.01,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,,0.0238,,,,,,,,,
@@ -1254,21 +826,7 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,,0.0204,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,,0.96,,,,,,,,,
 10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,1,,1.02,,,,,,,,,
-10.1007/s11244-013-0170-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,1,,0.1,,,,,,,,,ITQ-30
-10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,1,49,0.02,,,,,N(16)-methyl-sparteinium,0.5,,120.0,
 10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,1,0.25,0.02,,2,0.25,,N(16)-methyl-sparteinium,0.25,,48.0,
 10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,1,0.067,0.04,,5,0.5,,N(16)-methyl-sparteinium,0.5,,24.0,
@@ -1287,7 +845,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,1,,0.04,,,,,,,,,
 10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,1,,0.02,,,,,,,,,
 10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,1,,0,,,,,,,,,
-10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,99,90,0.01,9,,,,,,,12.0,ITQ-30
 10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,99,88,0.02,11,,,,,,,15.0,MCM-22
 10.1016/j.jcat.2006.04.036,gpt4o,zeolite,xml,99,90,0.01,9,,,,,,,12.0,MCM-56
@@ -1313,29 +870,12 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.256,,,,,,TMHDA,,800.0,,GeSi-ITH
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,,,,,,,TMHDA,,800.0,,Cu-ITH
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,,,,,,,TMHDA,,800.0,,Co-ITH
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,1.25,,,0.1,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.1,,,,,,,,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,1.25,,,,,,,,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,1.25,,,0.32,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.1,,,0.26,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,1.25,,,0.1,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,1.25,,,0.32,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.1,,,0.26,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,1.25,,,10,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
@@ -1343,18 +883,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.33,,,20,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.2,,,25,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.1,,,30,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,1,,,,,0.25,174.85000000000002,336.0,
 10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,1,,1,,,0.25,174.85000000000002,336.0,ITQ-33
 10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,1,,,,,0.25,174.85000000000002,336.0,ITQ-33
@@ -1371,64 +899,16 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,1,0.5,,,,,,,,,,
 10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,,,,,,,,,ITQ-33 zeolite
 10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,High,,,,,,,,,,ITQ-33 zeolite
-10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,1,1,,,,,,"N,N-diethylethylenediamine (DEEDA)",,,,GeSi-STW
 10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,1,1,,,,,,"N,N-diethylethylenediamine (DEEDA)",,,,Cu-STW
 10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,1,1,,,,,,"N,N-diethylethylenediamine (DEEDA)",,,,Co-STW
-10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,1,2,,0.1,10,0.05,,TPAOH,0.2,180.0,48.0,STW-zeotype
-10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.0089,,,,,,tetramethylammonium hydroxide,,,,[Ge]CDS-1
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.5,,,,,,Tetramethylammonium hydroxide,,,,[Ge]CDS-1
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.0089,,,,,,Tetramethylammonium hydroxide,,,,[Ge]CDS-1 zeolite
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.04,,0.1,0.5,,,Tetramethylammonium hydroxide,,100.0,24.0,[Ge]CDS-1 zeolite
 10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,1,0.0089,,,,,,Tetramethylammonium hydroxide,,,,[Ge]CDS-1
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0051-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,0,1,10,0,0,TPAOH,0.1,100.0,24.0,Zeolite A
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,0.1,1,10,0,0,TPA,0.2,100.0,24.0,BEC-zeotype
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,1,0.2,1,15,0,0.05,TEA,0.3,150.0,48.0,B-substituted
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1.0,0.625,,,45,0.54,,TMEDA,,170.0,48.0,BEC
@@ -1444,44 +924,14 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,2,,,,,,"N,N,N′,N′-Tetra-methylethylenediamine",,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,,,,,,"N,N,N′,N′-Tetra-methylethylenediamine",,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,,,,,,,,,,BEC-type zeolite
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,1,,,,,,"N,N,N′,N′-Tetra-methylethylenediamine",,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,1,,,,,,"N,N,N′,N′-Tetra-methylethylenediamine",,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,,1,10,,,,0.1,180.0,24.0,BEC-type zeolite
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,,0.1,10,0.05,0.05,"N,N,N′,N′-Tetra-methylethylenediamine",0.2,180.0,48.0,BEC-zeotype
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,,,,,,"N,N,N′,N′-Tetra-methylethylenediamine",,,,BEC-type germanosilicates
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.226,,,,,,,,19.850000000000023,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.226,,,,,,,,19.850000000000023,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,,0.1,10,,0.05,TPAOH,0.2,180.0,48.0,BEC-zeotype
-10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,xml,1,,0.02,0.25,,0.00,,,0.25,,72.0,Amorphous
 10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,xml,1,,0.02,0.25,,0.16,,,0.25,,72.0,ITQ-13+EU-1+amorphous
 10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,xml,1,,0.02,0.25,,0.32,,,0.25,,72.0,ITQ-13+EU-1
@@ -1542,16 +992,10 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,xml,1,,0.0056,,,,,Hexamethonium dihydroxide,,179.85000000000002,72.0,
 10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,xml,1,,0.0213,,,,,hexamethonium dihydroxide,,,72.0,
 10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,xml,1,,0.0056,,,,,hexamethonium dihydroxide,,,72.0,
-10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,,,,,Flexible organic structure-directing agent (OSDA),,,,ITQ-33
-10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jcat.2007.12.003,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,1,1.84,2.42,,,,,,,,0.1666666666666666,
 10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,,,,,,,,,,19.850000000000023,,SU-57
 10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,,,,,,,,,,19.850000000000023,,
-10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,1,1.95,2.37,,,,,,,,,
 10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,1,0.71,1.52,,,,,,,,,
 10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,1,1.95,2.37,,,,,|C2H10N2|,,165.0,,SU-57-I
@@ -1572,31 +1016,11 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,0.6,0.4,0.47,,,,,C2H10N2,,,,SU-57
 10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,0.6,0.4,0.47,,,,,Ethanol-assisted,,375.0,,SU-57
 10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,,,,,,,,,,375.0,,SU-57
-10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.inoche.2013.11.010,gpt4o,zeolite,xml,,,,,,,,alkali and organic amine,,,,CCUT-9
-10.1016/j.inoche.2013.11.010,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.inoche.2013.11.010,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.inoche.2013.11.010,gpt4o,zeolite,xml,,,,,,,,Organic amine,,,,CCUT-9
 10.1016/j.inoche.2013.11.010,gpt4o,zeolite,xml,,1,,4,,,,"DETA, Pyridine",8 DETA: 30 pyridine,180.0,180.0,CCUT-9
 10.1016/j.inoche.2013.11.010,gpt4o,zeolite,xml,,1,,4,,,,"DETA, Pyridine",,180.0,180.0,CCUT-9
 10.1016/j.inoche.2013.11.010,gpt4o,zeolite,xml,,GeO4,,,,,,Organic amine,,-196.15,,CCUT-9
-10.1016/j.inoche.2013.11.010,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,1,,,52.5,4,,TMHDA,,,,Amorphous
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,1,,,112.5,4,,TMHDA,,,,ITH and amorphous
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,0.8,1,,,67.5,4,,TMHDA,,,,Amorphous
@@ -1633,19 +1057,8 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,1.25,,,0.1,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.2564,,,0.1,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,5.4,,,,,,,5.4,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,1.25,,,0.1,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,1.25,,,0.1,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,1.25,,,10,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.67,,,15,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.33,,,20,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
@@ -1653,28 +1066,10 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.10,,,30,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,1.25,,,0.32,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.1,,,0.26,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,0.500,,1.000,,,,,,,,
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,,,AlGe-CAN
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,,,GaGe-CAN
-10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,1,0.4,0.22,0.25,,,,,,,,
-10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,1,1,1,,,,,,,,AlGe-CAN
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,1,,1,,,,,,,,GaGe-CAN
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,1,1,1,,,,"Na, Cs",,,,AlGe-CAN
@@ -1691,27 +1086,7 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,800.0,5.0,GaGe-CAN
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,1,1,,3,3,,,,,800.0,5.0,GaGe analogue of NHI
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,550.0,,GaGe analogue of NHI type structure
-10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,ITQ-13
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,1,1.25,,,15,1,,54.25,,,,0
 10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,1,1.0,,,12,0.8,,"N,N-Diethylethylenediamine",43.4,,,AST
 10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,1,1.0,,,24,0.6,,"N,N-Diethylethylenediamine",43.4,,,GeO2
@@ -1754,38 +1129,15 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,1,1.3,,,,,,DEEDA,,800.0,,Cu-STW
 10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,1,0.8,,,,,,"N,N-diethyl ethylenediamine",,800.0,,
 10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,1,0.8,,,,,,"N,N-diethyl ethylenediamine",,800.0,,"Co: 0.30%, Cu: 0.045%"
-10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jssc.2014.12.031,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,1,1.11,,,105.56,4.0,,"1,2-diaminopropane, Pyridine",31.56,175.0,240.0,SU-21
 10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,1,1.11,,,105.56,4.0,,"1,2-diaminopropane, Pyridine",31.56,175.0,240.0,
 10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,1,2.63,,,,0.97,,,,270.0,,SU-21
 10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,1,2.63,,,,,,"1,2-diaminopropane",,210.0,,SU-21
 10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,,Ge,,,,,,Organic amines,,,,SU-21
-10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,Mesoporous germanium oxide with crystalline pore walls
 10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,Mesoporous germanium oxide with crystalline pore walls
 10.1038/nature04097,gpt4o,zeolite,xml,,1,,,,,,,,,,"SU-M, SU-MB"
 10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,"SU-M, SU-MB"
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,SU-M (mesoporous germanium oxide with gyroidal channels)
 10.1038/nature04097,gpt4o,zeolite,xml,1,1,,,,,,Organic amine,,,,SU-M
 10.1038/nature04097,gpt4o,zeolite,xml,,Ge10O20.5(OH)3,,OH,,,,Organic amine,,,,SU-M
@@ -1803,8 +1155,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,CsCl,,20.0,20.0,
 10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,KCl,,20.0,20.0,
 10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,NaCl,,20.0,20.0,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nature04097,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.625,,,45,0.54,,HF,,170.0,48.0,SiGe-BEC
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,,,81,2.5,0.05,OSDA,,170.0,72.0,B-BEC
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.226,,,144,0.54,,TMEDA,35,,,SiGe-BEC
@@ -1817,40 +1167,12 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.135,,,,,0.00079,TMEDA,,350.0,10.0,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.228,,,,,0.079,TMEDA,,800.0,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.096,,,,,0.079,TMEDA,,800.0,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,,0.1,10,0.05,0.05,"N,N,N′,N′-Tetra-methylethylenediamine",0.2,180.0,48.0,BEC-zeotype
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,,,,,,"N,N,N′,N′-Tetra-methylethylenediamine",,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,1,,,,,,"N,N,N′,N′-Tetra-methylethylenediamine",,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,,,,,,"N,N,N′,N′-Tetra-methylethylenediamine",,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,,,,,,"N,N,N′,N′-Tetra-methylethylenediamine",,,,BEC-type zeolite
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,"N,N,N′,N′-Tetra-methylethylenediamine",,800.0,,BEC-type germanosilicates
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,0.2684,0.1419,,,,,,,,
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,0.2556,0.0803,,,,,,,,
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,0.2478,0.1851,,,,,,,,
@@ -1859,13 +1181,7 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,0.2556,0.0803,,,,,,,,Mo-ITQ-13
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,0.2478,0.1851,,,,,,,,H-ZSM-5
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,0.2097,0.1377,,,,,,,,Mo-ZSM-5
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,,Ge-BEC,,,0.01 M HCl,,,,,,,Zr-containing germanosilicate
-10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,,Ge-BEC,,,BEC-Zr-H2O,,,,,,,
 10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,1,0.4167,,,,,,,,,,100
 10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,1,0.4167,,,,,,,,,,
@@ -1875,7 +1191,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,1,0.222,,,,,,,,,,
 10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,,,,,,,,,,,,BEC-Si-Zr
 10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,,,,,,,,,,,,Zr-BEA
-10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,1,0.251,,,,0.151,,TEAOH,,140.0,96.0,Ge-BEC
 10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,1,3.982,,,,6.637,,TEAOH,,140.0,96.0,
 10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,1,0.005,,0.54,5.6,0.42,,TEAOH,,139.85000000000002,360.0,
@@ -1884,21 +1199,9 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,,,,,,,,Tetraethyl ammonium,,550.0,,
 10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,,,,,,,,,,,,BEC-Si-Zr
 10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,,,,,,,,,,,,BEC-Si-Zr
-10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2016.11.023,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,xml,1,,0.0213,,,,,,2.40,299.85,,Al-ITQ-13 zeolites
 10.1016/j.micromeso.2017.03.033,gpt4o,zeolite,xml,1,,0.0056,,,,,,2.40,299.85,,Al-ITQ-13 zeolites
-10.1016/j.inoche.2013.11.010,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.inoche.2013.11.010,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.inoche.2013.11.010,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,0.73,,,0.16,,,3-ethyl-1-methyl-3H-imidazol-1-ium,,,,IM-16
-10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,,,,,,,,3-Ethyl-1-methyl-3H-imidazol-1-ium,,,,IM-16
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,2,,,20,,,3-ethyl-1-methyl-3H-imidazol-1-ium,0.5,,,
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,0.6,0.4,,,20,0,,3-ethyl-1-methyl-3H-imidazol-1-ium,0.5,,,TON+MFI+Arg
@@ -1929,7 +1232,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,1,1,,,,,,,,,
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,0.73,,,0.046,,,,,,,IM−16
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,0.729,,,0.046,,,,,,,IM-16
-10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,0.6,,,0.159,,,,,,,
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,0.9,,,0.159,,,,,,,
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,0.8,,,0.159,,,,,,,
@@ -1942,18 +1244,13 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,0.9157,,,,,,,,,,
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,8.3467,,,,,,,,,,
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,2.9286,,,,,,,,,,
-10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,1,,,,,,,,,,
-10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,2,,,,,,,,,,
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,1,,,,,,,,,,
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,3,,,,,,,,,,
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,1,,,,,,,,,,
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,1,,,,,,,,,,
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,1,,,,,,,,,,
-10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,0.729,,,0.046,,,3-ethyl-1-methyl-3H-imidazol-1-ium,,,,
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,0.729,,,0.046,,,3-ethyl-1-methyl-3H-imidazol-1-ium,,,,IM-16
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,1,,,1,0.4,,3-ethyl-1-methyl-3H-imidazol-1-ium bromide,,170.0,336.0,
@@ -1961,11 +1258,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,0.73,,,0.16,,,Imidazolium,0.43,540.0,,IM-16
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,1,1.37,,,0.16,0.43,,3-ethyl-1-methyl-3H-imidazol-1-ium,,,,IM-16
 10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,,,,,,,,3-ethyl-1-methyl-3H-imidazol-1-ium,,,,IM-16
-10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,2,0.1,0.2,5,,,TPAOH,,150.0,48.0,Cu-ITH
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,3.333,0.0667,0.25,6,,,TEAOH,,160.0,72.0,Co-ITH
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.05,,,90,3,,OSDA,37.4,170.0,168.0,
@@ -1993,14 +1285,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.1,,,0.26,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,1.25,,,0.32,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.1,,,0.26,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,1.25,,,0.1,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.67,,,0.067,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.33,,,0.05,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
@@ -2009,54 +1293,17 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.33,,,20,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.20,,,25,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
 10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,1,0.10,,,30,,,"N,N,N′,N′-tetramethyl-1,6-hexanediamine",,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10853-016-9799-5,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,1,1,,,,,,,,,Na16Cs8Al24Ge24O96
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(02)00612-1,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,1,1,1,,,,,,,,AlGe-CAN
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,1,,1,,,,,,,,GaGe-CAN
-10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,0,6,6,6,,,,,,,,AlGe-CAN
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,0,6,0,6,,,,,,,,GaGe-CAN
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,6,6,6,,,,,,,,AlGe-CAN
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,6,,6,,,,,,,,GaGe-CAN
-10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,1,1,1,,,,,,19.850000000000023,5.0,
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,1,1,1,,,,,,19.850000000000023,5.0,
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,6,6,6,,,,,,19.850000000000023,,
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,6,,6,,,,,,19.850000000000023,,
-10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,1.000,,,,,,,,,,,
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,1.000,,,,,,,,,,,
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,1.000,,,,,,,,,,,
@@ -2067,13 +1314,7 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/s1387-1811(00)00221-3,gpt4o,zeolite,xml,1.000,0.500,,,,,,,,,,
 10.1038/nchem.2761,gpt4o,zeolite,xml,1,0.5,,1,10,,,,0.1,100.0,24.0,IPC-6
 10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,Zeolite IPC-6
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,"IPC-n (n = 2, 4, 6, 7, 9, 10)"
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1038/nchem.2761,gpt4o,zeolite,xml,1,1,,,,,,,,,,
 10.1038/nchem.2761,gpt4o,zeolite,xml,1,1,,,,,,,,,,IPC-1P
 10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,95.0,,"IPC-1P, IPC-2P, IPC-6P"
@@ -2088,19 +1329,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,IPC-6
 10.1038/nchem.2761,gpt4o,zeolite,xml,1,0.5,,,47.5,,,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4,5]decane hydroxide",,175.0,312.0,
 10.1038/nchem.2761,gpt4o,zeolite,xml,1,0.5,,,47.5,,,"(6R,10S)-6,10-dimethyl-5-azoniaspiro[4,5]decane hydroxide",,175.0,312.0,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,0.273,,,,,,,,,,
 10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,0.222,,,,,,,,,,
 10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,0.191,,,,,,,,,,
@@ -2133,25 +1361,9 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,1,0.074,,NH4OH,,NH4F,,,,,,
 10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,1,0.213,,,,,,HM2+ cation,,,,GeO2
 10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,,,,,,,Hexamethonium,,,,Degermanated zeolite
-10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,1,1,,,,,,,,,Aluminogermanate analog of zeolite X
-10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,,,,,,,,,,,Hydrated aluminogermanate X
-10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,1.00,1.00,,,,,,,,,
-10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,0.53,50.9,0.241,0.307,0.322,18.4,,g,,,,OW4
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,0.28,9.0,0.273,0.273,0.273,18.4,,e,,,,OW4B
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,0.71,68.2,0.354,0.342,0.185,18.4,,g,,,,OW5
@@ -2159,42 +1371,14 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,0.80,76.8,0.231,0.215,0.416,18.4,,g,,,,OW7
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,0.53,50.9,0.241,0.377,0.280,18.4,,g,,,,OW8
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,0.48,46.1,0.352,0.349,0.305,18.4,,g,,,,OW9
-10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,,T(1),T(2),,,,,,,,,
 10.1016/s1387-1811(99)00070-0,gpt4o,zeolite,xml,1,1,1,,,,,,,,,
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,,0.2,10,0.05,0.1,"N,N,N′,N′-Tetra-methylethylenediamine",0.1,180.0,48.0,BEC-zeotype
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,Present,,,Critical,Important,Present,"N,N,N′,N′-Tetra-methylethylenediamine",,,,BEC-type zeolite
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,1,,,,,,"N,N,N′,N′-Tetra-methylethylenediamine",,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,,1,10,,,,0.1,180.0,24.0,BEC-type zeolite
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,,0.1,10,0.05,0.1,"N,N,N′,N′-Tetra-methylethylenediamine",0.2,180.0,48.0,BEC-type zeolite
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,2,,,,,,"N,N,N′,N′-Tetra-methylethylenediamine",,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,,,,,,"N,N,N',N'-Tetra-methylethylenediamine",,,,SiGe-BEC
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,,,,,,0.1,"N,N,N',N'-Tetra-methylethylenediamine",,,,B-BEC
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,,,,,,"N,N,N′,N′-Tetra-methylethylenediamine",,,,
@@ -2230,20 +1414,7 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,1,0.25,,,,,,,,,336.0,silica-sodalite
 10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,1,0.25,,,,,,,,,168.0,germanosilicate-sodalite
 10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,1,0.33,,,,,,Ethylene Glycol,,,,SOD
-10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,1,2.83,,1.09,0.55,,,"1,2-diaminopropane",,210.0,,SU-21
-10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,1,2.83,,1.09,0.55,1.09,,NH2CH2CHNH2CH3,,,,SU-21
 10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,1,2.826,,1.093,0.546,1.093,,NH2CH2CHNH2CH3,1.093,-173.14999999999998,,SU-21
 10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,,,,,,,,,,-173.14999999999998,,
@@ -2254,116 +1425,33 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,0.21,0.79,,,,,,,,,,
 10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,0.55,0.45,,,,,,,,,,
 10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,0.21,0.79,,,,,,,,,,
-10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,1,2.83,,1.09,0.55,1.09,,"1,2-diaminopropane",1.09,210.0,,SU-21
 10.1016/j.micromeso.2006.11.005,gpt4o,zeolite,xml,1,0.52,,,8.0,0.8,,"1,2-diaminopropane",12.0,210.0,,SU-21
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,1,,0.025,,,,,,,,,
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,1,,0.023,,,,,,,,,
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,1,,0.025,,,,,,,,,
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,1,,0.0233,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,ITQ-13
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,ITQ-13
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,1,1,,,,,,,24.850000000000023,,aluminogermanate rho
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,1,1,,,,,,,,,
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,1,1,,,,,,,,,
 10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,1.0,1.0,,,,,,,,,
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,1,1,,,,,,,,,
 10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,1,1,,,,,,,,,Na16Cs8Al24Ge24O96
 10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,1,0.5,,35,,,,,60.0,6.0,
 10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,1,1,,35,,,,,60.0,6.0,
 10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,1,1,,,,,,,24.850000000000023,16.0,
 10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,1,1,0.33,,,,,"Cs+, Na+",,,,
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,1,1,1,,,,,,,,,
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(98)00294-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,Al,,,,,,,,,
-10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1038/nchem.2761,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,,,,,,,,,,,LiAlGeO4·H2O
 10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,Present,Present,,Present,,,,,,,Lithium aluminogermanate zeolite
-10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,1,1,,1,,,,,24.850000000000023,,
 10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,1,1,,1,,,,,24.850000000000023,,
 10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,,,,,,,,,,,AlGe-ABW
 10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,3609,1626,175,,,3171,,,,,
 10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,1,1,,,,,,,,,
-10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,1,1,1,,1,,,,,,,LiAlGeO4·H2O
 10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,2,1,1,100,,,,,,,LiAlGeO<sub>4</sub>·H<sub>2</sub>O
 10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,2.0,1.0,1.0,100.0,,,,,110.0,120.0,LiAlGeO4·H2O
@@ -2372,57 +1460,19 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,,,,,,,,,,2.0,AlGe-ABW
 10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,,,,,,,,,,,Lithium aluminogermanate with the zeolite ABW topology
 10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,1,1,,1,,,,,,,
-10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/s1387-1811(99)00177-8,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,,,,,,"N,N,N′,N′-Tetra-methylethylenediamine",,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,,,,,,"N,N,N′,N′-Tetra-methylethylenediamine",,,,BEC-zeotype
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,"N,N,N′,N′-Tetra-methylethylenediamine",,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,2,,,,,,"N,N,N′,N′-Tetra-methylethylenediamine",,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,,,,,,"N,N,N′,N′-Tetra-methylethylenediamine",,,,BEC-type zeolite
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,0,1,10,0,0.1,"N,N,N′,N′-Tetra-methylethylenediamine",0.1,180.0,48.0,BEC-zeolite
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.5,0.2,1.5,10,0.1,0.05,TPAOH,0.3,100.0,24.0,Zeolite A
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.3,0.1,1.2,8,0.05,0.02,TEAOH,0.25,120.0,48.0,Zeolite B
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,1.5,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.24,,,,,,,,,,
 10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,1,0.56,,,,,,,,,,
-10.1007/s10934-015-0119-2,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,,,"1M (NH4OH), 10−2M (HCl)",,NH4F treatment,,,,,,Degermanated ITQ-17 zeolites
 10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,,,,,,,,,,,ITQ-17 zeolites
-10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,1,0.2,,,,,,,,80.0,,
 10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,1,0.2,,,,,,,,100.0,,
 10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,1,0.2,,,,,,,,120.0,,
@@ -2434,15 +1484,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,16,,,,,,,,,,"59% XRD, 330 m²/g S_BET"
 10.1016/j.micromeso.2014.02.010,gpt4o,zeolite,xml,,15.9,,,,,,,,,,"32% XRD, 235 m²/g S_BET"
 10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,Structure directing agent (SDA),,,,Aluminogermanosilicate H-ITQ-7
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,1,2,,,,,,,,400.0,,Hydrocarbons
 10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,GeO2,,Ge–O,,,,,,,,
 10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,GeO2,,,,,,,,,,germanium silicate ITQ-7
@@ -2464,26 +1505,11 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,Used for dissolving samples,,,,450.0,1.0,
 10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,1,0.256,0.0122,,,,,,,450.0,1.0,
 10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,1,0.256,0.0097,,,,,,,,,H-ITQ-7
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,550.0,3.0,
 10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,550.0,3.0,
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,Present in the framework as indicated by NMR studies.,Present as Brønsted and silanol/germanol sites.,Mentioned in the context of interaction with zeolite.,Mentioned in the context of Brønsted components.,,,,150.0,,
 10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,150.0,0.5,
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2010.10.050,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.jssc.2008.12.002,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,xml,1,1,0.00625,,,,,OSDA-1,,,,ITQ-37
-10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,xml,1,1,,0.5,3,0.4,,OSDAOH,,150.0,2.0,Amorphous
 10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,xml,1,1,,0.5,3,0.4,,OSDAOH,,150.0,6.0,Amorphous
 10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,xml,1,1,,0.5,3,0.4,,OSDAOH,,150.0,12.0,ITQ-37
@@ -2522,14 +1548,7 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,xml,1,1,,0.5,14,0.4,,OSDA-1,,170.0,18.0,ITQ-17 + ITQ-37
 10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,xml,1,1,,,,20,,OSDA-1,,350.0,5.0,ITQ-37
 10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,xml,1,,,,,,,OSDA-1,,,,ITQ-37
-10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2012.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,,,,,,,,,,179.85000000000002,,Silica-sodalite (SOD)
-10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,1,,,1.5,0.2,,,,,,672.0,Silica-sodalite
 10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,1,,,1.5,0.5,,,,,,672.0,Silica-sodalite
 10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,1,,,1.5,1.0,,,,,,672.0,Silica-sodalite
@@ -2571,51 +1590,14 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,1,0.4925,,,2.238,,,,,179.85000000000002,,Quartz
 10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,1,0,,,1.5,,,,,179.85000000000002,,SOD
 10.1016/j.micromeso.2006.10.023,gpt4o,zeolite,xml,1,0.4925,,,2.238,,,,,179.85000000000002,,SOD
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,ITQ-13
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,ITQ-13
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,Fluoride media,,Hexamethonium dihydroxide,,,,
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,1,1,5,11.2,20,100,,hexamethonium dihydroxide,,134.85000000000002,360.0,
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,1,0.2,5,11.2,100,100,,hexamethonium dihydroxide,,134.85000000000002,360.0,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,699.85,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,699.85,,"Mo-ITQ-13, Mo-ZSM-5"
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,ITQ-13
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1007/s11144-009-0129-7,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,1,0.0254,,,,,,,,500.0,,
 10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,1,0.0254,,,,,,,,200.0,,
 10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,1,0.0254,,,,,,,,250.0,,
@@ -2634,23 +1616,8 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,1,0.511,0.023,,38.39,,,ROH/Br,,175.0,312.0,
 10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,175.0,,
 10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,Pyridine adsorption,,500.0,,
-10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,200.0,3.0,
 10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,250.0,,
 10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,450.0,,
 10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,500.0,,
-10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.cattod.2012.10.002,gpt4o,zeolite,xml,,,,,,,,,,,,
 10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,0.6,0.4,0.5,,,,,Ethanol,,165.0,,SU-57
-10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,
-10.1016/j.micromeso.2008.06.036,gpt4o,zeolite,xml,,,,,,,,,,,,

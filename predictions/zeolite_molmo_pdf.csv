@@ -36,9 +36,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,75.0,250,43.75,20,300,10,0,LiAl2Si3O10[a-LiAl2Si3O10](3/2 )[Al2Si3O8](1/2 ).2H2O,2.5,,,GeO2[a-LiAl2Si3O10](3/2 )[Al2Si3O8](1/2 ).2H2O
 10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,87.5,312.5,51.25,25,400,15,0,LiAl2Si3O10[a-LiAl2Si3O10](3/2 )[Al2Si3O8](1/2 ).2H2O,3,,,GeO2[a-LiAl2Si3O10](3/2 )[Al2Si3O8](1/2 ).2H2O
 10.1016/s1387-1811(02)00612-1,molmo,zeolite,images,100.0,375.0,62.5,30,500,20,0,LiAl2Si3O10[a-LiAl2Si3O10](3/2 )[Al2Si3O8](1/2 ).2H2O,3.75,,,GeO2[a-LiAl2Si3O10](3/2 )[Al2Si3O8](1/2 ).2H2O
-10.1002/chem.200800416,molmo,zeolite,images,,,,,,,,,,,,
-10.1002/chem.200800416,molmo,zeolite,images,,,,,,,,,,,,
-10.1002/chem.200800416,molmo,zeolite,images,,,,,,,,,,,,
 10.1039/c7dt03751a,molmo,zeolite,images,7.10,1.06,4.99,6.57,125,20,0,"no SDA
 ",2,,,IPIC-12
 10.1039/c7dt03751a,molmo,zeolite,images,0.8,0.3,48.1,9.9,20.1,3.5,0,"F8-SDA
@@ -437,7 +434,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,1,3,0.03125,1,2,1,0.00625,H2SO4,1,,,Zro2/SiO2 zeolite
 10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,0.75,2.5,0.01875,1,2,1,0.00375,H2SO4,1,,,Zro2/SiO2 zeolite
 10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,1,2,0.00625,1,2,1,0.00375,H2SO4,1,,,Zro2/SiO2 zeolite
-10.1016/j.micromeso.2016.11.023,molmo,zeolite,images,,,,,,,,,,,,
 10.1016/j.jcat.2009.08.012,molmo,zeolite,images,1.0,0.5,1.5,1.2,97,95,0.05,"SiO2 Alumina
 ",100,,,Product ID
 10.1016/j.cattod.2013.10.051,molmo,zeolite,images,1,1,1,1,1,1,1,"Artificial
@@ -489,9 +485,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1039/c5ra09942k,molmo,zeolite,images,1,0.5,0.25,,,,,SDA Milo本赛季1,0.345,,,IT Milo
 10.1039/c5ra09942k,molmo,zeolite,images,1,0.375,0.25,,,,, Momenta本赛季1,0.35,,, Momenta
 10.1039/c5ra09942k,molmo,zeolite,images,1,0,0,,,,, unknown本周特价盎司,0,,, unknown
-10.1021/cm1006108,molmo,zeolite,images,,,,,,,,,,,,
-10.1021/cm1006108,molmo,zeolite,images,,,,,,,,,,,,
-10.1021/cm1006108,molmo,zeolite,images,,,,,,,,,,,,
 10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,1.0,2.0,1.8,0.4,99.4,0,0,Si13,1,,,Al-Si13-SiO4-Mg2
 10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,1.0,2.0,1.8,0.4,99.4,0,0,Al,2,,,Al-Si13-SiO4-Mg2
 10.1016/j.micromeso.2017.03.033,molmo,zeolite,images,1.0,2.0,1.8,0.4,99.4,0,0,Ge,4,,,Al-Si13-SiO4-Mg2
@@ -775,7 +768,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1021/acs.cgd.7b01000,molmo,zeolite,images,1,0.4,0,4,7,0.2,0.003,有机助晶剂法制备杂合沸石的研究进展,1:0.3,700.0,,杂合沸石
 10.1021/acs.cgd.7b01000,molmo,zeolite,images,1,0.2,0,3,6,0.1,0.002,有机助晶剂法制备杂合沸石的研究进展,1:0.2,750.0,,杂合沸石
 10.1021/acs.cgd.7b01000,molmo,zeolite,images,1,0,0,1,5,0,0,有机助晶剂法制备杂合沸石的研究进展,1:0,800.0,,杂合沸石
-10.1016/j.micromeso.2010.10.050,molmo,zeolite,images,,,,,,,,,,,,
 10.1016/j.jcat.2016.09.007,molmo,zeolite,images,12.08,1.32,0.04,0.18,0.005,0.52,0.15,getattr(list[0]['SDA Type']),0.15,,,Zeolite-tight getattr(list[0]['Extracted product'])
 10.1016/j.jcat.2016.09.007,molmo,zeolite,images,10,2.00,0.80,0.27,1.00,0.75,0.90,getattr(list[1]['SDA Type']),1.20,,,Zeolite-tight getattr(list[1]['Extracted product'])
 10.1016/j.jcat.2016.09.007,molmo,zeolite,images,6,4.00,1.90,0.40,2.50,1.20,,getattr(list[2]['SDA Type']),1.20,,,Zeolite-tight getattr(list[2]['Extracted product'])
@@ -808,7 +800,6 @@ doi,model,task,modality,Si,Ge,Al,OH,H2O,HF,B,SDA Type,SDA,Temp,Time,Extracted
 10.1021/ic301449y,molmo,zeolite,images,3.0,1.2,0.2,0.1,0.1,,, Lawley,,,,
 10.1016/j.jssc.2014.12.031,molmo,zeolite,images,3.50,1.22,,,,,,,,,,
 10.1016/j.jssc.2014.12.031,molmo,zeolite,images,2.87,0.87,,,,,,,,,,
-10.1016/j.jssc.2014.12.031,molmo,zeolite,images,,,,,,,,,,,,
 10.1021/cm502525w,molmo,zeolite,images,1,2,1,,,,,broad framework,2:1,,,
 10.1021/cm502525w,molmo,zeolite,images,1,2,1,,,,,broad framework,2:1,,,
 10.1021/cm502525w,molmo,zeolite,images,0.5,1,1,,,,,framework,1:1,,,
