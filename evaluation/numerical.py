@@ -14,20 +14,20 @@ def evaluate_numerical_columns(
     for column in set(numerical_columns).intersection(set(present_columns)):
         location = (
             gt_df[column + "_location"].values[0]
-            if (column + "_location" in gt_df.columns)
+            if (column + "_location" in gt_df.columns) and len(gt_df) > 0
             else "generic"
         )
 
         nonnull_filter = gt_df[column].notnull().values
 
         num_divergence_pos = np.abs(
-            gt_df[column][nonnull_filter].values - aligned_rows[column][nonnull_filter].values
+            gt_df[column][nonnull_filter] - aligned_rows[column][nonnull_filter]
         )  # / only_numeric(gt_df[present_columns]).values
 
         new_tp = (num_divergence_pos <= NUMERICAL_THRESHOLD).sum()
         stats.record("tp", new_tp, location)
 
-        new_fn = np.isnan(num_divergence_pos).sum()
+        new_fn = num_divergence_pos.isnull().sum()
         stats.record("fn", new_fn, location)
 
         should_be_null_fp = (aligned_rows[column][~nonnull_filter].notnull()).sum()

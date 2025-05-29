@@ -33,7 +33,7 @@ def evaluate_textual_columns(gt_df, aligned_rows, textual_columns, present_colum
     for column in set(textual_columns).intersection(set(present_columns)):
         location = (
             gt_df[column + "_location"].values[0]
-            if (column + "_location" in gt_df.columns)
+            if (column + "_location" in gt_df.columns and len(gt_df) > 0)
             else "generic"
         )
 

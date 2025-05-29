@@ -100,7 +100,7 @@ def compute_aligned_df_f1(gt_df, aligned_rows, unaligned_rows, present_columns, 
         for column in numerical_columns + textual_columns:
             location = (
                 gt_df[column + "_location"].values[0]
-                if (column + "_location" in gt_df.columns)
+                if (column + "_location" in gt_df.columns and len(gt_df) > 0)
                 else "generic"
             )
             paper_stats.record("fp", fp_extra_rows, location)
@@ -182,7 +182,7 @@ def evaluate_predictions(gt_df, pred_df, column_config, relevant_dois):
             dataset_stats += paper_stats
         except Exception as e:
             print(doi, e)
-            # raise e
+            raise e
             continue
 
     results_df = dataset_stats.to_dataframe()
