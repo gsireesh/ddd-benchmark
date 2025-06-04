@@ -6,7 +6,7 @@ import pandas as pd
 from evaluation.utils import StatsContainer
 
 
-def string_equals(string_a, string_b):
+def string_equals(string_a: str, string_b: str) -> bool:
     return string_a == string_b
 
 
@@ -20,14 +20,20 @@ def normalize(string: str) -> str | None:
     return mod
 
 
-def split_and_normalize(string: str) -> set[str]:
+def split_and_normalize(string: str) -> set[str | None]:
     if pd.isnull(string):
         return set()
     split_and_normed = {normalize(s) for s in re.split(",", string)}
     return split_and_normed
 
 
-def evaluate_textual_columns(gt_df, aligned_rows, textual_columns, present_columns, absent_columns):
+def evaluate_textual_columns(
+        gt_df: pd.DataFrame, 
+        aligned_rows: pd.DataFrame, 
+        textual_columns: list[str], 
+        present_columns: list[str], 
+        absent_columns: list[str]
+    ) -> StatsContainer:
     stats = StatsContainer()
 
     for column in set(textual_columns).intersection(set(present_columns)):

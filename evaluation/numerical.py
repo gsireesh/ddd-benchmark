@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 
 from evaluation.utils import StatsContainer
 
@@ -6,7 +7,11 @@ NUMERICAL_THRESHOLD = 0.1
 
 
 def evaluate_numerical_columns(
-    gt_df, aligned_rows, numerical_columns, present_columns, absent_columns
+    gt_df: pd.DataFrame,
+    aligned_rows: pd.DataFrame,
+    numerical_columns: list[str], 
+    present_columns: list[str], 
+    absent_columns: list[str]
 ) -> StatsContainer:
     # For all present data, compute true and false positives, and false negatives
     stats = StatsContainer()
