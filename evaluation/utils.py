@@ -53,13 +53,13 @@ def get_all_list_columns(column_config: dict[str, list[str]]) -> list[str]:
 
 def only_numeric(data: pd.Series, column_config: dict[str, list[str]]) -> pd.Series:
     """Get only numeric "columns" from series"""
-    return data[
+    return pd.to_numeric(data[
         [
             column
             for column in (data.index if isinstance(data, pd.Series) else data)
             if column in column_config["numerical"]
         ]
-    ]
+    ], errors='coerce')
 
 
 def only_textual(data: pd.Series, column_config: dict[str, list[str]]) -> pd.Series:

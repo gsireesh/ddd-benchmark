@@ -13,9 +13,9 @@ def get_row_match_score(
         column_config: dict[str, list[str]]
     ) -> int:
     """Compute a match score between a ground truth row and prediction row"""
-    data_numerical: np.ndarray = np.abs(
-        (only_numeric(gt_row, column_config).values - only_numeric(pred_row, column_config).values)
-    )  # / only_numeric(data_row).values
+    gt_numerical = only_numeric(gt_row, column_config).fillna(0.0)
+    pred_numerical = only_numeric(pred_row, column_config).fillna(0.0)
+    data_numerical: np.ndarray = np.abs(gt_numerical - pred_numerical)  # / only_numeric(data_row).values
     numerical_score = (data_numerical < numerical_threshold).sum()
 
     text_score = (

@@ -143,11 +143,14 @@ def calculate_prf_from_df(df: pd.DataFrame) -> dict[str, float | None]:
     fp = totals.loc["fp"] if "fp" in totals.index else 0
     fn = totals.loc["fn"] if "fn" in totals.index else 0
 
-    if tp == 0 and (fp == 0 or fn == 0):
-        precision, recall, f1 = None, None, None
+    if tp == 0:
+        if fp == 0 or fn == 0:
+            precision, recall, f1 = None, None, None
+        else:
+            precision, recall, f1 = 0.0, 0.0, None
     else:
-        precision = tp / (tp + totals.loc["fp"])
-        recall = tp / (tp + totals.loc["fn"])
+        precision = tp / (tp + fp)
+        recall = tp / (tp + fn)
         f1 = (2 * precision * recall) / (precision + recall)
 
     return {
