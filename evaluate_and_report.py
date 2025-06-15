@@ -46,11 +46,14 @@ def get_comparison_columns(data_df: pd.DataFrame, columns_to_predict: list[str])
     This function checks if the columns have a location annotation and if they contain any non-null values.
     """
     comparison_columns = []
+    # If the first column to predict does not have a location annotation or is all null,
+    # return all columns to predict.
     if (
         columns_to_predict[0] + "_location" not in data_df.columns
         or data_df[columns_to_predict[0]].isnull().all()
     ):
         return columns_to_predict
+    # Otherwise, check each column to predict for location annotation and non-null values.
     for column in columns_to_predict:
         if (
             data_df[column + "_location"].iloc[0] not in ["Not Present", "Not on page"]
@@ -125,10 +128,12 @@ def compute_aligned_df_f1(
     return paper_stats
 
 
-def get_results_by_location(dataset_stats: StatsContainer) -> dict[str, dict[str, float]]:
+def get_results_by_location(dataset_stats: StatsContainer) -> dict[str, dict[str, float | None]]:
     """Given data per-paper computed per-location, aggregate per-location metrics across papers."""
     scores_by_location = {}
     result_df = dataset_stats.to_dataframe()
+    if result_df.empty or "location" not in result_df.columns:
+        return {"generic": calculate_prf_from_df(result_df)}
     by_location = result_df.groupby("location")
     for location, index in by_location.groups.items():
         location_df = result_df.loc[index]
@@ -138,6 +143,8 @@ def get_results_by_location(dataset_stats: StatsContainer) -> dict[str, dict[str
 
 def calculate_prf_from_df(df: pd.DataFrame) -> dict[str, float | None]:
     """Calculate precision, recall and f1 from a dataframe of stats."""
+    if df.empty:
+        return {"precision": None, "recall": None, "f1": None}
     totals = df.groupby("stat_type")["number"].sum()
     tp = totals.loc["tp"] if "tp" in totals.index else 0
     fp = totals.loc["fp"] if "fp" in totals.index else 0
@@ -165,7 +172,7 @@ def evaluate_predictions(
         pred_df: pd.DataFrame, 
         column_config: dict[str, list[str]], 
         relevant_dois: set[str] | list[str],
-        ) -> dict[str, float | dict[str, dict[str, float]] | None]:
+        ) -> dict[str, float | dict[str, dict[str, float | None]] | None]:
 
     if "doi" not in pred_df.columns:
         pred_df["doi"] = pred_df["source"].str.replace(".png|.xml|.html", "").str.replace("_", "/")

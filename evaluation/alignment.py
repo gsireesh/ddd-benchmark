@@ -16,14 +16,13 @@ def get_row_match_score(
     gt_numerical = only_numeric(gt_row, column_config).fillna(0.0)
     pred_numerical = only_numeric(pred_row, column_config).fillna(0.0)
     data_numerical: np.ndarray = np.abs(gt_numerical - pred_numerical)  # / only_numeric(data_row).values
-    numerical_score = (data_numerical < numerical_threshold).sum()
+    numerical_score: int = (data_numerical < numerical_threshold).sum()
 
-    text_score = (
+    text_score: int = (
         only_textual(gt_row, column_config) == only_textual(pred_row, column_config)
     ).sum()
 
     total_score = numerical_score + text_score
-
     return total_score
 
 
@@ -40,7 +39,6 @@ def get_alignment_scores(
             alignment_matrix[i, j] = get_row_match_score(
                 data_row, pred_row, NUMERICAL_THRESHOLD, column_config
             )
-
     return alignment_matrix
 
 
