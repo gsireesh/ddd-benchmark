@@ -112,13 +112,14 @@ def compute_aligned_df_f1(
     ## ADJUSTMENTS FOR EXTRA DATA
 
     if unaligned_rows is not None:
-        fp_extra_rows = unaligned_rows[numerical_columns + textual_columns].notnull().sum().sum()
+        # fp_extra_rows = unaligned_rows[numerical_columns + textual_columns].notnull().sum().sum()
         for column in numerical_columns + textual_columns:
             location = (
                 gt_df[column + "_location"].values[0]
                 if (column + "_location" in gt_df.columns and len(gt_df) > 0)
                 else "generic"
             )
+            fp_extra_rows = unaligned_rows[column].notnull().sum()
             paper_stats.record("fp", fp_extra_rows, location)
 
     ## CALCULATING P, R, F1
@@ -186,8 +187,8 @@ def evaluate_predictions(
         pred_df[column] = pd.to_numeric(pred_df[column], errors="coerce")
 
     for column in column_config["textual"]:
-        gt_df[column] = gt_df[column].apply(str)
-        pred_df[column] = pred_df[column].apply(str)
+        gt_df[column] = gt_df[column].astype("string")
+        pred_df[column] = pred_df[column].astype("string")
 
     dataset_stats = StatsContainer()
 
