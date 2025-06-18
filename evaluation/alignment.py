@@ -76,7 +76,7 @@ def align_predictions(pred_df: pd.DataFrame, alignment_matrix: np.ndarray) -> tu
     aligned_df = pred_df.iloc[assigned_order]
 
     if (rows_to_add := (alignment_matrix.shape[0] - len(aligned_df))) > 0:
-        none_df = pd.DataFrame({col: [None] * rows_to_add for col in aligned_df})
-        aligned_df = pd.concat((aligned_df, none_df))
+        none_df = pd.DataFrame({col: [np.nan] * rows_to_add for col in aligned_df})
+        aligned_df = pd.concat((aligned_df, none_df.astype(aligned_df.dtypes)))
 
     return aligned_df, unaligned_rows
