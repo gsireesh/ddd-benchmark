@@ -23,16 +23,16 @@ def evaluate_numerical_columns(
             else "generic"
         )
 
-        nonnull_filter = gt_df[column].notnull().values
+        nonnull_filter = gt_df[column].notnull().to_numpy()
 
         num_divergence_pos = np.abs(
-            gt_df[column][nonnull_filter] - aligned_rows[column][nonnull_filter]
+            gt_df[column].values[nonnull_filter] - aligned_rows[column].values[nonnull_filter]
         )  # / only_numeric(gt_df[present_columns]).values
 
         new_tp = (num_divergence_pos <= NUMERICAL_THRESHOLD).sum()
         stats.record("tp", new_tp, location)
 
-        new_fn = num_divergence_pos.isnull().sum()
+        new_fn = np.isnan(num_divergence_pos).sum()
         stats.record("fn", new_fn, location)
 
         should_be_null_fp = (aligned_rows[column][~nonnull_filter].notnull()).sum()
@@ -49,7 +49,7 @@ def evaluate_numerical_columns(
             else "generic"
         )  # all absent values should be calculated against a value of 0.
         absent_value = np.zeros_like(gt_df[column].values) - 1
-        num_divergence_neg = np.abs(absent_value - aligned_rows[column].fillna(-1.0)).values
+        num_divergence_neg = np.abs(absent_value - aligned_rows[column].fillna(-1.0).values)
 
         new_tn = (num_divergence_neg == 0).sum(axis=None)
         stats.record("tn", new_tn, location)
