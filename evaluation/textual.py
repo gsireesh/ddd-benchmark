@@ -24,6 +24,8 @@ def split_and_normalize(string: str) -> set[str | None]:
     if pd.isnull(string):
         return set()
     split_and_normed = {normalize(s) for s in re.split(",", string)}
+    # Remove empty strings and None values
+    split_and_normed = {s for s in split_and_normed if s not in {"", None}}
     return split_and_normed
 
 
@@ -45,8 +47,8 @@ def evaluate_textual_columns(
 
         # # For all present data, compute true and false positives, and false negatives
         for gt_value, pred_value in zip(gt_df[column].values, aligned_rows[column].values):
-            gt_normed_set = split_and_normalize(str(gt_value))
-            pred_normed_set = split_and_normalize(str(pred_value))
+            gt_normed_set = split_and_normalize(gt_value)
+            pred_normed_set = split_and_normalize(pred_value)
 
             stats.record("tp", len(gt_normed_set.intersection(pred_normed_set)), location)
             stats.record("fp", len(pred_normed_set - gt_normed_set), location)

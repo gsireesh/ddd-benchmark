@@ -130,3 +130,21 @@ def test_evaluate_predictions_partial_match():
     assert 0.0 < result["precision"] < 1.0
     assert result["recall"] == 1.0
     assert 0.0 < result["f1"] < 1.0
+
+def test_evaluate_str_empty():
+    """
+    Test the evaluation function with empty string predictions.
+    """
+    pred_df = golden_df.copy()
+    pred_df.loc[0, "AA"] = ""
+
+    result = evaluate_predictions(
+        golden_df.copy(),
+        pred_df,
+        column_config,
+        relevant_dois
+    )
+    print(result["precision"])
+    assert abs(result["precision"] - 19/19) < 1e-6
+    assert abs(result["recall"] - 19/20) < 1e-6
+    assert 0.0 < result["f1"] < 1.0
