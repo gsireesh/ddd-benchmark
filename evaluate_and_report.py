@@ -32,18 +32,28 @@ ANNOTATED_LOCATIONS = [
 
 
 def get_columns_to_predict(column_config: dict) -> list[str]:
+    """
+    Get all columns that are to be predicted, based on the column configuration.
+    """
     return (
         column_config["numerical"] + column_config["textual"] + get_all_list_columns(column_config)
     )
 
 
-def get_comparison_columns(data_df, columns_to_predict):
+def get_comparison_columns(data_df: pd.DataFrame, columns_to_predict: list[str]) -> list[str]:
+    """
+    Get columns that can be compared between ground truth and predictions.
+    This function checks if the columns have a location annotation and if they contain any non-null values.
+    """
     comparison_columns = []
+    # If the first column to predict does not have a location annotation or is all null,
+    # return all columns to predict.
     if (
         columns_to_predict[0] + "_location" not in data_df.columns
         or data_df[columns_to_predict[0]].isnull().all()
     ):
         return columns_to_predict
+    # Otherwise, check each column to predict for location annotation and non-null values.
     for column in columns_to_predict:
         if (
             data_df[column + "_location"].iloc[0] not in ["Not Present", "Not on page"]
@@ -53,7 +63,13 @@ def get_comparison_columns(data_df, columns_to_predict):
     return comparison_columns
 
 
-def compute_aligned_df_f1(gt_df, aligned_rows, unaligned_rows, present_columns, column_config):
+def compute_aligned_df_f1(
+        gt_df: pd.DataFrame, 
+        aligned_rows: pd.DataFrame, 
+        unaligned_rows: pd.DataFrame | None, 
+        present_columns: list[str], 
+        column_config: dict[str, list[str]]
+        ) -> StatsContainer:
     """Compute F1 score for a single paper.
 
     gt_df and aligned_rows should be the same shape, and unaligned rows are additional rows that
@@ -67,11 +83,9 @@ def compute_aligned_df_f1(gt_df, aligned_rows, unaligned_rows, present_columns, 
     # location-annotated data.
     absent_columns = [
         column
-        for column in gt_df
+        for column in gt_df.columns
         if column not in present_columns and column in numerical_columns + textual_columns
     ]
-
-    fp_extra_rows = 0
 
     paper_stats = StatsContainer()
 
@@ -96,13 +110,14 @@ def compute_aligned_df_f1(gt_df, aligned_rows, unaligned_rows, present_columns, 
     ## ADJUSTMENTS FOR EXTRA DATA
 
     if unaligned_rows is not None:
-        fp_extra_rows = unaligned_rows[numerical_columns + textual_columns].notnull().sum().sum()
+        # fp_extra_rows = unaligned_rows[numerical_columns + textual_columns].notnull().sum().sum()
         for column in numerical_columns + textual_columns:
             location = (
                 gt_df[column + "_location"].values[0]
                 if (column + "_location" in gt_df.columns and len(gt_df) > 0)
                 else "generic"
             )
+            fp_extra_rows = unaligned_rows[column].notnull().sum()
             paper_stats.record("fp", fp_extra_rows, location)
 
     ## CALCULATING P, R, F1
@@ -112,10 +127,12 @@ def compute_aligned_df_f1(gt_df, aligned_rows, unaligned_rows, present_columns, 
     return paper_stats
 
 
-def get_results_by_location(dataset_stats: StatsContainer) -> dict[str, dict[str, float]]:
+def get_results_by_location(dataset_stats: StatsContainer) -> dict[str, dict[str, float | None]]:
     """Given data per-paper computed per-location, aggregate per-location metrics across papers."""
     scores_by_location = {}
     result_df = dataset_stats.to_dataframe()
+    if result_df.empty or "location" not in result_df.columns:
+        return {"generic": calculate_prf_from_df(result_df)}
     by_location = result_df.groupby("location")
     for location, index in by_location.groups.items():
         location_df = result_df.loc[index]
@@ -123,17 +140,23 @@ def get_results_by_location(dataset_stats: StatsContainer) -> dict[str, dict[str
     return scores_by_location
 
 
-def calculate_prf_from_df(df: pd.DataFrame) -> dict[str, float]:
+def calculate_prf_from_df(df: pd.DataFrame) -> dict[str, float | None]:
+    """Calculate precision, recall and f1 from a dataframe of stats."""
+    if df.empty:
+        return {"precision": None, "recall": None, "f1": None}
     totals = df.groupby("stat_type")["number"].sum()
     tp = totals.loc["tp"] if "tp" in totals.index else 0
     fp = totals.loc["fp"] if "fp" in totals.index else 0
     fn = totals.loc["fn"] if "fn" in totals.index else 0
 
-    if tp == 0 and (fp == 0 or fn == 0):
-        precision, recall, f1 = None, None, None
+    if tp == 0:
+        if fp == 0 or fn == 0:
+            precision, recall, f1 = None, None, None
+        else:
+            precision, recall, f1 = 0.0, 0.0, None
     else:
-        precision = tp / (tp + totals.loc["fp"])
-        recall = tp / (tp + totals.loc["fn"])
+        precision = tp / (tp + fp)
+        recall = tp / (tp + fn)
         f1 = (2 * precision * recall) / (precision + recall)
 
     return {
@@ -143,7 +166,12 @@ def calculate_prf_from_df(df: pd.DataFrame) -> dict[str, float]:
     }
 
 
-def evaluate_predictions(gt_df, pred_df, column_config, relevant_dois):
+def evaluate_predictions(
+        gt_df: pd.DataFrame, 
+        pred_df: pd.DataFrame, 
+        column_config: dict[str, list[str]], 
+        relevant_dois: set[str] | list[str],
+        ) -> dict[str, float | dict[str, dict[str, float | None]] | None]:
 
     if "doi" not in pred_df.columns:
         pred_df["doi"] = pred_df["source"].str.replace(".png|.xml|.html", "").str.replace("_", "/")
@@ -157,8 +185,8 @@ def evaluate_predictions(gt_df, pred_df, column_config, relevant_dois):
         pred_df[column] = pd.to_numeric(pred_df[column], errors="coerce")
 
     for column in column_config["textual"]:
-        gt_df[column] = gt_df[column].apply(str)
-        pred_df[column] = pred_df[column].apply(str)
+        gt_df[column] = gt_df[column].astype("string")
+        pred_df[column] = pred_df[column].astype("string")
 
     dataset_stats = StatsContainer()
 

@@ -12,7 +12,7 @@ def compute_all_results(predictions_directory: str = "predictions"):
         parsed = re.fullmatch(
             r"(?P<dataset>.*?)_(?P<model>.*?)_(?P<modality>.*?).csv", predictions_file
         )
-        if not parsed or parsed.group("modality") not in ["pdf"]:
+        if not parsed or parsed.group("modality") not in ["pdf","xml"]:
             continue
         evaluate_predictions_wrapper(
             dataset=parsed.group("dataset"),

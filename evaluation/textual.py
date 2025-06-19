@@ -6,7 +6,7 @@ import pandas as pd
 from evaluation.utils import StatsContainer
 
 
-def string_equals(string_a, string_b):
+def string_equals(string_a: str, string_b: str) -> bool:
     return string_a == string_b
 
 
@@ -20,14 +20,22 @@ def normalize(string: str) -> str | None:
     return mod
 
 
-def split_and_normalize(string: str) -> set[str]:
+def split_and_normalize(string: str) -> set[str | None]:
     if pd.isnull(string):
         return set()
     split_and_normed = {normalize(s) for s in re.split(",", string)}
+    # Remove empty strings and None values
+    split_and_normed = {s for s in split_and_normed if s not in {"", None}}
     return split_and_normed
 
 
-def evaluate_textual_columns(gt_df, aligned_rows, textual_columns, present_columns, absent_columns):
+def evaluate_textual_columns(
+        gt_df: pd.DataFrame, 
+        aligned_rows: pd.DataFrame, 
+        textual_columns: list[str], 
+        present_columns: list[str], 
+        absent_columns: list[str]
+    ) -> StatsContainer:
     stats = StatsContainer()
 
     for column in set(textual_columns).intersection(set(present_columns)):
@@ -39,8 +47,8 @@ def evaluate_textual_columns(gt_df, aligned_rows, textual_columns, present_colum
 
         # # For all present data, compute true and false positives, and false negatives
         for gt_value, pred_value in zip(gt_df[column].values, aligned_rows[column].values):
-            gt_normed_set = split_and_normalize(str(gt_value))
-            pred_normed_set = split_and_normalize(str(pred_value))
+            gt_normed_set = split_and_normalize(gt_value)
+            pred_normed_set = split_and_normalize(pred_value)
 
             stats.record("tp", len(gt_normed_set.intersection(pred_normed_set)), location)
             stats.record("fp", len(pred_normed_set - gt_normed_set), location)

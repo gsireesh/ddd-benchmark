@@ -1,27 +1,37 @@
 import numpy as np
 import pandas as pd
+from typing import Any
 
 from evaluation.numerical import NUMERICAL_THRESHOLD
 from evaluation.utils import only_numeric, only_textual
 
 
-def get_row_match_score(gt_row, pred_row, numerical_threshold, column_config):
+def get_row_match_score(
+        gt_row: pd.Series, 
+        pred_row: pd.Series, 
+        numerical_threshold:float, 
+        column_config: dict[str, list[str]]
+    ) -> int:
     """Compute a match score between a ground truth row and prediction row"""
-    data_numerical: np.ndarray = np.abs(
-        (only_numeric(gt_row, column_config).values - only_numeric(pred_row, column_config).values)
-    )  # / only_numeric(data_row).values
-    numerical_score = (data_numerical < numerical_threshold).sum()
+    gt_numerical = only_numeric(gt_row, column_config).fillna(0.0)
+    pred_numerical = only_numeric(pred_row, column_config).fillna(0.0)
+    data_numerical: np.ndarray = np.abs(gt_numerical - pred_numerical)  # / only_numeric(data_row).values
+    numerical_score: int = (data_numerical < numerical_threshold).sum()
 
-    text_score = (
+    text_score: int = (
         only_textual(gt_row, column_config) == only_textual(pred_row, column_config)
     ).sum()
 
     total_score = numerical_score + text_score
-
     return total_score
 
 
-def get_alignment_scores(gt_df, pred_df, comparison_columns, column_config):
+def get_alignment_scores(
+        gt_df: pd.DataFrame, 
+        pred_df: pd.DataFrame, 
+        comparison_columns: list[str], 
+        column_config: dict[str,list[str]]
+    ) -> np.ndarray:
     """Get a matrix of alignment scores between ground truth and predicted rows."""
     alignment_matrix = np.zeros((len(gt_df), len(pred_df)))
     for i, (_, data_row) in enumerate(gt_df[comparison_columns].iterrows()):
@@ -29,11 +39,10 @@ def get_alignment_scores(gt_df, pred_df, comparison_columns, column_config):
             alignment_matrix[i, j] = get_row_match_score(
                 data_row, pred_row, NUMERICAL_THRESHOLD, column_config
             )
-
     return alignment_matrix
 
 
-def align_predictions(pred_df, alignment_matrix):
+def align_predictions(pred_df: pd.DataFrame, alignment_matrix: np.ndarray) -> tuple[pd.DataFrame, pd.DataFrame | None]:
     """Compute a heuristic alignment between ground truth and predicted rows.
 
     This function computes a heuristic match score between a predicted row and all ground truth rows
@@ -67,7 +76,7 @@ def align_predictions(pred_df, alignment_matrix):
     aligned_df = pred_df.iloc[assigned_order]
 
     if (rows_to_add := (alignment_matrix.shape[0] - len(aligned_df))) > 0:
-        none_df = pd.DataFrame({col: [None] * rows_to_add for col in aligned_df})
-        aligned_df = pd.concat((aligned_df, none_df))
+        none_df = pd.DataFrame({col: [np.nan] * rows_to_add for col in aligned_df})
+        aligned_df = pd.concat((aligned_df, none_df.astype(aligned_df.dtypes)))
 
     return aligned_df, unaligned_rows
