@@ -87,8 +87,6 @@ def compute_aligned_df_f1(
         if column not in present_columns and column in numerical_columns + textual_columns
     ]
 
-    fp_extra_rows = 0
-
     paper_stats = StatsContainer()
 
     ## METRICS FOR NUMERIC DATA

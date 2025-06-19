@@ -1,12 +1,12 @@
 {
-    "precision": 8.665792865886023e-05,
-    "recall": 0.0022185246810870773,
-    "f1": 0.00016680045453123856,
+    "precision": 0.0449438202247191,
+    "recall": 0.25,
+    "f1": 0.07619047619047618,
     "scores_by_location": {
         "Footnote": {
             "precision": 0.0,
             "recall": 0.0,
-            "f1": NaN
+            "f1": null
         },
         "Not Present": {
             "precision": null,
@@ -14,34 +14,19 @@
             "f1": null
         },
         "Page Text": {
-            "precision": 0.0,
-            "recall": 0.0,
-            "f1": NaN
-        },
-        "Table Caption": {
-            "precision": 0.0,
-            "recall": 0.0,
-            "f1": NaN
-        },
-        "Table Cell": {
-            "precision": 0.05128205128205128,
-            "recall": 1.0,
-            "f1": 0.09756097560975609
+            "precision": 0.08737864077669903,
+            "recall": 0.20454545454545456,
+            "f1": 0.12244897959183676
         },
         "Table Column": {
-            "precision": 0.0006291946308724832,
-            "recall": 0.001540041067761807,
-            "f1": 0.0008933889219773674
+            "precision": 0.06557377049180328,
+            "recall": 0.46153846153846156,
+            "f1": 0.11483253588516748
         },
         "Table Header": {
-            "precision": 0.004665629860031105,
-            "recall": 0.0136986301369863,
-            "f1": 0.0069605568445475635
-        },
-        "generic": {
-            "precision": null,
-            "recall": null,
-            "f1": null
+            "precision": 0.0379746835443038,
+            "recall": 0.3,
+            "f1": 0.06741573033707866
         }
     }
 }

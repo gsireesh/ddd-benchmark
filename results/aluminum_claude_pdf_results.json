@@ -1,7 +1,7 @@
 {
-    "precision": 0.01412460308770393,
-    "recall": 0.2006220839813375,
-    "f1": 0.0263911620294599,
+    "precision": 0.5911111111111111,
+    "recall": 1.0,
+    "f1": 0.7430167597765364,
     "scores_by_location": {
         "Not Present": {
             "precision": null,
@@ -10,8 +10,8 @@
         },
         "Page Text": {
             "precision": 1.0,
-            "recall": 0.058823529411764705,
-            "f1": 0.1111111111111111
+            "recall": 1.0,
+            "f1": 1.0
         },
         "Page Text, Table Caption": {
             "precision": 1.0,
@@ -24,9 +24,9 @@
             "f1": 1.0
         },
         "Page Text, Table Caption, Table Header": {
-            "precision": 0.0718954248366013,
+            "precision": 0.44,
             "recall": 1.0,
-            "f1": 0.13414634146341461
+            "f1": 0.6111111111111112
         },
         "Page Text, Table Column": {
             "precision": 1.0,
@@ -34,34 +34,34 @@
             "f1": 1.0
         },
         "Page Text, Table Header, Table Cell": {
-            "precision": 0.015384615384615385,
+            "precision": 0.1111111111111111,
             "recall": 1.0,
-            "f1": 0.030303030303030307
+            "f1": 0.19999999999999998
         },
         "Table Column": {
-            "precision": 0.039961941008563276,
-            "recall": 0.20388349514563106,
-            "f1": 0.06682577565632458
+            "precision": 0.6489795918367347,
+            "recall": 1.0,
+            "f1": 0.7871287128712872
         },
         "Table Column, Page Text": {
-            "precision": 0.0,
-            "recall": 0.0,
-            "f1": NaN
+            "precision": 0.2727272727272727,
+            "recall": 1.0,
+            "f1": 0.42857142857142855
         },
         "Table Header": {
-            "precision": 0.015384615384615385,
+            "precision": 0.1111111111111111,
             "recall": 1.0,
-            "f1": 0.030303030303030307
+            "f1": 0.19999999999999998
         },
         "table": {
-            "precision": 0.0,
-            "recall": 0.0,
-            "f1": NaN
+            "precision": 0.3333333333333333,
+            "recall": 1.0,
+            "f1": 0.5
         },
         "text": {
-            "precision": 0.0,
-            "recall": 0.0,
-            "f1": NaN
+            "precision": 0.125,
+            "recall": 1.0,
+            "f1": 0.2222222222222222
         }
     }
 }
