@@ -1,0 +1,76 @@
+```json
+{
+    "table csv": "Compositions,Zn,Mg,Cu,Zr,Si,Fe,Al\nAs-cast,8.11,2.01,2.36,0.12,0.06,0.07,Bal.\nSpray-deposited,8.31,2.07,2.46,0.12,0.06,0.07,Bal.\n\nAlloy composition,UTS (MPa),Elongation (%),PSE (GPa·%),Ref.\nAl-8.11Zn-2.01Mg-2.36Cu-0.12Zr (as-cast+hot extrusion+T6),622,9.1,5.7,This work\nAl-8.31Zn-2.07Mg-2.46Cu-0.12Zr (spray-deposited+hot extrusion+T6),723,11.0,8.0,This work\nAl-8.11Zn-2.01 Mg-2.36Cu-0.12Zr (as-cast+hot extrusion+solution),577,16.6,9.6,This work\nAl-8.31Zn-2.07 Mg-2.46Cu-0.12Zr (spray-deposited+hot extrusion+solution treatment),684,17.4,11.9,This work",
+    
+    "extracted text": "The spray-deposited ingots were prepared using a SFZD-5000 type environmental chamber. The ingots were extruded at 420°C with an extrusion speed of 3 mm/s and an extrusion ratio of 39:1. The extruded bars were solution treated at 470°C for 1h then quenched in water, and artificial aging was carried out at 140±2°C for times ranging from 30 min to 72h (T6 treatment). The hardness of the spray-deposited Al-8.31Zn-2.07Mg-2.46Cu-0.12Zr alloy after hot extrusion and solution treatment was 158 HV. Peak hardness of 218 HV was reached after aging for 8h.",
+    
+    "property mapping": "UTS (MPa) -> 'UTS [MPa]'\nElongation (%) -> 'elong [%]'\nHV -> 'Hardness' with 'Hardness UNIT' as 'HV'",
+    
+    "abbreviations": "PSE: Product of Strength and Elongation (GPa·%)\nT6: Solution treatment followed by artificial aging\nBal.: Balance (remainder is aluminum)",
+    
+    "weight percentage": "The weight percentages are provided directly in Table 1:\nAs-cast: Zn (8.11%), Mg (2.01%), Cu (2.36%), Zr (0.12%), Si (0.06%), Fe (0.07%), Al (Balance)\nSpray-deposited: Zn (8.31%), Mg (2.07%), Cu (2.46%), Zr (0.12%), Si (0.06%), Fe (0.07%), Al (Balance)",
+    
+    "recipes": [
+        {
+            "AA": "",
+            "temper": "T6",
+            "UTS [MPa]": 622.0,
+            "elong [%]": 9.1,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 2.36,
+            "Mg": 2.01,
+            "Zn": 8.11,
+            "Zr": 0.12,
+            "Si": 0.06,
+            "Fe": 0.07
+        },
+        {
+            "AA": "",
+            "temper": "T6",
+            "UTS [MPa]": 723.0,
+            "elong [%]": 11.0,
+            "Hardness": 218.0,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Cu": 2.46,
+            "Mg": 2.07,
+            "Zn": 8.31,
+            "Zr": 0.12,
+            "Si": 0.06,
+            "Fe": 0.07
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "UTS [MPa]": 577.0,
+            "elong [%]": 16.6,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 2.36,
+            "Mg": 2.01,
+            "Zn": 8.11,
+            "Zr": 0.12,
+            "Si": 0.06,
+            "Fe": 0.07
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "UTS [MPa]": 684.0,
+            "elong [%]": 17.4,
+            "Hardness": 158.0,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Cu": 2.46,
+            "Mg": 2.07,
+            "Zn": 8.31,
+            "Zr": 0.12,
+            "Si": 0.06,
+            "Fe": 0.07
+        }
+    ]
+}
+```

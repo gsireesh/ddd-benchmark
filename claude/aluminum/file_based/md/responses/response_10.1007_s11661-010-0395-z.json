@@ -1,0 +1,41 @@
+{
+    "table csv": "Alloy,Cu,Fe,Si,Mg,Mn,Ti,Zn,Cr,Other Element,Al\n7075,1.88,0.3,0.11,2.57,0.15,0.03,5.96,0.23,W/L,bal\n\nTemper Conditions,0.2 Pct YS (MPa),UTS (MPa),Uniform Elongation (Pct)\nT6,427,561,13.6\nT73,390,536,16.6",
+    "extracted text": "The paper describes 7075 aluminum alloy in two different temper conditions: peak-aged (T6) and overaged (T73). For T6 temper, the specimens were solution annealed at 753 K (480°C) for 1 hour and then heated at 120°C for 24 hours. For T73 temper condition, the specimens were solution annealed followed by two-step isothermal annealing at 380 K (107°C) for 6 hours followed by annealing at 436 K (163°C) for 24 hours.",
+    "property mapping": "0.2 Pct YS (MPa) -> YS [MPa]\nUTS (MPa) -> UTS [MPa]\nUniform Elongation (Pct) -> elong [%]",
+    "abbreviations": "T6: peak-aged temper\nT73: overaged temper\nYS: yield strength\nUTS: ultimate tensile strength\nW/L: within limits (trace amounts)",
+    "weight percentage": "The weight percentages of elements in 7075 aluminum alloy are directly provided in Table I:\nCu: 1.88%\nFe: 0.3%\nSi: 0.11%\nMg: 2.57%\nMn: 0.15%\nTi: 0.03%\nZn: 5.96%\nCr: 0.23%\nAl: balance (remainder)",
+    "recipes": [
+        {
+            "AA": "7075",
+            "temper": "T6",
+            "YS [MPa]": 427.0,
+            "UTS [MPa]": 561.0,
+            "elong [%]": 13.6,
+            "Has composition": true,
+            "Cu": 1.88,
+            "Fe": 0.3,
+            "Si": 0.11,
+            "Mg": 2.57,
+            "Mn": 0.15,
+            "Ti": 0.03,
+            "Zn": 5.96,
+            "Cr": 0.23
+        },
+        {
+            "AA": "7075",
+            "temper": "T73",
+            "YS [MPa]": 390.0,
+            "UTS [MPa]": 536.0,
+            "elong [%]": 16.6,
+            "Has composition": true,
+            "Cu": 1.88,
+            "Fe": 0.3,
+            "Si": 0.11,
+            "Mg": 2.57,
+            "Mn": 0.15,
+            "Ti": 0.03,
+            "Zn": 5.96,
+            "Cr": 0.23
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "table csv": "Table 1: Chemical composition of 2524 alloy (wt.%)\nCu,Mg,Mn,Fe,Si,Ti,Zn,Al\n4.19,1.42,0.55,0.11,<0.02,0.011,0.025,Bal.\n\nTable 2: Mechanical properties of 2524 alloy\nOrientation,Yield strength (MPa),Ultimate strength (MPa),Elongation(%)\nL-T,319,464,20.1",
+    "extracted text": "The materials used in this study were a 2 mm thick plate of 2524 alloy. The as-received condition was solution heat treated at 498°C for 20 min, quenched in water at ambient temperature, then aged at room temperature over 96 h. The paper mentions this is 2524-T3 aluminum alloy in the introduction section.",
+    "property mapping": "AA: 2524 (mentioned throughout the paper)\ntemper: T3 (mentioned in introduction)\nYS [MPa]: 319 (from Table 2)\nUTS [MPa]: 464 (from Table 2)\nelong [%]: 20.1 (from Table 2)\nCu: 4.19% (from Table 1)\nMg: 1.42% (from Table 1)\nMn: 0.55% (from Table 1)\nFe: 0.11% (from Table 1)\nSi: <0.02% (from Table 1, will use 0.02)\nTi: 0.011% (from Table 1)\nZn: 0.025% (from Table 1)",
+    "abbreviations": "L-T: Longitudinal-Transverse orientation (for mechanical testing)",
+    "weight percentage": "All composition values are already given in weight percentage. For Si, the paper states '<0.02%', so I'll use the upper bound of 0.02% for the recipe.",
+    "recipes": [
+        {
+            "AA": "2524",
+            "temper": "T3",
+            "YS [MPa]": 319.0,
+            "UTS [MPa]": 464.0,
+            "elong [%]": 20.1,
+            "Has composition": true,
+            "Cu": 4.19,
+            "Mg": 1.42,
+            "Mn": 0.55,
+            "Fe": 0.11,
+            "Si": 0.02,
+            "Ti": 0.011,
+            "Zn": 0.025
+        }
+    ]
+}

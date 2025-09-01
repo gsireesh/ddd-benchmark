@@ -1,0 +1,33 @@
+{
+    "table csv": "Element,Si,Mg,Fe,Ti,Al\nWeight Percentage,6.93,0.43,0.09,0.12,bal.\n\nCondition,YS (MPa),UTS (MPa),UEL (Percent),El (Percent)\nAs-cast,81,162,1.5,1.8\nT6 (540 °C/4 h, 165 °C/5 h),241,273,0.9,1.1",
+    "extracted text": "The paper discusses A356 aluminum alloy which is widely used to produce automobile wheels and other parts due to its good casting properties, mechanical properties, corrosion resistance, and physical properties. The high strength of the A356 alloy is mainly derived from the precipitation hardening of fine Mg2Si phases. The paper investigates the effects of friction stir processing (FSP) parameters on the microstructure and tensile properties of this alloy. The T6 heat treatment mentioned involves solution treatment at 540°C for 4 hours followed by artificial aging at 165°C for 5 hours.",
+    "property mapping": "Yield Strength (YS): reported in MPa\nUltimate Tensile Strength (UTS): reported in MPa\nUniform Elongation (UEL): reported in percent\nTotal Elongation (El): reported in percent",
+    "abbreviations": "BM: Base Material (as-cast condition)\nBM+T6: Base Material with T6 heat treatment\nFSP: Friction Stir Processing\nUEL: Uniform Elongation\nEl: Total Elongation",
+    "weight percentage": "The weight percentages of elements in A356 alloy are directly provided in the document:\nSi: 6.93%\nMg: 0.43%\nFe: 0.09%\nTi: 0.12%\nAl: balance (remainder, approximately 92.43%)",
+    "recipes": [
+        {
+            "AA": "A356",
+            "temper": "",
+            "YS [MPa]": 81.0,
+            "UTS [MPa]": 162.0,
+            "elong [%]": 1.8,
+            "Has composition": true,
+            "Si": 6.93,
+            "Mg": 0.43,
+            "Fe": 0.09,
+            "Ti": 0.12
+        },
+        {
+            "AA": "A356",
+            "temper": "T6",
+            "YS [MPa]": 241.0,
+            "UTS [MPa]": 273.0,
+            "elong [%]": 1.1,
+            "Has composition": true,
+            "Si": 6.93,
+            "Mg": 0.43,
+            "Fe": 0.09,
+            "Ti": 0.12
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+```json
+{
+    "table csv": "Alloying element,Cu,Mg,Si,,Fe,Mn Zn,Ti,Cr\n6063 aluminum alloy Composition (wt%),0.1,0.4-0.9,0.3-0.7,,0.6,0.3 0.2,0.2,0.1",
+    "extracted text": "From Table 2, the 6063 aluminum alloy has a tensile strength (UTS) of 215 MPa, thermal conductivity of 180 W m/K, and coefficient of thermal expansion of 23 × 10^-6 K. Table 5 also confirms the tensile strength of 215 MPa and mentions a toughness value of 25 J.",
+    "property mapping": "UTS [MPa]: 215 MPa (from Table 2 and Table 5)",
+    "abbreviations": "No abbreviations related to alloy composition were found in the document.",
+    "weight percentage": "The weight percentages are provided directly in Table 1:\nCu: 0.1 wt%\nMg: 0.4-0.9 wt% (mean: 0.65 wt%)\nSi: 0.3-0.7 wt% (mean: 0.5 wt%)\nFe: 0.6 wt%\nMn: 0.3 wt%\nZn: 0.2 wt%\nTi: 0.2 wt%\nCr: 0.1 wt%",
+    "recipes": [
+        {
+            "AA": "6063",
+            "temper": "",
+            "UTS [MPa]": 215.0,
+            "YS [MPa]": "",
+            "elong [%]": "",
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 0.1,
+            "Mg": 0.65,
+            "Si": 0.5,
+            "Fe": 0.6,
+            "Mn": 0.3,
+            "Zn": 0.2,
+            "Ti": 0.2,
+            "Cr": 0.1
+        }
+    ]
+}
+```

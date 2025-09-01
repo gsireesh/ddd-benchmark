@@ -1,0 +1,79 @@
+{
+    "table csv": "SDA/Si in gel,Ge/Si in gel,Yield [%] [a],Si/Ge in NUD-2,Si/Ge in NUD-2S treated once,Si/Ge in NUD-2S treated twice,Stability in water for 12h [b]\n1.5,0.1,68,8.62,48.9,196,stable\n0.75,0.1,64,8.81,50.6,210,stable\n1.0,0.2,50,4.60,20.5,76.4,stable\n1.0,0.2,52,4.54,21.8,82.2,stable\n1.0,0.5,66,2.12,5.3,8.6,unstable",
+    "extracted text": "The NUD-2 zeolite can be synthesized by using either 1-methyl-3-(2'-methylbenzyl)imidazolium (SDA1) or 1-methyl-3-(3'-methylbenzyl)imidazolium (SDA2) as OSDAs in the presence of germanium and fluoride ions. The best-crystallized pure phase of NUD-2 was obtained with a gel composition of 1:0.2:(0.75-1):(0.75-1):10 of SiO2/GeO2/SDA(OH)/HF/H2O at 150°C for 15 days.\n\nZeolite NUD-2 was prepared from the gel with a molar composition of SiO2/x GeO2/y SDAOH/HF/H2O, where x = 1-0.04, y = 1-0.5, and z = 3-30 at 423 K for 15 days. A typical synthetic procedure was as follows: germanium dioxide was added to a solution of SDAOH and stirred for 30 min to be dissolved. Tetraethylorthosilicate was hydrolyzed in the above solution. The reaction mixture was mechanically stirred at room temperature for about 2 h, and then a solution of HF (40 wt%) was added. The mixture was homogenized and allowed to reach the desired water ratio by evaporation of ethanol and some water at 80°C. Finally, the gel was transferred into a steel autoclave with a Teflon-lined vessel (25 mL) and heated at 423 K under static conditions for 15 days.",
+    "property mapping": "SiO2 → Si\nGeO2 → Ge\nSDA(OH) → osda_ratios and OH\nHF → HF\nH2O → H2O\n423 K → crystallization_temperature (150°C)\n15 days → crystallization_time (360 hours)\n1-methyl-3-(2'-methylbenzyl)imidazolium (SDA1) or 1-methyl-3-(3'-methylbenzyl)imidazolium (SDA2) → osda_names\nNUD-2 → product_names",
+    "formula abbreviations": "SDA1 = 1-methyl-3-(2'-methylbenzyl)imidazolium\nSDA2 = 1-methyl-3-(3'-methylbenzyl)imidazolium\nSDAOH refers to the hydroxide form of either SDA1 or SDA2\nx = ratio of GeO2 to SiO2 (ranges from 0.04 to 1)\ny = ratio of SDAOH to SiO2 (ranges from 0.5 to 1)\nz = ratio of H2O to SiO2 (ranges from 3 to 30)",
+    "ratio calculations": "For the best crystallized recipe (1:0.2:(0.75-1):(0.75-1):10 of SiO2/GeO2/SDA(OH)/HF/H2O):\nSi = 1.0 (reference)\nGe = 0.2 (given as ratio to Si)\nOSDA = mean of 0.75 and 1 = 0.875 (given as ratio to Si)\nOH = mean of 0.75 and 1 = 0.875 (from SDAOH, same as OSDA ratio)\nHF = mean of 0.75 and 1 = 0.875 (given as ratio to Si)\nH2O = 10 (given as ratio to Si)\n\nFrom the table entries:\nEntry 1: Si = 1.0, Ge = 0.1, OSDA = 1.5, OH = 1.5, HF (not specified but likely 1.0), H2O (not specified but likely 10)\nEntry 2: Si = 1.0, Ge = 0.1, OSDA = 0.75, OH = 0.75, HF (not specified but likely 1.0), H2O (not specified but likely 10)\nEntry 3-4: Si = 1.0, Ge = 0.2, OSDA = 1.0, OH = 1.0, HF (not specified but likely 1.0), H2O (not specified but likely 10)\nEntry 5: Si = 1.0, Ge = 0.5, OSDA = 1.0, OH = 1.0, HF (not specified but likely 1.0), H2O (not specified but likely 10)",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.2,
+            "Al": 0.0,
+            "OH": 0.875,
+            "H2O": 10.0,
+            "HF": 0.875,
+            "B": 0.0,
+            "osda_names": "1-methyl-3-(2'-methylbenzyl)imidazolium or 1-methyl-3-(3'-methylbenzyl)imidazolium",
+            "osda_ratios": 0.875,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 360.0,
+            "product_names": "NUD-2"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.1,
+            "Al": 0.0,
+            "OH": 1.5,
+            "H2O": 10.0,
+            "HF": 1.0,
+            "B": 0.0,
+            "osda_names": "1-methyl-3-(2'-methylbenzyl)imidazolium or 1-methyl-3-(3'-methylbenzyl)imidazolium",
+            "osda_ratios": 1.5,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 360.0,
+            "product_names": "NUD-2"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.1,
+            "Al": 0.0,
+            "OH": 0.75,
+            "H2O": 10.0,
+            "HF": 1.0,
+            "B": 0.0,
+            "osda_names": "1-methyl-3-(2'-methylbenzyl)imidazolium or 1-methyl-3-(3'-methylbenzyl)imidazolium",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 360.0,
+            "product_names": "NUD-2"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.2,
+            "Al": 0.0,
+            "OH": 1.0,
+            "H2O": 10.0,
+            "HF": 1.0,
+            "B": 0.0,
+            "osda_names": "1-methyl-3-(2'-methylbenzyl)imidazolium or 1-methyl-3-(3'-methylbenzyl)imidazolium",
+            "osda_ratios": 1.0,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 360.0,
+            "product_names": "NUD-2"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.5,
+            "Al": 0.0,
+            "OH": 1.0,
+            "H2O": 10.0,
+            "HF": 1.0,
+            "B": 0.0,
+            "osda_names": "1-methyl-3-(2'-methylbenzyl)imidazolium or 1-methyl-3-(3'-methylbenzyl)imidazolium",
+            "osda_ratios": 1.0,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 360.0,
+            "product_names": "NUD-2"
+        }
+    ]
+}

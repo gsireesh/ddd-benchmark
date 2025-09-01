@@ -1,0 +1,104 @@
+{
+    "table csv": "Element,Zn,Mg,Cu,Cr,Mn,Ti,Fe,Si,Al\nwt%,5.41,2.54,1.49,0.22,0.10,0.10,0.16,0.11,Balance\nat.%,2.33,2.94,0.66,0.12,0.05,0.06,0.08,0.11,Balance\n\nAgeing time (h),Yield strength (MPa),Ultimate tensile strength (MPa),Reduction of area (%)\n6,463,529,13.9\n16,488,554,14.5\n54,477,528,12.8\n98,491,557,14.4\n200,456,507,13.3",
+    
+    "extracted text": "The material was a commercial 7175 high strength aluminium alloy obtained as a forging in the form of a plate, 43 mm in thickness. This plate was further processed to a rolled plate by hot rolling at 738 K from the thickness of 43 to 8.8 mm and cold rolling from 8.8 to 1.5 mm. Specimens were solution treated at 753 K for 70 min, immediately quenched into ambient water and aged at 413 K and 443 K. The paper identifies two peak-aged states during ageing, with aging at 413K for 16h corresponding to the first peak-aged state and 98h corresponding to the second peak-aged state.",
+    
+    "property mapping": "AA designation: 7175 (Al-Zn-Mg-Cu alloy)\nYield strength (MPa) → YS [MPa]\nUltimate tensile strength (MPa) → UTS [MPa]\nReduction of area (%) → Not directly equivalent to elong [%] but related to ductility\nAging time at 413K → Relates to temper condition, with 16h being first peak-aged state and 98h being second peak-aged state",
+    
+    "abbreviations": "SCC: Stress corrosion cracking\nHE: Hydrogen embrittlement\nTEM: Transmission electron microscopy\nSEM: Scanning electron microscopy\nAES: Auger electron spectroscopy\nSSRT: Slow strain rate test\nG.P. zones: Guinier-Preston zones\nUTS: Ultimate tensile strength\nYS: Yield strength\nRA: Reduction of area",
+    
+    "weight percentage": "The weight percentages are directly provided in Table 1:\nZn: 5.41 wt%\nMg: 2.54 wt%\nCu: 1.49 wt%\nCr: 0.22 wt%\nMn: 0.10 wt%\nTi: 0.10 wt%\nFe: 0.16 wt%\nSi: 0.11 wt%\nAl: Balance (remainder)",
+    
+    "recipes": [
+        {
+            "AA": "7175",
+            "temper": "",
+            "YS [MPa]": 463.0,
+            "UTS [MPa]": 529.0,
+            "elong [%]": "",
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 1.49,
+            "Mn": 0.10,
+            "Si": 0.11,
+            "Mg": 2.54,
+            "Zn": 5.41,
+            "Cr": 0.22,
+            "Fe": 0.16,
+            "Ti": 0.10
+        },
+        {
+            "AA": "7175",
+            "temper": "",
+            "YS [MPa]": 488.0,
+            "UTS [MPa]": 554.0,
+            "elong [%]": "",
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 1.49,
+            "Mn": 0.10,
+            "Si": 0.11,
+            "Mg": 2.54,
+            "Zn": 5.41,
+            "Cr": 0.22,
+            "Fe": 0.16,
+            "Ti": 0.10
+        },
+        {
+            "AA": "7175",
+            "temper": "",
+            "YS [MPa]": 477.0,
+            "UTS [MPa]": 528.0,
+            "elong [%]": "",
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 1.49,
+            "Mn": 0.10,
+            "Si": 0.11,
+            "Mg": 2.54,
+            "Zn": 5.41,
+            "Cr": 0.22,
+            "Fe": 0.16,
+            "Ti": 0.10
+        },
+        {
+            "AA": "7175",
+            "temper": "",
+            "YS [MPa]": 491.0,
+            "UTS [MPa]": 557.0,
+            "elong [%]": "",
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 1.49,
+            "Mn": 0.10,
+            "Si": 0.11,
+            "Mg": 2.54,
+            "Zn": 5.41,
+            "Cr": 0.22,
+            "Fe": 0.16,
+            "Ti": 0.10
+        },
+        {
+            "AA": "7175",
+            "temper": "",
+            "YS [MPa]": 456.0,
+            "UTS [MPa]": 507.0,
+            "elong [%]": "",
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 1.49,
+            "Mn": 0.10,
+            "Si": 0.11,
+            "Mg": 2.54,
+            "Zn": 5.41,
+            "Cr": 0.22,
+            "Fe": 0.16,
+            "Ti": 0.10
+        }
+    ]
+}

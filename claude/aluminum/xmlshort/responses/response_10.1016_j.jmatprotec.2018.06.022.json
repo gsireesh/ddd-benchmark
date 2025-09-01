@@ -1,0 +1,27 @@
+{
+    "table csv": "Si,Fe,Cu,Mn,Mg,Cr,Zn,Ti,V,Zr,Al\n0.09,0.28,1.7,2.5,2.5,0.19,5.6,0.03,0.01,0.01,Bal.\n\n0.2% proof strength (MPa),Tensile strength (MPa),Elongation (%)\n419,498,10.5",
+    "extracted text": "The paper describes experiments on 7075-T73 aluminum alloy. T73 treatment is an overaged treatment condition to increase the resistance against stress corrosion cracking (SCC). Specimens of 7075-T73 aluminum alloy with the thickness of 3 mm were used in this study.",
+    "property mapping": "0.2% proof strength (MPa) = YS [MPa]\nTensile strength (MPa) = UTS [MPa]\nElongation (%) = elong [%]",
+    "abbreviations": "T73 = overaged treatment condition to increase resistance against stress corrosion cracking (SCC)",
+    "weight percentage": "The weight percentages are already provided in the document for each element:\nSi: 0.09%\nFe: 0.28%\nCu: 1.7%\nMn: 2.5%\nMg: 2.5%\nCr: 0.19%\nZn: 5.6%\nTi: 0.03%\nV: 0.01%\nZr: 0.01%\nAl: Balance (remaining percentage)",
+    "recipes": [
+        {
+            "AA": "7075",
+            "temper": "T73",
+            "YS [MPa]": 419.0,
+            "UTS [MPa]": 498.0,
+            "elong [%]": 10.5,
+            "Has composition": true,
+            "Si": 0.09,
+            "Fe": 0.28,
+            "Cu": 1.7,
+            "Mn": 2.5,
+            "Mg": 2.5,
+            "Cr": 0.19,
+            "Zn": 5.6,
+            "Ti": 0.03,
+            "V": 0.01,
+            "Zr": 0.01
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "table csv": "GeO2:GaOOH:[Ni(en)3]Cl2:HF:ethylenediamine:ethanolamine:H2O = 1.00:0.86:0.37:1.85:10.00:44.47:74.07",
+    "extracted text": "GaGeO-CJ63 was prepared under solvothermal conditions. GeO2 (0.156 g) was dispersed in a mixture of H2O (2 mL) and ethanolamine (4 mL), and then self-made GaOOH (0.137 g) and [Ni(en)3]Cl2 (0.173 g) were added with stirring. Finally, ethylenediamine (1 mL) and HF (40 wt%, 0.12 mL) were added. A homogeneous gel was formed after stirring for 2 h. The gel was sealed in a 15 mL Teflon-lined stainless steel autoclave and heated at 180 °C for 8 days under static conditions.",
+    "property mapping": "Ge: From GeO2 (1.00 in molar ratio)\nGa: From GaOOH (0.86 in molar ratio)\nHF: HF (1.85 in molar ratio)\nH2O: H2O (74.07 in molar ratio)\nosda_names: [Ni(en)3]Cl2 (nickel ethylenediamine complex) and ethylenediamine\nosda_ratios: [Ni(en)3]Cl2 (0.37 in molar ratio), ethylenediamine (10.00 in molar ratio)\ncrystallization_temperature: 180 °C\ncrystallization_time: 8 days = 192 hours\nproduct_names: GaGeO-CJ63",
+    "formula abbreviations": "en = ethylenediamine\n[Ni(en)3]Cl2 = tris(ethylenediamine)nickel(II) chloride\nGaOOH = gallium oxyhydroxide",
+    "ratio calculations": "Since this is a gallogermanate zeolite with no silicon, we should set Ge to 1.0 as the reference element.\nGe = 1.0 (from GeO2)\nGa = 0.86 (from GaOOH)\nHF = 1.85\nH2O = 74.07\nosda_ratios ([Ni(en)3]Cl2) = 0.37\nEthylenediamine = 10.00\nEthanolamine = 44.47",
+    "recipes": [
+        {
+            "Si": 0,
+            "Ge": 1.0,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 74.07,
+            "HF": 1.85,
+            "B": 0,
+            "osda_names": "tris(ethylenediamine)nickel(II) chloride and ethylenediamine",
+            "osda_ratios": 0.37,
+            "crystallization_temperature": 180.0,
+            "crystallization_time": 192.0,
+            "product_names": "GaGeO-CJ63"
+        }
+    ]
+}

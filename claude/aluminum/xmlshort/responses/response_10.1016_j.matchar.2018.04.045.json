@@ -1,0 +1,86 @@
+{
+    "table csv": "Element,Mg,Si,Mn,Fe,Cu,Zn,Ti,Al\nNominal [24],5.0–6.0,1.8–2.6,0.5–0.8,≤0.20,≤0.05,≤0.07,≤0.20,Bal.\nOES,5.77,2.27,0.714,0.115,0.02,0.04,0.02,Bal.\n\nPHD treatment,As-extruded,,,T4 heat-treated,,,T6 heat-treated,,\n,YS (MPa),TS (MPa),El (%),YS (MPa),TS (MPa),El (%),YS (MPa),TS (MPa),El (%)\n0%,91.2 ± 1.2,175.6 ± 1.4,17.2 ± 0.9,147.0 ± 1.7,273.6 ± 2.8,19.2 ± 0.8,236.6 ± 3.1,275.6 ± 2.0,11.3 ± 0.4\n5%,87.0 ± 2.6,174.1 ± 2.0,20.0 ± 0.2,156.3 ± 2.1,288.2 ± 2.1,21.4 ± 0.5,250.6 ± 2.3,286.3 ± 2.1,11.2 ± 0.6\n10%,89.3 ± 2.3,172.6 ± 1.8,23.6 ± 0.5,158.0 ± 2.6,292.3 ± 2.3,23.3 ± 0.7,255.3 ± 2.5,291.6 ± 1.8,10.7 ± 0.3",
+    
+    "extracted text": "The material studied is AlMg5Si2Mn HPDC alloy, which was produced by ingot metallurgical route. The paper investigates a novel pre-homogenization deformation (PHD) treatment with different reduction conditions (0%, 5%, and 10%) followed by homogenization at 580°C for 24h, extrusion, and heat treatments (T4 and T6). T4 treatment consisted of solution heat treatment at 580°C for 1h followed by water quenching and natural aging for 7 days. T6 samples were prepared by further heat treatment at 250°C for 1h after T4 treatment.",
+    
+    "property mapping": "- The alloy is referred to as 'AlMg5Si2Mn alloy' which indicates its primary alloying elements
+    - 'YS' corresponds to 'YS [MPa]' (yield strength)
+    - 'TS' corresponds to 'UTS [MPa]' (ultimate tensile strength or tensile strength)
+    - 'El' corresponds to 'elong [%]' (elongation percentage)
+    - 'PHD treatment' refers to the percentage of pre-homogenization deformation (0%, 5%, 10%)
+    - 'As-extruded', 'T4 heat-treated', and 'T6 heat-treated' refer to different temper conditions",
+    
+    "abbreviations": "- PHD: Pre-Homogenization Deformation
+    - OES: Optical Emission Spectroscopy
+    - HPDC: High Pressure Die Casting
+    - T4: Solution heat treatment at 580°C for 1h followed by water quenching and natural aging for 7 days
+    - T6: T4 treatment plus artificial aging at 250°C for 1h",
+    
+    "weight percentage": "The weight percentages of elements in the AlMg5Si2Mn alloy according to OES analysis are:
+    - Mg: 5.77 wt%
+    - Si: 2.27 wt%
+    - Mn: 0.714 wt%
+    - Fe: 0.115 wt%
+    - Cu: 0.02 wt%
+    - Zn: 0.04 wt%
+    - Ti: 0.02 wt%
+    - Al: Balance (remainder)
+    
+    The nominal composition ranges are:
+    - Mg: 5.0-6.0 wt% (mean: 5.5 wt%)
+    - Si: 1.8-2.6 wt% (mean: 2.2 wt%)
+    - Mn: 0.5-0.8 wt% (mean: 0.65 wt%)
+    - Fe: ≤0.20 wt% (taking as 0.10 wt% for mean)
+    - Cu: ≤0.05 wt% (taking as 0.025 wt% for mean)
+    - Zn: ≤0.07 wt% (taking as 0.035 wt% for mean)
+    - Ti: ≤0.20 wt% (taking as 0.10 wt% for mean)
+    - Al: Balance (remainder)",
+    
+    "recipes": [
+        {
+            "AA": "",
+            "temper": "As-extruded",
+            "YS [MPa]": 91.2,
+            "UTS [MPa]": 175.6,
+            "elong [%]": 17.2,
+            "Has composition": true,
+            "Mg": 5.77,
+            "Si": 2.27,
+            "Mn": 0.714,
+            "Fe": 0.115,
+            "Cu": 0.02,
+            "Zn": 0.04,
+            "Ti": 0.02
+        },
+        {
+            "AA": "",
+            "temper": "T4",
+            "YS [MPa]": 147.0,
+            "UTS [MPa]": 273.6,
+            "elong [%]": 19.2,
+            "Has composition": true,
+            "Mg": 5.77,
+            "Si": 2.27,
+            "Mn": 0.714,
+            "Fe": 0.115,
+            "Cu": 0.02,
+            "Zn": 0.04,
+            "Ti": 0.02
+        },
+        {
+            "AA": "",
+            "temper": "T6",
+            "YS [MPa]": 236.6,
+            "UTS [MPa]": 275.6,
+            "elong [%]": 11.3,
+            "Has composition": true,
+            "Mg": 5.77,
+            "Si": 2.27,
+            "Mn": 0.714,
+            "Fe": 0.115,
+            "Cu": 0.02,
+            "Zn": 0.04,
+            "Ti": 0.02
+        }
+    ]
+}

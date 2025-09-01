@@ -1,0 +1,25 @@
+```json
+{
+    "table csv": "",
+    "extracted text": "ITQ-13 was synthesized according to the literature [21] using hexamethonium dihydroxide as template source, and GeO2 (99.998%, Aldrich), Al isopropylate (99.5%, A.R), ammonium fluoride (96%, A.R), and colloidal silica as sources. The final synthesis gels had the following chemical composition: SiO2: 0.05 GeO2: 0.01 Al2O3: 0.25 R(OH)2: 0.56 NH4F: 5 H2O. The gels were autoclaved at 408 K for 15 days under continuous stirring at 60 rpm. The solids were recovered by filtration, washed with distillated water, and dried at 373 K overnight.",
+    "property mapping": "Si: SiO2 in gel composition\nGe: GeO2 in gel composition\nAl: Al2O3 in gel composition\nOH: R(OH)2 in gel composition, where R is hexamethonium\nH2O: H2O in gel composition\nHF: Related to NH4F in gel composition\nOSDA: R(OH)2 where R is hexamethonium dihydroxide\nTemperature: 408 K (135°C)\nTime: 15 days (360 hours)",
+    "formula abbreviations": "R(OH)2 refers to hexamethonium dihydroxide, which is the structure directing agent (OSDA).",
+    "ratio calculations": "Based on the gel composition with SiO2 as reference (1.0):\nSi = 1.0\nGe = 0.05\nAl = 0.02 (from 0.01 Al2O3, which contains 2 Al atoms)\nOH = 0.5 (from 0.25 R(OH)2, which contains 2 OH groups)\nH2O = 5.0\nHF = 0.56 (from NH4F content)\nOSDA ratio = 0.25 (from R(OH)2)\nTemperature conversion: 408 K = 135°C\nTime conversion: 15 days = 360 hours",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.05,
+            "Al": 0.02,
+            "OH": 0.5,
+            "H2O": 5.0,
+            "HF": 0.56,
+            "B": 0,
+            "osda_names": "hexamethonium dihydroxide",
+            "osda_ratios": 0.25,
+            "crystallization_temperature": 135.0,
+            "crystallization_time": 360.0,
+            "product_names": "ITQ-13"
+        }
+    ]
+}
+```

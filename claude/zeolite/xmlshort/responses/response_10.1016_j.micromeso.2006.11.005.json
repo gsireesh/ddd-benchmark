@@ -1,0 +1,50 @@
+{
+    "table csv": "The paper doesn't contain a CSV table specifically for the synthesis recipe, but the synthesis information is detailed in section 2.1 Synthesis.",
+    
+    "extracted text": "SU-21, [(Ge5.17Si1.83)O12(OH)2F2(NH2CH2CHNH2CH3)2]·H2O was prepared under hydro-/solvo-thermal conditions in the presence of 1,2-diaminopropane (DAP, 99%, Sigma-Aldrich). A typical synthesis procedure was: GeO2 (0.13g, 99.998%, Sigma-Aldrich) was added to a solution formed by a mixture of H2O (2.0ml), pyridine (Py, 10.0ml, 99.9%, Sigma-Aldrich) and 1,2-diaminopropane (3.0ml) under continuous stirring. Then tetraethyl orthosilicate (Si(OC2H5)4, 0.25ml, 99.999%, Sigma-Aldrich) was dropped slowly into the solution and a gel was formed. Finally, hydrofluoric acid (HF, 0.2ml, 40wt%, Fluka) was added to the gel. All reagents were used without further purifications. The molar ratio of the batch compositions was GeO2:Si(OC2H5)4:DAP:Py:H2O:HF = 1.0:0.9:28.4:99.7:95.0:3.6. The final mixture (pH = 10) was sealed in a 33ml Teflon-lined autoclave and heated at 175°C for 10 days under autogenous pressure.",
+    
+    "property mapping": "From the extracted text, I can identify the following properties:
+    - Si: from tetraethyl orthosilicate (Si(OC2H5)4)
+    - Ge: from GeO2
+    - OH: Not explicitly stated in molar ratios, but can be inferred from pH = 10
+    - H2O: Directly mentioned in molar ratios
+    - HF: Directly mentioned in molar ratios
+    - osda_names: 1,2-diaminopropane (DAP)
+    - osda_ratios: Given as 28.4 relative to 1.0 GeO2
+    - crystallization_temperature: 175°C
+    - crystallization_time: 10 days (240 hours)
+    - product_names: SU-21",
+    
+    "formula abbreviations": "DAP = 1,2-diaminopropane
+    Py = pyridine
+    TEOS = tetraethyl orthosilicate (Si(OC2H5)4)",
+    
+    "ratio calculations": "The paper gives molar ratios as GeO2:Si(OC2H5)4:DAP:Py:H2O:HF = 1.0:0.9:28.4:99.7:95.0:3.6. To normalize to Si = 1.0, I need to divide all values by 0.9:
+    
+    Si = 0.9/0.9 = 1.0
+    Ge = 1.0/0.9 = 1.11
+    osda_ratios (1,2-diaminopropane) = 28.4/0.9 = 31.56
+    Py = 99.7/0.9 = 110.78
+    H2O = 95.0/0.9 = 105.56
+    HF = 3.6/0.9 = 4.0
+    
+    The crystallization time needs to be converted from days to hours:
+    10 days = 10 × 24 = 240 hours",
+    
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 1.11,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 105.56,
+            "HF": 4.0,
+            "B": 0,
+            "osda_names": "1,2-diaminopropane",
+            "osda_ratios": 31.56,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 240.0,
+            "product_names": "SU-21"
+        }
+    ]
+}

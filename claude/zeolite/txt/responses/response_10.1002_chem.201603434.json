@@ -1,0 +1,95 @@
+```json
+{
+    "table csv": "Sample,Chemical composition [mol%],Chemical composition [mol%],Si/Ge,Crystal size [μm],Vmicro [cm3 g−1],Vtotal [cm3 g−1]\n,Si,Ge,,,,\nITH-13,93.0,7.0,13.3,5×0.5×0.5,0.12,0.20\nITH-2,69.7,30.3,2.3,15×1×0.5,0.13,0.18\nIWW-7,87.8,12.2,7.2,0.5-1,0.16,0.30\nIWW-3,74.4,25.6,2.9,0.5-1,0.17,0.30\nUTL-6,85.7,14.3,6.0,25×20×0.1,0.21,0.24\nUTL-4,79.1,20.8,3.8,30×20×0.1,0.19,0.20",
+    "extracted text": "From the Experimental Section:\n\nFor Ge-poor ITH (Si/Ge = 13.3): GeO2 dissolved in 1M HM dihydroxide, followed by TEOS. Gel composition: 0.90SiO2:0.09GeO2:0.25HM:5H2O. Crystallization at 175°C for 14 days with slow stirring (60 rpm).\n\nFor Ge-rich ITH (Si/Ge = 2.3): TMHDA used as structure-directing agent with fluorine anions. Gel composition: 0.5SiO2:0.5GeO2:7TMHDA:1.4HF:44H2O. Crystallization at 175°C for 6 days under static conditions.\n\nFor IWW samples: MPP dihydroxide as SDA. Gel composition: (1-x)SiO2:xGeO2:0.25MPP:10H2O, where x = 0.33 for Ge-rich IWW (Si/Ge = 2.9) and x = 0.2 for Ge-poor IWW (Si/Ge = 7.2). Crystallization at 175°C for 7 days.\n\nFor UTL samples: Gel composition: (1-x)SiO2:xGeO2:0.25DMAD:30H2O, where x = 0.33 for Ge-rich UTL (Si/Ge = 3.8) and x = 0.17 for Ge-poor UTL (Si/Ge = 6.0). Crystallization at 175°C for 6 days under agitation (60 rpm).",
+    "property mapping": "Si: from SiO2 in gel compositions\nGe: from GeO2 in gel compositions\nH2O: from H2O in gel compositions\nHF: from HF in gel composition for Ge-rich ITH\nosda_names: HM (hexamethonium), TMHDA (NNN'N'-tetramethyl-1,6-hexanediamine), MPP (1,5-bis(methylpyrrolidinium)pentane), DMAD ((6R,10S)-6,10-dimethyl-5-azoniaspiro[4,5]decane)\nosda_ratios: from OSDA values in gel compositions\ncrystallization_temperature: from temperature values (175°C for all)\ncrystallization_time: from duration values (14, 6, 7, or 6 days)\nproduct_names: ITH, IWW, UTL zeolites",
+    "formula abbreviations": "HM = hexamethonium\nTMHDA = NNN'N'-tetramethyl-1,6-hexanediamine\nMPP = 1,5-bis(methylpyrrolidinium)pentane\nDMAD = (6R,10S)-6,10-dimethyl-5-azoniaspiro[4,5]decane\nTEOS = tetraethyl orthosilicate (source of Si)",
+    "ratio calculations": "For Ge-poor ITH (Si/Ge = 13.3):\nSi = 0.90 (normalized to 1: 1.0)\nGe = 0.09 (normalized to Si=1: 0.1)\nH2O = 5 (normalized to Si=1: 5.556)\nOSDA (HM) = 0.25 (normalized to Si=1: 0.278)\n\nFor Ge-rich ITH (Si/Ge = 2.3):\nSi = 0.5 (normalized to 1: 1.0)\nGe = 0.5 (normalized to Si=1: 1.0)\nH2O = 44 (normalized to Si=1: 88.0)\nOSDA (TMHDA) = 7 (normalized to Si=1: 14.0)\nHF = 1.4 (normalized to Si=1: 2.8)\n\nFor Ge-poor IWW (Si/Ge = 7.2):\nSi = 0.8 (normalized to 1: 1.0)\nGe = 0.2 (normalized to Si=1: 0.25)\nH2O = 10 (normalized to Si=1: 12.5)\nOSDA (MPP) = 0.25 (normalized to Si=1: 0.313)\n\nFor Ge-rich IWW (Si/Ge = 2.9):\nSi = 0.67 (normalized to 1: 1.0)\nGe = 0.33 (normalized to Si=1: 0.493)\nH2O = 10 (normalized to Si=1: 14.925)\nOSDA (MPP) = 0.25 (normalized to Si=1: 0.373)\n\nFor Ge-poor UTL (Si/Ge = 6.0):\nSi = 0.83 (normalized to 1: 1.0)\nGe = 0.17 (normalized to Si=1: 0.205)\nH2O = 30 (normalized to Si=1: 36.145)\nOSDA (DMAD) = 0.25 (normalized to Si=1: 0.301)\n\nFor Ge-rich UTL (Si/Ge = 3.8):\nSi = 0.67 (normalized to 1: 1.0)\nGe = 0.33 (normalized to Si=1: 0.493)\nH2O = 30 (normalized to Si=1: 44.776)\nOSDA (DMAD) = 0.25 (normalized to Si=1: 0.373)",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.1,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 5.556,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "hexamethonium",
+            "osda_ratios": 0.278,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 336.0,
+            "product_names": "ITH"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 88.0,
+            "HF": 2.8,
+            "B": 0,
+            "osda_names": "NNN'N'-tetramethyl-1,6-hexanediamine",
+            "osda_ratios": 14.0,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 144.0,
+            "product_names": "ITH"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.25,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 12.5,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "1,5-bis(methylpyrrolidinium)pentane",
+            "osda_ratios": 0.313,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 168.0,
+            "product_names": "IWW"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.493,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 14.925,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "1,5-bis(methylpyrrolidinium)pentane",
+            "osda_ratios": 0.373,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 168.0,
+            "product_names": "IWW"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.205,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 36.145,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "(6R,10S)-6,10-dimethyl-5-azoniaspiro[4,5]decane",
+            "osda_ratios": 0.301,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 144.0,
+            "product_names": "UTL"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.493,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 44.776,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "(6R,10S)-6,10-dimethyl-5-azoniaspiro[4,5]decane",
+            "osda_ratios": 0.373,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 144.0,
+            "product_names": "UTL"
+        }
+    ]
+}
+```

@@ -1,0 +1,30 @@
+```json
+{
+    "table csv": "Alloy,Si,Fe,Cu,Mn,Mg,Cr,Zn,Ti,Ni\n2024-T351,0.07,0.04,2.46,0.21,1.26,0.04,0.14,0.02,0.06\n\nAlloy,UTS (MPa),YS (MPa),HV,Elongation (%)\n2024-T351,435,285,138,12",
+    "extracted text": "The aluminium alloy used in the present study was a rolled Al 2024-T351 plate of 12mm in thickness. The composition in atomic percentage of the alloy is included in Table 1 and some mechanical properties are summarized in Table 2. T351 temper indicates solution heat treatment plus stress relieving by stretching and finally natural ageing.",
+    "property mapping": "AA: 2024\ntemper: T351\nYS [MPa]: 285\nUTS [MPa]: 435\nelong [%]: 12\nHardness: 138\nHardness UNIT: HV (Vickers Hardness)\nSi: 0.07 at.%\nFe: 0.04 at.%\nCu: 2.46 at.%\nMn: 0.21 at.%\nMg: 1.26 at.%\nCr: 0.04 at.%\nZn: 0.14 at.%\nTi: 0.02 at.%\nNi: 0.06 at.%",
+    "abbreviations": "T351: solution heat treatment plus stress relieving by stretching and finally natural ageing\nHV: Vickers Hardness",
+    "weight percentage": "To convert from atomic percentage to weight percentage:\n\nElement, Atomic %, Atomic Weight, Weight Contribution, Weight %\nSi, 0.07, 28.09, 1.97, 0.19\nFe, 0.04, 55.85, 2.23, 0.22\nCu, 2.46, 63.55, 156.33, 15.23\nMn, 0.21, 54.94, 11.54, 1.12\nMg, 1.26, 24.31, 30.63, 2.98\nCr, 0.04, 52.00, 2.08, 0.20\nZn, 0.14, 65.38, 9.15, 0.89\nTi, 0.02, 47.87, 0.96, 0.09\nNi, 0.06, 58.69, 3.52, 0.34\nAl, balance, 26.98, 808.07, 78.73\n\nTotal weight contribution: 1026.48\nWeight percentages calculated by dividing each element's weight contribution by the total.",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T351",
+            "YS [MPa]": 285.0,
+            "UTS [MPa]": 435.0,
+            "elong [%]": 12.0,
+            "Hardness": 138.0,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Cu": 15.23,
+            "Mn": 1.12,
+            "Si": 0.19,
+            "Mg": 2.98,
+            "Zn": 0.89,
+            "Cr": 0.20,
+            "Fe": 0.22,
+            "Ti": 0.09,
+            "Ni": 0.34
+        }
+    ]
+}
+```

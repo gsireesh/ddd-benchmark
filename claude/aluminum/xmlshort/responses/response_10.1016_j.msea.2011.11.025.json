@@ -1,0 +1,35 @@
+{
+    "table csv": "Alloys,Cu,Mn,Ce,Fe,Si,Al\nAl-Cu-Mn,5.00,0.98,-,0.05,0.02,Bal.\nAl-Cu-Mn-Ce,4.96,1.00,0.92,0.05,0.02,Bal.\n\nAlloys,Yield strength (MPa),Ultimate tensile strength (MPa),Elongation (%)\nAl-Cu-Mn,114.0±6.8,224.0±3.2,7.2±0.9\nAl-Cu-Mn-Ce,76.7±2.7,182.9±6.3,5.4±0.8",
+    "extracted text": "The as-cast alloys were solutized at 525°C for 6h, followed by at 545°C for 6h in a SX-4-10 furnace, water-quenched, and finally aged at 170°C for 4h. The paper studies the effect of Ce addition on microstructure of Al20Cu2Mn3 twin phase in an Al-Cu-Mn casting alloy.",
+    "property mapping": "Yield strength (MPa) = YS [MPa]\nUltimate tensile strength (MPa) = UTS [MPa]\nElongation (%) = elong [%]\nCu = Cu\nMn = Mn\nCe = Ce\nFe = Fe\nSi = Si\nAl = Al",
+    "abbreviations": "Bal. = Balance (remainder of the composition is aluminum)",
+    "weight percentage": "For Al-Cu-Mn alloy:\nCu: 5.00%\nMn: 0.98%\nFe: 0.05%\nSi: 0.02%\nAl: Balance (approximately 93.95%)\n\nFor Al-Cu-Mn-Ce alloy:\nCu: 4.96%\nMn: 1.00%\nCe: 0.92%\nFe: 0.05%\nSi: 0.02%\nAl: Balance (approximately 93.05%)",
+    "recipes": [
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 114.0,
+            "UTS [MPa]": 224.0,
+            "elong [%]": 7.2,
+            "Has composition": true,
+            "Cu": 5.00,
+            "Mn": 0.98,
+            "Fe": 0.05,
+            "Si": 0.02,
+            "Ce": 0.0
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 76.7,
+            "UTS [MPa]": 182.9,
+            "elong [%]": 5.4,
+            "Has composition": true,
+            "Cu": 4.96,
+            "Mn": 1.00,
+            "Fe": 0.05,
+            "Si": 0.02,
+            "Ce": 0.92
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "table csv": "Cu,Mg,Zn,Fe,Si,Mn,Cr,Ti,Others,Al\n3.8–4.9,1.2–1.8,∼0.25,∼0.50,∼0.50,0.30–0.9,∼0.10,∼0.15,<0.20,Bal.\n\nGrain direction,YS (MPa),UTS (MPa),Tensile elongation (%)\nL (longitudinal),377,475,17\nT (transverse),334,463,16\nST (short transverse),306,400,5",
+    "extracted text": "The study examines Al 2024-T351 aluminum alloy. The alloy was in the form of a 76 mm thick plate. The tensile properties were measured at a nominal strain rate of 1×10^-3 s^-1. The microstructure showed partially recrystallized, pan-cake shaped grain structure with an average grain size of 490×470×120 μm.",
+    "property mapping": "YS (MPa) = Yield Strength in MPa\nUTS (MPa) = Ultimate Tensile Strength in MPa\nTensile elongation (%) = Elongation percentage\nL = longitudinal grain direction\nT = transverse grain direction\nST = short transverse grain direction",
+    "abbreviations": "T351 temper designation: Solution heat treated, stress-relieved by stretching, and then naturally aged\nBal. = Balance (remaining percentage is aluminum)",
+    "weight percentage": "Cu: Mean of range 3.8–4.9 = 4.35 wt%\nMg: Mean of range 1.2–1.8 = 1.5 wt%\nZn: ∼0.25 wt%\nFe: ∼0.50 wt%\nSi: ∼0.50 wt%\nMn: Mean of range 0.30–0.9 = 0.6 wt%\nCr: ∼0.10 wt%\nTi: ∼0.15 wt%\nOthers: <0.20 wt%\nAl: Balance (remainder)",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T351",
+            "YS [MPa]": 377,
+            "UTS [MPa]": 475,
+            "elong [%]": 17,
+            "Has composition": true,
+            "Cu": 4.35,
+            "Mg": 1.5,
+            "Zn": 0.25,
+            "Fe": 0.5,
+            "Si": 0.5,
+            "Mn": 0.6,
+            "Cr": 0.1,
+            "Ti": 0.15
+        },
+        {
+            "AA": "2024",
+            "temper": "T351",
+            "YS [MPa]": 334,
+            "UTS [MPa]": 463,
+            "elong [%]": 16,
+            "Has composition": true,
+            "Cu": 4.35,
+            "Mg": 1.5,
+            "Zn": 0.25,
+            "Fe": 0.5,
+            "Si": 0.5,
+            "Mn": 0.6,
+            "Cr": 0.1,
+            "Ti": 0.15
+        },
+        {
+            "AA": "2024",
+            "temper": "T351",
+            "YS [MPa]": 306,
+            "UTS [MPa]": 400,
+            "elong [%]": 5,
+            "Has composition": true,
+            "Cu": 4.35,
+            "Mg": 1.5,
+            "Zn": 0.25,
+            "Fe": 0.5,
+            "Si": 0.5,
+            "Mn": 0.6,
+            "Cr": 0.1,
+            "Ti": 0.15
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "table csv": "Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Mechanical properties,Mechanical properties\nAl,Cu,Mn,Fe,Ti,V,Zn,Si,Zr,Tensile strength,Microhardness\nBal.,6.48,0.32,0.23,0.06,0.08,0.04,0.49,0.20,432 MPa,120-130 Hv",
+    
+    "extracted text": "The base metal (BM) was a 7.5-mm-thick 2219-T6 aluminum alloy plate. The hardness of the BM is 120-130 Hv. For the microhardness testing, the testing load was 4.9 N for 10 s.",
+    
+    "property mapping": "AA: 2219\ntemper: T6\nUTS [MPa]: 432 MPa\nHardness: 120-130 Hv (average would be 125 Hv)\nHardness UNIT: Hv (Vickers hardness)",
+    
+    "abbreviations": "BM: Base Metal\nHAZ: Heat-Affected Zone\nFSW: Friction Stir Welding\nTMAZ: Thermal Mechanically Affected Zone\nWNZ: Weld Nugget Zone\nNHAZ: HAZ of the normal joint\nUHAZ: HAZ of the underwater joint",
+    
+    "weight percentage": "The weight percentages are already provided in the document:\nCu: 6.48%\nMn: 0.32%\nFe: 0.23%\nTi: 0.06%\nV: 0.08%\nZn: 0.04%\nSi: 0.49%\nZr: 0.20%\nAl: Balance (remainder)",
+    
+    "recipes": [
+        {
+            "AA": "2219",
+            "temper": "T6",
+            "YS [MPa]": "",
+            "UTS [MPa]": 432,
+            "elong [%]": "",
+            "Hardness": 125,
+            "Hardness UNIT": "Hv",
+            "Has composition": true,
+            "Cu": 6.48,
+            "Mn": 0.32,
+            "Fe": 0.23,
+            "Ti": 0.06,
+            "V": 0.08,
+            "Zn": 0.04,
+            "Si": 0.49,
+            "Zr": 0.20
+        }
+    ]
+}

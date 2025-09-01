@@ -1,0 +1,25 @@
+{
+    "table csv": "Alloys,Ti,Al,Si,Fe,Cu,Mn,Mg,Cr,Zn,V,C,O,N,H\nA6061P-T6,0.02,Bal.,0.63,0.29,0.27,0.07,1.00,0.17,0.01,–,–,–,–,–\nTi6Al4V,Bal.,6.21,–,0.135,–,–,–,–,–,3.93,0.023,0.126,0.003,0.002\n\nAlloys,Tensile strength σb(MPa),Yield strength σ0.2 (MPa),Elongation (%)\nA6061P-T6,318,289,11.2\nTi6Al4V,952,877,12.6",
+    "extracted text": "The paper discusses laser brazing of Ti6Al4V and A6061-T6 alloys with 2mm thickness. The A6061-T6 aluminum alloy was strengthened by precipitation hardening heat treatment at T6 condition.",
+    "property mapping": "AA: A6061P-T6 (from Table 1)\ntemper: T6 (from Table 1 and text)\nYS [MPa]: 289 (from Table 2, yield strength σ0.2)\nUTS [MPa]: 318 (from Table 2, tensile strength σb)\nelong [%]: 11.2 (from Table 2, Elongation)\nComposition: Si, Fe, Cu, Mn, Mg, Cr, Zn, Ti (from Table 1)",
+    "abbreviations": "Bal. - Balance (remainder of composition)",
+    "weight percentage": "The weight percentages for A6061P-T6 are directly provided in the document:\nTi: 0.02%\nSi: 0.63%\nFe: 0.29%\nCu: 0.27%\nMn: 0.07%\nMg: 1.00%\nCr: 0.17%\nZn: 0.01%\nAl: Balance (remainder, approximately 97.54%)",
+    "recipes": [
+        {
+            "AA": "6061",
+            "temper": "T6",
+            "YS [MPa]": 289.0,
+            "UTS [MPa]": 318.0,
+            "elong [%]": 11.2,
+            "Has composition": true,
+            "Si": 0.63,
+            "Fe": 0.29,
+            "Cu": 0.27,
+            "Mn": 0.07,
+            "Mg": 1.00,
+            "Cr": 0.17,
+            "Zn": 0.01,
+            "Ti": 0.02
+        }
+    ]
+}

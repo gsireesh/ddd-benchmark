@@ -1,0 +1,19 @@
+{
+    "table csv": "Material,0.2% Yield stress (MPa),Ultimate strength (MPa)\n2195-T8,503,537",
+    "extracted text": "The paper discusses 2195 aluminum alloy in the T8 temper condition. The alloy was used in friction stir welding (FSW) experiments with various peening treatments. The paper mentions that two main precipitates in 2195 are T1 (Al2CuLi) and θ′ (Al2Cu), with T2 (Al6CuLi3) precipitating along grain boundaries. This indicates the alloy contains Cu and Li, but specific percentages are not provided.",
+    "property mapping": "AA: 2195\ntemper: T8\nYS [MPa]: 503 (0.2% offset)\nUTS [MPa]: 537",
+    "abbreviations": "FSW: Friction stir welding\nTMAZ: Thermo-mechanical affected zone\nHAZ: Heat affected zone\nXRD: X-ray diffraction\nDIC: Digital image correlation",
+    "weight percentage": "The document does not provide specific weight percentages for the elements in the 2195 aluminum alloy.",
+    "recipes": [
+        {
+            "AA": "2195",
+            "temper": "T8",
+            "YS [MPa]": 503.0,
+            "UTS [MPa]": 537.0,
+            "elong [%]": "",
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": "nominal"
+        }
+    ]
+}

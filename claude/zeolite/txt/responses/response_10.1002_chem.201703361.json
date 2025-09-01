@@ -1,0 +1,25 @@
+```
+{
+    "table csv": "There is no table in the document.",
+    "extracted text": "In the typical synthesis of zeolite SCM-14, Ludox (SiO2, HS-40, 40% Sigma-Aldrich), 4-pyrrolidinopyridine (OSDA, 98.0%, Shanghai Di Bo chemical technology Co., Ltd), GeO2 (99.0%, Sinopharm Chemical Reagent Co., Ltd), HF (40% in water solution, Sinopharm Chemical Reagent Co., Ltd), and distilled water were used as source materials. Firstly, GeO2 and 4-pyrrolidinopyridine were added to distilled water, and the mixture was stirred at room temperature until all the GeO2 and 4-pyrrolidinopyridine were dissolved. Secondly, Ludox was added dropwise while stirring. After the gel became homogeneous, HF was introduced and the resulting gel has a composition of 1 SiO2:0.4 GeO2:0.6 OSDA:0.6 HF:20 H2O. Finally, the mixture was aged at 353 K for 2 hours, and then transferred into a 23 mL Teflon-lined stainless-steel autoclave. The autoclave was sealed and the mixture allowed to crystallize at 383 K for 1 day and subsequently at 443 K for 5 days under dynamic condition (rotation oven, 20 rpm).",
+    "property mapping": "SiO2 -> Si\nGeO2 -> Ge\nOSDA -> osda_ratios (4-pyrrolidinopyridine -> osda_names)\nHF -> HF\nH2O -> H2O\n383 K for 1 day and 443 K for 5 days -> crystallization_temperature and crystallization_time\nSCM-14 -> product_names",
+    "formula abbreviations": "OSDA stands for organic structure-directing agent, which in this case is 4-pyrrolidinopyridine.",
+    "ratio calculations": "The recipe gives ratios relative to Si already:\nSi: 1.0 (from 1 SiO2)\nGe: 0.4 (from 0.4 GeO2)\nosda_ratios: 0.6 (from 0.6 OSDA)\nHF: 0.6 (from 0.6 HF)\nH2O: 20.0 (from 20 H2O)\n\nFor crystallization temperature, we have two steps:\n- 383 K = 110°C for 1 day (24 hours)\n- 443 K = 170°C for 5 days (120 hours)\nTotal crystallization time: 24 + 120 = 144 hours\nAverage crystallization temperature: (110°C × 24 + 170°C × 120) ÷ 144 = 160°C",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.4,
+            "Al": 0.0,
+            "OH": 0.0,
+            "H2O": 20.0,
+            "HF": 0.6,
+            "B": 0.0,
+            "osda_names": "4-pyrrolidinopyridine",
+            "osda_ratios": 0.6,
+            "crystallization_temperature": 160.0,
+            "crystallization_time": 144.0,
+            "product_names": "SCM-14"
+        }
+    ]
+}
+```

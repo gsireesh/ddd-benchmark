@@ -1,0 +1,22 @@
+{
+    "table csv": "6061-T6\nMg,Si,Fe,Ca,C,Al\n1.0,0.6,0.2,0.2,0.1,balance\n\nS25C\nC,Si,Mn,P,S,Ca,Te,Fe\n0.2,0.1,0.5,0.01,0.01,0.1,0.14,balance\n\nMechanical Properties\n,Yield Strength (MPa),Tensile Strength (MPa),Elongation (pct)\n6061-T6,287,315,16.4\nS25C,269,520,31.0",
+    "extracted text": "The 6061-T6 aluminum alloy and the S25C steel were studied to determine differences in fatigue crack closure behavior. The 6061-T6 exhibited plasticity-induced fatigue crack closure (PIFCC), while the S25C steel exhibited roughness-induced crack closure (RIFCC). The S25C steel was in the normalized condition and had an α-grain size of 14 μm.",
+    "property mapping": "AA designation: 6061\nTemper: T6\nYield Strength (MPa): 287 MPa corresponds to YS [MPa]\nTensile Strength (MPa): 315 MPa corresponds to UTS [MPa]\nElongation (pct): 16.4% corresponds to elong [%]\nComposition elements (Mg, Si, Fe, Ca, C): Weight percentages of respective elements",
+    "abbreviations": "PIFCC: Plasticity-induced fatigue crack closure\nRIFCC: Roughness-induced fatigue crack closure\npct: Percent",
+    "weight percentage": "For 6061-T6:\nMg: 1.0 wt%\nSi: 0.6 wt%\nFe: 0.2 wt%\nCa: 0.2 wt%\nC: 0.1 wt%\nAl: balance (approximately 97.9 wt%)",
+    "recipes": [
+        {
+            "AA": "6061",
+            "temper": "T6",
+            "YS [MPa]": 287.0,
+            "UTS [MPa]": 315.0,
+            "elong [%]": 16.4,
+            "Has composition": true,
+            "Mg": 1.0,
+            "Si": 0.6,
+            "Fe": 0.2,
+            "Ca": 0.2,
+            "C": 0.1
+        }
+    ]
+}

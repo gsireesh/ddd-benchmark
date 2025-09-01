@@ -3,6 +3,10 @@ secrets.json
 data/**/*.png
 data/**/*.pdf
 data/**/*.xml
+data/**/*.html
+data/**/*.md
+data/**/*.md
+data/**/*.txt
 development/
 
 

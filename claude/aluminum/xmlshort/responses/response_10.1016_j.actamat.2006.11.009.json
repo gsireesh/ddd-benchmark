@@ -1,0 +1,27 @@
+{
+    "table csv": "Chemical composition (in wt.%)\nAl,Zn,Mg,Fe,Cu,Si\nBalance,5.70,2.53,0.26,1.66,0.06\n\nMechanical Properties\nYoung's modulus (GPa),Yield Strength (MPa),Ultimate Strength (MPa),Elongation (%)\n70.33,515,557,14.7",
+    
+    "extracted text": "The paper studies a 7075-T651 aluminum alloy plate with a thickness of 2 inches. The material was developed by Alcoa under a customized order for airplane structural applications.",
+    
+    "property mapping": "Yield Strength (MPa) corresponds to YS [MPa]\nUltimate Strength (MPa) corresponds to UTS [MPa]\nElongation (%) corresponds to elong [%]",
+    
+    "abbreviations": "T651 represents a specific temper condition for aluminum alloys where T6 indicates solution heat-treated and artificially aged, and the '51' denotes stress relieved by stretching with minor straightening.",
+    
+    "weight percentage": "The weight percentages are already provided in the document:\nZn: 5.70%\nMg: 2.53%\nFe: 0.26%\nCu: 1.66%\nSi: 0.06%\nAl: Balance (remaining percentage)",
+    
+    "recipes": [
+        {
+            "AA": "7075",
+            "temper": "T651",
+            "YS [MPa]": 515.0,
+            "UTS [MPa]": 557.0,
+            "elong [%]": 14.7,
+            "Has composition": true,
+            "Zn": 5.70,
+            "Mg": 2.53,
+            "Fe": 0.26,
+            "Cu": 1.66,
+            "Si": 0.06
+        }
+    ]
+}

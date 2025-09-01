@@ -1,0 +1,20 @@
+{
+    "table csv": "Element,Si,Mg,Fe,Al\nWt.%,7.4,0.29,0.15,Bal.",
+    "extracted text": "The block was solution-treated at 530°C±10°C in an air furnace for 3h, and subsequently quenched by warm water at 50°C. It was then aged at 160°C±10°C for 2.5h, as required by T6 processing.",
+    "property mapping": "0.2% proof strength = YS [MPa], Tensile strength = UTS [MPa], Elongation = elong [%]",
+    "abbreviations": "Bal. = Balance (remainder of composition is aluminum)",
+    "weight percentage": "Si: 7.4%, Mg: 0.29%, Fe: 0.15%, Al: Balance (remainder)",
+    "recipes": [
+        {
+            "AA": "A356",
+            "temper": "T6",
+            "YS [MPa]": 197.0,
+            "UTS [MPa]": 283.0,
+            "elong [%]": 12.2,
+            "Has composition": true,
+            "Si": 7.4,
+            "Mg": 0.29,
+            "Fe": 0.15
+        }
+    ]
+}

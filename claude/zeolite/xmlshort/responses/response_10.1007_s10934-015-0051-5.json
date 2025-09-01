@@ -1,0 +1,93 @@
+{
+    "table csv": "Sample,Si/Ge^a,[Ge]PLS-1 Si/Ge^b,Sample,[Ge]CDS-1 Si/Ge^b,[Ge]CDS-1 Surface area^c (m^2 g^−1),[Ge]CDS-1 Pore volume^c (ml g^−1)\nPLS-1,–,–,CDS-1,–,241,0.080\nFigure d,25,22,Figure d,30,257,0.088\nFigure c,50,41,Figure c,59,311,0.112\nFigure b,100,136,Figure b,143,268,0.096\nFigure a,200,192,Figure a,257,239,0.085",
+    "extracted text": "The paper describes the synthesis of germanosilicate type CDS-1 zeolite with CDO topology and its layered precursor [Ge]PLS-1. For [Ge]PLS-1 synthesis, the gel composition was 1.0 SiO2:x GeO2:0.30 TMAOH:5.0 H2O, where x was 0–0.1 (equivalent to Si/Ge ratios from infinity to 10). Tetramethylammonium hydroxide (TMAOH) was used as an organic structure-directing agent. The hydrothermal treatment was carried out for 3 days at 170 °C. The [Ge]CDS-1 zeolite was prepared by calcination of [Ge]PLS-1 at 500 °C for 6 h (heating rate was 0.5 °C/min) under air flow (100 mL/min). The synthesis used H-kanemite (H2Si2O5) as the silica source and GeO2 as the germanium source.",
+    "property mapping": "Si - SiO2 in gel composition ratio\nGe - GeO2 in gel composition ratio\nOH - Included in TMAOH\nH2O - H2O in gel composition ratio\nosda_names - Tetramethylammonium hydroxide (TMAOH)\nosda_ratios - TMAOH in gel composition ratio\ncrystallization_temperature - 170 °C\ncrystallization_time - 3 days (72 hours)\nproduct_names - [Ge]PLS-1 and [Ge]CDS-1",
+    "formula abbreviations": "TMAOH - Tetramethylammonium hydroxide\nH-kanemite - H2Si2O5 (acidified form of Na-kanemite, used as silica source)\nPLS-1 - Layered silicate precursor\nCDS-1 - Condensed Disordered Structure type 1 (zeolite with CDO topology)",
+    "ratio calculations": "The gel composition is given as 1.0 SiO2:x GeO2:0.30 TMAOH:5.0 H2O where x varies from 0 to 0.1.\nFor Si: Since SiO2 = 1.0, Si = 1.0\nFor Ge: Ge = x where x varies from 0 to 0.1\nFor OH: OH is contained in TMAOH (ratio 0.30), so OH = 0.30\nFor H2O: H2O = 5.0\nFor OSDA (TMAOH): osda_ratio = 0.30",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.05,
+            "Al": 0,
+            "OH": 0.30,
+            "H2O": 5.0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "Tetramethylammonium hydroxide",
+            "osda_ratios": 0.30,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 72.0,
+            "product_names": "[Ge]PLS-1"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.04,
+            "Al": 0,
+            "OH": 0.30,
+            "H2O": 5.0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "Tetramethylammonium hydroxide",
+            "osda_ratios": 0.30,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 72.0,
+            "product_names": "[Ge]PLS-1"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.02,
+            "Al": 0,
+            "OH": 0.30,
+            "H2O": 5.0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "Tetramethylammonium hydroxide",
+            "osda_ratios": 0.30,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 72.0,
+            "product_names": "[Ge]PLS-1"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.01,
+            "Al": 0,
+            "OH": 0.30,
+            "H2O": 5.0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "Tetramethylammonium hydroxide",
+            "osda_ratios": 0.30,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 72.0,
+            "product_names": "[Ge]PLS-1"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.005,
+            "Al": 0,
+            "OH": 0.30,
+            "H2O": 5.0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "Tetramethylammonium hydroxide",
+            "osda_ratios": 0.30,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 72.0,
+            "product_names": "[Ge]PLS-1"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.0,
+            "Al": 0,
+            "OH": 0.30,
+            "H2O": 5.0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "Tetramethylammonium hydroxide",
+            "osda_ratios": 0.30,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 72.0,
+            "product_names": "PLS-1"
+        }
+    ]
+}

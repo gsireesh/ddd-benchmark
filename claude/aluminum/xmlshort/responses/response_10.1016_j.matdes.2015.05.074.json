@@ -1,0 +1,32 @@
+{
+    "table csv": "Material,Al,Si,Cu,Mg,Cr,Zn,UTS (MPa),YS (MPa),Elongation (%)\nAA6061-T6,Bal.,0.6,0.3,1.0,0.2,–,310,275,15\nAA7050-T7451,Bal.,–,2.3,2.2,–,6.2,524,469,11",
+    "extracted text": "The paper studies friction stir welding of AA6061-T6 and AA7050-T7451 aluminum alloys. The nominal composition and mechanical properties for each material is summarized in Table 1. Both alloys are precipitation hardenable via natural and artificial aging. The study notes that AA6061 base materials featured Al–Si–Fe coarse intermetallic particles, while AA7050 base materials featured Al–Fe–Cu coarse intermetallic particles.",
+    "property mapping": "AA = Aluminum Association alloy designation (AA6061 and AA7050)\ntemper = T6 for AA6061, T7451 for AA7050\nUTS (MPa) = Ultimate Tensile Strength in MPa\nYS (MPa) = Yield Strength in MPa\nElongation (%) = Elongation percentage\nBal. = Balance (remainder is aluminum)",
+    "abbreviations": "Bal. = Balance (remainder is aluminum)\nT6 = Solution heat treated and artificially aged\nT7451 = Solution heat treated and stabilized (overaged) with special control of stress relieve",
+    "weight percentage": "For AA6061-T6:\nSi: 0.6%\nCu: 0.3%\nMg: 1.0%\nCr: 0.2%\nFe: not specified in table but mentioned in text as part of intermetallic particles\n\nFor AA7050-T7451:\nCu: 2.3%\nMg: 2.2%\nZn: 6.2%\nFe: not specified in table but mentioned in text as part of intermetallic particles",
+    "recipes": [
+        {
+            "AA": "6061",
+            "temper": "T6",
+            "YS [MPa]": 275.0,
+            "UTS [MPa]": 310.0,
+            "elong [%]": 15.0,
+            "Has composition": "nominal",
+            "Si": 0.6,
+            "Cu": 0.3,
+            "Mg": 1.0,
+            "Cr": 0.2
+        },
+        {
+            "AA": "7050",
+            "temper": "T7451",
+            "YS [MPa]": 469.0,
+            "UTS [MPa]": 524.0,
+            "elong [%]": 11.0,
+            "Has composition": "nominal",
+            "Cu": 2.3,
+            "Mg": 2.2,
+            "Zn": 6.2
+        }
+    ]
+}

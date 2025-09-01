@@ -1,0 +1,67 @@
+```json
+{
+    "table csv": "SDA,Structure type\ntriphenylsulfonium,ISV\ntriphenylsulfonium,unknown (GeZA)\ntri(para-tolyl)sulfonium,ITT\ntributylsulfonium,MEL",
+    "extracted text": "The germanosilicates were synthesized with the following synthesis-gel compositions: SiO2/GeO2/SDA+OH−/HF/H2O = 1: g:0.4:0.4: w (molar ratios; g = 0.2-1 and w = 1-15). The GeZA germanosilicate was obtained as a pure phase from the following synthesis-gel composition: SiO2/GeO2/triphenylsulfonium/HF/H2O = 1.0:1.0:0.4:0.4:1.0. Tri(para-tolyl)sulfonium is somewhat bulkier than triphenylsulfonium. The bulkier SDA generated a microporous crystalline germanosilicate of the ITT structure type from the following gel compositions: SiO2/GeO2/tri(para-tolyl)sulfonium/HF/H2O = 1.0:(1.0−g):0.4:0.4:5.0 (g = 0.33-0.5). The resultant gel was transferred to a Teflon-lined stainless-steel autoclave, and heated with tumbling at 170 °C for 6 days.",
+    "property mapping": "SiO2 → Si\nGeO2 → Ge\nSDA+OH- → osda_ratios (where SDA is the structure directing agent)\nHF → HF\nH2O → H2O\ntriphenylsulfonium → osda_names\ntri(para-tolyl)sulfonium → osda_names\ntributylsulfonium → osda_names\n170 °C → crystallization_temperature\n6 days → crystallization_time\nISV, GeZA, ITT, MEL → product_names",
+    "formula abbreviations": "g = variable ratio of GeO2 ranging from 0.2 to 1.0\nw = variable ratio of H2O ranging from 1 to 15",
+    "ratio calculations": "For GeZA recipe:\nSi = 1.0 (base)\nGe = 1.0\nSDA (triphenylsulfonium) = 0.4\nHF = 0.4\nH2O = 1.0\n\nFor ITT recipe (using mean of g range 0.33-0.5):\ng mean = (0.33 + 0.5)/2 = 0.415\nSi = 1.0 (base)\nGe = 1.0 - 0.415 = 0.585\nSDA (tri(para-tolyl)sulfonium) = 0.4\nHF = 0.4\nH2O = 5.0\n\nFor general germanosilicate recipe (using mean values):\ng mean = (0.2 + 1.0)/2 = 0.6\nw mean = (1 + 15)/2 = 8.0\nSi = 1.0 (base)\nGe = 0.6\nSDA = 0.4\nHF = 0.4\nH2O = 8.0",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0,
+            "OH": 0.4,
+            "H2O": 1.0,
+            "HF": 0.4,
+            "B": 0,
+            "osda_names": "triphenylsulfonium",
+            "osda_ratios": 0.4,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 144.0,
+            "product_names": "GeZA"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.585,
+            "Al": 0,
+            "OH": 0.4,
+            "H2O": 5.0,
+            "HF": 0.4,
+            "B": 0,
+            "osda_names": "tri(para-tolyl)sulfonium",
+            "osda_ratios": 0.4,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 144.0,
+            "product_names": "ITT"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.6,
+            "Al": 0,
+            "OH": 0.4,
+            "H2O": 8.0,
+            "HF": 0.4,
+            "B": 0,
+            "osda_names": "triphenylsulfonium",
+            "osda_ratios": 0.4,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 144.0,
+            "product_names": "ISV"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "tributylsulfonium",
+            "osda_ratios": 0,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 144.0,
+            "product_names": "MEL"
+        }
+    ]
+}
+```

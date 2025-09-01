@@ -1,0 +1,25 @@
+{
+    "table csv": "Zn,Cu,Mg,Fe,Si,Mn,Zr,Ti,Al\n5.7 to 6.7,2.0 to 2.6,1.9 to 2.6,0.15,0.12,0.1,0.08 to 0.05,0.06,balanced\n\nYield Strength (MPa),Ultimate Tensile Strength (MPa),Tensile Elongation (pct)\n427,496,9",
+    "extracted text": "The fatigue specimens were prepared from a 100-mm thick Al 7050-T7451 plate that was supplied by Korea Aerospace Industry, Ltd. (Sacheon, Korea). The material shows a partially recrystallized microstructure with fine, equiaxed grains in large grains.",
+    "property mapping": "AA: 7050 (from the document text)\ntemper: T7451 (from the document text)\nYS [MPa]: 427 (from Table II, labeled as 'Yield Strength')\nUTS [MPa]: 496 (from Table II, labeled as 'Ultimate Tensile Strength')\nelong [%]: 9 (from Table II, labeled as 'Tensile Elongation (pct)')",
+    "abbreviations": "No abbreviations were used for element compositions in this document.",
+    "weight percentage": "Elements with ranges (calculating means):\nZn: mean of 5.7 to 6.7 = 6.2%\nCu: mean of 2.0 to 2.6 = 2.3%\nMg: mean of 1.9 to 2.6 = 2.25%\nZr: mean of 0.08 to 0.05 = 0.065% (note: range appears to be in descending order)\n\nElements with single values:\nFe: 0.15%\nSi: 0.12%\nMn: 0.1%\nTi: 0.06%",
+    "recipes": [
+        {
+            "AA": "7050",
+            "temper": "T7451",
+            "YS [MPa]": 427.0,
+            "UTS [MPa]": 496.0,
+            "elong [%]": 9.0,
+            "Has composition": true,
+            "Zn": 6.2,
+            "Cu": 2.3,
+            "Mg": 2.25,
+            "Fe": 0.15,
+            "Si": 0.12,
+            "Mn": 0.1,
+            "Zr": 0.065,
+            "Ti": 0.06
+        }
+    ]
+}

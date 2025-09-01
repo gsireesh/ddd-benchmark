@@ -1,0 +1,33 @@
+{
+    "table csv": "Process,Si,Mg,Fe,Ti,Al\nRheocasting,7.20,0.38,0.13,0.14,Balance\nLow-pressure casting,7.22,0.42,0.09,0.11,Balance\n\nProcess,YS (MPa),UTS (MPa),Tensile elongation (%),Impact energy (J/cm²)\nRheocasting,209 (202-225),272 (263-285),12.9 (11.4-14.2),10.3 (9.5-11.2)\nLow-pressure casting,251 (247-255),294 (283-306),4.5 (3.1-5.6),7.0 (6.4-8.0)",
+    "extracted text": "The paper compares mechanical and corrosion properties of A356-T6 alloy produced by rheocasting and low-pressure casting. Both products were T6 heat treated (solution heat-treated at 528°C for 5h, water quenched and aged at 170°C for 6h). The fatigue endurance limit was approximately 105 MPa for both products. The pitting corrosion potential value for the RC product was -600 mV versus Ag/AgCl, while it was -650 mV versus Ag/AgCl for the LP counterpart.",
+    "property mapping": "YS = Yield Strength (MPa)\nUTS = Ultimate Tensile Strength (MPa)\nTensile elongation (%) = elong [%]\nImpact energy (J/cm²) = Impact energy (not included in the required properties)",
+    "abbreviations": "RC = Rheocasting\nLPC = Low-pressure casting\nT6 = Solution heat-treated at 528°C for 5h, water quenched and aged at 170°C for 6h",
+    "weight percentage": "For Rheocasting A356-T6:\nSi: 7.20%\nMg: 0.38%\nFe: 0.13%\nTi: 0.14%\nAl: Balance (approximately 92.15%)\n\nFor Low-pressure casting A356-T6:\nSi: 7.22%\nMg: 0.42%\nFe: 0.09%\nTi: 0.11%\nAl: Balance (approximately 92.16%)",
+    "recipes": [
+        {
+            "AA": "A356",
+            "temper": "T6",
+            "YS [MPa]": 213.5,
+            "UTS [MPa]": 274.0,
+            "elong [%]": 12.8,
+            "Has composition": true,
+            "Si": 7.20,
+            "Mg": 0.38,
+            "Fe": 0.13,
+            "Ti": 0.14
+        },
+        {
+            "AA": "A356",
+            "temper": "T6",
+            "YS [MPa]": 251.0,
+            "UTS [MPa]": 294.5,
+            "elong [%]": 4.35,
+            "Has composition": true,
+            "Si": 7.22,
+            "Mg": 0.42,
+            "Fe": 0.09,
+            "Ti": 0.11
+        }
+    ]
+}

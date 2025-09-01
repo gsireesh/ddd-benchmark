@@ -1,0 +1,25 @@
+{
+    "table csv": "Elements,Cu,Si,Fe,Mn,Mg,Zn,Al\nwt%,4.8,0.97,0.7,0.38,0.54,0.25,Balance",
+    "extracted text": "The base metal used is AA2014 in T651 temper condition. The tensile properties of the base metal are: Ultimate tensile strength (UTS) = 469 MPa, Yield strength (YS) = 410 MPa, Elongation = 9.14%. The microhardness of the base metal is approximately 135 HV based on the microhardness profile in Figure 8.",
+    "property mapping": "Ultimate tensile strength (MPa) → UTS [MPa]\nYield strength (MPa) → YS [MPa]\nElongation (%) → elong [%]\nMicrohardness (HV) → Hardness (with UNIT = HV)",
+    "abbreviations": "AA2014: Aluminum Association designation for this aluminum-copper alloy\nT651: Solution heat treated, stress-relieved by stretching, then artificially aged\nBM: Base Metal\nFSW: Friction Stir Welding",
+    "weight percentage": "Cu: 4.8%\nSi: 0.97%\nFe: 0.7%\nMn: 0.38%\nMg: 0.54%\nZn: 0.25%\nAl: Balance (approximately 92.36%)",
+    "recipes": [
+        {
+            "AA": "2014",
+            "temper": "T651",
+            "YS [MPa]": 410.0,
+            "UTS [MPa]": 469.0,
+            "elong [%]": 9.14,
+            "Hardness": 135.0,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Cu": 4.8,
+            "Si": 0.97,
+            "Fe": 0.7,
+            "Mn": 0.38,
+            "Mg": 0.54,
+            "Zn": 0.25
+        }
+    ]
+}

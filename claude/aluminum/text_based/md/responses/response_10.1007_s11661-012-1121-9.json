@@ -1,0 +1,22 @@
+{
+    "table csv": "Table I. Alloy Compositions\n6061-T6,6061-T6,6061-T6,6061-T6,6061-T6,6061-T6,6061-T6\nMg,Si,,Fe,Ca,C,Al\n1.0,0.6,,0.2,0.2,0.1,balance\nS25C,S25C,S25C,S25C,S25C,S25C,S25C\nC,Si,Mn,P,S,Te,Fe\n0.2,0.1,0.5,0.01,0.01,0.14,balance\n\nTable II. Mechanical Properties\n,Yield Strength (MPa),Tensile Strength (MPa),Elongation (pct)\n6061-T6,287,315,16.4\nS25C,269,520,31",
+    "extracted text": "The paper focuses on studying the distinction between plasticity-induced fatigue crack closure (PIFCC) and roughness-induced fatigue crack closure (RIFCC) using two alloys: aluminum alloy 6061-T6 and a steel of comparable yield strength, S25C. The 6061-T6 alloy exhibits PIFCC behavior.",
+    "property mapping": "AA: 6061 (from '6061-T6' in tables and text)\ntemper: T6 (from '6061-T6' in tables and text)\nYS [MPa]: 287 (from Table II 'Yield Strength (MPa)')\nUTS [MPa]: 315 (from Table II 'Tensile Strength (MPa)')\nelong [%]: 16.4 (from Table II 'Elongation (pct)')\nMg: 1.0 (from Table I)\nSi: 0.6 (from Table I)\nFe: 0.2 (from Table I)\nCa: 0.2 (from Table I)\nC: 0.1 (from Table I)",
+    "abbreviations": "No abbreviations used for alloy composition.",
+    "weight percentage": "The weight percentages are directly provided in Table I:\nMg: 1.0%\nSi: 0.6%\nFe: 0.2%\nCa: 0.2%\nC: 0.1%\nAl: balance (remaining percentage)",
+    "recipes": [
+        {
+            "AA": "6061",
+            "temper": "T6",
+            "YS [MPa]": 287.0,
+            "UTS [MPa]": 315.0,
+            "elong [%]": 16.4,
+            "Has composition": true,
+            "Mg": 1.0,
+            "Si": 0.6,
+            "Fe": 0.2,
+            "Ca": 0.2,
+            "C": 0.1
+        }
+    ]
+}

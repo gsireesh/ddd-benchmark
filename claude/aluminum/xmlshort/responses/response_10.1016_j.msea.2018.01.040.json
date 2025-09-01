@@ -1,0 +1,78 @@
+{
+    "table csv": "Table 1: Chemical composition of the Al-Zn-Mg-Cu alloy extruded plate (in wt%).\nElement,Zn,Mg,Cu,Zr,Fe,Si,Al\nContent,9.32,2.00,1.76,0.15,0.052,0.033,Balance\n\nTable 2: Hardness, electrical conductivity and mechanical properties of the alloy under various aging tempers.\nAging temper,Detailed regimes,Hardness (HV),Electrical conductivity (MS·m−1),UTS (MPa),YS (MPa),Elongation (%)\nT6,120°C/24h,213.8,17.6,704,658,13.5\nT79,110°C/8h + 160°C/3h,215.8,19.3,683,671,10.3\nT74,110°C/8h + 160°C/10h,207.6,21.4,614,590,13.7\nT73,110°C/8h + 160°C/16h,193.6,22.1,581,546,14.1",
+    
+    "extracted text": "The study investigates a high Zn-containing Al-Zn-Mg-Cu alloy extruded plate. The plate was obtained by hot extrusion on a perfectly homogenized ingot with a diameter of 220 mm and a length of 1400 mm. The specimens were solution heat treated at 465°C for 1.5h followed by cold water quenching, then subjected to different aging treatments. The T6 treatment was 120°C for 24h. The T79, T74, and T73 treatments all started with 110°C for 8h and then had different times at 160°C: 3h for T79, 10h for T74, and 16h for T73.",
+    
+    "property mapping": "AA: Not explicitly stated in the document\nTemper: T6, T79, T74, T73 specified in Table 2\nYS [MPa]: Values in Table 2 (658, 671, 590, 546)\nUTS [MPa]: Values in Table 2 (704, 683, 614, 581)\nElong [%]: Values in Table 2 labeled as 'Elongation (%)' (13.5, 10.3, 13.7, 14.1)\nHardness: Values in Table 2 (213.8, 215.8, 207.6, 193.6)\nHardness UNIT: HV (Vickers hardness)\nComposition: Table 1 provides weight percentages for Zn, Mg, Cu, Zr, Fe, Si, with Al as balance",
+    
+    "abbreviations": "No abbreviations requiring expansion were identified in the alloy composition or treatment descriptions.",
+    
+    "weight percentage": "The weight percentages are directly provided in Table 1:\nZn: 9.32%\nMg: 2.00%\nCu: 1.76%\nZr: 0.15%\nFe: 0.052%\nSi: 0.033%\nAl: Balance (remaining percentage)",
+    
+    "recipes": [
+        {
+            "AA": "",
+            "temper": "T6",
+            "YS [MPa]": 658.0,
+            "UTS [MPa]": 704.0,
+            "elong [%]": 13.5,
+            "Hardness": 213.8,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Zn": 9.32,
+            "Mg": 2.00,
+            "Cu": 1.76,
+            "Zr": 0.15,
+            "Fe": 0.052,
+            "Si": 0.033
+        },
+        {
+            "AA": "",
+            "temper": "T79",
+            "YS [MPa]": 671.0,
+            "UTS [MPa]": 683.0,
+            "elong [%]": 10.3,
+            "Hardness": 215.8,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Zn": 9.32,
+            "Mg": 2.00,
+            "Cu": 1.76,
+            "Zr": 0.15,
+            "Fe": 0.052,
+            "Si": 0.033
+        },
+        {
+            "AA": "",
+            "temper": "T74",
+            "YS [MPa]": 590.0,
+            "UTS [MPa]": 614.0,
+            "elong [%]": 13.7,
+            "Hardness": 207.6,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Zn": 9.32,
+            "Mg": 2.00,
+            "Cu": 1.76,
+            "Zr": 0.15,
+            "Fe": 0.052,
+            "Si": 0.033
+        },
+        {
+            "AA": "",
+            "temper": "T73",
+            "YS [MPa]": 546.0,
+            "UTS [MPa]": 581.0,
+            "elong [%]": 14.1,
+            "Hardness": 193.6,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Zn": 9.32,
+            "Mg": 2.00,
+            "Cu": 1.76,
+            "Zr": 0.15,
+            "Fe": 0.052,
+            "Si": 0.033
+        }
+    ]
+}

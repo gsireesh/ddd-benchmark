@@ -1,0 +1,51 @@
+{
+    "table csv": "Zn,Mg,Cu,Fe,Si,Zr,Al\n6.30,2.40,2.30,0.10,0.05,0.12,Balance\n\nTempers,Nominal strain rate,,,Slow strain rate,,\n,Yield strength (MPa),Ultimate tensile strength (MPa),% Strain to fracture,Yield strength (MPa),Ultimate tensile strength (MPa),% Strain to fracture\nUnder aged (T4),389,487,17.85,385,447,7.94\nPeak aged (T6),555,589,13.77,530,574,9.35\nHighly over aged,450,479,16.09,446,477,13.07",
+    "extracted text": "The paper studies a 7150 Al-Zn-Mg-Cu aluminum alloy in three different temper conditions: under aged (T4), peak aged (T6), and highly over-aged. The specimens were obtained from rolled sheet and subjected to solutionizing treatment at 475°C for 45 min, quenched in cold water, followed by artificial ageing at 120°C for 0.5 h for under aged (T4) temper and at 120°C for 24 h for peak aged (T6) temper. For highly over-aged temper, a two-step ageing treatment was used: first ageing at 120°C for 24 h then ageing at 150°C for 30 h.",
+    "property mapping": "AA designation: 7150\nTempers: Under aged (T4), Peak aged (T6), Highly over-aged\nYield strength: Listed in Table 3 as 'Yield strength (MPa)'\nUltimate tensile strength: Listed in Table 3 as 'Ultimate tensile strength (MPa)'\nElongation: Listed in Table 3 as '% Strain to fracture'\nChemical composition: Listed in Table 1 as weight percentage",
+    "abbreviations": "No abbreviations were used for element compositions.",
+    "weight percentage": "The weight percentages of elements are provided directly in Table 1:\nZn: 6.30%\nMg: 2.40%\nCu: 2.30%\nFe: 0.10%\nSi: 0.05%\nZr: 0.12%\nAl: Balance",
+    "recipes": [
+        {
+            "AA": "7150",
+            "temper": "T4",
+            "YS [MPa]": 385.0,
+            "UTS [MPa]": 447.0,
+            "elong [%]": 7.94,
+            "Has composition": true,
+            "Zn": 6.30,
+            "Mg": 2.40,
+            "Cu": 2.30,
+            "Fe": 0.10,
+            "Si": 0.05,
+            "Zr": 0.12
+        },
+        {
+            "AA": "7150",
+            "temper": "T6",
+            "YS [MPa]": 530.0,
+            "UTS [MPa]": 574.0,
+            "elong [%]": 9.35,
+            "Has composition": true,
+            "Zn": 6.30,
+            "Mg": 2.40,
+            "Cu": 2.30,
+            "Fe": 0.10,
+            "Si": 0.05,
+            "Zr": 0.12
+        },
+        {
+            "AA": "7150",
+            "temper": "Highly over-aged",
+            "YS [MPa]": 446.0,
+            "UTS [MPa]": 477.0,
+            "elong [%]": 13.07,
+            "Has composition": true,
+            "Zn": 6.30,
+            "Mg": 2.40,
+            "Cu": 2.30,
+            "Fe": 0.10,
+            "Si": 0.05,
+            "Zr": 0.12
+        }
+    ]
+}

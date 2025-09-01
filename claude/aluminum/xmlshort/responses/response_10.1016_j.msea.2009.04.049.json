@@ -1,0 +1,21 @@
+{
+    "table csv": "Material,0.2% yield stress (MPa),Ultimate strength (MPa),Young's modulus (GPa)\n2195-T8,503,537,76",
+    "extracted text": "The paper focuses on fatigue crack growth performance of friction stir welded 2195 aluminum alloy joints with different surface treatments. The aluminum–lithium alloy 2195-T8 is described as having lower density, greater elastic modulus, and higher specific strengths compared to traditional aluminum alloys. The paper mentions that in the weld nugget, the original T1 (Al2CuLi) and θ′ (Al2Cu) precipitates were completely dissolved during the welding process.",
+    "property mapping": "- 0.2% yield stress (MPa) = YS [MPa]\n- Ultimate strength (MPa) = UTS [MPa]\n- Young's modulus (GPa) is not in the required property list",
+    "abbreviations": "- T8 refers to a temper designation for aluminum alloys, indicating solution heat-treated, cold worked, and artificially aged\n- T1 (Al2CuLi) refers to a precipitate phase containing aluminum, copper, and lithium\n- θ′ (Al2Cu) refers to a precipitate phase containing aluminum and copper",
+    "weight percentage": "No specific weight percentages for elements are provided in the document. The alloy is described as an aluminum-lithium alloy with copper present in precipitate phases, but exact compositions are not given.",
+    "recipes": [
+        {
+            "AA": "2195",
+            "temper": "T8",
+            "YS [MPa]": 503.0,
+            "UTS [MPa]": 537.0,
+            "elong [%]": "",
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": "nominal",
+            "Cu": "",
+            "Li": ""
+        }
+    ]
+}

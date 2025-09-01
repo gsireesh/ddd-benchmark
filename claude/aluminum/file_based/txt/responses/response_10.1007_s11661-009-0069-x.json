@@ -1,0 +1,69 @@
+{
+    "table csv": "Table I. Chemical Composition of As-Received Aluminum Alloys (Atomic Percent)\n\nAlloy,Si,Fe,Cu,Mn,Mg,Cr,Zn,Ti,Ni\n7075 (D),0.05,0.04,0.74,0.01,2.89,0.13,3.05,0.04,-\n2024 (L),0.07,0.04,2.46,0.21,1.26,0.04,0.14,0.02,0.06\n1050 (H),0.12,0.21,< 0.005,0.02,0.01,< 0.010,< 0.005,< 0.010,-\n\nTable II. Mechanical Properties of As-Received Aluminum Alloys\n\nAlloy,UTS* (MPa),YS* (MPa),HV,Elongation* (Pct)\n7075-T6 (D),545,475,188,8\n2024-T3 (L),457,333,138,16\n1050-H24 (H),136,128,44,7",
+    
+    "extracted text": "The document describes three aluminum alloys: Al 7075-T6, Al 2024-T3, and Al 1050-H24, which were used to create two multilayer laminates (ALH19 and ADH19) by hot roll bonding. The T6 temper for Al 7075 involved solution treating at 465°C for 30 minutes, followed by water quenching and age hardening at 135°C for 14 hours. For Al 2024, the T6 temper involved solution treating at 490°C for 30 minutes, water quenching and age hardening at 160°C for 6 hours. The H24 temper involves work hardening followed by partial annealing (240°C).",
+    
+    "property mapping": "UTS* (MPa) = Ultimate tensile strength in MPa\nYS* (MPa) = Yield strength in MPa\nHV = Vickers hardness\nElongation* (Pct) = Elongation percentage\nT6 = Solution treating followed by quenching and peak age hardening\nT3 = Solution treating followed by quenching, cold working, and natural aging\nH24 = Work hardening followed by partial annealing (240°C)",
+    
+    "abbreviations": "D = Al 7075 alloy\nL = Al 2024 alloy\nH = Al 1050 alloy\nALH19 = Laminate made of alternated Al 2024 and Al 1050 layers\nADH19 = Laminate made of alternated Al 7075 and Al 1050 layers\nUTS = Ultimate tensile strength\nYS = Yield stress\nHV = Vickers hardness\nPct = Percentage",
+    
+    "weight percentage": "To convert from atomic percent to weight percent, I need to use the atomic weights of each element:\nAl: 26.98 g/mol\nSi: 28.09 g/mol\nFe: 55.85 g/mol\nCu: 63.55 g/mol\nMn: 54.94 g/mol\nMg: 24.31 g/mol\nCr: 52.00 g/mol\nZn: 65.38 g/mol\nTi: 47.87 g/mol\nNi: 58.69 g/mol\n\nFor Al 7075 (D):\nSi: 0.05 × 28.09 / (0.05 × 28.09 + 0.04 × 55.85 + 0.74 × 63.55 + 0.01 × 54.94 + 2.89 × 24.31 + 0.13 × 52.00 + 3.05 × 65.38 + 0.04 × 47.87 + 93.05 × 26.98) × 100 = 0.12%\nFe: 0.04 × 55.85 / (...) × 100 = 0.19%\nCu: 0.74 × 63.55 / (...) × 100 = 3.98%\nMn: 0.01 × 54.94 / (...) × 100 = 0.05%\nMg: 2.89 × 24.31 / (...) × 100 = 5.95%\nCr: 0.13 × 52.00 / (...) × 100 = 0.57%\nZn: 3.05 × 65.38 / (...) × 100 = 16.90%\nTi: 0.04 × 47.87 / (...) × 100 = 0.16%\n\nFor Al 2024 (L):\nSi: 0.07 × 28.09 / (0.07 × 28.09 + 0.04 × 55.85 + 2.46 × 63.55 + 0.21 × 54.94 + 1.26 × 24.31 + 0.04 × 52.00 + 0.14 × 65.38 + 0.02 × 47.87 + 0.06 × 58.69 + 95.70 × 26.98) × 100 = 0.17%\nFe: 0.04 × 55.85 / (...) × 100 = 0.19%\nCu: 2.46 × 63.55 / (...) × 100 = 13.36%\nMn: 0.21 × 54.94 / (...) × 100 = 0.99%\nMg: 1.26 × 24.31 / (...) × 100 = 2.62%\nCr: 0.04 × 52.00 / (...) × 100 = 0.18%\nZn: 0.14 × 65.38 / (...) × 100 = 0.78%\nTi: 0.02 × 47.87 / (...) × 100 = 0.08%\nNi: 0.06 × 58.69 / (...) × 100 = 0.30%\n\nFor Al 1050 (H):\nSi: 0.12 × 28.09 / (0.12 × 28.09 + 0.21 × 55.85 + 0.005 × 63.55 + 0.02 × 54.94 + 0.01 × 24.31 + 0.01 × 52.00 + 0.005 × 65.38 + 0.01 × 47.87 + 99.62 × 26.98) × 100 = 0.30%\nFe: 0.21 × 55.85 / (...) × 100 = 1.04%\nCu: 0.005 × 63.55 / (...) × 100 = 0.03%\nMn: 0.02 × 54.94 / (...) × 100 = 0.10%\nMg: 0.01 × 24.31 / (...) × 100 = 0.02%\nCr: 0.01 × 52.00 / (...) × 100 = 0.05%\nZn: 0.005 × 65.38 / (...) × 100 = 0.03%\nTi: 0.01 × 47.87 / (...) × 100 = 0.04%",
+    
+    "recipes": [
+        {
+            "AA": "7075",
+            "temper": "T6",
+            "YS [MPa]": 475.0,
+            "UTS [MPa]": 545.0,
+            "elong [%]": 8.0,
+            "Hardness": 188.0,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Si": 0.12,
+            "Fe": 0.19,
+            "Cu": 3.98,
+            "Mn": 0.05,
+            "Mg": 5.95,
+            "Cr": 0.57,
+            "Zn": 16.90,
+            "Ti": 0.16
+        },
+        {
+            "AA": "2024",
+            "temper": "T3",
+            "YS [MPa]": 333.0,
+            "UTS [MPa]": 457.0,
+            "elong [%]": 16.0,
+            "Hardness": 138.0,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Si": 0.17,
+            "Fe": 0.19,
+            "Cu": 13.36,
+            "Mn": 0.99,
+            "Mg": 2.62,
+            "Cr": 0.18,
+            "Zn": 0.78,
+            "Ti": 0.08,
+            "Ni": 0.30
+        },
+        {
+            "AA": "1050",
+            "temper": "H24",
+            "YS [MPa]": 128.0,
+            "UTS [MPa]": 136.0,
+            "elong [%]": 7.0,
+            "Hardness": 44.0,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Si": 0.30,
+            "Fe": 1.04,
+            "Cu": 0.03,
+            "Mn": 0.10,
+            "Mg": 0.02,
+            "Cr": 0.05,
+            "Zn": 0.03,
+            "Ti": 0.04
+        }
+    ]
+}

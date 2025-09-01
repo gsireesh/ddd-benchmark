@@ -1,0 +1,29 @@
+{
+    "table csv": "Table 1a: Chemical composition (wt.%) of base metal\nElements,Mg,Mn,Fe,Si,Cu,Al\nBase metal (6061-T6),1.1,0.12,0.35,0.58,0.22,Bal\n\nTable 1b: Mechanical properties of base metal\nMaterial,Yield strength (MPa),Ultimate tensile strength (MPa),Elongation (%),Vickers hardness at 0.5 kg load (Hv)\nBase metal (6061-T6),235,283,26.4,105",
+    
+    "extracted text": "The paper discusses AA6061 (Al-Mg-Si) alloy, which is an age hardenable alloy possessing enhanced strength due to the precipitation of Mg2Si phase upon solutionizing and artificial aging. The base metal is in T6 condition. The paper studies the effects of various post-weld heat treatments on friction stir-welded AA6061 joints, but as per instructions, we are only extracting information about the base metal.",
+    
+    "property mapping": "AA: AA6061\ntemper: T6\nYS [MPa]: 235 MPa\nUTS [MPa]: 283 MPa\nelong [%]: 26.4%\nHardness: 105 Hv (Vickers hardness at 0.5 kg load)",
+    
+    "abbreviations": "T6: Solution heat treated and artificially aged\nHv: Vickers hardness",
+    
+    "weight percentage": "Mg: 1.1%\nMn: 0.12%\nFe: 0.35%\nSi: 0.58%\nCu: 0.22%\nAl: Balance (remainder)",
+    
+    "recipes": [
+        {
+            "AA": "6061",
+            "temper": "T6",
+            "YS [MPa]": 235,
+            "UTS [MPa]": 283,
+            "elong [%]": 26.4,
+            "Hardness": 105,
+            "Hardness UNIT": "Hv",
+            "Has composition": true,
+            "Mg": 1.1,
+            "Mn": 0.12,
+            "Fe": 0.35,
+            "Si": 0.58,
+            "Cu": 0.22
+        }
+    ]
+}

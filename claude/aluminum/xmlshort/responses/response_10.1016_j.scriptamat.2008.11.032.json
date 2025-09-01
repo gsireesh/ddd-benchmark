@@ -1,0 +1,25 @@
+{
+    "table csv": "Sample,Yield stress (MPa),UTS (MPa),Elongation (%)\n7075-T6 Sheet,502±25,545±34,12±1\n7075-FSP,461±27,514±21,16±1",
+    "extracted text": "The paper studies the effect of grain refinement on the fatigue life of 7075Al alloy. The 7075-FSP (Friction Stir Processed) samples showed improved high-cycle fatigue life compared to the parent 7075-T6 material. The FSP samples had a fine grain size in the range of 1-3 μm compared to an average grain size of 35 μm in the longitudinal rolling direction for 7075-T6 sheets.",
+    "property mapping": "Yield stress (MPa) -> YS [MPa]\nUTS (MPa) -> UTS [MPa]\nElongation (%) -> elong [%]",
+    "abbreviations": "FSP - Friction Stir Processing, a technique used to refine the microstructure of the alloy\nT6 - Solution heat treated and artificially aged",
+    "weight percentage": "No specific elemental composition data is provided in the paper. 7075 is a standard aluminum alloy designation which would have a nominal composition according to Aluminum Association standards.",
+    "recipes": [
+        {
+            "AA": "7075",
+            "temper": "T6",
+            "YS [MPa]": 502,
+            "UTS [MPa]": 545,
+            "elong [%]": 12,
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "7075",
+            "temper": "FSP",
+            "YS [MPa]": 461,
+            "UTS [MPa]": 514,
+            "elong [%]": 16,
+            "Has composition": "nominal"
+        }
+    ]
+}

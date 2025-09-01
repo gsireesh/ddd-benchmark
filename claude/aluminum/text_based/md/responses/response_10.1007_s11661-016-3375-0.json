@@ -1,0 +1,57 @@
+{
+    "table csv": "Element,Fe,Si,Cu,Mn,Zn,V,Al\nComposition,0.42,0.2,0.08,0.05,0.05,0.01,Bal\n\nThickness (mm),Yield Strength (MPa),Tensile Strength (MPa),Total Elongation (pct)\n1.5,180.2,191.3,4.8\n2,177.2,188.3,5.6\n2.5,165.3,175.3,6.2",
+    "extracted text": "The paper discusses AA 1100-H18 aluminum sheets with different thicknesses (1.5, 2, and 2.5 mm). The hardness of AA 1100-H18 is mentioned to be about 30 Vickers.",
+    "property mapping": "AA: 1100\nTemper: H18\nYS [MPa]: Yield Strength (MPa) in Table II\nUTS [MPa]: Tensile Strength (MPa) in Table II\nelong [%]: Total Elongation (pct) in Table II\nHardness: 30\nHardness UNIT: Vickers\nElements (Fe, Si, Cu, Mn, Zn, V): Composition values in Table I",
+    "abbreviations": "H18: Full-hard temper (cold worked to 75% reduction)\nBal: Balance (remaining percentage is aluminum)",
+    "weight percentage": "The weight percentages are already provided in the document:\nFe: 0.42%\nSi: 0.2%\nCu: 0.08%\nMn: 0.05%\nZn: 0.05%\nV: 0.01%\nAl: Balance (approximately 99.19%)",
+    "recipes": [
+        {
+            "AA": "1100",
+            "temper": "H18",
+            "YS [MPa]": 180.2,
+            "UTS [MPa]": 191.3,
+            "elong [%]": 4.8,
+            "Hardness": 30,
+            "Hardness UNIT": "Vickers",
+            "Has composition": true,
+            "Fe": 0.42,
+            "Si": 0.2,
+            "Cu": 0.08,
+            "Mn": 0.05,
+            "Zn": 0.05,
+            "V": 0.01
+        },
+        {
+            "AA": "1100",
+            "temper": "H18",
+            "YS [MPa]": 177.2,
+            "UTS [MPa]": 188.3,
+            "elong [%]": 5.6,
+            "Hardness": 30,
+            "Hardness UNIT": "Vickers",
+            "Has composition": true,
+            "Fe": 0.42,
+            "Si": 0.2,
+            "Cu": 0.08,
+            "Mn": 0.05,
+            "Zn": 0.05,
+            "V": 0.01
+        },
+        {
+            "AA": "1100",
+            "temper": "H18",
+            "YS [MPa]": 165.3,
+            "UTS [MPa]": 175.3,
+            "elong [%]": 6.2,
+            "Hardness": 30,
+            "Hardness UNIT": "Vickers",
+            "Has composition": true,
+            "Fe": 0.42,
+            "Si": 0.2,
+            "Cu": 0.08,
+            "Mn": 0.05,
+            "Zn": 0.05,
+            "V": 0.01
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "table csv": "Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Mechanical properties,Mechanical properties\nAl,Cu,Mn,Fe,Ti,V,Zn,Si,Zr,Tensile strength,Microhardness\nBal.,6.48,0.32,0.23,0.06,0.08,0.04,0.49,0.20,432 MPa,120-130 Hv",
+    "extracted text": "The base metal (BM) was a 7.5-mm-thick 2219-T6 aluminum alloy plate. The study is focused on the effect of water cooling on friction stir welding heat-affected zone.",
+    "property mapping": {
+        "Tensile strength": "UTS [MPa]",
+        "Microhardness": "Hardness"
+    },
+    "abbreviations": "BM = Base Metal, FSW = Friction Stir Welding, HAZ = Heat-Affected Zone, NHAZ = Normal HAZ (in air FSW), UHAZ = Underwater HAZ (underwater FSW)",
+    "weight percentage": "All values are already provided in weight percentage: Cu (6.48%), Mn (0.32%), Fe (0.23%), Ti (0.06%), V (0.08%), Zn (0.04%), Si (0.49%), Zr (0.20%), and Al (Balance).",
+    "recipes": [
+        {
+            "AA": "2219",
+            "temper": "T6",
+            "UTS [MPa]": 432.0,
+            "YS [MPa]": "",
+            "elong [%]": "",
+            "Hardness": 125.0,
+            "Hardness UNIT": "Hv",
+            "Has composition": true,
+            "Cu": 6.48,
+            "Mn": 0.32,
+            "Fe": 0.23,
+            "Ti": 0.06,
+            "V": 0.08,
+            "Zn": 0.04,
+            "Si": 0.49,
+            "Zr": 0.20
+        }
+    ]
+}

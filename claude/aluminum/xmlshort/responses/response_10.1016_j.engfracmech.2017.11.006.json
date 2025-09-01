@@ -1,0 +1,25 @@
+{
+    "table csv": "Mechanical properties,,,Chemical composition (wt%),,,,,,,\nYield stress (MPa),Tensile strength (MPa),Elongation (%),Al,Mg,Si,Fe,Cu,Mn,Zn,Cr,Ti\n257,300,12,97.98,1.01,0.62,0.11,0.19,0.03,0.01,0.09,0.01",
+    "extracted text": "The specimens and coupons were manufactured from the same 13.5 mm thick extruded aluminum alloy 6061-T6 plate. The average mechanical properties obtained from the 3 coupon tests and chemical composition of the material is given in Table 1. The average yield strength is 257 MPa and the tensile strength is 300 MPa, which indicates a yield-to-tensile strength ratio of 0.86. The gage length of the coupon test is 50 mm, and the average elongation is 12%, which is around half of that of mild steel.",
+    "property mapping": "Yield stress (MPa) → YS [MPa]\nTensile strength (MPa) → UTS [MPa]\nElongation (%) → elong [%]\nAl, Mg, Si, Fe, Cu, Mn, Zn, Cr, Ti → respective element weight percentages",
+    "abbreviations": "T6 - Temper designation indicating solution heat treated and artificially aged",
+    "weight percentage": "The weight percentages are directly provided in the document: Al (97.98%), Mg (1.01%), Si (0.62%), Fe (0.11%), Cu (0.19%), Mn (0.03%), Zn (0.01%), Cr (0.09%), Ti (0.01%)",
+    "recipes": [
+        {
+            "AA": "6061",
+            "temper": "T6",
+            "YS [MPa]": 257.0,
+            "UTS [MPa]": 300.0,
+            "elong [%]": 12.0,
+            "Has composition": true,
+            "Mg": 1.01,
+            "Si": 0.62,
+            "Fe": 0.11,
+            "Cu": 0.19,
+            "Mn": 0.03,
+            "Zn": 0.01,
+            "Cr": 0.09,
+            "Ti": 0.01
+        }
+    ]
+}

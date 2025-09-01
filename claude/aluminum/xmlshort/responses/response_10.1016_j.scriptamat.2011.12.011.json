@@ -1,0 +1,34 @@
+{
+    "table csv": "Alloy,Cu,Mg,Ge,Al\nA,3.5,0.4,0,Balance\nB,3.5,0.4,0.2,Balance",
+    "extracted text": "The aluminum alloys were solution treated at 530°C for 1h, and immediately quenched into cold water, then aged at 175°C. Alloy A (Ge-free) reached peak hardness (102 HV) after aging for 32h, while Alloy B (Ge-containing) reached peak hardness (140 HV) after aging for 25h. The alloys are in the Al-Cu-Mg system, specifically in the α+θ+S phase field. The paper studies the effect of Ge addition on Al-3.5Cu-0.4Mg (wt.%) alloy.",
+    "property mapping": "Ultimate Tensile Strength (UTS): Reported in MPa in Table 2 and Table 3\nYield Strength (YS): Reported in MPa in Table 2 and Table 3\nElongation: Reported in percentage (%) in Table 2 and Table 3\nHardness: Reported in HV (Hardness Vickers) in the text",
+    "abbreviations": "Alloy A: Al-3.5Cu-0.4Mg (wt.%) alloy\nAlloy B: Al-3.5Cu-0.4Mg-0.2Ge (wt.%) alloy\nUTS: Ultimate Tensile Strength\nYS: Yield Strength\nHV: Hardness Vickers",
+    "weight percentage": "All compositions are already provided in weight percentage (wt.%):\nAlloy A: 3.5% Cu, 0.4% Mg, 0% Ge, Balance Al\nAlloy B: 3.5% Cu, 0.4% Mg, 0.2% Ge, Balance Al",
+    "recipes": [
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 276.5,
+            "UTS [MPa]": 355.4,
+            "elong [%]": 12.4,
+            "Hardness": 102,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Cu": 3.5,
+            "Mg": 0.4
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 347.3,
+            "UTS [MPa]": 415.3,
+            "elong [%]": 17.8,
+            "Hardness": 140,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Cu": 3.5,
+            "Mg": 0.4,
+            "Ge": 0.2
+        }
+    ]
+}

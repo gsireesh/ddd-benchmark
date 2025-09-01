@@ -1,0 +1,47 @@
+```json
+{
+    "table csv": "Table I. Chemical Composition of AA2219-T87 Aluminum Alloy and the Filler Wire Used\n\nAlloy,Cu,Mn,Zr,V,Ti,Fe,Si,Zn,Al\nAA2219-T87,5.95,0.27,0.1,0.09,0.06,0.12,0.05,0.02,bal.\nAA2319,6.1,0.29,0.15,0.1,0.15,0.1,0.04,0.02,bal.\n\nTable III. Tensile Parameters of AA2219 Parent and Weld Metals (50 mm Gage Length)\n\nMaterial,UTS (MPa),0.2 pct YS (MPa),Pct Elongation,Location of Failure\nAA2219-T87 L,440,358,11.7,-\nLT,459,376,11.6,\nAA2219-T851 C,443,337,10.4,\nR,450,339,8.5,\nA,449,348,3.8,\nWeld PP,285,185,4.7,FZ\nPR,288,168,4.0,",
+    "extracted text": "AA2219 aluminum alloy plate (T87) and ring (T851) were joined by tungsten inert gas (TIG) welding using multi-pass welding. T87 temper condition: solution treated at 807 K (534°C) for 1 hour + 7% stretched followed by aging at 436 K (163°C) for 24 hours. T851 temper condition: solution treated at 807 K (534°C) for 1 hour + stress relieved by 3% stretching followed by aging at 436 K (163°C) for 24 hours.",
+    "property mapping": "AA = AA2219 - The Aluminum Association alloy designation\ntemper = T87, T851 - Mechanical and thermal treatment conditions\nYS [MPa] = 0.2 pct YS (MPa) - 0.2% offset yield strength in MPa\nUTS [MPa] = UTS (MPa) - Ultimate tensile strength in MPa\nelong [%] = Pct Elongation - Elongation percentage\nCu, Mn, Zr, V, Ti, Fe, Si, Zn - Weight percentage of elements in the alloy",
+    "abbreviations": "L: Longitudinal direction\nLT: Long Transverse direction\nC: Circumferential direction (for ring)\nR: Radial direction (for ring)\nA: Axial direction (for ring)\nPP: Plate to plate weld\nPR: Plate to Ring weld\nFZ: Fusion Zone\nbal.: Balance (remainder is aluminum)",
+    "weight percentage": "For AA2219-T87:\nCu: 5.95%\nMn: 0.27%\nZr: 0.1%\nV: 0.09%\nTi: 0.06%\nFe: 0.12%\nSi: 0.05%\nZn: 0.02%\nAl: balance (approximately 93.34%)\n\nFor AA2319 filler wire:\nCu: 6.1%\nMn: 0.29%\nZr: 0.15%\nV: 0.1%\nTi: 0.15%\nFe: 0.1%\nSi: 0.04%\nZn: 0.02%\nAl: balance (approximately 93.05%)",
+    "recipes": [
+        {
+            "AA": "2219",
+            "temper": "T87",
+            "YS [MPa]": 367.0,
+            "UTS [MPa]": 449.5,
+            "elong [%]": 11.65,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 5.95,
+            "Mn": 0.27,
+            "Zr": 0.1,
+            "V": 0.09,
+            "Ti": 0.06,
+            "Fe": 0.12,
+            "Si": 0.05,
+            "Zn": 0.02
+        },
+        {
+            "AA": "2219",
+            "temper": "T851",
+            "YS [MPa]": 341.3,
+            "UTS [MPa]": 447.3,
+            "elong [%]": 7.57,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 5.95,
+            "Mn": 0.27,
+            "Zr": 0.1,
+            "V": 0.09,
+            "Ti": 0.06,
+            "Fe": 0.12,
+            "Si": 0.05,
+            "Zn": 0.02
+        }
+    ]
+}
+```

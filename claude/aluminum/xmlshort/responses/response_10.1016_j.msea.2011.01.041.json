@@ -1,0 +1,80 @@
+{
+    "table csv": "Table 1: Chemical composition (wt. %) of the Al–Si–Mg alloy.\nSi,Mg,Fe,Al\n12.7,0.7,0.2,Bal.\n\nTable 2: Mechanical properties of the Al–12.7Si–0.7Mg alloy in different treatment conditions.\nAlloy state,YS (MPa),UTS (MPa),Elongation (%)\nT1,108,190,15.03\nT4,151,285,14.08\nT6 (solution treatment at 540 °C for 90 min + aged at 180 °C for 1 h),186,307,14\nT6 (solution treatment at 540 °C for 90 min + aged at 180 °C for 2 h),242,338,8.43\nT6 (solution treatment at 540 °C for 90 min + aged at 180 °C for 3 h),282,365,7.44\n\nTable 3: Mechanical properties of extruded 6063 alloys (GB/T 6892-2000).\n6063,YS (MPa),UTS (MPa),Elongation (%)\nT4,65,130,12\nT6,180,205,8",
+    "extracted text": "The paper describes a Direct chill (DC) cast Al–12.7Si–0.7Mg alloy without chemical modification that was hot extruded and subsequently heat-treated under various conditions. The billet was extruded into a profile of 4 mm in thickness at 470 °C, after pre-heat-treatment at the same temperature for 2 h. The extrusion ratio is 15:1 and the ram speed was set at 10.5 mm/s. For T6 treatment, solution treatment was performed at 540 °C for 90 min in a salt bath and quenched into water at room temperature. Artificial aging was carried out at 180 °C for periods of 1, 2, or 3 h.",
+    "property mapping": "YS = Yield Strength (MPa)\nUTS = Ultimate Tensile Strength (MPa)\nElongation (%) = elongation percentage\nT1 = as extruded\nT4 = solution treatment + natural aging\nT6 = solution treatment + artificial aging",
+    "abbreviations": "DC = Direct chill\nBal. = Balance (remaining percentage is aluminum)",
+    "weight percentage": "The weight percentages are provided directly in the document:\nSi: 12.7%\nMg: 0.7%\nFe: 0.2%\nAl: Balance (86.4%)",
+    "recipes": [
+        {
+            "AA": "",
+            "temper": "T1",
+            "YS [MPa]": 108.0,
+            "UTS [MPa]": 190.0,
+            "elong [%]": 15.03,
+            "Has composition": true,
+            "Si": 12.7,
+            "Mg": 0.7,
+            "Fe": 0.2
+        },
+        {
+            "AA": "",
+            "temper": "T4",
+            "YS [MPa]": 151.0,
+            "UTS [MPa]": 285.0,
+            "elong [%]": 14.08,
+            "Has composition": true,
+            "Si": 12.7,
+            "Mg": 0.7,
+            "Fe": 0.2
+        },
+        {
+            "AA": "",
+            "temper": "T6",
+            "YS [MPa]": 186.0,
+            "UTS [MPa]": 307.0,
+            "elong [%]": 14.0,
+            "Has composition": true,
+            "Si": 12.7,
+            "Mg": 0.7,
+            "Fe": 0.2
+        },
+        {
+            "AA": "",
+            "temper": "T6",
+            "YS [MPa]": 242.0,
+            "UTS [MPa]": 338.0,
+            "elong [%]": 8.43,
+            "Has composition": true,
+            "Si": 12.7,
+            "Mg": 0.7,
+            "Fe": 0.2
+        },
+        {
+            "AA": "",
+            "temper": "T6",
+            "YS [MPa]": 282.0,
+            "UTS [MPa]": 365.0,
+            "elong [%]": 7.44,
+            "Has composition": true,
+            "Si": 12.7,
+            "Mg": 0.7,
+            "Fe": 0.2
+        },
+        {
+            "AA": "6063",
+            "temper": "T4",
+            "YS [MPa]": 65.0,
+            "UTS [MPa]": 130.0,
+            "elong [%]": 12.0,
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "6063",
+            "temper": "T6",
+            "YS [MPa]": 180.0,
+            "UTS [MPa]": 205.0,
+            "elong [%]": 8.0,
+            "Has composition": "nominal"
+        }
+    ]
+}

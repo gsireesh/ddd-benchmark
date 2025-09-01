@@ -1,0 +1,45 @@
+{
+    "table csv": "Element, Weight Percentage\nSi, 6.93\nMg, 0.43\nFe, 0.09\nTi, 0.12\nAl, bal.\n\nCondition, YS (MPa), UTS (MPa), UEL (Percent), El (Percent)\nAs-cast, 81, 162, 1.5, 1.8\nT6 (540 °C/4 h, 165 °C/5 h), 241, 273, 0.9, 1.1",
+    "extracted text": "The paper discusses A356 aluminum alloy subjected to friction stir processing (FSP) under various parameters. The T6 heat treatment consists of solution treatment at 540°C for 4 hours followed by artificial aging at 165°C for 5 hours. After FSP, some samples received post-FSP artificial aging at 165°C for 5 hours. The paper reports that FSP broke up the coarse eutectic Si phase into 2.5-3.5 μm particles, resulted in dissolution of coarse Mg2Si particles, and eliminated porosity. For the optimal FSP parameters (2-pass FSP with rotation rate/travel speed of 1500/300), the tensile properties after aging (FSP+Age) reached YS of 253 MPa, UTS of 305 MPa, and elongation of 11%.",
+    "property mapping": "YS = Yield Strength (MPa)\nUTS = Ultimate Tensile Strength (MPa)\nUEL = Uniform Elongation (Percent)\nEl = Total Elongation (Percent)",
+    "abbreviations": "FSP = Friction Stir Processing\nBM = Base Material (as-cast A356)\nBM+T6 = Base Material with T6 heat treatment\nFSP+Age = FSP sample with post-FSP artificial aging",
+    "weight percentage": "The weight percentages of elements in A356 alloy are:\nSi: 6.93%\nMg: 0.43%\nFe: 0.09%\nTi: 0.12%\nAl: balance (approximately 92.43%)",
+    "recipes": [
+        {
+            "AA": "A356",
+            "temper": "as-cast",
+            "YS [MPa]": 81.0,
+            "UTS [MPa]": 162.0,
+            "elong [%]": 1.8,
+            "Has composition": true,
+            "Si": 6.93,
+            "Mg": 0.43,
+            "Fe": 0.09,
+            "Ti": 0.12
+        },
+        {
+            "AA": "A356",
+            "temper": "T6",
+            "YS [MPa]": 241.0,
+            "UTS [MPa]": 273.0,
+            "elong [%]": 1.1,
+            "Has composition": true,
+            "Si": 6.93,
+            "Mg": 0.43,
+            "Fe": 0.09,
+            "Ti": 0.12
+        },
+        {
+            "AA": "A356",
+            "temper": "FSP+Age",
+            "YS [MPa]": 253.0,
+            "UTS [MPa]": 305.0,
+            "elong [%]": 11.0,
+            "Has composition": true,
+            "Si": 6.93,
+            "Mg": 0.43,
+            "Fe": 0.09,
+            "Ti": 0.12
+        }
+    ]
+}

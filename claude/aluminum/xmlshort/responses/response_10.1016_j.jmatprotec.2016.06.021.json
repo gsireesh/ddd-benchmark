@@ -1,0 +1,26 @@
+{
+    "table csv": "Element,Cu,Li,Mg,Mn,Zn,Ag,Zr,Al\nPercent (wt.%),3.4-4.2,0.6-0.9,0.6-1.1,0.1-0.5,0.3-0.45,0.1-0.5,0.04-0.18,Balance\n\nOrientation,Tensile strength (MPa),Yield strength (MPa),Elongation (%),Hardness (HV0.1)\nLT,499±2,428±3,14.3±0.3,152±3\nTL,498±3,414±2,14.0±0.2,",
+    "extracted text": "The paper describes AA2060-T8 aluminum-lithium alloy. The principal strengthening precipitate of the base material is T1 (Al2CuLi) phase, and other precipitates such as θ′ (Al2Cu), δ′ (Al3Li), β′ (Al3Zr) and S′ (Al2CuMg) phase also contribute to the hardening. The chemical composition was provided by Alcoa. LT indicates the parallel direction to the rolling direction; TL indicates the normal direction.",
+    "property mapping": "AA: AA2060\ntemper: T8\nYS [MPa]: 428±3 MPa (LT), 414±2 MPa (TL)\nUTS [MPa]: 499±2 MPa (LT), 498±3 MPa (TL)\nelong [%]: 14.3±0.3% (LT), 14.0±0.2% (TL)\nHardness: 152±3 HV0.1\nHardness UNIT: HV0.1",
+    "abbreviations": "AA: Aluminum Association\nT8: Solution heat treated, cold worked, and artificially aged\nLT: Longitudinal direction (parallel to rolling direction)\nTL: Transverse direction (normal to rolling direction)\nHV0.1: Vickers hardness with 0.1 kg load",
+    "weight percentage": "For AA2060-T8, calculating the mean values from ranges:\nCu: (3.4+4.2)/2 = 3.8 wt.%\nLi: (0.6+0.9)/2 = 0.75 wt.%\nMg: (0.6+1.1)/2 = 0.85 wt.%\nMn: (0.1+0.5)/2 = 0.3 wt.%\nZn: (0.3+0.45)/2 = 0.375 wt.%\nAg: (0.1+0.5)/2 = 0.3 wt.%\nZr: (0.04+0.18)/2 = 0.11 wt.%\nAl: Balance",
+    "recipes": [
+        {
+            "AA": "2060",
+            "temper": "T8",
+            "YS [MPa]": 428.0,
+            "UTS [MPa]": 499.0,
+            "elong [%]": 14.3,
+            "Hardness": 152.0,
+            "Hardness UNIT": "HV0.1",
+            "Has composition": "nominal",
+            "Cu": 3.8,
+            "Li": 0.75,
+            "Mg": 0.85,
+            "Mn": 0.3,
+            "Zn": 0.375,
+            "Ag": 0.3,
+            "Zr": 0.11
+        }
+    ]
+}

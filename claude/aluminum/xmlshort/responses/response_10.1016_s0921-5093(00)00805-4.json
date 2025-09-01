@@ -1,0 +1,41 @@
+{
+    "table csv": "Table 1: Composition of the aluminum alloys (in wt%)\n\n,Si,Fe,Cu,Mn,Mg,Cr,Zn,Ti,Al\n6005A T6,0.5–0.9,0.35,0.30,0.50,0.4–0.7,0.30,0.20,0.10,Bal.\n6082 T6,0.7–1.3,0.50,0.10,0.4–1.0,0.6–1.2,0.25,0.20,0.10,Bal.\n\nTable 2: Mechanical properties of the aluminum alloys\n\n,Yield stress (MPa),Tensile strength (MPa),Elongation (%),Young's modulus (GPa)\n6005A T6,260,285,12,69.5\n6082 T6,280,315,12,69.5",
+    "extracted text": "The materials used were two types of aluminum alloy, 6005A T6 and 6082 T6. These two alloys present a good aptitude for hot transformation by laminating or forging. They have a high resistance to atmospheric corrosion in particular and they are usually used as structural elements in the construction of vehicle, railroad and navigation. Alloy 6005A T6 possess a grain size of about 200 μm and the grains are lightly elongated in the rolling direction. Alloy 6082 T6 consists of more fine grains than alloy 6005A T6. The grains are strongly elongated in the rolling direction and are difficult to recognize.",
+    "property mapping": "AA: 6005A and 6082 (aluminum alloy designations)\ntemper: T6 (thermal treatment)\nYS [MPa]: Yield stress (MPa) in Table 2\nUTS [MPa]: Tensile strength (MPa) in Table 2\nelong [%]: Elongation (%) in Table 2\nYoung's modulus (GPa): Not in our property list but included in Table 2",
+    "abbreviations": "Bal. = Balance (remainder is aluminum)\nT6 = Solution heat treated and artificially aged",
+    "weight percentage": "For 6005A T6:\nSi: 0.5-0.9% (mean: 0.7%)\nFe: 0.35%\nCu: 0.30%\nMn: 0.50%\nMg: 0.4-0.7% (mean: 0.55%)\nCr: 0.30%\nZn: 0.20%\nTi: 0.10%\nAl: Balance (remainder)\n\nFor 6082 T6:\nSi: 0.7-1.3% (mean: 1.0%)\nFe: 0.50%\nCu: 0.10%\nMn: 0.4-1.0% (mean: 0.7%)\nMg: 0.6-1.2% (mean: 0.9%)\nCr: 0.25%\nZn: 0.20%\nTi: 0.10%\nAl: Balance (remainder)",
+    "recipes": [
+        {
+            "AA": "6005A",
+            "temper": "T6",
+            "YS [MPa]": 260.0,
+            "UTS [MPa]": 285.0,
+            "elong [%]": 12.0,
+            "Has composition": true,
+            "Si": 0.7,
+            "Fe": 0.35,
+            "Cu": 0.30,
+            "Mn": 0.50,
+            "Mg": 0.55,
+            "Cr": 0.30,
+            "Zn": 0.20,
+            "Ti": 0.10
+        },
+        {
+            "AA": "6082",
+            "temper": "T6",
+            "YS [MPa]": 280.0,
+            "UTS [MPa]": 315.0,
+            "elong [%]": 12.0,
+            "Has composition": true,
+            "Si": 1.0,
+            "Fe": 0.50,
+            "Cu": 0.10,
+            "Mn": 0.7,
+            "Mg": 0.9,
+            "Cr": 0.25,
+            "Zn": 0.20,
+            "Ti": 0.10
+        }
+    ]
+}

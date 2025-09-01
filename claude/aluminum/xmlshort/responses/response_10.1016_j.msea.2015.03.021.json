@@ -1,0 +1,50 @@
+{
+    "table csv": "Si,Cu,Ni,Mg,Fe,Mn,Ti,Zn,Al\n12.37,4.13,2.67,0.82,0.42,0.20,0.106,0.006,Bal.\n\nMaterials,Temperature (°C),E (GPa),YS (MPa),UTS (MPa),Elongation (%)\nAl–12Si,25,79,221,287,3.3\nAl–12Si,200,75,184,225,4.0\nAl–12Si,350,60,80,88,6.0\n4 wt% TiB2/Al–12Si,25,85,240,298,1.5\n4 wt% TiB2/Al–12Si,200,80,189,233,3.0\n4 wt% TiB2/Al–12Si,350,66,84,96,5.8",
+    
+    "extracted text": "The study focuses on Al-12Si piston alloy reinforced with in situ TiB2 particles. Both the composite and Al-12Si matrix alloy were solution treated at 470°C for 4h, water quenched and artificially aged at 235°C for 5.5h to achieve the T6 condition. The reinforced composite contains 4 wt% (2.4 vol%) TiB2 particles with size range of 50-400 nm. The mechanical properties were tested at three temperatures: 25°C (room temperature), 200°C (typical gudgeon pin boss temperature) and 350°C (typical combustion chamber bowl edge temperature).",
+    
+    "property mapping": "YS = Yield strength in MPa\nUTS = Ultimate tensile strength in MPa\nElongation = Elongation percentage\nE = Young's modulus in GPa",
+    
+    "abbreviations": "TiB2 = Titanium diboride\nMMCs = Metal matrix composites\nPRAMCs = Particle reinforced aluminum matrix composites",
+    
+    "weight percentage": "The Al-12Si matrix alloy contains: 12.37% Si, 4.13% Cu, 2.67% Ni, 0.82% Mg, 0.42% Fe, 0.20% Mn, 0.106% Ti, 0.006% Zn, and balance Al. The composite material contains 4 wt% TiB2 particles added to this matrix alloy.",
+    
+    "recipes": [
+        {
+            "AA": "",
+            "temper": "T6",
+            "YS [MPa]": 221,
+            "UTS [MPa]": 287,
+            "elong [%]": 3.3,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Si": 12.37,
+            "Cu": 4.13,
+            "Ni": 2.67,
+            "Mg": 0.82,
+            "Fe": 0.42,
+            "Mn": 0.20,
+            "Ti": 0.106,
+            "Zn": 0.006
+        },
+        {
+            "AA": "",
+            "temper": "T6",
+            "YS [MPa]": 240,
+            "UTS [MPa]": 298,
+            "elong [%]": 1.5,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Si": 12.37,
+            "Cu": 4.13,
+            "Ni": 2.67,
+            "Mg": 0.82,
+            "Fe": 0.42,
+            "Mn": 0.20,
+            "Ti": 0.106,
+            "Zn": 0.006
+        }
+    ]
+}

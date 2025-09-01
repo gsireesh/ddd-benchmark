@@ -1,0 +1,116 @@
+{
+    "table csv": "Element,Si,Mg,Ti,Cu,Mn,Fe,Sr,Al\nComposition (wt%),7.18,0.35,0.14,0.14,0.01,0.02,0.02,Bal.\n\nHeat treatment,Time (h),Solution treatment,Time (h),Artificial aging\nContribution of the solution treatment,3,540°C,16,160°C\nContribution of the solution treatment,6,540°C,16,160°C\nContribution of the solution treatment,12,540°C,16,160°C\nContribution of the artificial aging,6,540°C,1,160°C\nContribution of the artificial aging,6,540°C,4,160°C\nContribution of the artificial aging,6,540°C,16,160°C\nContribution of the artificial aging,6,540°C,48,160°C\n\nTensile properties,Heat treatment,Time (h),Yield strength (MPa),Ultimate tensile strength (MPa),Tensile elongation (%)\nAs-cast,-,96.4,183.5,9.1\nSolution treatment (540°C); followed by artificial aging at 160°C for 16h,3,227.8,292.8,8.6\nSolution treatment (540°C); followed by artificial aging at 160°C for 16h,6,232.8,295.5,8.2\nSolution treatment (540°C); followed by artificial aging at 160°C for 16h,12,233.4,297.2,8.1\nArtificial aging (160°C); after solution treatment at 540°C for 6h,4,170.3,255.4,10.0\nArtificial aging (160°C); after solution treatment at 540°C for 6h,16,232.8,295.5,8.2\nArtificial aging (160°C); after solution treatment at 540°C for 6h,48,268.7,308.1,4.1",
+    
+    "extracted text": "The paper investigates the effects of microporosity variation on the impact properties of a low-pressure die-cast A356 aluminum alloy. The study compares as-cast and T6-treated conditions with various solution treatment times (1, 3, 6, and 12 hours at 540°C) and artificial aging times (1, 4, 16, and 48 hours at 160°C). From Table 3, hardness values (HRF) for different conditions are: as-cast (69.8), after 3h solution + 16h aging (88.3), after 6h solution + 16h aging (89.8), after 12h solution + 16h aging (88.4).",
+    
+    "property mapping": "AA = A356\ntemper = T6 (various times for solution treatment and artificial aging)\nYS [MPa] = Yield strength (MPa)\nUTS [MPa] = Ultimate tensile strength (MPa)\nelong [%] = Tensile elongation (%)\nHardness = Hardness value\nHardness UNIT = HRF (Hardness Rockwell F scale)",
+    
+    "abbreviations": "T6 = Solution treatment followed by artificial aging\nHRF = Hardness Rockwell F scale\nSDAS = Secondary Dendrite Arm Spacing",
+    
+    "weight percentage": "The weight percentages provided in Table 1 are:\nSi: 7.18%\nMg: 0.35%\nTi: 0.14%\nCu: 0.14%\nMn: 0.01%\nFe: 0.02%\nSr: 0.02%\nAl: Balance (approximately 92.14%)",
+    
+    "recipes": [
+        {
+            "AA": "A356",
+            "temper": "as-cast",
+            "YS [MPa]": 96.4,
+            "UTS [MPa]": 183.5,
+            "elong [%]": 9.1,
+            "Hardness": 69.8,
+            "Hardness UNIT": "HRF",
+            "Has composition": true,
+            "Si": 7.18,
+            "Mg": 0.35,
+            "Ti": 0.14,
+            "Cu": 0.14,
+            "Mn": 0.01,
+            "Fe": 0.02,
+            "Sr": 0.02
+        },
+        {
+            "AA": "A356",
+            "temper": "T6",
+            "YS [MPa]": 227.8,
+            "UTS [MPa]": 292.8,
+            "elong [%]": 8.6,
+            "Hardness": 88.3,
+            "Hardness UNIT": "HRF",
+            "Has composition": true,
+            "Si": 7.18,
+            "Mg": 0.35,
+            "Ti": 0.14,
+            "Cu": 0.14,
+            "Mn": 0.01,
+            "Fe": 0.02,
+            "Sr": 0.02
+        },
+        {
+            "AA": "A356",
+            "temper": "T6",
+            "YS [MPa]": 232.8,
+            "UTS [MPa]": 295.5,
+            "elong [%]": 8.2,
+            "Hardness": 89.8,
+            "Hardness UNIT": "HRF",
+            "Has composition": true,
+            "Si": 7.18,
+            "Mg": 0.35,
+            "Ti": 0.14,
+            "Cu": 0.14,
+            "Mn": 0.01,
+            "Fe": 0.02,
+            "Sr": 0.02
+        },
+        {
+            "AA": "A356",
+            "temper": "T6",
+            "YS [MPa]": 233.4,
+            "UTS [MPa]": 297.2,
+            "elong [%]": 8.1,
+            "Hardness": 88.4,
+            "Hardness UNIT": "HRF",
+            "Has composition": true,
+            "Si": 7.18,
+            "Mg": 0.35,
+            "Ti": 0.14,
+            "Cu": 0.14,
+            "Mn": 0.01,
+            "Fe": 0.02,
+            "Sr": 0.02
+        },
+        {
+            "AA": "A356",
+            "temper": "T6",
+            "YS [MPa]": 170.3,
+            "UTS [MPa]": 255.4,
+            "elong [%]": 10.0,
+            "Hardness": "",
+            "Hardness UNIT": "HRF",
+            "Has composition": true,
+            "Si": 7.18,
+            "Mg": 0.35,
+            "Ti": 0.14,
+            "Cu": 0.14,
+            "Mn": 0.01,
+            "Fe": 0.02,
+            "Sr": 0.02
+        },
+        {
+            "AA": "A356",
+            "temper": "T6",
+            "YS [MPa]": 268.7,
+            "UTS [MPa]": 308.1,
+            "elong [%]": 4.1,
+            "Hardness": "",
+            "Hardness UNIT": "HRF",
+            "Has composition": true,
+            "Si": 7.18,
+            "Mg": 0.35,
+            "Ti": 0.14,
+            "Cu": 0.14,
+            "Mn": 0.01,
+            "Fe": 0.02,
+            "Sr": 0.02
+        }
+    ]
+}

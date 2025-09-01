@@ -1,0 +1,54 @@
+{
+    "table csv": "Alloys,Zn,Mg,Cu,Zr,Cr,Yb,Al\nAlZnMgCu–0.16Zr,8.6,2.5,2.2,0.16,–,–,Bal\nAlZnMgCu–0.16Zr–0.2Cr–0.3Yb,8.6,2.5,2.2,0.16,0.20,0.30,Bal\nAlZnMgCu–0.32Zr–0.4Cr–0.6Yb,8.6,2.5,2.2,0.32,0.40,0.60,Bal\n\nAlloys,UTS (MPa),YS (MPa),El (%),IACS (%),KIC(S-L) (MN/m3/2),KIC(L-T) (MN/m3/2)\nAlZnMgCu–0.16Zr,709.7,683.6,8.9,32.1,21.6,32.8\nAlZnMgCu–0.16Zr–0.2Cr–0.3Yb,747.1,725.2,9.3,34.5,29.3,42.5",
+    
+    "extracted text": "The study examines Al-Zn-Mg-Cu alloys with additions of Yb, Cr, and Zr. The alloys were solution treated with a stepped approach: held at 450°C and 470°C separately for 1h, then kept at 480°C for 2h, followed by quenching in ambient temperature water. The plates were then artificially aged at 130°C for 24h to achieve T6 temper. The complex additions of Yb, Cr and Zr formed 20-50nm dispersoids identified as Zn, Mg, Cu, Zr-containing YbCr2Al20 with cubic CeCr2Al20 crystal structure. These dispersoids remarkably inhibited recrystallization and enhanced corrosion resistance.",
+    
+    "property mapping": "UTS (MPa) → UTS [MPa]\nYS (MPa) → YS [MPa]\nEl (%) → elong [%]\nIACS (%) → electrical conductivity percentage\nKIC(S-L) (MN/m3/2) → fracture toughness in short-transverse direction\nKIC(L-T) (MN/m3/2) → fracture toughness in long-transverse direction",
+    
+    "abbreviations": "AlZnMgCu–0.16Zr: Al-Zn-Mg-Cu alloy with 0.16 wt% Zr\nAlZnMgCu–0.16Zr–0.2Cr–0.3Yb: Al-Zn-Mg-Cu alloy with 0.16 wt% Zr, 0.2 wt% Cr and 0.3 wt% Yb\nAlZnMgCu–0.32Zr–0.4Cr–0.6Yb: Al-Zn-Mg-Cu alloy with 0.32 wt% Zr, 0.4 wt% Cr and 0.6 wt% Yb\nT6: Solution heat treated and artificially aged\nUTS: Ultimate Tensile Strength\nYS: Yield Strength\nEl: Elongation\nIACS: International Annealed Copper Standard (measure of electrical conductivity)\nKIC: Fracture toughness\nBal: Balance (remainder is aluminum)",
+    
+    "weight percentage": "The weight percentages are already provided in Table 1 of the document. For all three alloys:\nZn: 8.6 wt%\nMg: 2.5 wt%\nCu: 2.2 wt%\n\nFor AlZnMgCu–0.16Zr:\nZr: 0.16 wt%\n\nFor AlZnMgCu–0.16Zr–0.2Cr–0.3Yb:\nZr: 0.16 wt%\nCr: 0.20 wt%\nYb: 0.30 wt%\n\nFor AlZnMgCu–0.32Zr–0.4Cr–0.6Yb:\nZr: 0.32 wt%\nCr: 0.40 wt%\nYb: 0.60 wt%",
+    
+    "recipes": [
+        {
+            "AA": "",
+            "temper": "T6",
+            "YS [MPa]": 683.6,
+            "UTS [MPa]": 709.7,
+            "elong [%]": 8.9,
+            "Has composition": true,
+            "Zn": 8.6,
+            "Mg": 2.5,
+            "Cu": 2.2,
+            "Zr": 0.16
+        },
+        {
+            "AA": "",
+            "temper": "T6",
+            "YS [MPa]": 725.2,
+            "UTS [MPa]": 747.1,
+            "elong [%]": 9.3,
+            "Has composition": true,
+            "Zn": 8.6,
+            "Mg": 2.5,
+            "Cu": 2.2,
+            "Zr": 0.16,
+            "Cr": 0.20,
+            "Yb": 0.30
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": "",
+            "UTS [MPa]": "",
+            "elong [%]": "",
+            "Has composition": true,
+            "Zn": 8.6,
+            "Mg": 2.5,
+            "Cu": 2.2,
+            "Zr": 0.32,
+            "Cr": 0.40,
+            "Yb": 0.60
+        }
+    ]
+}

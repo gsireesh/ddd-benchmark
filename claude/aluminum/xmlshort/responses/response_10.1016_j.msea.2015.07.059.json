@@ -1,0 +1,69 @@
+{
+    "table csv": "Alloy,Mg,Si,Cu,Mn,Fe,Al\nA,0.8,0.9,0.2,0.1,0,Balance\nB,0.8,1.2,0.5,0.3,0.5,Balance",
+    "extracted text": "The two alloys were solution treated at 555°C for different times (2 min and 5 min), followed by water quenching to room temperature. They were then pre-aged at 80°C for 12 h, and naturally aged for 14 days (T4P treatment). Tensile tests were performed in the directions of 0°, 45° and 90° with respect to the rolling direction.",
+    "property mapping": "Ultimate tensile strength (UTS) is represented as 'TS (MPa)' in Table 2. Yield strength is represented as 'YS (MPa)'. Elongation is represented as 'Elongation (%)'. The paper also measures plasticity strain ratio r, strain-hardening exponent n, and Vickers hardness.",
+    "abbreviations": "T4P - Solution treatment, water quenching, pre-aging at 80°C for 12h and natural aging for 14 days. YS - Yield Strength. TS - Tensile Strength (equivalent to UTS).",
+    "weight percentage": "The alloy compositions are already given in weight percentage (mass%) in Table 1. Alloy A contains 0.8% Mg, 0.9% Si, 0.2% Cu, 0.1% Mn, and 0% Fe. Alloy B contains 0.8% Mg, 1.2% Si, 0.5% Cu, 0.3% Mn, and 0.5% Fe. Both alloys have the balance as aluminum.",
+    "recipes": [
+        {
+            "AA": "",
+            "temper": "T4P",
+            "YS [MPa]": 113.0,
+            "UTS [MPa]": 237.0,
+            "elong [%]": 26.3,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Mg": 0.8,
+            "Si": 0.9,
+            "Cu": 0.2,
+            "Mn": 0.1,
+            "Fe": 0.0
+        },
+        {
+            "AA": "",
+            "temper": "T4P",
+            "YS [MPa]": 153.0,
+            "UTS [MPa]": 280.0,
+            "elong [%]": 27.0,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Mg": 0.8,
+            "Si": 0.9,
+            "Cu": 0.2,
+            "Mn": 0.1,
+            "Fe": 0.0
+        },
+        {
+            "AA": "",
+            "temper": "T4P",
+            "YS [MPa]": 162.0,
+            "UTS [MPa]": 306.0,
+            "elong [%]": 25.4,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Mg": 0.8,
+            "Si": 1.2,
+            "Cu": 0.5,
+            "Mn": 0.3,
+            "Fe": 0.5
+        },
+        {
+            "AA": "",
+            "temper": "T4P",
+            "YS [MPa]": 186.0,
+            "UTS [MPa]": 330.0,
+            "elong [%]": 26.1,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Mg": 0.8,
+            "Si": 1.2,
+            "Cu": 0.5,
+            "Mn": 0.3,
+            "Fe": 0.5
+        }
+    ]
+}

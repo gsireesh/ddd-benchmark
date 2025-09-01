@@ -1,0 +1,29 @@
+{
+    "table csv": "Metallurgical state,Yield strength (MPa),Ultimate tensile strength (MPa),Elongation to failure (%)\nT34 metallurgical state,280,470,20\nT84 metallurgical state,520,590,10.5",
+    "extracted text": "The material was an aluminium–copper–lithium 2050 alloy (Al base, 3.86% Cu, 0.86% Li, wt %) provided by Constellium (France). It was received as a 50-mm-thick plate obtained by hot rolling, followed by solutioning, water quenching, stretching and natural ageing at room temperature, leading to the T34 metallurgical state. T34 samples were aged at 155°C for 30 h, leading to a T84 metallurgical state.",
+    "property mapping": "AA: AA2050 (mentioned in title and text)\ntemper: T34 and T84 (two metallurgical states studied)\nYS [MPa]: Yield strength (MPa) in Table 1\nUTS [MPa]: Ultimate tensile strength (MPa) in Table 1\nelong [%]: Elongation to failure (%) in Table 1\nCu: 3.86% (weight percentage mentioned in text)\nLi: 0.86% (weight percentage mentioned in text)",
+    "abbreviations": "T34: naturally aged state (solutioning, water quenching, stretching and natural ageing at room temperature)\nT84: artificially aged state (T34 + aging at 155°C for 30h)",
+    "weight percentage": "Cu: 3.86 wt%\nLi: 0.86 wt%\nAl: balance (remaining percentage)",
+    "recipes": [
+        {
+            "AA": "2050",
+            "temper": "T34",
+            "YS [MPa]": 280.0,
+            "UTS [MPa]": 470.0,
+            "elong [%]": 20.0,
+            "Has composition": true,
+            "Cu": 3.86,
+            "Li": 0.86
+        },
+        {
+            "AA": "2050",
+            "temper": "T84",
+            "YS [MPa]": 520.0,
+            "UTS [MPa]": 590.0,
+            "elong [%]": 10.5,
+            "Has composition": true,
+            "Cu": 3.86,
+            "Li": 0.86
+        }
+    ]
+}

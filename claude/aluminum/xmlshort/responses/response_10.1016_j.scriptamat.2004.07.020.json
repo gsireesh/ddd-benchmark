@@ -1,0 +1,43 @@
+{
+    "table csv": "Condition,0.2% Proof stress (MPa),Tensile strength (MPa),Elongation (%)\nUA,274±3,435±2,13±2\nPA,402±3,469±2,5±2",
+    "extracted text": "The material under investigation was the aluminium alloy, 7017, of nominal composition (in weight %) 4.83 Zn, 2.19 Mg, 0.11 Cu, 0.29 Mn, 0.14 Zr, 0.17 Cr, 0.24 Fe, 0.11 Si, 0.04 Ti, balance Al. This is a weldable alloy, used as an armour material. It was supplied in the form of rolled plate, dimensions 150 mm × 150 mm × 75 mm. These were solution treated at 475 °C, followed by aging at 120 °C. Two aging regimes were chosen. The first was aged for 2 h to produce an under-aged condition (UA), whilst the second was aged for 24 h to produce an optimum balance of properties in the peak-aged (PA) condition.",
+    "property mapping": "0.2% Proof stress (MPa) = YS [MPa]\nTensile strength (MPa) = UTS [MPa]\nElongation (%) = elong [%]",
+    "abbreviations": "UA = Under-aged (solution treated at 475 °C, followed by aging at 120 °C for 2 h)\nPA = Peak-aged (solution treated at 475 °C, followed by aging at 120 °C for 24 h)",
+    "weight percentage": "Zn: 4.83%, Mg: 2.19%, Cu: 0.11%, Mn: 0.29%, Zr: 0.14%, Cr: 0.17%, Fe: 0.24%, Si: 0.11%, Ti: 0.04%, Al: balance",
+    "recipes": [
+        {
+            "AA": "7017",
+            "temper": "UA",
+            "YS [MPa]": 274.0,
+            "UTS [MPa]": 435.0,
+            "elong [%]": 13.0,
+            "Has composition": true,
+            "Cu": 0.11,
+            "Mn": 0.29,
+            "Si": 0.11,
+            "Mg": 2.19,
+            "Zn": 4.83,
+            "Cr": 0.17,
+            "Fe": 0.24,
+            "Ti": 0.04,
+            "Zr": 0.14
+        },
+        {
+            "AA": "7017",
+            "temper": "PA",
+            "YS [MPa]": 402.0,
+            "UTS [MPa]": 469.0,
+            "elong [%]": 5.0,
+            "Has composition": true,
+            "Cu": 0.11,
+            "Mn": 0.29,
+            "Si": 0.11,
+            "Mg": 2.19,
+            "Zn": 4.83,
+            "Cr": 0.17,
+            "Fe": 0.24,
+            "Ti": 0.04,
+            "Zr": 0.14
+        }
+    ]
+}

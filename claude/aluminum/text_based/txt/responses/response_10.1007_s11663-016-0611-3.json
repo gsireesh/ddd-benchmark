@@ -1,0 +1,32 @@
+{
+    "table csv": "Table I. Mechanical Properties of Aluminum Alloy 2024-T351\nTensile yield stress (MPa),324\nUltimate tensile stress (MPa),429\nVickers hardness,137\nPoisson's ratio,0.31\nElasticity module (GPa),77.5",
+    
+    "extracted text": "The base materials used for the friction stir butt weld joints are 8-mm-thick rolled plates of 2024-T351, 120 mm long by 35 mm wide, with the nominal composition (in wt pct) of Cu-4.45, Mn-0.72, Mg-1.53, Fe-0.29, Ti-0.06, V-0.08, Zn-0.12, Si-0.11, and rest-Al which is analyzed by X-ray fluorescence (XRF) technique. Additional data from Table V shows the base metal has an elongation of 17.8%.",
+    
+    "property mapping": "AA: 2024\ntemper: T351\nYS [MPa]: 324 (described as 'Tensile yield stress (MPa)' in Table I)\nUTS [MPa]: 429 (described as 'Ultimate tensile stress (MPa)' in Table I)\nelong [%]: 17.8 (from Table V for base metal)\nHardness: 137 (described as 'Vickers hardness' in Table I)\nHardness UNIT: Vickers",
+    
+    "abbreviations": "FSW: Friction Stir Welding\nTMAZ: Thermo-Mechanically Affected Zone\nHAZ: Heat-Affected Zone\nXRF: X-ray Fluorescence\nUTS: Ultimate Tensile Strength",
+    
+    "weight percentage": "Cu: 4.45%\nMn: 0.72%\nMg: 1.53%\nFe: 0.29%\nTi: 0.06%\nV: 0.08%\nZn: 0.12%\nSi: 0.11%\nAl: Balance (approximately 92.64%)",
+    
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T351",
+            "YS [MPa]": 324.0,
+            "UTS [MPa]": 429.0,
+            "elong [%]": 17.8,
+            "Hardness": 137.0,
+            "Hardness UNIT": "Vickers",
+            "Has composition": true,
+            "Cu": 4.45,
+            "Mn": 0.72,
+            "Mg": 1.53,
+            "Fe": 0.29,
+            "Ti": 0.06,
+            "V": 0.08,
+            "Zn": 0.12,
+            "Si": 0.11
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+```json
+{
+    "table csv": "No table provided in the document.",
+    "extracted text": "GaGeO-CJ63 was prepared by solvothermal reaction of a mixture of GeO2, GaOOH, [Ni(en)3]Cl2, HF, ethylenediamine, ethanolamine, and H2O in a molar ratio of 1.00:0.86:0.37:1.85:10.00:44.47:74.07 at 180 °C for 8 days in a Teflon-lined stainless steel autoclave.\n\nSynthesis: [Ni(en)3][Ga2Ge4O12] (GaGeO-CJ63) was prepared under solvothermal conditions. GeO2 (0.156 g) was dispersed in a mixture of H2O (2 mL) and ethanolamine (4 mL), and then self-made GaOOH (0.137 g) and [Ni(en)3]Cl2 (0.173 g) were added with stirring. Finally, ethylenediamine (1 mL) and HF (40 wt%, 0.12 mL) were added. A homogeneous gel was formed after stirring for 2 h. The gel was sealed in a 15 mL Teflon-lined stainless steel autoclave and heated at 180 °C for 8 days under static conditions.",
+    "property mapping": "Si: Not present in this recipe\nGe: From GeO2 with molar ratio 1.00\nAl: Not present in this recipe\nGa: From GaOOH with molar ratio 0.86\nOH: Not explicitly stated as a ratio\nH2O: Molar ratio 74.07\nHF: Molar ratio 1.85\nB: Not present in this recipe\nosda_names: [Ni(en)3]Cl2 where en = ethylenediamine\nosda_ratios: 0.37\ncrystallization_temperature: 180 °C\ncrystallization_time: 8 days (192 hours)\nproduct_names: GaGeO-CJ63",
+    "formula abbreviations": "en = ethylenediamine",
+    "ratio calculations": "Since there is no Si in this recipe (it's a gallogermanate, not a silicate), I'll set Ge = 1.0 as the reference.\nGe = 1.0 (reference)\nGa = 0.86 / 1.0 = 0.86\nHF = 1.85 / 1.0 = 1.85\nOSDA ([Ni(en)3]Cl2) = 0.37 / 1.0 = 0.37\nethylenediamine = 10.00 / 1.0 = 10.0\nethanolamine = 44.47 / 1.0 = 44.47\nH2O = 74.07 / 1.0 = 74.07",
+    "recipes": [
+        {
+            "Si": 0,
+            "Ge": 1.0,
+            "Al": 0,
+            "Ga": 0.86,
+            "OH": 0,
+            "H2O": 74.07,
+            "HF": 1.85,
+            "B": 0,
+            "osda_names": "[Ni(ethylenediamine)3]Cl2",
+            "osda_ratios": 0.37,
+            "crystallization_temperature": 180.0,
+            "crystallization_time": 192.0,
+            "product_names": "GaGeO-CJ63"
+        }
+    ]
+}
+```

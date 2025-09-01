@@ -1,0 +1,56 @@
+{
+    "table csv": "Alloy,Zn,Mg,Cu,Mn,Cr,Ti,Zr,Sc\nAA7075,6.3,2.4,0.44,0.33,0.001,0.03,0.10,–\n0.11 wt.% Sc,6.0,2.8,0.42,0.29,<0.01,0.04,0.11,0.11\n0.30 wt.% Sc,6.6,2.7,0.46,0.30,0.002,0.03,0.08,0.30",
+    "extracted text": "The paper examines three Al-Zn-Mg-(Sc) alloys: standard AA7075 and two variations with 0.11 wt.% and 0.30 wt.% Sc added. The alloys were cast in air and homogenized at 450°C for 20 h. After extrusion at 350°C with ram speed of 15 mm/s, the bars were solution treated at 480°C for 2 h and aged at 120°C for 24 h. Table 3 shows the tensile properties of the extruded bars after heat treatment, with the 0.30 wt.% Sc alloy exhibiting about 15% higher tensile strength and 25% higher yield strength than ordinary AA7075.",
+    "property mapping": "YS [MPa] = Yield strength (MPa) in Table 3\nUTS [MPa] = Tensile strength (MPa) in Table 3\nelong [%] = Elongation (%) in Table 3",
+    "abbreviations": "Sc = Scandium\nAA7075 = Aluminum Association designation for the 7075 aluminum alloy\nwt.% = weight percentage",
+    "weight percentage": "The weight percentages for all elements are already provided in Table 1. For the AA7075 with 0.11 wt.% Sc, the Cr value is listed as '<0.01', which I will treat as 0.01 for the JSON representation.",
+    "recipes": [
+        {
+            "AA": "7075",
+            "temper": "",
+            "YS [MPa]": 251,
+            "UTS [MPa]": 402,
+            "elong [%]": 11.6,
+            "Has composition": true,
+            "Zn": 6.3,
+            "Mg": 2.4,
+            "Cu": 0.44,
+            "Mn": 0.33,
+            "Cr": 0.001,
+            "Ti": 0.03,
+            "Zr": 0.10
+        },
+        {
+            "AA": "7075",
+            "temper": "",
+            "YS [MPa]": 301,
+            "UTS [MPa]": 449,
+            "elong [%]": 11.7,
+            "Has composition": true,
+            "Zn": 6.0,
+            "Mg": 2.8,
+            "Cu": 0.42,
+            "Mn": 0.29,
+            "Cr": 0.01,
+            "Ti": 0.04,
+            "Zr": 0.11,
+            "Sc": 0.11
+        },
+        {
+            "AA": "7075",
+            "temper": "",
+            "YS [MPa]": 314,
+            "UTS [MPa]": 463,
+            "elong [%]": 12.2,
+            "Has composition": true,
+            "Zn": 6.6,
+            "Mg": 2.7,
+            "Cu": 0.46,
+            "Mn": 0.30,
+            "Cr": 0.002,
+            "Ti": 0.03,
+            "Zr": 0.08,
+            "Sc": 0.30
+        }
+    ]
+}

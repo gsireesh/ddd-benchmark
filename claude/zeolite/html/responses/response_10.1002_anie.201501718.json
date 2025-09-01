@@ -1,0 +1,23 @@
+{
+    "table csv": "GeO2,MIPA,H2O\n1,3.5,6",
+    "extracted text": "PKU-17 was synthesized by using a commercially available 2-propanolamine (MIPA) as the structure-directing agent (SDA). A mixture of germanium dioxide (GeO2), MIPA, and water with the molar ratio of 1:3.5:6 was sealed in a 23 mL Teflon-lined stainless-steel autoclave and heated at 150 °C under a static condition for 5 days.",
+    "property mapping": "GeO2 -> Ge, MIPA -> osda_names and osda_ratios, H2O -> H2O, 150 °C -> crystallization_temperature, 5 days -> crystallization_time, PKU-17 -> product_names",
+    "formula abbreviations": "MIPA stands for 2-propanolamine, which is used as the structure-directing agent.",
+    "ratio calculations": "Since this is a germanate and not a silicate, we set Ge = 1.0 as the reference. GeO2:MIPA:H2O = 1:3.5:6, so Ge = 1.0, osda_ratios = 3.5, H2O = 6.0",
+    "recipes": [
+        {
+            "Si": 0,
+            "Ge": 1.0,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 6.0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "2-propanolamine",
+            "osda_ratios": 3.5,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "PKU-17"
+        }
+    ]
+}

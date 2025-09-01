@@ -1,0 +1,140 @@
+{
+    "table csv": "Water (H2O/T),Time (h),Temperature(°C),Temperature(°C),Temperature(°C)\n,,130,150,170\n3,2,Amorphous,Amorphous,ITQ-37\n,6,Amorphous,Amorphous,ITQ-37\n,12,Amorphous,ITQ-37,ITQ-37\n,24,Amorphous,ITQ-37,ITQ-7\n5,2,Amorphous,ITQ-37,ITQ-37\n,6,Amorphous,ITQ-37,ITQ-37\n,12,ITQ-37,ITQ-37,ITQ-37\n,24,ITQ-37,ITQ-37,ITQ-37\n7,2,Amorphous,Amorphous,ITQ-37\n,6,Amorphous,Amorphous,ITQ-37\n,12,Amorphous,Amorphous,ITQ-37+ITQ-17\n,24,Amorphous,ITQ-37+ITQ-17,ITQ-37+ITQ-17",
+    
+    "extracted text": "The gel molar composition for the synthesis of germanosilicate ITQ-37 was as follows: 0.5SiO2: 0.5GeO2: 0.25OSDAOH: 0.20NH4F: 0.05NH4Cl: xH2O (x=3, 5, 7). The crystallization is performed at 130, 150 and 170°C for 2, 6, 12 and 24 h, respectively. The OSDA used is 3′,4′-dihydro-1′H-spiro[isoindoline-2,2′-isoquinolin]-2-ium (denoted as OSDA-1). Al-ITQ-37 can be synthesized from the gel with molar composition of 0.5SiO2: 0.5GeO2: yAl2O3: 0.25OSDAOH: 0.20NH4F: 0.05NH4Cl: 5H2O (y=0.01, 0.03, 0.05) at 170°C for 24 h. The Ge/Si molar ratio of ITQ-37 is ca. 1/1.",
+    
+    "property mapping": "SiO2 → Si\nGeO2 → Ge\nAl2O3 → Al\nOSDAOH → OSDA and OH\nNH4F → F (as a source for HF)\nNH4Cl → Cl\nH2O → H2O\nH2O/T → Water to (Si+Ge) ratio\nTemperature(°C) → crystallization_temperature\nTime (h) → crystallization_time\nITQ-37, ITQ-7, ITQ-17, Amorphous → product_names",
+    
+    "formula abbreviations": "T = Si + Ge, used to express the water ratio (H2O/T)\nOSDA-1 = 3′,4′-dihydro-1′H-spiro[isoindoline-2,2′-isoquinolin]-2-ium",
+    
+    "ratio calculations": "For the base recipe:\nSi = 0.5 (from 0.5SiO2)\nGe = 0.5 (from 0.5GeO2)\nTo normalize with Si = 1.0:\nSi = 1.0\nGe = 0.5/0.5 = 1.0\nOSDA = 0.25/0.5 = 0.5\nOH = 0.25/0.5 = 0.5\nF (from NH4F) = 0.20/0.5 = 0.4\nCl (from NH4Cl) = 0.05/0.5 = 0.1\nH2O varies: 3, 5, or 7 per T (where T = Si + Ge = 1.0 + 1.0 = 2.0)\nSo H2O = 3*2.0/0.5 = 12.0, 5*2.0/0.5 = 20.0, or 7*2.0/0.5 = 28.0\n\nFor Al-containing recipes:\nAl (from Al2O3) = 2*y/0.5 where y = 0.01, 0.03, or 0.05\nAl = 2*0.01/0.5 = 0.04, 2*0.03/0.5 = 0.12, or 2*0.05/0.5 = 0.2",
+    
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0.0,
+            "OH": 0.5,
+            "H2O": 12.0,
+            "HF": 0.4,
+            "B": 0.0,
+            "osda_names": "3′,4′-dihydro-1′H-spiro[isoindoline-2,2′-isoquinolin]-2-ium",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 2.0,
+            "product_names": "ITQ-37"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0.0,
+            "OH": 0.5,
+            "H2O": 12.0,
+            "HF": 0.4,
+            "B": 0.0,
+            "osda_names": "3′,4′-dihydro-1′H-spiro[isoindoline-2,2′-isoquinolin]-2-ium",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 6.0,
+            "product_names": "ITQ-37"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0.0,
+            "OH": 0.5,
+            "H2O": 12.0,
+            "HF": 0.4,
+            "B": 0.0,
+            "osda_names": "3′,4′-dihydro-1′H-spiro[isoindoline-2,2′-isoquinolin]-2-ium",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 12.0,
+            "product_names": "ITQ-37"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0.0,
+            "OH": 0.5,
+            "H2O": 12.0,
+            "HF": 0.4,
+            "B": 0.0,
+            "osda_names": "3′,4′-dihydro-1′H-spiro[isoindoline-2,2′-isoquinolin]-2-ium",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 24.0,
+            "product_names": "ITQ-7"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0.0,
+            "OH": 0.5,
+            "H2O": 20.0,
+            "HF": 0.4,
+            "B": 0.0,
+            "osda_names": "3′,4′-dihydro-1′H-spiro[isoindoline-2,2′-isoquinolin]-2-ium",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 2.0,
+            "product_names": "ITQ-37"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0.0,
+            "OH": 0.5,
+            "H2O": 20.0,
+            "HF": 0.4,
+            "B": 0.0,
+            "osda_names": "3′,4′-dihydro-1′H-spiro[isoindoline-2,2′-isoquinolin]-2-ium",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 24.0,
+            "product_names": "ITQ-37"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0.04,
+            "OH": 0.5,
+            "H2O": 20.0,
+            "HF": 0.4,
+            "B": 0.0,
+            "osda_names": "3′,4′-dihydro-1′H-spiro[isoindoline-2,2′-isoquinolin]-2-ium",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 24.0,
+            "product_names": "Al-ITQ-37"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0.12,
+            "OH": 0.5,
+            "H2O": 20.0,
+            "HF": 0.4,
+            "B": 0.0,
+            "osda_names": "3′,4′-dihydro-1′H-spiro[isoindoline-2,2′-isoquinolin]-2-ium",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 24.0,
+            "product_names": "Al-ITQ-37"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0.2,
+            "OH": 0.5,
+            "H2O": 20.0,
+            "HF": 0.4,
+            "B": 0.0,
+            "osda_names": "3′,4′-dihydro-1′H-spiro[isoindoline-2,2′-isoquinolin]-2-ium",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 24.0,
+            "product_names": "Al-ITQ-37"
+        }
+    ]
+}

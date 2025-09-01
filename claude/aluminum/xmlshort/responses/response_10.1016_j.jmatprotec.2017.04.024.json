@@ -1,0 +1,24 @@
+{
+    "table csv": "Element,Al,Fe,Cu,Mn,Mg,Ni,Zn,Fe+Ni,Ti,Other\nWeight(%),Other,0.50,3.8–4.9,0.30–0.9,1.2–1.8,0.10,0.10,0.5,0.50,0.10\n\nProperty,Value\nYield strength,333–336 MPa\nUltimate tensile strength,439–458 MPa\nElongation,15.6–18.8%\nModulus of elasticity,72 GPa\nPoisson's ratio,0.33",
+    "extracted text": "The paper states that 2A12-T4 aluminum alloy (Chinese standard, GB) is identical to the 2024 (American standard) series of aluminum alloys. This alloy has wide application across the aerospace industry, providing a combination of high strength, moderate toughness, and corrosion resistance.",
+    "property mapping": "AA: 2024 (American standard equivalent to 2A12 Chinese standard)\ntemper: T4\nYS [MPa]: 333-336 MPa\nUTS [MPa]: 439-458 MPa\nelong [%]: 15.6-18.8%",
+    "abbreviations": "No abbreviations were used for the alloy composition.",
+    "weight percentage": "For the ranges provided, I'll calculate the mean values:\nCu: (3.8+4.9)/2 = 4.35%\nMn: (0.30+0.9)/2 = 0.60%\nMg: (1.2+1.8)/2 = 1.5%\nFe: 0.50%\nNi: 0.10%\nZn: 0.10%\nTi: 0.50%\nOther: 0.10%\n\nNote: There's also a combined Fe+Ni value of 0.5% mentioned, which appears to be a maximum allowable combined value.",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T4",
+            "YS [MPa]": 334.5,
+            "UTS [MPa]": 448.5,
+            "elong [%]": 17.2,
+            "Has composition": true,
+            "Cu": 4.35,
+            "Mn": 0.6,
+            "Mg": 1.5,
+            "Fe": 0.5,
+            "Ni": 0.1,
+            "Zn": 0.1,
+            "Ti": 0.5
+        }
+    ]
+}

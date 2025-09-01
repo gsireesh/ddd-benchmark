@@ -1,0 +1,62 @@
+{
+    "table csv": "Catalyst,Chemical analysis (mol.%),,,T(IV)/T(III),IR of adsorbed pyridine,,,V_micro (cm^3/g),S_BET (m^2/g),Crystal size (μm)\n,(E)^a,Si,Ge,,C(Br) (μmol/g),C(L) (μmol/g),C(B + L) (μmol/g),,,\n(Ga)UTL,1.9,74.8,23.3,51.6,14,65,79,0.19,450,5 × 5 × 0.1\n(Al)UTL,2.1,72.8,25.1,46.6,69,61,130,0.23,600,2 × 0.5 × 0.1\n(Fe)UTL,3.0,74.8,22.2,32.3,9,121,130,0.21,550,25 × 20 × 5\nBEA,7.8,92.2,–,11.8,201,380,581,0.18,480,0.3\nMFI,2.6,97.4,–,38.1,159,72,231,0.16,305,1.0",
+    
+    "extracted text": "UTL zeolites were synthesized similarly to Ref. [27] replacing a part of silica source for the required amount of the freshly precipitated gel of relevant heteroatom. Molar compositions of reaction mixtures were 0.782 SiO2:0.018 EO1.5:0.4 GeO2:0.7 ROH/Br:30 H2O (E = Al, Ga and Fe). Typically, the source of the respective heteroatom was dissolved (or dispersed in the case Fe) in a water solution of SDA in hydroxide/bromide form. Then, crystalline germanium oxide was added and the mixture was stirred at room temperature for 30 min until its total dissolution. After this, silica (Aerosil 300) was added into the obtained solution and the mixture was stirred at room temperature for another 30 min. Finally, the required amount of concentrated HCl or SDAs solution was added to the above mixture under vigorous stirring to adjust pH of the gel to 12.0 (Al), 11.8 (Fe) and 10.8 (Ga). The pH of this gel was measured at 25°C. The resulting fluid gel was charged into 25 ml Teflon-lined autoclaves and heated at 175°C for 20 (Al), 10 (Fe) and 13 (Ga) days under agitation (~25 rpm). The solid products obtained after preset synthesis times were recovered by filtration, washed out with distilled water and dried overnight at 95°C. To remove the SDA, the as-synthesized zeolites were calcined in a stream of air at 550°C for 6 h with a temperature ramp of 1°C/min.\n\nThe structure directing agent (SDA) used was 7-ethyl-6-azoniaspiro[5.5]undecane hydroxide.",
+    
+    "property mapping": "Si: 0.782 SiO2 in the molar composition\nGe: 0.4 GeO2 in the molar composition\nAl/Ga/Fe: 0.018 EO1.5 (where E represents Al, Ga, or Fe depending on the synthesis)\nOH/Br: 0.7 ROH/Br where ROH/Br represents the structure directing agent in hydroxide/bromide form\nH2O: 30 H2O in the molar composition\nOSDA: 7-ethyl-6-azoniaspiro[5.5]undecane hydroxide\ncrystallization_temperature: 175°C\ncrystallization_time: 20 days (Al), 10 days (Fe), 13 days (Ga)",
+    
+    "formula abbreviations": "E: Represents the heteroatom (Al, Ga, or Fe) being incorporated\nEO1.5: Oxide form of the heteroatom\nROH/Br: Structure directing agent (7-ethyl-6-azoniaspiro[5.5]undecane) in hydroxide/bromide form\nSDA: Structure Directing Agent (7-ethyl-6-azoniaspiro[5.5]undecane hydroxide)",
+    
+    "ratio calculations": "Setting Si = 1.0, I need to determine the ratios for other components.\nSi = 0.782 (from the molar composition) → normalized to 1.0\nGe = 0.4 / 0.782 = 0.512\nAl/Ga/Fe = 0.018 / 0.782 = 0.023\nOH/Br (OSDA ratio) = 0.7 / 0.782 = 0.895\nH2O = 30 / 0.782 = 38.364",
+    
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.512,
+            "Al": 0.023,
+            "Ga": 0.0,
+            "Fe": 0.0,
+            "OH": 0.895,
+            "H2O": 38.364,
+            "HF": 0.0,
+            "B": 0.0,
+            "osda_names": "7-ethyl-6-azoniaspiro[5.5]undecane hydroxide",
+            "osda_ratios": 0.895,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 480.0,
+            "product_names": "UTL"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.512,
+            "Al": 0.0,
+            "Ga": 0.023,
+            "Fe": 0.0,
+            "OH": 0.895,
+            "H2O": 38.364,
+            "HF": 0.0,
+            "B": 0.0,
+            "osda_names": "7-ethyl-6-azoniaspiro[5.5]undecane hydroxide",
+            "osda_ratios": 0.895,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 312.0,
+            "product_names": "UTL"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.512,
+            "Al": 0.0,
+            "Ga": 0.0,
+            "Fe": 0.023,
+            "OH": 0.895,
+            "H2O": 38.364,
+            "HF": 0.0,
+            "B": 0.0,
+            "osda_names": "7-ethyl-6-azoniaspiro[5.5]undecane hydroxide",
+            "osda_ratios": 0.895,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 240.0,
+            "product_names": "UTL"
+        }
+    ]
+}

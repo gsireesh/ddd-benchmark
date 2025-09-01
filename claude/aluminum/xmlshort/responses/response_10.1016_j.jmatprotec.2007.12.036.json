@@ -1,0 +1,25 @@
+{
+    "table csv": "Material,σy (MPa),UTS (MPa),A (%)\n7075 T6,503,572,11\n2024 T3,380,490,17\n2024-7075 0 mm,325,424,6\n2024-7075 0.5 mm,340,435,7\n2024-7075 1 mm,395,460,4.5\n2024-7075 1.5 mm,285,390,2.5",
+    "extracted text": "The materials used to produce the dissimilar AA2024-AA7075 joints were commercial aluminium alloys produced by Pechiney under the form of rolled plates of 4-mm thickness (2024 in T3 state and 7075 in T6 one).",
+    "property mapping": "σy (MPa) = YS [MPa]\nUTS (MPa) = UTS [MPa]\nA (%) = elong [%]",
+    "abbreviations": "σy = yield strength\nUTS = ultimate tensile strength\nA = elongation percentage",
+    "weight percentage": "No weight percentage information is provided in the document.",
+    "recipes": [
+        {
+            "AA": "7075",
+            "temper": "T6",
+            "YS [MPa]": 503.0,
+            "UTS [MPa]": 572.0,
+            "elong [%]": 11.0,
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "2024",
+            "temper": "T3",
+            "YS [MPa]": 380.0,
+            "UTS [MPa]": 490.0,
+            "elong [%]": 17.0,
+            "Has composition": "nominal"
+        }
+    ]
+}

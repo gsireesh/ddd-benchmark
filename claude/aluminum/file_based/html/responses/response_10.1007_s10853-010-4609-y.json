@@ -1,0 +1,27 @@
+{
+    "table csv": "Alloying element,Cu,Mg,Si,,Fe,Mn Zn,Ti,Cr\n6063 aluminum alloy Composition (wt%),0.1,0.4-0.9,0.3-0.7,,0.6,0.3 0.2,0.2,0.1\n\nMaterial,Tensile strength (MPa),Thermal conductivity (W m/K),Coefficient of thermal expansion (K)\n6063 Al alloy,215,180,23 9 10 - 6",
+    "extracted text": "The materials used in this study were 6063 aluminum alloy and commercial AISI 304 austenitic stainless steel. The 6063 aluminum alloy has a tensile strength of 215 MPa. Table 5 also mentions that the toughness of 6063 aluminum alloy is 25 J.",
+    "property mapping": "UTS [MPa] = Tensile strength (MPa) = 215",
+    "abbreviations": "No abbreviations were used for the alloy composition.",
+    "weight percentage": "The weight percentages for the elements in 6063 aluminum alloy are directly provided in the document: Cu: 0.1%, Mg: 0.4-0.9% (average 0.65%), Si: 0.3-0.7% (average 0.5%), Fe: 0.6%, Mn: 0.3%, Zn: 0.2%, Ti: 0.2%, Cr: 0.1%.",
+    "recipes": [
+        {
+            "AA": "6063",
+            "temper": "",
+            "UTS [MPa]": 215.0,
+            "YS [MPa]": "",
+            "elong [%]": "",
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 0.1,
+            "Mg": 0.65,
+            "Si": 0.5,
+            "Fe": 0.6,
+            "Mn": 0.3,
+            "Zn": 0.2,
+            "Ti": 0.2,
+            "Cr": 0.1
+        }
+    ]
+}

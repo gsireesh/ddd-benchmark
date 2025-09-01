@@ -1,0 +1,58 @@
+```json
+{
+    "table csv": "Alloys,Designed Composition\nAA2195,Al-4Cu-1.2Li-0.4Mg-0.4Ag-0.12Zr\nAA2195-0.025Sc,Al-4Cu-1.2Li-0.4Mg-0.4Ag-0.12Zr-0.025Sc\nAA2195-0.25Sc,Al-4Cu-1.2Li-0.4Mg-0.4Ag-0.12Zr-0.25Sc\n\nAlloys,Peak-aging time (Hr),Peak aged hardness (VHN)\nAA2195,24,145 ± 4\nAA2195-0.025Sc,16,163 ± 3\nAA2195-0.25Sc,16,176 ± 3\n\nAlloys,0.2% Proof Stress (MPa),UTS (MPa),% Elongation\nAA2195,443 ± 5,524 ± 7,12.1 ± 0.2\nAA2195-0.025Sc,485 ± 5,586 ± 6,10.3 ± 0.1\nAA2195-0.25Sc,536 ± 6,634 ± 8,9.2 ± 0.1",
+    "extracted text": "The samples of caliber rolled alloys were solution treated (ST) at 530 °C for 45 min, and further aged at 160 °C till peak aging is attained. The alloys were processed through homogenization (470 °C/16 h and 500 °C/8 h), hot forging, and caliber rolling at 400 °C. The paper investigates the influence of Scandium (Sc) content (0.025 and 0.25 wt%) on microstructure, texture and mechanical properties of a thermo-mechanically processed AA2195 alloy.",
+    "property mapping": "AA = AA2195 (aluminum alloy designation)\nPeak-aging time = time for peak aging at 160°C\nPeak aged hardness = hardness in VHN (Vickers Hardness Number)\n0.2% Proof Stress = YS (Yield Strength) in MPa\nUTS = Ultimate Tensile Strength in MPa\n% Elongation = elongation percentage",
+    "abbreviations": "ST = Solution Treatment\nVHN = Vickers Hardness Number",
+    "weight percentage": "The composition is given in weight percentage:\nAA2195: Cu = 4.0%, Li = 1.2%, Mg = 0.4%, Ag = 0.4%, Zr = 0.12%\nAA2195-0.025Sc: Cu = 4.0%, Li = 1.2%, Mg = 0.4%, Ag = 0.4%, Zr = 0.12%, Sc = 0.025%\nAA2195-0.25Sc: Cu = 4.0%, Li = 1.2%, Mg = 0.4%, Ag = 0.4%, Zr = 0.12%, Sc = 0.25%",
+    "recipes": [
+        {
+            "AA": "AA2195",
+            "temper": "",
+            "YS [MPa]": 443,
+            "UTS [MPa]": 524,
+            "elong [%]": 12.1,
+            "Hardness": 145,
+            "Hardness UNIT": "VHN",
+            "Has composition": true,
+            "Cu": 4.0,
+            "Li": 1.2,
+            "Mg": 0.4,
+            "Ag": 0.4,
+            "Zr": 0.12
+        },
+        {
+            "AA": "AA2195",
+            "temper": "",
+            "YS [MPa]": 485,
+            "UTS [MPa]": 586,
+            "elong [%]": 10.3,
+            "Hardness": 163,
+            "Hardness UNIT": "VHN",
+            "Has composition": true,
+            "Cu": 4.0,
+            "Li": 1.2,
+            "Mg": 0.4,
+            "Ag": 0.4,
+            "Zr": 0.12,
+            "Sc": 0.025
+        },
+        {
+            "AA": "AA2195",
+            "temper": "",
+            "YS [MPa]": 536,
+            "UTS [MPa]": 634,
+            "elong [%]": 9.2,
+            "Hardness": 176,
+            "Hardness UNIT": "VHN",
+            "Has composition": true,
+            "Cu": 4.0,
+            "Li": 1.2,
+            "Mg": 0.4,
+            "Ag": 0.4,
+            "Zr": 0.12,
+            "Sc": 0.25
+        }
+    ]
+}
+```

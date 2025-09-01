@@ -1,0 +1,25 @@
+{
+    "table csv": "Alloy,Yield strength (MPa),Tensile strength (MPa),Elongation (%)\nAA2024-T3,354,485,17\nAA2024-T81,450,485,7",
+    "extracted text": "The paper investigates the relationship between fracture behaviors and thermomechanical effects of aluminum alloy AA2024 in T3 and T81 temper designations using center crack tensile (CCT) testing. The specimens had a thickness of 6.35 mm (1/4 in.). In the T3 tempering process, the material is first solution heat treated, then cold worked, and finally natural aging. In T81 tempering, the material is solution heat treated, cold worked, artificial aging, and finally worked by 1% of cold rolling.",
+    "property mapping": "- Yield strength (MPa) → 'YS [MPa]'\n- Tensile strength (MPa) → 'UTS [MPa]'\n- Elongation (%) → 'elong [%]'",
+    "abbreviations": "- CCT: Center Crack Tensile\n- T3: Solution heat treated, cold worked, and naturally aged\n- T81: Solution heat treated, cold worked, artificially aged, and 1% cold rolled",
+    "weight percentage": "No weight percentage composition data is provided in the document.",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T3",
+            "YS [MPa]": 354.0,
+            "UTS [MPa]": 485.0,
+            "elong [%]": 17.0,
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "2024",
+            "temper": "T81",
+            "YS [MPa]": 450.0,
+            "UTS [MPa]": 485.0,
+            "elong [%]": 7.0,
+            "Has composition": "nominal"
+        }
+    ]
+}

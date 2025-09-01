@@ -1,0 +1,69 @@
+{
+    "table csv": "State,Aging temper,Tensile strength (MPa),Electrical conductivity (MS/m)\nT6,120°C/24h,660,17.4\nT79,120°C/8h+157°C/11h,655,19.4\nT76,120°C/8h+165°C/8h,643,20.5\nT74,120°C/8h+165°C/18h,591,22.8\nT73,120°C/8h+165°C/28h,562,23.6\nRRA,110°C/16h+175°C/2h+120°C/24h,659,20.7",
+    "extracted text": "The investigations were carried out on specimens cutting from a rolled 7150 aluminum alloy plate, with compositions (mass fraction) of Zn 6.56%, Mg 2.25%, Cu 2.10%, Zr 0.12%, and Al balance.",
+    "property mapping": "AA: 7150 (from text)\nTemper: T6, T79, T76, T74, T73, RRA (from table)\nUTS [MPa]: Tensile strength (MPa) in table\nElectrical conductivity (MS/m): Not in property list, not mapped",
+    "abbreviations": "RRA: Retrogression and reaging - a three-step heat treatment involving a first T6 temper, followed by a short time retrogression at a higher temperature, quenching, and a final re-aging treatment similar to the T6 temper.",
+    "weight percentage": "The weight percentages are already provided in the text: Zn 6.56%, Mg 2.25%, Cu 2.10%, Zr 0.12%, and Al balance (which would be 88.97% assuming no other elements are present).",
+    "recipes": [
+        {
+            "AA": "7150",
+            "temper": "T6",
+            "UTS [MPa]": 660.0,
+            "Has composition": true,
+            "Cu": 2.10,
+            "Mg": 2.25,
+            "Zn": 6.56,
+            "Zr": 0.12
+        },
+        {
+            "AA": "7150",
+            "temper": "T79",
+            "UTS [MPa]": 655.0,
+            "Has composition": true,
+            "Cu": 2.10,
+            "Mg": 2.25,
+            "Zn": 6.56,
+            "Zr": 0.12
+        },
+        {
+            "AA": "7150",
+            "temper": "T76",
+            "UTS [MPa]": 643.0,
+            "Has composition": true,
+            "Cu": 2.10,
+            "Mg": 2.25,
+            "Zn": 6.56,
+            "Zr": 0.12
+        },
+        {
+            "AA": "7150",
+            "temper": "T74",
+            "UTS [MPa]": 591.0,
+            "Has composition": true,
+            "Cu": 2.10,
+            "Mg": 2.25,
+            "Zn": 6.56,
+            "Zr": 0.12
+        },
+        {
+            "AA": "7150",
+            "temper": "T73",
+            "UTS [MPa]": 562.0,
+            "Has composition": true,
+            "Cu": 2.10,
+            "Mg": 2.25,
+            "Zn": 6.56,
+            "Zr": 0.12
+        },
+        {
+            "AA": "7150",
+            "temper": "RRA",
+            "UTS [MPa]": 659.0,
+            "Has composition": true,
+            "Cu": 2.10,
+            "Mg": 2.25,
+            "Zn": 6.56,
+            "Zr": 0.12
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "table csv": "Table I. Alloy Compositions\n\n| 6061-T6   | 6061-T6   | 6061-T6   | 6061-T6   | 6061-T6   | 6061-T6   | 6061-T6   |\n|-----------|-----------|-----------|-----------|-----------|-----------|-------------|\n| Mg        | Si        |           | Fe        | Ca        | C         | Al        |\n| 1.0       | 0.6       |           | 0.2       | 0.2       | 0.1       | balance   |\n\nTable II. Mechanical Properties\n\n|         |   Yield Strength (MPa) |   Tensile Strength (MPa) |   Elongation (pct) |\n|---------|------------------------|--------------------------|-----------------|\n| 6061-T6 |                    287 |                      315 |               16.4 |",
+    "extracted text": "The paper compares two alloys: the aluminum alloy 6061-T6 and a steel S25C. The 6061-T6 aluminum alloy is used to study plasticity-induced fatigue crack closure (PIFCC), while the steel S25C is used to study roughness-induced fatigue crack closure (RIFCC).",
+    "property mapping": "Yield Strength (MPa) → YS [MPa]\nTensile Strength (MPa) → UTS [MPa]\nElongation (pct) → elong [%]",
+    "abbreviations": "T6: Tempering treatment designation for aluminum alloy\npct: percent",
+    "weight percentage": "For 6061-T6 aluminum alloy:\nMg: 1.0%\nSi: 0.6%\nFe: 0.2%\nCa: 0.2%\nC: 0.1%\nAl: balance (remainder)",
+    "recipes": [
+        {
+            "AA": "6061",
+            "temper": "T6",
+            "YS [MPa]": 287.0,
+            "UTS [MPa]": 315.0,
+            "elong [%]": 16.4,
+            "Has composition": true,
+            "Mg": 1.0,
+            "Si": 0.6,
+            "Fe": 0.2,
+            "Ca": 0.2,
+            "C": 0.1
+        }
+    ]
+}

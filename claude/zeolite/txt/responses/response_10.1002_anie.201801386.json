@@ -1,0 +1,25 @@
+```
+{
+    "table csv": "No explicit table was provided in the document.",
+    "extracted text": "SYSU-3 was synthesized by using the N,N'-dimethylsophoridinium cation (Me2SOP, Figure 1) as the OSDA. A synthesis gel composition of 0.5SiO2:0.5GeO2:0.25OSDA(OH)2:0.5 NH4F:3H2O was sealed and heated at 160°C for 2 days to produce the pure phase of SYSU-3.",
+    "property mapping": "Si: from 0.5SiO2 in the synthesis gel composition\nGe: from 0.5GeO2 in the synthesis gel composition\nOH: from 0.25OSDA(OH)2 in the synthesis gel composition\nH2O: from 3H2O in the synthesis gel composition\nOSDA: N,N'-dimethylsophoridinium cation (Me2SOP)\nOSDA ratio: from 0.25OSDA(OH)2 in the synthesis gel composition\ncrystallization_temperature: 160°C\ncrystallization_time: 2 days (48 hours)\nproduct_names: SYSU-3",
+    "formula abbreviations": "Me2SOP = N,N'-dimethylsophoridinium cation, a sophoridine derivative that was used as the organic structure-directing agent (OSDA)",
+    "ratio calculations": "Setting Si to 1.0 as the reference:\nSi: 0.5/0.5 = 1.0\nGe: 0.5/0.5 = 1.0\nOH: (0.25*2)/0.5 = 1.0 (from OSDA(OH)2, where each OSDA molecule has 2 OH)\nosda_ratios: 0.25/0.5 = 0.5\nH2O: 3/0.5 = 6.0\nNH4F is also present with a ratio of 0.5/0.5 = 1.0, but this is not included in the requested properties",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0,
+            "OH": 1.0,
+            "H2O": 6.0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "N,N'-dimethylsophoridinium cation (Me2SOP)",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 160.0,
+            "crystallization_time": 48.0,
+            "product_names": "SYSU-3"
+        }
+    ]
+}
+```

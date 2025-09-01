@@ -1,0 +1,34 @@
+{
+    "table csv": "Material,Elastic modulus (GPa),Yield strength (MPa),Ultimate strength (MPa),Elongation (%)\nTiB2/7050 composite,75.8,701,746,6.0\n7050 Al alloy,70.5,660,711,12.2",
+    "extracted text": "The main chemical composition of the 7050 alloy (in wt%) was Al–6.5Zn–2.3Mg–2.3Cu–0.13Zr. The composite and the unreinforced alloy were subjected to the T6 treatment (477°C/70min+water quench+120°C/24h). The TiB2/7050 composite contained 6 wt% of TiB2 particles.",
+    "property mapping": "Yield strength (MPa) -> YS [MPa]\nUltimate strength (MPa) -> UTS [MPa]\nElongation (%) -> elong [%]",
+    "abbreviations": "TiB2 - Titanium diboride\nT6 - Solution heat treatment and artificial aging",
+    "weight percentage": "For 7050 Al alloy: Zn: 6.5%, Mg: 2.3%, Cu: 2.3%, Zr: 0.13%\nFor TiB2/7050 composite: Contains the same base alloy with additional 6 wt% TiB2 particles",
+    "recipes": [
+        {
+            "AA": "7050",
+            "temper": "T6",
+            "YS [MPa]": 660.0,
+            "UTS [MPa]": 711.0,
+            "elong [%]": 12.2,
+            "Has composition": true,
+            "Zn": 6.5,
+            "Mg": 2.3,
+            "Cu": 2.3,
+            "Zr": 0.13
+        },
+        {
+            "AA": "7050",
+            "temper": "T6",
+            "YS [MPa]": 701.0,
+            "UTS [MPa]": 746.0,
+            "elong [%]": 6.0,
+            "Has composition": true,
+            "Zn": 6.5,
+            "Mg": 2.3,
+            "Cu": 2.3,
+            "Zr": 0.13,
+            "Ti": 6.0
+        }
+    ]
+}

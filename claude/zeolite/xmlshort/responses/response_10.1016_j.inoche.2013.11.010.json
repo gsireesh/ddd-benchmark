@@ -1,0 +1,23 @@
+{
+    "table csv": "No table provided in the document.",
+    "extracted text": "Typically, GeO₂ (0.208 g, 2 mmol) and NaOH (0.32 g, 8 mmol) were successively added into DETA (diethylenetriamine, 1.8 ml, 16 mmol) and pyridine (5 ml, 60 mmol). After vigorous stirring of about 4 h, the mixture with the molar ratio of 1 GeO₂: 4 NaOH: 8 DETA: 30 pyridine was sealed into the autoclave and put into the oven and heated at 180 °C for 7–8 days. The autoclave was naturally cooled to room temperature, and the light-yellow polyhedral crystals (~30% yield based on the GeO₂) were collected by filtering and washing by acetone and water.",
+    "property mapping": "GeO₂ → Ge\nNaOH → OH\nDETA (diethylenetriamine) → osda_names\nPyridine → osda_names\n180 °C → crystallization_temperature\n7-8 days → crystallization_time\nCCUT-9 → product_names",
+    "formula abbreviations": "DETA = diethylenetriamine\nNaOH provides the OH component\nThe molar ratio was explicitly stated as 1 GeO₂: 4 NaOH: 8 DETA: 30 pyridine",
+    "ratio calculations": "Since there is no Si in this recipe (it's a pure germanate), I'll set Ge = 1.0 as the reference.\nGe = 1.0\nOH = 4.0 (from 4 NaOH)\nH₂O = 0 (not explicitly mentioned)\nHF = 0 (not used in this synthesis)\nOSDA ratios: DETA = 8.0, Pyridine = 30.0\nCrystallization time: 7-8 days = 7.5 days = 180 hours (taking the mean)",
+    "recipes": [
+        {
+            "Si": 0,
+            "Ge": 1.0,
+            "Al": 0,
+            "OH": 4.0,
+            "H2O": 0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "diethylenetriamine, pyridine",
+            "osda_ratios": 8.0,
+            "crystallization_temperature": 180.0,
+            "crystallization_time": 180.0,
+            "product_names": "CCUT-9"
+        }
+    ]
+}

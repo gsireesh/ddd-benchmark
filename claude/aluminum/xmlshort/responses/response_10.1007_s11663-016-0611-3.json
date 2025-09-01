@@ -1,0 +1,29 @@
+```json
+{
+    "table csv": "Tensile yield stress (MPa),324\nUltimate tensile stress (MPa),429\nVickers hardness,137\nPoisson's ratio,0.31\nElasticity module (GPa),77.5",
+    "extracted text": "The base materials used for the friction stir butt weld joints are 8-mm-thick rolled plates of 2024-T351, 120 mm long by 35 mm wide, with the nominal composition (in wt pct) of Cu-4.45, Mn-0.72, Mg-1.53, Fe-0.29, Ti-0.06, V-0.08, Zn-0.12, Si-0.11, and rest-Al which is analyzed by X-ray fluorescence (XRF) technique.",
+    "property mapping": "Tensile yield stress (MPa) → YS [MPa]\nUltimate tensile stress (MPa) → UTS [MPa]\nVickers hardness → Hardness\nThe unit for hardness is Vickers (HV)",
+    "abbreviations": "T351 temper designation: Solution heat treated, stress-relieved by stretching, and then naturally aged",
+    "weight percentage": "Cu: 4.45%\nMn: 0.72%\nMg: 1.53%\nFe: 0.29%\nTi: 0.06%\nV: 0.08%\nZn: 0.12%\nSi: 0.11%",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T351",
+            "YS [MPa]": 324.0,
+            "UTS [MPa]": 429.0,
+            "elong [%]": 17.8,
+            "Hardness": 137.0,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Cu": 4.45,
+            "Mn": 0.72,
+            "Mg": 1.53,
+            "Fe": 0.29,
+            "Ti": 0.06,
+            "V": 0.08,
+            "Zn": 0.12,
+            "Si": 0.11
+        }
+    ]
+}
+```

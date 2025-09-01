@@ -1,0 +1,25 @@
+{
+    "table csv": "Nominal chemical composition (wt.%), Tensile properties\nZn, Mg, Cu, Cr, Fe, Si, Mn, Ti, UTS (MPa), YS (MPa), El. (%)\n5.6, 2.5, 1.6, 0.23, Maximum 0.5, Maximum 0.4, Maximum 0.3, Maximum 0.2, 574, 502, 12.6",
+    "extracted text": "The paper studies 7075Al-T651 rolled plates with a thickness of 8mm. Table 1 provides the nominal chemical composition and tensile properties of the base material. The study focuses on friction stir welding of this alloy and examines the effect of initial butt surface on tensile properties and fracture behavior. Post-weld T6-treatment (PW-T6) was also conducted, which involved solutionizing at 470°C for 1h, water quenching, and then aging at 120°C for 24h.",
+    "property mapping": "AA: 7075 (mentioned as 7075Al throughout the paper)\ntemper: T651\nYS [MPa]: 502 (listed as YS in Table 1)\nUTS [MPa]: 574 (listed as UTS in Table 1)\nelong [%]: 12.6 (listed as El. in Table 1)\nZn: 5.6 wt.%\nMg: 2.5 wt.%\nCu: 1.6 wt.%\nCr: 0.23 wt.%\nFe: Maximum 0.5 wt.%\nSi: Maximum 0.4 wt.%\nMn: Maximum 0.3 wt.%\nTi: Maximum 0.2 wt.%",
+    "abbreviations": "FSW: Friction Stir Welding\nPW-T6: Post-Weld T6-treatment\nUTS: Ultimate Tensile Strength\nYS: Yield Strength\nEl.: Elongation\nSZ: Stirred Zone\nHAZ: Heat-Affected Zone\nBM: Base Metal",
+    "weight percentage": "The paper directly provides weight percentages (wt.%) for all elements:\nZn: 5.6 wt.%\nMg: 2.5 wt.%\nCu: 1.6 wt.%\nCr: 0.23 wt.%\nFe: Maximum 0.5 wt.% (using 0.5 for the calculation)\nSi: Maximum 0.4 wt.% (using 0.4 for the calculation)\nMn: Maximum 0.3 wt.% (using 0.3 for the calculation)\nTi: Maximum 0.2 wt.% (using 0.2 for the calculation)",
+    "recipes": [
+        {
+            "AA": "7075",
+            "temper": "T651",
+            "YS [MPa]": 502.0,
+            "UTS [MPa]": 574.0,
+            "elong [%]": 12.6,
+            "Has composition": "nominal",
+            "Zn": 5.6,
+            "Mg": 2.5,
+            "Cu": 1.6,
+            "Cr": 0.23,
+            "Fe": 0.5,
+            "Si": 0.4,
+            "Mn": 0.3,
+            "Ti": 0.2
+        }
+    ]
+}

@@ -1,0 +1,136 @@
+{
+    "table csv": "Saffil volume fraction (vol.%),Microhardness (MPa),Yield strength (MPa),Ultimate tensile strength (MPa),Elongation (%)\n0 (as-cast),260 ± 9,-,-,-\n0 (aged),653 ± 24,128 ± 3,164 ± 7,31 ± 2\n4 (as-cast),362 ± 23,-,-,-\n4 (aged),711 ± 49,127 ± 7,196 ± 1,10 ± 0.5\n15 (as-cast),798 ± 45 (≈ 445 ± 23 a),-,-,-\n15 (aged),830 ± 68,135 ± 6,> 150,0.4 ± 0.1\na In fiber-free matrix region.",
+    "extracted text": "The paper describes the development of two dilute Al-Sc-Zr alloys:\n1. Alloy 1: Al-0.09 Sc-0.045 Zr at.% (Al-0.15 Sc-0.15 Zr wt.%)\n2. Alloy 2: Al-0.06 Sc-0.03 Zr at.% (Al-0.10 Sc-0.10 Zr wt.%)\n\nThe alloys underwent a two-step aging treatment: 300°C for 4h followed by 425°C for 8h. The paper also discusses Al-MMC (metal matrix composite) variants with Saffil short alumina fibers at 0%, 4%, and 15% volume fractions.\n\nFor comparison, properties of other alloys are mentioned:\n- AA5083-H131: UTS of 310 MPa, elongation of 12%, toughness of 35.7 MJ/m³\n- AA6061-T6: UTS of 310 MPa, elongation of 12%, toughness of 35.2 MJ/m³\n- Al-2Cu wt.%: YS of 69 MPa",
+    "property mapping": "- Microhardness (MPa) → Hardness\n- Hardness UNIT → MPa (Vickers microhardness measured with 100g load)\n- YS → Yield strength (MPa)\n- UTS → Ultimate tensile strength (MPa)\n- Elongation (%) → elong [%]",
+    "abbreviations": "- Al-MMC: Aluminum Metal Matrix Composite\n- Saffil: Trade name for high-purity crystalline alumina fibers (>96 vol.% Al₂O₃)\n- at.%: Atomic percentage\n- wt.%: Weight percentage",
+    "weight percentage": "For Alloy 1 (Al-0.09Sc-0.045Zr at.%):\n- Sc: 0.15 wt.% (already provided in the paper)\n- Zr: 0.15 wt.% (already provided in the paper)\n\nFor Alloy 2 (Al-0.06Sc-0.03Zr at.%):\n- Sc: 0.10 wt.% (already provided in the paper)\n- Zr: 0.10 wt.% (already provided in the paper)",
+    "recipes": [
+        {
+            "AA": "",
+            "temper": "aged",
+            "YS [MPa]": 128.0,
+            "UTS [MPa]": 164.0,
+            "elong [%]": 31.0,
+            "Hardness": 653.0,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.15,
+            "Zr": 0.15
+        },
+        {
+            "AA": "",
+            "temper": "as-cast",
+            "YS [MPa]": "",
+            "UTS [MPa]": "",
+            "elong [%]": "",
+            "Hardness": 260.0,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.15,
+            "Zr": 0.15
+        },
+        {
+            "AA": "",
+            "temper": "aged",
+            "YS [MPa]": 127.0,
+            "UTS [MPa]": 196.0,
+            "elong [%]": 10.0,
+            "Hardness": 711.0,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.15,
+            "Zr": 0.15
+        },
+        {
+            "AA": "",
+            "temper": "as-cast",
+            "YS [MPa]": "",
+            "UTS [MPa]": "",
+            "elong [%]": "",
+            "Hardness": 362.0,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.15,
+            "Zr": 0.15
+        },
+        {
+            "AA": "",
+            "temper": "aged",
+            "YS [MPa]": 135.0,
+            "UTS [MPa]": 150.0,
+            "elong [%]": 0.4,
+            "Hardness": 830.0,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.15,
+            "Zr": 0.15
+        },
+        {
+            "AA": "",
+            "temper": "as-cast",
+            "YS [MPa]": "",
+            "UTS [MPa]": "",
+            "elong [%]": "",
+            "Hardness": 798.0,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.15,
+            "Zr": 0.15
+        },
+        {
+            "AA": "",
+            "temper": "aged",
+            "YS [MPa]": "",
+            "UTS [MPa]": "",
+            "elong [%]": "",
+            "Hardness": 400.0,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.10,
+            "Zr": 0.10
+        },
+        {
+            "AA": "",
+            "temper": "as-cast",
+            "YS [MPa]": "",
+            "UTS [MPa]": "",
+            "elong [%]": "",
+            "Hardness": 200.0,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.10,
+            "Zr": 0.10
+        },
+        {
+            "AA": "5083",
+            "temper": "H131",
+            "YS [MPa]": "",
+            "UTS [MPa]": 310.0,
+            "elong [%]": 12.0,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "6061",
+            "temper": "T6",
+            "YS [MPa]": "",
+            "UTS [MPa]": 310.0,
+            "elong [%]": 12.0,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 69.0,
+            "UTS [MPa]": "",
+            "elong [%]": "",
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 2.0
+        }
+    ]
+}

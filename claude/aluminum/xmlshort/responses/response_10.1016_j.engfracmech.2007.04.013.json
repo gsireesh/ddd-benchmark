@@ -1,0 +1,19 @@
+{
+    "table csv": "Sheet thickness (mm),Yield strength, σv (MPa),Ultimate strength, σU (MPa),A (%),HV\n1.6,325,461,11,150",
+    "extracted text": "The material used to manufacture single-lap joints by FSW is 2024-T3, a high-strength aluminium alloy which is poorly weldable with liquid-state techniques. The mechanical properties after T3 thermomechanical treatment are reported in Table 1.",
+    "property mapping": "AA: 2024\ntemper: T3\nYS [MPa]: 325 (listed as 'Yield strength, σv (MPa)')\nUTS [MPa]: 461 (listed as 'Ultimate strength, σU (MPa)')\nelong [%]: 11 (listed as 'A (%)')\nHardness: 150 (listed as 'HV')\nHardness UNIT: HV (Vickers Hardness)",
+    "abbreviations": "σv - Yield strength\nσU - Ultimate strength\nA - Elongation percentage\nHV - Vickers Hardness\nFSW - Friction stir welding",
+    "weight percentage": "The document does not specify the weight percentage of elements in the 2024-T3 aluminum alloy.",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T3",
+            "YS [MPa]": 325.0,
+            "UTS [MPa]": 461.0,
+            "elong [%]": 11.0,
+            "Hardness": 150.0,
+            "Hardness UNIT": "HV",
+            "Has composition": "nominal"
+        }
+    ]
+}

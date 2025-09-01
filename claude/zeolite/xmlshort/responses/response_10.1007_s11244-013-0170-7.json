@@ -1,0 +1,53 @@
+```json
+{
+    "table csv": "Recipe,Si,Al2O3,GeO2,HF,HM(OH)2,H2O\nH-ITQ-13(N),91,1,9,56,25,500\nH-ITQ-13(P),91,1,9,50,25,500\nSi-ITQ-13 (seeds),100,0,0,50,25,500",
+    "extracted text": "H-ITQ-13 is synthesized by the fluoride route in highly concentrated synthesis mixtures using hexamethonium hydroxide (HM(OH)2) as a structure directing agent (SDA). For H-ITQ-13(N), the synthesis mixture was prepared with 0.46 g GeO2 dissolved in 11.75 g of 24.5 wt% HM(OH)2 aqueous solution. Then 0.20 g Al-isopropoxide was dissolved in isopropanol and added to the template solution. 9.26 g TEOS was added dropwise. The mixture was heated to 80°C until all ethanol and excess water had evaporated. Then 1.36 g HF (40 wt% in water) was added. This resulted in a final molar composition of 91 SiO2:1 Al2O3:9 GeO2:56 HF:25 HM(OH)2:500 H2O. Small amounts of pure Si-ITQ-13 seed crystals were added. The mixture was kept in a tumbling oven at 37 rpm for 14 days at 160°C. H-ITQ-13(P) followed the same procedure with 10.7% less fluoride (50 HF instead of 56 HF). After crystallization, the product was washed with distilled water and calcined in 50:50 N2 and O2 for 8 h (3 h heating from room temperature to 550°C and at 550°C for 5 h).",
+    "property mapping": "Si: SiO2 (silicon source from TEOS)\nGe: GeO2\nAl: Al2O3 (from Al-isopropoxide)\nHF: HF\nH2O: H2O\nosda_names: hexamethonium hydroxide (HM(OH)2)\nosda_ratios: HM(OH)2\ncrystallization_temperature: 160°C\ncrystallization_time: 14 days (336 hours)\nproduct_names: H-ITQ-13(N), H-ITQ-13(P), Si-ITQ-13 (seeds)",
+    "formula abbreviations": "HM(OH)2 = hexamethonium hydroxide (structure directing agent)\nTEOS = tetraethyl orthosilicate (silicon source)\nITQ-13 = Instituto de Tecnología Química zeolite #13\nITH = three-letter framework code for ITQ-13 structure",
+    "ratio calculations": "For H-ITQ-13(N):\nStarting with 91 SiO2:1 Al2O3:9 GeO2:56 HF:25 HM(OH)2:500 H2O\nSetting Si to 1.0:\nSi = 91 → 1.0\nAl from Al2O3 = 2 × 1 = 2 → 2/91 = 0.022\nGe from GeO2 = 9 → 9/91 = 0.099\nHF = 56 → 56/91 = 0.615\nosda_ratios (HM(OH)2) = 25 → 25/91 = 0.275\nH2O = 500 → 500/91 = 5.495\n\nFor H-ITQ-13(P):\nStarting with 91 SiO2:1 Al2O3:9 GeO2:50 HF:25 HM(OH)2:500 H2O\nSetting Si to 1.0:\nSi = 91 → 1.0\nAl from Al2O3 = 2 × 1 = 2 → 2/91 = 0.022\nGe from GeO2 = 9 → 9/91 = 0.099\nHF = 50 → 50/91 = 0.549\nosda_ratios (HM(OH)2) = 25 → 25/91 = 0.275\nH2O = 500 → 500/91 = 5.495\n\nFor Si-ITQ-13 (seeds):\nStarting with 100 SiO2:50 HF:25 HM(OH)2:500 H2O\nSetting Si to 1.0:\nSi = 100 → 1.0\nAl = 0\nGe = 0\nHF = 50 → 50/100 = 0.5\nosda_ratios (HM(OH)2) = 25 → 25/100 = 0.25\nH2O = 500 → 500/100 = 5.0",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.099,
+            "Al": 0.022,
+            "OH": 0,
+            "H2O": 5.495,
+            "HF": 0.615,
+            "B": 0,
+            "osda_names": "hexamethonium hydroxide",
+            "osda_ratios": 0.275,
+            "crystallization_temperature": 160.0,
+            "crystallization_time": 336.0,
+            "product_names": "H-ITQ-13(N)"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.099,
+            "Al": 0.022,
+            "OH": 0,
+            "H2O": 5.495,
+            "HF": 0.549,
+            "B": 0,
+            "osda_names": "hexamethonium hydroxide",
+            "osda_ratios": 0.275,
+            "crystallization_temperature": 160.0,
+            "crystallization_time": 336.0,
+            "product_names": "H-ITQ-13(P)"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.0,
+            "Al": 0.0,
+            "OH": 0,
+            "H2O": 5.0,
+            "HF": 0.5,
+            "B": 0,
+            "osda_names": "hexamethonium hydroxide",
+            "osda_ratios": 0.25,
+            "crystallization_temperature": 160.0,
+            "crystallization_time": 336.0,
+            "product_names": "Si-ITQ-13"
+        }
+    ]
+}
+```

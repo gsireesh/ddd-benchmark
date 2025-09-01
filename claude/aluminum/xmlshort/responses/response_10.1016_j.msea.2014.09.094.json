@@ -1,0 +1,57 @@
+{
+    "table csv": "Base metal temper condition,Ultimate tensile strength (MPa),Yield strength (MPa),Elongation (%),Microhardness (Hv)\nT6,414±17.3,328±2.1,15.1±2,135±5.1\nW,376.4±5.1,238.1±2.5,42.5±5.2,111±3.3\nO,212.7±7.6,105.6±1.8,38.4±1.6,65±2.5",
+    "extracted text": "The composition of AA7039 was 4.69% Zn, 2.37% Mg, 0.68% Mn, 0.69% Fe, 0.31% Si, 0.05% Cu, and remaining aluminum.",
+    "property mapping": "AA - AA7039\ntemper - T6, W, O\nUTS [MPa] - Ultimate tensile strength (MPa)\nYS [MPa] - Yield strength (MPa)\nelong [%] - Elongation (%)\nHardness - Microhardness (Hv)\nHardness UNIT - Hv",
+    "abbreviations": "T6 - Solution heat treated at 480°C for 1h, water quenched, then artificially aged at 165°C for 6h\nW - Solution heat treated at 470°C for 2h, water quenched, then naturally aged at room temperature\nO - Full annealing: heating to 435°C for 2h, air cooling, reheating at 230°C for 4h, air cooling",
+    "weight percentage": "Zn: 4.69%\nMg: 2.37%\nMn: 0.68%\nFe: 0.69%\nSi: 0.31%\nCu: 0.05%\nAl: remainder (approximately 91.21%)",
+    "recipes": [
+        {
+            "AA": "7039",
+            "temper": "T6",
+            "YS [MPa]": 328.0,
+            "UTS [MPa]": 414.0,
+            "elong [%]": 15.1,
+            "Hardness": 135.0,
+            "Hardness UNIT": "Hv",
+            "Has composition": true,
+            "Cu": 0.05,
+            "Mn": 0.68,
+            "Si": 0.31,
+            "Mg": 2.37,
+            "Zn": 4.69,
+            "Fe": 0.69
+        },
+        {
+            "AA": "7039",
+            "temper": "W",
+            "YS [MPa]": 238.1,
+            "UTS [MPa]": 376.4,
+            "elong [%]": 42.5,
+            "Hardness": 111.0,
+            "Hardness UNIT": "Hv",
+            "Has composition": true,
+            "Cu": 0.05,
+            "Mn": 0.68,
+            "Si": 0.31,
+            "Mg": 2.37,
+            "Zn": 4.69,
+            "Fe": 0.69
+        },
+        {
+            "AA": "7039",
+            "temper": "O",
+            "YS [MPa]": 105.6,
+            "UTS [MPa]": 212.7,
+            "elong [%]": 38.4,
+            "Hardness": 65.0,
+            "Hardness UNIT": "Hv",
+            "Has composition": true,
+            "Cu": 0.05,
+            "Mn": 0.68,
+            "Si": 0.31,
+            "Mg": 2.37,
+            "Zn": 4.69,
+            "Fe": 0.69
+        }
+    ]
+}

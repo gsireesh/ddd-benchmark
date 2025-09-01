@@ -1,0 +1,32 @@
+{
+    "table csv": "Table 1 EDX point analyses results\nSpecimen,Elements,Al,Cu,Mg,Si,Fe,Cr,Zn,Mn\nMatrix\nBM,wt%,93,–,2,1,–,–,4,–\nBM,at%,95,–,2,1,–,–,2,–\nHAZ,wt%,95,–,2,1,–,–,2,–\nHAZ,at%,96,–,2,2,–,–,1,–\nFZ,wt%,95,–,2,1,–,–,2,–\nFZ,at%,96,–,2,1,–,–,1,–\nPrecipitates\nBM,wt%,62,8,1,6,18,2,2,1\nBM,at%,75,4,1,6,11,1,1,1\nHAZ,wt%,83,1,2,3,6,–,5,–\nHAZ,at%,89,1,3,3,2,–,2,–\nFZ,wt%,73,2,6,3,–,–,16,–\nFZ,at%,81,1,8,3,–,–,7,–\n\nTable 2 Results of tensile tests (values are average of 3 specimens)\nMaterial,Rp0.2 Yield strength (MPa),Rm Tensile strength (MPa),A elongation (%),Joint efficiency in terms of Rm (%),Joint efficiency in terms of A (%)\nAl7020 (BM),326,385,13.6,–,–\nAl7020 (EBW),262,343,3.7,89.1,27.2\n\nTable 3 CTOD fracture toughness values\nCTOD(δ5)m [mm]\nMaterial,Base material (BM),Fusion zone (FZ),Heat affected zone (HAZ)\nAl 7020 T6,0.412,0.549,0.506\nAl 7020 T6,0.389,0.439,0.547\nAl 7020 T6,0.394,0.502,0.485",
+    
+    "extracted text": "The chemical composition of the alloy used in the present study consists of 1.25 wt% Mg, 4.32 wt% Zn, 0.14 wt% Zr, 0.12 wt% Si, 0.29 wt% Fe, 0.12 wt% Cu, 0.29 wt% Mn, 0.13 wt% Cr, 0.004 wt% Ni and 0.028 wt% Ti. The paper focuses on aluminum alloy 7020 in T6 condition (solution heat treated and artificially aged). The base material has a microstructure consisting of elongated grains in the rolling direction containing some Fe-rich particles, possibly Al15Fe3Si according to EDX results.",
+    
+    "property mapping": "AA = 7020 (found in text and tables)\ntemper = T6 (found in text as 'T6 condition: solution heat treated and artificially aged')\nYS [MPa] = Rp0.2 Yield strength (MPa) = 326 MPa (for base material)\nUTS [MPa] = Rm Tensile strength (MPa) = 385 MPa (for base material)\nelong [%] = A elongation (%) = 13.6% (for base material)",
+    
+    "abbreviations": "BM = Base Material\nFZ = Fusion Zone\nHAZ = Heat Affected Zone\nEBW = Electron Beam Welding\nCTOD = Crack Tip Opening Displacement\nRp0.2 = Yield Strength at 0.2% offset\nRm = Ultimate Tensile Strength\nA = Elongation",
+    
+    "weight percentage": "The paper provides direct weight percentages for the elements in the alloy:\nMg: 1.25 wt%\nZn: 4.32 wt%\nZr: 0.14 wt%\nSi: 0.12 wt%\nFe: 0.29 wt%\nCu: 0.12 wt%\nMn: 0.29 wt%\nCr: 0.13 wt%\nNi: 0.004 wt%\nTi: 0.028 wt%\n\nThese values are more precise than those shown in the EDX analysis in Table 1, which shows rounded values.",
+    
+    "recipes": [
+        {
+            "AA": "7020",
+            "temper": "T6",
+            "YS [MPa]": 326.0,
+            "UTS [MPa]": 385.0,
+            "elong [%]": 13.6,
+            "Has composition": true,
+            "Mg": 1.25,
+            "Zn": 4.32,
+            "Zr": 0.14,
+            "Si": 0.12,
+            "Fe": 0.29,
+            "Cu": 0.12,
+            "Mn": 0.29,
+            "Cr": 0.13,
+            "Ni": 0.004,
+            "Ti": 0.028
+        }
+    ]
+}

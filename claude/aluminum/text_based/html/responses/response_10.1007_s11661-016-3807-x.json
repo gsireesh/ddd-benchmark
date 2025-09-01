@@ -1,0 +1,104 @@
+{
+    "table csv": "Condition,UTS (MPa),0.2 Pct YS (MPa),Percent Elongation,Hardness (BHN),Conductivity (Pct IACS),Strain-Hardening Exponent n,Strength Co-efficient K\nT87 (Starting Condition),485,394,14,136,-,0.144,774.3\nWST 30 pct CR,473,448,10.3,142,32.6,0.0507,582.7\nWST 35 pct CR,478,456,8.1,145,32.5,0.0515,591.3\nWST 40 pct CR,482,461,6.5,146,32.3,0.0503,594.9\nST+30 pct CR,412,337,13.8,129,31.4,0.0942,551.3\nST+50 pct CR,456,395,10,141,31.4,0.0861,611.4\nST+70 pct CR,504,455,8.8,142,29.3,0.0698,645.6\n30 pct CR+Annealed,377,342,11.4,109,34.4,0.0769,506.6\n70 pct CR+Annealed,355,330,12.6,100,36.5,0.0630,457.3",
+    
+    "extracted text": "The paper studies AA2219 aluminum alloy, an Al-Cu alloy used in aerospace applications, particularly for cryogenic propellant tanks. The study examines the effect of different thermomechanical processing conditions on microstructure and mechanical properties. The starting material is AA2219-T87 plate. The main processing conditions include: 1) without solution treatment + cryorolling (WST-CR), 2) solution treatment + cryorolling (ST+CR), and 3) solution treatment + cryorolling + annealing (CR+Annealed). Solution treatment was performed at 808 K (535°C) for 1 hour followed by water quenching. Annealing was done at 623 K (350°C) for 1 hour. The paper mentions CuAl2 (θ') precipitates as the main strengthening phase in AA2219.",
+    
+    "property mapping": "UTS (MPa) = Ultimate Tensile Strength in MPa\n0.2 Pct YS (MPa) = 0.2% Yield Strength in MPa\nPercent Elongation = elongation percentage\nHardness (BHN) = Hardness in Brinell Hardness Number\nConductivity (Pct IACS) = Electrical conductivity in Percent IACS",
+    
+    "abbreviations": "WST-CR = Without Solution Treatment and Cryorolled\nST+CR = Solution Treated and Cryorolled\nCR+Annealed = Solution Treated, Cryorolled, and Annealed\nT87 = Commercial temper designation for solution heat treated, artificially aged, and cold worked\nBHN = Brinell Hardness Number\nIACS = International Annealed Copper Standard (for electrical conductivity)",
+    
+    "weight percentage": "The paper does not provide specific weight percentages for the elements in AA2219. It only mentions that it is an Al-Cu alloy with CuAl2 precipitates.",
+    
+    "recipes": [
+        {
+            "AA": "2219",
+            "temper": "T87",
+            "YS [MPa]": 394.0,
+            "UTS [MPa]": 485.0,
+            "elong [%]": 14.0,
+            "Hardness": 136.0,
+            "Hardness UNIT": "BHN",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "2219",
+            "temper": "WST 30 pct CR",
+            "YS [MPa]": 448.0,
+            "UTS [MPa]": 473.0,
+            "elong [%]": 10.3,
+            "Hardness": 142.0,
+            "Hardness UNIT": "BHN",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "2219",
+            "temper": "WST 35 pct CR",
+            "YS [MPa]": 456.0,
+            "UTS [MPa]": 478.0,
+            "elong [%]": 8.1,
+            "Hardness": 145.0,
+            "Hardness UNIT": "BHN",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "2219",
+            "temper": "WST 40 pct CR",
+            "YS [MPa]": 461.0,
+            "UTS [MPa]": 482.0,
+            "elong [%]": 6.5,
+            "Hardness": 146.0,
+            "Hardness UNIT": "BHN",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "2219",
+            "temper": "ST+30 pct CR",
+            "YS [MPa]": 337.0,
+            "UTS [MPa]": 412.0,
+            "elong [%]": 13.8,
+            "Hardness": 129.0,
+            "Hardness UNIT": "BHN",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "2219",
+            "temper": "ST+50 pct CR",
+            "YS [MPa]": 395.0,
+            "UTS [MPa]": 456.0,
+            "elong [%]": 10.0,
+            "Hardness": 141.0,
+            "Hardness UNIT": "BHN",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "2219",
+            "temper": "ST+70 pct CR",
+            "YS [MPa]": 455.0,
+            "UTS [MPa]": 504.0,
+            "elong [%]": 8.8,
+            "Hardness": 142.0,
+            "Hardness UNIT": "BHN",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "2219",
+            "temper": "30 pct CR+Annealed",
+            "YS [MPa]": 342.0,
+            "UTS [MPa]": 377.0,
+            "elong [%]": 11.4,
+            "Hardness": 109.0,
+            "Hardness UNIT": "BHN",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "2219",
+            "temper": "70 pct CR+Annealed",
+            "YS [MPa]": 330.0,
+            "UTS [MPa]": 355.0,
+            "elong [%]": 12.6,
+            "Hardness": 100.0,
+            "Hardness UNIT": "BHN",
+            "Has composition": "nominal"
+        }
+    ]
+}

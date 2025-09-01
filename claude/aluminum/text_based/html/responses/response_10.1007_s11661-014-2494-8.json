@@ -1,0 +1,33 @@
+{
+    "table csv": "Element,Si,Mg,Fe,Ti,Al\nWeight Percentage,6.93,0.43,0.09,0.12,bal.\n\nCondition,YS (MPa),UTS (MPa),UEL (Percent),El (Percent)\nAs-cast,81,162,1.5,1.8\nT6 (540 °C/4 h, 165 °C/5 h),241,273,0.9,1.1",
+    "extracted text": "The paper discusses cast A356 aluminum alloy used to produce automobile wheels and other parts. The high strength of A356 alloy is mainly derived from precipitation hardening of fine Mg2Si phases. The material was received in the form of 10 × 90 × 400 mm cast plates. The plates were subjected to friction stir processing (FSP) under various parameters and some samples received post-FSP artificial aging at 438K (165°C) for 5 hours.",
+    "property mapping": "YS = Yield strength in MPa\nUTS = Ultimate tensile strength in MPa\nUEL = Uniform elongation in percent\nEl = Elongation in percent\nT6 = Solution treatment at 540°C for 4 hours followed by artificial aging at 165°C for 5 hours",
+    "abbreviations": "BM = Base Material (as-cast condition)\nBM+T6 = Base Material with T6 heat treatment\nFSP = Friction Stir Processing\nFSP+Age = FSP followed by artificial aging\nbal. = balance (remaining percentage)",
+    "weight percentage": "Si: 6.93%\nMg: 0.43%\nFe: 0.09%\nTi: 0.12%\nAl: balance (remainder to 100%)",
+    "recipes": [
+        {
+            "AA": "A356",
+            "temper": "as-cast",
+            "YS [MPa]": 81.0,
+            "UTS [MPa]": 162.0,
+            "elong [%]": 1.8,
+            "Has composition": true,
+            "Si": 6.93,
+            "Mg": 0.43,
+            "Fe": 0.09,
+            "Ti": 0.12
+        },
+        {
+            "AA": "A356",
+            "temper": "T6",
+            "YS [MPa]": 241.0,
+            "UTS [MPa]": 273.0,
+            "elong [%]": 1.1,
+            "Has composition": true,
+            "Si": 6.93,
+            "Mg": 0.43,
+            "Fe": 0.09,
+            "Ti": 0.12
+        }
+    ]
+}

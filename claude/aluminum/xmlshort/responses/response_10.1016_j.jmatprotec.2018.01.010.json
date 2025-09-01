@@ -1,0 +1,29 @@
+```json
+{
+    "table csv": "Chemical composition (wt.%),,,,,,,,,Mechanical properties,,\nCu,Mn,Fe,Ti,V,Zn,Si,Zr,Al,Tensile strength (MPa),Elongation (%)\n6.48,0.32,0.23,0.06,0.08,0.04,0.49,0.2,Bal,432,11",
+    "extracted text": "The paper describes friction stir welding of 2219-T6 aluminum alloy sheets with a thickness of 5 mm. The base material properties are given in Table 1. No yield strength or hardness values are provided for the base material.",
+    "property mapping": "AA: 2219 (from text)\ntemper: T6 (from text)\nUTS [MPa]: Tensile strength (MPa) = 432\nelong [%]: Elongation (%) = 11\nCu: 6.48 wt.%\nMn: 0.32 wt.%\nFe: 0.23 wt.%\nTi: 0.06 wt.%\nV: 0.08 wt.%\nZn: 0.04 wt.%\nSi: 0.49 wt.%\nZr: 0.2 wt.%",
+    "abbreviations": "No abbreviations were used for the alloy composition.",
+    "weight percentage": "The weight percentages are already provided in the document: Cu: 6.48%, Mn: 0.32%, Fe: 0.23%, Ti: 0.06%, V: 0.08%, Zn: 0.04%, Si: 0.49%, Zr: 0.2%, Al: Balance",
+    "recipes": [
+        {
+            "AA": "2219",
+            "temper": "T6",
+            "YS [MPa]": "",
+            "UTS [MPa]": 432.0,
+            "elong [%]": 11.0,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 6.48,
+            "Mn": 0.32,
+            "Fe": 0.23,
+            "Ti": 0.06,
+            "V": 0.08,
+            "Zn": 0.04,
+            "Si": 0.49,
+            "Zr": 0.2
+        }
+    ]
+}
+```

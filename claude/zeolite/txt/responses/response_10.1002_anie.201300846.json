@@ -1,0 +1,25 @@
+```json
+{
+    "table csv": "No CSV table in the document.",
+    "extracted text": "GaGeO-JU64 was prepared by the hydrothermal reaction of a mixture of GeO2, Ga(NO3)3, Ni(CH3COO)2·4H2O, 1,2-PDA, and H2O in a molar ratio of 1.00:0.39:0.24:19.17:36.76 at 180 °C for 8 days in a Teflon-lined stainless steel autoclave. The metal complex cation [Ni(1,2-PDA)3]2+ was formed in the above reaction. The obtained pink cubic crystals were washed by deionized water and dried in air.",
+    "property mapping": "GeO2 -> Ge: 1.00\nGa(NO3)3 -> Ga: 0.39\nNi(CH3COO)2·4H2O -> Not a framework element (metal complex forming agent): 0.24\n1,2-PDA (1,2-diaminopropane) -> osda_names: 1,2-diaminopropane, osda_ratios: 19.17\nH2O -> H2O: 36.76\nTemperature -> crystallization_temperature: 180°C\nTime -> crystallization_time: 8 days (192 hours)",
+    "formula abbreviations": "1,2-PDA = 1,2-diaminopropane\nGaGeO-JU64 = gallogermanate zeolite with JU64 structure type",
+    "ratio calculations": "Since there is no Si in this recipe (it's a gallogermanate zeolite), but we need to set Si to 1.0 per instructions, I'll assign Si = 0 for the actual content but use Ge as the reference point for normalizing ratios.\nSi = 0 (actual content)\nGe = 1.00 (as given in recipe)\nGa = 0.39 (as given in recipe)\nosda_ratios = 19.17 (as given in recipe)\nH2O = 36.76 (as given in recipe)\n",
+    "recipes": [
+        {
+            "Si": 0,
+            "Ge": 1.0,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 36.76,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "1,2-diaminopropane",
+            "osda_ratios": 19.17,
+            "crystallization_temperature": 180.0,
+            "crystallization_time": 192.0,
+            "product_names": "GaGeO-JU64"
+        }
+    ]
+}
+```

@@ -1,0 +1,27 @@
+{
+    "table csv": "Table 1: Chemical composition of materials\nAlloying element,Cu,Mg,Si,Fe,Mn,Zn,Ti,Cr\n6063 aluminum alloy\nComposition (wt%),0.1,0.4–0.9,0.3–0.7,0.6,0.3,0.2,0.2,0.1\n\nTable 2: Mechanical and thermal properties of materials\nMaterial,Tensile strength (MPa),Thermal conductivity (W m/K),Coefficient of thermal expansion (K)\n6063 Al alloy,215,180,23 × 10^-6\nAISI 304,515,16.2,17.2 × 10^-6",
+    "extracted text": "The paper discusses friction welding of 6063 aluminum alloy with AISI 304 austenitic stainless steel. No information about heat treatment or temper condition of the 6063 aluminum alloy is provided. Table 5 confirms the tensile strength of 6063 aluminum alloy as 215 MPa and provides an impact toughness value of 25 J.",
+    "property mapping": "UTS [MPa] = Tensile strength (MPa) = 215\nToughness = 25 J (from Table 5)",
+    "abbreviations": "No relevant abbreviations found in the document for the aluminum alloy composition or properties.",
+    "weight percentage": "The weight percentages of elements in 6063 aluminum alloy are provided directly:\nCu: 0.1 wt%\nMg: 0.4-0.9 wt% (mean: 0.65 wt%)\nSi: 0.3-0.7 wt% (mean: 0.5 wt%)\nFe: 0.6 wt%\nMn: 0.3 wt%\nZn: 0.2 wt%\nTi: 0.2 wt%\nCr: 0.1 wt%",
+    "recipes": [
+        {
+            "AA": "6063",
+            "temper": "",
+            "UTS [MPa]": 215.0,
+            "YS [MPa]": "",
+            "elong [%]": "",
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 0.1,
+            "Mg": 0.65,
+            "Si": 0.5,
+            "Fe": 0.6,
+            "Mn": 0.3,
+            "Zn": 0.2,
+            "Ti": 0.2,
+            "Cr": 0.1
+        }
+    ]
+}

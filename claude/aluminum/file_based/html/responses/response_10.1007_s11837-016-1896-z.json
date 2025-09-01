@@ -1,0 +1,107 @@
+```json
+{
+    "table csv": "Alloy,Sc (at.%),Zr (at.%),Sc (wt.%),Zr (wt.%)\nAlloy 1,0.090,0.045,0.15,0.15\nAlloy 2,0.060,0.030,0.10,0.10\n\nSaffil volume fraction (vol.%),Microhardness (MPa),Yield strength (MPa),Ultimate tensile strength (MPa),Elongation (%)\n0 (as-cast),260,,,\n0 (aged),653,128,164,31\n4 (as-cast),362,,,\n4 (aged),711,127,196,10\n15 (as-cast),798,,,\n15 (aged),830,135,>150,0.4",
+    "extracted text": "The paper discusses the development of precipitation-strengthened aluminum alloys that don't require quenching. Two ternary alloys were studied: Al-0.09Sc-0.045Zr (Alloy 1) and Al-0.06Sc-0.03Zr (Alloy 2) at.%. The alloys were cast and subjected to different cooling rates and aging treatments. The optimal aging treatment was a two-step process: 300°C for 4h followed by 425°C for 8h. The Al-Sc-Zr alloy was also used as a matrix for metal matrix composites with Saffil short alumina fibers at 0%, 4%, and 15 vol.% fractions. The Al-0.09Sc-0.045Zr alloy and its composites showed good strength and excellent toughness without requiring quenching.",
+    "property mapping": "Microhardness (MPa) → Hardness (MPa)\nYield strength (MPa) → YS [MPa]\nUltimate tensile strength (MPa) → UTS [MPa]\nElongation (%) → elong [%]",
+    "abbreviations": "at.% - atomic percentage\nwt.% - weight percentage\nvol.% - volume percentage\nUTS - ultimate tensile strength\nYS - yield strength",
+    "weight percentage": "The weight percentages were provided directly in the paper:\nAlloy 1: 0.15 wt.% Sc, 0.15 wt.% Zr\nAlloy 2: 0.10 wt.% Sc, 0.10 wt.% Zr",
+    "recipes": [
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 128.0,
+            "UTS [MPa]": 164.0,
+            "elong [%]": 31.0,
+            "Hardness": 653.0,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.15,
+            "Zr": 0.15
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 127.0,
+            "UTS [MPa]": 196.0,
+            "elong [%]": 10.0,
+            "Hardness": 711.0,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.15,
+            "Zr": 0.15
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 135.0,
+            "UTS [MPa]": 150.0,
+            "elong [%]": 0.4,
+            "Hardness": 830.0,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.15,
+            "Zr": 0.15
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": "",
+            "UTS [MPa]": "",
+            "elong [%]": "",
+            "Hardness": 260.0,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.15,
+            "Zr": 0.15
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": "",
+            "UTS [MPa]": "",
+            "elong [%]": "",
+            "Hardness": 362.0,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.15,
+            "Zr": 0.15
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": "",
+            "UTS [MPa]": "",
+            "elong [%]": "",
+            "Hardness": 798.0,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.15,
+            "Zr": 0.15
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": "",
+            "UTS [MPa]": "",
+            "elong [%]": "",
+            "Hardness": 200.0,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.10,
+            "Zr": 0.10
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": "",
+            "UTS [MPa]": "",
+            "elong [%]": "",
+            "Hardness": 400.0,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.10,
+            "Zr": 0.10
+        }
+    ]
+}
+```

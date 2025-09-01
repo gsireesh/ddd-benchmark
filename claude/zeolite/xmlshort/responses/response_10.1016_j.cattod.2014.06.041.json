@@ -1,0 +1,23 @@
+{
+    "table csv": "No specific table with zeolite synthesis recipe ratios is presented in the document.",
+    "extracted text": "The synthesis of parent B-IWR zeolite was performed according to Ref. [30] using hexamethonium dihydroxide as SDA. The starting gel had the following composition: 0.6 SiO2:0.3 GeO2: 0.1 BO1.5: 0.225 SDA(OH)2: 5 H2O. Typically, a certain amount of boric acid (H3BO3) and germanium oxide (GeO2) were dissolved in a solution of SDA(OH)2 (1.0 M). TEOS was then added and the mixture was gently stirred at room temperature until complete evaporation of the alcohol formed. The resulting fluid gel was charged into 25 ml Teflon-lined autoclave and heated at 175 °C for 10 days under agitation (∼60 rpm). The solid product was separated by filtration, washed with distilled water, and dried overnight at 95 °C.",
+    "property mapping": "SiO2 → Si, GeO2 → Ge, BO1.5 → B, SDA(OH)2 → OSDA and OH, H2O → H2O, 175 °C → crystallization_temperature, 10 days → crystallization_time",
+    "formula abbreviations": "SDA = structure-directing agent, which is hexamethonium dihydroxide. TEOS = tetraethylorthosilicate, which is the silicon source.",
+    "ratio calculations": "Given ratios in the gel: 0.6 SiO2 : 0.3 GeO2 : 0.1 BO1.5 : 0.225 SDA(OH)2 : 5 H2O. To normalize to Si = 1.0, I divide all values by 0.6: Si = 0.6/0.6 = 1.0, Ge = 0.3/0.6 = 0.5, B = 0.1/0.6 = 0.167, OSDA = 0.225/0.6 = 0.375, OH = 0.225*2/0.6 = 0.75, H2O = 5/0.6 = 8.333",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.5,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 8.333,
+            "HF": 0,
+            "B": 0.167,
+            "osda_names": "hexamethonium dihydroxide",
+            "osda_ratios": 0.375,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 240.0,
+            "product_names": "B-IWR"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "table csv": "Condition,σy (MPa),UTS (MPa),El (%),εF = ln A0/AF\nAs-extruded,175,295,14.5,0.32\nT4,415,595,17.0,0.23\nT6,370,460,11.5,0.40\n\nCondition,Vickers hardness HV10\nAs-extruded,85\nT4,165\nT6,152",
+    "extracted text": "The age-hardening aluminium alloy Al 2024 was received as an extrusion (Ø 63 mm, extrusion ratio ER = 15). Specimen blanks were solution heat treated at 495°C for 1 h followed by water-quenching. Part of the blanks was naturally aged for at least 5 days at room temperature (condition T4). Another part was artificially aged at 190°C for 12 h (condition T6).",
+    "property mapping": "σy - Yield strength in MPa\nUTS - Ultimate tensile strength in MPa\nEl - Elongation percentage\nεF - Fracture strain\nHV10 - Vickers hardness with 10 kg load",
+    "abbreviations": "T4 - Solution heat treated at 495°C for 1 h, water-quenched, and naturally aged for at least 5 days at room temperature\nT6 - Solution heat treated at 495°C for 1 h, water-quenched, and artificially aged at 190°C for 12 h",
+    "weight percentage": "No specific weight percentage of elements is provided in the document.",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "",
+            "YS [MPa]": 175,
+            "UTS [MPa]": 295,
+            "elong [%]": 14.5,
+            "Hardness": 85,
+            "Hardness UNIT": "HV10",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "2024",
+            "temper": "T4",
+            "YS [MPa]": 415,
+            "UTS [MPa]": 595,
+            "elong [%]": 17.0,
+            "Hardness": 165,
+            "Hardness UNIT": "HV10",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "2024",
+            "temper": "T6",
+            "YS [MPa]": 370,
+            "UTS [MPa]": 460,
+            "elong [%]": 11.5,
+            "Hardness": 152,
+            "Hardness UNIT": "HV10",
+            "Has composition": "nominal"
+        }
+    ]
+}

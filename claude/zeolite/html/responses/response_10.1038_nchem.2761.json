@@ -1,0 +1,25 @@
+```json
+{
+    "table csv": "No CSV table containing zeolite recipe information was provided in the document.",
+    "extracted text": "Synthesis of 29Si-enriched UTL: A gel with the following molar composition 0.8:0.4:0.4:38 SiO2:GeO2:ROH:H2O was prepared by dissolving amorphous germanium dioxide (0.609 g, 5.82 mmol, 99.999% Acros) in a 0.584 M solution of the SDA, (6R,10S)-6,10-dimethyl-5-azoniaspiro[4,5]decane hydroxide (10 ml, 5.84 mmol). Tetraethyl orthosilicate (2.094 g, 10.05 mmol, 98% Aldrich) was added dropwise and, to enrich the final zeolite, 29Si-enriched tetraethyl orthosilicate (0.333 g, 1.59 mmol, >99 at% 29Si CortecNet) was added. This was stirred at room temperature for 2 h. The solution was then transferred to a Teflon-lined autoclave (23 ml, Parr Instruments) and heated at 175°C for 13 days under static conditions. The solid was recovered by filtration, washed with copious amounts of distilled water and dried overnight. To remove the occluded SDA the zeolite was heated to 575°C at a rate of 1°C min-1, held at 575°C for 6 h and cooled to room temperature at a rate of 2°C min-1 under an atmosphere of air.",
+    "property mapping": "SiO2 → Si\nGeO2 → Ge\nROH → osda_ratios (where ROH is (6R,10S)-6,10-dimethyl-5-azoniaspiro[4,5]decane hydroxide)\nH2O → H2O\nHeated at 175°C for 13 days → crystallization_temperature and crystallization_time\nProduct: UTL → product_names",
+    "formula abbreviations": "ROH stands for (6R,10S)-6,10-dimethyl-5-azoniaspiro[4,5]decane hydroxide, which is the structure directing agent (SDA).\nSiO2 refers to silicon source (tetraethyl orthosilicate and 29Si-enriched tetraethyl orthosilicate).\nGeO2 refers to germanium source (amorphous germanium dioxide).",
+    "ratio calculations": "The molar composition is given as 0.8:0.4:0.4:38 SiO2:GeO2:ROH:H2O.\nSetting Si to 1.0:\nSi = 1.0\nGe = 0.4/0.8 = 0.5\nOH (from ROH) = 0.4/0.8 = 0.5\nH2O = 38/0.8 = 47.5",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.5,
+            "Al": 0,
+            "OH": 0.5,
+            "H2O": 47.5,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "(6R,10S)-6,10-dimethyl-5-azoniaspiro[4,5]decane hydroxide",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 312.0,
+            "product_names": "UTL"
+        }
+    ]
+}
+```

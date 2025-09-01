@@ -1,0 +1,39 @@
+```json
+{
+    "table csv": "Content (wt%),ITQ-22,Al-ITQ-22\nC,10.38,11.71\nN,1.48,1.67\nH,1.84,2.06\nGeO2,34.9,24.5\nAl2O3,-,2.6\nSiO2,65.1,72.9",
+    "extracted text": "Highly ordered ITQ-22 material was obtained from a gel of the following composition: 0.66SiO2:0.33GeO2:0.25 MPP(OH)2:3.5 H2O. The gel was then autoclaved in Teflon-lined stainless steel autoclaves at 175°C for 7 days.\n\nThe synthesis of Al-containing ITQ-22 was performed from a starting mixture of composition: 0.66SiO2:0.33GeO2:0.01Al2O3:0.25 MPP(OH)2:15H2O. The crystallization was carried out at 175°C for 12 days.\n\nThe structure directing agent is 1,5-bis-(methylpyrrolidinium)-pentane (MPP), which was used in its dihydroxide form MPP(OH)2.",
+    "property mapping": "SiO2 -> Si\nGeO2 -> Ge\nAl2O3 -> Al\nMPP(OH)2 -> osda_names and osda_ratios\nH2O -> H2O\nOH from MPP(OH)2 -> OH",
+    "formula abbreviations": "MPP stands for 1,5-bis-(methylpyrrolidinium)-pentane. It was used in its dihydroxide form MPP(OH)2.",
+    "ratio calculations": "For ITQ-22 recipe:\nSi content: 0.66 SiO2\nGe content: 0.33 GeO2\nNormalizing with Si = 1.0: Si = 1.0, Ge = 0.33/0.66 = 0.5\nOH content: From 0.25 MPP(OH)2, we have 0.5 OH, so OH = 0.5/0.66 = 0.758\nH2O content: 3.5 H2O, so H2O = 3.5/0.66 = 5.303\nOSDA ratio: 0.25 MPP(OH)2, so osda_ratios = 0.25/0.66 = 0.379\n\nFor Al-ITQ-22 recipe:\nSi content: 0.66 SiO2\nGe content: 0.33 GeO2\nAl content: 0.01 Al2O3, so Al = 0.02/0.66 = 0.03 (converting Al2O3 to Al atoms)\nNormalizing with Si = 1.0: Si = 1.0, Ge = 0.33/0.66 = 0.5, Al = 0.02/0.66 = 0.03\nOH content: From 0.25 MPP(OH)2, we have 0.5 OH, so OH = 0.5/0.66 = 0.758\nH2O content: 15 H2O, so H2O = 15/0.66 = 22.727\nOSDA ratio: 0.25 MPP(OH)2, so osda_ratios = 0.25/0.66 = 0.379",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.5,
+            "Al": 0.0,
+            "OH": 0.758,
+            "H2O": 5.303,
+            "HF": 0.0,
+            "B": 0.0,
+            "osda_names": "1,5-bis-(methylpyrrolidinium)-pentane",
+            "osda_ratios": 0.379,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 168.0,
+            "product_names": "ITQ-22"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.5,
+            "Al": 0.03,
+            "OH": 0.758,
+            "H2O": 22.727,
+            "HF": 0.0,
+            "B": 0.0,
+            "osda_names": "1,5-bis-(methylpyrrolidinium)-pentane",
+            "osda_ratios": 0.379,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 288.0,
+            "product_names": "Al-ITQ-22"
+        }
+    ]
+}
+```

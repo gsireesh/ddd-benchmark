@@ -1,0 +1,19 @@
+{
+    "table csv": "Material,Yield strength,Uniaxial tensile strength,Elongation,Thickness\nAA7075-T6,503 MPa,572 MPa,11%,1.6 mm\nAZ31B-O,169 MPa,297 MPa,8%,2.3 mm",
+    "extracted text": "The paper discusses joining high strength aluminum alloy AA7075-T6 to magnesium alloy AZ31B. Table 2 mentions that the average hardness of AA7075-T6 near the rivet leg is 149 HV, while the base material has a hardness of 171 HV. The paper indicates that the reduction in hardness near the rivet is likely related to frictional heat, which resulted in over aging and precipitate coarsening since T6 is a peak aged condition.",
+    "property mapping": "AA7075-T6: AA designation is 7075, temper is T6\nYield strength: 503 MPa\nUniaxial tensile strength: 572 MPa (equivalent to UTS)\nElongation: 11%\nHardness: 171 HV (base material)",
+    "abbreviations": "T6: Solution heat treated and artificially aged to peak condition\nHV: Vickers hardness",
+    "weight percentage": "No specific weight percentage information is provided for the elements in the AA7075-T6 alloy.",
+    "recipes": [
+        {
+            "AA": "7075",
+            "temper": "T6",
+            "YS [MPa]": 503.0,
+            "UTS [MPa]": 572.0,
+            "elong [%]": 11.0,
+            "Hardness": 171.0,
+            "Hardness UNIT": "HV",
+            "Has composition": "nominal"
+        }
+    ]
+}

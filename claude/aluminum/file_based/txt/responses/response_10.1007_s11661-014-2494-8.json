@@ -1,0 +1,33 @@
+{
+    "table csv": "Element, Weight Percentage\nSi, 6.93\nMg, 0.43\nFe, 0.09\nTi, 0.12\nAl, bal.\n\nCondition, YS (MPa), UTS (MPa), UEL (Percent), El (Percent)\nAs-cast, 81, 162, 1.5, 1.8\nT6 (540 °C/4 h, 165 °C/5 h), 241, 273, 0.9, 1.1",
+    "extracted text": "The paper describes a cast A356 aluminum alloy subjected to friction stir processing (FSP) to modify its microstructure. The high strength of A356 alloy is mainly derived from precipitation hardening of fine Mg2Si phases. T6 treatment involved solution treatment at 540°C for 4 hours followed by aging at 165°C for 5 hours.",
+    "property mapping": "YS = Yield Strength (MPa)\nUTS = Ultimate Tensile Strength (MPa)\nUEL = Uniform Elongation (Percent)\nEl = Total Elongation (Percent)",
+    "abbreviations": "FSP = Friction Stir Processing\nBM = Base Material (as-cast A356)\nBM+T6 = Base Material with T6 heat treatment\nSZ = Stirred Zone",
+    "weight percentage": "Si: 6.93%\nMg: 0.43%\nFe: 0.09%\nTi: 0.12%\nAl: balance (remainder)",
+    "recipes": [
+        {
+            "AA": "A356",
+            "temper": "as-cast",
+            "YS [MPa]": 81.0,
+            "UTS [MPa]": 162.0,
+            "elong [%]": 1.8,
+            "Has composition": true,
+            "Si": 6.93,
+            "Mg": 0.43,
+            "Fe": 0.09,
+            "Ti": 0.12
+        },
+        {
+            "AA": "A356",
+            "temper": "T6",
+            "YS [MPa]": 241.0,
+            "UTS [MPa]": 273.0,
+            "elong [%]": 1.1,
+            "Has composition": true,
+            "Si": 6.93,
+            "Mg": 0.43,
+            "Fe": 0.09,
+            "Ti": 0.12
+        }
+    ]
+}

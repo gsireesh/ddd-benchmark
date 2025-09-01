@@ -1,0 +1,42 @@
+{
+    "table csv": "Treatment,Si/Ge,(Si + Ge)/Zr,Crystallinity, %,Unit cell volume, Å3\nAs-made BEC,2.4,–,100,2145.4 (2)\nBEC-Zr-H2O,11.5,22.0,20,\nBEC-Zr-DMSO,4.9,97,50,\nBEC-Si,3.5,–,70,2137.2 (2)\nBEC-Si-Zr,4.5,55,75,2137.7 (2)\nZr-BEA,–,184,100,–",
+    
+    "extracted text": "BEC-type germanosilicate was synthesized according to previously reported protocol. According to this procedure, 19.91 g of TEOS (98%, Alfa Aesar) was mixed in glass container with 30.14 g of 35% aqueous solution of TEAOH (Alfa Aesar). The mixture was stirred vigorously for 15–20 min. Then, 5 g of GeO2 powder (Geapplic) was added while mixing. After complete dissolution of GeO2, 3 g of 38% HF (Acros Organics) was added dropwise. The gel obtained was stirred mechanically for 12 h. Then the gel was transferred into a Teflon-lined stainless steel autoclave. The crystallization was carried out at 140 °C for 96 h. After crystallization, an autoclave was quenched in cold water and the product was collected by filtration.\n\nHydrothermal synthesis of conventional Zr-BEA was carried out as reported earlier. Briefly, TEOS and TEAOH were mixed and stirred on a magnetic stirrer until a clear solution was obtained. Then an aqueous solution of zirconyl chloride hydrate ZrOCl2⋅8H2O was added to the solution. The mixture was stirred until the ethanol obtained during TEOS hydrolysis had completely evaporated (measured gravimetrically). Finally, hydrofluoric acid was added and the precipitated gel was homogenized by mechanical mixing. Final gel composition was as follows: 1SiO2: 0.54TEAOH: 0.42HF: 0.005ZrO2: 5.6H2O. The gel was placed in Teflon-lined autoclave and crystallized at 413 K (140°C) for 15 days.",
+    
+    "property mapping": "Si - Silicon content, derived from TEOS (tetraethyl orthosilicate)\nGe - Germanium content, derived from GeO2\nOH - Hydroxide content, derived from TEAOH (tetraethylammonium hydroxide)\nH2O - Water content\nHF - Hydrofluoric acid content\nosda_names - TEAOH (tetraethylammonium hydroxide)\nosda_ratios - Ratio of TEAOH relative to Si\ncrystallization_temperature - Temperature for synthesis (in °C)\ncrystallization_time - Duration of crystallization (in hours)\nproduct_names - BEC or BEA zeolite structure",
+    
+    "formula abbreviations": "TEOS - Tetraethyl orthosilicate, source of Si\nTEAOH - Tetraethylammonium hydroxide, structure directing agent\nGeO2 - Germanium dioxide, source of Ge\nHF - Hydrofluoric acid\nZrOCl2⋅8H2O - Zirconyl chloride hydrate, source of Zr\nSi/Ge - Ratio of silicon to germanium in the product\n(Si+Ge)/Zr - Ratio of silicon plus germanium to zirconium in the product",
+    
+    "ratio calculations": "For Ge-BEC synthesis:\nSi: 19.91g TEOS × 0.98 (purity) × (28.09g/mol Si)/(208.33g/mol TEOS) = 2.634g Si\nGe: 5g GeO2 × (72.64g/mol Ge)/(104.64g/mol GeO2) = 3.472g Ge\nSi/Ge ratio by mass = 2.634/3.472 = 0.759\nSetting Si = 1.0, Ge = 1.0/0.759 = 1.317\n\nTEAOH: 30.14g × 0.35 = 10.549g TEAOH\nMolar ratio: 10.549g/(147.26g/mol) = 0.0716 mol TEAOH\nSi molar amount: 2.634g/(28.09g/mol) = 0.0938 mol Si\nTEAOH/Si = 0.0716/0.0938 = 0.763\n\nHF: 3g × 0.38 = 1.14g HF\nMolar ratio: 1.14g/(20.01g/mol) = 0.057 mol HF\nHF/Si = 0.057/0.0938 = 0.607\n\nFor Zr-BEA synthesis (from gel composition):\nSi = 1.0\nTEAOH = 0.54\nHF = 0.42\nZr (from ZrO2) = 0.005\nH2O = 5.6",
+    
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 1.317,
+            "Al": 0,
+            "OH": 0.763,
+            "H2O": "",
+            "HF": 0.607,
+            "B": 0,
+            "osda_names": "tetraethylammonium hydroxide",
+            "osda_ratios": 0.763,
+            "crystallization_temperature": 140.0,
+            "crystallization_time": 96.0,
+            "product_names": "Ge-BEC"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0,
+            "Al": 0,
+            "OH": 0.54,
+            "H2O": 5.6,
+            "HF": 0.42,
+            "B": 0,
+            "osda_names": "tetraethylammonium hydroxide",
+            "osda_ratios": 0.54,
+            "crystallization_temperature": 140.0,
+            "crystallization_time": 360.0,
+            "product_names": "Zr-BEA"
+        }
+    ]
+}

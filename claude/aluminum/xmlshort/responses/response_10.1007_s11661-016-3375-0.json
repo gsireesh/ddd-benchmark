@@ -1,0 +1,51 @@
+{
+    "table csv": "Table I Chemical Composition of the Aluminum 1100 Sheet\nElement,Fe,Si,Cu,Mn,Zn,V,Al\nComposition,0.42,0.2,0.08,0.05,0.05,0.01,Bal\n\nTable II Tensile Properties of Al 1100-H18 Sheets\nThickness (mm),Yield Strength (MPa),Tensile Strength (MPa),Total Elongation (pct)\n1.5,180.2,191.3,4.8\n2,177.2,188.3,5.6\n2.5,165.3,175.3,6.2",
+    "extracted text": "The 1100-H18 aluminum sheets with different thicknesses of 1.5, 2, and 2.5 mm were used in this work. The chemical composition and mechanical properties of the sheets are summarized in Tables I and II, respectively. The H18 designation indicates a fully cold-worked state.",
+    "property mapping": "AA designation: AA 1100 (identified from the document)\nTemper: H18 (identified from '1100-H18 aluminum sheets')\nYield Strength: Yield Strength (MPa) in Table II\nUltimate Tensile Strength: Tensile Strength (MPa) in Table II\nElongation: Total Elongation (pct) in Table II\nComposition elements: Fe, Si, Cu, Mn, Zn, V, Al in Table I",
+    "abbreviations": "H18: Fully cold-worked state (as mentioned in the extracted text)\nBal: Balance, indicating the remainder is aluminum",
+    "weight percentage": "The weight percentages are already given in Table I as follows:\nFe: 0.42%\nSi: 0.2%\nCu: 0.08%\nMn: 0.05%\nZn: 0.05%\nV: 0.01%\nAl: Balance (remaining percentage)",
+    "recipes": [
+        {
+            "AA": "1100",
+            "temper": "H18",
+            "YS [MPa]": 180.2,
+            "UTS [MPa]": 191.3,
+            "elong [%]": 4.8,
+            "Has composition": true,
+            "Fe": 0.42,
+            "Si": 0.2,
+            "Cu": 0.08,
+            "Mn": 0.05,
+            "Zn": 0.05,
+            "V": 0.01
+        },
+        {
+            "AA": "1100",
+            "temper": "H18",
+            "YS [MPa]": 177.2,
+            "UTS [MPa]": 188.3,
+            "elong [%]": 5.6,
+            "Has composition": true,
+            "Fe": 0.42,
+            "Si": 0.2,
+            "Cu": 0.08,
+            "Mn": 0.05,
+            "Zn": 0.05,
+            "V": 0.01
+        },
+        {
+            "AA": "1100",
+            "temper": "H18",
+            "YS [MPa]": 165.3,
+            "UTS [MPa]": 175.3,
+            "elong [%]": 6.2,
+            "Has composition": true,
+            "Fe": 0.42,
+            "Si": 0.2,
+            "Cu": 0.08,
+            "Mn": 0.05,
+            "Zn": 0.05,
+            "V": 0.01
+        }
+    ]
+}

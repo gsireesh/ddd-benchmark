@@ -1,0 +1,41 @@
+{
+    "table csv": "Temper,Tensile strength (MPa),Yield strength (MPa),Elongation (%)\nT8,520.3,467.7,8.8\nT9,533.4,492.6,8.5",
+    "extracted text": "The 2519A aluminum alloy (Al–5.8Cu–0.2 Mg–0.3Mn–0.2Zr–0.06 V–0.05Ti–0.2Fe–0.1Si (wt%)) hot-rolled plate was provided by the Southwest Aluminum Company. The plate was solution treated at 533°C for 2 h, quenched and cold rolled 50% directly, and finally peak aged at 165°C for 4 h, which is designated as T8 temper, while the comparison group alloy has a process of pre-aging at room temperature for 24 h before cold rolling, which is T9 temper.",
+    "property mapping": "Tensile strength (MPa) -> UTS [MPa]\nYield strength (MPa) -> YS [MPa]\nElongation (%) -> elong [%]",
+    "abbreviations": "No abbreviations related to composition were found in the document.",
+    "weight percentage": "The document directly provides weight percentages:\nCu: 5.8 wt%\nMg: 0.2 wt%\nMn: 0.3 wt%\nZr: 0.2 wt%\nV: 0.06 wt%\nTi: 0.05 wt%\nFe: 0.2 wt%\nSi: 0.1 wt%",
+    "recipes": [
+        {
+            "AA": "2519A",
+            "temper": "T8",
+            "YS [MPa]": 467.7,
+            "UTS [MPa]": 520.3,
+            "elong [%]": 8.8,
+            "Has composition": true,
+            "Cu": 5.8,
+            "Mg": 0.2,
+            "Mn": 0.3,
+            "Zr": 0.2,
+            "V": 0.06,
+            "Ti": 0.05,
+            "Fe": 0.2,
+            "Si": 0.1
+        },
+        {
+            "AA": "2519A",
+            "temper": "T9",
+            "YS [MPa]": 492.6,
+            "UTS [MPa]": 533.4,
+            "elong [%]": 8.5,
+            "Has composition": true,
+            "Cu": 5.8,
+            "Mg": 0.2,
+            "Mn": 0.3,
+            "Zr": 0.2,
+            "V": 0.06,
+            "Ti": 0.05,
+            "Fe": 0.2,
+            "Si": 0.1
+        }
+    ]
+}

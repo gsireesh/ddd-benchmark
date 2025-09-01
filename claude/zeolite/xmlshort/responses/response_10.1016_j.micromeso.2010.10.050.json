@@ -1,0 +1,25 @@
+```
+{
+    "table csv": "The molar composition of the gel was 1 SiO2:0.2 GeO2:0.04 Al2O3:0.65 SDAOH:0.65 HF:8.7 H2O.",
+    "extracted text": "The H-ITQ-7 zeolite was synthesized according to Leiva et al. [10] with tetraethylorthosilicate (TEOS, 7.66 g, 98%, Aldrich), germanium oxide (0.75 g, Sigma Aldrich), aluminum tri-isopropoxide (0.30 g, 97%, Fluka), SDAOH (1.25 M, 17.25 g), and HF (1.17 g, 40%, MERCK). The resulting gel was transferred to a Teflon lined steel autoclave and crystallized under static conditions at 175°C for 6 days. The product was then calcined at 580°C for 3 h in static air to remove the SDA. The organic template (SDA) was synthesized by reductive amination of cyclohexanone with pyrrolidine. The resulting enamine was reduced by NaBH3CN giving the tertiary amine N-cyclo-hexyl-pyrrolidine. The quarternization of N-cyclo-hexyl-pyrrolidine was done by a reaction with butyliodide.",
+    "property mapping": "SiO2 → Si: 1\nGeO2 → Ge: 0.2\nAl2O3 → Al: 0.04 (need to multiply by 2 since there are 2 Al atoms per Al2O3)\nSDAOH → osda_ratios: 0.65\nHF → HF: 0.65\nH2O → H2O: 8.7\nCrystallization temperature: 175°C\nCrystallization time: 6 days = 144 hours\nSDA/OSDA name: N-butyl-N-cyclohexylpyrrolidinium hydroxide\nProduct name: H-ITQ-7",
+    "formula abbreviations": "SDAOH = N-butyl-N-cyclohexylpyrrolidinium hydroxide, which was synthesized by reductive amination of cyclohexanone with pyrrolidine, reduced by NaBH3CN to get N-cyclo-hexyl-pyrrolidine, then quaternized with butyliodide and ion exchanged to the OH- form.\nAl2O3 provides 2 Al atoms per molecule.",
+    "ratio calculations": "Starting with Si = 1.0 as the reference:\nSi = 1.0\nGe = 0.2\nAl = 0.04 × 2 = 0.08 (converting from Al2O3 to Al)\nOH = 0.65 (from SDAOH)\nHF = 0.65\nH2O = 8.7\nosda_ratios = 0.65",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.2,
+            "Al": 0.08,
+            "OH": 0.65,
+            "H2O": 8.7,
+            "HF": 0.65,
+            "B": 0,
+            "osda_names": "N-butyl-N-cyclohexylpyrrolidinium hydroxide",
+            "osda_ratios": 0.65,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 144.0,
+            "product_names": "H-ITQ-7"
+        }
+    ]
+}
+```

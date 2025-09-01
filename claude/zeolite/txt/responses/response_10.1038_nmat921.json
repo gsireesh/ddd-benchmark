@@ -1,0 +1,37 @@
+{
+    "table csv": "Content (wt%), ITQ-22, Al-ITQ-22\nC, 10.38, 11.71\nN, 1.48, 1.67\nH, 1.84, 2.06\nGeO2a, 34.9, 24.5\nAl2O3a, -, 2.6\nSiO2a, 65.1, 72.9\n\na Refers to the calcined material.",
+    "extracted text": "Highly ordered ITQ-22 material was obtained from a gel of the following composition: 0.66SiO2:0.33GeO2:0.25MPP(OH)2:3.5H2O. The MPP(OH)2 was obtained by reacting an excess of N-methylpyrrolidine (97%,Aldrich; 20 g, 234.9 mmol) with 1,5-dibromopentane (97%,Aldrich; 18.7 g, 81.3 mmol) in acetone (300 ml) under reflux for 24 hours. The resulting ITQ-22 solid was calcined at 580°C in air.\n\nThe synthesis of Al-containing ITQ-22 was performed from a starting mixture of composition: 0.66SiO2:0.33GeO2:0.01Al2O3:0.25MPP(OH)2:15H2O. The synthesis gel was prepared as above, but using aluminium isopropoxide (98%,Aldrich) as the Al source, and the crystallization was carried out at 175°C for 12 days.\n\nThe synthesis of ITQ-22 was performed by adding 10.39 g (49.87 mmol) of tetraethylortosilicate (TEOS,97%,Merck) and 2.61 g (24.95 mmol) of GeO2 (99.998%,Aldrich) to 37.04 g (1.01 mmol OH per g solution) of the MPP(OH)2 solution under continuous stirring. The resulting mixture was kept at room temperature under continuous stirring until the desired gel composition was reached by evaporation of water and ethanol from the hydrolysis of TEOS. The gel was then autoclaved in Teflon-lined stainless steel autoclaves at 175°C for 7 days.",
+    "property mapping": "Si: from SiO2 in gel composition\nGe: from GeO2 in gel composition\nAl: from Al2O3 in gel composition\nH2O: from H2O in gel composition\nOH: from MPP(OH)2 in gel composition\nosda_names: MPP(OH)2 which is 1,5-bis-(methylpyrrolidinium)-pentane dihydroxide\nosda_ratios: from MPP(OH)2 in gel composition\ncrystallization_temperature: 175°C for both recipes\ncrystallization_time: 7 days (168 hours) for ITQ-22, 12 days (288 hours) for Al-ITQ-22\nproduct_names: ITQ-22 for both recipes",
+    "formula abbreviations": "MPP(OH)2 = 1,5-bis-(methylpyrrolidinium)-pentane dihydroxide, which is the structure-directing agent (OSDA)",
+    "ratio calculations": "For ITQ-22 (Al-free):\nSi: 0.66 → normalized to 1.0\nGe: 0.33 → 0.33/0.66 = 0.5\nOH: From MPP(OH)2 0.25 × 2 = 0.5 → 0.5/0.66 = 0.758\nOSDA (MPP): 0.25 → 0.25/0.66 = 0.379\nH2O: 3.5 → 3.5/0.66 = 5.303\n\nFor Al-ITQ-22:\nSi: 0.66 → normalized to 1.0\nGe: 0.33 → 0.33/0.66 = 0.5\nAl: From Al2O3 0.01 × 2 = 0.02 → 0.02/0.66 = 0.03\nOH: From MPP(OH)2 0.25 × 2 = 0.5 → 0.5/0.66 = 0.758\nOSDA (MPP): 0.25 → 0.25/0.66 = 0.379\nH2O: 15 → 15/0.66 = 22.727",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.5,
+            "Al": 0.0,
+            "OH": 0.758,
+            "H2O": 5.303,
+            "HF": 0.0,
+            "B": 0.0,
+            "osda_names": "1,5-bis-(methylpyrrolidinium)-pentane dihydroxide",
+            "osda_ratios": 0.379,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 168.0,
+            "product_names": "ITQ-22"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.5,
+            "Al": 0.03,
+            "OH": 0.758,
+            "H2O": 22.727,
+            "HF": 0.0,
+            "B": 0.0,
+            "osda_names": "1,5-bis-(methylpyrrolidinium)-pentane dihydroxide",
+            "osda_ratios": 0.379,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 288.0,
+            "product_names": "Al-ITQ-22"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "table csv": "BM,Cu,Mg,Li,Zr,Ag,Fe,Mn,Zn,Al,UTS (MPa),EL (%)\n2A97,3.90,0.42,1.40,0.15,0.24,0.12,0.30,0.44,Bal.,443.5,16-21",
+    "extracted text": "The rectangular plates of rolled 2A97 Al–Li alloy delivered in 230 mm×60 mm×2 mm with T4 condition were used. The nominal chemical compositions and mechanical properties of the base metal (BM) are listed in Table 1.",
+    "property mapping": "UTS (MPa) → UTS [MPa]\nEL (%) → elong [%]",
+    "abbreviations": "BM = Base Metal\nBal. = Balance (remaining percentage is aluminum)",
+    "weight percentage": "The weight percentages are directly given in the table:\nCu: 3.90%\nMg: 0.42%\nLi: 1.40%\nZr: 0.15%\nAg: 0.24%\nFe: 0.12%\nMn: 0.30%\nZn: 0.44%\nAl: Balance (remainder)",
+    "recipes": [
+        {
+            "AA": "2A97",
+            "temper": "T4",
+            "UTS [MPa]": 443.5,
+            "elong [%]": 18.5,
+            "Has composition": true,
+            "Cu": 3.90,
+            "Mg": 0.42,
+            "Li": 1.40,
+            "Zr": 0.15,
+            "Ag": 0.24,
+            "Fe": 0.12,
+            "Mn": 0.30,
+            "Zn": 0.44
+        }
+    ]
+}

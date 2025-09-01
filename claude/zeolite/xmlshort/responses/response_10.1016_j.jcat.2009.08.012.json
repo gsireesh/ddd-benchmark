@@ -1,0 +1,23 @@
+{
+    "table csv": "No detailed synthesis recipe table found in the document.",
+    "extracted text": "From section 2.1 Catalyst preparation:\n\nFor ITQ-22:\n- Starting mixture composition: 0.66 SiO2:0.33 GeO2:0.01 Al2O3:0.25 MPP(OH)2:15 H2O\n- The structure directing agent (SDA) is 1,5-bis-(methylpyrrolidinium)-pentane (MPP)\n- Crystallization temperature: 448 K (175°C)\n- Crystallization time: 12 days (288 hours)\n- Tetraethylorthosilicate (TEOS) was used as Si source\n- GeO2 was used as Ge source\n- Aluminium isopropoxide was used as Al source\n\nFor SSZ-33 and Beta/Ge, the paper only mentions they were synthesized following procedures reported in the literature (references [14,35]), without providing specific synthesis details.",
+    "property mapping": "Si: from SiO2 (0.66)\nGe: from GeO2 (0.33)\nAl: from Al2O3 (0.01, which needs to be converted to Al)\nOH: from MPP(OH)2 (0.25, which needs to be converted to OH)\nH2O: directly given (15)\nosda_names: MPP (1,5-bis-(methylpyrrolidinium)-pentane)\nosda_ratios: from MPP(OH)2 (0.25)\ncrystallization_temperature: given as 448 K, which converts to 175°C\ncrystallization_time: given as 12 days, which converts to 288 hours\nproduct_names: ITQ-22",
+    "formula abbreviations": "MPP stands for 1,5-bis-(methylpyrrolidinium)-pentane, which is the structure directing agent (SDA).\nTEOS stands for tetraethylorthosilicate, which is the silicon source.",
+    "ratio calculations": "For ITQ-22:\nStarting with 0.66 SiO2:0.33 GeO2:0.01 Al2O3:0.25 MPP(OH)2:15 H2O\n\nSetting Si to 1.0:\n- Si: 0.66 × 1 = 0.66, normalized to 1.0\n- Ge: 0.33 × 1 = 0.33, normalized to 0.33/0.66 = 0.5\n- Al: 0.01 × 2 = 0.02 (since Al2O3 has 2 Al atoms), normalized to 0.02/0.66 = 0.03\n- OH: 0.25 × 2 = 0.5 (since MPP(OH)2 has 2 OH groups), normalized to 0.5/0.66 = 0.76\n- H2O: 15, normalized to 15/0.66 = 22.73\n- OSDA (MPP): 0.25, normalized to 0.25/0.66 = 0.38",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.5,
+            "Al": 0.03,
+            "OH": 0.76,
+            "H2O": 22.73,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "1,5-bis-(methylpyrrolidinium)-pentane (MPP)",
+            "osda_ratios": 0.38,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 288.0,
+            "product_names": "ITQ-22"
+        }
+    ]
+}

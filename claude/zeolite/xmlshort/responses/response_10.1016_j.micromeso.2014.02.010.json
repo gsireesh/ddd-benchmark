@@ -1,0 +1,51 @@
+{
+    "table csv": "No tables containing synthesis recipes were provided in the document.",
+    "extracted text": "ITQ-17 were synthesized following literature procedures using tetraethyl ammonium (TEA+), 1-benzyl-4-aza-1-azoniacyclo[2,2,2]octane (BD+) and hexamethonium (HM2+) cations.\n\nWith TEAOH, a gel with the composition 0.666Si – 0.333Ge – 0.5TEAOH – 0.5HF – 7.5H2O was prepared and heated for 4 days at 140 °C under stirring (40 rpm).\n\nThe same gel composition was used to prepare a sample with BDOH: 0.666Si – 0.333Ge – 0.5BDOH – 0.5HF – 7.5H2O. The gel was autoclaved at 150 °C for 24 h under static conditions.\n\nWith HM(OH)2, a gel with the composition 0.833Si – 0.166Ge – 0.25HM(OH)2 – 2H2O was heated at 175 °C for 2 weeks under slow stirring (40 rpm).",
+    "property mapping": "Si: Silicon content indicated as decimal value (0.666 or 0.833)\nGe: Germanium content indicated as decimal value (0.333 or 0.166)\nOH: Included in the structure directing agents (TEAOH, BDOH, HM(OH)2)\nH2O: Water content (7.5 or 2)\nHF: Hydrogen fluoride content (0.5)\nosda_names: Structure directing agents - tetraethyl ammonium hydroxide (TEAOH), 1-benzyl-4-aza-1-azoniacyclo[2,2,2]octane hydroxide (BDOH), or hexamethonium hydroxide (HM(OH)2)\nosda_ratios: Molar ratios of the structure directing agents (0.5 or 0.25)\ncrystallization_temperature: Temperature in °C (140, 150, or 175)\ncrystallization_time: Duration in hours (96, 24, or 336)\nproduct_names: ITQ-17",
+    "formula abbreviations": "TEA+: tetraethyl ammonium cation\nBD+: 1-benzyl-4-aza-1-azoniacyclo[2,2,2]octane cation\nHM2+: hexamethonium cation\nTEAOH: tetraethyl ammonium hydroxide\nBDOH: 1-benzyl-4-aza-1-azoniacyclo[2,2,2]octane hydroxide\nHM(OH)2: hexamethonium hydroxide",
+    "ratio calculations": "Recipe 1 (TEAOH):\nSi = 0.666 → normalized to 1.0: 0.666/0.666 = 1.0\nGe = 0.333 → normalized to Si = 1.0: 0.333/0.666 = 0.5\nTEAOH = 0.5 → normalized to Si = 1.0: 0.5/0.666 = 0.75\nHF = 0.5 → normalized to Si = 1.0: 0.5/0.666 = 0.75\nH2O = 7.5 → normalized to Si = 1.0: 7.5/0.666 = 11.26\n\nRecipe 2 (BDOH):\nSi = 0.666 → normalized to 1.0: 0.666/0.666 = 1.0\nGe = 0.333 → normalized to Si = 1.0: 0.333/0.666 = 0.5\nBDOH = 0.5 → normalized to Si = 1.0: 0.5/0.666 = 0.75\nHF = 0.5 → normalized to Si = 1.0: 0.5/0.666 = 0.75\nH2O = 7.5 → normalized to Si = 1.0: 7.5/0.666 = 11.26\n\nRecipe 3 (HM(OH)2):\nSi = 0.833 → normalized to 1.0: 0.833/0.833 = 1.0\nGe = 0.166 → normalized to Si = 1.0: 0.166/0.833 = 0.199\nHM(OH)2 = 0.25 → normalized to Si = 1.0: 0.25/0.833 = 0.3\nH2O = 2 → normalized to Si = 1.0: 2/0.833 = 2.4",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.5,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 11.26,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "tetraethyl ammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 140.0,
+            "crystallization_time": 96.0,
+            "product_names": "ITQ-17"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.5,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 11.26,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "1-benzyl-4-aza-1-azoniacyclo[2,2,2]octane hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 24.0,
+            "product_names": "ITQ-17"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.199,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 2.4,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "hexamethonium hydroxide",
+            "osda_ratios": 0.3,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 336.0,
+            "product_names": "ITQ-17"
+        }
+    ]
+}

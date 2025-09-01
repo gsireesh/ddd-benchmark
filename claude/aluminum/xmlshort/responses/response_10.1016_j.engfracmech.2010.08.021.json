@@ -1,0 +1,19 @@
+{
+    "table csv": "Tensile direction,Yield stress (MPa),Tensile strength (MPa),R-value (.),Fracture strain (.)\nL,469,510,0.7,0.14\nT,452,498,1.5,0.13\nD,394,436,2.0,0.16",
+    "extracted text": "The material considered in the present study is a new member of the Al–Cu family, developed in view of applications in aerospace industry (2xxx series). These alloys are specifically designed to have good mechanical properties in order to use them for structural components in aircrafts. They have copper (Cu) as the major alloying element and hardening is achieved by aging. The new alloy Al 2198 contains also lithium as an alloying element to reduce the density and increase Young's modulus and thus to save weight. Each 1 wt.% Li added to Al reduces density by 3% and increases the elastic modulus by about 6%. It has been solution heat treated, cold worked to improve strength, and artificially aged (T8 temper).",
+    "property mapping": "AA: Al 2198 (identified in text)\ntemper: T8 (identified in text as 'T8 temper')\nYS [MPa]: Yield stress (MPa) in Table 2\nUTS [MPa]: Tensile strength (MPa) in Table 2\nelong [%]: Fracture strain (.) in Table 2, which appears to be in decimal form rather than percentage",
+    "abbreviations": "L: Longitudinal (rolling direction)\nT: Transverse (perpendicular to rolling direction)\nD: Diagonal (45 degrees to rolling direction)",
+    "weight percentage": "The document does not provide specific weight percentages for the elements in Al 2198. It only mentions that it contains Cu as major alloying element and Li as another alloying element, without specifying exact percentages.",
+    "recipes": [
+        {
+            "AA": "2198",
+            "temper": "T8",
+            "YS [MPa]": 469,
+            "UTS [MPa]": 510,
+            "elong [%]": 14.0,
+            "Has composition": "nominal",
+            "Cu": "",
+            "Li": ""
+        }
+    ]
+}

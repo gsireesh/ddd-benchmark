@@ -1,0 +1,25 @@
+{
+    "table csv": "Elements,Si,Mn,Cr,Zr,Mg,Cu,Ti,Zn,Fe,Al\nwt%,0.09,0.08,0.03,0.11,2.00,2.00,0.05,5.7,0.12,Rest\n\nMechanical property,Density ρ (g cm^-3),Thermal conductivity k (W m^-1 K^-1),Melting temperature (K),Specific heat c (J kg^-1 K^-1),Elasticity modulus E (GPa),Yield strength σs (MPa),Tensile strength σb (MPa)\nValue,2.83,157,833,860,70.3,455,510",
+    "extracted text": "The paper investigates the brittle removal mechanism of ductile materials in ultra-high speed machining (UHSM) using 7050-T7451 aluminum alloy. This alloy is described as a typical kind of ductile material which has been widely used in areas such as aerospace, automobile and shipbuilding.",
+    "property mapping": "AA: 7050 (from the alloy designation 7050-T7451)\ntemper: T7451 (from the alloy designation 7050-T7451)\nYS [MPa]: 455 (from Table 2, 'Yield strength, σs')\nUTS [MPa]: 510 (from Table 2, 'Tensile strength, σb')\nSi, Mn, Cr, Zr, Mg, Cu, Ti, Zn, Fe: Values taken directly from Table 1",
+    "abbreviations": "No special abbreviations used in the composition or properties descriptions.",
+    "weight percentage": "The document already provides weight percentages for each element in Table 1: Si (0.09%), Mn (0.08%), Cr (0.03%), Zr (0.11%), Mg (2.00%), Cu (2.00%), Ti (0.05%), Zn (5.7%), Fe (0.12%), and the rest is Al.",
+    "recipes": [
+        {
+            "AA": "7050",
+            "temper": "T7451",
+            "YS [MPa]": 455.0,
+            "UTS [MPa]": 510.0,
+            "Has composition": true,
+            "Si": 0.09,
+            "Mn": 0.08,
+            "Cr": 0.03,
+            "Zr": 0.11,
+            "Mg": 2.00,
+            "Cu": 2.00,
+            "Ti": 0.05,
+            "Zn": 5.7,
+            "Fe": 0.12
+        }
+    ]
+}

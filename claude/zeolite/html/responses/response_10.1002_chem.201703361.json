@@ -1,0 +1,23 @@
+{
+    "table csv": "No explicit table containing the recipe was found in the document.",
+    "extracted text": "In the typical synthesis of zeolite SCM-14, Ludox (SiO2, HS-40, 40% Sigma-Aldrich), 4-pyrrolidinopyridine (OSDA, 98.0%, Shanghai Di Bo chemical technology Co., Ltd), GeO2 (99.0%, Sinopharm Chemical Reagent Co., Ltd), HF (40% in water solution, Sinopharm Chemical Reagent Co., Ltd), and distilled water were used as source materials. Firstly, GeO2 and 4-pyrrolidinopyridine were added to distilled water, and the mixture was stirred at room temperature until all the GeO2 and 4-pyrrolidinopyridine were dissolved. Secondly, Ludox was added dropwise while stirring. After the gel became homogeneous, HF was introduced and the resulting gel has a composition of 1 SiO2:0.4 GeO2:0.6 OSDA:0.6 HF:20 H2O. Finally, the mixture was aged at 353 K for 2 hours, and then transferred into a 23 mL Teflon-lined stainless-steel autoclave. The autoclave was sealed and the mixture allowed to crystallize at 383 K for 1 day and subsequently at 443 K for 5 days under dynamic condition (rotation oven, 20 rpm).",
+    "property mapping": "SiO2 → Si\nGeO2 → Ge\nOSDA → 4-pyrrolidinopyridine\nHF → HF\nH2O → H2O\n383 K and 443 K → crystallization_temperature\n1 day and 5 days → crystallization_time\nSCM-14 → product_names",
+    "formula abbreviations": "OSDA stands for organic structure-directing agent, which in this case is 4-pyrrolidinopyridine.\nThe temperatures are given in Kelvin and need to be converted to Celsius: 383 K = 110°C, 443 K = 170°C.",
+    "ratio calculations": "The gel composition is given as 1 SiO2:0.4 GeO2:0.6 OSDA:0.6 HF:20 H2O. With Si set to 1.0:\nSi = 1.0\nGe = 0.4\nosda_ratios = 0.6\nHF = 0.6\nH2O = 20.0",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.4,
+            "Al": 0.0,
+            "OH": 0.0,
+            "H2O": 20.0,
+            "HF": 0.6,
+            "B": 0.0,
+            "osda_names": "4-pyrrolidinopyridine",
+            "osda_ratios": 0.6,
+            "crystallization_temperature": 140.0,
+            "crystallization_time": 144.0,
+            "product_names": "SCM-14"
+        }
+    ]
+}

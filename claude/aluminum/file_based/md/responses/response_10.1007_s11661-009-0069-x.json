@@ -1,0 +1,69 @@
+{
+    "table csv": "Alloy,Si,Fe,Cu,Mn,Mg,Cr,Zn,Ti,Ni\n7075 (D),0.05,0.04,0.74,0.01,2.89,0.13,3.05,0.04,-\n2024 (L),0.07,0.04,2.46,0.21,1.26,0.04,0.14,0.02,0.06\n1050 (H),0.12,0.21,< 0.005,0.02,0.01,< 0.010,< 0.005,< 0.010,-\n\nAlloy,UTS* (MPa),YS* (MPa),HV,Elongation* (Pct)\n7075-T6 (D),545,475,188,8\n2024-T3 (L),457,333,138,16\n1050-H24 (H),136,128,44,7",
+    
+    "extracted text": "The T6 temper carried out for the Al 7075 alloy involved solution treating at 465°C for 30 minutes, followed by rapid quenching in water and finally age hardening at 135°C for 14 hours. The T6 temper carried out for the Al 2024 alloy involved solution treating at 490°C for 30 minutes, followed by rapid quenching in water and finally age hardening at 160°C for 6 hours. T3 = solution treating followed by quenching, cold working, and, finally, natural aging. H24 = work hardening followed by partial annealing (240°C).",
+    
+    "property mapping": "UTS* (MPa) -> UTS [MPa] (ultimate tensile strength)\nYS* (MPa) -> YS [MPa] (yield strength)\nHV -> Hardness (Vickers hardness)\nElongation* (Pct) -> elong [%] (elongation percentage)",
+    
+    "abbreviations": "D - Designation for Al 7075 alloy in this paper\nL - Designation for Al 2024 alloy in this paper\nH - Designation for Al 1050 alloy in this paper\nT6 - Solution treating followed by quenching and peak age hardening\nT3 - Solution treating followed by quenching, cold working, and natural aging\nH24 - Work hardening followed by partial annealing (240°C)\nHV - Vickers hardness",
+    
+    "weight percentage": "Converting from atomic percentage to weight percentage:\n\nFor Al 7075 (D):\nSi: 0.05 at% → 0.08 wt%\nFe: 0.04 at% → 0.13 wt%\nCu: 0.74 at% → 2.71 wt%\nMn: 0.01 at% → 0.03 wt%\nMg: 2.89 at% → 4.05 wt%\nCr: 0.13 at% → 0.39 wt%\nZn: 3.05 at% → 11.50 wt%\nTi: 0.04 at% → 0.11 wt%\n\nFor Al 2024 (L):\nSi: 0.07 at% → 0.11 wt%\nFe: 0.04 at% → 0.13 wt%\nCu: 2.46 at% → 9.02 wt%\nMn: 0.21 at% → 0.67 wt%\nMg: 1.26 at% → 1.77 wt%\nCr: 0.04 at% → 0.12 wt%\nZn: 0.14 at% → 0.53 wt%\nTi: 0.02 at% → 0.06 wt%\nNi: 0.06 at% → 0.20 wt%\n\nFor Al 1050 (H):\nSi: 0.12 at% → 0.19 wt%\nFe: 0.21 at% → 0.68 wt%\nCu: < 0.005 at% → < 0.02 wt%\nMn: 0.02 at% → 0.06 wt%\nMg: 0.01 at% → 0.01 wt%\nCr: < 0.010 at% → < 0.03 wt%\nZn: < 0.005 at% → < 0.02 wt%\nTi: < 0.010 at% → < 0.03 wt%",
+    
+    "recipes": [
+        {
+            "AA": "7075",
+            "temper": "T6",
+            "YS [MPa]": 475.0,
+            "UTS [MPa]": 545.0,
+            "elong [%]": 8.0,
+            "Hardness": 188.0,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Si": 0.08,
+            "Fe": 0.13,
+            "Cu": 2.71,
+            "Mn": 0.03,
+            "Mg": 4.05,
+            "Cr": 0.39,
+            "Zn": 11.50,
+            "Ti": 0.11
+        },
+        {
+            "AA": "2024",
+            "temper": "T3",
+            "YS [MPa]": 333.0,
+            "UTS [MPa]": 457.0,
+            "elong [%]": 16.0,
+            "Hardness": 138.0,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Si": 0.11,
+            "Fe": 0.13,
+            "Cu": 9.02,
+            "Mn": 0.67,
+            "Mg": 1.77,
+            "Cr": 0.12,
+            "Zn": 0.53,
+            "Ti": 0.06,
+            "Ni": 0.20
+        },
+        {
+            "AA": "1050",
+            "temper": "H24",
+            "YS [MPa]": 128.0,
+            "UTS [MPa]": 136.0,
+            "elong [%]": 7.0,
+            "Hardness": 44.0,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Si": 0.19,
+            "Fe": 0.68,
+            "Cu": 0.02,
+            "Mn": 0.06,
+            "Mg": 0.01,
+            "Cr": 0.03,
+            "Zn": 0.02,
+            "Ti": 0.03
+        }
+    ]
+}

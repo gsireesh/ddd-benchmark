@@ -1,0 +1,29 @@
+```json
+{
+    "table csv": "Material,Cu,Mg,Si,Fe,Mn,Zn,Ti,Cr,Al\nAA6063-T6,0.1,0.4–0.9,0.3–0.7,0.35,0.3,0.2,0.2,0.1,Balance",
+    "extracted text": "Material: AA6063-T6\nMechanical properties:\nYield strength, σy (MPa): 150±7\nUltimate tensile strength, σUTS (MPa): 185±6\nIndentation hardness (MPa): 585±10\nElongation El (%): 7±1",
+    "property mapping": "AA: AA6063-T6\ntemper: T6\nYS [MPa]: 150±7\nUTS [MPa]: 185±6\nelong [%]: 7±1\nHardness: 585±10\nHardness UNIT: MPa\nCu: 0.1\nMg: 0.4–0.9\nSi: 0.3–0.7\nFe: 0.35\nMn: 0.3\nZn: 0.2\nTi: 0.2\nCr: 0.1",
+    "abbreviations": "AA: Aluminum Association\nT6: Solution heat treated and artificially aged\nσy: Yield strength\nσUTS: Ultimate tensile strength\nEl: Elongation",
+    "weight percentage": "Cu: 0.1 wt%\nMg: Mean of range 0.4-0.9 = 0.65 wt%\nSi: Mean of range 0.3-0.7 = 0.5 wt%\nFe: 0.35 wt%\nMn: 0.3 wt%\nZn: 0.2 wt%\nTi: 0.2 wt%\nCr: 0.1 wt%\nAl: Balance (remainder)",
+    "recipes": [
+        {
+            "AA": "AA6063",
+            "temper": "T6",
+            "YS [MPa]": 150.0,
+            "UTS [MPa]": 185.0,
+            "elong [%]": 7.0,
+            "Hardness": 585.0,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Cu": 0.1,
+            "Mg": 0.65,
+            "Si": 0.5,
+            "Fe": 0.35,
+            "Mn": 0.3,
+            "Zn": 0.2,
+            "Ti": 0.2,
+            "Cr": 0.1
+        }
+    ]
+}
+```

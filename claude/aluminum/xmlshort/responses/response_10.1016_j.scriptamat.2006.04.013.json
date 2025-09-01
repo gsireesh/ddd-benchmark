@@ -1,0 +1,25 @@
+{
+    "table csv": "Al,Cu,Mn,Fe,Ti,V,Zn,Si,Zr,Tensile strength,0.2% proof strength,Elongation\nBal.,6.48,0.32,0.23,0.06,0.08,0.04,0.49,0.2,159 MPa,114 MPa,17.5 %",
+    "extracted text": "The base material used in this study was a 5-mm-thick 2219-O aluminum alloy plate, with chemical compositions and mechanical properties listed in Table 1.",
+    "property mapping": "AA: 2219-O (from text)\ntemper: O (from text)\nYS [MPa]: 114 MPa (from table, labeled as '0.2% proof strength')\nUTS [MPa]: 159 MPa (from table, labeled as 'Tensile strength')\nelong [%]: 17.5% (from table)",
+    "abbreviations": "No abbreviations found in the composition data.",
+    "weight percentage": "Cu: 6.48%, Mn: 0.32%, Fe: 0.23%, Ti: 0.06%, V: 0.08%, Zn: 0.04%, Si: 0.49%, Zr: 0.2%, Al: Balance",
+    "recipes": [
+        {
+            "AA": "2219",
+            "temper": "O",
+            "YS [MPa]": 114.0,
+            "UTS [MPa]": 159.0,
+            "elong [%]": 17.5,
+            "Has composition": true,
+            "Cu": 6.48,
+            "Mn": 0.32,
+            "Fe": 0.23,
+            "Ti": 0.06,
+            "V": 0.08,
+            "Zn": 0.04,
+            "Si": 0.49,
+            "Zr": 0.2
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+```json
+{
+    "table csv": "Alloy,Zn,Mg,Cu,Zr,Al,Zn+Mg+Cu,Zn/Mg\n7B85,7.50,1.70,1.40,0.12,Bal,10.6,4.4\n7050,5.93,2.23,2.16,-,Bal,10.3,2.7\n7B04,6.23,2.88,1.58,0.12,Bal,10.7,2.2\n7150,6.56,2.25,2.10,0.12,Bal,10.9,2.9\n7055,8.30,2.05,2.16,0.12,Bal,12.5,4.0\n7A93,10.80,2.90,1.80,0.12,Bal,15.5,3.7\n\nAlloy,Solution temper,Peak-aging temper,Ultimate tensile strength (MPa),Yield strength (MPa),Electrical conductivity (MS/m)\n7B85,475 °C/2 h,120°C/24 h,578±8,520±10,19.4±0.1\n7050,460 °C/1 h+474 °C/2 h,120°C/24 h,620±15,540±15,17.9±0.1\n7B04,470 °C/1.5 h,120°C/24 h,645±0,577±3,16.9±0.0\n7150,470 °C/1.5 h+480 °C/1 h,120°C/24 h,660±0,582±3,17.4±0.0\n7055,470 °C/2 h,120°C/24 h,673±3,595±5,17.5±0.1\n7A93,450 °C/1.5 h+475 °C/2 h,120°C/24 h,795±3,770±3,16.6±0.0",
+    
+    "extracted text": "The paper studies 6 different Al-Zn-Mg-Cu alloys in peak-aged state (T6 temper). All alloys underwent solution treatment followed by peak-aging at 120°C for 24 hours. The main precipitates in these alloys are platelet η′ precipitates with habit planes parallel to the {111}Al planes. The mechanical properties were measured at room temperature using a MTS-810 test machine at a constant crosshead speed of 1 mm/min.",
+    
+    "property mapping": "AA designation = Alloy column (7B85, 7050, 7B04, 7150, 7055, 7A93)\nTemper = T6 (peak-aged state, 120°C/24h)\nUTS [MPa] = Ultimate tensile strength (MPa) column\nYS [MPa] = Yield strength (MPa) column\nZn, Mg, Cu, Zr = corresponding columns in Table 1",
+    
+    "abbreviations": "Bal = Balance (remaining percentage is aluminum)\nMS/m = megasiemens per meter (unit for electrical conductivity)\nT6 = Solution heat treated and artificially aged",
+    
+    "weight percentage": "The weight percentages are directly provided in Table 1 for Zn, Mg, Cu, and Zr. Al is the balance (remainder) of the composition.",
+    
+    "recipes": [
+        {
+            "AA": "7B85",
+            "temper": "T6",
+            "YS [MPa]": 520,
+            "UTS [MPa]": 578,
+            "Has composition": true,
+            "Zn": 7.50,
+            "Mg": 1.70,
+            "Cu": 1.40,
+            "Zr": 0.12
+        },
+        {
+            "AA": "7050",
+            "temper": "T6",
+            "YS [MPa]": 540,
+            "UTS [MPa]": 620,
+            "Has composition": true,
+            "Zn": 5.93,
+            "Mg": 2.23,
+            "Cu": 2.16
+        },
+        {
+            "AA": "7B04",
+            "temper": "T6",
+            "YS [MPa]": 577,
+            "UTS [MPa]": 645,
+            "Has composition": true,
+            "Zn": 6.23,
+            "Mg": 2.88,
+            "Cu": 1.58,
+            "Zr": 0.12
+        },
+        {
+            "AA": "7150",
+            "temper": "T6",
+            "YS [MPa]": 582,
+            "UTS [MPa]": 660,
+            "Has composition": true,
+            "Zn": 6.56,
+            "Mg": 2.25,
+            "Cu": 2.10,
+            "Zr": 0.12
+        },
+        {
+            "AA": "7055",
+            "temper": "T6",
+            "YS [MPa]": 595,
+            "UTS [MPa]": 673,
+            "Has composition": true,
+            "Zn": 8.30,
+            "Mg": 2.05,
+            "Cu": 2.16,
+            "Zr": 0.12
+        },
+        {
+            "AA": "7A93",
+            "temper": "T6",
+            "YS [MPa]": 770,
+            "UTS [MPa]": 795,
+            "Has composition": true,
+            "Zn": 10.80,
+            "Mg": 2.90,
+            "Cu": 1.80,
+            "Zr": 0.12
+        }
+    ]
+}
+```

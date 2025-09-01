@@ -1,0 +1,44 @@
+{
+    "table csv": "Test material,Composition,Average grain size (μm)\n70/30 brass,70% Cu, 30%Zn,75\nPure copper,99.9% Cu,25\n5052 Aluminum,2.2% Mg, 0.40% Fe, 0.25% Si, 0.17% Cr, 0.1% Mn, 0.1% Cu, 0.1% Zn, Bal. Al,52\n6061 Aluminum,1.0% Mg, 0.6% Si, 0.4% Fe, 0.4% Cu, 0.3% Cr, 0.3% Zn, 0.1% Mn, 0.1% Ti, Bal. Al,100",
+    "extracted text": "The paper studies flow forming of various FCC alloys including 5052 and 6061 aluminum alloys. The 6061 and 5052 aluminum alloys were annealed at 415 and 345°C for 2-3 h to get 6061-O and 5052-O alloys. Table 2 shows YS and UTS values for both as-received and flow formed conditions. Table 3 shows elongation percentages. The calculated n-values (work hardening exponent) are 0.29 for 5052 aluminum and 0.22 for 6061 aluminum.",
+    "property mapping": "YS [MPa] = 'YS (MPa)' in Table 2\nUTS [MPa] = 'UTS (MPa)' in Table 2\nelong [%] = 'El (%)' in Table 3\nTemper = 'O' for both alloys as mentioned in extracted text",
+    "abbreviations": "YS = Yield Strength\nUTS = Ultimate Tensile Strength\nEl = Elongation\nBal. = Balance (remainder of the composition)",
+    "weight percentage": "For 5052 aluminum:\nMg: 2.2%\nFe: 0.40%\nSi: 0.25%\nCr: 0.17%\nMn: 0.1%\nCu: 0.1%\nZn: 0.1%\nAl: Balance (approximately 96.68%)\n\nFor 6061 aluminum:\nMg: 1.0%\nSi: 0.6%\nFe: 0.4%\nCu: 0.4%\nCr: 0.3%\nZn: 0.3%\nMn: 0.1%\nTi: 0.1%\nAl: Balance (approximately 96.8%)",
+    "recipes": [
+        {
+            "AA": "5052",
+            "temper": "O",
+            "YS [MPa]": 80.0,
+            "UTS [MPa]": 195.0,
+            "elong [%]": 24.0,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Mg": 2.2,
+            "Fe": 0.40,
+            "Si": 0.25,
+            "Cr": 0.17,
+            "Mn": 0.1,
+            "Cu": 0.1,
+            "Zn": 0.1
+        },
+        {
+            "AA": "6061",
+            "temper": "O",
+            "YS [MPa]": 80.0,
+            "UTS [MPa]": 165.0,
+            "elong [%]": 18.0,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Mg": 1.0,
+            "Si": 0.6,
+            "Fe": 0.4,
+            "Cu": 0.4,
+            "Cr": 0.3,
+            "Zn": 0.3,
+            "Mn": 0.1,
+            "Ti": 0.1
+        }
+    ]
+}

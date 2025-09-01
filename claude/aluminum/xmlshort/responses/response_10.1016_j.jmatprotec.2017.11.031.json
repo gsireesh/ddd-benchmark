@@ -1,0 +1,40 @@
+{
+    "table csv": "Materials,Al,Mg,Si,Fe,Cu,Mn,Zn,Cr,Ti,UTS (MPa),EL (%),MH (HV0.1)\n6061-T4,Bal.,0.9,0.6,0.55,0.3,0.15,0.25,0.3,0.15,300,9,100aver.\nAZ31B,3.05,Bal.,0.016,0.001,0.003,0.44,1.10,–,–,240,12,50aver.",
+    "extracted text": "The study uses 6061-T4 Al alloy and AZ31B Mg alloy plates of dimensions 200 mm (length) × 50 mm (width) × 3 mm (thickness) as test pieces. The chemical compositions and mechanical properties of these base metals are listed in Table 1.",
+    "property mapping": "Aluminum alloy: AA designation = 6061-T4, UTS = 300 MPa, EL = 9%, Hardness = 100 HV0.1\nMagnesium alloy: AZ31B, UTS = 240 MPa, EL = 12%, Hardness = 50 HV0.1",
+    "abbreviations": "Bal. = Balance (remaining percentage)\nUTS = Ultimate Tensile Strength\nEL = Elongation\nMH = Microhardness\nHV0.1 = Vickers hardness with 0.1 kgf load\naver. = average",
+    "weight percentage": "For AA 6061-T4: Mg = 0.9%, Si = 0.6%, Fe = 0.55%, Cu = 0.3%, Mn = 0.15%, Zn = 0.25%, Cr = 0.3%, Ti = 0.15%, Al = Balance\nFor AZ31B: Al = 3.05%, Mg = Balance, Si = 0.016%, Fe = 0.001%, Cu = 0.003%, Mn = 0.44%, Zn = 1.10%",
+    "recipes": [
+        {
+            "AA": "6061",
+            "temper": "T4",
+            "UTS [MPa]": 300,
+            "elong [%]": 9,
+            "Hardness": 100,
+            "Hardness UNIT": "HV0.1",
+            "Has composition": "True",
+            "Mg": 0.9,
+            "Si": 0.6,
+            "Fe": 0.55,
+            "Cu": 0.3,
+            "Mn": 0.15,
+            "Zn": 0.25,
+            "Cr": 0.3,
+            "Ti": 0.15
+        },
+        {
+            "AA": "AZ31B",
+            "UTS [MPa]": 240,
+            "elong [%]": 12,
+            "Hardness": 50,
+            "Hardness UNIT": "HV0.1",
+            "Has composition": "True",
+            "Al": 3.05,
+            "Si": 0.016,
+            "Fe": 0.001,
+            "Cu": 0.003,
+            "Mn": 0.44,
+            "Zn": 1.10
+        }
+    ]
+}

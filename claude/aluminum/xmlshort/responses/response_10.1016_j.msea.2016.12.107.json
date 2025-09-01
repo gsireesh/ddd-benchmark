@@ -1,0 +1,74 @@
+{
+    "table csv": "Element,Mg,Si,Mn,Fe,Cu,Zn,Ti,Al\nNominal [16],5.0–6.0,1.8–2.6,0.5–0.8,≤0.20,≤0.05,≤0.07,≤0.20,bal.\nOES,5.77,2.27,0.714,0.115,0.02,0.04,0.02,bal.\n\nSample,Tensile strength (MPa),Yield strength (MPa),Elongation (%)\nCast slab (F),204.9,90.2,6.1\nCast slab (T6),222.6,153.7,3.2\nRolled sheet* (T4),242.9,96.9,20.9\nRolled sheet* (T6),248.6,179.6,11.5\n*PB treated, hot rolled, cold rolled and heat treated sheets.",
+    
+    "extracted text": "The material used in this study was AlMg5Si2Mn HPDC alloy. The study compares different processing methods: PA treatment (homogenization at 580°C for 24h) and PB treatment (3% cold rolling followed by homogenization at 580°C for 24h). The PB treatment led to better hot workability by disintegrating interconnected Mg2Si phases. T4 treatment involved solution treatment at 580°C for 1h followed by water quenching. T6 treatment involved additional aging at 250°C for 1h after T4 treatment.",
+    
+    "property mapping": "- Tensile strength (MPa) → UTS [MPa]\n- Yield strength (MPa) → YS [MPa]\n- Elongation (%) → elong [%]\n- F → as-cast condition\n- T4 → solution heat treated and naturally aged\n- T6 → solution heat treated and artificially aged\n- PB → pre-homogenization deformation treatment (3% cold rolling + homogenization at 580°C for 24h)",
+    
+    "abbreviations": "- HPDC: High Pressure Die Casting\n- OES: Optical Emission Spectroscopy\n- PA: Process A (homogenization at 580°C for 24h)\n- PB: Process B (3% cold rolling followed by homogenization at 580°C for 24h)\n- bal.: balance (remainder of composition)",
+    
+    "weight percentage": "From the OES measurements (actual composition):\n- Mg: 5.77%\n- Si: 2.27%\n- Mn: 0.714%\n- Fe: 0.115%\n- Cu: 0.02%\n- Zn: 0.04%\n- Ti: 0.02%\n- Al: balance (approximately 91.051%)",
+    
+    "recipes": [
+        {
+            "AA": "AlMg5Si2Mn",
+            "temper": "F",
+            "YS [MPa]": 90.2,
+            "UTS [MPa]": 204.9,
+            "elong [%]": 6.1,
+            "Has composition": true,
+            "Mg": 5.77,
+            "Si": 2.27,
+            "Mn": 0.714,
+            "Fe": 0.115,
+            "Cu": 0.02,
+            "Zn": 0.04,
+            "Ti": 0.02
+        },
+        {
+            "AA": "AlMg5Si2Mn",
+            "temper": "T6",
+            "YS [MPa]": 153.7,
+            "UTS [MPa]": 222.6,
+            "elong [%]": 3.2,
+            "Has composition": true,
+            "Mg": 5.77,
+            "Si": 2.27,
+            "Mn": 0.714,
+            "Fe": 0.115,
+            "Cu": 0.02,
+            "Zn": 0.04,
+            "Ti": 0.02
+        },
+        {
+            "AA": "AlMg5Si2Mn",
+            "temper": "T4",
+            "YS [MPa]": 96.9,
+            "UTS [MPa]": 242.9,
+            "elong [%]": 20.9,
+            "Has composition": true,
+            "Mg": 5.77,
+            "Si": 2.27,
+            "Mn": 0.714,
+            "Fe": 0.115,
+            "Cu": 0.02,
+            "Zn": 0.04,
+            "Ti": 0.02
+        },
+        {
+            "AA": "AlMg5Si2Mn",
+            "temper": "T6",
+            "YS [MPa]": 179.6,
+            "UTS [MPa]": 248.6,
+            "elong [%]": 11.5,
+            "Has composition": true,
+            "Mg": 5.77,
+            "Si": 2.27,
+            "Mn": 0.714,
+            "Fe": 0.115,
+            "Cu": 0.02,
+            "Zn": 0.04,
+            "Ti": 0.02
+        }
+    ]
+}

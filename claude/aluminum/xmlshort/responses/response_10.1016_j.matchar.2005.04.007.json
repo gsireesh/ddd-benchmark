@@ -1,0 +1,29 @@
+{
+    "table csv": "Material,σy (MPa),UTS (MPa),Elongation (%)\n7075 T6,524,587,11\n7075 T6 FSP,325 (62%),450 (77%),7 (64%)",
+    "extracted text": "The paper discusses 7075 aluminum alloy in the T6 condition that was subjected to Friction Stir Processing (FSP). The micro-hardness profile shows a value of 124 Hv in the center of the processed zone, with a maximum of 141 Hv at a distance of 3.5 mm from the center. The FSP process resulted in a fine, equiaxed grain structure with mean grain equivalent diameter close to 4 μm in the nugget zone.",
+    "property mapping": "σy = Yield Strength (YS)\nUTS = Ultimate Tensile Strength\nElongation = elongation percentage\nHv = Vickers hardness",
+    "abbreviations": "FSP = Friction Stir Processing\nT6 = Solution heat treated and artificially aged\nHv = Vickers hardness\nTMAZ = Thermo-mechanically affected zone\nHAZ = Heat affected zone",
+    "weight percentage": "No specific weight percentage composition information is provided in the document for the 7075 aluminum alloy.",
+    "recipes": [
+        {
+            "AA": "7075",
+            "temper": "T6",
+            "YS [MPa]": 524.0,
+            "UTS [MPa]": 587.0,
+            "elong [%]": 11.0,
+            "Hardness": 141.0,
+            "Hardness UNIT": "Hv",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "7075",
+            "temper": "T6 FSP",
+            "YS [MPa]": 325.0,
+            "UTS [MPa]": 450.0,
+            "elong [%]": 7.0,
+            "Hardness": 124.0,
+            "Hardness UNIT": "Hv",
+            "Has composition": "nominal"
+        }
+    ]
+}

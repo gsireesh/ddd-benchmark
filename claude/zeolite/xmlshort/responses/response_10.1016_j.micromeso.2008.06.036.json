@@ -1,0 +1,23 @@
+{
+    "table csv": "No table with synthesis information is provided in the document.",
+    "extracted text": "The SU-57 series was prepared hydro(solvo)-thermally, using ethanol, distilled water, ethylenediamine (EDA, 99%), germanium dioxide, tetraethyl orthosilicate (TEOS) and aluminum isopropoxide (Al(OC3H7)3), as starting materials. The materials were mixed with molar ratios of 116H2O:72C2H5OH:62EDA:1GeO2:1TEOS:2Al(OC3H7)3, and the resulting suspension was stirred for at least 30 min. The mixture was transferred to a Teflon-lined steel autoclave, and heated at 160 or 170°C for 7 days. The products were collected by filtration and washed first with deionized water and then with ethanol. We found that the presence of ethanol was essential for the formation of SU-57.",
+    "property mapping": "H2O: 116 moles of water\nEDA (ethylenediamine): 62 moles, serves as the structure directing agent (osda)\nGeO2: 1 mole, source of Ge\nTEOS (tetraethyl orthosilicate): 1 mole, source of Si\nAl(OC3H7)3 (aluminum isopropoxide): 2 moles, source of Al\nC2H5OH (ethanol): 72 moles\nTemperature: 160 or 170°C (mean: 165°C)\nTime: 7 days (168 hours)",
+    "formula abbreviations": "EDA = ethylenediamine (C2H10N2)\nTEOS = tetraethyl orthosilicate (Si(OC2H5)4), source of Si\nAl(OC3H7)3 = aluminum isopropoxide, source of Al\nGeO2 = germanium dioxide, source of Ge\nC2H5OH = ethanol",
+    "ratio calculations": "Setting Si to 1.0:\nSi = 1.0 (from 1 mole of TEOS)\nGe = 1.0 (from 1 mole of GeO2)\nAl = 2.0 (from 2 moles of Al(OC3H7)3)\nH2O = 116.0 (from 116 moles of H2O)\nosda_ratios (EDA) = 62.0 (from 62 moles of EDA)",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 2.0,
+            "OH": "",
+            "H2O": 116.0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "ethylenediamine",
+            "osda_ratios": 62.0,
+            "crystallization_temperature": 165.0,
+            "crystallization_time": 168.0,
+            "product_names": "SU-57"
+        }
+    ]
+}

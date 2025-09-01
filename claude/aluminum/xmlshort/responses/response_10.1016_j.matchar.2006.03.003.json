@@ -1,0 +1,25 @@
+{
+    "table csv": "Zn,Mg,Cu,Zr,Fe,Si,Al\n6.32,2.40,2.32,0.12,0.10,0.05,Bal.",
+    "extracted text": "The 7150 alloy was received in extrusion form (30×100 mm). The 7150 extrusion was artificially aged by a two-step process, i.e. 120 °C/6 h followed by 155 °C/12 h (T6 temper). The tensile properties are: σy (MPa): 643, σUTS (MPa): 602, El%: 15.5 for 7150-T6(L) alloy.",
+    "property mapping": "AA: 7150\ntemper: T6\nYS [MPa]: σy = 643 MPa\nUTS [MPa]: σUTS = 602 MPa\nelong [%]: El% = 15.5\nHas composition: True",
+    "abbreviations": "T6: Solution heat treated and artificially aged by a two-step process (120 °C/6 h followed by 155 °C/12 h)\nBal.: Balance (remaining percentage is aluminum)",
+    "weight percentage": "Zn: 6.32%\nMg: 2.40%\nCu: 2.32%\nZr: 0.12%\nFe: 0.10%\nSi: 0.05%\nAl: Balance (approximately 88.69%)",
+    "recipes": [
+        {
+            "AA": "7150",
+            "temper": "T6",
+            "YS [MPa]": 643.0,
+            "UTS [MPa]": 602.0,
+            "elong [%]": 15.5,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 2.32,
+            "Mg": 2.40,
+            "Si": 0.05,
+            "Zn": 6.32,
+            "Zr": 0.12,
+            "Fe": 0.10
+        }
+    ]
+}

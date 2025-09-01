@@ -1,0 +1,19 @@
+{
+    "table csv": "Material,Tensile strength (MPa),Yield strength (MPa),Elongation (%)\nAl-6061-T6,324.37,277.29,16.40",
+    "extracted text": "The paper investigates laser peening without coating (LPwC) on aluminum alloy Al-6061-T6 using a low energy (300mJ) Nd:YAG laser. The sample dimensions were 4 cm × 4 cm × 4 mm prepared from 30 mm thick Al-6061-T6 sheet by electric discharge machining (EDM) wire cutting. After LPwC treatment, the micro-hardness showed a maximum improvement of 10 HV near the surface compared to the unpeened material. The hardened layer was observed up to 0.7 mm from the surface.",
+    "property mapping": "Tensile strength: 324.37 MPa maps to 'UTS [MPa]'\nYield strength: 277.29 MPa maps to 'YS [MPa]'\nElongation: 16.40% maps to 'elong [%]'\nHardness improvement: 10 HV (Vickers Hardness) maps to 'Hardness' improvement, not baseline value",
+    "abbreviations": "LPwC: Laser Peening without Coating\nT6: Solution heat treated and artificially aged\nHV: Vickers Hardness",
+    "weight percentage": "No specific weight percentage composition is provided for the Al-6061-T6 alloy in this paper.",
+    "recipes": [
+        {
+            "AA": "6061",
+            "temper": "T6",
+            "YS [MPa]": 277.29,
+            "UTS [MPa]": 324.37,
+            "elong [%]": 16.40,
+            "Hardness": "",
+            "Hardness UNIT": "HV",
+            "Has composition": "nominal"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "table csv": "Element,Weight%\nSi,0.58\nFe,0.28\nCu,0.24\nMn,0.06\nMg,1.00\nCr,0.16\nZn,0.05\nTi,0.02\nOthers,0.07\nAl,Balance",
+    "extracted text": "The mechanical properties of AA6061-T6 sheet obtained from the uniaxial tension test along the rolling direction: E (GPa): 74.2, YS (MPa): 349.2, UTS (MPa): 381.1, Poisson's ratio: 0.34, Uniform Elongation (%): 5.47, Fracture Elongation (%): 6.95, Lankford coefficients: r0: 0.52, r45: 0.82, r90: 0.84, r̄: 0.75",
+    "property mapping": "AA: AA6061\ntemper: T6\nYS [MPa]: 349.2 (yield strength at 0.2% plastic strain)\nUTS [MPa]: 381.1 (ultimate tensile strength)\nelong [%]: 6.95 (fracture elongation percentage)\nLankford coefficients are also provided but not in our property list",
+    "abbreviations": "YS: yield strength at 0.2% plastic strain\nUTS: ultimate tensile strength\nr̄: average Lankford coefficient calculated as (r0+2r45+r90)/4",
+    "weight percentage": "The document already provides weight percentages for each element:\nSi: 0.58%\nFe: 0.28%\nCu: 0.24%\nMn: 0.06%\nMg: 1.00%\nCr: 0.16%\nZn: 0.05%\nTi: 0.02%\nOthers: 0.07%\nAl: Balance (remaining percentage)",
+    "recipes": [
+        {
+            "AA": "6061",
+            "temper": "T6",
+            "YS [MPa]": 349.2,
+            "UTS [MPa]": 381.1,
+            "elong [%]": 6.95,
+            "Has composition": true,
+            "Si": 0.58,
+            "Fe": 0.28,
+            "Cu": 0.24,
+            "Mn": 0.06,
+            "Mg": 1.00,
+            "Cr": 0.16,
+            "Zn": 0.05,
+            "Ti": 0.02
+        }
+    ]
+}

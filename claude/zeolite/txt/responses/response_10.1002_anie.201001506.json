@@ -1,0 +1,25 @@
+```json
+{
+    "table csv": "0.67SiO2:0.33GeO2:0.05Al2O3:0.25SDAOH:0.20NH4F:0.05NH4Cl:2H2O",
+    "extracted text": "The synthesis of ITQ-44 was carried out in fluoride media using high-throughput (HT) synthesis techniques, which involve the use of a 15-well multiautoclave. The optimum synthesis gel composition was 0.67SiO2:0.33GeO2:0.05Al2O3:0.25SDAOH:0.20NH4F:0.05NH4Cl:2H2O. Crystallization temperature and time were fixed at 175 °C and one day. The structure-directing agent (SDA) used was (2-(R),6-(S))-2,6-dimethylspiro[isoindole-2,1-piperidin-1-ium], which was obtained in a one-step reaction by combining 1,2-Bis(bromomethyl)benzene and cis-2,6-dimethylpiperidine in a 1:1 molar ratio in the presence of K2CO3 and heated under reflux for two days.",
+    "property mapping": "SiO2 → Si\nGeO2 → Ge\nAl2O3 → Al\nSDOAH → osda_ratios (structure directing agent hydroxide)\nNH4F → F source\nNH4Cl → Cl source\nH2O → H2O\nTemperature 175 °C → crystallization_temperature\nOne day → crystallization_time (24 hours)",
+    "formula abbreviations": "SDAOH = (2-(R),6-(S))-2,6-dimethylspiro[isoindole-2,1-piperidin-1-ium] hydroxide\nNH4F = Ammonium fluoride\nNH4Cl = Ammonium chloride",
+    "ratio calculations": "Starting with the reported ratio 0.67SiO2:0.33GeO2:0.05Al2O3:0.25SDAOH:0.20NH4F:0.05NH4Cl:2H2O\n\nNormalizing to Si = 1.0:\nSi: 0.67 → 1.0\nGe: 0.33/0.67 = 0.493\nAl: 0.05*2/0.67 = 0.149 (multiplied by 2 because Al2O3 has 2 Al atoms)\nOSDA: 0.25/0.67 = 0.373\nF: 0.20/0.67 = 0.299\nCl: 0.05/0.67 = 0.075\nH2O: 2/0.67 = 2.985",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.493,
+            "Al": 0.149,
+            "OH": 0.373,
+            "H2O": 2.985,
+            "HF": 0.0,
+            "B": 0.0,
+            "osda_names": "(2-(R),6-(S))-2,6-dimethylspiro[isoindole-2,1-piperidin-1-ium]",
+            "osda_ratios": 0.373,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 24.0,
+            "product_names": "ITQ-44"
+        }
+    ]
+}
+```

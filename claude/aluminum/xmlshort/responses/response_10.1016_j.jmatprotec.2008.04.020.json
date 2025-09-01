@@ -1,0 +1,25 @@
+{
+    "table csv": "Materials,E11 (MPa),E22 (MPa),G12 (MPa),σy (MPa)\n2024 T45,72500,72500,27600,275\n7075 T65,72000,72000,25000,505\n\nMaterials,Thickness,Tensile strength (MPa),Elongation, A% (minimum)\n2024 T45,1–2–2.5–3,425,21%\n7075 T65,1–2–2.5–3,570,10%",
+    "extracted text": "The paper focuses on the elastic-plastic buckling of aluminum alloy plates under compression conditions. It specifically studies 2024 T45 and 7075 T65 aluminum alloys with thicknesses varying from 1 mm to 3 mm. The paper doesn't provide information about the composition of these alloys, but focuses on their mechanical properties and behavior under compressive loads.",
+    "property mapping": "E11, E22 (MPa) = Modulus of elasticity\nG12 (MPa) = Shear modulus\nσy (MPa) = Yield strength (YS)\nTensile strength (MPa) = Ultimate tensile strength (UTS)\nElongation, A% (minimum) = Elongation percentage",
+    "abbreviations": "T45 = Temper designation for 2024 alloy\nT65 = Temper designation for 7075 alloy",
+    "weight percentage": "No specific weight percentage composition is provided in the document for the alloys.",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T45",
+            "YS [MPa]": 275.0,
+            "UTS [MPa]": 425.0,
+            "elong [%]": 21.0,
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "7075",
+            "temper": "T65",
+            "YS [MPa]": 505.0,
+            "UTS [MPa]": 570.0,
+            "elong [%]": 10.0,
+            "Has composition": "nominal"
+        }
+    ]
+}

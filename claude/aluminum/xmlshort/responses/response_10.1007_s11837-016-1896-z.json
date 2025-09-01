@@ -1,0 +1,99 @@
+{
+    "table csv": "Table I Nominal composition of Alloy 1 and Alloy 2; chemical analysis by direct current plasma optical emission spectrometry (DCP-OES) is also included\n\n,Nominal composition at.% (wt.%),,,DCP-AES at.% (wt.%),\n,Sc,Zr,Sc,Zr\nAlloy 1,0.090 (0.15),0.045 (0.15),0.084 (0.14),0.045 (0.15)\nAlloy 2,0.060 (0.10),0.030 (0.10),0.053 (0.09),0.033 (0.11)\n\nTable II Vickers microhardnesses and tensile properties of the Al-0.09 Sc-0.045 Zr/Saffil MMC before and after aging\n\nSaffil volume fraction (vol.%),Microhardness (MPa),Tensile properties,,\n,,Yield strength (MPa),Ultimate tensile strength (MPa),Elongation (%)\n0 (as-cast),260 ± 9,–,–,–\n0 (aged),653 ± 24,128 ± 3,164 ± 7,31 ± 2\n4 (as-cast),362 ± 23,–,–,–\n4 (aged),711 ± 49,127 ± 7,196 ± 1,10 ± 0.5\n15 (as-cast),798 ± 45 (~445 ± 23a),–,–,–\n15 (aged),830 ± 68,135 ± 6,> 150,0.4 ± 0.1\na In fiber-free matrix region.\n\nTable III Minimum toughness, UTS and minimum elongation of Al-2Cu/Saffil composite samples with different Saffil short fiber volume fractions ranging from 0 vol.% to 40 vol.%\n\n,Toughness (MJ/m3),UTS (MPa),Minimum elongation (%)\nAl-2Cu,13.5,133,13\nAl-2Cu/4%,4.4,130,4.4\nAl-2Cu/7%,5.2,133,4.9\nAl-2Cu/15%,1.0,171,0.9\nAl-2Cu/30%,1.6,200,1.1\nAl-2Cu/40%,1.4,214,1\nAl–Sc-Zr/4%,17.8,196,9.7\nAl–Sc-Zr,41.2,164,26.9\nAA5083-H131,35.7,310,12\nAA6061-T6,35.2,310,12",
+    
+    "extracted text": "The study focuses on developing aluminum alloys with dilute concentrations of Sc and Zr that don't require quenching. Two alloys were developed: Al-0.09Sc-0.045Zr at.% (Alloy 1) and Al-0.06Sc-0.03Zr at.% (Alloy 2). These were cast from 99.99% pure Al along with Al-2Sc and Al-1.6Zr wt.% master alloys. The melting was performed in alumina crucibles at 800°C. The alloys underwent a two-step aging treatment (300°C for 4h and 425°C for 8h) with slow heating and cooling rates to form L12-structured Al3(Sc,Zr) nano-precipitates. The paper mentions commercial alloys AA5083-H131 and AA6061-T6 for comparison. The Al-2Cu wt.% alloy was also used as a matrix material for comparison. Vickers microhardness measurements were performed with a 100g load for 5s. Tensile tests were conducted at a strain rate of 3.3 × 10−3 s−1.",
+    
+    "property mapping": "- Microhardness in MPa corresponds to 'Hardness' and 'Hardness UNIT' = 'MPa'
+- Yield strength (MPa) corresponds to 'YS [MPa]'
+- Ultimate tensile strength (MPa) corresponds to 'UTS [MPa]'
+- Elongation (%) corresponds to 'elong [%]'
+- AA5083-H131: 'AA' = '5083', 'temper' = 'H131'
+- AA6061-T6: 'AA' = '6061', 'temper' = 'T6'
+- Al-2Cu corresponds to an aluminum alloy with 2 wt.% Cu
+- Al-0.09Sc-0.045Zr (Alloy 1) and Al-0.06Sc-0.03Zr (Alloy 2) correspond to atomic percentages",
+    
+    "abbreviations": "- MMC: Metal Matrix Composite
+- DCP-OES/DCP-AES: Direct Current Plasma Optical Emission Spectrometry
+- Saffil: A brand name for high-purity crystalline alumina fibers
+- at.%: Atomic percentage
+- wt.%: Weight percentage
+- Two-step aging treatment: 300°C for 4h and 425°C for 8h
+- Al3(Sc,Zr): A precipitate phase with L12 structure
+- H131: A strain-hardened and stabilized temper
+- T6: Solution heat-treated and artificially aged temper",
+    
+    "weight percentage": "The weight percentages were directly provided in the document:
+- Alloy 1: 0.15 wt.% Sc, 0.15 wt.% Zr (nominal), and 0.14 wt.% Sc, 0.15 wt.% Zr (measured by DCP-OES)
+- Alloy 2: 0.10 wt.% Sc, 0.10 wt.% Zr (nominal), and 0.09 wt.% Sc, 0.11 wt.% Zr (measured by DCP-OES)
+- Al-2Cu: 2.0 wt.% Cu",
+    
+    "recipes": [
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 128,
+            "UTS [MPa]": 164,
+            "elong [%]": 31,
+            "Hardness": 653,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.14,
+            "Zr": 0.15
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 127,
+            "UTS [MPa]": 196,
+            "elong [%]": 10,
+            "Hardness": 711,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.14,
+            "Zr": 0.15
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 135,
+            "UTS [MPa]": 150,
+            "elong [%]": 0.4,
+            "Hardness": 830,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.14,
+            "Zr": 0.15
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": "",
+            "UTS [MPa]": 133,
+            "elong [%]": 13,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 2.0
+        },
+        {
+            "AA": "5083",
+            "temper": "H131",
+            "YS [MPa]": "",
+            "UTS [MPa]": 310,
+            "elong [%]": 12,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "6061",
+            "temper": "T6",
+            "YS [MPa]": "",
+            "UTS [MPa]": 310,
+            "elong [%]": 12,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": "nominal"
+        }
+    ]
+}

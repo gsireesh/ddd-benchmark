@@ -1,0 +1,71 @@
+{
+    "table csv": "Table 1\nChemical composition of 7055 aluminum alloy.\nElement,Zn,Mg,Cu,Zr,Al\nwt%,8.4,2.4,2.6,0.2,Bal\nat%,3.7,2.84,1.18,0.06,Bal\n\nTable 4\nMechanical properties, KISCC and SCC duration for 7055 alloy.\nSample no.,Hardness (HRB),UTS (MPa),YS (MPa),El (%),KIC (MPa m1/2),KISCC (MPa m1/2),Duration for stress (523 MPa) corrosion crack (h),Duration for stress (580 MPa) corrosion crack (h)\n1,96.2,736,717,8.7,23.7,7.42,0.17,0.05\n2,96.4,755,738,10.0,24.2,9.18,0.5,0.18\n3,94.8,677,662,9.2,29.0,9.80,17,3.5",
+    
+    "extracted text": "The paper investigates the influence of high-temperature pre-precipitation treatment on corrosion behaviors of 7055 aluminum alloy. The alloy was subjected to different heat treatment processes detailed in Table 2: Sample 1 was solution treated at 450°C/1h + 470°C/1h + 480°C/3h followed by aging at 130°C/24h; Sample 2 had the same solution treatment plus 465°C/0.5h pre-precipitation before aging; Sample 3 had the same solution treatment plus 455°C/0.5h pre-precipitation before aging.",
+    
+    "property mapping": "- UTS = Ultimate Tensile Strength (MPa)
+- YS = Yield Strength (MPa)
+- El = Elongation (%)
+- Hardness = Hardness in Rockwell B scale (HRB)
+- KIC = Fracture toughness (MPa m1/2)
+- KISCC = Stress intensity factor for stress corrosion cracking (MPa m1/2)",
+    
+    "abbreviations": "- Bal = Balance (remainder is aluminum)
+- HRB = Hardness Rockwell B scale
+- SCC = Stress Corrosion Crack
+- HTPP = High-Temperature Pre-Precipitation
+- PFZ = Precipitate Free Zone
+- IGC = Inter-Granular Corrosion",
+    
+    "weight percentage": "The weight percentages are directly provided in Table 1:
+- Zn: 8.4 wt%
+- Mg: 2.4 wt%
+- Cu: 2.6 wt%
+- Zr: 0.2 wt%
+- Al: Balance (remainder)",
+    
+    "recipes": [
+        {
+            "AA": "7055",
+            "temper": "",
+            "YS [MPa]": 717,
+            "UTS [MPa]": 736,
+            "elong [%]": 8.7,
+            "Hardness": 96.2,
+            "Hardness UNIT": "HRB",
+            "Has composition": true,
+            "Zn": 8.4,
+            "Mg": 2.4,
+            "Cu": 2.6,
+            "Zr": 0.2
+        },
+        {
+            "AA": "7055",
+            "temper": "",
+            "YS [MPa]": 738,
+            "UTS [MPa]": 755,
+            "elong [%]": 10.0,
+            "Hardness": 96.4,
+            "Hardness UNIT": "HRB",
+            "Has composition": true,
+            "Zn": 8.4,
+            "Mg": 2.4,
+            "Cu": 2.6,
+            "Zr": 0.2
+        },
+        {
+            "AA": "7055",
+            "temper": "",
+            "YS [MPa]": 662,
+            "UTS [MPa]": 677,
+            "elong [%]": 9.2,
+            "Hardness": 94.8,
+            "Hardness UNIT": "HRB",
+            "Has composition": true,
+            "Zn": 8.4,
+            "Mg": 2.4,
+            "Cu": 2.6,
+            "Zr": 0.2
+        }
+    ]
+}

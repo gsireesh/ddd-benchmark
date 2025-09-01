@@ -1,0 +1,23 @@
+{
+    "table csv": "There are no tables in the document containing recipe information for zeolite synthesis. The synthesis information is provided in the text.",
+    "extracted text": "A typical synthesis gel in fluoride media to obtain ITQ-33 was as follows: 0.67SiO2:0.33GeO2:0.050Al2O3:0.15Hex(OH)2:0.10Hex(Br)2:0.30HF:1.5H2O, with synthesis conditions of 443 K for 5 h under static conditions.\n\nThe synthesis occurred in the presence of trivalent atoms ((Si + Ge)/B = 20 or 50) and germanium (Si/Ge = 2).\n\nThe synthesis was performed using hexamethonium bromide (pure, Fluka) and hexamethonium hydroxide solutions as the organic structure-directing agent (OSDA).\n\nCrystallization was carried out at 443 K under static conditions.\n\nIn the initial experimental design, the following molar ratios were explored: Si/Ge(4) of 2–30, B/(Si+Ge)(4) of 0–0.05, OH/(Si+Ge)(3) of 0.1–0.5, and H2O/(Si+Ge)(4) of 5–30.",
+    "property mapping": "SiO2 -> Si\nGeO2 -> Ge\nAl2O3 -> Al\nHex(OH)2 -> osda (hexamethonium hydroxide)\nHex(Br)2 -> osda (hexamethonium bromide)\nHF -> HF\nH2O -> H2O\nB -> B\n443 K -> crystallization_temperature (170°C)\n5 h -> crystallization_time",
+    "formula abbreviations": "Hex refers to hexamethonium, which is used as the organic structure-directing agent (OSDA) in both hydroxide and bromide forms. T^IV refers to tetravalent atoms (Si, Ge) and T^III refers to trivalent atoms (Al, B).",
+    "ratio calculations": "From the given composition 0.67SiO2:0.33GeO2:0.050Al2O3:0.15Hex(OH)2:0.10Hex(Br)2:0.30HF:1.5H2O\n\nTo normalize with Si=1.0:\nSi = 0.67/0.67 = 1.0\nGe = 0.33/0.67 = 0.493\nAl = (0.05*2)/0.67 = 0.149 (multiplied by 2 because Al2O3 has 2 Al atoms)\nOSDA (hexamethonium) = (0.15+0.10)/0.67 = 0.373\nHF = 0.30/0.67 = 0.448\nH2O = 1.5/0.67 = 2.239\nOH = 0.15*2/0.67 = 0.448 (from Hex(OH)2, multiplied by 2 for 2 OH groups)\n\nAlternatively, using Si/Ge = 2:\nSi = 1.0\nGe = 1.0/2 = 0.5",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.493,
+            "Al": 0.149,
+            "OH": 0.448,
+            "H2O": 2.239,
+            "HF": 0.448,
+            "B": 0.0,
+            "osda_names": "hexamethonium hydroxide and hexamethonium bromide",
+            "osda_ratios": 0.373,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 5.0,
+            "product_names": "ITQ-33"
+        }
+    ]
+}

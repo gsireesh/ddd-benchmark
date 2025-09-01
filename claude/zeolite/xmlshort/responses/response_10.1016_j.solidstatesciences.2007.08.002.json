@@ -1,0 +1,23 @@
+{
+    "table csv": "Materials,Chemical formulae,Synthesis mixture molar compositions,Synthesis conditions(autogeneous pressure),References\nIM-14,[Ge8O17(OH)2](enH2)2·2.3H2O,GeO2:0.5 en:40 H2O,170°C, 14d,This work\nCompound I,[Ge18O38(OH)4](enH2)4·2H2O,GeO2:4.7 en:37.5 H2O,180–200°C, 6d,[18]\nICMM-6,[Ge9O19(OH)2](enH2)2(en)0.5·H2O,GeO2:2.5 DABCO:100 H2O:10 1-butanol,170°C, 5d,[19]\nEn-ASU-7,[Ge10O20](en)·H2O,GeO2:8 en:25 H2O:15 EG,170°C, 2d,[20]\nICMM-8,[Ge3O5(OH)4](enH2),GeO2:en:3 DABCO:4 pyridine:90 H2O:90 EtOH,170°C, 5d,[21]\nCompound II,[Ge9O18(OH)4](en)(enH2)2,GeO2:12 en:0.5 H3BO3:2 HF:5 H2O:40 pyridine,170°C, 10d,[22]\nEn-ASU-14,[Ge9O18(OH)4](en)(enH2)2,GeO2:16 en:2 HF:67 H2O:53 pyridine,170°C, 10d,[23]\nZnGe-1A,[Ge9O18(OH)4]Zn2(en)3,GeO2:0.3 Zn(NO3)2:8 en:20 H2O:13 EG,180°C, 8d,[24]\nCo–En–Ge,[Ge9O18(OH)4]Co2(en)3,GeO2:CoCl2·6H2O:30 en:2.7 HF:3 pipz:55 H2O,180°C, 10d,[25]\nCd–En–Ge,[Ge9O18(OH)4]Cd2(en)3,GeO2:0.25 CdCl2·2H2O:8 en:25 H2O:15 EG,170°C, 7d,[26]\nFJ-1a,[Ni@Ge14O24(OH)3](Ni(en)3)2,GeO2:0.7 NiCl2·2H2O:10 en:19 H2O:16 EG,170°C, 7d,[27]",
+    "extracted text": "The title compound was synthesised hydrothermally in a Teflon-lined stainless steel autoclave at 170°C for 14 days from a mixture containing 1.453g of GeO2 (amorphous, Aldrich), 0.464mL (0.417g) of ethylenediamine (en) (Aldrich) and 10mL of water, which gives the following molar composition: GeO2:0.5 en:40 H2O. Both initial and final pH values of the mixture were about 11. The final product was recovered by filtration, washed several times with deionised water and then dried at 70°C for 24h.",
+    "property mapping": "Ge: referred to as GeO2 in the synthesis mixture\nH2O: referred to as H2O in the synthesis mixture\nosda_names: referred to as ethylenediamine or 'en' in the synthesis mixture\nosda_ratios: referred to as 0.5 en in the synthesis mixture\ncrystallization_temperature: referred to as 170°C in the synthesis conditions\ncrystallization_time: referred to as 14d (14 days) in the synthesis conditions\nproduct_names: referred to as IM-14 in the materials column",
+    "formula abbreviations": "en: ethylenediamine\nDABCO: 1,4-diazabicyclo[2.2.2]octane\nEG: ethylene glycol\npipz: piperazine\nd: days (in crystallization time)",
+    "ratio calculations": "For IM-14 recipe:\nSi = 0 (not present in the recipe)\nGe = 1.0 (using GeO2 as reference)\nosda_ratios (en) = 0.5/1.0 = 0.5\nH2O = 40/1.0 = 40\n\nSince there is no Si in this recipe, I'm using Ge as the reference with value 1.0.",
+    "recipes": [
+        {
+            "Si": 0,
+            "Ge": 1.0,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 40.0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "ethylenediamine",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 336.0,
+            "product_names": "IM-14"
+        }
+    ]
+}

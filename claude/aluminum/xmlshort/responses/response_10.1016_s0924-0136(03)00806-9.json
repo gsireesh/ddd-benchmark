@@ -1,0 +1,25 @@
+{
+    "table csv": "Chemical compositions (wt.%),,,,,,,,,Mechanical properties,,\nAl,Si,Fe,Cu,Mg,Mn,Ti,Zn,Cr,Tensile strength (MPa),Proof strength, 0.2% (MPa),Elongation (%)\nBalance,0.52,0.29,4.29,0.60,0.58,0.02,0.08,0.02,428.1,319.2,23.8",
+    "extracted text": "The base material used in this study was a 2017-T351 aluminum alloy plate of 5 mm thick.",
+    "property mapping": "AA = 2017\ntemper = T351\nYS [MPa] = Proof strength, 0.2% (MPa) = 319.2\nUTS [MPa] = Tensile strength (MPa) = 428.1\nelong [%] = Elongation (%) = 23.8",
+    "abbreviations": "No abbreviations were used in the alloy composition or properties.",
+    "weight percentage": "The document already provides weight percentages for all elements:\nSi: 0.52%\nFe: 0.29%\nCu: 4.29%\nMg: 0.60%\nMn: 0.58%\nTi: 0.02%\nZn: 0.08%\nCr: 0.02%\nAl: Balance (remainder)",
+    "recipes": [
+        {
+            "AA": "2017",
+            "temper": "T351",
+            "YS [MPa]": 319.2,
+            "UTS [MPa]": 428.1,
+            "elong [%]": 23.8,
+            "Has composition": true,
+            "Si": 0.52,
+            "Fe": 0.29,
+            "Cu": 4.29,
+            "Mg": 0.60,
+            "Mn": 0.58,
+            "Ti": 0.02,
+            "Zn": 0.08,
+            "Cr": 0.02
+        }
+    ]
+}

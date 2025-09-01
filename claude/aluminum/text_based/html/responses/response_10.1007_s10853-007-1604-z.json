@@ -1,0 +1,27 @@
+{
+    "table csv": "Material,Rp0.2 Yield strength (MPa),Rm Tensile strength (MPa),A elongation (%),Joint efficiency in terms of Rm (%),Joint efficiency in terms of A (%)\nAl7020 (BM),326,385,13.6,-,-\nAl7020 (EBW),262,343,3.7,89.1,27.2",
+    "extracted text": "The chemical composition of the alloy used in the present study consists of 1.25 wt% Mg, 4.32 wt% Zn, 0.14 wt% Zr, 0.12 wt% Si, 0.29 wt% Fe, 0.12 wt% Cu, 0.29 wt% Mn, 0.13 wt% Cr, 0.004 wt% Ni and 0.028 wt% Ti. The alloy 7020 plate was in T6 condition: solution heat treated and artificially aged.",
+    "property mapping": "AA = 7020\ntemper = T6\nYS [MPa] = Rp0.2 Yield strength (MPa) = 326 MPa for base material\nUTS [MPa] = Rm Tensile strength (MPa) = 385 MPa for base material\nelong [%] = A elongation (%) = 13.6% for base material\nMg = 1.25 wt%\nZn = 4.32 wt%\nZr = 0.14 wt%\nSi = 0.12 wt%\nFe = 0.29 wt%\nCu = 0.12 wt%\nMn = 0.29 wt%\nCr = 0.13 wt%\nNi = 0.004 wt%\nTi = 0.028 wt%",
+    "abbreviations": "BM = Base Material\nEBW = Electron Beam Welded\nT6 = Solution heat treated and artificially aged\nRp0.2 = Yield strength (0.2% offset)\nRm = Ultimate tensile strength",
+    "weight percentage": "Mg = 1.25 wt%\nZn = 4.32 wt%\nZr = 0.14 wt%\nSi = 0.12 wt%\nFe = 0.29 wt%\nCu = 0.12 wt%\nMn = 0.29 wt%\nCr = 0.13 wt%\nNi = 0.004 wt%\nTi = 0.028 wt%",
+    "recipes": [
+        {
+            "AA": "7020",
+            "temper": "T6",
+            "YS [MPa]": 326.0,
+            "UTS [MPa]": 385.0,
+            "elong [%]": 13.6,
+            "Has composition": true,
+            "Cu": 0.12,
+            "Mn": 0.29,
+            "Si": 0.12,
+            "Mg": 1.25,
+            "Zn": 4.32,
+            "Cr": 0.13,
+            "Fe": 0.29,
+            "Ti": 0.028,
+            "Zr": 0.14,
+            "Ni": 0.004
+        }
+    ]
+}

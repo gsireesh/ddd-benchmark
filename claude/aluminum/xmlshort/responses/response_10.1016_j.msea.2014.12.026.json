@@ -1,0 +1,25 @@
+{
+    "table csv": "Table 1: Chemical composition of 2195 alloy (wt%).\n\n,Cu,Mg,Li,Zr,Ag,Fe,Al\n2195,3.99,0.38,1.09,0.1,0.42,0.17,Bal\n\nTable 2: Mechanical properities of 2195 T8.\n\nTest direction,Yield strength (MPa),Tensile strength (MPa),Elogation (%)\nLongitudinal,500,560,12.7",
+    "extracted text": "The paper discusses 2195-T8 Al-Li alloy. The material was studied in the T8 temper state. From the text, we can also see that the microhardness of the base material is approximately 185 HV. The paper focuses on friction stir welding of this alloy and analyzes the microstructure and precipitation evolution in different zones of the weld.",
+    "property mapping": "AA: 2195 (aluminum-lithium alloy)\ntemper: T8\nYS [MPa]: 500 (from Table 2, in longitudinal direction)\nUTS [MPa]: 560 (from Table 2, in longitudinal direction)\nelong [%]: 12.7 (from Table 2, in longitudinal direction)\nHardness: 185\nHardness UNIT: HV (Vickers Hardness)",
+    "abbreviations": "BM: Base Metal\nHAZ: Heat Affected Zone\nTMAZ: Thermo-Mechanically Affected Zone\nWNZ: Weld Nugget Zone\nFSW: Friction Stir Welding\nDSC: Differential Scanning Calorimetry\nTEM: Transmission Electron Microscopy",
+    "weight percentage": "The weight percentages for the elements in 2195 alloy are directly provided in Table 1:\nCu: 3.99%\nMg: 0.38%\nLi: 1.09%\nZr: 0.1%\nAg: 0.42%\nFe: 0.17%\nAl: Balance (remainder)",
+    "recipes": [
+        {
+            "AA": "2195",
+            "temper": "T8",
+            "YS [MPa]": 500.0,
+            "UTS [MPa]": 560.0,
+            "elong [%]": 12.7,
+            "Hardness": 185.0,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Cu": 3.99,
+            "Mg": 0.38,
+            "Li": 1.09,
+            "Zr": 0.1,
+            "Ag": 0.42,
+            "Fe": 0.17
+        }
+    ]
+}

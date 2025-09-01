@@ -1,0 +1,29 @@
+```
+{
+    "table csv": "Table 1 Chemical composition of materials\nAlloying element, Cu, Mg, Si, Fe, Mn Zn, Ti, Cr\n6063 aluminum alloy Composition (wt%), 0.1, 0.4-0.9, 0.3-0.7, 0.6, 0.3 0.2, 0.2, 0.1\nAlloying element, C, Si, Mn, Cr, S, P, Ni, Fe\nAISI 340 austenitic stainless Composition (wt%), 0.06, steel 0.32, 1.38, 18.4, 0.28, 0.4, 8.7, Bal.\n\nTable 2 Mechanical and thermal properties of materials\nMaterial, Tensile strength (MPa), Thermal conductivity (W m/K), Coefficient of thermal expansion (K)\n6063 Al alloy, 215, 180, 23 9 10 - 6\nAISI 304, 515, 16.2, 17.2 9 10 - 6",
+    "extracted text": "The paper discusses friction welding of 6063 aluminum alloy and AISI 304 austenitic stainless steel. No additional composition or heat treatment information is provided beyond what's in the tables.",
+    "property mapping": "Tensile strength in MPa = UTS [MPa]",
+    "abbreviations": "No relevant abbreviations were found in the document.",
+    "weight percentage": "The weight percentages for 6063 aluminum alloy are already provided in the table: Cu: 0.1%, Mg: 0.4-0.9% (mean 0.65%), Si: 0.3-0.7% (mean 0.5%), Fe: 0.6%, Mn: 0.3%, Zn: 0.2%, Ti: 0.2%, Cr: 0.1%",
+    "recipes": [
+        {
+            "AA": "6063",
+            "temper": "",
+            "UTS [MPa]": 215.0,
+            "YS [MPa]": "",
+            "elong [%]": "",
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 0.1,
+            "Mg": 0.65,
+            "Si": 0.5,
+            "Fe": 0.6,
+            "Mn": 0.3,
+            "Zn": 0.2,
+            "Ti": 0.2,
+            "Cr": 0.1
+        }
+    ]
+}
+```

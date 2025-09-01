@@ -1,0 +1,25 @@
+```json
+{
+    "table csv": "No table present in the document.",
+    "extracted text": "The zeolite ITQ-44 was synthesized using (2-(R),6-(S))-2,6-dimethylspiro[isoindole-2,1-piperidin-1-ium] as the SDA. The synthesis was carried out in fluoride media using high-throughput (HT) synthesis techniques. The optimum synthesis gel composition was 0.67SiO2:0.33GeO2:0.05Al2O3:0.25SDAOH:0.20NH4F:0.05NH4Cl:2H2O. Crystallization temperature was fixed at 175°C and time was one day. The SDA was obtained in a one-step reaction by combining 1,2-Bis(bromomethyl)benzene and cis-2,6-dimethylpiperidine in a 1:1 molar ratio in the presence of K2CO3 and heated under reflux for two days.",
+    "property mapping": "Si: 0.67SiO2 in gel composition\nGe: 0.33GeO2 in gel composition\nAl: 0.05Al2O3 in gel composition (corresponds to 0.10Al since there are 2 Al atoms per Al2O3)\nOH: 0.25SDAOH in gel composition\nH2O: 2H2O in gel composition\nHF: Not directly listed, but NH4F (0.20) is used which contributes F ions\nB: Not mentioned\nosda_names: (2-(R),6-(S))-2,6-dimethylspiro[isoindole-2,1-piperidin-1-ium]\nosda_ratios: 0.25SDAOH in gel composition\ncrystallization_temperature: 175°C\ncrystallization_time: one day (24 hours)\nproduct_names: ITQ-44",
+    "formula abbreviations": "SDAOH: Structure-directing agent hydroxide, specifically (2-(R),6-(S))-2,6-dimethylspiro[isoindole-2,1-piperidin-1-ium] hydroxide\nNH4F: Ammonium fluoride, source of fluoride ions\nNH4Cl: Ammonium chloride",
+    "ratio calculations": "Taking Si = 1.0 as the reference:\nSi: 0.67 → 1.0\nGe: 0.33 → 0.33/0.67 = 0.493\nAl: 0.10 → 0.10/0.67 = 0.149\nOH: 0.25 → 0.25/0.67 = 0.373\nH2O: 2.0 → 2.0/0.67 = 2.985\nOSDA: 0.25 → 0.25/0.67 = 0.373\nHF calculation: Though not directly given as HF, we can consider F from NH4F: 0.20 → 0.20/0.67 = 0.299",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.493,
+            "Al": 0.149,
+            "OH": 0.373,
+            "H2O": 2.985,
+            "HF": 0.299,
+            "B": 0,
+            "osda_names": "(2-(R),6-(S))-2,6-dimethylspiro[isoindole-2,1-piperidin-1-ium]",
+            "osda_ratios": 0.373,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 24.0,
+            "product_names": "ITQ-44"
+        }
+    ]
+}
+```

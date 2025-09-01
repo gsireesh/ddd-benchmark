@@ -1,0 +1,16 @@
+{
+    "table csv": "Alloy type,Young modulus,Poisson's ratio,Yield strength,Ultimate strength\nAL 7075-T6,71.5 GPa,0.33,503 MPa,600 MPa",
+    "extracted text": "The specimens were made from aluminum alloy grade AL 7075-T6 and machined from plate 1220 mm × 1220 mm and 4.5 mm thick. This alloy is widely used in aerospace industries because it has high tensile strength but its relatively low fracture toughness means it is vulnerable to crack initiation and propagation.",
+    "property mapping": "Yield strength in Table 1 corresponds to 'YS [MPa]'. Ultimate strength in Table 1 corresponds to 'UTS [MPa]'.",
+    "abbreviations": "AL 7075-T6 refers to aluminum alloy 7075 with T6 temper treatment.",
+    "weight percentage": "No specific weight percentage composition is provided in the document.",
+    "recipes": [
+        {
+            "AA": "7075",
+            "temper": "T6",
+            "YS [MPa]": 503.0,
+            "UTS [MPa]": 600.0,
+            "Has composition": "nominal"
+        }
+    ]
+}

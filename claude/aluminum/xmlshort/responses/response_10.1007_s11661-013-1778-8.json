@@ -1,0 +1,24 @@
+{
+    "table csv": "Chemical Composition,Chemical Composition,Chemical Composition,Chemical Composition,Chemical Composition,Chemical Composition,Chemical Composition,Chemical Composition,Mechanical Properties,Mechanical Properties,Mechanical Properties\nCu,Mg,Mn,Fe,Si,Zn,Ti,Al,YS (MPa),UTS (MPa),El (Pct)\n3.8 to 4.9,1.2 to 1.8,0.3 to 0.9,0.50,0.50,0.25,0.15,bal,338,480,21",
+    "extracted text": "The document describes a study on 2024Al-T351 aluminum alloy. The alloy was used as a 6.5-mm-thick commercial Alclad 2024Al-T351 rolled plate, which was machined on both sides to 5.0-mm thickness to remove the Alclads for the friction stir welding experiments.",
+    "property mapping": "Cu: Cu weight percentage\nMg: Mg weight percentage\nMn: Mn weight percentage\nFe: Fe weight percentage\nSi: Si weight percentage\nZn: Zn weight percentage\nTi: Ti weight percentage\nAl: Al (balance)\nYS (MPa): Yield Strength in MPa\nUTS (MPa): Ultimate Tensile Strength in MPa\nEl (Pct): Elongation percentage",
+    "abbreviations": "T351: Solution heat treated, stress-relieved by stretching and then naturally aged\nYS: Yield Strength\nUTS: Ultimate Tensile Strength\nEl: Elongation\nPct: Percentage\nbal: Balance (remainder of composition)",
+    "weight percentage": "Since some values are given as ranges, I'll calculate the mean values:\nCu: mean of 3.8 to 4.9 = 4.35%\nMg: mean of 1.2 to 1.8 = 1.5%\nMn: mean of 0.3 to 0.9 = 0.6%\nFe: 0.50%\nSi: 0.50%\nZn: 0.25%\nTi: 0.15%\nAl: balance (remainder)",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T351",
+            "YS [MPa]": 338.0,
+            "UTS [MPa]": 480.0,
+            "elong [%]": 21.0,
+            "Has composition": true,
+            "Cu": 4.35,
+            "Mg": 1.5,
+            "Mn": 0.6,
+            "Fe": 0.5,
+            "Si": 0.5,
+            "Zn": 0.25,
+            "Ti": 0.15
+        }
+    ]
+}

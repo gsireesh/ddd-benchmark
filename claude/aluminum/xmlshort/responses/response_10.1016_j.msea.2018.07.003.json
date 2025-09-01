@@ -1,0 +1,37 @@
+{
+    "table csv": "Cu,Sc,Zr,Mn,V,Ti,Si,Fe,Al\n6.3–6.5,0.4,0.34,0.32,0.06,0.03,0.05,0.13,Bal",
+    "extracted text": "The paper describes a 2219 aluminum alloy with additions of Sc and Zr, designated as 2219ScZr. The alloy was processed through a novel three-stage heat treatment route: 1) Direct ageing of cast alloy at 375°C to form thermally stable L12 type coherent Al3(Sc, Zr) precipitates, 2) Solution treatment at 535°C for 30 min, and 3) Ageing at 200°C which caused formation of highly dense θ′′ (Al3Cu) and θ′ (Al2Cu) precipitates. Tensile properties were measured at room temperature, 200°C, and 250°C.",
+    "property mapping": "The paper provides the following properties:\n- 0.2% PS (MPa) = Yield Strength (YS)\n- UTS (MPa) = Ultimate Tensile Strength\n- % El = Elongation percentage\n- Vickers hardness (MPa) = Hardness",
+    "abbreviations": "2219ScZr = 2219 aluminum alloy with additions of Sc and Zr\nPS = Proof Stress (equivalent to yield strength)\nBAL = Balance (remainder of composition)",
+    "weight percentage": "The composition is already given in weight percentage as shown in the table:\nCu: 6.3-6.5 wt% (mean: 6.4 wt%)\nSc: 0.4 wt%\nZr: 0.34 wt%\nMn: 0.32 wt%\nV: 0.06 wt%\nTi: 0.03 wt%\nSi: 0.05 wt%\nFe: 0.13 wt%\nAl: Balance",
+    "recipes": [
+        {
+            "AA": "2219",
+            "temper": "",
+            "YS [MPa]": 456,
+            "UTS [MPa]": 536,
+            "elong [%]": 5,
+            "Hardness": 1425,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Cu": 6.4,
+            "Sc": 0.4,
+            "Zr": 0.34,
+            "Mn": 0.32,
+            "V": 0.06,
+            "Ti": 0.03,
+            "Si": 0.05,
+            "Fe": 0.13
+        },
+        {
+            "AA": "2219",
+            "temper": "T851",
+            "YS [MPa]": 345,
+            "UTS [MPa]": 455,
+            "elong [%]": 12,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": "nominal"
+        }
+    ]
+}

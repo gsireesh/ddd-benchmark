@@ -1,0 +1,25 @@
+{
+    "table csv": "Table I. Chemical Composition of Material (Mass Percent)\nMaterial,Si,Fe,Cu,Mn,Mg,Cr,Zn,Ti,Ti +Zr,Others Each,Others Total,Al\nJIS A2024,0.057,0.127,4.334,0.585,1.457,0.004,0.038,0.029,0.031,0.008,0.028,bal\n\nTable II. Mechanical Properties of Material\nTemper,0.2 Pct Proof Stress (MPa),Tensile Strength (MPa),Elongation (Pct)\nT3,316,459,17.2",
+    "extracted text": "The materials used in this study were Al-4Cu-1Mg alloy (JIS-A2024, temper T3, supplied by Corus Aluminum Walzprodukte GmbH, Koblenz, Germany). The specimen configuration is rolled parallel to the longitudinal direction.",
+    "property mapping": "AA = JIS A2024 (corresponds to AA 2024)\ntemper = T3\nYS [MPa] = 0.2 Pct Proof Stress (MPa) = 316\nUTS [MPa] = Tensile Strength (MPa) = 459\nelong [%] = Elongation (Pct) = 17.2\nSi = 0.057%\nFe = 0.127%\nCu = 4.334%\nMn = 0.585%\nMg = 1.457%\nCr = 0.004%\nZn = 0.038%\nTi = 0.029%",
+    "abbreviations": "JIS = Japanese Industrial Standard\nPct = Percent\nbal = balance (remainder is aluminum)",
+    "weight percentage": "The composition is already provided in weight percentage in Table I:\nSi: 0.057%\nFe: 0.127%\nCu: 4.334%\nMn: 0.585%\nMg: 1.457%\nCr: 0.004%\nZn: 0.038%\nTi: 0.029%\nThe table also shows Ti+Zr as 0.031%, but individual Zr content is not specified.",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T3",
+            "YS [MPa]": 316.0,
+            "UTS [MPa]": 459.0,
+            "elong [%]": 17.2,
+            "Has composition": true,
+            "Si": 0.057,
+            "Fe": 0.127,
+            "Cu": 4.334,
+            "Mn": 0.585,
+            "Mg": 1.457,
+            "Cr": 0.004,
+            "Zn": 0.038,
+            "Ti": 0.029
+        }
+    ]
+}

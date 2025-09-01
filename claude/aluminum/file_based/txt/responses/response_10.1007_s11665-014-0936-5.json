@@ -1,0 +1,24 @@
+```json
+{
+    "table csv": "| Chemical compositions (wt.%)   | Chemical compositions (wt.%)   | Chemical compositions (wt.%)   | Chemical compositions (wt.%)   | Chemical compositions (wt.%)   | Chemical compositions (wt.%)   | Chemical compositions (wt.%)   | Mechanical properties   | Mechanical properties   |\n|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|-------------------------|-------------------------|\n| Al                             | Zn                             | Mg                             | Cu                             | Mn                             | Fe                             | Cr                             | Tensile strength (MPa)  | Elongation (%)          |\n| Bal.                           | 5.75                           | 2.51                           | 1.68                           | 0.26                           | 0.20                           | 0.15                           | 486                     | 11                      |",
+    "extracted text": "The paper discusses friction stir lap welding of 7B04-T74 aluminum alloy. The alloy is used for both the upper and lower sheets of lap joints, with a thickness of 2-mm.",
+    "property mapping": "AA designation: 7B04\nTemper: T74\nTensile strength: 486 MPa (UTS [MPa])\nElongation: 11% (elong [%])\nChemical composition (wt.%): Al (Balance), Zn (5.75), Mg (2.51), Cu (1.68), Mn (0.26), Fe (0.20), Cr (0.15)",
+    "abbreviations": "Bal. = Balance (remainder is aluminum)",
+    "weight percentage": "The weight percentages are directly provided in the table:\nZn: 5.75%\nMg: 2.51%\nCu: 1.68%\nMn: 0.26%\nFe: 0.20%\nCr: 0.15%\nAl: Balance (remainder to 100%)",
+    "recipes": [
+        {
+            "AA": "7B04",
+            "temper": "T74",
+            "UTS [MPa]": 486.0,
+            "elong [%]": 11.0,
+            "Has composition": true,
+            "Zn": 5.75,
+            "Mg": 2.51,
+            "Cu": 1.68,
+            "Mn": 0.26,
+            "Fe": 0.20,
+            "Cr": 0.15
+        }
+    ]
+}
+```

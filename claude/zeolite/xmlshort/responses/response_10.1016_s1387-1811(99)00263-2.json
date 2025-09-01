@@ -1,0 +1,23 @@
+{
+    "table csv": "No table with recipe information is present in the document.",
+    "extracted text": "The aluminogermanate JBW-type zeolite was synthesized from a mixture with the composition: 6 Na2O:3 Rb2O:4.12 Al2O3:8.24 GeO2:202.8 H2O. The synthesis was conducted at 225°C for 5 days under autogenous pressure in a Teflon-lined stainless-steel autoclave. The Al2O3/GeO2 precursor was prepared via a sol-gel route where aluminum nitrate nonahydrate and germanium (IV) oxide were dissolved in dilute nitric acid, precipitated with ammonia solution, dried, and decomposed at 400°C for 4 hours. The resulting product had the formula Na2RbAl3Ge3O12·H2O.",
+    "property mapping": "Na2O → Not in property list (contains Na which is not in property list)\nRb2O → Not in property list (contains Rb which is not in property list)\nAl2O3 → Al\nGeO2 → Ge\nH2O → H2O\nNa2RbAl3Ge3O12·H2O → Product formula",
+    "formula abbreviations": "No abbreviations were used in the recipe.",
+    "ratio calculations": "From the composition 6 Na2O:3 Rb2O:4.12 Al2O3:8.24 GeO2:202.8 H2O, calculating ratios relative to Si (which is 0 in this case, so will use Ge as the reference):\n\nSince there is no Si, we'll set Ge to 1.0 as the reference.\nGe: 8.24 GeO2 contains 8.24 Ge atoms, normalized to 1.0\nAl: 4.12 Al2O3 contains 8.24 Al atoms, ratio to Ge = 8.24/8.24 = 1.0\nH2O: 202.8, ratio to Ge = 202.8/8.24 = 24.61\n\nSodium and Rubidium are not in the required property list, but for completeness:\nNa: 6 Na2O contains 12 Na atoms, ratio to Ge = 12/8.24 = 1.46\nRb: 3 Rb2O contains 6 Rb atoms, ratio to Ge = 6/8.24 = 0.73",
+    "recipes": [
+        {
+            "Si": 0,
+            "Ge": 1.0,
+            "Al": 1.0,
+            "OH": 0,
+            "H2O": 24.61,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "",
+            "osda_ratios": 0,
+            "crystallization_temperature": 225.0,
+            "crystallization_time": 120.0,
+            "product_names": "Na2RbAl3Ge3O12·H2O JBW-type zeolite"
+        }
+    ]
+}

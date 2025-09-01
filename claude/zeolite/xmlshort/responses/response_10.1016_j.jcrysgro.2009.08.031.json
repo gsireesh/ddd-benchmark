@@ -1,0 +1,112 @@
+{
+    "table csv": "Sample,TEOS,GeO2,TPT,TMAOH,HF,DMF,H2O,Temperature (K),Time (days),Product composition (from XRD),Crystal size (μm)\n1,1,0,0.1,0.25,0.5,50,10,473,6,MTN,30\n2,1,0,0.1,0.25,0,50,10,473,6,MTN amorphous,25\n3,1,0,0.1,0.25,0.5,0,60,473,6,MTN amorphous,35\n4,1,0,0.1,0.25,0.5,50,10,473,6,MTN,29\n5,0.85,0.15,0.1,0.25,0.5,50,10,473,6,MTN,20\n6,0.67,0.33,0.1,0.25,0.5,50,10,473,6,MTN AST,14\n7,0.5,0.5,0.1,0.25,0.5,50,10,473,6,AST,3",
+    
+    "extracted text": "The paper describes the synthesis of MTN-type zeolite using 2,4,6-tris (4-pyridyl) triazine (TPT) as a structure directing agent in DMF (N,N-dimethylformamide). The solutions were prepared by dissolving silicon dioxide and germanium dioxide in DMF and water. The mixture was stirred for 30 min at room temperature, then tetramethylammonium hydroxide (TMAOH) and hydrofluoric acid (HF) were added. After stirring for another 30 min, the mixture was introduced into a Teflon-lined stainless steel autoclave. Crystallization was carried out for 6 days at 473 K (200°C). The solids were then filtered, washed with distilled water and dried at 373 K (100°C).",
+    
+    "property mapping": "TEOS = Silicon source (Si)\nGeO2 = Germanium source (Ge)\nTPT = Structure directing agent (osda_names = 2,4,6-tris (4-pyridyl) triazine)\nTMAOH = Tetramethylammonium hydroxide (OH source)\nHF = Hydrofluoric acid (HF source)\nDMF = N,N-dimethylformamide (solvent)\nH2O = Water\nTemperature (K) = Crystallization temperature (needs conversion to °C)\nTime (days) = Crystallization time (needs conversion to hours)\nProduct composition = Product names",
+    
+    "formula abbreviations": "TPT = 2,4,6-tris (4-pyridyl) triazine\nTMAOH = Tetramethylammonium hydroxide\nDMF = N,N-dimethylformamide\nMTN = Zeolite Socony Mobil Thirty-Nine\nAST = AlPO4-sixteen",
+    
+    "ratio calculations": "For each recipe, we normalize to Si = 1.0:\nSample 1: Si = 1.0, Ge = 0.0, TPT = 0.1, OH = 0.25, HF = 0.5, H2O = 10\nSample 2: Si = 1.0, Ge = 0.0, TPT = 0.1, OH = 0.25, HF = 0.0, H2O = 10\nSample 3: Si = 1.0, Ge = 0.0, TPT = 0.1, OH = 0.25, HF = 0.5, H2O = 60\nSample 4: Si = 1.0, Ge = 0.0, TPT = 0.1, OH = 0.25, HF = 0.5, H2O = 10\nSample 5: Si = 1.0, Ge = 0.176 (calculated as 0.15/0.85), TPT = 0.118 (0.1/0.85), OH = 0.294 (0.25/0.85), HF = 0.588 (0.5/0.85), H2O = 11.765 (10/0.85)\nSample 6: Si = 1.0, Ge = 0.493 (calculated as 0.33/0.67), TPT = 0.149 (0.1/0.67), OH = 0.373 (0.25/0.67), HF = 0.746 (0.5/0.67), H2O = 14.925 (10/0.67)\nSample 7: Si = 1.0, Ge = 1.0 (calculated as 0.5/0.5), TPT = 0.2 (0.1/0.5), OH = 0.5 (0.25/0.5), HF = 1.0 (0.5/0.5), H2O = 20.0 (10/0.5)",
+    
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.0,
+            "Al": 0.0,
+            "OH": 0.25,
+            "H2O": 10.0,
+            "HF": 0.5,
+            "B": 0.0,
+            "osda_names": "2,4,6-tris (4-pyridyl) triazine",
+            "osda_ratios": 0.1,
+            "crystallization_temperature": 200.0,
+            "crystallization_time": 144.0,
+            "product_names": "MTN"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.0,
+            "Al": 0.0,
+            "OH": 0.25,
+            "H2O": 10.0,
+            "HF": 0.0,
+            "B": 0.0,
+            "osda_names": "2,4,6-tris (4-pyridyl) triazine",
+            "osda_ratios": 0.1,
+            "crystallization_temperature": 200.0,
+            "crystallization_time": 144.0,
+            "product_names": "MTN amorphous"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.0,
+            "Al": 0.0,
+            "OH": 0.25,
+            "H2O": 60.0,
+            "HF": 0.5,
+            "B": 0.0,
+            "osda_names": "2,4,6-tris (4-pyridyl) triazine",
+            "osda_ratios": 0.1,
+            "crystallization_temperature": 200.0,
+            "crystallization_time": 144.0,
+            "product_names": "MTN amorphous"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.0,
+            "Al": 0.0,
+            "OH": 0.25,
+            "H2O": 10.0,
+            "HF": 0.5,
+            "B": 0.0,
+            "osda_names": "2,4,6-tris (4-pyridyl) triazine",
+            "osda_ratios": 0.1,
+            "crystallization_temperature": 200.0,
+            "crystallization_time": 144.0,
+            "product_names": "MTN"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.176,
+            "Al": 0.0,
+            "OH": 0.294,
+            "H2O": 11.765,
+            "HF": 0.588,
+            "B": 0.0,
+            "osda_names": "2,4,6-tris (4-pyridyl) triazine",
+            "osda_ratios": 0.118,
+            "crystallization_temperature": 200.0,
+            "crystallization_time": 144.0,
+            "product_names": "MTN"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.493,
+            "Al": 0.0,
+            "OH": 0.373,
+            "H2O": 14.925,
+            "HF": 0.746,
+            "B": 0.0,
+            "osda_names": "2,4,6-tris (4-pyridyl) triazine",
+            "osda_ratios": 0.149,
+            "crystallization_temperature": 200.0,
+            "crystallization_time": 144.0,
+            "product_names": "MTN AST"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0.0,
+            "OH": 0.5,
+            "H2O": 20.0,
+            "HF": 1.0,
+            "B": 0.0,
+            "osda_names": "2,4,6-tris (4-pyridyl) triazine",
+            "osda_ratios": 0.2,
+            "crystallization_temperature": 200.0,
+            "crystallization_time": 144.0,
+            "product_names": "AST"
+        }
+    ]
+}

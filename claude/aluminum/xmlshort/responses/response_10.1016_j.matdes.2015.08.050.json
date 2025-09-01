@@ -1,0 +1,43 @@
+{
+    "table csv": "Alloy,Zn,Mg,Cu,Mn,Si,Fe,Ti,Cr,Al\nAA6082-T6,0.20,1.12,0.14,0.91,1.20,0.34,0.08,0.04,Balancing\nAA7075-T6,5.21,2.30,1.32,0.10,0.21,0.37,0.12,0.18,Balancing\n\nAlloy,Yield stress (MPa),Tensile strength (MPa)\nAA6082-T6,288,337\nAA7075-T6,498,560",
+    "extracted text": "The base materials AA6082-T6 and AA7075-T6 show the average Vickers micro-hardness values of about 95HV0.1 and 165HV0.1, respectively.",
+    "property mapping": "Yield stress (MPa) = YS [MPa]\nTensile strength (MPa) = UTS [MPa]\nAverage Vickers micro-hardness values = Hardness (HV0.1)",
+    "abbreviations": "T6 = Solution heat treated and artificially aged\nAA = Aluminum Association designation",
+    "weight percentage": "The document already provides weight percentages for all elements in Table 1.",
+    "recipes": [
+        {
+            "AA": "6082",
+            "temper": "T6",
+            "YS [MPa]": 288.0,
+            "UTS [MPa]": 337.0,
+            "Hardness": 95.0,
+            "Hardness UNIT": "HV0.1",
+            "Has composition": true,
+            "Zn": 0.20,
+            "Mg": 1.12,
+            "Cu": 0.14,
+            "Mn": 0.91,
+            "Si": 1.20,
+            "Fe": 0.34,
+            "Ti": 0.08,
+            "Cr": 0.04
+        },
+        {
+            "AA": "7075",
+            "temper": "T6",
+            "YS [MPa]": 498.0,
+            "UTS [MPa]": 560.0,
+            "Hardness": 165.0,
+            "Hardness UNIT": "HV0.1",
+            "Has composition": true,
+            "Zn": 5.21,
+            "Mg": 2.30,
+            "Cu": 1.32,
+            "Mn": 0.10,
+            "Si": 0.21,
+            "Fe": 0.37,
+            "Ti": 0.12,
+            "Cr": 0.18
+        }
+    ]
+}

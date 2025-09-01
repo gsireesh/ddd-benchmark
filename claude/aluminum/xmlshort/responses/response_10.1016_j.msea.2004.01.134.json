@@ -1,0 +1,17 @@
+{
+    "table csv": "Materials,Young's modulus (MPa),0.2% yield strength (MPa),Tensile strength (MPa),Poisson's ratio,Elongation (%)\nAl 7175-T74,70041,499,554,0.33,10.2\n17-4PH,199503,1170,1301,0.29,11.9",
+    "extracted text": "The paper focuses on evaluating static and dynamic fracture toughness of Al 7175-T74 and 17-4PH casting steel for propulsive engine materials. The study uses three-point bend specimens with various notch root radii to determine fracture toughness properties. No additional composition information is provided beyond what appears in the table.",
+    "property mapping": "Young's modulus (MPa) -> Not in property list\n0.2% yield strength (MPa) -> YS [MPa]\nTensile strength (MPa) -> UTS [MPa]\nPoisson's ratio -> Not in property list\nElongation (%) -> elong [%]",
+    "abbreviations": "Al 7175-T74: Aluminum alloy 7175 with T74 temper treatment\nT74: Solution heat treated and artificially aged to a substantially stable condition",
+    "weight percentage": "No weight percentage information is provided in the document.",
+    "recipes": [
+        {
+            "AA": "7175",
+            "temper": "T74",
+            "YS [MPa]": 499.0,
+            "UTS [MPa]": 554.0,
+            "elong [%]": 10.2,
+            "Has composition": "False"
+        }
+    ]
+}

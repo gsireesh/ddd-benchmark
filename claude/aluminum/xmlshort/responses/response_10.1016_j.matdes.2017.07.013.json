@@ -1,0 +1,27 @@
+{
+    "table csv": "Table 1: Chemical composition of the 7075 aluminum alloy used in this study (wt%).\nAl,Cr,Cu,Mg,Mn,Si,Ti,Zn,Fe,Other\n89.39,0.19,1.57,2.63,0.05,0.084,0.038,5.82,0.18,0.04\n\nTable 2: Mechanical properties of the AA 7075-T651 used in this study.\nHardness (HV0.2),Yield strength (MPa),Tensile strength (MPa),Elongation (%)\n184.9,529.3,576.1,14.79",
+    "extracted text": "The material used in the current study is a AA 7075-T651 plate with 6 mm thickness. The chemical composition and mechanical properties of this material are listed in Table 1 and Table 2. The plugs used as filler material for keyhole closure are machined from extruded rods made from the same aluminum alloy. The temper used was T651, i.e., solution heat treated, stress relieved by stretching and artificially aged.",
+    "property mapping": "AA = AA 7075\ntemper = T651\nYS [MPa] = Yield strength (MPa) = 529.3 MPa\nUTS [MPa] = Tensile strength (MPa) = 576.1 MPa\nelong [%] = Elongation (%) = 14.79%\nHardness = 184.9\nHardness UNIT = HV0.2\nCu = 1.57%\nMn = 0.05%\nSi = 0.084%\nMg = 2.63%\nZn = 5.82%\nCr = 0.19%\nFe = 0.18%\nTi = 0.038%",
+    "abbreviations": "AA = Aluminum Association\nT651 = Solution heat treated, stress relieved by stretching and artificially aged\nHV0.2 = Vickers hardness with 0.2 kgf load",
+    "weight percentage": "The weight percentages are already provided in the table:\nAl: 89.39%\nCr: 0.19%\nCu: 1.57%\nMg: 2.63%\nMn: 0.05%\nSi: 0.084%\nTi: 0.038%\nZn: 5.82%\nFe: 0.18%\nOther: 0.04%",
+    "recipes": [
+        {
+            "AA": "7075",
+            "temper": "T651",
+            "YS [MPa]": 529.3,
+            "UTS [MPa]": 576.1,
+            "elong [%]": 14.79,
+            "Hardness": 184.9,
+            "Hardness UNIT": "HV0.2",
+            "Has composition": true,
+            "Cu": 1.57,
+            "Mn": 0.05,
+            "Si": 0.084,
+            "Mg": 2.63,
+            "Zn": 5.82,
+            "Cr": 0.19,
+            "Fe": 0.18,
+            "Ti": 0.038
+        }
+    ]
+}

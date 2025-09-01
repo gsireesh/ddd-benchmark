@@ -1,0 +1,27 @@
+```json
+{
+    "table csv": "Mn,Si,Mg,Cu,Cr,Zn,Ti,Fe,Al\n0.15–0.45,0.7–1.1,0.5–1.0,0.5–0.9,Max 0.10,Max 0.15,Max 0.10,Max 0.04,Bal.",
+    "extracted text": "The paper studies clinched joints between 0.7 mm thick galvanized SAE1004 steel and 1.0 mm thick aluminum AA6111-T4. The mechanical properties for AA 6111-T4 are provided in Table 3, showing yield strength of 151.27 MPa, tensile strength of 290.79 MPa, and elongation of 23.45%.",
+    "property mapping": "AA: AA6111, mentioned as 'aluminum AA6111-T4' throughout the text\ntemper: T4, mentioned as part of the alloy designation 'AA6111-T4'\nYS [MPa]: 151.27 MPa (from Table 3)\nUTS [MPa]: 290.79 MPa (referred to as 'tensile strength' in Table 3)\nelong [%]: 23.45% (from Table 3)",
+    "abbreviations": "Bal. = Balance (referring to the remainder of the composition being aluminum)",
+    "weight percentage": "For AA6111-T4, all values are given as weight percentages in the paper:\nMn: 0.15-0.45%, mean value = 0.3%\nSi: 0.7-1.1%, mean value = 0.9%\nMg: 0.5-1.0%, mean value = 0.75%\nCu: 0.5-0.9%, mean value = 0.7%\nCr: max 0.10%, using 0.05% as the mean value\nZn: max 0.15%, using 0.075% as the mean value\nTi: max 0.10%, using 0.05% as the mean value\nFe: max 0.04%, using 0.02% as the mean value\nAl: Balance (remainder)",
+    "recipes": [
+        {
+            "AA": "6111",
+            "temper": "T4",
+            "YS [MPa]": 151.27,
+            "UTS [MPa]": 290.79,
+            "elong [%]": 23.45,
+            "Has composition": true,
+            "Mn": 0.3,
+            "Si": 0.9,
+            "Mg": 0.75,
+            "Cu": 0.7,
+            "Cr": 0.05,
+            "Zn": 0.075,
+            "Ti": 0.05,
+            "Fe": 0.02
+        }
+    ]
+}
+```

@@ -1,0 +1,28 @@
+```json
+{
+    "table csv": "Chemical Composition,Chemical Composition,Chemical Composition,Chemical Composition,Chemical Composition,Chemical Composition,Chemical Composition,Chemical Composition,Mechanical Properties,Mechanical Properties,Mechanical Properties\nCu,Mg,Mn,Fe,Si,Zn,Ti,Al,YS (MPa),UTS (MPa),El (Pct)\n3.8 to 4.9,1.2 to 1.8,0.3 to 0.9,0.50,0.50,0.25,0.15,bal,338,480,21",
+    "extracted text": "The paper discusses a 2024Al-T351 aluminum alloy. A 6.5-mm-thick commercial Alclad 2024Al-T351 rolled plate was used in the study as the base material (BM).",
+    "property mapping": "Cu: weight percentage of copper\nMg: weight percentage of magnesium\nMn: weight percentage of manganese\nFe: weight percentage of iron\nSi: weight percentage of silicon\nZn: weight percentage of zinc\nTi: weight percentage of titanium\nAl: balance (remaining percentage)\nYS (MPa): yield strength in megapascals\nUTS (MPa): ultimate tensile strength in megapascals\nEl (Pct): elongation percentage",
+    "abbreviations": "BM: base material\nT351: solution heat-treated, stress-relieved stretched and then naturally aged\nbal: balance (remaining percentage is aluminum)",
+    "weight percentage": "For Cu, Mg, and Mn, ranges are provided:\nCu: 3.8 to 4.9 wt%, average = 4.35 wt%\nMg: 1.2 to 1.8 wt%, average = 1.5 wt%\nMn: 0.3 to 0.9 wt%, average = 0.6 wt%\nFe: 0.50 wt%\nSi: 0.50 wt%\nZn: 0.25 wt%\nTi: 0.15 wt%\nAl: balance (remaining percentage)",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T351",
+            "YS [MPa]": 338.0,
+            "UTS [MPa]": 480.0,
+            "elong [%]": 21.0,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 4.35,
+            "Mg": 1.5,
+            "Mn": 0.6,
+            "Fe": 0.5,
+            "Si": 0.5,
+            "Zn": 0.25,
+            "Ti": 0.15
+        }
+    ]
+}
+```

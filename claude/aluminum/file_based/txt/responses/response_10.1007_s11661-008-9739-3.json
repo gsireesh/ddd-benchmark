@@ -1,0 +1,28 @@
+```
+{
+    "table csv": "Material, Si, Fe, Cu, Mn, Mg, Cr, Zn, Ti, Ti +Zr, Others Each, Others Total, Al\nJIS A2024, 0.057, 0.127, 4.334, 0.585, 1.457, 0.004, 0.038, 0.029, 0.031, 0.008, 0.028, bal\n\nTemper, 0.2 Pct Proof Stress (MPa), Tensile Strength (MPa), Elongation (Pct)\nT3, 316, 459, 17.2",
+    "extracted text": "The materials used in this study were Al-4Cu-1Mg alloy (JIS-A2024, temper T3, supplied by Corus Aluminum Walzprodukte GmbH, Koblenz, Germany).",
+    "property mapping": "0.2 Pct Proof Stress (MPa) = YS [MPa]\nTensile Strength (MPa) = UTS [MPa]\nElongation (Pct) = elong [%]",
+    "abbreviations": "JIS A2024: Japanese Industrial Standard for aluminum alloy, equivalent to AA 2024\nbal: balance (remainder is aluminum)\nPct: Percent",
+    "weight percentage": "The weight percentages of elements are directly provided in the table:\nSi: 0.057%\nFe: 0.127%\nCu: 4.334%\nMn: 0.585%\nMg: 1.457%\nCr: 0.004%\nZn: 0.038%\nTi: 0.029%\nZr: 0.002% (estimated from Ti+Zr value minus Ti value)",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T3",
+            "YS [MPa]": 316.0,
+            "UTS [MPa]": 459.0,
+            "elong [%]": 17.2,
+            "Has composition": true,
+            "Si": 0.057,
+            "Fe": 0.127,
+            "Cu": 4.334,
+            "Mn": 0.585,
+            "Mg": 1.457,
+            "Cr": 0.004,
+            "Zn": 0.038,
+            "Ti": 0.029,
+            "Zr": 0.002
+        }
+    ]
+}
+```

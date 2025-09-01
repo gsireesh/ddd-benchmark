@@ -1,0 +1,29 @@
+{
+    "table csv": "Si,Fe,Cu,Mg,Mn,Zn,Cr,Ni,Pb,Bi,Al\n8.314,0.793,2.846,0.251,0.257,0.897,0.080,0.081,0.083,0.013,bal.",
+    "extracted text": "The document studies a high-pressure die-cast (HPDC) AlSi9Cu3(Fe) alloy, which is identified as EN AB-46000, equivalent to the US designation A380. The die-castings were stored at room temperature for about 5 months before being analyzed and were similar to a T1-condition. The density of fully dense material is assumed to be 2.770 g/cm³. Tensile specimens with different gage diameters (6.0, 3.4, and 3.0 mm) were tested to study the effects of microstructural variations on mechanical properties.",
+    "property mapping": "AA designation: A380 (US designation) or EN AB-46000 (European designation)\nTemper: T1-condition\nYS: Yield strength (actually 0.2% proof stress) in MPa\nUTS: Ultimate tensile strength in MPa\nεf: Elongation to fracture in percentage\nHardness: Vickers microhardness with a mean value of about 110 HV",
+    "abbreviations": "HPDC: High-pressure die-casting\nYS: Yield strength (0.2% proof stress)\nUTS: Ultimate tensile strength\nεf: Elongation to fracture\nHV: Vickers hardness\nESCs: Externally solidified crystals",
+    "weight percentage": "The weight percentages of elements are already provided in the table in weight percent:\nSi: 8.314%\nFe: 0.793%\nCu: 2.846%\nMg: 0.251%\nMn: 0.257%\nZn: 0.897%\nCr: 0.080%\nNi: 0.081%\nPb: 0.083%\nBi: 0.013%\nAl: balance (remaining percentage)",
+    "recipes": [
+        {
+            "AA": "A380",
+            "temper": "T1",
+            "YS [MPa]": 173,
+            "UTS [MPa]": 344,
+            "elong [%]": 5.0,
+            "Hardness": 110,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Si": 8.314,
+            "Fe": 0.793,
+            "Cu": 2.846,
+            "Mg": 0.251,
+            "Mn": 0.257,
+            "Zn": 0.897,
+            "Cr": 0.080,
+            "Ni": 0.081,
+            "Pb": 0.083,
+            "Bi": 0.013
+        }
+    ]
+}

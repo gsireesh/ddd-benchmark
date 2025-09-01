@@ -1,0 +1,43 @@
+{
+    "table csv": "Material,Chemical composition (wt%)\n7017,4.6% Zn, 2.3% Mg, 0.25% Cr, 0.15% Si, 0.17% Fe, balance Al\n7055,8.0% Zn, 1.85% Mg, 2.0% Cu, 0.14% Zr, balance Al\n\nMaterial,Heat treatment temper schedules\n7017,Peak aged (120°C/48h)\n7055,Peak aged (100°C/8h+120°C/24h)\n\nMaterial,YS (MPa),UTS (MPa),Elongation (%),Hardness (VHN)\n7017,408,455,17,141\n7055,611,655,12,190",
+    
+    "extracted text": "The paper investigates the plastic flow behavior of 7017 and 7055 aluminum alloys under different high strain rate test methods. Both alloys were peak aged: 7017 was aged at 120°C for 48 hours, while 7055 underwent a two-step aging process of 100°C for 8 hours followed by 120°C for 24 hours.",
+    
+    "property mapping": "YS (MPa) → Yield Strength in MPa\nUTS (MPa) → Ultimate Tensile Strength in MPa\nElongation (%) → elongation percentage\nHardness (VHN) → Hardness in Vickers Hardness Number",
+    
+    "abbreviations": "YS = Yield Strength\nUTS = Ultimate Tensile Strength\nVHN = Vickers Hardness Number",
+    
+    "weight percentage": "For 7017 alloy: Zn: 4.6%, Mg: 2.3%, Cr: 0.25%, Si: 0.15%, Fe: 0.17%, balance Al\nFor 7055 alloy: Zn: 8.0%, Mg: 1.85%, Cu: 2.0%, Zr: 0.14%, balance Al",
+    
+    "recipes": [
+        {
+            "AA": "7017",
+            "temper": "Peak aged",
+            "YS [MPa]": 408.0,
+            "UTS [MPa]": 455.0,
+            "elong [%]": 17.0,
+            "Hardness": 141.0,
+            "Hardness UNIT": "VHN",
+            "Has composition": true,
+            "Zn": 4.6,
+            "Mg": 2.3,
+            "Cr": 0.25,
+            "Si": 0.15,
+            "Fe": 0.17
+        },
+        {
+            "AA": "7055",
+            "temper": "Peak aged",
+            "YS [MPa]": 611.0,
+            "UTS [MPa]": 655.0,
+            "elong [%]": 12.0,
+            "Hardness": 190.0,
+            "Hardness UNIT": "VHN",
+            "Has composition": true,
+            "Zn": 8.0,
+            "Mg": 1.85,
+            "Cu": 2.0,
+            "Zr": 0.14
+        }
+    ]
+}

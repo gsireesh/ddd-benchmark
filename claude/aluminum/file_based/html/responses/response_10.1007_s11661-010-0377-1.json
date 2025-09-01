@@ -1,0 +1,27 @@
+{
+    "table csv": "Alloy,Cu,Mn,Zr,V,Ti,Fe,Si,Zn,Al\nAA2219-T87,5.95,0.27,0.1,0.09,0.06,0.12,0.05,0.02,bal\nAA2319,6.1,0.29,0.15,0.1,0.15,0.1,0.04,0.02,bal",
+    "extracted text": "The paper studies AA2219 aluminum alloy in T87 temper condition (solution treated at 807 K (534 °C) for 1 hour) + 7% stretched followed by aging at 436 K (163 °C) for 24 hours). The base metal has a UTS of 440 MPa, 0.2% YS of 358 MPa, and 11.7% elongation. Hardness testing showed the base metal had a value of 128 Hv (Vickers hardness).",
+    "property mapping": "AA = AA2219 (Aluminum Association designation)\ntemper = T87\nYS [MPa] = 358 MPa (0.2% YS of base metal)\nUTS [MPa] = 440 MPa (UTS of base metal)\nelong [%] = 11.7% (percent elongation of base metal)\nHardness = 128 Hv (base metal hardness value)\nHardness UNIT = Hv (Vickers hardness)",
+    "abbreviations": "BM = Base Metal\nAW = As Welded\nRW = Repair Welded\nPMZ = Partially Melted Zone\nFZ = Fusion Zone\nHAZ = Heat-Affected Zone\nSCC = Stress Corrosion Cracking\nSSRT = Slow Strain Rate Technique\nTIG = Tungsten Inert Gas (welding method)",
+    "weight percentage": "The composition is already provided in weight percentage in the document:\nCu: 5.95%\nMn: 0.27%\nZr: 0.1%\nV: 0.09%\nTi: 0.06%\nFe: 0.12%\nSi: 0.05%\nZn: 0.02%\nAl: balance (remaining percentage)",
+    "recipes": [
+        {
+            "AA": "2219",
+            "temper": "T87",
+            "YS [MPa]": 358.0,
+            "UTS [MPa]": 440.0,
+            "elong [%]": 11.7,
+            "Hardness": 128.0,
+            "Hardness UNIT": "Hv",
+            "Has composition": true,
+            "Cu": 5.95,
+            "Mn": 0.27,
+            "Zr": 0.1,
+            "V": 0.09,
+            "Ti": 0.06,
+            "Fe": 0.12,
+            "Si": 0.05,
+            "Zn": 0.02
+        }
+    ]
+}

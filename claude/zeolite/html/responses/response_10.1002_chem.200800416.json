@@ -1,0 +1,98 @@
+{
+    "table csv": "Sample,Si,Ge,SDA,H2O,Si/Ge in RM,Si/Ge in samples,(Si + Ge)/SDA in RM,SDA wt%,H2O wt%\nUTL/1,0.80,0.40,0.3,30,2,4.17,4,12.56,3.67\nUTL/2,0.80,0.40,0.7,30,2,4.18,1.7,12.73,3.36\nUTL/3,0.80,0.40,0.4,30,2,4.17,3,12.96,3.32\nUTL/4,0.80,0.40,0.6,30,2,4.19,2,12.48,3.66\nUTL/5,1.00,0.20,0.3,30,5,9.44,4,12.60,2.81\nUTL/6,0.60,0.60,0.3,30,1,4.17,4,4.52,8.10",
+    
+    "extracted text": "The synthesis of zeolite with UTL topology was carried out by a modified method. Reaction gel of molar composition: 0.6-1.0 SiO2/0.6-0.2 GeO2/0.3-0.7 SDA/30-33 H2O was prepared by dissolving amorphous germanium oxide (Aldrich) in the solution of SDA. The resulting fluid gel was charged into 25 mL Teflon-lined home-made stainless steel autoclaves and heated at 175°C for 3-9 days under agitation (40 rpm). The optimum synthesis time was found to be six days for Si/Ge and (Si+Ge)/SDA molar ratios of 2 and 1.7, respectively. The structure-directing agent (SDA) used was (6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide.",
+    
+    "property mapping": "Si: Molar ratio of Si in reaction mixture (from SiO2)\nGe: Molar ratio of Ge in reaction mixture (from GeO2)\nSDA: Molar ratio of structure-directing agent ((6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide)\nH2O: Molar ratio of water\nOH: Present in the SDA as hydroxide form but not explicitly quantified\ncrystallization_temperature: 175°C\ncrystallization_time: 3-9 days (72-216 hours), with optimum at 6 days (144 hours)\nproduct_names: UTL",
+    
+    "formula abbreviations": "SDA = (6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide\nRM = Reaction Mixture\n(Si + Ge)/SDA = Ratio of total silicon and germanium to structure-directing agent",
+    
+    "ratio calculations": "For each sample, setting Si to 1.0:\nUTL/1: Si = 1.0, Ge = 0.5, SDA = 0.375, H2O = 37.5\nUTL/2: Si = 1.0, Ge = 0.5, SDA = 0.875, H2O = 37.5\nUTL/3: Si = 1.0, Ge = 0.5, SDA = 0.5, H2O = 37.5\nUTL/4: Si = 1.0, Ge = 0.5, SDA = 0.75, H2O = 37.5\nUTL/5: Si = 1.0, Ge = 0.2, SDA = 0.3, H2O = 30.0\nUTL/6: Si = 1.0, Ge = 1.0, SDA = 0.5, H2O = 50.0",
+    
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.5,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 37.5,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",
+            "osda_ratios": 0.375,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 144.0,
+            "product_names": "UTL"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.5,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 37.5,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",
+            "osda_ratios": 0.875,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 144.0,
+            "product_names": "UTL"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.5,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 37.5,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 144.0,
+            "product_names": "UTL"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.5,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 37.5,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 144.0,
+            "product_names": "UTL"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.2,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 30.0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",
+            "osda_ratios": 0.3,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 144.0,
+            "product_names": "UTL"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 50.0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "(6R,10S)-6,10-dimethyl-5-azoniaspiro[4.5]decane hydroxide",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 144.0,
+            "product_names": "UTL"
+        }
+    ]
+}

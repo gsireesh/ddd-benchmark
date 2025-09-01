@@ -1,0 +1,25 @@
+{
+    "table csv": "Element,Si,Fe,Cu,Mn,Mg,Cr,Zn,Ti,Al\nwt.%,0.1,0.17,4.55,0.45,1.49,<0.01,0.16,0.021,Bal.",
+    "extracted text": "The joining parts used in this work consist of two materials: an aluminum alloy and a thermoplastic composite. Rolled sheets of aluminum alloy (AA2024-T3) with a thickness of 2 mm (supplied by Constellium, France) were used as the metallic parts. This alloy is mainly used in the primary structures of aircrafts. AA2024 is a precipitation-hardenable alloy with Cu and Mg as the primary alloying elements. Heat treatment (T3) leads to the formation of strengthening phases such as Al₂CuMg and CuAl₂, which give rise to the high strength of this alloy.",
+    "property mapping": "Tensile strength (direction TL) = UTS [MPa]\nYield strength (direction TL) = YS [MPa]\nElongation = elong [%]",
+    "abbreviations": "TL refers to the transverse-longitudinal direction for mechanical testing. Bal. means balance, indicating that aluminum makes up the remainder of the composition after accounting for all other elements.",
+    "weight percentage": "The weight percentages for the elements are directly provided in the document: Si: 0.1%, Fe: 0.17%, Cu: 4.55%, Mn: 0.45%, Mg: 1.49%, Cr: <0.01%, Zn: 0.16%, Ti: 0.021%, and Al: balance (remainder to 100%).",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T3",
+            "YS [MPa]": 299.0,
+            "UTS [MPa]": 437.0,
+            "elong [%]": 21.0,
+            "Has composition": true,
+            "Cu": 4.55,
+            "Mn": 0.45,
+            "Si": 0.1,
+            "Mg": 1.49,
+            "Zn": 0.16,
+            "Cr": 0.01,
+            "Fe": 0.17,
+            "Ti": 0.021
+        }
+    ]
+}

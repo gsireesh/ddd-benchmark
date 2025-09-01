@@ -1,0 +1,29 @@
+```json
+{
+    "table csv": "Table I. Chemical Compositions of AA2219-T87 Aluminum Alloy and the Filler Wire Used in the Study\nAlloy,Cu,Mn,Zr,V,Ti,Fe,Si,Zn,Al\nAA2219-T87,5.95,0.27,0.1,0.09,0.06,0.12,0.05,0.02,bal\nAA2319,6.1,0.29,0.15,0.1,0.15,0.1,0.04,0.02,bal\n\nTable III. Tensile Parameters of AA2219 Parent and Weld Metals\nMaterial,UTS (MPa),0.2 Pct YS (MPa),Pct Elongation,Location of Failure\nBM,440,358,11.7,-\nAW,248,138,4.25,fusion boundary\nRW,251,126,5.75,fusion boundary",
+    "extracted text": "The document describes AA2219 aluminum alloy in T87 temper condition, which is solution treated at 807 K (534°C) for 1 hour + 7% stretched followed by aging at 436 K (163°C) for 24 hours. From Figure 4, the hardness of the base metal is approximately 128 Hv.",
+    "property mapping": "UTS = Ultimate Tensile Strength (MPa)\nYS = 0.2 Pct YS = 0.2 Percent Yield Strength (MPa)\nPct Elongation = elongation percentage\nHv = Vickers hardness",
+    "abbreviations": "BM = Base Metal\nAW = As Welded\nRW = Repair Welded\nbal = balance (remainder is aluminum)",
+    "weight percentage": "The weight percentages for AA2219-T87 are directly provided in the document: Cu (5.95%), Mn (0.27%), Zr (0.1%), V (0.09%), Ti (0.06%), Fe (0.12%), Si (0.05%), Zn (0.02%), and Al (balance).",
+    "recipes": [
+        {
+            "AA": "2219",
+            "temper": "T87",
+            "YS [MPa]": 358.0,
+            "UTS [MPa]": 440.0,
+            "elong [%]": 11.7,
+            "Hardness": 128.0,
+            "Hardness UNIT": "Hv",
+            "Has composition": true,
+            "Cu": 5.95,
+            "Mn": 0.27,
+            "Zr": 0.1,
+            "V": 0.09,
+            "Ti": 0.06,
+            "Fe": 0.12,
+            "Si": 0.05,
+            "Zn": 0.02
+        }
+    ]
+}
+```

@@ -1,0 +1,37 @@
+{
+    "table csv": "No tables containing recipe information were present in the document.",
+    "extracted text": "The compositions of two typical synthesis gels to obtain ITQ-37 are as follows: 0.5 SiO2:0.5 GeO2:0.25 SDA2(OH)2:0.50 NH4F:3 H2O, without aluminium, and 0.5 SiO2:0.5 GeO2:0.01 Al2O3:0.25 SDA2(OH)2:0.50 NH4F:3 H2O, with aluminium. Crystallization was carried out at 175 °C over 24 h under static conditions.",
+    "property mapping": "SiO2 -> Si, GeO2 -> Ge, Al2O3 -> Al, SDA2(OH)2 -> osda_names and osda_ratios, NH4F -> HF, H2O -> H2O, 175 °C -> crystallization_temperature, 24 h -> crystallization_time, ITQ-37 -> product_names",
+    "formula abbreviations": "SDA2 refers to the structure directing agent described in the paper, which is a bulky diquaternary ammonium molecule. NH4F is treated as providing the fluoride (HF) component.",
+    "ratio calculations": "For Recipe 1 (without Al): Si = 0.5, Ge = 0.5. Normalizing to Si = 1.0: Si = 1.0, Ge = 1.0, OH = 0.5, HF = 0.5, H2O = 6.0, osda_ratios = 0.25. For Recipe 2 (with Al): Si = 0.5, Ge = 0.5, Al = 0.02 (from Al2O3 = 0.01). Normalizing to Si = 1.0: Si = 1.0, Ge = 1.0, Al = 0.04, OH = 0.5, HF = 0.5, H2O = 6.0, osda_ratios = 0.25.",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0.0,
+            "OH": 0.5,
+            "H2O": 6.0,
+            "HF": 0.5,
+            "B": 0.0,
+            "osda_names": "SDA2 (diquaternary ammonium molecule)",
+            "osda_ratios": 0.25,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 24.0,
+            "product_names": "ITQ-37"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0.04,
+            "OH": 0.5,
+            "H2O": 6.0,
+            "HF": 0.5,
+            "B": 0.0,
+            "osda_names": "SDA2 (diquaternary ammonium molecule)",
+            "osda_ratios": 0.25,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 24.0,
+            "product_names": "ITQ-37"
+        }
+    ]
+}

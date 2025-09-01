@@ -1,0 +1,25 @@
+{
+    "table csv": "Si,Fe,Cu,Mn,Mg,Cr,Zn,Ti,Al\n0.06,0.19,4.60,0.63,1.53,0.01,0.25,0.03,Balance\n\nYield strength (MPa),UTS (MPa),Elongation in four dimensions (%)\n345,483,17.5",
+    "extracted text": "The material used in this study is 2024-T3 aluminum alloy. It was supplied as one flat bare sheet with 1.6 mm thickness.",
+    "property mapping": "AA = 2024\ntemper = T3\nYS [MPa] = Yield strength (MPa) = 345\nUTS [MPa] = UTS (MPa) = 483\nelong [%] = Elongation in four dimensions (%) = 17.5\nSi = 0.06%\nFe = 0.19%\nCu = 4.60%\nMn = 0.63%\nMg = 1.53%\nCr = 0.01%\nZn = 0.25%\nTi = 0.03%\nAl = Balance",
+    "abbreviations": "AA = Aluminum Association designation\nUTS = Ultimate Tensile Strength",
+    "weight percentage": "Si: 0.06%\nFe: 0.19%\nCu: 4.60%\nMn: 0.63%\nMg: 1.53%\nCr: 0.01%\nZn: 0.25%\nTi: 0.03%\nAl: Balance (remaining percentage)",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T3",
+            "YS [MPa]": 345.0,
+            "UTS [MPa]": 483.0,
+            "elong [%]": 17.5,
+            "Has composition": true,
+            "Cu": 4.6,
+            "Mn": 0.63,
+            "Si": 0.06,
+            "Mg": 1.53,
+            "Zn": 0.25,
+            "Cr": 0.01,
+            "Fe": 0.19,
+            "Ti": 0.03
+        }
+    ]
+}

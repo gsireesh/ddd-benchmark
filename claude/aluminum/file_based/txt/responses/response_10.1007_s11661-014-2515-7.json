@@ -1,0 +1,71 @@
+```json
+{
+    "table csv": "Si,Fe,Cu,Mg,Mn,Zn,Cr,Ni,Pb,Bi,Al\n8.314,0.793,2.846,0.251,0.257,0.897,0.08,0.081,0.083,0.013,bal.",
+    "extracted text": "The paper studies AlSi9Cu3(Fe) alloy (EN AB-46000, equivalent to the US designation A380) in T1 condition. The tensile specimens were tested in different gage diameters (6.0, 3.4, and 3.0 mm). The alloy was produced through aluminum scrap recycling and cast using high-pressure die-casting (HPDC). The specimens have been stored at room temperature for about 5 months before testing, similar to a T1 condition (cooled from elevated-temperature shaping process with mechanical properties stabilized by room temperature aging).",
+    "property mapping": "YS: Yield Strength (0.2% proof stress) in MPa\nUTS: Ultimate Tensile Strength in MPa\nsf: Elongation to fracture in percentage\nHardness: Vickers microhardness (HV)",
+    "abbreviations": "ESCs: Externally Solidified Crystals\nHPDC: High-Pressure Die-Casting\nT1: Products cooled from elevated-temperature shaping process with mechanical properties stabilized by room temperature aging",
+    "weight percentage": "Si: 8.314%\nFe: 0.793%\nCu: 2.846%\nMg: 0.251%\nMn: 0.257%\nZn: 0.897%\nCr: 0.08%\nNi: 0.081%\nPb: 0.083%\nBi: 0.013%\nAl: balance (remainder)",
+    "recipes": [
+        {
+            "AA": "A380",
+            "temper": "T1",
+            "YS [MPa]": 173,
+            "UTS [MPa]": 344,
+            "elong [%]": 5.0,
+            "Hardness": 110,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Si": 8.314,
+            "Fe": 0.793,
+            "Cu": 2.846,
+            "Mg": 0.251,
+            "Mn": 0.257,
+            "Zn": 0.897,
+            "Cr": 0.08,
+            "Ni": 0.081,
+            "Pb": 0.083,
+            "Bi": 0.013
+        },
+        {
+            "AA": "A380",
+            "temper": "T1",
+            "YS [MPa]": 160,
+            "UTS [MPa]": 333,
+            "elong [%]": 5.3,
+            "Hardness": 110,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Si": 8.314,
+            "Fe": 0.793,
+            "Cu": 2.846,
+            "Mg": 0.251,
+            "Mn": 0.257,
+            "Zn": 0.897,
+            "Cr": 0.08,
+            "Ni": 0.081,
+            "Pb": 0.083,
+            "Bi": 0.013
+        },
+        {
+            "AA": "A380",
+            "temper": "T1",
+            "YS [MPa]": 148,
+            "UTS [MPa]": 306,
+            "elong [%]": 4.6,
+            "Hardness": 110,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Si": 8.314,
+            "Fe": 0.793,
+            "Cu": 2.846,
+            "Mg": 0.251,
+            "Mn": 0.257,
+            "Zn": 0.897,
+            "Cr": 0.08,
+            "Ni": 0.081,
+            "Pb": 0.083,
+            "Bi": 0.013
+        }
+    ]
+}
+```

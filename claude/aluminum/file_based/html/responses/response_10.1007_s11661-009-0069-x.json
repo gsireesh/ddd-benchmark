@@ -1,0 +1,69 @@
+{
+    "table csv": "Table I. Chemical Composition of As-Received Aluminum Alloys (Atomic Percent)\nAlloy,Si,Fe,Cu,Mn,Mg,Cr,Zn,Ti,Ni\n7075 (D),0.05,0.04,0.74,0.01,2.89,0.13,3.05,0.04,-\n2024 (L),0.07,0.04,2.46,0.21,1.26,0.04,0.14,0.02,0.06\n1050 (H),0.12,0.21,< 0.005,0.02,0.01,< 0.010,< 0.005,< 0.010,-\n\nTable II. Mechanical Properties of As-Received Aluminum Alloys\nAlloy,UTS* (MPa),YS* (MPa),HV,Elongation* (Pct)\n7075-T6 (D),545,475,188,8\n2024-T3 (L),457,333,138,16\n1050-H24 (H),136,128,44,7",
+    
+    "extracted text": "The materials used were rolled Al 7075-T6 and Al 2024-T3 sheets 2 mm in thickness, and Al 1050-H24 sheets 0.5 mm in thickness. The T6 temper for Al 7075 involved solution treating at 465°C for 30 minutes, followed by rapid quenching in water and finally age hardening at 135°C for 14 hours. The T6 temper for Al 2024 involved solution treating at 490°C for 30 minutes, followed by rapid quenching in water and finally age hardening at 160°C for 6 hours. The H24 temper for Al 1050 refers to work hardening followed by partial annealing (240°C).",
+    
+    "property mapping": "AA (Aluminum Association designation): Represented by '7075', '2024', and '1050' in the tables\nTemper: Represented by 'T6', 'T3', and 'H24' in the tables\nUTS (Ultimate Tensile Strength): Listed as 'UTS* (MPa)' in Table II\nYS (Yield Strength): Listed as 'YS* (MPa)' in Table II\nElongation: Listed as 'Elongation* (Pct)' in Table II\nHardness: Listed as 'HV' (Vickers hardness) in Table II\nElement composition: Listed in atomic percentage in Table I",
+    
+    "abbreviations": "D - Designation for the Al 7075 sheets in the study\nL - Designation for the Al 2024 sheets in the study\nH - Designation for the Al 1050 sheets in the study\nALH19 - Multilayer laminate made of alternating Al 2024 (L) and Al 1050 (H) layers\nADH19 - Multilayer laminate made of alternating Al 7075 (D) and Al 1050 (H) layers\nT6 - Solution treating followed by quenching and peak age hardening\nT3 - Solution treating followed by quenching, cold working, and natural aging\nH24 - Work hardening followed by partial annealing (240°C)\nHV - Vickers hardness",
+    
+    "weight percentage": "To convert from atomic percentage to weight percentage:\nAtomic weights: Al = 26.98, Si = 28.09, Fe = 55.85, Cu = 63.55, Mn = 54.94, Mg = 24.31, Cr = 52.00, Zn = 65.38, Ti = 47.87, Ni = 58.69\n\nFor 7075:\nSi: 0.05 at% × 28.09 / (0.05 × 28.09 + 0.04 × 55.85 + 0.74 × 63.55 + 0.01 × 54.94 + 2.89 × 24.31 + 0.13 × 52.00 + 3.05 × 65.38 + 0.04 × 47.87 + 93.05 × 26.98) × 100 = 0.13 wt%\nFe: 0.04 at% × 55.85 / (denominator) × 100 = 0.20 wt%\nCu: 0.74 at% × 63.55 / (denominator) × 100 = 4.17 wt%\nMn: 0.01 at% × 54.94 / (denominator) × 100 = 0.05 wt%\nMg: 2.89 at% × 24.31 / (denominator) × 100 = 6.22 wt%\nCr: 0.13 at% × 52.00 / (denominator) × 100 = 0.60 wt%\nZn: 3.05 at% × 65.38 / (denominator) × 100 = 17.66 wt%\nTi: 0.04 at% × 47.87 / (denominator) × 100 = 0.17 wt%\n\nFor 2024:\nSi: 0.07 at% × 28.09 / (0.07 × 28.09 + 0.04 × 55.85 + 2.46 × 63.55 + 0.21 × 54.94 + 1.26 × 24.31 + 0.04 × 52.00 + 0.14 × 65.38 + 0.02 × 47.87 + 0.06 × 58.69 + 95.70 × 26.98) × 100 = 0.18 wt%\nFe: 0.04 at% × 55.85 / (denominator) × 100 = 0.20 wt%\nCu: 2.46 at% × 63.55 / (denominator) × 100 = 14.04 wt%\nMn: 0.21 at% × 54.94 / (denominator) × 100 = 1.04 wt%\nMg: 1.26 at% × 24.31 / (denominator) × 100 = 2.75 wt%\nCr: 0.04 at% × 52.00 / (denominator) × 100 = 0.19 wt%\nZn: 0.14 at% × 65.38 / (denominator) × 100 = 0.82 wt%\nTi: 0.02 at% × 47.87 / (denominator) × 100 = 0.09 wt%\nNi: 0.06 at% × 58.69 / (denominator) × 100 = 0.32 wt%\n\nFor 1050:\nSi: 0.12 at% × 28.09 / (0.12 × 28.09 + 0.21 × 55.85 + 0.005 × 63.55 + 0.02 × 54.94 + 0.01 × 24.31 + 0.01 × 52.00 + 0.005 × 65.38 + 0.01 × 47.87 + 99.62 × 26.98) × 100 = 0.31 wt%\nFe: 0.21 at% × 55.85 / (denominator) × 100 = 1.09 wt%\nCu: 0.005 at% × 63.55 / (denominator) × 100 = 0.03 wt%\nMn: 0.02 at% × 54.94 / (denominator) × 100 = 0.10 wt%\nMg: 0.01 at% × 24.31 / (denominator) × 100 = 0.02 wt%\nCr: 0.01 at% × 52.00 / (denominator) × 100 = 0.05 wt%\nZn: 0.005 at% × 65.38 / (denominator) × 100 = 0.03 wt%\nTi: 0.01 at% × 47.87 / (denominator) × 100 = 0.04 wt%",
+    
+    "recipes": [
+        {
+            "AA": "7075",
+            "temper": "T6",
+            "YS [MPa]": 475.0,
+            "UTS [MPa]": 545.0,
+            "elong [%]": 8.0,
+            "Hardness": 188.0,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Si": 0.13,
+            "Fe": 0.20,
+            "Cu": 4.17,
+            "Mn": 0.05,
+            "Mg": 6.22,
+            "Cr": 0.60,
+            "Zn": 17.66,
+            "Ti": 0.17
+        },
+        {
+            "AA": "2024",
+            "temper": "T3",
+            "YS [MPa]": 333.0,
+            "UTS [MPa]": 457.0,
+            "elong [%]": 16.0,
+            "Hardness": 138.0,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Si": 0.18,
+            "Fe": 0.20,
+            "Cu": 14.04,
+            "Mn": 1.04,
+            "Mg": 2.75,
+            "Cr": 0.19,
+            "Zn": 0.82,
+            "Ti": 0.09,
+            "Ni": 0.32
+        },
+        {
+            "AA": "1050",
+            "temper": "H24",
+            "YS [MPa]": 128.0,
+            "UTS [MPa]": 136.0,
+            "elong [%]": 7.0,
+            "Hardness": 44.0,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Si": 0.31,
+            "Fe": 1.09,
+            "Cu": 0.03,
+            "Mn": 0.10,
+            "Mg": 0.02,
+            "Cr": 0.05,
+            "Zn": 0.03,
+            "Ti": 0.04
+        }
+    ]
+}

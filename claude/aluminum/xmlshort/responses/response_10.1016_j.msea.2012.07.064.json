@@ -1,0 +1,72 @@
+{
+    "table csv": "Si,Fe,Cu,Mn,Mg,Sr,Al\n1.17,0.14,4.32,0.24,0.19,0.01,Bal.",
+    "extracted text": "The paper studies a modified 206 aluminum alloy with high Si content (1.2%) to improve hot tearing resistance in semi-solid casting. The alloy was solution heat treated under different conditions and artificially aged at 185°C for 5h. Three different heat treatment conditions were evaluated: T7A (500°C for 12h, then quenched and aged), T7B (500°C for 6h + 515°C for 8h, then quenched and aged), and T7C (515°C for 2h + 525°C for 8h, then quenched and aged). The T7B condition was found to be optimal to avoid incipient melting while achieving the highest mechanical properties. The alloy showed primarily Al₂Cu and Al₁₅(FeMnCu)₃Si₂ intermetallic phases in the microstructure.",
+    "property mapping": "AA: 206 alloy (experimental semi-solid cast version with high Si)
+YS [MPa]: Yield stress (YS) at a 0.2% offset strain
+UTS [MPa]: Ultimate tensile strength (UTS)
+elong [%]: Fracture elongation (%El)
+Temper: T7A, T7B, and T7C, each representing different solution treatment and aging conditions",
+    "abbreviations": "T7A: Solution treated at 500°C for 12h, quenched in warm water at 65°C, and artificially aged at 185°C for 5h
+T7B: Solution treated at 500°C for 6h + 515°C for 8h, quenched in warm water at 65°C, and artificially aged at 185°C for 5h
+T7C: Solution treated at 515°C for 2h + 525°C for 8h, quenched in warm water at 65°C, and artificially aged at 185°C for 5h
+DSC: Differential scanning calorimetry",
+    "weight percentage": "Si: 1.17%
+Fe: 0.14%
+Cu: 4.32%
+Mn: 0.24%
+Mg: 0.19%
+Sr: 0.01%
+Al: Balance (remaining percentage)",
+    "recipes": [
+        {
+            "AA": "206",
+            "temper": "T7A",
+            "YS [MPa]": 302,
+            "UTS [MPa]": 376,
+            "elong [%]": 8.8,
+            "Has composition": true,
+            "Si": 1.17,
+            "Fe": 0.14,
+            "Cu": 4.32,
+            "Mn": 0.24,
+            "Mg": 0.19,
+            "Sr": 0.01
+        },
+        {
+            "AA": "206",
+            "temper": "T7B",
+            "YS [MPa]": 324,
+            "UTS [MPa]": 391,
+            "elong [%]": 8.5,
+            "Has composition": true,
+            "Si": 1.17,
+            "Fe": 0.14,
+            "Cu": 4.32,
+            "Mn": 0.24,
+            "Mg": 0.19,
+            "Sr": 0.01
+        },
+        {
+            "AA": "206",
+            "temper": "T7C",
+            "YS [MPa]": 296,
+            "UTS [MPa]": 366,
+            "elong [%]": 4.9,
+            "Has composition": true,
+            "Si": 1.17,
+            "Fe": 0.14,
+            "Cu": 4.32,
+            "Mn": 0.24,
+            "Mg": 0.19,
+            "Sr": 0.01
+        },
+        {
+            "AA": "A206",
+            "temper": "T71",
+            "YS [MPa]": 347,
+            "UTS [MPa]": 436,
+            "elong [%]": 11.7,
+            "Has composition": "nominal"
+        }
+    ]
+}

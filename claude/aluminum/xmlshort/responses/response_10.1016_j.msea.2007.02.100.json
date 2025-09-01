@@ -1,0 +1,28 @@
+```json
+{
+    "table csv": "Cu,Mg,Mn,Fe,Si,Zn,Ti,Aluminum\n4.45,1.36,0.71,0.5,0.5,0.2,0.15,Balance",
+    "extracted text": "The material chosen was a rolled aluminum alloy 2024 plate having a thickness of 3 mm. The friction stir welded plates of the alloy were tested in the T8 temper.",
+    "property mapping": "Elastic modulus (GPa) → Not included in properties list\nYield strength (MPa) → YS [MPa]\nUTS (MPa) → UTS [MPa]\nElongation, GL = 0.5 in. (%) → elong [%]\nReduction in area (%) → Not included in properties list\nTensile ductility, ln(Ao/Af) (%) → Not included in properties list",
+    "abbreviations": "UTS = Ultimate Tensile Strength\nGPa = Gigapascal\nMPa = Megapascal\nGL = Gauge Length",
+    "weight percentage": "The composition is already provided in weight percentage:\nCu: 4.45%\nMg: 1.36%\nMn: 0.71%\nFe: 0.5%\nSi: 0.5%\nZn: 0.2%\nTi: 0.15%\nAl: Balance",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T8",
+            "YS [MPa]": 445.0,
+            "UTS [MPa]": 476.0,
+            "elong [%]": 8.84,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 4.45,
+            "Mg": 1.36,
+            "Mn": 0.71,
+            "Fe": 0.5,
+            "Si": 0.5,
+            "Zn": 0.2,
+            "Ti": 0.15
+        }
+    ]
+}
+```

@@ -1,0 +1,28 @@
+```json
+{
+    "table csv": "Chemical Composition,Chemical Composition,Chemical Composition,Chemical Composition,Chemical Composition,Chemical Composition,Chemical Composition,Chemical Composition,Mechanical Properties,Mechanical Properties,Mechanical Properties\nCu,Mg,Mn,Fe,Si,Zn,Ti,Al,YS (MPa),UTS (MPa),El (Pct)\n3.8 to 4.9,1.2 to 1.8,0.3 to 0.9,0.50,0.50,0.25,0.15,bal,338,480,21",
+    "extracted text": "The paper analyzes a 5-mm-thick 2024Al-T351 plate that was friction stir welded (FSWed) at different welding speeds. The material used was a 6.5-mm-thick commercial Alclad 2024Al-T351 rolled plate that was machined on both sides to 5.0-mm thickness to remove the Alclads.",
+    "property mapping": "AA: 2024Al (Aluminum Association alloy designation)\ntemper: T351 (solution heat-treated, stress-relieved by stretching, and naturally aged)\nYS [MPa]: 338 (listed as YS (MPa) in table)\nUTS [MPa]: 480 (listed as UTS (MPa) in table)\nelong [%]: 21 (listed as El (Pct) in table)",
+    "abbreviations": "FSW: Friction Stir Welding\nFSWed: Friction Stir Welded\nBM: Base Material\nNZ: Nugget Zone\nTMAZ: Thermomechanically Affected Zone\nHAZ: Heat-Affected Zone\nLHZ: Low Hardness Zone\nSDZ: Shoulder-Driven Zone\nPDZ: Pin-Driven Zone\nSWZ: Swirl Zone\nRS: Retreating Side\nAS: Advancing Side",
+    "weight percentage": "For the 2024Al-T351 alloy:\nCu: mean of range 3.8 to 4.9 = 4.35%\nMg: mean of range 1.2 to 1.8 = 1.5%\nMn: mean of range 0.3 to 0.9 = 0.6%\nFe: 0.50% (maximum)\nSi: 0.50% (maximum)\nZn: 0.25% (maximum)\nTi: 0.15% (maximum)\nAl: balance",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T351",
+            "YS [MPa]": 338.0,
+            "UTS [MPa]": 480.0,
+            "elong [%]": 21.0,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 4.35,
+            "Mg": 1.5,
+            "Mn": 0.6,
+            "Fe": 0.5,
+            "Si": 0.5,
+            "Zn": 0.25,
+            "Ti": 0.15
+        }
+    ]
+}
+```

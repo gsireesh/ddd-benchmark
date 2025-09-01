@@ -1,0 +1,25 @@
+```
+{
+    "table csv": "GaGeO-JU64 was prepared by the hydrothermal reaction of a mixture of GeO2, Ga(NO3)3, Ni(CH3COO)2·4H2O, 1,2-PDA, and H2O in a molar ratio of 1.00:0.39:0.24:19.17:36.76 at 180 °C for 8 days in a Teflon-lined stainless steel autoclave.",
+    "extracted text": "GaGeO-JU64 was prepared under hydrothermal conditions. GeO2 (0.158 g) was dispersed in a mixture of H2O (1 mL) and 1,2-PDA (2.5 mL), and then Ga(NO3)3 (0.149 g) and Ni(CH3COO)2·4H2O (0.09 g) were added with stirring. A homogeneous gel was formed after stirring for 0.5 h. The gel was sealed in a 15 mL Teflon-lined stainless steel autoclave and heated at 180 °C for 8 days without stirring. Large pink cubic single crystals were separated by filtration, washed with distilled water, and then dried in air. The chemical formula of the product is (Ni(C3H10N2)3)36 Ni4.7[Ga81.4 Ge206.6 O576], where C3H10N2 = 1,2-PDA = 1,2-diaminopropane.",
+    "property mapping": "GeO2 -> Ge, Ga(NO3)3 -> Al (using Ga instead), 1,2-PDA/C3H10N2 -> osda_names/osda_ratios, H2O -> H2O, 180 °C -> crystallization_temperature, 8 days -> crystallization_time, GaGeO-JU64 -> product_names",
+    "formula abbreviations": "1,2-PDA = 1,2-diaminopropane. The chemical formula of the product is (Ni(C3H10N2)3)36 Ni4.7[Ga81.4 Ge206.6 O576].",
+    "ratio calculations": "The molar ratio is given as GeO2 : Ga(NO3)3 : Ni(CH3COO)2·4H2O : 1,2-PDA : H2O = 1.00 : 0.39 : 0.24 : 19.17 : 36.76. Since we're using Ge instead of Si, we'll set Ge = 1.0. So Ge = 1.0, Ga = 0.39, OSDA (1,2-PDA) = 19.17, H2O = 36.76.",
+    "recipes": [
+        {
+            "Si": 0,
+            "Ge": 1.0,
+            "Al": 0.39,
+            "OH": 0,
+            "H2O": 36.76,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "1,2-diaminopropane",
+            "osda_ratios": 19.17,
+            "crystallization_temperature": 180.0,
+            "crystallization_time": 192.0,
+            "product_names": "GaGeO-JU64"
+        }
+    ]
+}
+```

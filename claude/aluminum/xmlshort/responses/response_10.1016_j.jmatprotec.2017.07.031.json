@@ -1,0 +1,26 @@
+{
+    "table csv": "Al,Si,Fe,Cu,Mg,Mn,Zn,Ca,UTS(MPa),EL(%),MH(HV0.1)\nBal.,0.4,0.7,0.15,0.8,0.15,0.25,0.15,239.6,21.5,74",
+    "extracted text": "Base material (BM) was 6061-T4 aluminum alloy, whose sheet dimension was 150 mm × 80 mm × 0.5 mm.",
+    "property mapping": "UTS(MPa) -> UTS [MPa]\nEL(%) -> elong [%]\nMH(HV0.1) -> Hardness, with unit HV0.1",
+    "abbreviations": "BM: Base Material\nHV0.1: Vickers Hardness with 0.1kg load\nBal.: Balance (remaining percentage is aluminum)",
+    "weight percentage": "The weight percentages for elements excluding Al are given directly in the table: Si: 0.4%, Fe: 0.7%, Cu: 0.15%, Mg: 0.8%, Mn: 0.15%, Zn: 0.25%, Ca: 0.15%",
+    "recipes": [
+        {
+            "AA": "6061",
+            "temper": "T4",
+            "YS [MPa]": "",
+            "UTS [MPa]": 239.6,
+            "elong [%]": 21.5,
+            "Hardness": 74,
+            "Hardness UNIT": "HV0.1",
+            "Has composition": true,
+            "Si": 0.4,
+            "Fe": 0.7,
+            "Cu": 0.15,
+            "Mg": 0.8,
+            "Mn": 0.15,
+            "Zn": 0.25,
+            "Ca": 0.15
+        }
+    ]
+}

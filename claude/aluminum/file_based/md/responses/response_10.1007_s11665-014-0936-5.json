@@ -1,0 +1,24 @@
+```json
+{
+    "table csv": "Chemical compositions (wt.%),Chemical compositions (wt.%),Chemical compositions (wt.%),Chemical compositions (wt.%),Chemical compositions (wt.%),Chemical compositions (wt.%),Chemical compositions (wt.%),Mechanical properties,Mechanical properties\nAl,Zn,Mg,Cu,Mn,Fe,Cr,Tensile strength (MPa),Elongation (%)\nBal.,5.75,2.51,1.68,0.26,0.20,0.15,486,11",
+    "extracted text": "The paper studies the friction stir lap welding of 7B04-T74 aluminum alloy. The alloy has the chemical composition and mechanical properties listed in Table 1.",
+    "property mapping": "AA: 7B04\ntemper: T74\nUTS [MPa]: Tensile strength (MPa) = 486\nelong [%]: Elongation (%) = 11\nZn (wt.%): 5.75\nMg (wt.%): 2.51\nCu (wt.%): 1.68\nMn (wt.%): 0.26\nFe (wt.%): 0.20\nCr (wt.%): 0.15",
+    "abbreviations": "Bal. means balance, indicating that aluminum (Al) makes up the remainder of the composition after accounting for all other elements.",
+    "weight percentage": "The weight percentages are already provided in the table for all elements:\nZn: 5.75%\nMg: 2.51%\nCu: 1.68%\nMn: 0.26%\nFe: 0.20%\nCr: 0.15%\nAl: Balance (remainder to make 100%)",
+    "recipes": [
+        {
+            "AA": "7B04",
+            "temper": "T74",
+            "UTS [MPa]": 486,
+            "elong [%]": 11,
+            "Has composition": true,
+            "Zn": 5.75,
+            "Mg": 2.51,
+            "Cu": 1.68,
+            "Mn": 0.26,
+            "Fe": 0.20,
+            "Cr": 0.15
+        }
+    ]
+}
+```

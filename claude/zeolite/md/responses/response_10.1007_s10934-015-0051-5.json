@@ -1,0 +1,67 @@
+```json
+{
+    "table csv": "None provided in the document",
+    "extracted text": "The synthesis of [Ge]PLS-1 is described in section 2.4: \"The mixture of TMAOH and water was added to a GeO2 powder. Stirred at room temperature for 5 min to obtain clear solution, and then H-kanemite was added to the solution. Resulting gel was then stirred 5 min by using a Teflon rod. The gel composition was 1.0 SiO2:x GeO2:0.30 TMAOH:5.0 H2O, where x was 0-0.1. Then the obtained gel was transferred into a Teflon-lined autoclave. Hydrothermal treatment was taken place for 3 days at 170°C. The obtained powder was washed with distilled water and acetone, and then dried at 60°C for overnight to give [Ge]PLS-1 as white powder.\"\n\nThe synthesis of [Ge]CDS-1 zeolite is described in section 2.5: \"The dehydrative condensation of [Ge]-PLS-1 was performed at 500°C for 6 h (heating rate was 0.5°C/min) under air flow (100 mL/min) to afford the CDS-1 zeolite.\"\n\nThe paper reports successful synthesis of [Ge]PLS-1 with SiO2/GeO2 ratios from 25 to 200.",
+    "property mapping": "Si: Represented as SiO2 in the gel composition\nGe: Represented as GeO2 in the gel composition\nOH: Represented as part of TMAOH (tetramethylammonium hydroxide)\nH2O: Represented directly as H2O\nosda_names: Tetramethylammonium hydroxide (TMAOH)\nosda_ratios: 0.30 relative to SiO2\ncrystallization_temperature: 170°C\ncrystallization_time: 3 days (72 hours)\nproduct_names: [Ge]PLS-1 (precursor) and [Ge]CDS-1 (after calcination)",
+    "formula abbreviations": "TMAOH = Tetramethylammonium hydroxide, which serves as the organic structure-directing agent (OSDA)\nH-kanemite = an acidified form of Na-kanemite (layered silicate), serves as the silica source\n[Ge]PLS-1 = Germanium-containing PLS-1 layered silicate\n[Ge]CDS-1 = Germanium-containing CDS-1 zeolite with CDO topology",
+    "ratio calculations": "For the main recipe with SiO2/GeO2 = 25:\nSi = 1.0 (as given in the gel composition)\nGe = 1.0/25 = 0.04 (based on SiO2/GeO2 = 25)\nOH = 0.3 (from TMAOH/SiO2 ratio)\nH2O = 5.0 (as given in the gel composition)\nosda_ratios = 0.3 (TMAOH/SiO2 ratio)\n\nFor other recipes with different SiO2/GeO2 ratios:\n- For SiO2/GeO2 = 50: Ge = 1.0/50 = 0.02\n- For SiO2/GeO2 = 100: Ge = 1.0/100 = 0.01\n- For SiO2/GeO2 = 200: Ge = 1.0/200 = 0.005",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.04,
+            "Al": 0,
+            "OH": 0.3,
+            "H2O": 5.0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "Tetramethylammonium hydroxide",
+            "osda_ratios": 0.3,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 72.0,
+            "product_names": "[Ge]PLS-1"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.02,
+            "Al": 0,
+            "OH": 0.3,
+            "H2O": 5.0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "Tetramethylammonium hydroxide",
+            "osda_ratios": 0.3,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 72.0,
+            "product_names": "[Ge]PLS-1"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.01,
+            "Al": 0,
+            "OH": 0.3,
+            "H2O": 5.0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "Tetramethylammonium hydroxide",
+            "osda_ratios": 0.3,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 72.0,
+            "product_names": "[Ge]PLS-1"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.005,
+            "Al": 0,
+            "OH": 0.3,
+            "H2O": 5.0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "Tetramethylammonium hydroxide",
+            "osda_ratios": 0.3,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 72.0,
+            "product_names": "[Ge]PLS-1"
+        }
+    ]
+}
+```

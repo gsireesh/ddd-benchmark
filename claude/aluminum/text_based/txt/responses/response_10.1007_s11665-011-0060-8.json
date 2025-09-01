@@ -1,0 +1,30 @@
+{
+    "table csv": "Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Mechanical properties,Mechanical properties\nAl,Cu,Mn,Fe,Ti,V,Zn,Si,Zr,Tensile strength,Microhardness\nBal.,6.48,0.32,0.23,0.06,0.08,0.04,0.49,0.20,432 MPa,120-130 Hv",
+    
+    "extracted text": "The base metal (BM) was a 7.5-mm-thick 2219-T6 aluminum alloy plate. The grain structures of the BM show white precipitates, which are identified as the Al Cu intermetallics from the energy dispersive spectrometer (EDS) analysis. The plate-shaped precipitates in the BM are found to be h' phases according to the electron diffraction patterns. The size of the precipitates distributed in the BM is 54 ± 24 nm in diameter and 4 ± 1.8 nm in thickness.",
+    
+    "property mapping": "AA: 2219 (found in document text)\nTemper: T6 (found in document text and table)\nUTS [MPa]: 432 MPa (listed as 'Tensile strength' in table)\nHardness: 120-130 Hv (listed as 'Microhardness' in table)\nHardness UNIT: Hv (Vickers hardness)",
+    
+    "abbreviations": "BM: Base Metal\nFSW: Friction Stir Welding\nHAZ: Heat-Affected Zone\nWNZ: Weld Nugget Zone\nTMAZ: Thermal Mechanically Affected Zone\nNHAZ: HAZ of the normal joint (FSW performed in air)\nUHAZ: HAZ of the underwater joint (FSW performed under water)",
+    
+    "weight percentage": "The weight percentages for the elements are provided directly in the table:\nCu: 6.48%\nMn: 0.32%\nFe: 0.23%\nTi: 0.06%\nV: 0.08%\nZn: 0.04%\nSi: 0.49%\nZr: 0.20%\nAl: Balance (remaining percentage)",
+    
+    "recipes": [
+        {
+            "AA": "2219",
+            "temper": "T6",
+            "UTS [MPa]": 432,
+            "Hardness": 125,
+            "Hardness UNIT": "Hv",
+            "Has composition": true,
+            "Cu": 6.48,
+            "Mn": 0.32,
+            "Fe": 0.23,
+            "Ti": 0.06,
+            "V": 0.08,
+            "Zn": 0.04,
+            "Si": 0.49,
+            "Zr": 0.20
+        }
+    ]
+}

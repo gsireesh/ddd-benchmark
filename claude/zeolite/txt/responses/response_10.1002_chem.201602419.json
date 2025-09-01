@@ -1,0 +1,25 @@
+```
+{
+    "table csv": "SDA/Si in gel,Ge/Si in gel,Yield [%] [a],Si/Ge in NUD-2,Si/Ge in NUD-2S treated once,Si/Ge in NUD-2S treated twice,Stability in water for 12h [b]\n1.5,0.1,68,8.62,48.9,196,stable\n0.75,0.1,64,8.81,50.6,210,stable\n1,0.2,50,4.6,20.5,76.4,stable\n1,0.2,52,4.54,21.8,82.2,stable\n1,0.5,66,2.12,5.3,8.6,unstable",
+    "extracted text": "Zeolite NUD-2 was prepared from the gel with a molar composition of SiO2/xGeO2/ySDAOH/HF/H2O, where x = 1-0.04, y = 1-0.5, and z = 3-30 at 423 K for 15 days. A typical synthetic procedure was as follows: germanium dioxide was added to a solution of SDAOH and stirred for 30 min to be dissolved. Tetraethylorthosilicate was hydrolyzed in the above solution. The reaction mixture was mechanically stirred at room temperature for about 2 h, and then a solution of HF (40 wt%) was added. The mixture was homogenized and allowed to reach the desired water ratio by evaporation of ethanol and some water at 80°C. Finally, the gel was transferred into a steel autoclave with a Teflon-lined vessel (25 mL) and heated at 423 K under static conditions for 15 days.\n\nThe best-crystallized pure phase of NUD-2 was obtained with a gel composition of 1:0.2:(0.75-1):(0.75-1):10 of SiO2/GeO2/SDA(OH)/HF/H2O at 150°C for 15 days.\n\nTwo structure-directing agents were used: 1-methyl-3-(2'-methylbenzyl)imidazolium (SDA1) and 1-methyl-3-(3'-methylbenzyl)imidazolium (SDA2).",
+    "property mapping": "Si: SiO2 in gel composition\nGe: GeO2 in gel composition\nOH: SDAOH in gel composition\nH2O: H2O in gel composition\nHF: HF in gel composition\nosda_names: SDA1 (1-methyl-3-(2'-methylbenzyl)imidazolium) or SDA2 (1-methyl-3-(3'-methylbenzyl)imidazolium)\nosda_ratios: SDA/Si in gel\ncrystallization_temperature: 423 K = 150°C\ncrystallization_time: 15 days = 360 hours\nproduct_names: NUD-2",
+    "formula abbreviations": "SDA1 = 1-methyl-3-(2'-methylbenzyl)imidazolium\nSDA2 = 1-methyl-3-(3'-methylbenzyl)imidazolium\nThe paper mentions that the best-crystallized pure phase was obtained with specific ratios, which I'll use for the recipe.",
+    "ratio calculations": "For the best-crystallized pure phase recipe:\nSi = 1.0 (base)\nGe = 0.2 (given as GeO2/SiO2 = 0.2)\nOH = 0.875 (mean of 0.75-1.0 range for SDA(OH)/SiO2)\nHF = 0.875 (mean of 0.75-1.0 range for HF/SiO2)\nH2O = 10.0 (given as H2O/SiO2 = 10)\nosda_ratios = 0.875 (mean of 0.75-1.0 range, equals OH value since it comes from SDA(OH))",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.2,
+            "Al": 0.0,
+            "OH": 0.875,
+            "H2O": 10.0,
+            "HF": 0.875,
+            "B": 0.0,
+            "osda_names": "1-methyl-3-(2'-methylbenzyl)imidazolium or 1-methyl-3-(3'-methylbenzyl)imidazolium",
+            "osda_ratios": 0.875,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 360.0,
+            "product_names": "NUD-2"
+        }
+    ]
+}
+```

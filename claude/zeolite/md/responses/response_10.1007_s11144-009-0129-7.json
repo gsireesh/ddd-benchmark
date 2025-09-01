@@ -1,0 +1,25 @@
+```json
+{
+    "table csv": "Samples,Si/Al,S BET (m2/g),S external (m2/g),S micropore (m2/g),V micropore (cm3/g)\nZSM-5,40,375,38,337,0.13\nMo-ZSM-5,-,327,20,307,0.12\nITQ-13,43,364,18,346,0.16\nMo-ITQ-13,-,318,15,303,0.14",
+    "extracted text": "ITQ-13 was synthesized according to the literature [21] using hexamethonium dihydroxide as template source, and GeO2 (99.998%, Aldrich), Al isopropylate (99.5%, A.R), ammonium fluoride (96%, A.R), and colloidal silica as sources. The final synthesis gels had the following chemical composition: SiO2: 0.05 GeO2: 0.01 Al2O3: 0.25 R(OH)2: 0.56 NH4F: 5 H2O. The gels were autoclaved at 408 K for 15 days under continuous stirring at 60 rpm.",
+    "property mapping": "Si - SiO2 in the gel composition\nGe - GeO2 in the gel composition\nAl - Al2O3 in the gel composition\nOH - R(OH)2 in the gel composition\nH2O - H2O in the gel composition\nHF - Not directly mentioned, but related to NH4F in the gel composition\nB - Not mentioned\nosda_names - R(OH)2 refers to hexamethonium dihydroxide\nosda_ratios - 0.25 in the gel composition\ncrystallization_temperature - 408 K\ncrystallization_time - 15 days\nproduct_names - ITQ-13",
+    "formula abbreviations": "R(OH)2 - Hexamethonium dihydroxide, the structure directing agent (OSDA)\nNH4F - Ammonium fluoride, used as a source of fluoride",
+    "ratio calculations": "Starting with SiO2: 1, GeO2: 0.05, Al2O3: 0.01, R(OH)2: 0.25, NH4F: 0.56, H2O: 5\n\nNormalizing to Si = 1.0:\nSi = 1.0 (from SiO2)\nGe = 0.05 (from GeO2)\nAl = 0.02 (from Al2O3, since there are 2 Al atoms per Al2O3)\nOH = 0.5 (from R(OH)2, since there are 2 OH groups per molecule)\nH2O = 5.0\nHF = 0.56 (using NH4F as an approximation for the F content)\n\nOSDA ratio = 0.25 (hexamethonium dihydroxide)\n\nCrystallization temperature = 408 K = 135°C\nCrystallization time = 15 days = 360 hours",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.05,
+            "Al": 0.02,
+            "OH": 0.5,
+            "H2O": 5.0,
+            "HF": 0.56,
+            "B": 0,
+            "osda_names": "hexamethonium dihydroxide",
+            "osda_ratios": 0.25,
+            "crystallization_temperature": 135.0,
+            "crystallization_time": 360.0,
+            "product_names": "ITQ-13"
+        }
+    ]
+}
+```

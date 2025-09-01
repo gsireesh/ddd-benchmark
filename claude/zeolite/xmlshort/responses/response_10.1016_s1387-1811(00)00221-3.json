@@ -1,0 +1,38 @@
+{
+    "table csv": "Recipe 1 (AlGe-CAN): Gel composition 1.5Na₂O:0.5Cs₂O:0.3Al₂O₃:2.4GeO₂:94H₂O. Materials: 0.12 g of NaOH, 0.3 g of CsOH, 0.04 g of Al₂O₃, and 0.25 g of GeO₂ mixed with 1.5 g of deionized water.\nRecipe 2 (GaGe-CAN): Gel composition 2.0Na₂O:2.0Cs₂O:1.0Ga₂O₃:3.0GeO₂:60H₂O. Materials: 0.82 g of NaOH, 6.0 g of CsOH, 0.93 g of Ga₂O₃, and 1.56 g of GeO₂ mixed with 2.0 g of deionized water.",
+    "extracted text": "AlGe-CAN synthesis: The mixture was stirred for 24 h at room temperature, then heated in a sealed Teflon lined stainless steel autoclave at 170°C for 24 h.\n\nGaGe-CAN synthesis: The mixture was stirred for 24 h at room temperature, then heated in a sealed Teflon lined stainless steel autoclave at 110°C for five days.\n\nBoth products were filtered, washed with deionized water, and dried at room temperature.",
+    "property mapping": "AlGe-CAN:\n- Al: from Al₂O₃ (0.3 Al₂O₃ = 0.6 Al)\n- Ge: from GeO₂ (2.4 GeO₂ = 2.4 Ge)\n- OH: from NaOH and CsOH (1.5Na₂O + 0.5Cs₂O = 3.0 Na + 1.0 Cs = 4.0 OH)\n- H₂O: 94H₂O\n- osda_names: None (inorganic synthesis)\n- crystallization_temperature: 170°C\n- crystallization_time: 24 hours\n- product_names: AlGe-CAN (Na₆Cs₂Al₆Ge₆O₂₄·Ge(OH)₆)\n\nGaGe-CAN:\n- Ga: from Ga₂O₃ (1.0 Ga₂O₃ = 2.0 Ga)\n- Ge: from GeO₂ (3.0 GeO₂ = 3.0 Ge)\n- OH: from NaOH and CsOH (2.0Na₂O + 2.0Cs₂O = 4.0 Na + 4.0 Cs = 8.0 OH)\n- H₂O: 60H₂O\n- osda_names: None (inorganic synthesis)\n- crystallization_temperature: 110°C\n- crystallization_time: 120 hours (5 days)\n- product_names: GaGe-CAN (Na₆Cs₂Ga₆Ge₆O₂₄·Ge(OH)₆)",
+    "formula abbreviations": "AlGe-CAN: Na₆Cs₂Al₆Ge₆O₂₄·Ge(OH)₆ - Aluminogermanate with cancrinite framework topology\nGaGe-CAN: Na₆Cs₂Ga₆Ge₆O₂₄·Ge(OH)₆ - Gallogermanate with cancrinite framework topology\nNa₂O represents sodium oxide from NaOH\nCs₂O represents cesium oxide from CsOH\nAl₂O₃ represents aluminum oxide\nGa₂O₃ represents gallium oxide\nGeO₂ represents germanium oxide",
+    "ratio calculations": "For AlGe-CAN:\nSince there is no Si, I'll normalize to Al = 1.0\nAl: 0.6 → 1.0\nGe: 2.4 → 2.4/0.6 = 4.0\nOH: 4.0 → 4.0/0.6 = 6.67\nH₂O: 94 → 94/0.6 = 156.67\n\nFor GaGe-CAN:\nSince there is no Si, I'll normalize to Ga = 1.0\nGa: 2.0 → 1.0\nGe: 3.0 → 3.0/2.0 = 1.5\nOH: 8.0 → 8.0/2.0 = 4.0\nH₂O: 60 → 60/2.0 = 30.0",
+    "recipes": [
+        {
+            "Si": 0,
+            "Ge": 4.0,
+            "Al": 1.0,
+            "OH": 6.67,
+            "H2O": 156.67,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "",
+            "osda_ratios": 0,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 24.0,
+            "product_names": "AlGe-CAN"
+        },
+        {
+            "Si": 0,
+            "Ge": 1.5,
+            "Al": 0,
+            "Ga": 1.0,
+            "OH": 4.0,
+            "H2O": 30.0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "",
+            "osda_ratios": 0,
+            "crystallization_temperature": 110.0,
+            "crystallization_time": 120.0,
+            "product_names": "GaGe-CAN"
+        }
+    ]
+}

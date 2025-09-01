@@ -1,0 +1,25 @@
+```json
+{
+    "table csv": "No table present in the document",
+    "extracted text": "GaGeO-CJ63 was prepared under solvothermal conditions. GeO2 (0.156 g) was dispersed in a mixture of H2O (2 mL) and ethanolamine (4 mL), and then self-made GaOOH (0.137 g) and [Ni(en)3]Cl2 (0.173 g) were added with stirring. Finally, ethylenediamine (1 mL) and HF (40 wt%, 0.12 mL) were added. A homogeneous gel was formed after stirring for 2 h. The gel was sealed in a 15 mL Teflon-lined stainless steel autoclave and heated at 180 °C for 8 days under static conditions. Large pink single crystals were separated from the remainder of the product by filtration, washed with distilled water, and then dried in air. Ethylenediamine is necessary for the preparation of GaGeO-CJ63 to maintain the stability of the nickel amine complex in the reaction system.",
+    "property mapping": "GeO2 → Ge\nGaOOH → Al (substituting for Al since Ga is not in the property list)\n[Ni(en)3]Cl2 → osda_names, osda_ratios\nHF → HF\nH2O → H2O\nethylenediamine → included as part of the OSDA system\nethanolamine → not in standard property list\ncrystallization temperature: 180°C\ncrystallization time: 8 days = 192 hours\nproduct name: GaGeO-CJ63",
+    "formula abbreviations": "en = ethylenediamine\nThe molar ratio of the synthesis gel was GeO2 : GaOOH : [Ni(en)3]Cl2 : HF : ethylenediamine : ethanolamine : H2O = 1.00 : 0.86 : 0.37 : 1.85 : 10.00 : 44.47 : 74.07",
+    "ratio calculations": "Since there is no Si in this recipe, but we need to set Si to 1.0 according to the instructions, I will set Si = 1.0 (even though it's not present) and adjust other elements relative to this artificial reference point.\nSi = 1.0 (not actually present)\nGe = 1.0\nAl (representing Ga) = 0.86\nHF = 1.85\nH2O = 74.07\nosda_ratios = 0.37 (for [Ni(en)3]Cl2)",
+    "recipes": [
+        {
+            "Si": 0,
+            "Ge": 1.0,
+            "Al": 0.86,
+            "OH": 0,
+            "H2O": 74.07,
+            "HF": 1.85,
+            "B": 0,
+            "osda_names": "[Ni(ethylenediamine)3]Cl2",
+            "osda_ratios": 0.37,
+            "crystallization_temperature": 180.0,
+            "crystallization_time": 192.0,
+            "product_names": "GaGeO-CJ63"
+        }
+    ]
+}
+```

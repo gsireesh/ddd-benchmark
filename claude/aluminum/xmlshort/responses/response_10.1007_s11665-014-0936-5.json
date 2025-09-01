@@ -1,0 +1,25 @@
+{
+    "table csv": "Chemical compositions (wt.%),,,,,,,Mechanical properties,\nAl,Zn,Mg,Cu,Mn,Fe,Cr,Tensile strength (MPa),Elongation (%)\nBal.,5.75,2.51,1.68,0.26,0.20,0.15,486,11",
+    "extracted text": "A 2-mm-thick 7B04-T74 aluminum alloy was used for both the upper and lower sheets of lap joints, whose chemical compositions and mechanical properties are listed in Table 1. The longitudinal direction of the plates was perpendicular to the plate rolling direction.",
+    "property mapping": "AA: 7B04\ntemper: T74\nUTS [MPa]: 486 (Listed as 'Tensile strength (MPa)' in the table)\nelong [%]: 11 (Listed as 'Elongation (%)' in the table)\nZn, Mg, Cu, Mn, Fe, Cr: Weight percentages listed directly in the chemical compositions section of the table",
+    "abbreviations": "Bal. = Balance (remainder of composition is aluminum)",
+    "weight percentage": "The weight percentages are provided directly in the table:\nZn: 5.75%\nMg: 2.51%\nCu: 1.68%\nMn: 0.26%\nFe: 0.20%\nCr: 0.15%\nAl: Balance (approximately 89.45%)",
+    "recipes": [
+        {
+            "AA": "7B04",
+            "temper": "T74",
+            "YS [MPa]": "",
+            "UTS [MPa]": 486,
+            "elong [%]": 11,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Zn": 5.75,
+            "Mg": 2.51,
+            "Cu": 1.68,
+            "Mn": 0.26,
+            "Fe": 0.20,
+            "Cr": 0.15
+        }
+    ]
+}

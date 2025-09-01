@@ -1,0 +1,23 @@
+{
+    "table csv": "No table provided in the document.",
+    "extracted text": "Synthesis of the zeolite: We started with an initial experimental factorial design (3 × 3 × 5; see the Supporting Information, Figure S2) in which Si/Ge, TIII/(Si + Ge), and F−/(Si + Ge) were the synthesis variables. Crystallization temperature and time were fixed at 175 °C and one day. The optimum synthesis gel composition was 0.67SiO2:0.33GeO2:0.05Al2O3:0.25SDAOH:0.20NH4F:0.05NH4Cl: 2H2O.\n\nSynthesis of the structure-directing agent (SDA): (2′-(R),6′-(S))-2′,6′-dimethylspiro[isoindole-2,1′-piperidin-1′-ium] was obtained in a one-step reaction. 1,2-Bis(bromomethyl)benzene and cis-2,6-dimethylpiperidine were combined in a 1:1 molar ratio in the presence of K2CO3 and heated under reflux for two days. The bromide was converted into the hydroxide (SDAOH) by ion exchange.",
+    "property mapping": "SiO2 -> Si\nGeO2 -> Ge\nAl2O3 -> Al\nSDACH -> osda_names (where SDA is (2′-(R),6′-(S))-2′,6′-dimethylspiro[isoindole-2,1′-piperidin-1′-ium])\nNH4F -> HF (provides fluoride ions)\nH2O -> H2O\n175 °C -> crystallization_temperature\none day -> crystallization_time\nITQ-44 -> product_names",
+    "formula abbreviations": "SDAOH = (2′-(R),6′-(S))-2′,6′-dimethylspiro[isoindole-2,1′-piperidin-1′-ium] hydroxide\nTIII refers to trivalent elements, in this case Al\nNH4F provides F- ions\nNH4Cl was used in the synthesis but not directly mapped to a property of interest",
+    "ratio calculations": "Original composition: 0.67SiO2:0.33GeO2:0.05Al2O3:0.25SDAOH:0.20NH4F:0.05NH4Cl:2H2O\n\nTo normalize to Si = 1.0:\nSi = 0.67 / 0.67 = 1.0\nGe = 0.33 / 0.67 = 0.49\nAl from Al2O3: 0.05 × 2 = 0.1 (since there are 2 Al atoms in Al2O3)\nAl = 0.1 / 0.67 = 0.15\nSDACH = 0.25 / 0.67 = 0.37\nOH from SDAOH = 0.25 / 0.67 = 0.37\nF from NH4F = 0.20 / 0.67 = 0.30\nH2O = 2.0 / 0.67 = 2.99",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0.15,
+            "OH": 0.37,
+            "H2O": 2.99,
+            "HF": 0.30,
+            "B": 0,
+            "osda_names": "(2′-(R),6′-(S))-2′,6′-dimethylspiro[isoindole-2,1′-piperidin-1′-ium]",
+            "osda_ratios": 0.37,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 24.0,
+            "product_names": "ITQ-44"
+        }
+    ]
+}

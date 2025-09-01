@@ -1,0 +1,26 @@
+{
+    "table csv": "Table I. Chemical Composition of Material (Mass Percent)\nMaterial,Si,Fe,Cu,Mn,Mg,Cr,Zn,Ti,Ti+Zr,Others Each,Others Total,Al\nJIS A2024,0.057,0.127,4.334,0.585,1.457,0.004,0.038,0.029,0.031,0.008,0.028,bal\n\nTable II. Mechanical Properties of Material\nTemper,0.2 Pct Proof Stress (MPa),Tensile Strength (MPa),Elongation (Pct)\nT3,316,459,17.2",
+    "extracted text": "The materials used in this study were Al-4Cu-1Mg alloy (JIS-A2024, temper T3, supplied by Corus Aluminum Walzprodukte GmbH, Koblenz, Germany). The specimen was subjected to a cyclic tensile stress under stress controlled condition, the stress amplitude ra was 117 MPa and the stress ratio R was 0, with frequency of 30 Hz controlled by hydraulic-servo fatigue tester (FT-5, Saginomiya seisakusyo, Inc., Tokyo, Japan) at room temperature.",
+    "property mapping": "AA designation = JIS-A2024 (Japanese Industrial Standard equivalent to AA2024)\ntemper = T3\n0.2 Pct Proof Stress (MPa) = YS [MPa]\nTensile Strength (MPa) = UTS [MPa]\nElongation (Pct) = elong [%]",
+    "abbreviations": "JIS-A2024: Japanese Industrial Standard designation for aluminum alloy equivalent to AA2024\nT3: Solution heat treated, cold worked, and naturally aged\nbal: balance (remainder is aluminum)",
+    "weight percentage": "The weight percentages are already provided in Table I in mass percent:\nSi: 0.057%\nFe: 0.127%\nCu: 4.334%\nMn: 0.585%\nMg: 1.457%\nCr: 0.004%\nZn: 0.038%\nTi: 0.029%\nTi+Zr: 0.031% (Note: This appears to be a combined value)\nOthers Each: 0.008%\nOthers Total: 0.028%\nAl: balance (remainder)",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T3",
+            "YS [MPa]": 316.0,
+            "UTS [MPa]": 459.0,
+            "elong [%]": 17.2,
+            "Has composition": true,
+            "Si": 0.057,
+            "Fe": 0.127,
+            "Cu": 4.334,
+            "Mn": 0.585,
+            "Mg": 1.457,
+            "Cr": 0.004,
+            "Zn": 0.038,
+            "Ti": 0.029,
+            "Zr": 0.002
+        }
+    ]
+}

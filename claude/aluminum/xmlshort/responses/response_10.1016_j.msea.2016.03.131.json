@@ -1,0 +1,27 @@
+{
+    "table csv": "Chemical compositions (mass,%),Si,Fe,Cu,Mn,Mg,Cr,Zn,Ti,Al,Tensile strength (MPa),Elongation (%),Hardness(Hv)\n7N01-T4,0.3,0.35,0.2,0.2-0.7,1.0-2.0,0.3,4.0-5.0,0.2,Bal.,445,14.5,142",
+    "extracted text": "The paper studies 7N01-T4 aluminum alloy and its friction stir welding (FSW) joints. The tensile strength and elongation of 7N01-T4 aluminum alloy FSW joint are 379 MPa and 7.9%, up to 84.2% and 52% of the base material, respectively. The paper also mentions that when using A-PFFSR process at rotational velocity of 1600 rpm and plunge speed of 2 mm/min, the tensile strength and elongation of the repaired joint reach 311.1 MPa and 7.6%, equivalent to 82.1% and 95.8% of the defect-free FSW joint.",
+    "property mapping": "AA: 7N01 (Aluminum Association designation)\ntemper: T4 (thermal treatment)\nUTS [MPa]: 445 (Tensile strength from table)\nelong [%]: 14.5 (Elongation from table)\nHardness: 142 (Hardness value from table)\nHardness UNIT: Hv (Vickers hardness)",
+    "abbreviations": "A-PFFSR: active-passive filling friction stir repairing\nFSW: friction stir welding\nBM: base material\nHAZ: heat affected zone\nTMAZ: thermo-mechanically affected zone\nFZ: filling zone\nAFZ: active filling zone\nPFZ: passive filling zone",
+    "weight percentage": "Si: 0.3%\nFe: 0.35%\nCu: 0.2%\nMn: 0.45% (mean of 0.2-0.7%)\nMg: 1.5% (mean of 1.0-2.0%)\nCr: 0.3%\nZn: 4.5% (mean of 4.0-5.0%)\nTi: 0.2%\nAl: Balance",
+    "recipes": [
+        {
+            "AA": "7N01",
+            "temper": "T4",
+            "YS [MPa]": "",
+            "UTS [MPa]": 445,
+            "elong [%]": 14.5,
+            "Hardness": 142,
+            "Hardness UNIT": "Hv",
+            "Has composition": true,
+            "Si": 0.3,
+            "Fe": 0.35,
+            "Cu": 0.2,
+            "Mn": 0.45,
+            "Mg": 1.5,
+            "Cr": 0.3,
+            "Zn": 4.5,
+            "Ti": 0.2
+        }
+    ]
+}

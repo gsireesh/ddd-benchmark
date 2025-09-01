@@ -10,3 +10,5 @@ requests-ratelimiter
 tqdm
 pillow
 transformers
+docling
+pathlib

@@ -1,0 +1,29 @@
+```json
+{
+    "table csv": "Chemical compositions, wt.%,,,,,,,,,Mechanical properties,\nAl,Cu,Mn,Fe,Ti,V,Zn,Si,Zr,Tensile strength,Microhardness\nBal.,6.48,0.32,0.23,0.06,0.08,0.04,0.49,0.20,432 MPa,120-130 Hv",
+    "extracted text": "The base metal (BM) was a 7.5-mm-thick 2219-T6 aluminum alloy plate.",
+    "property mapping": "Tensile strength in MPa -> UTS [MPa]\nMicrohardness in Hv -> Hardness",
+    "abbreviations": "BM - Base Metal\nFSW - Friction Stir Welding\nHAZ - Heat-Affected Zone\nNHAZ - HAZ of normal joint (FSW performed in air)\nUHAZ - HAZ of underwater joint (FSW performed under water)",
+    "weight percentage": "The weight percentages are already provided in the table: Cu (6.48%), Mn (0.32%), Fe (0.23%), Ti (0.06%), V (0.08%), Zn (0.04%), Si (0.49%), Zr (0.20%)",
+    "recipes": [
+        {
+            "AA": "2219",
+            "temper": "T6",
+            "YS [MPa]": "",
+            "UTS [MPa]": 432,
+            "elong [%]": "",
+            "Hardness": 125,
+            "Hardness UNIT": "Hv",
+            "Has composition": true,
+            "Cu": 6.48,
+            "Mn": 0.32,
+            "Fe": 0.23,
+            "Ti": 0.06,
+            "V": 0.08,
+            "Zn": 0.04,
+            "Si": 0.49,
+            "Zr": 0.20
+        }
+    ]
+}
+```

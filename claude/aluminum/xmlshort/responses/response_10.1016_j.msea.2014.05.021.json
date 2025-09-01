@@ -1,0 +1,39 @@
+{
+    "table csv": "Alloys,Zn,Mg,Cu,Zr,Er,Cr,Al\nAlZnMgCu-0.16Zr,8.49,2.39,2.10,0.16,-,-,Bal\nAlZnMgCu-0.16Zr-0.3Er-0.18Cr,8.53,2.38,2.16,0.16,0.28,0.17,Bal\n\nAlloys,HRB,UTS (MPa),YS (MPa),El (%),KIC (S-L) (MPa m1/2)\nAlZnMgCu-0.16Zr,96.3,704.0,683.6,8.9,24.8\nAlZnMgCu-0.16Zr-0.3Er-0.18Cr,99.6,743.9,728.1,9.2,30.8",
+    "extracted text": "The alloys were homogenized at 465°C for 24h, followed by air cooling to room temperature. Then hot extrusion at 410-430°C with an extrusion ratio of 12.2:1. The extruded plates were held at 450°C and 470°C separately for 1h, then kept at 480°C for 2h for stepped solution treatment, and then quenched in ambient temperature water. The plates were aged at 130°C for 24h for T6-tempered.",
+    "property mapping": "UTS (MPa) -> UTS [MPa]\nYS (MPa) -> YS [MPa]\nEl (%) -> elong [%]\nHRB -> Hardness (Rockwell B scale)",
+    "abbreviations": "HRB: Hardness Rockwell B scale\nUTS: Ultimate Tensile Strength\nYS: Yield Strength\nEl: Elongation\nKIC: Fracture toughness\nBal: Balance (remainder percentage)",
+    "weight percentage": "The weight percentages for all elements are already provided in the tables. For AlZnMgCu-0.16Zr alloy: Zn: 8.49%, Mg: 2.39%, Cu: 2.10%, Zr: 0.16%, Al: balance. For AlZnMgCu-0.16Zr-0.3Er-0.18Cr alloy: Zn: 8.53%, Mg: 2.38%, Cu: 2.16%, Zr: 0.16%, Er: 0.28%, Cr: 0.17%, Al: balance.",
+    "recipes": [
+        {
+            "AA": "",
+            "temper": "T6",
+            "YS [MPa]": 683.6,
+            "UTS [MPa]": 704.0,
+            "elong [%]": 8.9,
+            "Hardness": 96.3,
+            "Hardness UNIT": "HRB",
+            "Has composition": true,
+            "Cu": 2.10,
+            "Mg": 2.39,
+            "Zn": 8.49,
+            "Zr": 0.16
+        },
+        {
+            "AA": "",
+            "temper": "T6",
+            "YS [MPa]": 728.1,
+            "UTS [MPa]": 743.9,
+            "elong [%]": 9.2,
+            "Hardness": 99.6,
+            "Hardness UNIT": "HRB",
+            "Has composition": true,
+            "Cu": 2.16,
+            "Mg": 2.38,
+            "Zn": 8.53,
+            "Zr": 0.16,
+            "Er": 0.28,
+            "Cr": 0.17
+        }
+    ]
+}

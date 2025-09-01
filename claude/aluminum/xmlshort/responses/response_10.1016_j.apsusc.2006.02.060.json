@@ -1,0 +1,29 @@
+{
+    "table csv": "Material,σYS (MPa),σUTS (MPa),HV,El (%)\nAA6063,150,185,83,7\nAA6061,118,190,62,14",
+    "extracted text": "The paper describes the surface modification of aluminum alloys AA6063-T6 and AA6061-T4 using oil jet peening technique. The aluminum alloys were used in extruded form with 6mm thickness. Table 1 shows the mechanical properties of the alloys including yield strength, ultimate tensile strength, hardness, and elongation percentage.",
+    "property mapping": "σYS (MPa) → Yield strength in MPa\nσUTS (MPa) → Ultimate tensile strength in MPa\nHV → Vickers hardness\nEl (%) → Elongation percentage",
+    "abbreviations": "AA = Aluminum Association\nT6 = Solution heat treated and artificially aged (for AA6063)\nT4 = Solution heat treated and naturally aged (for AA6061)\nσYS = Yield Strength\nσUTS = Ultimate Tensile Strength\nHV = Vickers Hardness\nEl = Elongation",
+    "weight percentage": "No specific elemental composition weight percentages are provided in the document.",
+    "recipes": [
+        {
+            "AA": "6063",
+            "temper": "T6",
+            "YS [MPa]": 150.0,
+            "UTS [MPa]": 185.0,
+            "elong [%]": 7.0,
+            "Hardness": 83.0,
+            "Hardness UNIT": "HV",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "6061",
+            "temper": "T4",
+            "YS [MPa]": 118.0,
+            "UTS [MPa]": 190.0,
+            "elong [%]": 14.0,
+            "Hardness": 62.0,
+            "Hardness UNIT": "HV",
+            "Has composition": "nominal"
+        }
+    ]
+}

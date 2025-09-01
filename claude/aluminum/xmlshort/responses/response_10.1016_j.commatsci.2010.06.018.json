@@ -1,0 +1,25 @@
+{
+    "table csv": "Elastic modulus (GPa),Yield stress (MPa),Strain hardening exponent,E/Y,UTS (MPa),Strain-to-failure (%)\n68,360,0.08,188,478,20",
+    "extracted text": "The materials used in this study were in the form of cold rolled plate of Al 2024-T351 of 2mm total thickness, with a pure aluminium cladding of 100μm on both faces. For the Al cladding, reverse analysis was used for extraction of elastic-plastic properties and a yield stress of 110-120 MPa and a value of 0.075-0.1 for the work hardening exponent was obtained.",
+    "property mapping": "Yield stress (MPa) → YS [MPa], UTS (MPa) → UTS [MPa], Strain-to-failure (%) → elong [%]",
+    "abbreviations": "T351 refers to a temper designation where T3 means solution heat treated, cold worked, and naturally aged, with the 51 indicating stress-relieved stretching.",
+    "weight percentage": "No explicit weight percentages for alloying elements are provided in the document.",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T351",
+            "YS [MPa]": 360.0,
+            "UTS [MPa]": 478.0,
+            "elong [%]": 20.0,
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 115.0,
+            "UTS [MPa]": "",
+            "elong [%]": "",
+            "Has composition": "nominal"
+        }
+    ]
+}

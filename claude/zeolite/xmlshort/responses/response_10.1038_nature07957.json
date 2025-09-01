@@ -1,0 +1,37 @@
+{
+    "table csv": "Recipe,Si,Ge,Al,OH,H2O,HF,SDA2,Crystallization Temperature (°C),Crystallization Time (h),Product\n1,0.5,0.5,0,0.5,3,0.5,0.25,175,24,ITQ-37\n2,0.5,0.5,0.01,0.5,3,0.5,0.25,175,24,ITQ-37",
+    "extracted text": "The compositions of two typical synthesis gels to obtain ITQ-37 are as follows: 0.5 SiO2:0.5 GeO2:0.25 SDA2(OH)2:0.50 NH4F:3 H2O, without aluminium, and 0.5 SiO2:0.5 GeO2:0.01 Al2O3:0.25 SDA2(OH)2:0.50 NH4F:3 H2O, with aluminium. Crystallization was carried out at 175 °C over 24 h under static conditions.\n\nSDA2 is a bulky diquaternary ammonium molecule with formula C22N2H40. The chemical formula of ITQ-37 is |(C22N2H40)10.5(H2O)x|[Ge80Si112O400H32F20].",
+    "property mapping": "SiO2 → Si\nGeO2 → Ge\nAl2O3 → Al\nSDA2(OH)2 → osda_names (SDA2) and OH\nNH4F → HF (F source)\nH2O → H2O\nCrystallization temperature: 175 °C\nCrystallization time: 24 h\nProduct: ITQ-37",
+    "formula abbreviations": "SDA2: A bulky diquaternary ammonium molecule with formula C22N2H40. It contains four chiral centers in a meso conformation, making the overall molecule achiral.\nNH4F is the source of fluoride ions.",
+    "ratio calculations": "For normalizing to Si = 1.0:\nOriginal recipe has Si:Ge ratio of 0.5:0.5\nSi = 0.5 × (1.0/0.5) = 1.0\nGe = 0.5 × (1.0/0.5) = 1.0\nAl (recipe 2) = 0.01 × 2 × (1.0/0.5) = 0.04 (accounting for 2 Al per Al2O3)\nOH = 0.25 × 2 × (1.0/0.5) = 1.0 (accounting for 2 OH per SDA2(OH)2)\nH2O = 3 × (1.0/0.5) = 6.0\nHF (from NH4F) = 0.50 × (1.0/0.5) = 1.0\nosda_ratios (SDA2) = 0.25 × (1.0/0.5) = 0.5",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0.0,
+            "OH": 1.0,
+            "H2O": 6.0,
+            "HF": 1.0,
+            "B": 0.0,
+            "osda_names": "C22N2H40 (bulky diquaternary ammonium molecule)",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 24.0,
+            "product_names": "ITQ-37"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0.04,
+            "OH": 1.0,
+            "H2O": 6.0,
+            "HF": 1.0,
+            "B": 0.0,
+            "osda_names": "C22N2H40 (bulky diquaternary ammonium molecule)",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 24.0,
+            "product_names": "ITQ-37"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "table csv": "Chemical Composition,,,,,,,,,Mechanical Properties,,\nCu,Mg,Mn,Fe,Si,Zn,Ti,Al,YS (MPa),UTS (MPa),El (Pct)\n3.8 to 4.9,1.2 to 1.8,0.3 to 0.9,0.50,0.50,0.25,0.15,bal,338,480,21",
+    "extracted text": "The paper focuses on a 5-mm-thick 2024Al-T351 plate that was friction stir welded. The base material is an Alclad 2024Al-T351 rolled plate with a thickness of 6.5-mm, which was machined on both sides to 5.0-mm thickness to remove the Alclads before welding. The material is described as a commercial Alclad 2024Al-T351 rolled plate used as the base material (BM).",
+    "property mapping": "YS (MPa) = yield strength in MPa = 338 MPa\nUTS (MPa) = ultimate tensile strength in MPa = 480 MPa\nEl (Pct) = elongation percentage = 21%",
+    "abbreviations": "BM = base material\nT351 = solution heat-treated, stress-relieved stretched and naturally aged\nbal = balance (remainder is aluminum)",
+    "weight percentage": "For Cu: Range is 3.8 to 4.9%, mean is 4.35%\nFor Mg: Range is 1.2 to 1.8%, mean is 1.5%\nFor Mn: Range is 0.3 to 0.9%, mean is 0.6%\nFor Fe: 0.50%\nFor Si: 0.50%\nFor Zn: 0.25%\nFor Ti: 0.15%\nFor Al: balance (remainder)",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T351",
+            "YS [MPa]": 338.0,
+            "UTS [MPa]": 480.0,
+            "elong [%]": 21.0,
+            "Has composition": true,
+            "Cu": 4.35,
+            "Mg": 1.5,
+            "Mn": 0.6,
+            "Fe": 0.5,
+            "Si": 0.5,
+            "Zn": 0.25,
+            "Ti": 0.15
+        }
+    ]
+}

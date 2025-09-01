@@ -1,0 +1,27 @@
+{
+    "table csv": "Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Chemical compositions, wt.%,Mechanical properties,Mechanical properties\nAl,Cu,Mn,Fe,Ti,V,Zn,Si,Zr,Tensile strength,Microhardness\nBal.,6.48,0.32,0.23,0.06,0.08,0.04,0.49,0.20,432 MPa,120-130 Hv",
+    "extracted text": "The base metal (BM) was a 7.5-mm-thick 2219-T6 aluminum alloy plate. The T6 temper indicates this is a solution heat-treated and artificially aged aluminum alloy. The paper focuses on investigating how water cooling during friction stir welding affects the heat-affected zone properties of this alloy.",
+    "property mapping": "AA: 2219 (from text)\ntemper: T6 (from text)\nUTS [MPa]: 432 MPa (from Table 1 under 'Tensile strength')\nHardness: 120-130 Hv (from Table 1 under 'Microhardness')\nHardness UNIT: Hv (Vickers hardness)\nCu: 6.48 wt.% (from Table 1)\nMn: 0.32 wt.% (from Table 1)\nFe: 0.23 wt.% (from Table 1)\nTi: 0.06 wt.% (from Table 1)\nV: 0.08 wt.% (from Table 1)\nZn: 0.04 wt.% (from Table 1)\nSi: 0.49 wt.% (from Table 1)\nZr: 0.20 wt.% (from Table 1)",
+    "abbreviations": "BM: Base Metal\nFSW: Friction Stir Welding\nHAZ: Heat-Affected Zone\nNHAZ: Normal HAZ (from normal FSW)\nUHAZ: Underwater HAZ (from underwater FSW)\nWNZ: Weld Nugget Zone\nTMAZ: Thermal Mechanically Affected Zone\nHv: Vickers hardness",
+    "weight percentage": "The weight percentages are already provided in the table:\nCu: 6.48%\nMn: 0.32%\nFe: 0.23%\nTi: 0.06%\nV: 0.08%\nZn: 0.04%\nSi: 0.49%\nZr: 0.20%\nAl: Balance (remainder)",
+    "recipes": [
+        {
+            "AA": "2219",
+            "temper": "T6",
+            "YS [MPa]": "",
+            "UTS [MPa]": 432,
+            "elong [%]": "",
+            "Hardness": 125,
+            "Hardness UNIT": "Hv",
+            "Has composition": true,
+            "Cu": 6.48,
+            "Mn": 0.32,
+            "Fe": 0.23,
+            "Ti": 0.06,
+            "V": 0.08,
+            "Zn": 0.04,
+            "Si": 0.49,
+            "Zr": 0.20
+        }
+    ]
+}

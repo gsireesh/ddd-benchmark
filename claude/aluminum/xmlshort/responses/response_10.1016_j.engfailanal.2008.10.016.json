@@ -1,0 +1,54 @@
+{
+    "table csv": "Locations,Cu,Mn,Si,Fe,Cr,Ti,Zr,Al\nAft-end ring,6.6,0.37,0.23,0.08,0.008,0.04,0.11,Balance\nDome,6.1,0.41,0.27,0.10,0.007,0.06,0.18,Balance\nRecess ring,6.8,0.40,0.24,0.08,0.007,0.06,0.16,Balance\n\nProperties,UTS (MPa),0.2% YS (MPa),%E\nAA 2219-T6,430,340,11\nAA 2219-T87,452,356,12",
+    "extracted text": "The failed RC ring, dome and cylindrical shell of tank were made of AA 2219 aluminium alloy. The recess cone ring was in T6 temper condition, while the dome, made of 3.2 mm sheets of AA 2219 aluminium alloy was in T87 condition. The paper refers to the alloy as Al-6.3 Cu in the title, which appears to be the average copper content across the various components.",
+    "property mapping": "UTS (MPa) = Ultimate Tensile Strength in MPa\n0.2% YS (MPa) = 0.2% Yield Strength in MPa\n%E = Elongation percentage",
+    "abbreviations": "AA = Aluminum Association\nT6 = Solution heat treated and artificially aged\nT87 = Solution heat treated, cold worked and artificially aged\nRC = Recess Cone\nHAZ = Heat Affected Zone",
+    "weight percentage": "The chemical composition is already presented in weight percentage in Table 1. For the three components:\n- Aft-end ring: 6.6% Cu, 0.37% Mn, 0.23% Si, 0.08% Fe, 0.008% Cr, 0.04% Ti, 0.11% Zr, Balance Al\n- Dome: 6.1% Cu, 0.41% Mn, 0.27% Si, 0.10% Fe, 0.007% Cr, 0.06% Ti, 0.18% Zr, Balance Al\n- Recess ring: 6.8% Cu, 0.40% Mn, 0.24% Si, 0.08% Fe, 0.007% Cr, 0.06% Ti, 0.16% Zr, Balance Al",
+    "recipes": [
+        {
+            "AA": "2219",
+            "temper": "T6",
+            "YS [MPa]": 340.0,
+            "UTS [MPa]": 430.0,
+            "elong [%]": 11.0,
+            "Has composition": "True",
+            "Cu": 6.6,
+            "Mn": 0.37,
+            "Si": 0.23,
+            "Fe": 0.08,
+            "Cr": 0.008,
+            "Ti": 0.04,
+            "Zr": 0.11
+        },
+        {
+            "AA": "2219",
+            "temper": "T87",
+            "YS [MPa]": 356.0,
+            "UTS [MPa]": 452.0,
+            "elong [%]": 12.0,
+            "Has composition": "True",
+            "Cu": 6.1,
+            "Mn": 0.41,
+            "Si": 0.27,
+            "Fe": 0.10,
+            "Cr": 0.007,
+            "Ti": 0.06,
+            "Zr": 0.18
+        },
+        {
+            "AA": "2219",
+            "temper": "T6",
+            "YS [MPa]": 340.0,
+            "UTS [MPa]": 430.0,
+            "elong [%]": 11.0,
+            "Has composition": "True",
+            "Cu": 6.8,
+            "Mn": 0.40,
+            "Si": 0.24,
+            "Fe": 0.08,
+            "Cr": 0.007,
+            "Ti": 0.06,
+            "Zr": 0.16
+        }
+    ]
+}

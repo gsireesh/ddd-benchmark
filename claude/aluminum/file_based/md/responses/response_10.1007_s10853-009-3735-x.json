@@ -1,0 +1,23 @@
+{
+    "table csv": "Chemical composition, wt%,Chemical composition, wt%,Chemical composition, wt%,Chemical composition, wt%,Chemical composition, wt%,Chemical composition, wt%,Chemical composition, wt%,Mechanical properties,Mechanical properties,Mechanical properties\nAl,Cu,Mg,Mn,Fe,Si,Zn,Tensile strength,0.2% proof strength,Elongation\nBal.,4.43,1.48,0.72,0.26,0.11,0.2,450 MPa,320 MPa,9%",
+    "extracted text": "The base material used in this study was a 5 mm thick 2024-T4 aluminum alloy plate. The paper refers to it as an Al-4.5%Cu-1.5%Mg aluminum alloy with a T4 temper.",
+    "property mapping": "AA: 2024\ntemper: T4\nUTS [MPa]: 450 MPa\nYS [MPa]: 320 MPa (referred to as '0.2% proof strength')\nelong [%]: 9%\nCu: 4.43 wt%\nMg: 1.48 wt%\nMn: 0.72 wt%\nFe: 0.26 wt%\nSi: 0.11 wt%\nZn: 0.2 wt%",
+    "abbreviations": "FSW: Friction stir welding\nPWHT: Post weld heat treatment\nSZ: Stir zone\nTMAZ: Thermo mechanically affected zone\nHAZ: Heat affected zone\nAGG: Abnormal grain growth",
+    "weight percentage": "The weight percentages are provided directly in the document:\nCu: 4.43%\nMg: 1.48%\nMn: 0.72%\nFe: 0.26%\nSi: 0.11%\nZn: 0.2%\nAl: Balance (remainder)",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T4",
+            "YS [MPa]": 320.0,
+            "UTS [MPa]": 450.0,
+            "elong [%]": 9.0,
+            "Has composition": true,
+            "Cu": 4.43,
+            "Mg": 1.48,
+            "Mn": 0.72,
+            "Fe": 0.26,
+            "Si": 0.11,
+            "Zn": 0.2
+        }
+    ]
+}

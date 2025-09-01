@@ -1,0 +1,91 @@
+{
+    "table csv": "Material/condition,Ultimate strength (MPa),Yield strength (MPa),Elongation % (50 mm)\nAA7150–T77511,624,582,11.0\nAA7150–T77511,586,538,7.0\nAA7150 − T6,660,594,14.0\nAA7150–RRA20 + T6,665,656,7.0\nAA7150–RRA40 + T6,660,651,5.0\nAA7050–T76511,540,475,10.8\nAA7050–T76511,531,469,7.0\nAA7050 − T6,610,512,16.1\nAA7050–RRA20 + T6,625,585,13.2\nAA7050–RRA40 + T6,618,600,9.9",
+    "extracted text": "The paper focuses on the effect of retrogression and re-aging (RRA) treatment on AA7050 and AA7150 aluminum alloys. The alloys were tested in their original conditions (T77511 for AA7150 and T76511 for AA7050), after T6 treatment (solution heat treated at 475°C for 40 min, water quenched and aged at 120°C for 24 h), and after RRA treatment with retrogression times of 20 and 40 min at 200°C followed by re-aging at 120°C for 24 h. The RRA treatment aims to combine the high strength of T6 condition with the stress corrosion cracking (SCC) resistance of T7 condition. The paper mentions that the microstructure resulting from RRA is a very fine distribution of η′ MgZn₂ in the aluminum matrix grains and η MgZn₂ precipitates on grain boundaries. No specific alloy composition is provided in the paper.",
+    "property mapping": "The paper contains the following properties:
+- Ultimate strength (MPa) = UTS [MPa]
+- Yield strength (MPa) = YS [MPa]
+- Elongation % (50 mm) = elong [%]
+- Hardness is measured in Rockwell B scale (mentioned in the text but specific values are not provided in the table)",
+    "abbreviations": "- RRA: Retrogression and Re-Aging
+- T6: Solution heat treated and artificially aged
+- T76511: Over-aged condition for AA7050 (with 1.5-3.0% cold stretching)
+- T77511: Over-aged condition for AA7150 (with 1.5-3.0% cold stretching)
+- RRA20+T6: Retrogression for 20 min at 200°C followed by re-aging at 120°C for 24h
+- RRA40+T6: Retrogression for 40 min at 200°C followed by re-aging at 120°C for 24h
+- SCC: Stress Corrosion Cracking",
+    "weight percentage": "No specific weight percentage information is provided in the paper for any elements.",
+    "recipes": [
+        {
+            "AA": "7150",
+            "temper": "T77511",
+            "YS [MPa]": 582,
+            "UTS [MPa]": 624,
+            "elong [%]": 11.0,
+            "Hardness UNIT": "Rockwell B",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "7150",
+            "temper": "T6",
+            "YS [MPa]": 594,
+            "UTS [MPa]": 660,
+            "elong [%]": 14.0,
+            "Hardness UNIT": "Rockwell B",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "7150",
+            "temper": "RRA20+T6",
+            "YS [MPa]": 656,
+            "UTS [MPa]": 665,
+            "elong [%]": 7.0,
+            "Hardness UNIT": "Rockwell B",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "7150",
+            "temper": "RRA40+T6",
+            "YS [MPa]": 651,
+            "UTS [MPa]": 660,
+            "elong [%]": 5.0,
+            "Hardness UNIT": "Rockwell B",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "7050",
+            "temper": "T76511",
+            "YS [MPa]": 475,
+            "UTS [MPa]": 540,
+            "elong [%]": 10.8,
+            "Hardness UNIT": "Rockwell B",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "7050",
+            "temper": "T6",
+            "YS [MPa]": 512,
+            "UTS [MPa]": 610,
+            "elong [%]": 16.1,
+            "Hardness UNIT": "Rockwell B",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "7050",
+            "temper": "RRA20+T6",
+            "YS [MPa]": 585,
+            "UTS [MPa]": 625,
+            "elong [%]": 13.2,
+            "Hardness UNIT": "Rockwell B",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "7050",
+            "temper": "RRA40+T6",
+            "YS [MPa]": 600,
+            "UTS [MPa]": 618,
+            "elong [%]": 9.9,
+            "Hardness UNIT": "Rockwell B",
+            "Has composition": "nominal"
+        }
+    ]
+}

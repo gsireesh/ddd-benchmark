@@ -1,0 +1,33 @@
+{
+    "table csv": "Material,Composition,Young's modulus E (GPa),Yield strength Sy (MPa),Ultimate strength Su (MPa),Elongation (%),Hardening strength coefficient K (MPa),Hardening exponential n\nAA 7075-T651,Al–5.70Zn–2.53Mg–1.66Cu–0.26Fe–,70.33,515,557,11.27,762,0.089\nAA 7475-T651,Al–5.70Zn–2.53Mg–1.66Cu–0.06Fe,69.04,496.6,535,14.11,758,0.108",
+    "extracted text": "The paper discusses a multistage fatigue modeling of aluminum alloy 7075-T651. The alloy is used for aircraft structural applications. There is no additional composition information beyond what's presented in Table 1.",
+    "property mapping": "Young's modulus E (GPa) → Not in property list\nYield strength Sy (MPa) → YS [MPa]\nUltimate strength Su (MPa) → UTS [MPa]\nElongation (%) → elong [%]\nHardening strength coefficient K (MPa) → Not in property list\nHardening exponential n → Not in property list",
+    "abbreviations": "No specific abbreviations were used for the alloy composition.",
+    "weight percentage": "The composition is already presented in weight percentage:\n7075-T651: Zn: 5.70%, Mg: 2.53%, Cu: 1.66%, Fe: 0.26%\n7475-T651: Zn: 5.70%, Mg: 2.53%, Cu: 1.66%, Fe: 0.06%",
+    "recipes": [
+        {
+            "AA": "7075",
+            "temper": "T651",
+            "YS [MPa]": 515.0,
+            "UTS [MPa]": 557.0,
+            "elong [%]": 11.27,
+            "Has composition": true,
+            "Zn": 5.70,
+            "Mg": 2.53,
+            "Cu": 1.66,
+            "Fe": 0.26
+        },
+        {
+            "AA": "7475",
+            "temper": "T651",
+            "YS [MPa]": 496.6,
+            "UTS [MPa]": 535.0,
+            "elong [%]": 14.11,
+            "Has composition": true,
+            "Zn": 5.70,
+            "Mg": 2.53,
+            "Cu": 1.66,
+            "Fe": 0.06
+        }
+    ]
+}

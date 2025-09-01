@@ -1,0 +1,23 @@
+{
+    "table csv": "No table data containing recipe information is present in the document.",
+    "extracted text": "Synthesis: Germanium X-type zeolite was prepared in a similar manner to Lerot et al. [18], although in an attempt to obtain a germanium source which possessed greater solubility than GeO₂, sodium metagermanate was pre-synthesized via solid state reaction of 3.04g sodium carbonate and 3g germanium (IV) oxide at 800°C for 24h. 0.8g of this was added to 0.34g hydrated alumina (Catapal), and the reactant mixture was completed by the addition of 2.2g distilled water. The final synthesis mixture corresponded to the following composition: 2Na₂O: 2GeO₂: Al₂O₃: 50H₂O. This mixture was heated at 90°C for the desired time, the product collected by vacuum filtration and dried at 60°C. The whole procedure was conducted in a polymethylpentene conical flask. Initially a reaction time of 24h was chosen, but this gave rise to a two-phase mixture with sodalite impurity. The reaction time was reduced to 4h, with no sodalite observed. They were able to further reduce the time of reaction to only 15 min and still obtain a highly crystalline NaGeX phase.",
+    "property mapping": "GeO₂ → Ge (germanium source)\nAl₂O₃ → Al (aluminum source from hydrated alumina/Catapal)\nNa₂O → OH (sodium source, also provides alkalinity)\nH₂O → H₂O (water content)",
+    "formula abbreviations": "NaGeX = sodium aluminogermanate X-type zeolite with formula Na₉₆Al₉₆Ge₉₆O₃₈₄·wH₂O as determined by chemical analysis.\n2Na₂O: 2GeO₂: Al₂O₃: 50H₂O represents the molar ratio of components in the synthesis mixture.",
+    "ratio calculations": "The synthesis mixture has molar ratios of 2Na₂O: 2GeO₂: Al₂O₃: 50H₂O\nTo convert to element ratios with Si=1 (noting that this is a germanium zeolite with no Si):\nSi = 0\nGe = 2 (from 2GeO₂)\nAl = 2 (from Al₂O₃, which contains 2 Al atoms)\nGe/Al = 2/2 = 1.0\nOH = 4 (from 2Na₂O, which provides 4 Na+ ions and thus 4 OH- for charge balance)\nH₂O = 50\n\nSince Si=0, I'll normalize using Ge=1 instead:\nSi = 0\nGe = 1.0\nAl = 1.0\nOH = 2.0\nH₂O = 25.0",
+    "recipes": [
+        {
+            "Si": 0.0,
+            "Ge": 1.0,
+            "Al": 1.0,
+            "OH": 2.0,
+            "H2O": 25.0,
+            "HF": 0.0,
+            "B": 0.0,
+            "osda_names": "",
+            "osda_ratios": 0.0,
+            "crystallization_temperature": 90.0,
+            "crystallization_time": 0.25,
+            "product_names": "NaGeX"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "table csv": "Al,Si,Fe,Cu,Mn,Mg,Cr,Zn,Ti\nBase,0.07,0.09,1.50,0.04,2.65,0.21,5.70,0.02",
+    "extracted text": "The paper investigates the fatigue behavior of AA7075 aluminum alloy severely deformed by equal channel angular pressing (ECAP). The specimens were heat treated in two different conditions: annealed at 688 K for 2 h followed by furnace cooling (annealed specimens (O)) and solution treated at 743 K for 2 h and water quenched (super-saturated solid solution specimens (SSS)). The annealed specimens were subjected to ECAP process up to 4 passes, while SSS samples were pressed just 1 pass. The 1 pass ECAPed SSS samples were aged at 393 K for 15 h (post-ECAP aging). Table 2 provides the mechanical properties of both annealed and solution treated specimens before and after ECAP process. T6 condition is also mentioned as a comparison.",
+    "property mapping": "YS = Yield Strength (MPa)\nUTS = Ultimate Tensile Strength (MPa)\nEl = Elongation (%)\nMicrohardness = Hardness (HV)",
+    "abbreviations": "ECAP = Equal Channel Angular Pressing\nO = Annealed condition\nSSS = Super-Saturated Solid Solution\nT6 = Solution heat treated and artificially aged\nHAGBs = High Angle Grain Boundaries\nUFG = Ultra-Fine Grains\nLCF = Low Cycle Fatigue\nHCF = High Cycle Fatigue",
+    "weight percentage": "The composition is already provided in weight percentage: Si (0.07%), Fe (0.09%), Cu (1.50%), Mn (0.04%), Mg (2.65%), Cr (0.21%), Zn (5.70%), Ti (0.02%), with Al as the base material.",
+    "recipes": [
+        {
+            "AA": "7075",
+            "temper": "O",
+            "YS [MPa]": 118.0,
+            "UTS [MPa]": 231.0,
+            "elong [%]": 15.5,
+            "Hardness": 62.0,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Si": 0.07,
+            "Fe": 0.09,
+            "Cu": 1.50,
+            "Mn": 0.04,
+            "Mg": 2.65,
+            "Cr": 0.21,
+            "Zn": 5.70,
+            "Ti": 0.02
+        },
+        {
+            "AA": "7075",
+            "temper": "T6",
+            "YS [MPa]": 498.0,
+            "UTS [MPa]": 542.0,
+            "elong [%]": 11.39,
+            "Hardness": 174.0,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Si": 0.07,
+            "Fe": 0.09,
+            "Cu": 1.50,
+            "Mn": 0.04,
+            "Mg": 2.65,
+            "Cr": 0.21,
+            "Zn": 5.70,
+            "Ti": 0.02
+        },
+        {
+            "AA": "7075",
+            "temper": "SSS",
+            "YS [MPa]": 622.0,
+            "UTS [MPa]": 664.0,
+            "elong [%]": 8.67,
+            "Hardness": 197.0,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Si": 0.07,
+            "Fe": 0.09,
+            "Cu": 1.50,
+            "Mn": 0.04,
+            "Mg": 2.65,
+            "Cr": 0.21,
+            "Zn": 5.70,
+            "Ti": 0.02
+        }
+    ]
+}

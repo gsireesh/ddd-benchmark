@@ -1,0 +1,57 @@
+{
+    "table csv": "Al,Cu,Fe,Si,Mn,Mg,Zn,Ti,Others,V,Zn\nBalance,5.80–6.80,0.30 (max),0.20 (max),0.20–0.40,0.02 (max),0.10 (max),0.02–0.10,0.15,0.05–0.15,0.10–0.25\n\nCondition,Yield strength (MPa),Tensile strength (MPa),hardening exponent,Strength coefficient (MPa),Size of the particle (μm)\nAnnealed parent (P),78 ± 2.5%,159.9 ± 1.1%,0.28,668.17,3.25 ± 1.3%\nSolution treated (ST),43 ± 2.3%,182 ± 1.7%,0.34,473.36,–\nAge hardened (T6),302 ± 1.3%,397.7 ± 2%,0.203,886.83,1.50 ± 0.8%",
+    "extracted text": "The paper discusses Al-2219 alloy which belongs to the class of age-hardenable materials. The alloy is precipitation hardened to T6 condition through a heat treatment cycle that consists of solution treatment (holding at 535°C for 35 min followed by water quenching) and aging (heating at 160°C).",
+    "property mapping": "AA designation: Al-2219 corresponds to AA 2219\nYield strength: Reported in MPa in Table 2\nTensile strength: Reported as 'Tensile strength (MPa)' in Table 2\nTemper conditions: Annealed parent (P), Solution treated (ST), and Age hardened (T6)",
+    "abbreviations": "P: Annealed parent condition\nST: Solution treated condition\nT6: Age hardened condition\nISF: Incremental Sheet Forming",
+    "weight percentage": "For Cu, the range is 5.80-6.80%, so the mean is 6.30%\nFor Fe, the maximum is 0.30%, using 0.30%\nFor Si, the maximum is 0.20%, using 0.20%\nFor Mn, the range is 0.20-0.40%, so the mean is 0.30%\nFor Mg, the maximum is 0.02%, using 0.02%\nFor Zn, listed twice with different values: first as max 0.10%, then as 0.10-0.25%, taking the more specific range with mean 0.175%\nFor Ti, the range is 0.02-0.10%, so the mean is 0.06%\nFor V, the range is 0.05-0.15%, so the mean is 0.10%",
+    "recipes": [
+        {
+            "AA": "2219",
+            "temper": "P",
+            "YS [MPa]": 78.0,
+            "UTS [MPa]": 159.9,
+            "elong [%]": "",
+            "Has composition": true,
+            "Cu": 6.3,
+            "Fe": 0.3,
+            "Si": 0.2,
+            "Mn": 0.3,
+            "Mg": 0.02,
+            "Zn": 0.175,
+            "Ti": 0.06,
+            "V": 0.1
+        },
+        {
+            "AA": "2219",
+            "temper": "ST",
+            "YS [MPa]": 43.0,
+            "UTS [MPa]": 182.0,
+            "elong [%]": "",
+            "Has composition": true,
+            "Cu": 6.3,
+            "Fe": 0.3,
+            "Si": 0.2,
+            "Mn": 0.3,
+            "Mg": 0.02,
+            "Zn": 0.175,
+            "Ti": 0.06,
+            "V": 0.1
+        },
+        {
+            "AA": "2219",
+            "temper": "T6",
+            "YS [MPa]": 302.0,
+            "UTS [MPa]": 397.7,
+            "elong [%]": "",
+            "Has composition": true,
+            "Cu": 6.3,
+            "Fe": 0.3,
+            "Si": 0.2,
+            "Mn": 0.3,
+            "Mg": 0.02,
+            "Zn": 0.175,
+            "Ti": 0.06,
+            "V": 0.1
+        }
+    ]
+}

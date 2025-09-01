@@ -1,0 +1,22 @@
+{
+    "table csv": "Chemical compositions (wt.%),,,,,,,Mechanical properties,\nAl,Zn,Mg,Cu,Mn,Fe,Cr,Tensile strength (MPa),Elongation (%)\nBal.,5.75,2.51,1.68,0.26,0.20,0.15,486,11",
+    "extracted text": "The paper studies 7B04-T74 aluminum alloy, which is used for both the upper and lower sheets in friction stir lap welding. The sheets were 2-mm-thick.",
+    "property mapping": "Tensile strength (MPa) → UTS [MPa]\nElongation (%) → elong [%]",
+    "abbreviations": "Bal. means balance, indicating that the remaining percentage to make up 100% is aluminum.\nT74 is a temper designation for the aluminum alloy.",
+    "weight percentage": "The weight percentages are directly provided in the document:\nZn: 5.75%\nMg: 2.51%\nCu: 1.68%\nMn: 0.26%\nFe: 0.20%\nCr: 0.15%\nAl: Balance (remainder to 100%)",
+    "recipes": [
+        {
+            "AA": "7B04",
+            "temper": "T74",
+            "UTS [MPa]": 486,
+            "elong [%]": 11,
+            "Has composition": true,
+            "Zn": 5.75,
+            "Mg": 2.51,
+            "Cu": 1.68,
+            "Mn": 0.26,
+            "Fe": 0.20,
+            "Cr": 0.15
+        }
+    ]
+}

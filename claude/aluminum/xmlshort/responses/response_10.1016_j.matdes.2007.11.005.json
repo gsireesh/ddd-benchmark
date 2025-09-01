@@ -1,0 +1,27 @@
+{
+    "table csv": "Type of material,Cu,Mn,Fe,Zr,V,Si,Ti,Zn,Al\nBase metal (AA 2219-T87),6.33,0.34,0.13,0.12,0.07,0.06,0.04,0.02,Bal\n\nBase metal,Yield strength (MPa),Ultimate tensile strength (MPa),Elongation (%),Reduction in cross-sectional area (%),Vickers hardness (0.05 kg HV)\nBase metal,392,475,15,10,140",
+    "extracted text": "The document discusses AA2219 aluminum alloy in T87 temper condition. It is described as basically an Al-Cu-Mn ternary alloy with minor additions of Ti, V and Zr. The paper focuses on fatigue behavior of electron beam welded joints of this alloy after various post weld heat treatments.",
+    "property mapping": "AA: AA 2219\ntemper: T87\nYS [MPa]: 392\nUTS [MPa]: 475\nelong [%]: 15\nHardness: 140\nHardness UNIT: HV",
+    "abbreviations": "AA: Aluminum Association\nEB: Electron Beam\nEBW: Electron Beam Welding\nPWHT: Post Weld Heat Treatment\nAW: As Welded\nST: Solution Treated\nAA: Artificially Aged\nSTA: Solution Treated and Aged",
+    "weight percentage": "The weight percentages of elements are directly provided in the document:\nCu: 6.33%\nMn: 0.34%\nFe: 0.13%\nZr: 0.12%\nV: 0.07%\nSi: 0.06%\nTi: 0.04%\nZn: 0.02%\nAl: Balance (remainder)",
+    "recipes": [
+        {
+            "AA": "2219",
+            "temper": "T87",
+            "YS [MPa]": 392.0,
+            "UTS [MPa]": 475.0,
+            "elong [%]": 15.0,
+            "Hardness": 140.0,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Cu": 6.33,
+            "Mn": 0.34,
+            "Fe": 0.13,
+            "Zr": 0.12,
+            "V": 0.07,
+            "Si": 0.06,
+            "Ti": 0.04,
+            "Zn": 0.02
+        }
+    ]
+}

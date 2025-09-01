@@ -1,0 +1,98 @@
+{
+    "table csv": "Sample no.,GeO2,H2O,TMEDA,TEOS,HF,Product\n1,0.25–1.0,18–72,35,1.0,0.54,BEC\n2,0.25–1.0,72,35,1.0,0,No crystallization\n3,0.5,9–18,35,1.0,0.54,AST\n4,0.5,72–144,35,1.0,0.54,BEC and AST\n5,0,18–72,17–105,1.0,0.54–3,No crystallization",
+    
+    "extracted text": "The BEC-zeotype germanosilicates were synthesized under hydrothermal conditions using N,N,N′,N′-Tetra-methylethylenediamine (TMEDA) as an OSDA. In a typical synthesis, 8 mL (35 mmol) of TMEDA and 0.16 g (1 mmol) of GeO2 was added to 4 mL water. The mixture was stirred using a magnetic stirrer until the germanium oxide dissolved. After adding 0.32 mL of tetraethylorthosilicate (TEOS), the mixture was stirred for another 2 h at room temperature to hydrolyze the TEOS, followed by the addition of 0.15 mL of an aqueous HF solution. The molar ratio of the batch composition was 0.5GeO2:1.0Si(OC2H5)4:35TMEDA:72H2O:0.54HF. The final mixture was sealed in a 25 mL Teflon-lined autoclave and heated to 170°C under autogenous pressure for 2 days. The B-substituted BEC-type germanosilicate was synthesized by introducing an appropriate amount of H3BO3 into the reaction gel to obtain the following molar composition: 0.5GeO2:1.0SiO2:35OSDA:2.5HF:83H2O:0.1H3BO3. All samples were synthesized at 170°C for 2 days.",
+    
+    "property mapping": "GeO2 → Ge\nH2O → H2O\nTMEDA → osda_names (N,N,N′,N′-Tetra-methylethylenediamine) and osda_ratios\nTEOS → Si (tetraethylorthosilicate is the silicon source)\nHF → HF\nProduct → product_names\nH3BO3 → B\ncrystallization_temperature: 170°C\ncrystallization_time: 2 days (48 hours)",
+    
+    "formula abbreviations": "TMEDA: N,N,N′,N′-Tetra-methylethylenediamine\nTEOS: tetraethylorthosilicate (Si(OC2H5)4)\nB-BEC: B-substituted BEC-type germanosilicate\nSiGe-BEC: BEC-zeotype germanosilicate\nAST: AST-type zeolite",
+    
+    "ratio calculations": "For all samples, TEOS (Si) is set to 1.0 as the reference.\n\nSample 1:\nGeO2: 0.25-1.0 → mean = 0.625\nH2O: 18-72 → mean = 45\nTMEDA: 35\nTEOS (Si): 1.0\nHF: 0.54\n\nSample 2:\nGeO2: 0.25-1.0 → mean = 0.625\nH2O: 72\nTMEDA: 35\nTEOS (Si): 1.0\nHF: 0\n\nSample 3:\nGeO2: 0.5\nH2O: 9-18 → mean = 13.5\nTMEDA: 35\nTEOS (Si): 1.0\nHF: 0.54\n\nSample 4:\nGeO2: 0.5\nH2O: 72-144 → mean = 108\nTMEDA: 35\nTEOS (Si): 1.0\nHF: 0.54\n\nSample 5:\nGeO2: 0\nH2O: 18-72 → mean = 45\nTMEDA: 17-105 → mean = 61\nTEOS (Si): 1.0\nHF: 0.54-3 → mean = 1.77\n\nB-BEC sample:\nGeO2: 0.5\nSiO2: 1.0\nOSDA: 35\nHF: 2.5\nH2O: 79-83 → mean = 81\nH3BO3: 0.1 (B = 0.1)",
+    
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.625,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 45.0,
+            "HF": 0.54,
+            "B": 0,
+            "osda_names": "N,N,N′,N′-Tetra-methylethylenediamine",
+            "osda_ratios": 35.0,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 48.0,
+            "product_names": "BEC"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.625,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 72.0,
+            "HF": 0.0,
+            "B": 0,
+            "osda_names": "N,N,N′,N′-Tetra-methylethylenediamine",
+            "osda_ratios": 35.0,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 48.0,
+            "product_names": "No crystallization"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.5,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 13.5,
+            "HF": 0.54,
+            "B": 0,
+            "osda_names": "N,N,N′,N′-Tetra-methylethylenediamine",
+            "osda_ratios": 35.0,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 48.0,
+            "product_names": "AST"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.5,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 108.0,
+            "HF": 0.54,
+            "B": 0,
+            "osda_names": "N,N,N′,N′-Tetra-methylethylenediamine",
+            "osda_ratios": 35.0,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 48.0,
+            "product_names": "BEC and AST"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.0,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 45.0,
+            "HF": 1.77,
+            "B": 0,
+            "osda_names": "N,N,N′,N′-Tetra-methylethylenediamine",
+            "osda_ratios": 61.0,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 48.0,
+            "product_names": "No crystallization"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.5,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 81.0,
+            "HF": 2.5,
+            "B": 0.1,
+            "osda_names": "N,N,N′,N′-Tetra-methylethylenediamine",
+            "osda_ratios": 35.0,
+            "crystallization_temperature": 170.0,
+            "crystallization_time": 48.0,
+            "product_names": "B-BEC"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "table csv": "The document doesn't contain a formal table with recipe information, but describes the synthesis in text format in Section 2.2.",
+    "extracted text": "Zeolite UTL was prepared hydrothermally. The reaction gel of a molar composition: 0.37 SiO2:0.19 GeO2:0.27 SDA:14 H2O was prepared by dissolving amorphous germanium dioxide (Aldrich) in the solution of SDA in water. Then, silica (Cab–O–Sil M5) was added into the solution and the mixture was stirred for 1 h at room temperature. The obtained homogenous fluid gel was charged into 100 ml teflon-lined autoclave and heated at 175 °C for 6 days with agitation (40 rpm). The solid product was recovered by filtration, thoroughly washed out with distilled water and dried in the oven at 60 °C. To remove the SDA, the solid product was calcined in air at 550 °C for 6 h with a temperature ramp of 1̊/min.\n\nCalcined UTL was hydrolyzed in 1 M CH3COOH with the w/w ratio around 1/250 at 85 °C for 16 h. The product was isolated by centrifugation, washed with water and dried at 60 °C. The hydrolyzed product was a layered material denoted IPC-1P.\n\nThe SDA used was (6R,10S)-6,10-Dimethyl-5-anizosporo[4.5]decane hydroxide.",
+    "property mapping": "SiO2 corresponds to Si\nGeO2 corresponds to Ge\nSDA corresponds to osda_ratios\n(6R,10S)-6,10-Dimethyl-5-anizosporo[4.5]decane hydroxide corresponds to osda_names\n175 °C corresponds to crystallization_temperature\n6 days corresponds to crystallization_time\nUTL corresponds to product_names",
+    "formula abbreviations": "SDA stands for structure-directing agent, which is (6R,10S)-6,10-Dimethyl-5-anizosporo[4.5]decane hydroxide.\nUTL is the product name (germanosilicate zeolite).\nIPC-1P is the layered material obtained by hydrolysis of UTL.",
+    "ratio calculations": "The original ratio is 0.37 SiO2:0.19 GeO2:0.27 SDA:14 H2O\nSetting Si to 1.0, we need to divide all values by 0.37:\nSi = 0.37/0.37 = 1.0\nGe = 0.19/0.37 = 0.5135\nSDA (osda_ratios) = 0.27/0.37 = 0.7297\nH2O = 14/0.37 = 37.8378",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.5135,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 37.8378,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "(6R,10S)-6,10-Dimethyl-5-anizosporo[4.5]decane hydroxide",
+            "osda_ratios": 0.7297,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 144.0,
+            "product_names": "UTL"
+        }
+    ]
+}

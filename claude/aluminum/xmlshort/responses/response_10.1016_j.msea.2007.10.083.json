@@ -1,0 +1,25 @@
+{
+    "table csv": "Alloy,Si,Fe,Cu,Mn,Mg,Zn,Cr,Ti,Al\n7475,0.029,0.085,1.661,0.01,2.376,5.722,0.21,0.0266,Balance\n\nPre-strain level,Orient.,σYS (MPa),σUTS (MPa),ε (%)\n0%,L,405.76,482.60,12.11\n3%,L,412.17,496.38,9.82\n5%,L,416,497.67,8.82\n\nPre-strain level,Kc (MPa√m)\n0%,95.5\n3%,92.8\n5%,79.3",
+    "extracted text": "The paper focuses on 7475-T7351 aluminum alloy plate with a thickness of 76.2 mm. The alloy microstructure consists of a typical unrecrystallized pancake-like grain structure. For the study, strips of 5 mm thickness were machined from the original plate and subjected to different pre-strain levels (0%, 3%, and 5%).",
+    "property mapping": "AA: 7475 (from Table 1)\ntemper: T7351 (from text, title mentions '7475-T7351')\nYS [MPa]: σYS in Table 2\nUTS [MPa]: σUTS in Table 2\nelong [%]: ε in Table 2\nFracture toughness: Kc in Table 3 (measured in MPa√m)",
+    "abbreviations": "σYS: 0.2% yield tensile strength\nσUTS: ultimate tensile strength\nε: total strain (elongation)\nKc: fracture toughness",
+    "weight percentage": "The weight percentages are directly provided in Table 1:\nSi: 0.029%\nFe: 0.085%\nCu: 1.661%\nMn: 0.01%\nMg: 2.376%\nZn: 5.722%\nCr: 0.21%\nTi: 0.0266%\nAl: Balance (remainder)",
+    "recipes": [
+        {
+            "AA": "7475",
+            "temper": "T7351",
+            "YS [MPa]": 405.76,
+            "UTS [MPa]": 482.60,
+            "elong [%]": 12.11,
+            "Has composition": true,
+            "Si": 0.029,
+            "Fe": 0.085,
+            "Cu": 1.661,
+            "Mn": 0.01,
+            "Mg": 2.376,
+            "Zn": 5.722,
+            "Cr": 0.21,
+            "Ti": 0.0266
+        }
+    ]
+}

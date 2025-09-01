@@ -1,0 +1,54 @@
+{
+    "table csv": "Sample,Cu,Mg,Ag,Mn,Zr,Al\nAlloy 1,5.3,0.4,0.5,0.3,0.15,Bal.\nAlloy 2,5.3,0.8,0.5,0.3,0.15,Bal.\nAlloy 3,5.3,1.2,0.5,0.3,0.15,Bal.",
+    "extracted text": "The experimental materials were prepared with pure Al, pure Mg, pure Ag and Al–Cu, Al–Zr, Al–Mn master alloys by ingot metallurgy in a crucible furnace. These ingots with a size of 30 mm × 200 mm × 300 mm were homogenized at 500 °C for 24 h, hot rolled to 6 mm and then cold rolled to a 3 mm thin plate. All samples were solid solution treated at 515 °C for 1.5 h, subsequently water quenched and then immediately aged at 185 °C for different holding time. The aging time to reach the peak hardness was 8h for 0.4 wt% Mg alloy (143 HV), 4h for 0.8 wt% Mg alloy (157 HV), and 2h for 1.2 wt% Mg alloy (no significant increase from 0.8 wt% Mg alloy).",
+    "property mapping": "YS [MPa]: Yield strength (MPa) from Table 2\nUTS [MPa]: Tensile strength (MPa) from Table 2\nelong [%]: Elongation (%) from Table 2\nHardness: Hardness values in HV from Figure 1 and text\nHardness UNIT: HV (Vickers Hardness)",
+    "abbreviations": "OM: optical microscopy\nTEM: transmission electron microscopy\nIGC: intergranular corrosion\nPFZ: precipitate free zone",
+    "weight percentage": "The weight percentages are directly provided in Table 1 for all elements:\nCu: 5.3 wt%\nMg: 0.4 wt%, 0.8 wt%, or 1.2 wt% depending on the alloy\nAg: 0.5 wt%\nMn: 0.3 wt%\nZr: 0.15 wt%\nAl: Balance (remainder)",
+    "recipes": [
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 421,
+            "UTS [MPa]": 459,
+            "elong [%]": 10.1,
+            "Hardness": 143,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Cu": 5.3,
+            "Mg": 0.4,
+            "Ag": 0.5,
+            "Mn": 0.3,
+            "Zr": 0.15
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 433,
+            "UTS [MPa]": 487,
+            "elong [%]": 9.7,
+            "Hardness": 157,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Cu": 5.3,
+            "Mg": 0.8,
+            "Ag": 0.5,
+            "Mn": 0.3,
+            "Zr": 0.15
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 391,
+            "UTS [MPa]": 486,
+            "elong [%]": 11.0,
+            "Hardness": 157,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Cu": 5.3,
+            "Mg": 1.2,
+            "Ag": 0.5,
+            "Mn": 0.3,
+            "Zr": 0.15
+        }
+    ]
+}

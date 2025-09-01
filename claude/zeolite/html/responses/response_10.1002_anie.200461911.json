@@ -1,0 +1,23 @@
+{
+    "table csv": "GeO2:H2O:[NH2(CH2)2NH(CH2)2NH2] (DETA):pyridine:H3BO3 = 1:20:8:40:2",
+    "extracted text": "SU-16 was synthesized from a mixture containing GeO2, H2O, [NH2(CH2)2NH(CH2)2NH2] (DETA), pyridine, and H3BO3 in a molar ratio of 1:20:8:40:2. Typically GeO2 (0.25 g) was added to H2O (0.85 mL) under stirring, and then DETA (2.04 mL) was added dropwise to the mixture until the GeO2 was completely dissolved. Finally, pyridine (7.59 mL) and H3BO3 (0.29 g) were added. The reaction mixture (pH ≈ 14) was sealed in a 38-mL Teflon-lined autoclave and heated at 165°C for eight days. The autoclave was slowly cooled to room temperature, and then the product was filtered, washed with distilled water and acetone, and dried at room temperature. Large colorless needlelike single crystals of SU-16 were obtained in yields up to 70% (based on GeO2). The synthesis conditions of SU-16 were not very critical: Crystals of SU-16 could be obtained with molar ratios of GeO2/DETA ranging from 1:4 to 1:12, GeO2/H2O from 1:20 to 1:40, GeO2/pyridine from 1:20 to 1:60, and GeO2/H3BO3 from 1:1 to 1:2.",
+    "property mapping": "GeO2 corresponds to Ge, H2O corresponds to H2O, [NH2(CH2)2NH(CH2)2NH2] (DETA) corresponds to osda_names and osda_ratios, H3BO3 corresponds to B, 165°C corresponds to crystallization_temperature, eight days corresponds to crystallization_time, SU-16 corresponds to product_names",
+    "formula abbreviations": "DETA stands for diethylenetriamine [NH2(CH2)2NH(CH2)2NH2], which is the structure directing agent (OSDA). SU-16 is the product name, representing a three-dimensional open-framework borogermanate with a novel zeolite topology.",
+    "ratio calculations": "Since there is no Si in this recipe (Si = 0), and we're dealing with a germanate, I'll normalize based on Ge = 1.0. The original ratio was GeO2:H2O:DETA:pyridine:H3BO3 = 1:20:8:40:2, so we have Ge = 1.0, H2O = 20.0, OSDA (DETA) ratio = 8.0, and B = 2.0 (from H3BO3).",
+    "recipes": [
+        {
+            "Si": 0.0,
+            "Ge": 1.0,
+            "Al": 0.0,
+            "OH": 0.0,
+            "H2O": 20.0,
+            "HF": 0.0,
+            "B": 2.0,
+            "osda_names": "diethylenetriamine",
+            "osda_ratios": 8.0,
+            "crystallization_temperature": 165.0,
+            "crystallization_time": 192.0,
+            "product_names": "SU-16"
+        }
+    ]
+}

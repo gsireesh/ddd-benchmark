@@ -1,0 +1,29 @@
+```json
+{
+    "table csv": "Element,Mg,Si,Fe,Cu,Zn,Ti,Mn,Cr,Al\nAA6061-T6,1.0,0.58,0.42,0.22,0.05,0.02,0.02,0.16,Bal\n\nMaterial,Yield strength (MPa),Ultimate Tensile strength (MPa),Elongation (%),Hardness (HV),Melting temperature (°C),Thermal conductivity (W/m-K)\nAA6061-T6,276,312,18,106,582,167",
+    "extracted text": "The document describes friction stir welding of 0.5 mm thin sheets of aluminium alloy 6061-T6. The paper mentions that for the aluminium alloy 6061 in T6 temper which is artificially aged, the weld nuggets are remarkably softer compared to base metal due to dissolution of precipitates.",
+    "property mapping": "AA: 6061 (Aluminum Association alloy designation)\ntemper: T6 (temper treatment)\nYS [MPa]: 276 (Yield strength in MPa)\nUTS [MPa]: 312 (Ultimate Tensile strength in MPa)\nelong [%]: 18 (Elongation percentage)\nHardness: 106 (Hardness value)\nHardness UNIT: HV (Vickers hardness)",
+    "abbreviations": "AA: Aluminum Association\nT6: Solution heat-treated and artificially aged\nHV: Hardness Vickers\nFSW: Friction Stir Welding\nUTS: Ultimate Tensile Strength",
+    "weight percentage": "The weight percentages for the elements in AA6061-T6 are already provided in Table 1 as follows:\nMg: 1.0%\nSi: 0.58%\nFe: 0.42%\nCu: 0.22%\nZn: 0.05%\nTi: 0.02%\nMn: 0.02%\nCr: 0.16%\nAl: Balance (remaining percentage)",
+    "recipes": [
+        {
+            "AA": "6061",
+            "temper": "T6",
+            "YS [MPa]": 276.0,
+            "UTS [MPa]": 312.0,
+            "elong [%]": 18.0,
+            "Hardness": 106.0,
+            "Hardness UNIT": "HV",
+            "Has composition": true,
+            "Mg": 1.0,
+            "Si": 0.58,
+            "Fe": 0.42,
+            "Cu": 0.22,
+            "Zn": 0.05,
+            "Ti": 0.02,
+            "Mn": 0.02,
+            "Cr": 0.16
+        }
+    ]
+}
+```

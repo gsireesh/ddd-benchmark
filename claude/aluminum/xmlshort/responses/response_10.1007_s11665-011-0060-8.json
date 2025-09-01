@@ -1,0 +1,25 @@
+{
+    "table csv": "Al,Cu,Mn,Fe,Ti,V,Zn,Si,Zr,Tensile strength,Microhardness\nBal.,6.48,0.32,0.23,0.06,0.08,0.04,0.49,0.20,432 MPa,120-130 Hv",
+    "extracted text": "The base metal (BM) was a 7.5-mm-thick 2219-T6 aluminum alloy plate, whose chemical compositions and mechanical properties are listed in Table 1.",
+    "property mapping": "AA: 2219\ntemper: T6\nUTS [MPa]: 432 MPa (listed as 'Tensile strength')\nHardness: 120-130 Hv (listed as 'Microhardness')",
+    "abbreviations": "BM: Base Metal\nHAZ: Heat-Affected Zone\nNHAZ: Normal FSW Heat-Affected Zone\nUHAZ: Underwater FSW Heat-Affected Zone\nFSW: Friction Stir Welding\nTMAZ: Thermal Mechanically Affected Zone\nWNZ: Weld Nugget Zone",
+    "weight percentage": "All values are already provided in weight percentage (wt.%). Al is balanced (Bal.), meaning it makes up the remainder to reach 100%.",
+    "recipes": [
+        {
+            "AA": "2219",
+            "temper": "T6",
+            "UTS [MPa]": 432.0,
+            "Hardness": 125.0,
+            "Hardness UNIT": "Hv",
+            "Has composition": true,
+            "Cu": 6.48,
+            "Mn": 0.32,
+            "Fe": 0.23,
+            "Ti": 0.06,
+            "V": 0.08,
+            "Zn": 0.04,
+            "Si": 0.49,
+            "Zr": 0.20
+        }
+    ]
+}

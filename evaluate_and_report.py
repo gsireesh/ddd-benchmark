@@ -244,8 +244,8 @@ def evaluate_predictions_wrapper(
 
     metadata = metadata_by_dataset[dataset]
 
-    if modality.lower() not in {"xml", "pdf"}:
-        raise AssertionError(f"Unrecognized modality {modality}. Expected one of xml, pdf")
+    if modality.lower() not in {"xml", "xmltest", "pdf", "md", "html", "txt"}:
+        raise AssertionError(f"Unrecognized modality {modality}. Expected one of xml, pdf, md, html, txt")
 
     publisher_meta = pd.read_csv(metadata["metadata_csv"])
 

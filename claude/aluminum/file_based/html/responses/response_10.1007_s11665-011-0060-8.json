@@ -1,0 +1,32 @@
+{
+    "table csv": "Chemical compositions and mechanical properties of 2219-T6 aluminum alloy\nChemical compositions, wt.%,,,,,,,,,Mechanical properties,\nAl,Cu,Mn,Fe,Ti,V,Zn,Si,Zr,Tensile strength,Microhardness\nBal.,6.48,0.32,0.23,0.06,0.08,0.04,0.49,0.20,432 MPa,120-130 Hv",
+    
+    "extracted text": "The base metal (BM) was a 7.5-mm-thick 2219-T6 aluminum alloy plate. The hardness range of the base metal is 120-130 Hv.",
+    
+    "property mapping": "AA: 2219 (from text and table)\ntemper: T6 (from text and table)\nUTS [MPa]: 432 (identified as 'Tensile strength' in table)\nHardness: 125 (average of range 120-130 from table)\nHardness UNIT: Hv (from table, Vickers hardness)",
+    
+    "abbreviations": "BM: Base Metal\nHAZ: Heat-Affected Zone\nFSW: Friction Stir Welding\nTMAZ: Thermal Mechanically Affected Zone\nWNZ: Weld Nugget Zone\nNHAZ: HAZ of the normal joint\nUHAZ: HAZ of the underwater joint",
+    
+    "weight percentage": "All element compositions are already provided in weight percentage in the table:\nCu: 6.48 wt.%\nMn: 0.32 wt.%\nFe: 0.23 wt.%\nTi: 0.06 wt.%\nV: 0.08 wt.%\nZn: 0.04 wt.%\nSi: 0.49 wt.%\nZr: 0.20 wt.%\nAl: Balance (remaining percentage)",
+    
+    "recipes": [
+        {
+            "AA": "2219",
+            "temper": "T6",
+            "YS [MPa]": "",
+            "UTS [MPa]": 432,
+            "elong [%]": "",
+            "Hardness": 125,
+            "Hardness UNIT": "Hv",
+            "Has composition": true,
+            "Cu": 6.48,
+            "Mn": 0.32,
+            "Fe": 0.23,
+            "Ti": 0.06,
+            "V": 0.08,
+            "Zn": 0.04,
+            "Si": 0.49,
+            "Zr": 0.20
+        }
+    ]
+}

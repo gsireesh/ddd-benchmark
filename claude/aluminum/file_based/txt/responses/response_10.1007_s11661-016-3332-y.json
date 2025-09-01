@@ -1,0 +1,94 @@
+{
+    "table csv": "Table I. Chemical Composition of AA2219-T87 Aluminum Alloy and the Filler Wire Used\n|                   | Elements (Wt Pct)   | Elements (Wt Pct)   | Elements (Wt Pct)   | Elements (Wt Pct)   | Elements (Wt Pct)   | Elements (Wt Pct)   | Elements (Wt Pct)   | Elements (Wt Pct)   | Elements (Wt Pct)   |\n|-------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|---------------------|\n| Alloy             | Cu                  | Mn                  | Zr                  | V                   | Ti                  | Fe                  | Si                  | Zn                  | Al                  |\n| AA2219-T87 AA2319 | 5.95                | 0.27 0.29           | 0.1                 | 0.09 0.1            | 0.06 0.15           | 0.12 0.1            | 0.05                | 0.02                | bal. bal.           |\n|                   | 6.1                 |                     | 0.15                |                     |                     |                     | 0.04                | 0.02                |                     |\n\nTable III. Tensile Parameters of AA2219 Parent and Weld Metals (50 mm Gage Length)\n| Material      |   UTS (MPa) |   0.2 pct YS (MPa) |   Pct Elongation | Location of Failure   |\n|---------------|-------------|--------------------|------------------|-----------------------|\n| AA2219-T87 L  |         440 |                358 |             11.7 | -                     |\n| LT            |         459 |                376 |             11.6 |                       |\n| AA2219-T851 C |         443 |                337 |             10.4 |                       |\n| R             |         450 |                339 |              8.5 |                       |\n| A             |         449 |                348 |              3.8 |                       |\n| Weld PP       |         285 |                185 |              4.7 | FZ                    |\n| PR            |         288 |                168 |              4   |                       |",
+    
+    "extracted text": "The paper discusses AA2219 aluminum alloy in T87 and T851 temper conditions. The T87 temper condition involves solution treatment at 807 K (534°C) for 1 hour + 7% stretching followed by aging at 436 K (163°C) for 24 hours. The T851 temper condition involves solution treatment at 807 K (534°C) for 1 hour + stress relieved by 3% stretching followed by aging at 436 K (163°C) for 24 hours. The rings in T851 condition were processed through forging route consisting of upsetting the billet with number of re-heatings followed by piercing the forged billet to form a ring, followed by ring rolling process with intermittent re-heating before solution treatment. A quench delay of 87 seconds was given for the rings.",
+    
+    "property mapping": "AA = AA2219 (Aluminum Association alloy designation)\ntemper = T87 and T851\nYS [MPa] = 0.2 pct YS (MPa) in Table III\nUTS [MPa] = UTS (MPa) in Table III\nelong [%] = Pct Elongation in Table III",
+    
+    "abbreviations": "L: Longitudinal direction\nLT: Long Transverse direction\nC: Circumferential direction\nR: Radial direction\nA: Axial direction\nPP: Plate to plate weld\nPR: Plate to Ring weld\nbal.: balance (remainder is aluminum)",
+    
+    "weight percentage": "For AA2219-T87:\nCu: 5.95 wt%\nMn: 0.27 wt%\nZr: 0.1 wt%\nV: 0.09 wt%\nTi: 0.06 wt%\nFe: 0.12 wt%\nSi: 0.05 wt%\nZn: 0.02 wt%\nAl: balance (remaining percentage)\n\nFor AA2319 (filler wire):\nCu: 6.1 wt%\nMn: 0.29 wt%\nZr: 0.15 wt%\nV: 0.1 wt%\nTi: 0.15 wt%\nFe: 0.1 wt%\nSi: 0.04 wt%\nZn: 0.02 wt%\nAl: balance (remaining percentage)",
+    
+    "recipes": [
+        {
+            "AA": "2219",
+            "temper": "T87",
+            "YS [MPa]": 358.0,
+            "UTS [MPa]": 440.0,
+            "elong [%]": 11.7,
+            "Has composition": true,
+            "Cu": 5.95,
+            "Mn": 0.27,
+            "Zr": 0.1,
+            "V": 0.09,
+            "Ti": 0.06,
+            "Fe": 0.12,
+            "Si": 0.05,
+            "Zn": 0.02
+        },
+        {
+            "AA": "2219",
+            "temper": "T87",
+            "YS [MPa]": 376.0,
+            "UTS [MPa]": 459.0,
+            "elong [%]": 11.6,
+            "Has composition": true,
+            "Cu": 5.95,
+            "Mn": 0.27,
+            "Zr": 0.1,
+            "V": 0.09,
+            "Ti": 0.06,
+            "Fe": 0.12,
+            "Si": 0.05,
+            "Zn": 0.02
+        },
+        {
+            "AA": "2219",
+            "temper": "T851",
+            "YS [MPa]": 337.0,
+            "UTS [MPa]": 443.0,
+            "elong [%]": 10.4,
+            "Has composition": true,
+            "Cu": 5.95,
+            "Mn": 0.27,
+            "Zr": 0.1,
+            "V": 0.09,
+            "Ti": 0.06,
+            "Fe": 0.12,
+            "Si": 0.05,
+            "Zn": 0.02
+        },
+        {
+            "AA": "2219",
+            "temper": "T851",
+            "YS [MPa]": 339.0,
+            "UTS [MPa]": 450.0,
+            "elong [%]": 8.5,
+            "Has composition": true,
+            "Cu": 5.95,
+            "Mn": 0.27,
+            "Zr": 0.1,
+            "V": 0.09,
+            "Ti": 0.06,
+            "Fe": 0.12,
+            "Si": 0.05,
+            "Zn": 0.02
+        },
+        {
+            "AA": "2219",
+            "temper": "T851",
+            "YS [MPa]": 348.0,
+            "UTS [MPa]": 449.0,
+            "elong [%]": 3.8,
+            "Has composition": true,
+            "Cu": 5.95,
+            "Mn": 0.27,
+            "Zr": 0.1,
+            "V": 0.09,
+            "Ti": 0.06,
+            "Fe": 0.12,
+            "Si": 0.05,
+            "Zn": 0.02
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "table csv": "Table I. Alloy Compositions\n6061-T6\nMg,Si,Fe,Ca,C,Al\n1.0,0.6,0.2,0.2,0.1,balance\n\nTable II. Mechanical Properties\n,Yield Strength (MPa),Tensile Strength (MPa),Elongation (pct)\n6061-T6,287,315,16.4",
+    "extracted text": "The paper studies the aluminum alloy 6061-T6 and compares it with a steel (S25C) of comparable yield strength to determine why some alloys display plasticity-induced fatigue crack closure (PIFCC), whereas other alloys display roughness-induced crack closure (RIFCC). The 6061-T6 aluminum alloy (with PIFCC) has a relatively low Young's modulus compared to steel.",
+    "property mapping": "Yield Strength (MPa) → YS [MPa]\nTensile Strength (MPa) → UTS [MPa]\nElongation (pct) → elong [%]",
+    "abbreviations": "T6: A temper designation for aluminum alloys that have been solution heat-treated and then artificially aged\nPIFCC: Plasticity-induced fatigue crack closure\nRIFCC: Roughness-induced crack closure",
+    "weight percentage": "Mg: 1.0%\nSi: 0.6%\nFe: 0.2%\nCa: 0.2%\nC: 0.1%\nAl: balance (remainder to 100%)",
+    "recipes": [
+        {
+            "AA": "6061",
+            "temper": "T6",
+            "YS [MPa]": 287.0,
+            "UTS [MPa]": 315.0,
+            "elong [%]": 16.4,
+            "Has composition": true,
+            "Mg": 1.0,
+            "Si": 0.6,
+            "Fe": 0.2,
+            "Ca": 0.2,
+            "C": 0.1
+        }
+    ]
+}

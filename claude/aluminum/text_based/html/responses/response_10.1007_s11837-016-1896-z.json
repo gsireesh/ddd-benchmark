@@ -1,0 +1,78 @@
+```json
+{
+    "table csv": "Table I. Nominal composition of Alloy 1 and Alloy 2; chemical analysis by direct current plasma optical emission spectrometry ( DCP OES -) is also included\n\n,Nominal composition, at.% (wt.%),Nominal composition, at.% (wt.%),DCP-AES, at.%, (wt.%),DCP-AES, at.%, (wt.%)\n,Sc,Zr,Sc,Zr\nAlloy 1,0.090 (0.15),0.045 (0.15),0.084 (0.14),0.045 (0.15)\nAlloy 2,0.060 (0.10),0.030 (0.10),0.053 (0.09),0.033 (0.11)\n\nTable II. Vickers microhardnesses and tensile properties of the Al-0.09 Sc-0.045 Zr/Saffil MMC before and after aging\n\n,,,Tensile properties,Tensile properties,Tensile properties\nSaffil volume fraction (vol.%),Microhardness (MPa),Yield strength (MPa),Ultimate tensile strength (MPa),Elongation (%)\n0 (as-cast),260 ± 9,-,-,-\n0 (aged),653 ± 24,128 ± 3,164 ± 7,31 ± 2\n4 (as-cast),362 ± 23,-,-,-\n4 (aged),711 ± 49,127 ± 7,196 ± 1,10 ± 0.5\n15 (as-cast),798 ± 45 (∼445 ± 23 a ),-,-,-\n15 (aged),830 ± 68,135 ± 6,> 150,0.4 ± 0.1\na In fiber-free matrix region.\n\nTable III. Minimum toughness, UTS and minimum elongation of Al-2Cu/Saffil composite samples with different Saffil short fiber volume fractions ranging from 0 vol.% to 40 vol.%\n\n,Toughness (MJ/m3),UTS (MPa),Minimum elongation (%)\nAl-2Cu,13.5,133,13\nAl-2Cu/4%,4.4,130,4.4\nAl-2Cu/7%,5.2,133,4.9\nAl-2Cu/15%,1.0,171,0.9\nAl-2Cu/30%,1.6,200,1.1\nAl-2Cu/40%,1.4,214,1\nAl-Sc-Zr/4%,17.8,196,9.7\nAl-Sc-Zr,41.2,164,26.9\nAA5083-H131,35.7,310,12\nAA6061-T6,35.2,310,12",
+    "extracted text": "The paper describes development of dilute Al-Sc-Zr alloys and their composites with Saffil short alumina fibers for use in non-quenchable aluminum metal matrix composites. Two main alloys were investigated: Al-0.09Sc-0.045Zr at.% (Alloy 1) and Al-0.06Sc-0.03Zr at.% (Alloy 2). The alloys were subjected to a two-step aging treatment: 300°C for 4h followed by 425°C for 8h. The Al-0.09Sc-0.045Zr alloy was used as a matrix for composites with 0%, 4%, and 15% volume fractions of Saffil short alumina fibers. For comparison, the paper also discusses Al-2Cu wt.% alloy composites with various Saffil fiber contents, as well as standard armor alloys AA5083-H131 and AA6061-T6.",
+    "property mapping": "Microhardness (MPa) -> Hardness (MPa)\nYield strength (MPa) -> YS [MPa]\nUltimate tensile strength (MPa) -> UTS [MPa]\nElongation (%) -> elong [%]",
+    "abbreviations": "MMC = Metal Matrix Composite\nSaffil = Short alumina fibers (>96 vol.% Al2O3)\nat.% = atomic percentage\nwt.% = weight percentage\nAlloy 1 = Al-0.09Sc-0.045Zr at.% (Al-0.15Sc-0.15Zr wt.%)\nAlloy 2 = Al-0.06Sc-0.03Zr at.% (Al-0.10Sc-0.10Zr wt.%)",
+    "weight percentage": "For Alloy 1 (Al-0.09Sc-0.045Zr at.%):\nSc: 0.15 wt.%\nZr: 0.15 wt.%\n\nFor Alloy 2 (Al-0.06Sc-0.03Zr at.%):\nSc: 0.10 wt.%\nZr: 0.10 wt.%\n\nFor Al-2Cu alloy:\nCu: 2.0 wt.%",
+    "recipes": [
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 128.0,
+            "UTS [MPa]": 164.0,
+            "elong [%]": 31.0,
+            "Hardness": 653.0,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.15,
+            "Zr": 0.15
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 127.0,
+            "UTS [MPa]": 196.0,
+            "elong [%]": 10.0,
+            "Hardness": 711.0,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.15,
+            "Zr": 0.15
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 135.0,
+            "UTS [MPa]": 150.0,
+            "elong [%]": 0.4,
+            "Hardness": 830.0,
+            "Hardness UNIT": "MPa",
+            "Has composition": true,
+            "Sc": 0.15,
+            "Zr": 0.15
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": "",
+            "UTS [MPa]": 133.0,
+            "elong [%]": 13.0,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 2.0
+        },
+        {
+            "AA": "5083",
+            "temper": "H131",
+            "YS [MPa]": "",
+            "UTS [MPa]": 310.0,
+            "elong [%]": 12.0,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "6061",
+            "temper": "T6",
+            "YS [MPa]": "",
+            "UTS [MPa]": 310.0,
+            "elong [%]": 12.0,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": "nominal"
+        }
+    ]
+}
+```

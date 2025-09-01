@@ -1,0 +1,51 @@
+{
+    "table csv": "There is no formal table with the recipes in the provided document, but the synthesis information is described in the text.",
+    "extracted text": "H-ITQ-13 is typically synthesized by the fluoride route in highly concentrated synthesis mixtures using hexamethonium hydroxide (HM(OH)2) as a structure directing agent (SDA). The synthesis mixture of ITQ-13(N) was prepared by dissolving GeO2 in HM(OH)2 aqueous solution, then adding Al-isopropoxide dissolved in isopropanol, followed by dropwise addition of TEOS. The final molar composition was 91 SiO2:1 Al2O3:9 GeO2:56 HF:25 HM(OH)2:500 H2O. Small amounts of pure Si-ITQ-13 seed crystals were added and the mixture was kept in a tumbling oven at 37 rpm for 14 days at 160°C. For H-ITQ-13(P), the same procedure was followed with nearly identical synthesis composition but 10.7% less fluoride (50HF instead of 56HF). For making Si-ITQ-13 seeds, the synthesis mixture had a final molar composition of 100 SiO2:50 HF:25 HM(OH)2:500 H2O.",
+    "property mapping": "SiO2 -> Si, Al2O3 -> Al, GeO2 -> Ge, HF -> HF, HM(OH)2 -> osda_names and osda_ratios, H2O -> H2O, 160°C -> crystallization_temperature, 14 days -> crystallization_time, ITQ-13 -> product_names",
+    "formula abbreviations": "HM(OH)2 = hexamethonium hydroxide. Al2O3 represents 2 Al atoms per formula unit. The tumbling oven was operated at 37 rpm.",
+    "ratio calculations": "For H-ITQ-13(N):\n- Si: 91 (normalizing to 1): 1\n- Al: from 1 Al2O3 → 2 Al atoms, so 2/91 = 0.022\n- Ge: 9/91 = 0.099\n- HF: 56/91 = 0.615\n- OSDA (HM(OH)2): 25/91 = 0.275\n- H2O: 500/91 = 5.495\n\nFor H-ITQ-13(P):\n- Similar to H-ITQ-13(N) but with 50HF instead of 56HF\n- HF: 50/91 = 0.549\n\nFor Si-ITQ-13 seeds:\n- Si: 100 (normalizing to 1): 1\n- HF: 50/100 = 0.5\n- OSDA (HM(OH)2): 25/100 = 0.25\n- H2O: 500/100 = 5",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.099,
+            "Al": 0.022,
+            "OH": 0.55,
+            "H2O": 5.495,
+            "HF": 0.615,
+            "B": 0,
+            "osda_names": "hexamethonium hydroxide",
+            "osda_ratios": 0.275,
+            "crystallization_temperature": 160.0,
+            "crystallization_time": 336.0,
+            "product_names": "ITQ-13(N)"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.099,
+            "Al": 0.022,
+            "OH": 0.55,
+            "H2O": 5.495,
+            "HF": 0.549,
+            "B": 0,
+            "osda_names": "hexamethonium hydroxide",
+            "osda_ratios": 0.275,
+            "crystallization_temperature": 160.0,
+            "crystallization_time": 336.0,
+            "product_names": "ITQ-13(P)"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.0,
+            "Al": 0.0,
+            "OH": 0.5,
+            "H2O": 5.0,
+            "HF": 0.5,
+            "B": 0,
+            "osda_names": "hexamethonium hydroxide",
+            "osda_ratios": 0.25,
+            "crystallization_temperature": 160.0,
+            "crystallization_time": 336.0,
+            "product_names": "Si-ITQ-13 seeds"
+        }
+    ]
+}

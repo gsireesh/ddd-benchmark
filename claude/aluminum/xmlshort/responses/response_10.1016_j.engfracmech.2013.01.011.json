@@ -1,0 +1,25 @@
+{
+    "table csv": "Yield strength σ0.2 (MPa),Tensile strength σb (MPa),Elongation δ%,Elastic modulus E (GPa),Specific gravity ρ (kg/m3),Possion's cofficient, ν\n289.9,328,13.5,69.8,2672,0.33",
+    "extracted text": "6061-T6 Al alloy was selected in this work. Its chemical composition is: 0.90 wt.% Mg, 0.62 wt.% Si, 0.33 wt.% Fe, 0.28 wt.% Cu, 0.17 wt.% Cr, 0.06 wt.% Mn, 0.02 wt.% Ti, 0.02 wt.% Zn.",
+    "property mapping": "σ0.2 = Yield strength [MPa]\nσb = Tensile strength (UTS) [MPa]\nδ% = Elongation [%]\nE = Elastic modulus [GPa]\nρ = Specific gravity [kg/m3]\nν = Poisson's coefficient",
+    "abbreviations": "No abbreviations for composition elements were used in the document.",
+    "weight percentage": "The composition is already provided in weight percentage (wt.%): Mg (0.90%), Si (0.62%), Fe (0.33%), Cu (0.28%), Cr (0.17%), Mn (0.06%), Ti (0.02%), Zn (0.02%).",
+    "recipes": [
+        {
+            "AA": "6061",
+            "temper": "T6",
+            "YS [MPa]": 289.9,
+            "UTS [MPa]": 328,
+            "elong [%]": 13.5,
+            "Has composition": true,
+            "Mg": 0.90,
+            "Si": 0.62,
+            "Fe": 0.33,
+            "Cu": 0.28,
+            "Cr": 0.17,
+            "Mn": 0.06,
+            "Ti": 0.02,
+            "Zn": 0.02
+        }
+    ]
+}

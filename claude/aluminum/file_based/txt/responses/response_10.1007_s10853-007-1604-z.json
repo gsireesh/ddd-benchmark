@@ -1,0 +1,27 @@
+{
+    "table csv": "Material,R p0.2 Yield strength (MPa),R m Tensile strength (MPa),A elongation (%),Joint efficiency in terms of R m (%),Joint efficiency in terms of A (%)\nAl7020 (BM),326,385,13.6,-,-\nAl7020 (EBW),262,343,3.7,89.1,27.2",
+    "extracted text": "The chemical composition of the alloy used in the present study consists of 1.25 wt% Mg, 4.32 wt% Zn, 0.14 wt% Zr, 0.12 wt% Si, 0.29 wt% Fe, 0.12 wt% Cu, 0.29 wt% Mn, 0.13 wt% Cr, 0.004 wt% Ni and 0.028 wt% Ti. This particular alloy containing a low amount of Cu (i.e. 0.12 wt %) has a narrow melting range and is thus not very sensitive to cracking in welding. The 7020 alloy was in T6 condition: solution heat treated and artificially aged.",
+    "property mapping": "Aluminum Association designation: 7020\nTemper: T6\nYield strength: R p0.2 = 326 MPa\nUltimate tensile strength: R m = 385 MPa\nElongation: A = 13.6%",
+    "abbreviations": "BM = Base Material\nEBW = Electron Beam Welded\nT6 = Solution heat treated and artificially aged",
+    "weight percentage": "The weight percentages of elements are directly provided in the paper:\nMg: 1.25 wt%\nZn: 4.32 wt%\nZr: 0.14 wt%\nSi: 0.12 wt%\nFe: 0.29 wt%\nCu: 0.12 wt%\nMn: 0.29 wt%\nCr: 0.13 wt%\nNi: 0.004 wt%\nTi: 0.028 wt%",
+    "recipes": [
+        {
+            "AA": "7020",
+            "temper": "T6",
+            "YS [MPa]": 326.0,
+            "UTS [MPa]": 385.0,
+            "elong [%]": 13.6,
+            "Has composition": true,
+            "Mg": 1.25,
+            "Zn": 4.32,
+            "Zr": 0.14,
+            "Si": 0.12,
+            "Fe": 0.29,
+            "Cu": 0.12,
+            "Mn": 0.29,
+            "Cr": 0.13,
+            "Ni": 0.004,
+            "Ti": 0.028
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "table csv": "Element,Si,Mg,Ti,Fe,Cu,Al\nComposition,7.4,0.28,0.11,0.14,0.01,Bal.\n\nSample,Yield strength (MPa),Ultimate tensile strength (MPa),Elongation (%)\nHE400,89,169,20.5\nHE450,86,171,20.2\nHE500,101,187,16.6\nAs-cast,115,168,2.5\n\nSample,Yield strength (MPa),Ultimate tensile strength (MPa),Elongation (%)\nAs-cast(T6),236,282,1.9\nHE400(T6),212,272,8.2\nHE450(T6),214,268,8.4\nHE500(T6),213,274,10.8",
+    
+    "extracted text": "The paper discusses Al-7Si-0.3Mg (wt%) alloy rods produced by extrusion of granule compacts at temperatures of 400°C, 450°C, and 500°C. The granules were produced by grinding recycled Al-7Si-0.3Mg machining chips. The T6 heat treatment consisted of solid solution at 535°C for 1 h followed by water quenching and aging at 165°C for 8 h. HE400, HE450, and HE500 refer to samples extruded at 400°C, 450°C, and 500°C respectively.",
+    
+    "property mapping": "YS = Yield strength (MPa)\nUTS = Ultimate tensile strength (MPa)\nelong = Elongation (%)",
+    
+    "abbreviations": "HE400: Sample extruded at 400°C\nHE450: Sample extruded at 450°C\nHE500: Sample extruded at 500°C\nT6: Heat treatment consisting of solid solution at 535°C for 1 h followed by water quenching and aging at 165°C for 8 h",
+    
+    "weight percentage": "The weight percentages are already provided in the document:\nSi: 7.4%\nMg: 0.28%\nTi: 0.11%\nFe: 0.14%\nCu: 0.01%\nAl: Balance (remaining percentage)",
+    
+    "recipes": [
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 89.0,
+            "UTS [MPa]": 169.0,
+            "elong [%]": 20.5,
+            "Has composition": true,
+            "Si": 7.4,
+            "Mg": 0.28,
+            "Ti": 0.11,
+            "Fe": 0.14,
+            "Cu": 0.01
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 86.0,
+            "UTS [MPa]": 171.0,
+            "elong [%]": 20.2,
+            "Has composition": true,
+            "Si": 7.4,
+            "Mg": 0.28,
+            "Ti": 0.11,
+            "Fe": 0.14,
+            "Cu": 0.01
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 101.0,
+            "UTS [MPa]": 187.0,
+            "elong [%]": 16.6,
+            "Has composition": true,
+            "Si": 7.4,
+            "Mg": 0.28,
+            "Ti": 0.11,
+            "Fe": 0.14,
+            "Cu": 0.01
+        },
+        {
+            "AA": "",
+            "temper": "",
+            "YS [MPa]": 115.0,
+            "UTS [MPa]": 168.0,
+            "elong [%]": 2.5,
+            "Has composition": true,
+            "Si": 7.4,
+            "Mg": 0.28,
+            "Ti": 0.11,
+            "Fe": 0.14,
+            "Cu": 0.01
+        },
+        {
+            "AA": "",
+            "temper": "T6",
+            "YS [MPa]": 236.0,
+            "UTS [MPa]": 282.0,
+            "elong [%]": 1.9,
+            "Has composition": true,
+            "Si": 7.4,
+            "Mg": 0.28,
+            "Ti": 0.11,
+            "Fe": 0.14,
+            "Cu": 0.01
+        },
+        {
+            "AA": "",
+            "temper": "T6",
+            "YS [MPa]": 212.0,
+            "UTS [MPa]": 272.0,
+            "elong [%]": 8.2,
+            "Has composition": true,
+            "Si": 7.4,
+            "Mg": 0.28,
+            "Ti": 0.11,
+            "Fe": 0.14,
+            "Cu": 0.01
+        },
+        {
+            "AA": "",
+            "temper": "T6",
+            "YS [MPa]": 214.0,
+            "UTS [MPa]": 268.0,
+            "elong [%]": 8.4,
+            "Has composition": true,
+            "Si": 7.4,
+            "Mg": 0.28,
+            "Ti": 0.11,
+            "Fe": 0.14,
+            "Cu": 0.01
+        },
+        {
+            "AA": "",
+            "temper": "T6",
+            "YS [MPa]": 213.0,
+            "UTS [MPa]": 274.0,
+            "elong [%]": 10.8,
+            "Has composition": true,
+            "Si": 7.4,
+            "Mg": 0.28,
+            "Ti": 0.11,
+            "Fe": 0.14,
+            "Cu": 0.01
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "table csv": "Alloys,Cu,Mn,Zr,Ti,Fe,Si,Rest\n2219-T87,6.7,0.30,0.07,0.06,0.14,0.10,Al\n2319 filler,6.5,0.23,0.17,0.15,0.11,0.08,Al",
+    "extracted text": "The document discusses AA2219-T87 aluminum alloy with mechanical properties: YS of 365 MPa, UTS of 456 MPa, and elongation of 19.8%. The base metal hardness is mentioned as 150 VHN (Vickers Hardness Number). The material is described as a copper-containing alloy that has excellent weldability and cryogenic applicability. It is mentioned that increased precipitation can be produced in AA2219 alloy by strain hardening after solution heat treatment and artificial aging, which is reflected in the high strength (475 MPa) of the alloy in T87 temper.",
+    "property mapping": "AA: AA2219 (referred to as '2219-T87' in Table 1)\ntemper: T87\nYS [MPa]: 365 MPa (from Tables 4, 5, and 6)\nUTS [MPa]: 456 MPa (from Tables 4, 5, and 6)\nelong [%]: 19.8% (from Tables 4, 5, and 6)\nHardness: 150 VHN (mentioned in text)\nHardness UNIT: VHN (Vickers Hardness Number)\nComposition elements (Cu, Mn, Zr, Ti, Fe, Si): specified in Table 1",
+    "abbreviations": "VHN: Vickers Hardness Number\nYS: Yield Strength\nUTS: Ultimate Tensile Strength\nT87: Solution heat treated, cold worked and artificially aged temper\nAA: Aluminum Association designation",
+    "weight percentage": "The weight percentages for elements in AA2219-T87 are directly provided in Table 1:\nCu: 6.7%\nMn: 0.30%\nZr: 0.07%\nTi: 0.06%\nFe: 0.14%\nSi: 0.10%\nThe remaining percentage is aluminum (Al).",
+    "recipes": [
+        {
+            "AA": "2219",
+            "temper": "T87",
+            "YS [MPa]": 365.0,
+            "UTS [MPa]": 456.0,
+            "elong [%]": 19.8,
+            "Hardness": 150.0,
+            "Hardness UNIT": "VHN",
+            "Has composition": true,
+            "Cu": 6.7,
+            "Mn": 0.30,
+            "Zr": 0.07,
+            "Ti": 0.06,
+            "Fe": 0.14,
+            "Si": 0.10
+        }
+    ]
+}

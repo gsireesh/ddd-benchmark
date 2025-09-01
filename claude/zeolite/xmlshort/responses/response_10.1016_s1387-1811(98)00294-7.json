@@ -1,0 +1,25 @@
+```json
+{
+    "table csv": "The paper describes the synthesis of an aluminogermanate zeolite with rho topology. The reagent composition is given as:\n0.7 Cs2O : 2.3 Na2O : 2 GeO2 : Al2O3 : 70 H2O",
+    "extracted text": "Synthesis: Alkali metal germanates were pre-synthesized as germanium sources with higher solubility than germanium (IV) oxide. Sodium metagermanate was synthesized by solid state reaction of stoichiometric amounts of Na2CO3 (Aldrich) and GeO2 (Alfa Aesar, electronic purity) at 800°C for 24 h. A cesium germanate precursor was prepared by heating an intimate mixture of Cs2CO3 (Aldrich, 99.999%) and GeO2 at 600°C for 16 h. 2.15 g of this cesium germanate precursor, 1.72 g of sodium metagermanate and 10 ml distilled water were mixed and agitated vigorously. 1.30 g of NaAlO2 (Alfa Aesar, technical grade) was then added. The mixture was initially agitated vigorously for 5 min, and then aged at ambient temperature for six days. The resultant mixture was then heated at 60°C for 6 h and allowed to cool to room temperature. The final product was collected by filtration, washed with distilled water, and dried overnight at 40°C. The product yield was 3.2 g. Calcination at 400°C for 16 h without loss of structural integrity indicated thermal stability.",
+    "property mapping": "GeO2 -> Ge\nAl2O3 -> Al\nCs2O -> contributes to osda\nNa2O -> contributes to osda\nH2O -> H2O",
+    "formula abbreviations": "The composition is given as 0.7 Cs2O : 2.3 Na2O : 2 GeO2 : Al2O3 : 70 H2O, where Cs2O and Na2O represent the alkali metal oxides that serve as structure directing agents and charge balancing cations.",
+    "ratio calculations": "The recipe gives the reagent ratios relative to Al2O3 = 1.\nTo convert to Si = 1 format (though there is no Si in this recipe, we'll use Ge as the reference):\n- Ge: 2 GeO2 = 2 Ge atoms, so Ge = 2/2 = 1.0\n- Al: 1 Al2O3 = 2 Al atoms, so Al = 2/2 = 1.0\n- Cs: 0.7 Cs2O = 1.4 Cs atoms, so Cs = 1.4/2 = 0.7\n- Na: 2.3 Na2O = 4.6 Na atoms, so Na = 4.6/2 = 2.3\n- H2O: 70, so H2O = 70/2 = 35.0",
+    "recipes": [
+        {
+            "Si": 0,
+            "Ge": 1.0,
+            "Al": 1.0,
+            "OH": 0,
+            "H2O": 35.0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "Sodium and Cesium cations",
+            "osda_ratios": 3.0,
+            "crystallization_temperature": 60.0,
+            "crystallization_time": 6.0,
+            "product_names": "Aluminogermanate rho"
+        }
+    ]
+}
+```

@@ -1,0 +1,26 @@
+{
+    "table csv": "Materials,Si,Fe,Cu,Mn,Mg,Cr,Ni,Zn,Ti,Al\nAA6181-T4,0.85,0.25,0.06,0.09,0.74,0.01,0.002,0.012,0.023,Bal.\n\nMaterials,Yield strength (MPa),Tensile strength (MPa),Elongation (%)\nAA6181-T4,127±5,259±5,26±1",
+    "extracted text": "The paper discusses friction-stir dissimilar welding of AA6181-T4 Al alloy to two different grades of high strength steel (DP600 and HC260LA). The microstructure of AA6181-T4 Al alloy shows typical large grains slightly elongated with a length of about 70 μm.",
+    "property mapping": "Yield strength (MPa) → YS [MPa]\nTensile strength (MPa) → UTS [MPa]\nElongation (%) → elong [%]",
+    "abbreviations": "T4: Solution heat treated and naturally aged to a substantially stable condition",
+    "weight percentage": "The composition is already given in weight percentage (wt.%) as indicated in Table 1.",
+    "recipes": [
+        {
+            "AA": "6181",
+            "temper": "T4",
+            "YS [MPa]": 127,
+            "UTS [MPa]": 259,
+            "elong [%]": 26,
+            "Has composition": true,
+            "Si": 0.85,
+            "Fe": 0.25,
+            "Cu": 0.06,
+            "Mn": 0.09,
+            "Mg": 0.74,
+            "Cr": 0.01,
+            "Ni": 0.002,
+            "Zn": 0.012,
+            "Ti": 0.023
+        }
+    ]
+}

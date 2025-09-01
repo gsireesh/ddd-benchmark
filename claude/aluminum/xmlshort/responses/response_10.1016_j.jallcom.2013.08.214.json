@@ -1,0 +1,60 @@
+{
+    "table csv": "Alloy,Cu,Mg,Si,Al\nA0,4.0,1.3,-,Balance\nA1,4.0,1.3,0.3,Balance\nA2,4.0,1.3,0.6,Balance\nA3,4.0,1.3,0.9,Balance",
+    "extracted text": "The paper investigates the effect of Si additions (0.3, 0.6, and 0.9 wt%) on Al-4Cu-1.3Mg alloy. The alloys were homogenized at 490°C for 24h, and subsequently at 520°C for 12h, followed by air cooling to room temperature. The billets were then extruded at 420°C. The plates were solution treated at 500°C for 3h followed by immediate quenching into cold water, and finally aged for different periods of time at 190°C. The peak aging time was determined to be 12h at 190°C, which corresponds to a T6 temper. The microstructure analysis showed that different precipitates formed depending on Si content: S'-Al₂CuMg in the Si-free alloy, S'+σ-Al₅Cu₆Mg₂ in 0.3Si and 0.6Si containing alloys, and S'+β'-Mg₂Si in the 0.9Si containing alloy.",
+    "property mapping": "Table 1: Chemical compositions (wt%)\nTable 3: Room temperature tensile properties - Yield strength (MPa), Ultimate tensile strength (MPa), Elongation (%)\nTable 4: Elevated temperature (573K) tensile properties - Yield strength (MPa), Ultimate tensile strength (MPa), Elongation (%)",
+    "abbreviations": "A0 = Al-4Cu-1.3Mg (Si-free alloy)\nA1 = Al-4Cu-1.3Mg-0.3Si\nA2 = Al-4Cu-1.3Mg-0.6Si\nA3 = Al-4Cu-1.3Mg-0.9Si\nT6 = Solution heat treated and artificially aged (peak aged at 190°C for 12h)",
+    "weight percentage": "The weight percentages are already provided in the document:\nA0: Cu=4.0%, Mg=1.3%, Si=0%\nA1: Cu=4.0%, Mg=1.3%, Si=0.3%\nA2: Cu=4.0%, Mg=1.3%, Si=0.6%\nA3: Cu=4.0%, Mg=1.3%, Si=0.9%",
+    "recipes": [
+        {
+            "AA": "",
+            "temper": "T6",
+            "YS [MPa]": 310,
+            "UTS [MPa]": 385,
+            "elong [%]": 9.0,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 4.0,
+            "Mg": 1.3
+        },
+        {
+            "AA": "",
+            "temper": "T6",
+            "YS [MPa]": 394,
+            "UTS [MPa]": 430,
+            "elong [%]": 6.8,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 4.0,
+            "Mg": 1.3,
+            "Si": 0.3
+        },
+        {
+            "AA": "",
+            "temper": "T6",
+            "YS [MPa]": 402,
+            "UTS [MPa]": 441,
+            "elong [%]": 7.2,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 4.0,
+            "Mg": 1.3,
+            "Si": 0.6
+        },
+        {
+            "AA": "",
+            "temper": "T6",
+            "YS [MPa]": 420,
+            "UTS [MPa]": 452,
+            "elong [%]": 5.0,
+            "Hardness": "",
+            "Hardness UNIT": "",
+            "Has composition": true,
+            "Cu": 4.0,
+            "Mg": 1.3,
+            "Si": 0.9
+        }
+    ]
+}

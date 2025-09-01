@@ -1,0 +1,24 @@
+```
+{
+    "table csv": "r 0.2 (MPa),e 0.2 (%),E (MPa),r UTS (MPa),U T (J/mm 3)\n383.8,22,75.5,533.8,80.7",
+    "extracted text": "The aeronautic aluminum alloy used in this study was the heat treated 4-mm-thick 2024-T351 aluminum alloy. Its nominal chemical composition (by weight%) is Al-6.20Cu-3.38Mg-0.55Mn. From Figure 8, the base material hardness is approximately 163 HV0.5.",
+    "property mapping": "r 0.2 (MPa) = YS [MPa]\ne 0.2 (%) = elong [%]\nr UTS (MPa) = UTS [MPa]\nHardness = 163 HV0.5",
+    "abbreviations": "r 0.2 = yield stress for 0.2% offset\ne 0.2 = yield strain for 0.2% offset\nE = Young's modulus\nr UTS = ultimate tensile stress\nU T = toughness\nHV0.5 = Vickers hardness with 0.5 kg load",
+    "weight percentage": "Cu: 6.20%, Mg: 3.38%, Mn: 0.55%",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T351",
+            "YS [MPa]": 383.8,
+            "UTS [MPa]": 533.8,
+            "elong [%]": 22.0,
+            "Hardness": 163.0,
+            "Hardness UNIT": "HV0.5",
+            "Has composition": "True",
+            "Cu": 6.20,
+            "Mg": 3.38,
+            "Mn": 0.55
+        }
+    ]
+}
+```

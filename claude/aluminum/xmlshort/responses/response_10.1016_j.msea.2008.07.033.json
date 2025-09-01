@@ -1,0 +1,46 @@
+{
+    "table csv": "Table 1. Nominal chemical composition of aluminum alloy 2219 (wt.%)\nAl,Balance\nCu,6.4\nMn,0.3\nCr,0.18\nZr,0.19\nFe,0.06\nTi,Traces\n\nTable 2. Macrohardness measurements on the as-provided sheet stock of aluminum Alloy 2219-T62\n,Trial 1,Trial 2,Trial 3,Trial 4,Average\nSheet A,,,,,\n RB,66.5,66.8,67.1,67.8,67\n Tensile strength (Ksi),56,56,58,58,57\n Tensile strength (MPa),386,386,400,400,393\n,,,,,\nSheet B,,,,,\n RB,68.1,67.3,66.8,67.3,67\n Tensile strength (Ksi),58,58,56,58,58\n Tensile strength (MPa),400,400,386,400,397\n\nTable 3. Room temperature tensile properties of aluminum alloy 2219-T62\nTest,Plate,Elastic modulus (GPa),Yield strength (MPa),UTS (MPa),Elongation GL = 0.5 in. (%),Reduction in area (%),Tensile ductility ln(Ao/Af) (%)\n1,A,87,275.8,410.9,8.8,6.7,7.0\n2,A,67,283.3,415.6,6.4,7.3,7.6\nAverage,A,77,279.6,413.3,7.6,7.0,7.3\n,,,,,,,\n1,B,75,274.7,405.1,8.0,13.2,14.1\n2,B,62,274.49,402.97,7.5,9.5,10.0\nAverage,B,68.5,274.6,404.0,7.7,11.3,12.0",
+    
+    "extracted text": "The 2219 aluminum alloy used in this experimental investigation was provided in the T62 condition. The T62 temper designation for the alloy refers to a heat treatment, which involved solution heat treat at 995 F (535 °C) for 40 min followed by water quench and then artificially aged at 375 F (191 °C) for 36 h. Two different sheet conditions were analyzed: Sheet A (non-anodized) and Sheet B (anodized with thin film sulfuric acid anodized and water sealed). Both sheets have the same T62 temper.",
+    
+    "property mapping": "AA: 2219 (from title and throughout text)\nTemper: T62 (mentioned throughout text)\nYS [MPa]: Yield strength (MPa) in Table 3\nUTS [MPa]: UTS (MPa) in Table 3\nelong [%]: Elongation GL = 0.5 in. (%) in Table 3\nHardness: RB values in Table 2\nHardness UNIT: RB (Rockwell B scale)",
+    
+    "abbreviations": "UTS - Ultimate Tensile Strength\nYS - Yield Strength\nRB - Rockwell B Hardness Scale\nGL - Gauge Length\nAo/Af - Initial area/Final area (for tensile ductility calculation)",
+    
+    "weight percentage": "The weight percentages for the elements in aluminum alloy 2219 are:\nCu: 6.4%\nMn: 0.3%\nCr: 0.18%\nZr: 0.19%\nFe: 0.06%\nTi: Traces (not quantified)\nAl: Balance (remaining percentage)",
+    
+    "recipes": [
+        {
+            "AA": "2219",
+            "temper": "T62",
+            "YS [MPa]": 279.6,
+            "UTS [MPa]": 413.3,
+            "elong [%]": 7.6,
+            "Hardness": 67,
+            "Hardness UNIT": "RB",
+            "Has composition": "nominal",
+            "Cu": 6.4,
+            "Mn": 0.3,
+            "Cr": 0.18,
+            "Zr": 0.19,
+            "Fe": 0.06,
+            "Ti": 0.0
+        },
+        {
+            "AA": "2219",
+            "temper": "T62",
+            "YS [MPa]": 274.6,
+            "UTS [MPa]": 404.0,
+            "elong [%]": 7.7,
+            "Hardness": 67,
+            "Hardness UNIT": "RB",
+            "Has composition": "nominal",
+            "Cu": 6.4,
+            "Mn": 0.3,
+            "Cr": 0.18,
+            "Zr": 0.19,
+            "Fe": 0.06,
+            "Ti": 0.0
+        }
+    ]
+}

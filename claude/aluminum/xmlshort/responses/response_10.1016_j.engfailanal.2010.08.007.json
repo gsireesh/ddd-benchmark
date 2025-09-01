@@ -1,0 +1,25 @@
+{
+    "table csv": "Si,Fe,Cu,Mn,Mg,Cr,Zn,Ti,Zn + Ti,Others,Al\n0.07,0.18,4.48,0.55,1.51,0.03,0.08,0.02,0.03,0.01,Bal.",
+    "extracted text": "The material used in the study is aluminum alloy 2024-T3. It was provided in sheets of 4 mm thickness.",
+    "property mapping": "Yield strength (σs) in Table 2 corresponds to 'YS [MPa]'\nTensile strength (σB) in Table 2 corresponds to 'UTS [MPa]'\nElongation (φ) in Table 2 corresponds to 'elong [%]'",
+    "abbreviations": "Bal. in the composition table means balance, indicating that aluminum (Al) makes up the remainder of the composition after accounting for all other elements.",
+    "weight percentage": "The weight percentages are already provided in the table as mass percentages:\nSi: 0.07%\nFe: 0.18%\nCu: 4.48%\nMn: 0.55%\nMg: 1.51%\nCr: 0.03%\nZn: 0.08%\nTi: 0.02%\nOthers: 0.01%\nAl: Balance (approximately 93.07%)",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T3",
+            "YS [MPa]": 370.0,
+            "UTS [MPa]": 460.0,
+            "elong [%]": 22.9,
+            "Has composition": true,
+            "Si": 0.07,
+            "Fe": 0.18,
+            "Cu": 4.48,
+            "Mn": 0.55,
+            "Mg": 1.51,
+            "Cr": 0.03,
+            "Zn": 0.08,
+            "Ti": 0.02
+        }
+    ]
+}

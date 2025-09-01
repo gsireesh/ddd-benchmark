@@ -1,0 +1,57 @@
+{
+    "table csv": "Element,Mn,Si,Cr,Cu,Ti,Zn,Fe,Mg,Others,Al\nContent (wt%),0.11,0.53,0.1,0.17,0.032,0.084,0.31,1.06,0.012,Bal.",
+    "extracted text": "The paper studies AA-6061 aluminum alloy sheet with 1mm thickness in T6 temper condition. Mechanical properties are measured in three different directions: rolling direction (RD), inclined direction (ID), and transverse direction (TD).",
+    "property mapping": "AA = AA-6061\ntemper = T6\nPS (MPa) = Proof stress = Yield strength (YS)\nUTS (MPa) = Ultimate tensile strength\nPE (%) = Percentage elongation = elong [%]\nK = Strength factor\nn = strain hardening exponent",
+    "abbreviations": "RD = Rolling Direction\nID = Inclined Direction (45° from rolling direction)\nTD = Transverse Direction (90° from rolling direction)\nPS = Proof Stress\nUTS = Ultimate Tensile Strength\nPE = Percentage Elongation\nBal. = Balance (remaining percentage)",
+    "weight percentage": "The weight percentages of elements are provided directly in the table:\nMn: 0.11 wt%\nSi: 0.53 wt%\nCr: 0.1 wt%\nCu: 0.17 wt%\nTi: 0.032 wt%\nZn: 0.084 wt%\nFe: 0.31 wt%\nMg: 1.06 wt%\nOthers: 0.012 wt%\nAl: Balance (remainder to 100%)",
+    "recipes": [
+        {
+            "AA": "6061",
+            "temper": "T6",
+            "YS [MPa]": 265,
+            "UTS [MPa]": 308,
+            "elong [%]": 14.45,
+            "Has composition": true,
+            "Cu": 0.17,
+            "Mn": 0.11,
+            "Si": 0.53,
+            "Mg": 1.06,
+            "Zn": 0.084,
+            "Cr": 0.1,
+            "Fe": 0.31,
+            "Ti": 0.032
+        },
+        {
+            "AA": "6061",
+            "temper": "T6",
+            "YS [MPa]": 255,
+            "UTS [MPa]": 293,
+            "elong [%]": 12.36,
+            "Has composition": true,
+            "Cu": 0.17,
+            "Mn": 0.11,
+            "Si": 0.53,
+            "Mg": 1.06,
+            "Zn": 0.084,
+            "Cr": 0.1,
+            "Fe": 0.31,
+            "Ti": 0.032
+        },
+        {
+            "AA": "6061",
+            "temper": "T6",
+            "YS [MPa]": 238,
+            "UTS [MPa]": 274,
+            "elong [%]": 13.06,
+            "Has composition": true,
+            "Cu": 0.17,
+            "Mn": 0.11,
+            "Si": 0.53,
+            "Mg": 1.06,
+            "Zn": 0.084,
+            "Cr": 0.1,
+            "Fe": 0.31,
+            "Ti": 0.032
+        }
+    ]
+}

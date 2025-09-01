@@ -1,0 +1,39 @@
+{
+    "table csv": "HT,Tensile strength σUTS (MPa),Elongation (%),Fracture toughness δ (μm),Bond strength P (N)\nT4,457,21,36,10290\nT62,449,6,18,10560",
+    "extracted text": "The nominal composition of Al 2024 alloy is (in wt%): 0.5Si, 0.5Fe, 3.8–4.9Cu, 0.3–0.9Mn, 1.2–1.8Mg, 0.1Cr, 0.25Zn, 0.15Ti and Al balance. Specimens were cut with gauge length parallel to the longitudinal orientation of the metal foils. The specimens were divided into two groups and heat-treated to a T4 and a T62 temper, respectively.",
+    "property mapping": "HT = temper\nTensile strength σUTS (MPa) = UTS [MPa]\nElongation (%) = elong [%]\nFracture toughness δ (μm) = not in property list\nBond strength P (N) = not in property list",
+    "abbreviations": "HT = Heat Treatment\nT4 = Solution heat treatment and natural aging\nT62 = Solution heat treatment and artificial aging\nσUTS = Ultimate Tensile Strength\nδ = Crack Tip Opening Displacement (CTOD) at maximum load\nP = Bond strength",
+    "weight percentage": "For Al 2024 alloy:\nSi: 0.5%\nFe: 0.5%\nCu: 4.35% (mean of 3.8-4.9%)\nMn: 0.6% (mean of 0.3-0.9%)\nMg: 1.5% (mean of 1.2-1.8%)\nCr: 0.1%\nZn: 0.25%\nTi: 0.15%\nAl: balance",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T4",
+            "UTS [MPa]": 457.0,
+            "elong [%]": 21.0,
+            "Has composition": "nominal",
+            "Si": 0.5,
+            "Fe": 0.5,
+            "Cu": 4.35,
+            "Mn": 0.6,
+            "Mg": 1.5,
+            "Cr": 0.1,
+            "Zn": 0.25,
+            "Ti": 0.15
+        },
+        {
+            "AA": "2024",
+            "temper": "T62",
+            "UTS [MPa]": 449.0,
+            "elong [%]": 6.0,
+            "Has composition": "nominal",
+            "Si": 0.5,
+            "Fe": 0.5,
+            "Cu": 4.35,
+            "Mn": 0.6,
+            "Mg": 1.5,
+            "Cr": 0.1,
+            "Zn": 0.25,
+            "Ti": 0.15
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "table csv": "Chemical Composition,Chemical Composition,Chemical Composition,Chemical Composition,Chemical Composition,Chemical Composition,Chemical Composition,Chemical Composition,Mechanical Properties,Mechanical Properties,Mechanical Properties\nCu,Mg,Mn,Fe,Si,Zn,Ti,Al,YS (MPa),UTS (MPa),El (Pct)\n3.8 to 4.9,1.2 to 1.8,0.3 to 0.9,0.50,0.50,0.25,0.15,bal,338,480,21",
+    "extracted text": "The document discusses a 5-mm-thick 2024Al-T351 plate that was friction stir welded (FSWed) at different welding speeds. The base material is a commercial Alclad 2024Al-T351 rolled plate with a thickness of 6.5 mm that was machined on both sides to 5.0-mm thickness to remove the Alclads before welding.",
+    "property mapping": "AA: 2024 (from '2024Al-T351')\ntemper: T351 (from '2024Al-T351')\nYS (MPa): 338 (from Table I)\nUTS (MPa): 480 (from Table I)\nEl (Pct): 21 (from Table I, corresponds to elong [%])\nCu: 3.8 to 4.9 (from Table I)\nMg: 1.2 to 1.8 (from Table I)\nMn: 0.3 to 0.9 (from Table I)\nFe: 0.50 (from Table I)\nSi: 0.50 (from Table I)\nZn: 0.25 (from Table I)\nTi: 0.15 (from Table I)\nAl: bal (from Table I, means balance)",
+    "abbreviations": "YS: Yield Strength\nUTS: Ultimate Tensile Strength\nEl (Pct): Elongation (Percentage)\nbal: balance (remaining percentage is aluminum)",
+    "weight percentage": "The values in the table are already in weight percentage. For ranges:\nCu: mean of 3.8 to 4.9 = 4.35\nMg: mean of 1.2 to 1.8 = 1.5\nMn: mean of 0.3 to 0.9 = 0.6\nFe: 0.50 (maximum value)\nSi: 0.50 (maximum value)\nZn: 0.25 (maximum value)\nTi: 0.15 (maximum value)\nAl: balance (remaining percentage)",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T351",
+            "YS [MPa]": 338.0,
+            "UTS [MPa]": 480.0,
+            "elong [%]": 21.0,
+            "Has composition": true,
+            "Cu": 4.35,
+            "Mg": 1.5,
+            "Mn": 0.6,
+            "Fe": 0.5,
+            "Si": 0.5,
+            "Zn": 0.25,
+            "Ti": 0.15
+        }
+    ]
+}

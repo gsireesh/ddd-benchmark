@@ -1,0 +1,49 @@
+{
+    "table csv": "Table 1: Chemical composition (in wt%).\n,Si,Fe,Cu,Mn,Mg,Cr,Zn,Ti,Al\n6005A actual,0.61,0.21,0.07,0.15,0.54,<0.01,<0.01,0.02,Bal\n6005A nominal,0.5–0.9,<0.35,<0.30,<0.50,0.4–0.7,<0.30,<0.20,0.10,Bal\n\nTable 2: Mechanical properties of 6005A.\n,Yield strength (MPa),Tensile strength (MPa),Elongation (%),Young's modulus (GPa)\n6005A T6 actual,253,280,10,69.5\n6005A T6 typical (AluSelect),260,285,13,69.5\n6005A T6 nominal,min 225,min 270,8,",
+    "extracted text": "The profiles used in the fatigue tests were made of extruded aluminium alloy 6005A, in the T6 (artificially aged) condition. The paper examines friction stir welded aluminum profiles and their fatigue properties.",
+    "property mapping": "AA = 6005A\ntemper = T6\nYS [MPa] = Yield strength (MPa)\nUTS [MPa] = Tensile strength (MPa)\nelong [%] = Elongation (%)",
+    "abbreviations": "Bal = Balance (remainder is aluminum)\n< = Less than\nT6 = Artificially aged condition",
+    "weight percentage": "For 6005A actual:\nSi: 0.61%\nFe: 0.21%\nCu: 0.07%\nMn: 0.15%\nMg: 0.54%\nCr: <0.01% (treated as 0.01% for calculation)\nZn: <0.01% (treated as 0.01% for calculation)\nTi: 0.02%\nAl: Balance (remainder, approximately 98.39%)\n\nFor 6005A nominal:\nSi: 0.5-0.9% (mean: 0.7%)\nFe: <0.35% (treated as 0.35%)\nCu: <0.30% (treated as 0.3%)\nMn: <0.50% (treated as 0.5%)\nMg: 0.4-0.7% (mean: 0.55%)\nCr: <0.30% (treated as 0.3%)\nZn: <0.20% (treated as 0.2%)\nTi: 0.10%\nAl: Balance (remainder, approximately 97%)",
+    "recipes": [
+        {
+            "AA": "6005A",
+            "temper": "T6",
+            "YS [MPa]": 253.0,
+            "UTS [MPa]": 280.0,
+            "elong [%]": 10.0,
+            "Has composition": true,
+            "Si": 0.61,
+            "Fe": 0.21,
+            "Cu": 0.07,
+            "Mn": 0.15,
+            "Mg": 0.54,
+            "Cr": 0.01,
+            "Zn": 0.01,
+            "Ti": 0.02
+        },
+        {
+            "AA": "6005A",
+            "temper": "T6",
+            "YS [MPa]": 260.0,
+            "UTS [MPa]": 285.0,
+            "elong [%]": 13.0,
+            "Has composition": "nominal",
+            "Si": 0.7,
+            "Fe": 0.35,
+            "Cu": 0.3,
+            "Mn": 0.5,
+            "Mg": 0.55,
+            "Cr": 0.3,
+            "Zn": 0.2,
+            "Ti": 0.1
+        },
+        {
+            "AA": "6005A",
+            "temper": "T6",
+            "YS [MPa]": 225.0,
+            "UTS [MPa]": 270.0,
+            "elong [%]": 8.0,
+            "Has composition": "nominal"
+        }
+    ]
+}

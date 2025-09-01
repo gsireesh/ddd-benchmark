@@ -1,0 +1,29 @@
+```json
+{
+    "table csv": "Composition,Mg,Si,Fe,Cu,Cr,Mn,Ti,Zn,Al\nWt.%,0.90,0.62,0.33,0.28,0.17,0.06,0.02,0.02,Bal.\n\nYield strength, σ0.2 (MPa),Tensile strength, σb (MPa),Elongation δ%,Elastic modulus, E (GPa),Specific gravity, ρ (kg/m3),Possion's cofficient, ν\n289.9,328,13.5,69.8,2672,0.33",
+    "extracted text": "The paper investigates the effect of repeated laser peening impacts on 6061-T6 aluminum alloy. The nano-hardness of the untreated sample is 1.71 GPa. After 1-3 LP impacts, nano-hardness increases by 18.1-59.1% compared to the untreated sample.",
+    "property mapping": "AA: 6061 (mentioned throughout paper)\ntemper: T6 (mentioned throughout paper)\nYS [MPa]: 289.9 (listed as 'Yield strength, σ0.2 (MPa)' in Table 2)\nUTS [MPa]: 328 (listed as 'Tensile strength, σb (MPa)' in Table 2)\nelong [%]: 13.5 (listed as 'Elongation δ%' in Table 2)\nHardness: 1.71 (mentioned in text as nano-hardness of untreated sample)\nHardness UNIT: GPa (mentioned in text)",
+    "abbreviations": "LP: Laser Peening\nFCI: Fatigue Crack Initiation\nFCG: Fatigue Crack Growth\nFSS: Fatigue Striation Spacing\nDLs: Dislocation Lines\nDTs: Dislocation Tangles",
+    "weight percentage": "Mg: 0.90%\nSi: 0.62%\nFe: 0.33%\nCu: 0.28%\nCr: 0.17%\nMn: 0.06%\nTi: 0.02%\nZn: 0.02%\nAl: Balance (remainder)",
+    "recipes": [
+        {
+            "AA": "6061",
+            "temper": "T6",
+            "YS [MPa]": 289.9,
+            "UTS [MPa]": 328,
+            "elong [%]": 13.5,
+            "Hardness": 1.71,
+            "Hardness UNIT": "GPa",
+            "Has composition": true,
+            "Mg": 0.90,
+            "Si": 0.62,
+            "Fe": 0.33,
+            "Cu": 0.28,
+            "Cr": 0.17,
+            "Mn": 0.06,
+            "Ti": 0.02,
+            "Zn": 0.02
+        }
+    ]
+}
+```

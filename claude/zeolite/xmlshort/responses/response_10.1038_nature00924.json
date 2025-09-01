@@ -1,0 +1,39 @@
+```json
+{
+    "table csv": "Recipe,Si,Ge,Al,MSPTOH,HF,H2O,Crystallization Temperature (K),Crystallization Time (days)\nA (ITQ-21),0.67,0.33,0,0.50,0.50,20,448,5\nB (Al-ITQ-21),0.91,0.09,0.04,0.50,0.50,3,448,5",
+    "extracted text": "We used precursor gels A (ITQ-21) and B (Al-ITQ-21) with the following compositions:\nA: 0.33 GeO2: 0.67 SiO2: 0.50 MSPTOH: 0.50 HF: 20 H2O\nB: 0.09 GeO2: 0.91 SiO2: 0.02 Al2O3: 0.50 MSPTOH: 0.50 HF: 3 H2O\n\nThey were prepared by dissolving germanium oxide in the N-methylsparteinium hydroxide (MSPTOH) solution. Then, tetraethylorthosilicate and aluminium isopropoxide (for the aluminium-containing sample) were hydrolysed in that solution, and the mixture was mechanically stirred at room temperature until complete elimination of the alcohols had occurred, and the required amount of water until the final composition was reached. Finally, HF was added and the mixture was homogenized.\n\nWhen the gels were heated at 448 K for five days under conditions of continuous stirring in Teflon-lined stainless-steel autoclaves, the zeolites crystallized. The solids were recovered by filtration, washed with distilled water and dried at 100°C.",
+    "property mapping": "Si: Represented as SiO2 in the gel composition\nGe: Represented as GeO2 in the gel composition\nAl: Represented as Al2O3 in the gel composition (note that Al2O3 contains 2 Al atoms)\nOH: Comes from MSPTOH (N-methylsparteinium hydroxide)\nH2O: Directly specified in the gel composition\nHF: Directly specified in the gel composition\nOSDA: N-methylsparteinium hydroxide (MSPTOH)",
+    "formula abbreviations": "MSPTOH = N-methylsparteinium hydroxide (the structure directing agent)\nAl2O3 contains 2 Al atoms, so for recipe B, the Al content is 2 × 0.02 = 0.04",
+    "ratio calculations": "For Recipe A (ITQ-21), normalizing to Si = 1.0:\nSi = 1.0\nGe = 0.33/0.67 = 0.49\nAl = 0\nOSDA (MSPTOH) = 0.50/0.67 = 0.75\nHF = 0.50/0.67 = 0.75\nH2O = 20/0.67 = 29.85\n\nFor Recipe B (Al-ITQ-21), normalizing to Si = 1.0:\nSi = 1.0\nGe = 0.09/0.91 = 0.099\nAl = 0.04/0.91 = 0.044\nOSDA (MSPTOH) = 0.50/0.91 = 0.55\nHF = 0.50/0.91 = 0.55\nH2O = 3/0.91 = 3.30",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0.0,
+            "OH": 0.75,
+            "H2O": 29.85,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "N-methylsparteinium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-21"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.099,
+            "Al": 0.044,
+            "OH": 0.55,
+            "H2O": 3.30,
+            "HF": 0.55,
+            "B": 0,
+            "osda_names": "N-methylsparteinium hydroxide",
+            "osda_ratios": 0.55,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 120.0,
+            "product_names": "Al-ITQ-21"
+        }
+    ]
+}
+```

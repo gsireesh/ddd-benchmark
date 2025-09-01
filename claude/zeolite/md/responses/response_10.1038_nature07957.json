@@ -1,0 +1,39 @@
+```json
+{
+    "table csv": "The compositions of two typical synthesis gels to obtain ITQ-37 are as follows: 0.5 SiO2:0.5 GeO2:0.25 SDA2(OH)2:0.50 NH4F:3 H2O, without aluminium, and 0.5 SiO2:0.5 GeO2:0.01 Al2O3:0.25 SDA2(OH)2:0.50 NH4F:3 H2O, with aluminium. Crystallization was carried out at 175°C over 24 h under static conditions.",
+    "extracted text": "The paper describes the synthesis of ITQ-37, a germanosilicate zeolite with extra-large 30-ring windows. The structure directing agent used is labeled as SDA2, which is a bulky diquaternary ammonium molecule described in the paper as having four chiral centers in a meso conformation, making the overall molecule achiral. The chemical formula of ITQ-37 is given as: (C22N2H40)10.5(H2O)x[Ge80Si112O400H32F20]. The synthesis was carried out under static conditions. The SDA2 was synthesized from 4,6-dimethyl-α-pyrone and maleic anhydride through several steps including Diels-Alder reaction, amination with ethylamine, reduction with LiAlH4, and alkylation with iodomethane.",
+    "property mapping": "SiO2 -> Si, GeO2 -> Ge, Al2O3 -> Al, SDA2(OH)2 -> osda_ratios, NH4F -> HF (as a source of fluoride), H2O -> H2O, 175°C -> crystallization_temperature, 24 h -> crystallization_time, ITQ-37 -> product_names",
+    "formula abbreviations": "SDA2 refers to the structure directing agent, which is a bulky diquaternary ammonium molecule synthesized from 4,6-dimethyl-α-pyrone and maleic anhydride. The molecular formula is C22N2H40.",
+    "ratio calculations": "Recipe 1 (without aluminum): Si = 0.5 SiO2 = 0.5, Ge = 0.5 GeO2 = 0.5, setting Si to 1.0: Si = 1.0, Ge = 1.0, osda_ratios = 0.25/0.5 = 0.5, H2O = 3/0.5 = 6, HF = 0.5/0.5 = 1.0. Recipe 2 (with aluminum): Si = 0.5 SiO2 = 0.5, Ge = 0.5 GeO2 = 0.5, Al = 0.02 (from 0.01 Al2O3), setting Si to 1.0: Si = 1.0, Ge = 1.0, Al = 0.04, osda_ratios = 0.25/0.5 = 0.5, H2O = 3/0.5 = 6, HF = 0.5/0.5 = 1.0.",
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0.0,
+            "OH": 0.5,
+            "H2O": 6.0,
+            "HF": 1.0,
+            "B": 0.0,
+            "osda_names": "Diquaternary ammonium compound (C22N2H40)",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 24.0,
+            "product_names": "ITQ-37"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0.04,
+            "OH": 0.5,
+            "H2O": 6.0,
+            "HF": 1.0,
+            "B": 0.0,
+            "osda_names": "Diquaternary ammonium compound (C22N2H40)",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 24.0,
+            "product_names": "ITQ-37"
+        }
+    ]
+}
+```

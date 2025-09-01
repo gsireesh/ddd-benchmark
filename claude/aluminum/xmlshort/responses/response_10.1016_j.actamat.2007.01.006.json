@@ -1,0 +1,41 @@
+{
+    "table csv": "Table 1: Summary of mechanical properties of peak aged T6 and T6I6 tempers\nTemperature,Peak hardness (VHN),0.2% Proof stress (MPa),UTS (MPa),Elongation (%),Damage tolerance Kqvm (MPa√m)\nT6,134,311,352,8.2,30.5\nT6I6,146,335,368,7.3,37\n\nTable 2: Chemical composition of alloy 6061\nElement,Al,Mg,Si,Cu,Fe,Cr,Mn\nat.% (wt.%),Balance,1.12 (0.99),0.58 (0.59),0.11 (0.25),0.08 (0.16),0.06 (0.11),0.002 (0.13)",
+    "extracted text": "The paper discusses a heat treatment process for Al-Mg-Si-Cu alloy 6061. The conventional T6 heat treatment (solution heat treatment at 560°C for 2h, followed by cold water quenching and then artificial aging at 177°C) is compared with a new T6I6 heat treatment, where the T6 treatment is interrupted after 20 min at 177°C by inserting a dwell period at 65°C for 2 weeks, before resuming aging at 177°C. This interrupted aging promotes secondary precipitation of Guinier-Preston (GP) zones, leading to a finer and denser dispersion of β″ precipitates when aging is resumed.",
+    "property mapping": "0.2% Proof stress (MPa) = YS [MPa]\nUTS (MPa) = UTS [MPa]\nElongation (%) = elong [%]\nPeak hardness (VHN) = Hardness (Vickers Hardness Number)",
+    "abbreviations": "T6: Solution heat treatment and artificial aging at 177°C\nT6I6: T6 interrupted by aging at lower temperature (65°C)\nUA: Underaged at 177°C for 20 min\nT6I4: UA followed by aging at 65°C for 2 weeks",
+    "weight percentage": "The paper provides both atomic percentage and weight percentage for each element in Table 2:\nMg: 0.99 wt%\nSi: 0.59 wt%\nCu: 0.25 wt%\nFe: 0.16 wt%\nCr: 0.11 wt%\nMn: 0.13 wt%",
+    "recipes": [
+        {
+            "AA": "6061",
+            "temper": "T6",
+            "YS [MPa]": 311,
+            "UTS [MPa]": 352,
+            "elong [%]": 8.2,
+            "Hardness": 134,
+            "Hardness UNIT": "VHN",
+            "Has composition": true,
+            "Mg": 0.99,
+            "Si": 0.59,
+            "Cu": 0.25,
+            "Fe": 0.16,
+            "Cr": 0.11,
+            "Mn": 0.13
+        },
+        {
+            "AA": "6061",
+            "temper": "T6I6",
+            "YS [MPa]": 335,
+            "UTS [MPa]": 368,
+            "elong [%]": 7.3,
+            "Hardness": 146,
+            "Hardness UNIT": "VHN",
+            "Has composition": true,
+            "Mg": 0.99,
+            "Si": 0.59,
+            "Cu": 0.25,
+            "Fe": 0.16,
+            "Cr": 0.11,
+            "Mn": 0.13
+        }
+    ]
+}

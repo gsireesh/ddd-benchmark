@@ -1,0 +1,37 @@
+{
+    "table csv": "There is no table in the document.",
+    "extracted text": "Both SU-M and SU-MB were synthesized under hydrothermal conditions from a homogenous solution of germanium dioxide, MPMD and water with the molar ratios of 1:8-10:38-40. In addition, hydrofluoric acid with a molar ratio of GeO2:HF = 1:1.5 was added for the synthesis of SU-MB. The solutions were heated at 165°C in Teflon-lined Parr autoclaves under autogenous pressure and the synthesis time was seven days for SU-M and 11 days for SU-MB. Octahedral crystals, with sizes of 160 × 160 × 160 μm³ for SU-M and 80 × 80 × 80 μm³ for SU-MB, were obtained.",
+    "property mapping": "Ge: From GeO2 (germanium dioxide)\nH2O: Water\nHF: Hydrofluoric acid\nosda_names: MPMD (2-methylpentamethylenediamine)\ncrystallization_temperature: 165°C\ncrystallization_time: 7 days for SU-M, 11 days for SU-MB",
+    "formula abbreviations": "MPMD: 2-methylpentamethylenediamine\nGeO2: Germanium dioxide",
+    "ratio calculations": "For SU-M:\nGe = 1.0 (since GeO2 is 1)\nSi = 0 (no silicon source mentioned)\nAl = 0 (no aluminum source mentioned)\nB = 0 (no boron source mentioned)\nH2O = 39 (mean of 38-40 range)\nosda_ratios = 9 (mean of 8-10 range for MPMD)\nHF = 0 (no HF for SU-M)\n\nFor SU-MB:\nGe = 1.0 (since GeO2 is 1)\nSi = 0 (no silicon source mentioned)\nAl = 0 (no aluminum source mentioned)\nB = 0 (no boron source mentioned)\nH2O = 39 (mean of 38-40 range)\nosda_ratios = 9 (mean of 8-10 range for MPMD)\nHF = 1.5 (GeO2:HF ratio of 1:1.5)",
+    "recipes": [
+        {
+            "Si": 0,
+            "Ge": 1.0,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 39,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "2-methylpentamethylenediamine",
+            "osda_ratios": 9,
+            "crystallization_temperature": 165,
+            "crystallization_time": 168,
+            "product_names": "SU-M"
+        },
+        {
+            "Si": 0,
+            "Ge": 1.0,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 39,
+            "HF": 1.5,
+            "B": 0,
+            "osda_names": "2-methylpentamethylenediamine",
+            "osda_ratios": 9,
+            "crystallization_temperature": 165,
+            "crystallization_time": 264,
+            "product_names": "SU-MB"
+        }
+    ]
+}

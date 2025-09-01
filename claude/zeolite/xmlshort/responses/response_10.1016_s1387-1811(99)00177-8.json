@@ -1,0 +1,23 @@
+{
+    "table csv": "No table containing recipe information in the document.",
+    "extracted text": "LiAlGeO4·H2O with the zeolite ABW topology was synthesized hydrothermally from the gel composition 1.0 Li2O:1.0 Al2O3:2 GeO2:100 H2O. 0.42 g of hydrated LiOH·H2O (Fisher Scientific) was dissolved in 8.70 g of deionized water in a 30 cm3 Teflon bottle. 1.04 g of GeO2 (Alfa) was then added to this solution and the mixture stirred at room temperature for 2 h. 0.68 g of Al2O3 (Catapal, Vista) was then added to this mixture. After being stirred for 24 h at room temperature, the resultant gel was heated for 5 days at 110°C.",
+    "property mapping": "Li2O - represents lithium source (LiOH·H2O)\nAl2O3 - represents aluminum source (Al)\nGeO2 - represents germanium source (Ge)\nH2O - represents water\nNo Si present in the recipe\nNo explicit OH ratio provided beyond what's in LiOH\nNo HF, B present\nNo explicit OSDA mentioned (lithium serves as the structure-directing cation)",
+    "formula abbreviations": "The recipe uses standard chemical formulas without special abbreviations. Li2O represents the lithium oxide content derived from LiOH·H2O. The gel composition is given in molar ratios.",
+    "ratio calculations": "Since there is no Si in this recipe, I will use Ge as the reference with value 2.0 (from the gel composition):\nGe = 2.0\nAl = 2.0 (from 1.0 Al2O3, which contains 2 Al atoms)\nLi = 2.0 (from 1.0 Li2O, which contains 2 Li atoms)\nH2O = 100\nOH value is not explicitly provided separate from the Li source",
+    "recipes": [
+        {
+            "Si": 0,
+            "Ge": 2.0,
+            "Al": 2.0,
+            "OH": 0,
+            "H2O": 100,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "lithium",
+            "osda_ratios": 2.0,
+            "crystallization_temperature": 110.0,
+            "crystallization_time": 120.0,
+            "product_names": "AlGe-ABW"
+        }
+    ]
+}

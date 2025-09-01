@@ -1,0 +1,30 @@
+```json
+{
+    "table csv": "Element,Si,Fe,Cu,Mn,Mg,Cr,Zn,Al\nPercentage,0.036,0.0825,4.315,0.575,1.395,,0.008,balance\n\nTemperature (°C),Orientation,Elastic modulus (GPa),Yield strength (MPa),Tensile strength (MPa),Elongation (%),Reduction in-area (%),Tensile ductility (%)\n-54,Longitudinal,71,372,483,27,26,30\n,Transverse,76,324,489,24,22,25\n27,Longitudinal,72,372,469,27,26,30\n,Transverse,70,324,489,21,22,25\n94,Longitudinal,76,338,448,30,35,43\n,Transverse,70,324,441,23,24,27",
+    
+    "extracted text": "The paper examines aluminum alloy 2524 in the T351 temper. The alloy is described as a proprietary alloy of the Aluminum Company of America (ALCOA), and is an alclad Al-Cu-Mg alloy designed to replace 2024-T3 skin sheet. The alloy was received as rolled plate of length 1300mm (51 inches) with a rectangular cross-section, approximately 12.5 mm (0.5 inch) thickness, and 610 mm (24 inches) in width.",
+    
+    "property mapping": "AA designation: 2524\nTemper: T351\nYield strength (MPa): Listed in Table 2 as 'Yield strength (MPa)'\nTensile strength (MPa): Listed in Table 2 as 'Tensile strength (MPa)'\nElongation (%): Listed in Table 2 as 'Elongation (%)'\nChemical composition (wt.%): Listed in Table 1 for Si, Fe, Cu, Mn, Mg, Zn, Al",
+    
+    "abbreviations": "The paper doesn't contain any abbreviations related to alloy composition or properties that need expansion.",
+    
+    "weight percentage": "The weight percentages for each element are directly provided in Table 1:\nSi: 0.036 wt.%\nFe: 0.0825 wt.%\nCu: 4.315 wt.%\nMn: 0.575 wt.%\nMg: 1.395 wt.%\nZn: 0.008 wt.%\nAl: balance (remainder to make 100%)",
+    
+    "recipes": [
+        {
+            "AA": "2524",
+            "temper": "T351",
+            "YS [MPa]": 372,
+            "UTS [MPa]": 469,
+            "elong [%]": 27,
+            "Has composition": true,
+            "Cu": 4.315,
+            "Mn": 0.575,
+            "Si": 0.036,
+            "Mg": 1.395,
+            "Zn": 0.008,
+            "Fe": 0.0825
+        }
+    ]
+}
+```

@@ -1,0 +1,25 @@
+```json
+{
+    "table csv": "No table is present in the document.",
+    "extracted text": "GaGeO-JU64 was prepared under hydrothermal conditions. GeO2 (0.158 g) was dispersed in a mixture of H2O (1 mL) and 1,2-PDA (2.5 mL), and then Ga(NO3)3 (0.149 g) and Ni(CH3COO)2·4H2O (0.09 g) were added with stirring. A homogeneous gel was formed after stirring for 0.5 h. The gel was sealed in a 15 mL Teflon-lined stainless steel autoclave and heated at 180 °C for 8 days without stirring.\n\nEarlier in the paper, it mentions: 'GaGeO-JU64 was prepared by the hydrothermal reaction of a mixture of GeO2, Ga(NO3)3, Ni(CH3COO)2·4H2O, 1,2-PDA, and H2O in a molar ratio of 1.00:0.39:0.24:19.17:36.76 at 180 °C for 8 days in a Teflon-lined stainless steel autoclave. The metal complex cation [Ni(1,2-PDA)3]2+ was formed in the above reaction.'",
+    "property mapping": "Ge: from GeO2 (1.00 in molar ratio)\nGa: from Ga(NO3)3 (0.39 in molar ratio)\nH2O: from H2O (36.76 in molar ratio)\nosda_names: 1,2-PDA (1,2-diaminopropane)\nosda_ratios: 19.17 in molar ratio\ncrystallization_temperature: 180°C\ncrystallization_time: 8 days (192 hours)\nproduct_names: GaGeO-JU64",
+    "formula abbreviations": "1,2-PDA = 1,2-diaminopropane (structure directing agent)\nNi(CH3COO)2·4H2O and 1,2-PDA form [Ni(1,2-PDA)3]2+ complex cations during synthesis",
+    "ratio calculations": "The molar ratio is given directly in the paper as GeO2:Ga(NO3)3:Ni(CH3COO)2·4H2O:1,2-PDA:H2O = 1.00:0.39:0.24:19.17:36.76\n\nSince this zeolite doesn't contain Silicon, I'll set Germanium (Ge) as the reference with value 1.0:\nGe = 1.0\nGa = 0.39\nosda_ratios = 19.17\nH2O = 36.76",
+    "recipes": [
+        {
+            "Si": 0,
+            "Ge": 1.0,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 36.76,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "1,2-diaminopropane",
+            "osda_ratios": 19.17,
+            "crystallization_temperature": 180.0,
+            "crystallization_time": 192.0,
+            "product_names": "GaGeO-JU64"
+        }
+    ]
+}
+```

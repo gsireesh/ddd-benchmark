@@ -1,0 +1,65 @@
+{
+    "table csv": "There is no explicit recipe table in CSV format in the document. The synthesis information is described in text form in the Experimental section.",
+    "extracted text": "Na-AlGe-JBW: 6.23 mmol of TMAOH (2.274 g, 25 wt.% solution in water) were dissolved in 0.986 ml of deionized water. To this solution, 0.85 mmol of NaOH (0.034 g) and 2.38 mmol of GeO2 (0.249 g) were added and stirred for 10 min followed by the addition of 0.98 mmol of Al2O3 (0.1 g, Catapal, Vista). After being stirred for 6 h at room temperature (RT), the resulting gel was allowed to crystallize at 140 °C for 6 days in sealed Teflon pouches kept inside steel bombs.\n\nK-AlGe-MON: 11.47 mmol of GeO2 (1.2 g) were dissolved in 27.42 mmol of TMAOH (10 g). To this solution, 5.88 mmol of Al2O3 (0.6 g) were added and the resultant gel was stirred for 5 min. This was followed by addition of 8.55 mmol of KOH (0.48 g). The gel thus obtained was further stirred for 4 h and was allowed to crystallize at 175 °C for 5 days in a sealed Teflon pouch contained within a sealed stainless steel bomb.\n\nCs-AlGe-ANA: 11.47 mmol of GeO2 (1.2 g) were first dissolved in 46 mmol TMAOH (16.8 g). To this solution 5.88 mmol of Al2O3 (0.6 g) were added and stirred for 5 min. This was followed by addition of 12.8 mmol of CsOH (1.92 g). After stirring the resulting gel for 4 h, it was allowed to crystallize at 175 °C for 5 days in a sealed Teflon pouch contained within a sealed stainless steel bomb.\n\nRb-AlGe-Para: 11.47 mmol of GeO2 (1.2 g) were dissolved in 28 mmol of TMAOH (10.24 g). To this solution, 5.88 mmol of Al2O3 (0.6 g) were added and stirred for 5 min. This was followed by addition of 3.9 mmol of RbOH (0.4 g). The gel obtained was further stirred for 4 h and was allowed to crystallize at 175 °C for 5 days in a sealed Teflon pouch contained within a sealed stainless steel bomb.",
+    "property mapping": "- Si: Not used in these syntheses (value is 0)\n- Ge: Provided as GeO2 in mmol\n- Al: Provided as Al2O3 in mmol (note that each mole of Al2O3 provides 2 moles of Al)\n- OH: Provided from TMAOH and alkali hydroxides (NaOH, KOH, CsOH, RbOH) in mmol\n- H2O: Provided as deionized water in ml and in TMAOH solution\n- OSDA: Tetramethylammonium hydroxide (TMAOH)\n- Crystallization temperature: Provided in °C\n- Crystallization time: Provided in days (converted to hours)",
+    "formula abbreviations": "- TMAOH: Tetramethylammonium hydroxide\n- RT: Room temperature\n- JBW, MON, ANA, Para: Structure types/topologies of the zeolite-like materials",
+    "ratio calculations": "For Na-AlGe-JBW:\n- Al: 0.98 mmol Al2O3 × 2 = 1.96 mmol Al\n- Ge: 2.38 mmol\n- Si: 0 mmol\n- Si normalized to 1: Si = 0, not applicable for normalization\n- Ge normalized to Al = 1: Ge/Al = 2.38/1.96 = 1.21\n- OH from TMAOH: 6.23 mmol\n- OH from NaOH: 0.85 mmol\n- Total OH: 7.08 mmol\n- H2O: 0.986 ml + water in TMAOH solution\n\nFor K-AlGe-MON:\n- Al: 5.88 mmol Al2O3 × 2 = 11.76 mmol Al\n- Ge: 11.47 mmol\n- Si: 0 mmol\n- Si normalized to 1: Si = 0, not applicable for normalization\n- Ge normalized to Al = 1: Ge/Al = 11.47/11.76 = 0.98\n- OH from TMAOH: 27.42 mmol\n- OH from KOH: 8.55 mmol\n- Total OH: 35.97 mmol\n\nFor Cs-AlGe-ANA:\n- Al: 5.88 mmol Al2O3 × 2 = 11.76 mmol Al\n- Ge: 11.47 mmol\n- Si: 0 mmol\n- Si normalized to 1: Si = 0, not applicable for normalization\n- Ge normalized to Al = 1: Ge/Al = 11.47/11.76 = 0.98\n- OH from TMAOH: 46 mmol\n- OH from CsOH: 12.8 mmol\n- Total OH: 58.8 mmol\n\nFor Rb-AlGe-Para:\n- Al: 5.88 mmol Al2O3 × 2 = 11.76 mmol Al\n- Ge: 11.47 mmol\n- Si: 0 mmol\n- Si normalized to 1: Si = 0, not applicable for normalization\n- Ge normalized to Al = 1: Ge/Al = 11.47/11.76 = 0.98\n- OH from TMAOH: 28 mmol\n- OH from RbOH: 3.9 mmol\n- Total OH: 31.9 mmol",
+    "recipes": [
+        {
+            "Si": 0,
+            "Ge": 1.21,
+            "Al": 1.0,
+            "OH": 3.61,
+            "H2O": "",
+            "HF": 0,
+            "B": 0,
+            "osda_names": "Tetramethylammonium hydroxide",
+            "osda_ratios": 3.18,
+            "crystallization_temperature": 140.0,
+            "crystallization_time": 144.0,
+            "product_names": "Na-AlGe-JBW"
+        },
+        {
+            "Si": 0,
+            "Ge": 0.98,
+            "Al": 1.0,
+            "OH": 3.06,
+            "H2O": "",
+            "HF": 0,
+            "B": 0,
+            "osda_names": "Tetramethylammonium hydroxide",
+            "osda_ratios": 2.33,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 120.0,
+            "product_names": "K-AlGe-MON"
+        },
+        {
+            "Si": 0,
+            "Ge": 0.98,
+            "Al": 1.0,
+            "OH": 5.0,
+            "H2O": "",
+            "HF": 0,
+            "B": 0,
+            "osda_names": "Tetramethylammonium hydroxide",
+            "osda_ratios": 3.91,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 120.0,
+            "product_names": "Cs-AlGe-ANA"
+        },
+        {
+            "Si": 0,
+            "Ge": 0.98,
+            "Al": 1.0,
+            "OH": 2.71,
+            "H2O": "",
+            "HF": 0,
+            "B": 0,
+            "osda_names": "Tetramethylammonium hydroxide",
+            "osda_ratios": 2.38,
+            "crystallization_temperature": 175.0,
+            "crystallization_time": 120.0,
+            "product_names": "Rb-AlGe-Para"
+        }
+    ]
+}

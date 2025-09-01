@@ -1,0 +1,510 @@
+{
+    "table csv": "Samples,SiO2,GeO2,ROH,TMAOH,HF,H2O,Time (days),Products composition (from SEM and XRD),Crystals size (μm)\n1,0.67,0.33,0.25,0.25,0.5,7,5,ITQ-29,0.5\n2,0.67,0.33,0.25,0.25,0.5,7,5,ITQ-29, AST,1\n3,0.67,0.33,0.25,0.25,0.5,7,5,ITQ-29, amorphous,2\n4,0.67,0.33,0.25,0.25,0.5,7,5,ITQ-29,1\n5,0.67,0.33,0.25,0.25,0.5,7,5,ITQ-29, AST,1\n6,0.67,0.33,0.25,0.25,0.5,7,5,ITQ-29, AST,0.8\n7,0.67,0.33,0.25,0.25,0.5,7,3,ITQ-29 nuclei,/\n8,0.67,0.33,0.25,0.25,0.5,7,5,ITQ-29,1\n9,0.67,0.33,0.25,0.25,0.5,7,7,ITQ-29, AST,1\n10,0.67,0.33,0.25,0.25,0.5,7,10,AST,3\n11,0.67,0.33,0.25,0.25,0.5,7,7,ITQ-29, AST,1\n12,0.67,0.33,0.25,0.25,0.5,30,7,ITQ-29,7\n13,0.67,0.33,0.25,0.25,0.5,40,7,ITQ-29, amorphous,12\n14,0.67,0.33,0.25,0.25,0.5,80,7,ITQ-29, amorphous,30\n15,0.67,0.33,0,0.5,0.5,30,5,ITQ-29, AST,6\n16,0.67,0.33,0.125,0.375,0.5,30,5,ITQ-29, AST,5\n17,0.67,0.33,0.25,0.25,0.5,30,5,ITQ-29,7\n18,0.67,0.33,0.5,0,0.5,30,5,ITQ-29, non-identified phase,5\n19,0.67,0.33,0.25,0.25,0,30,5,ITQ-29,3\n20,0.67,0.33,0.25,0.25,0.25,30,5,ITQ-29,8\n21,0.67,0.33,0.25,0.25,0.5,30,5,ITQ-29,7\n22,0.67,0.33,0.25,0.25,0.75,30,5,ITQ-29,4\n23,0.67,0.33,0.25,0.25,1.0,30,5,ITQ-29,2\n24,0.67,0.33,0.25,0.25,1.25,30,5,ITQ-29,0.5\n25,1.0,0,0.25,0.25,0.5,30,5,Amorphous,/\n26,0.85,0.15,0.25,0.25,0.5,30,5,ITQ-29, Amorphous,1\n27,0.67,0.33,0.25,0.25,0.5,30,5,ITQ-29,7\n28,0.5,0.5,0.25,0.25,0.5,30,5,ITQ-29, AST,10\n29,0.25,0.75,0.25,0.25,0.5,30,5,ITQ-29, AST,20\n30,0,1,0.25,0.25,0.5,30,5,AST, non-identified phase,/\n31,1.0,0,0.25,0.25,0.5,30,5,Amorphous,/\n32,0.85,0.15,0.25,0.25,0.5,30,5,ITQ-29, Amorphous,3\n33,0.67,0.33,0.25,0.25,0.5,30,5,ITQ-29,6\n34,0.5,0.5,0.25,0.25,0.5,30,5,ITQ-29,6\n35,0.25,0.75,0.25,0.25,0.5,30,5,ITQ-29, AST,9\n36,0,1,0.25,0.25,0.5,30,5,AST, non-identified phase,/",
+    
+    "extracted text": "The synthesis was conducted at 423K (150°C). ROH refers to 4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide which was used as the structure-directing agent (SDA). TMAOH refers to tetramethylammonium hydroxide. The gels were prepared with molar compositions of (1−x)SiO2: xGeO2: yROH: (0.5−y)TMAOH: zHF: wH2O, where x was varied from 0 to 1, y from 0 to 0.5, z from 0 to 0.5, and w from 7 to 80. For Corma's standard recipe, a crystallization time of 5 days is found to be optimum for the synthesis of ITQ-29 crystals. Samples 1-6 used six independently prepared ROH batches. Samples 15 used RI (iodide form) instead of ROH. Samples 31-36 used LUDOX AS-40 colloidal silica as Si source instead of TEOS.",
+    
+    "property mapping": "- Si: From SiO2 column in the table
+- Ge: From GeO2 column in the table
+- OH: Contributed by ROH and TMAOH columns
+- H2O: From H2O column in the table
+- HF: From HF column in the table
+- osda_names: ROH = 4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, TMAOH = tetramethylammonium hydroxide
+- osda_ratios: From ROH and TMAOH columns
+- crystallization_temperature: 423K = 150°C
+- crystallization_time: From Time (days) column, converted to hours
+- product_names: From Products composition column",
+    
+    "formula abbreviations": "- ROH: 4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide (structure-directing agent)
+- TMAOH: Tetramethylammonium hydroxide
+- RI: Iodide form of ROH (used in sample 15)
+- ITQ-29: The target zeolite product (pure silica LTA structure)
+- AST: A competing zeolite phase that sometimes forms
+- TEOS: Tetraethyl orthosilicate (silicon source in most samples)
+- LUDOX AS-40: Colloidal silica (silicon source in samples 31-36)",
+    
+    "ratio calculations": "For each recipe, I'll set Si to 1.0 and adjust other components accordingly:
+- When SiO2 = 0.67 and GeO2 = 0.33: Si = 1.0, Ge = 0.33/0.67 = 0.49
+- When SiO2 = 0.85 and GeO2 = 0.15: Si = 1.0, Ge = 0.15/0.85 = 0.18
+- When SiO2 = 1.0 and GeO2 = 0: Si = 1.0, Ge = 0
+- When SiO2 = 0.5 and GeO2 = 0.5: Si = 1.0, Ge = 0.5/0.5 = 1.0
+- When SiO2 = 0.25 and GeO2 = 0.75: Si = 1.0, Ge = 0.75/0.25 = 3.0
+- When SiO2 = 0 and GeO2 = 1: Si = 0, Ge = 1.0 (special case where Si is 0)
+
+For OH, the total comes from ROH and TMAOH. The ROH and TMAOH values will be normalized relative to Si = 1.0.
+For H2O and HF, the values will also be normalized relative to Si = 1.0.",
+    
+    "recipes": [
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 10.45,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 10.45,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29, AST"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 10.45,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29, amorphous"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 10.45,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 10.45,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29, AST"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 10.45,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29, AST"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 10.45,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 72.0,
+            "product_names": "ITQ-29 nuclei"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 10.45,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 10.45,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 168.0,
+            "product_names": "ITQ-29, AST"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 10.45,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 240.0,
+            "product_names": "AST"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 10.45,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 168.0,
+            "product_names": "ITQ-29, AST"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 44.78,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 168.0,
+            "product_names": "ITQ-29"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 59.7,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 168.0,
+            "product_names": "ITQ-29, amorphous"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 119.4,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 168.0,
+            "product_names": "ITQ-29, amorphous"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 44.78,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium iodide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29, AST"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 44.78,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29, AST"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 44.78,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 44.78,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29, non-identified phase"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 44.78,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 44.78,
+            "HF": 0.37,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 44.78,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 44.78,
+            "HF": 1.12,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 44.78,
+            "HF": 1.49,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 44.78,
+            "HF": 1.87,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0,
+            "Al": 0,
+            "OH": 0.5,
+            "H2O": 30.0,
+            "HF": 0.5,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "Amorphous"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.18,
+            "Al": 0,
+            "OH": 0.59,
+            "H2O": 35.29,
+            "HF": 0.59,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.59,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29, Amorphous"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 44.78,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0,
+            "OH": 1.0,
+            "H2O": 60.0,
+            "HF": 1.0,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 1.0,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29, AST"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 3.0,
+            "Al": 0,
+            "OH": 2.0,
+            "H2O": 120.0,
+            "HF": 2.0,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 2.0,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29, AST"
+        },
+        {
+            "Si": 0,
+            "Ge": 1.0,
+            "Al": 0,
+            "OH": 0.5,
+            "H2O": 30.0,
+            "HF": 0.5,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "AST, non-identified phase"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0,
+            "Al": 0,
+            "OH": 0.5,
+            "H2O": 30.0,
+            "HF": 0.5,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.5,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "Amorphous"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.18,
+            "Al": 0,
+            "OH": 0.59,
+            "H2O": 35.29,
+            "HF": 0.59,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.59,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29, Amorphous"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 0.49,
+            "Al": 0,
+            "OH": 0.75,
+            "H2O": 44.78,
+            "HF": 0.75,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H,5H-pyrido[3.2.1-ij] quinolinium hydroxide, tetramethylammonium hydroxide",
+            "osda_ratios": 0.75,
+            "crystallization_temperature": 150.0,
+            "crystallization_time": 120.0,
+            "product_names": "ITQ-29"
+        },
+        {
+            "Si": 1.0,
+            "Ge": 1.0,
+            "Al": 0,
+            "OH": 1.0,
+            "H2O": 60.0,
+            "HF": 1.0,
+            "B": 0,
+            "osda_names": "4-Methyl-2,3,6,7-tetrahydro-1H"
+        }
+    ]
+}

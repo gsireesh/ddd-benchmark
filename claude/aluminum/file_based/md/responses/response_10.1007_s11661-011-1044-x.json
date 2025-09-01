@@ -1,0 +1,25 @@
+{
+    "table csv": "Table I. Chemical Composition (Weight Percent) of 7050-T7451 Used in this Study\n\nZn,Cu,Mg,Fe,Si,Mn,Zr,Ti,Al\n5.7 to 6.7,2.0 to 2.6,1.9 to 2.6,0.15,0.12,0.1,0.08 to 0.05,0.06,balanced\n\nTable II. Tensile Property of 7050-T7451 Used in this Study\n\nYield Strength (MPa),Ultimate Tensile Strength (MPa),Tensile Elongation (pct)\n427,496,9",
+    "extracted text": "The study focuses on the S-N fatigue behavior of anodized 7050-T7451 aluminum alloy produced in different electrolytes (chromic acid, sulfuric acid, and tartaric acid). The alloy was supplied as a 100-mm-thick plate from Korea Aerospace Industry, Ltd. Figure 1 shows that the 7050-T7451 has a partially recrystallized microstructure with fine, equiaxed grains in large grains.",
+    "property mapping": "AA: 7050\ntemper: T7451\nYS [MPa]: 427 MPa (Table II)\nUTS [MPa]: 496 MPa (Table II)\nelong [%]: 9% (Table II, listed as 'Tensile Elongation (pct)')",
+    "abbreviations": "CAA: Chromic Acid Anodizing\nSAA: Sulfuric Acid Anodizing\nTAA: Tartaric Acid Anodizing\nBA: As-received (bare) specimens\npct: percent",
+    "weight percentage": "From Table I:\nZn: mean of 5.7 to 6.7 = 6.2%\nCu: mean of 2.0 to 2.6 = 2.3%\nMg: mean of 1.9 to 2.6 = 2.25%\nFe: 0.15%\nSi: 0.12%\nMn: 0.1%\nZr: mean of 0.08 to 0.05 = 0.065%\nTi: 0.06%\nAl: balance",
+    "recipes": [
+        {
+            "AA": "7050",
+            "temper": "T7451",
+            "YS [MPa]": 427.0,
+            "UTS [MPa]": 496.0,
+            "elong [%]": 9.0,
+            "Has composition": true,
+            "Cu": 2.3,
+            "Mg": 2.25,
+            "Zn": 6.2,
+            "Fe": 0.15,
+            "Si": 0.12,
+            "Mn": 0.1,
+            "Zr": 0.065,
+            "Ti": 0.06
+        }
+    ]
+}

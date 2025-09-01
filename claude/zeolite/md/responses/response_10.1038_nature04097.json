@@ -1,0 +1,39 @@
+```json
+{
+    "table csv": "",
+    "extracted text": "Both SU-M and SU-MB were synthesized under hydrothermal conditions from a homogenous solution of germanium dioxide, MPMD (2-methylpentamethylenediamine) and water with the molar ratios of 1:8-10:38-40. In addition, hydrofluoric acid with a molar ratio of GeO2:HF = 1:1.5 was added for the synthesis of SU-MB. The solutions were heated at 165°C in Teflon-lined Parr autoclaves under autogenous pressure and the synthesis time was seven days for SU-M and 11 days for SU-MB.",
+    "property mapping": "GeO2 -> Ge\nMPMD -> osda_names (2-methylpentamethylenediamine) and osda_ratios\nH2O -> H2O\nHF -> HF\n165°C -> crystallization_temperature\n7 days for SU-M -> crystallization_time\n11 days for SU-MB -> crystallization_time",
+    "formula abbreviations": "MPMD stands for 2-methylpentamethylenediamine, which is the structure directing agent (OSDA) used in the synthesis.",
+    "ratio calculations": "For SU-M:\nGe = 1.0 (reference)\nOSDA (MPMD) = 8-10 → mean = 9.0\nH2O = 38-40 → mean = 39.0\nHF = 0\n\nFor SU-MB:\nGe = 1.0 (reference)\nOSDA (MPMD) = 8-10 → mean = 9.0\nH2O = 38-40 → mean = 39.0\nHF = 1.5",
+    "recipes": [
+        {
+            "Si": 0,
+            "Ge": 1.0,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 39.0,
+            "HF": 0,
+            "B": 0,
+            "osda_names": "2-methylpentamethylenediamine",
+            "osda_ratios": 9.0,
+            "crystallization_temperature": 165.0,
+            "crystallization_time": 168.0,
+            "product_names": "SU-M"
+        },
+        {
+            "Si": 0,
+            "Ge": 1.0,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 39.0,
+            "HF": 1.5,
+            "B": 0,
+            "osda_names": "2-methylpentamethylenediamine",
+            "osda_ratios": 9.0,
+            "crystallization_temperature": 165.0,
+            "crystallization_time": 264.0,
+            "product_names": "SU-MB"
+        }
+    ]
+}
+```

@@ -1,0 +1,30 @@
+{
+    "table csv": "Table 1: Mechanical and physical properties of 7075 T73 and annealed aluminum alloy.\n\n,Density (kg/m3),Tensile strength (MPa),Yield strength (MPa),Elastic modulus (GPa),Elongation rate (%),Thermal conductivity (W/(m k)),Heat capacity (J/kg K)\nT73 alloy,2810,503,434,71,17,155,960\nAnnealed alloy,2810,228,103,71,11,130,960",
+    
+    "extracted text": "The paper discusses the self-organization behaviors of shear bands in 7075 aluminum alloy with two different heat treatments: T73 and annealed. For the T73 condition, the specimen was solution treated at 465-475°C/3h, quenched by water, aged at 115°C/8h and then at 175°C/8h. For the annealed condition, the specimen was heated at 410°C/1h and cooled to 230°C at a rate less than 25°C/h, then held at 230°C/6h and finally cooled to room temperature in air.",
+    
+    "property mapping": "- 'Tensile strength (MPa)' corresponds to 'UTS [MPa]'\n- 'Yield strength (MPa)' corresponds to 'YS [MPa]'\n- 'Elongation rate (%)' corresponds to 'elong [%]'\n- 'T73' and 'annealed' correspond to 'temper'",
+    
+    "abbreviations": "T73: A heat treatment designation involving solution treatment, water quenching and two-step aging.\nTWC: Thick-walled cylinder technique used in the experiments.\nASB: Adiabatic shear bands, which are the focus of the study.",
+    
+    "weight percentage": "No specific weight percentage of elements is provided for the 7075 aluminum alloy in this document.",
+    
+    "recipes": [
+        {
+            "AA": "7075",
+            "temper": "T73",
+            "YS [MPa]": 434.0,
+            "UTS [MPa]": 503.0,
+            "elong [%]": 17.0,
+            "Has composition": "nominal"
+        },
+        {
+            "AA": "7075",
+            "temper": "annealed",
+            "YS [MPa]": 103.0,
+            "UTS [MPa]": 228.0,
+            "elong [%]": 11.0,
+            "Has composition": "nominal"
+        }
+    ]
+}

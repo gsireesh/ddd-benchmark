@@ -1,0 +1,24 @@
+```json
+{
+    "table csv": "Chemical compositions (wt.%),,,,,,,Mechanical properties,\nAl,Zn,Mg,Cu,Mn,Fe,Cr,Tensile strength (MPa),Elongation (%)\nBal.,5.75,2.51,1.68,0.26,0.20,0.15,486,11",
+    "extracted text": "A 2-mm-thick 7B04-T74 aluminum alloy was used for both the upper and lower sheets of lap joints.",
+    "property mapping": "Tensile strength (MPa) -> UTS [MPa], Elongation (%) -> elong [%]",
+    "abbreviations": "Bal. stands for Balance, meaning the remainder of the composition is aluminum.",
+    "weight percentage": "The weight percentages are already provided in the table: Zn: 5.75%, Mg: 2.51%, Cu: 1.68%, Mn: 0.26%, Fe: 0.20%, Cr: 0.15%, Al: Balance (remainder)",
+    "recipes": [
+        {
+            "AA": "7B04",
+            "temper": "T74",
+            "UTS [MPa]": 486.0,
+            "elong [%]": 11.0,
+            "Has composition": true,
+            "Zn": 5.75,
+            "Mg": 2.51,
+            "Cu": 1.68,
+            "Mn": 0.26,
+            "Fe": 0.20,
+            "Cr": 0.15
+        }
+    ]
+}
+```

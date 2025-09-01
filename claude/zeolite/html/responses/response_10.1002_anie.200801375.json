@@ -1,0 +1,25 @@
+```json
+{
+    "table csv": "GeO2/H2O/pyridine/2-methylpiperazine/HF in a molar ratio of 1:58.6:43.2:4.7:1.6",
+    "extracted text": "JLG-5 was synthesized under hydro(solvo)thermal conditions with pyridine and H2O as the solvents. Typically, GeO2 (0.156 g) was dispersed in a mixture of H2O (1.5 mL) and pyridine (5 mL) with constant stirring. Then, 2-methylpiperazine (0.7 g) and HF (40 wt%, 0.12 mL) were added to this mixture. A homogeneous gel with a composition of GeO2/H2O/pyridine/2-methylpiperazine/HF in a molar ratio of 1:58.6:43.2:4.7:1.6 was formed after stirring for about 2 h. The gel was finally transferred to a 15-mL teflon-lined stainless-steel autoclave and heated at 160 °C for 5-6 days under static conditions. JLG-5 could be prepared in the composition range of (0.7-1.3)GeO2:58.6H2O:43.2pyridine:(4-5.3)2-methylpiperazine:1.6HF.",
+    "property mapping": "GeO2 → Ge, H2O → H2O, pyridine → not in property list, 2-methylpiperazine → osda_names, HF → HF, 160 °C → crystallization_temperature, 5-6 days → crystallization_time, JLG-5 → product_names",
+    "formula abbreviations": "No abbreviations were used in the recipe.",
+    "ratio calculations": "Since there is no Si in this recipe, we will use Ge as the reference (Ge = 1.0).\nGe = 1.0\nH2O = 58.6\nHF = 1.6\nosda_ratios (2-methylpiperazine) = 4.7 (for the typical recipe)\nosda_ratios range = 4.0-5.3 (from the composition range)\nAverage crystallization_time = (5+6)/2 = 5.5 days = 132 hours",
+    "recipes": [
+        {
+            "Si": 0,
+            "Ge": 1.0,
+            "Al": 0,
+            "OH": 0,
+            "H2O": 58.6,
+            "HF": 1.6,
+            "B": 0,
+            "osda_names": "2-methylpiperazine",
+            "osda_ratios": 4.7,
+            "crystallization_temperature": 160.0,
+            "crystallization_time": 132.0,
+            "product_names": "JLG-5"
+        }
+    ]
+}
+```

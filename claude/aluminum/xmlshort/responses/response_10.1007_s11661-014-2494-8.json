@@ -1,0 +1,33 @@
+{
+    "table csv": "Table I Chemical Composition of Cast A356 Alloy\nElement,Si,Mg,Fe,Ti,Al\nWeight Percentage,6.93,0.43,0.09,0.12,bal.\n\nTable II Tensile Properties of Cast A356 Alloy\nCondition,YS (MPa),UTS (MPa),UEL (Percent),El (Percent)\nAs-cast,81,162,1.5,1.8\nT6 (540 °C/4 h, 165 °C/5 h),241,273,0.9,1.1",
+    "extracted text": "The paper discusses friction stir processing (FSP) applied to modify the microstructure of an as-cast A356 alloy. The high strength of the A356 alloy is mainly derived from the precipitation hardening of fine Mg2Si phases, which is dependent on heat treatment conditions. For T6 treatment, the alloy was solution treated at 540°C for 4 hours followed by artificial aging at 165°C for 5 hours. After FSP, some samples received an artificial aging at 438 K (165°C) for 5 hours.",
+    "property mapping": "AA: A356 (aluminum alloy designation)\nTemper: As-cast and T6 (540°C/4h, 165°C/5h)\nYS (MPa): Yield Strength (MPa)\nUTS (MPa): Ultimate Tensile Strength (MPa)\nUEL (Percent): Uniform Elongation Percentage\nEl (Percent): Total Elongation Percentage\nSi: Silicon content in weight percentage\nMg: Magnesium content in weight percentage\nFe: Iron content in weight percentage\nTi: Titanium content in weight percentage",
+    "abbreviations": "FSP: Friction Stir Processing\nYS: Yield Strength\nUTS: Ultimate Tensile Strength\nUEL: Uniform Elongation\nEL: Elongation\nBM: Base Material\nSZ: Stirred Zone",
+    "weight percentage": "Si: 6.93%\nMg: 0.43%\nFe: 0.09%\nTi: 0.12%\nAl: Balance (remainder to 100%)",
+    "recipes": [
+        {
+            "AA": "A356",
+            "temper": "As-cast",
+            "YS [MPa]": 81.0,
+            "UTS [MPa]": 162.0,
+            "elong [%]": 1.8,
+            "Has composition": true,
+            "Si": 6.93,
+            "Mg": 0.43,
+            "Fe": 0.09,
+            "Ti": 0.12
+        },
+        {
+            "AA": "A356",
+            "temper": "T6",
+            "YS [MPa]": 241.0,
+            "UTS [MPa]": 273.0,
+            "elong [%]": 1.1,
+            "Has composition": true,
+            "Si": 6.93,
+            "Mg": 0.43,
+            "Fe": 0.09,
+            "Ti": 0.12
+        }
+    ]
+}

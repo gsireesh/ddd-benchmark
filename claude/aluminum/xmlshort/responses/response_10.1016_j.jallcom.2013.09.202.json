@@ -1,0 +1,71 @@
+```json
+{
+    "table csv": "Sample,Process,YS (MPa),UTS(MPa),Elongation to failure (%),Strain hardening component (n)\nS,Solution + water quench,185,393,18.5,0.281\nT4,WQ + natural aging (72 h),385,552,11.8,0.192\nT6,WQ + aging (100 °C,25 h),414,578,15.8,0.181\nT8,As-received material,485,574,11.9,0.117\nSE,WQ + 1pass ECAP + Natural aging (72 h),575,608,7.5,0.053\nSEA70,WQ + 1pass ECAP + Aging (70 °C,70 h),595,647,7.8,0.069\nSEA100,WQ + 1pass ECAP + Aging (100 °C,25 h),610,670,7.7,0.069",
+    "extracted text": "The paper studies 2024 aluminum alloy with chemical composition of Al–4.2Cu–1.26Mg–0.63Mn–0.42Fe–0.29Si (in wt.%). The material was initially in T8 condition (as-received). Different processing conditions were applied: solution treatment (S), natural aging (T4), artificial aging at 100°C (T6), and combinations of Equal Channel Angular Pressing (ECAP) with natural aging (SE) or artificial aging at different temperatures (SEA70, SEA100). Hardness measurements show that the mean micro-hardness of the solution sample increased from 85 Hv1 to 170 Hv1 after one pass of ECAP. After aging at 100°C for 25h (SEA100), hardness reached 212 Hv1.",
+    "property mapping": "AA: 2024 (appears throughout the document)\ntemper: T8 (as-received material), also examines S (solution treated), T4 (naturally aged), T6 (artificially aged), and custom treatments (SE, SEA70, SEA100)\nYS [MPa]: 'YS (MPa)' in Table 2\nUTS [MPa]: 'UTS(MPa)' in Table 2\nelong [%]: 'Elongation to failure (%)' in Table 2\nHardness: given in Hv1 units, values mentioned in text (85 Hv1 for solution treated, 170 Hv1 after ECAP, 212 Hv1 for SEA100)",
+    "abbreviations": "S: Solution treated and water quenched\nT4: Water quenched + natural aging (72 h)\nT6: Water quenched + aging (100 °C, 25 h)\nT8: As-received material\nSE: Water quenched + 1 pass ECAP + Natural aging (72 h)\nSEA70: Water quenched + 1 pass ECAP + Aging (70 °C, 70 h)\nSEA100: Water quenched + 1 pass ECAP + Aging (100 °C, 25 h)\nWQ: Water quenched\nECAP: Equal Channel Angular Pressing",
+    "weight percentage": "Cu: 4.2%\nMg: 1.26%\nMn: 0.63%\nFe: 0.42%\nSi: 0.29%\nAl: balance (remainder)",
+    "recipes": [
+        {
+            "AA": "2024",
+            "temper": "T8",
+            "YS [MPa]": 485.0,
+            "UTS [MPa]": 574.0,
+            "elong [%]": 11.9,
+            "Hardness": 150.0,
+            "Hardness UNIT": "Hv1",
+            "Has composition": true,
+            "Cu": 4.2,
+            "Mg": 1.26,
+            "Mn": 0.63,
+            "Fe": 0.42,
+            "Si": 0.29
+        },
+        {
+            "AA": "2024",
+            "temper": "S",
+            "YS [MPa]": 185.0,
+            "UTS [MPa]": 393.0,
+            "elong [%]": 18.5,
+            "Hardness": 85.0,
+            "Hardness UNIT": "Hv1",
+            "Has composition": true,
+            "Cu": 4.2,
+            "Mg": 1.26,
+            "Mn": 0.63,
+            "Fe": 0.42,
+            "Si": 0.29
+        },
+        {
+            "AA": "2024",
+            "temper": "T4",
+            "YS [MPa]": 385.0,
+            "UTS [MPa]": 552.0,
+            "elong [%]": 11.8,
+            "Hardness": 150.0,
+            "Hardness UNIT": "Hv1",
+            "Has composition": true,
+            "Cu": 4.2,
+            "Mg": 1.26,
+            "Mn": 0.63,
+            "Fe": 0.42,
+            "Si": 0.29
+        },
+        {
+            "AA": "2024",
+            "temper": "T6",
+            "YS [MPa]": 414.0,
+            "UTS [MPa]": 578.0,
+            "elong [%]": 15.8,
+            "Hardness": 150.0,
+            "Hardness UNIT": "Hv1",
+            "Has composition": true,
+            "Cu": 4.2,
+            "Mg": 1.26,
+            "Mn": 0.63,
+            "Fe": 0.42,
+            "Si": 0.29
+        }
+    ]
+}
+```
